@@ -1,0 +1,49 @@
+* Unapplied buffered NTC proposal. Typical25C; supply lower-bound stress.
+.include "[original source path]/MCP6001-original.lib"
+.include "[original source path]/OPAx323-prefixed.lib"
+.include "[original source path]/OPAx320-prefixed.lib"
+VDD vdd 0 3.111665494505495
+VEXC vex 0 2.55
+VBIAS vmid 0 1.275
+RPU vex ntc 10k
+RNTC ntc 0 5827
+CFILT ntc 0 100n
+XBUF ntc raw vdd 0 raw MCP6001
+RBUF raw buffered 100
+VOLD old 0 0.025
+VSEL select 0 PULSE(0 1 10u 1n 1n 1m 2m)
+BSELECT selected 0 V=V(old)*(1-V(select))+V(buffered)*V(select)
+* The controlled selector duplicates the buffered voltage. This resistor+cap
+* path also loads the real buffer for conservative continuous mux loading.
+RLOAD buffered bufload 2000
+CLOAD bufload 0 160p
+IBUFLOAD bufload 0 DC 8e-06
+RM1 selected bankin 2000
+CM1 bankin 0 160p
+ILEAK bankin 0 DC 8e-06
+XBANK bankin bankout vdd 0 bankout opa323_OPAx323
+RM2 bankout driverin 2000
+CM2 driverin 0 80p
+XDRV driverin driverout vdd 0 driverout opa320_OPAx320
+XNEG vmid negout vdd 0 negout opa320_OPAx320
+RISO driverout adcplus 22
+CBUCKET adcplus 0 1n
+RNEGIS negout adcminus 22
+CNEGBUCKET adcminus 0 1n
+RSAMPLEP adcplus sampleplus 200
+CSAMPLEP sampleplus 0 31p
+RSAMPLEN adcminus sampleminus 200
+CSAMPLEN sampleminus 0 31p
+.temp 25
+.options method=trap reltol=1e-4 abstol=1e-10 gmin=1e-12 itl1=500 itl4=100
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 2n 80u 0 2n
+let actual_simulation_end=time[length(time)-1]
+print actual_simulation_end
+wrdata waveform.dat v(ntc) v(raw) v(buffered) v(adcplus) v(adcminus) v(sampleplus) v(sampleminus)
+quit
+.endc
+.end

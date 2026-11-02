@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "components": 561,
+  "nets": 383,
+  "connected_pins": 1806,
+  "intentional_nc_pins": 39,
+  "mismatches": [],
+  "method": "Independent KiCad XML vs canonical numbered physical pins; intentional NC endpoints checked separately."
+}

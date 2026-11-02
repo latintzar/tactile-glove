@@ -1,0 +1,10 @@
+{
+  "canonical_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "reference_map_sha256": "cc9063d243bfa466966053f09a02b36c783c1cfeb3494130c432bda644fe5ee8",
+  "bom_sha256": "24cb7d8dd872d6fb6133482fcc949949b213d1aaca6eb42dcff41c7da386fa5c",
+  "fitted_components": 561,
+  "mpn_footprint_groups": 112,
+  "board_sha256": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+  "status": "Component availability and engineering quotation; routing unfinished; fabrication release withheld",
+  "stock_is_dated_observation": true
+}

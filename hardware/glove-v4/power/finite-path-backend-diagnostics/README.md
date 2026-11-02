@@ -1,0 +1,7 @@
+# Finite-source converter backend check
+
+Two additional solver-only diagnostics retain the finite-source circuit and original TI macro. Increased source/gmin stepping and iteration limits still stop at120.351µs despite ngspice returning0. A separate1TΩ rshunt case reaches its85s execution bound without a validated endpoint. Both remain failures of this numerical verification path; `results.json` records the retained deck/log hashes. The native logs are compressed beside their decks.
+
+The vendor file explicitly names PSpice16.2.0.p001 as its simulator, final model1.00,22July2016. It excludes temperature, operating-current and shutdown-current modeling. The next numerical check is the unchanged finite-source circuit in that supported simulator family. A generic TINA-TI download or an imported LTspice model would require its own compatibility evidence; neither has been run here. The static copper/energy calculations retain their stated scope.
+
+The experiments used `/tmp/glove-eda-runtime/usr/bin/ngspice -b exp1.cir` (or `exp2.cir`) from the corresponding deck directory, with `SPICE_SCRIPTS` pointing to the existing XSPICE initialization and an85s timeout. Reproduction from these folders should name `circuit.cir`; vendor includes bind to the recorded repository path. The native solver endpoint/error result is decisive, rather than a successful shell exit. These runs do not establish physical circuit failure or a regulated finite-source pass.

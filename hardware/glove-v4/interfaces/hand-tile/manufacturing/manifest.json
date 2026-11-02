@@ -1,0 +1,98 @@
+{
+  "board_sha256": "7a430597c698034715d3dd2b5840194ce8b72b97c0449d55b8093304b4603490",
+  "board_mm": [
+    16,
+    16,
+    0.8
+  ],
+  "layers": 2,
+  "finish": "ENIG",
+  "copper_oz": 1,
+  "minimum_track_clearance_mm": 0.15,
+  "via_drill_mm": 0.3,
+  "drill_count": 3,
+  "via_process": "ordinary plated through vias; no via-in-pad required",
+  "placement_coordinates": "Absolute KiCad Gerber origin; y is inverted in both Gerbers and CPL; all assembly top-side. Supplier review confirms zero-rotation orientation against pin1 assembly drawing.",
+  "files": [
+    {
+      "path": "bom.csv",
+      "bytes": 716,
+      "sha256": "5869c0fa801faf2a50f9b72701002791d631e49ed32978f2b91583735880225a"
+    },
+    {
+      "path": "cpl.csv",
+      "bytes": 250,
+      "sha256": "1c6958e438df9cb7ff26dc2111b6db5247cd886e2b029854a24ff9639c9bd360"
+    },
+    {
+      "path": "drill/hand-tile-routed-NPTH-drl_map.pdf",
+      "bytes": 2491,
+      "sha256": "4185da4699c8ade7aba944d82adad52dc439fbd8fabeb1c5a89ce2d0593ae0cd"
+    },
+    {
+      "path": "drill/hand-tile-routed-NPTH.drl",
+      "bytes": 297,
+      "sha256": "6b5821219bf4b5edcfab274f500fa3d21df476b4861da7922fc2c440ae588569"
+    },
+    {
+      "path": "drill/hand-tile-routed-PTH-drl_map.pdf",
+      "bytes": 4513,
+      "sha256": "cecb892fa5a624dce87d42189eefcf03aa398e1e278e9d0866472d19862785fe"
+    },
+    {
+      "path": "drill/hand-tile-routed-PTH.drl",
+      "bytes": 384,
+      "sha256": "fa05c6048dd3936043dd207720c7dffd2102b8713e8e4656d029360478158d41"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-B_Cu.gbl",
+      "bytes": 1275,
+      "sha256": "3bc1ba32a187f0a7bab8cae588a98c5d0bafaa060c0c2949bcd809a427df86e6"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-B_Mask.gbs",
+      "bytes": 492,
+      "sha256": "a76c179188f0a8a0de2d74663594193b378dfafc538981fd3803510078cce9eb"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-B_Paste.gbp",
+      "bytes": 487,
+      "sha256": "5a96bf4e03929117a570ede8652fe77d27b4ff1d49ddc8c6e259af432f34d3de"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-B_Silkscreen.gbo",
+      "bytes": 3117,
+      "sha256": "c171ba8e0f203e9255fcf80bfc79e83e4fd86eda80eeec006f59e87a594de916"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-Edge_Cuts.gm1",
+      "bytes": 833,
+      "sha256": "6fe74d37fbad46c3e4e835b54844555094295ee58c77d364834d03a700c57f3f"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-F_Cu.gtl",
+      "bytes": 10629,
+      "sha256": "671c5434e2539606f4169224ba21bfee05b8c17fe912798ae6ab0495e598d773"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-F_Mask.gts",
+      "bytes": 5454,
+      "sha256": "06b062bfadb539ac302678bc3fdbca4b92db249529a6f58bb7eed67bd322ca0a"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-F_Paste.gtp",
+      "bytes": 5449,
+      "sha256": "49ddce061e15d60ba497ccab516ef2779d6f5705bb3fbf406a2597dbf222dbfc"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-F_Silkscreen.gto",
+      "bytes": 837,
+      "sha256": "b110cb24bbe3631f1a69c267d8a86432728e15be9c6bbaa0e46a25575312f673"
+    },
+    {
+      "path": "gerbers/hand-tile-routed-job.gbrjob",
+      "bytes": 2660,
+      "sha256": "31ea7654d418fc4330d13e76ca7caf3355b8bee7c37711622d27b1af0c1a8a1e"
+    }
+  ]
+}

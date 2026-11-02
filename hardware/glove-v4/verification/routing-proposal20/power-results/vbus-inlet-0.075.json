@@ -1,0 +1,53 @@
+{
+  "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+  "configuration": {
+    "net": "USB_VBUS",
+    "layer": "POWER_B",
+    "sources": [
+      [
+        92.015,
+        51.55
+      ],
+      [
+        92.015,
+        56.45
+      ]
+    ],
+    "loads": [
+      [
+        87.3,
+        58.6
+      ]
+    ],
+    "source_radius_mm": 0.3,
+    "load_radius_mm": 0.3
+  },
+  "method": "2D four-neighbour resistive sheet on the largest filled main-rail polygon; excludes parallel copper and vias, so estimates only this plane contribution. Not a thermal or AC model. Coarse raster must converge before use.",
+  "grid_mm": 0.075,
+  "widest_interior_corridor_mm": 0.95703125,
+  "corridor_terminal_exclusion_radius_mm": 1.5,
+  "nodes": 19725,
+  "solver_info": 0,
+  "elapsed_s": 0.04750075098127127,
+  "equivalent_squares": 2.214072925770664,
+  "residual_l2": 4.909427812032074e-14,
+  "rho_at50C_ohm_m": 1.9272596000000003e-08,
+  "resistance_at15um_ohm": 0.0028447288675277336,
+  "resistance_at30um_ohm": 0.0014223644337638668,
+  "unit_current_mesh_edges": {
+    "maximum_interior_edge_fraction": 0.08410109930940068,
+    "maximum_interior_edge_xy_mm": [
+      [
+        88.69999999999995,
+        57.499999999999964
+      ],
+      [
+        88.69999999999995,
+        57.57499999999997
+      ]
+    ],
+    "maximum_all_edges_fraction": 0.08410109930940068,
+    "current_density_at1p35A_24um_A_per_mm2": 63.07582448205052,
+    "note": "Single finite-volume edge current; check convergence and terminal exclusions. This is not temperature rise or a long-trace width equivalence."
+  }
+}

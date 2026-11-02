@@ -1,0 +1,19 @@
+{
+  "source": "STMicroelectronics DS13012 Rev7, November2020",
+  "primary_url": "https://www.st.com/resource/en/datasheet/ism330dhcx.pdf",
+  "download_mirror": "https://www.electrokit.com/upload/quick/93/9f/5dbe_41036015-tds.pdf",
+  "sha256": "4ebd304610da62f31775389ee3ce1a98f596b1331114959e9e052b3f602de8fa",
+  "inspected_pages": [
+    7,
+    9,
+    13,
+    15,
+    34,
+    146
+  ],
+  "footprint": {
+    "source": "https://github.com/KiCad/kicad-footprints/blob/master/Package_LGA.pretty/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.kicad_mod",
+    "sha256": "51683264ee2644cf8114a404ddf26d373e9538eeff156befbcb3c595a01e6c9b",
+    "geometry_match": "ST figure24: body3.00x2.50mm;14pads;0.5mm pitch;pin1upper-left in top view. KiCad land extensions retain the manufacturer terminal centres."
+  }
+}

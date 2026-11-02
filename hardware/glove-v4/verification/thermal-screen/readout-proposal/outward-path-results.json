@@ -1,0 +1,726 @@
+{
+  "status": "unapplied conductance target; no designed/validated heat spreader",
+  "script_sha256": "7f3659816d0dabf40d76e1b0aafe40fad373703abe74680401c65f02f2470e4c",
+  "screen_sha256": "66255e6328f2dfeb758374094790ad5a15f15430d2f97347edc05f7f9e9212dd",
+  "thermal_results_sha256": "359ea2f0bcbd3ec5345397493082079e3b1dd04c6231de22aa3bc3e1d4290fc4",
+  "extra_path": "electronics_mean to exposed_shell_mean only, no direct battery or base bridge",
+  "cases": [
+    {
+      "additional_conductance_W_K": 0,
+      "additional_path_R_K_W": null,
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          54.97392275324118,
+          78.18379622065467
+        ],
+        "pack_mean": [
+          41.99458440082173,
+          57.4027558333815
+        ],
+        "exposed_shell_mean": [
+          30.37467280872471,
+          36.24095384664936
+        ],
+        "wrist_facing_base_mean": [
+          41.25836220308756,
+          49.98270245517739
+        ],
+        "internal_air_mean": [
+          40.069798116224256,
+          50.6435604883149
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0,
+      "additional_path_R_K_W": null,
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          61.52773907261005,
+          83.20850328042576
+        ],
+        "pack_mean": [
+          48.025501692843676,
+          62.205206530703435
+        ],
+        "exposed_shell_mean": [
+          39.69460853748976,
+          44.54128592500126
+        ],
+        "wrist_facing_base_mean": [
+          45.70334662567354,
+          52.867002477227096
+        ],
+        "internal_air_mean": [
+          47.497863752688474,
+          57.09319222710608
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0,
+      "additional_path_R_K_W": null,
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          64.84905968445722,
+          85.78070172679402
+        ],
+        "pack_mean": [
+          51.10653493562911,
+          64.68325101307289
+        ],
+        "exposed_shell_mean": [
+          44.36287403233639,
+          48.73298442060349
+        ],
+        "wrist_facing_base_mean": [
+          47.97271925956308,
+          54.387242176034846
+        ],
+        "internal_air_mean": [
+          51.246375372488636,
+          60.36227281384236
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0,
+      "additional_path_R_K_W": null,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          58.1900219148124,
+          93.42907814095149
+        ],
+        "pack_mean": [
+          43.47042500783526,
+          65.47282366674285
+        ],
+        "exposed_shell_mean": [
+          30.980065280328937,
+          39.6390783864071
+        ],
+        "wrist_facing_base_mean": [
+          42.60396261823509,
+          56.02581194139155
+        ],
+        "internal_air_mean": [
+          41.58984476167661,
+          57.83294906241977
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0,
+      "additional_path_R_K_W": null,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          64.64603857783835,
+          98.07432693304278
+        ],
+        "pack_mean": [
+          49.47547123645745,
+          70.12499184089796
+        ],
+        "exposed_shell_mean": [
+          40.27804850664992,
+          47.789658191714686
+        ],
+        "wrist_facing_base_mean": [
+          47.03731829234085,
+          58.86167145501331
+        ],
+        "internal_air_mean": [
+          48.9764556618076,
+          64.08869917557718
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0,
+      "additional_path_R_K_W": null,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          67.91887724787527,
+          100.45631508696029
+        ],
+        "pack_mean": [
+          52.543266225700194,
+          72.52648491841248
+        ],
+        "exposed_shell_mean": [
+          44.93548651508149,
+          51.908101948194485
+        ],
+        "wrist_facing_base_mean": [
+          49.300690173002664,
+          60.33141714230399
+        ],
+        "internal_air_mean": [
+          52.70433350402963,
+          67.26155832949777
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.1,
+      "additional_path_R_K_W": 10.0,
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          45.52930191985025,
+          55.55747057260054
+        ],
+        "pack_mean": [
+          38.1537668622365,
+          47.60333252185407
+        ],
+        "exposed_shell_mean": [
+          31.62521525376514,
+          37.152643071065555
+        ],
+        "wrist_facing_base_mean": [
+          37.68196164036606,
+          42.497683320353225
+        ],
+        "internal_air_mean": [
+          36.947174686910216,
+          43.64057963190095
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.1,
+      "additional_path_R_K_W": 10.0,
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          53.236701285497105,
+          62.794500260284735
+        ],
+        "pack_mean": [
+          44.60312485581665,
+          53.279140704942236
+        ],
+        "exposed_shell_mean": [
+          40.699028669755585,
+          45.48717710065449
+        ],
+        "wrist_facing_base_mean": [
+          42.044863054292115,
+          46.67705178775568
+        ],
+        "internal_air_mean": [
+          44.73602751927379,
+          50.71760373947171
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.1,
+      "additional_path_R_K_W": 10.0,
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          57.109498774922834,
+          66.44057950177917
+        ],
+        "pack_mean": [
+          47.66220745231527,
+          56.18676529602975
+        ],
+        "exposed_shell_mean": [
+          45.2370132581234,
+          49.77758221357331
+        ],
+        "wrist_facing_base_mean": [
+          43.81848020077804,
+          48.836627749658966
+        ],
+        "internal_air_mean": [
+          48.658487150799566,
+          54.29473923134011
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.1,
+      "additional_path_R_K_W": 10.0,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          47.81942988184238,
+          65.3587437593263
+        ],
+        "pack_mean": [
+          39.211837218307785,
+          52.90796790172561
+        ],
+        "exposed_shell_mean": [
+          32.35616448432541,
+          40.8638610433158
+        ],
+        "wrist_facing_base_mean": [
+          38.56422886430947,
+          46.49802892117579
+        ],
+        "internal_air_mean": [
+          38.151878280068395,
+          49.063889336965076
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.1,
+      "additional_path_R_K_W": 10.0,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          55.467212547916084,
+          72.32850500640863
+        ],
+        "pack_mean": [
+          45.63869844682382,
+          58.50189059427087
+        ],
+        "exposed_shell_mean": [
+          41.39701413983124,
+          49.040048113822664
+        ],
+        "wrist_facing_base_mean": [
+          42.92505156761647,
+          50.65979210833663
+        ],
+        "internal_air_mean": [
+          45.91079163580786,
+          55.972940189775116
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.1,
+      "additional_path_R_K_W": 10.0,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          59.3103885773242,
+          75.84302962067927
+        ],
+        "pack_mean": [
+          48.6852676056978,
+          61.36788008774284
+        ],
+        "exposed_shell_mean": [
+          45.92106134600417,
+          53.239957396546494
+        ],
+        "wrist_facing_base_mean": [
+          44.70850821714821,
+          52.806450657271846
+        ],
+        "internal_air_mean": [
+          49.818335227514424,
+          59.467815637639845
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.2,
+      "additional_path_R_K_W": 5.0,
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          41.62788779892415,
+          49.19557098212972
+        ],
+        "pack_mean": [
+          36.60626854263606,
+          44.962942097453144
+        ],
+        "exposed_shell_mean": [
+          31.928811558918685,
+          37.53581039688423
+        ],
+        "wrist_facing_base_mean": [
+          36.20761658482951,
+          40.76179452962718
+        ],
+        "internal_air_mean": [
+          35.66489539967784,
+          41.685002051391116
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.2,
+      "additional_path_R_K_W": 5.0,
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          49.743501094368064,
+          56.92419969213308
+        ],
+        "pack_mean": [
+          42.76828278260397,
+          50.809608039815224
+        ],
+        "exposed_shell_mean": [
+          40.952121141281324,
+          45.95190225226301
+        ],
+        "wrist_facing_base_mean": [
+          40.21256026669713,
+          45.18013081944153
+        ],
+        "internal_air_mean": [
+          43.57862039199655,
+          48.896533339004755
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.2,
+      "additional_path_R_K_W": 5.0,
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          53.816330185866974,
+          60.81596280842266
+        ],
+        "pack_mean": [
+          45.496971033367664,
+          53.80473737880814
+        ],
+        "exposed_shell_mean": [
+          45.43343842883289,
+          50.21852464212831
+        ],
+        "wrist_facing_base_mean": [
+          41.98872842048024,
+          47.63936021228627
+        ],
+        "internal_air_mean": [
+          47.562912838071846,
+          52.54181244967227
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.2,
+      "additional_path_R_K_W": 5.0,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          43.494089827865146,
+          57.0339141734577
+        ],
+        "pack_mean": [
+          37.48369218821332,
+          49.37543922836637
+        ],
+        "exposed_shell_mean": [
+          32.690377212593646,
+          41.39841893997999
+        ],
+        "wrist_facing_base_mean": [
+          36.90837928052339,
+          44.17670856180557
+        ],
+        "internal_air_mean": [
+          36.72736567408427,
+          46.48657023109506
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.2,
+      "additional_path_R_K_W": 5.0,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          51.56406632614378,
+          64.5343755828414
+        ],
+        "pack_mean": [
+          43.532146105535865,
+          55.15180596772714
+        ],
+        "exposed_shell_mean": [
+          41.68056438933539,
+          49.66827498698902
+        ],
+        "wrist_facing_base_mean": [
+          40.84962745547043,
+          48.63110272616321
+        ],
+        "internal_air_mean": [
+          44.61493638823496,
+          53.53787005584235
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.2,
+      "additional_path_R_K_W": 5.0,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          55.61419925577243,
+          68.31436178880665
+        ],
+        "pack_mean": [
+          46.263297653353526,
+          58.1524685764451
+        ],
+        "exposed_shell_mean": [
+          46.147833033260596,
+          53.840793723010385
+        ],
+        "wrist_facing_base_mean": [
+          42.6308457235762,
+          51.06764218676833
+        ],
+        "internal_air_mean": [
+          48.5862045031324,
+          57.10488682152994
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.3,
+      "additional_path_R_K_W": 3.3333333333333335,
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          39.51794529915541,
+          46.25170810371583
+        ],
+        "pack_mean": [
+          35.77873271604744,
+          43.75766222691761
+        ],
+        "exposed_shell_mean": [
+          32.07622667431218,
+          37.72622304412172
+        ],
+        "wrist_facing_base_mean": [
+          35.4774772366364,
+          39.895533015646095
+        ],
+        "internal_air_mean": [
+          34.973248275758735,
+          40.78206039783967
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.3,
+      "additional_path_R_K_W": 3.3333333333333335,
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          47.83515243057512,
+          54.18384308858127
+        ],
+        "pack_mean": [
+          41.71671862492578,
+          49.67125968601552
+        ],
+        "exposed_shell_mean": [
+          41.05791480415709,
+          46.163855432593756
+        ],
+        "wrist_facing_base_mean": [
+          39.35584395250216,
+          44.51969696030207
+        ],
+        "internal_air_mean": [
+          42.94786184757288,
+          48.048282421709885
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.3,
+      "additional_path_R_K_W": 3.3333333333333335,
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          52.008075950204976,
+          58.17853721754673
+        ],
+        "pack_mean": [
+          44.47743506140957,
+          52.855955363140254
+        ],
+        "exposed_shell_mean": [
+          45.5332435063304,
+          50.42073573466995
+        ],
+        "wrist_facing_base_mean": [
+          41.15131584437994,
+          47.001621314485455
+        ],
+        "internal_air_mean": [
+          46.96273914337197,
+          51.721638932346615
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.3,
+      "additional_path_R_K_W": 3.3333333333333335,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "temperature_range_C": {
+        "electronics_mean": [
+          41.14712175841576,
+          53.13364226540915
+        ],
+        "pack_mean": [
+          36.5576222662142,
+          47.74982775190427
+        ],
+        "exposed_shell_mean": [
+          32.85526141721279,
+          41.708500023409115
+        ],
+        "wrist_facing_base_mean": [
+          36.08761905945334,
+          43.00337510570252
+        ],
+        "internal_air_mean": [
+          35.95668662160576,
+          45.28268643489009
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.3,
+      "additional_path_R_K_W": 3.3333333333333335,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "temperature_range_C": {
+        "electronics_mean": [
+          49.424814579786705,
+          60.85116350965254
+        ],
+        "pack_mean": [
+          42.34323046808127,
+          53.67871551006438
+        ],
+        "exposed_shell_mean": [
+          41.79968680261765,
+          49.95612549020974
+        ],
+        "wrist_facing_base_mean": [
+          39.87905079515372,
+          47.72270020725137
+        ],
+        "internal_air_mean": [
+          43.90663946795848,
+          52.39063274790532
+        ]
+      }
+    },
+    {
+      "additional_conductance_W_K": 0.3,
+      "additional_path_R_K_W": 3.3333333333333335,
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "temperature_range_C": {
+        "electronics_mean": [
+          53.57810119178835,
+          64.7410018053231
+        ],
+        "pack_mean": [
+          45.10638813167319,
+          56.93372830431321
+        ],
+        "exposed_shell_mean": [
+          46.260703481025146,
+          54.11761107436996
+        ],
+        "wrist_facing_base_mean": [
+          41.67894917487951,
+          50.18206439685216
+        ],
+        "internal_air_mean": [
+          47.90924755518943,
+          55.98676098859986
+        ]
+      }
+    }
+  ],
+  "outside_only_rejection_W_by_surface_and_ambient_C": {
+    "40": {
+      "25": [
+        3.588683414095882,
+        6.463197198402702
+      ],
+      "35": [
+        1.2327078101566975,
+        2.20060707304779
+      ],
+      "40": [
+        0.0,
+        0.0
+      ]
+    },
+    "45": {
+      "25": [
+        4.859473202988467,
+        8.712041444515949
+      ],
+      "35": [
+        2.503497599049283,
+        4.449451319161038
+      ],
+      "40": [
+        1.2707897888925856,
+        2.2488442461132476
+      ]
+    },
+    "50": {
+      "25": [
+        6.169570720936455,
+        11.01067548076604
+      ],
+      "35": [
+        3.81359511699727,
+        6.748085355411127
+      ],
+      "40": [
+        2.5808873068405727,
+        4.547478282363337
+      ]
+    }
+  },
+  "target": "At least0.2W/K added electronics-to-outer-shell conductance (<=5K/W); test local component/skin gradients separately. This target alone does not meet40C base at35/40C in all modeled corners."
+}

@@ -1,0 +1,182 @@
+{
+  "board_path": "/tmp/glove-v4-routing-cache/eight-i2c-vias-restored.kicad_pcb",
+  "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+  "board_pro_sha256": "b2b71d42979450e09e076030f48c5a3e8734e4a3e9131b517f58508d23d321c3",
+  "drc_path": "/tmp/glove-v4-routing-cache/eight-i2c-vias-restored.drc.txt",
+  "drc_sha256": "824db6e7a5d5df979a02a7840ab9558a8df01a12bc4e8e4101db818336678051",
+  "canonical_board_unchanged_sha256": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+  "components_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "component_count": 561,
+  "canonical_connected_pin_entries": 1806,
+  "canonical_pad_net_mismatches": [],
+  "copper_layers": 8,
+  "drc_counts": {
+    "copper_sliver": 1,
+    "via_dangling": 51,
+    "track_dangling": 35,
+    "unconnected_items": 20
+  },
+  "physical_drc_errors": 0,
+  "remaining_connections": [
+    {
+      "net": "ADC_SDO",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(62.7000 mm, 49.2000 mm): Via [ADC_SDO] on F.Cu - B.Cu\n    @(80.3500 mm, 69.6200 mm): Via [ADC_SDO] on F.Cu - B.Cu"
+    },
+    {
+      "net": "CAM_D3",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(78.9875 mm, 54.6750 mm): Via [CAM_D3] on F.Cu - B.Cu\n    @(86.2500 mm, 25.8000 mm): Track [CAM_D3] on F.Cu, length 1.3583 mm"
+    },
+    {
+      "net": "CAM_D7",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(77.6375 mm, 57.2750 mm): Track [CAM_D7] on F.Cu, length 0.6500 mm\n    @(90.2500 mm, 25.8000 mm): Pad 12 [CAM_D7] of J14 on F.Cu"
+    },
+    {
+      "net": "CAM_DV_EN",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(80.5000 mm, 25.8250 mm): Track [CAM_DV_EN] on B.Cu, length 0.4596 mm\n    @(62.1375 mm, 70.3250 mm): Track [CAM_DV_EN] on B.Cu, length 0.6500 mm"
+    },
+    {
+      "net": "CAM_VSYNC",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(76.6375 mm, 42.3750 mm): Track [CAM_VSYNC] on F.Cu, length 1.1402 mm\n    @(92.9000 mm, 27.4000 mm): Via [CAM_VSYNC] on F.Cu - B.Cu"
+    },
+    {
+      "net": "CUFF_IMU_INT1",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(87.4875 mm, 30.4000 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu\n    @(77.8625 mm, 66.4250 mm): Track [CUFF_IMU_INT1] on B.Cu, length 0.6500 mm"
+    },
+    {
+      "net": "IO1_SPARE4",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(77.1000 mm, 65.3250 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.1061 mm\n    @(75.6750 mm, 65.7000 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.5250 mm"
+    },
+    {
+      "net": "LED_G_N",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(61.9133 mm, 66.8508 mm): Track [LED_G_N] on B.Cu, length 0.3171 mm\n    @(46.2553 mm, 68.0000 mm): Track [LED_G_N] on B.Cu, length 0.4197 mm"
+    },
+    {
+      "net": "MCU_CAM_PWDN",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(82.3625 mm, 46.2750 mm): Track [MCU_CAM_PWDN] on F.Cu, length 0.6611 mm\n    @(62.1375 mm, 68.3750 mm): Track [MCU_CAM_PWDN] on B.Cu, length 2.0000 mm"
+    },
+    {
+      "net": "MCU_CAM_RESET_N",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(62.1375 mm, 69.0250 mm): Track [MCU_CAM_RESET_N] on B.Cu, length 1.6070 mm\n    @(82.3625 mm, 45.6250 mm): Pad 16 [MCU_CAM_RESET_N] of U58 on F.Cu"
+    },
+    {
+      "net": "MUX_SHIFT_CLK",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(41.6383 mm, 48.8008 mm): Track [MUX_SHIFT_CLK] on B.Cu, length 0.3171 mm\n    @(80.3500 mm, 75.0000 mm): Via [MUX_SHIFT_CLK] on F.Cu - B.Cu"
+    },
+    {
+      "net": "SD_CD_N",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(48.0950 mm, 63.2450 mm): Pad 9 [SD_CD_N] of J16 on F.Cu\n    @(71.4875 mm, 67.7250 mm): Via [SD_CD_N] on F.Cu - B.Cu"
+    },
+    {
+      "net": "USB_CC1",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(91.8750 mm, 55.2000 mm): Track [USB_CC1] on F.Cu, length 0.6000 mm\n    @(88.2750 mm, 54.2000 mm): Track [USB_CC1] on B.Cu, length 0.7159 mm"
+    },
+    {
+      "net": "USB_CC1",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(93.1376 mm, 54.4866 mm): Track [USB_CC1] on F.Cu, length 0.0750 mm\n    @(92.5000 mm, 45.5500 mm): Track [USB_CC1] on F.Cu, length 0.8500 mm"
+    },
+    {
+      "net": "USB_CC2",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(88.2750 mm, 53.8000 mm): Pad 2 [USB_CC2] of U33 on B.Cu\n    @(91.0388 mm, 52.2500 mm): Track [USB_CC2] on F.Cu, length 2.7119 mm"
+    },
+    {
+      "net": "USB_CFG_ATTACH_N",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(63.9750 mm, 62.3250 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.1500 mm\n    @(65.9250 mm, 62.1750 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.4243 mm"
+    },
+    {
+      "net": "USB_CONFIG_CLR_N",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(78.1750 mm, 52.5000 mm): Track [USB_CONFIG_CLR_N] on B.Cu, length 2.0000 mm\n    @(66.1500 mm, 66.8500 mm): Track [USB_CONFIG_CLR_N] on SIGNAL_TOP, length 0.9500 mm"
+    },
+    {
+      "net": "USB_CONFIG_SET",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(64.8750 mm, 71.1750 mm): Track [USB_CONFIG_SET] on F.Cu, length 1.4849 mm\n    @(68.7250 mm, 71.9000 mm): Pad 1 [USB_CONFIG_SET] of R213 on F.Cu"
+    },
+    {
+      "net": "USB_NOT_SUSPEND",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(64.3625 mm, 59.5000 mm): Track [USB_NOT_SUSPEND] on B.Cu, length 0.6500 mm\n    @(74.1375 mm, 75.5500 mm): Track [USB_NOT_SUSPEND] on B.Cu, length 0.6500 mm"
+    },
+    {
+      "net": "USB_RECOVERY_ON",
+      "detail": "unconnected_items]: Missing connection between items\n    Local override; Severity: error\n    @(67.0000 mm, 63.5000 mm): Pad 3 [USB_RECOVERY_ON] of Q1 on B.Cu\n    @(89.3000 mm, 53.2000 mm): Track [USB_RECOVERY_ON] on F.Cu, length 0.4000 mm\n\n** Found 0 Footprint errors **\n\n** End of Report **\n"
+    }
+  ],
+  "footprint_moves_from_canonical": [
+    {
+      "designator": "R203",
+      "xy_mm": [
+        96.25,
+        63.25
+      ],
+      "rotation_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "designator": "R202",
+      "xy_mm": [
+        96.25,
+        61.75
+      ],
+      "rotation_deg": 0.0,
+      "side": "B"
+    },
+    {
+      "designator": "D23",
+      "xy_mm": [
+        94.45,
+        53.25
+      ],
+      "rotation_deg": 90.0,
+      "side": "B"
+    }
+  ],
+  "verified_power_vias": [
+    {
+      "net": "USB_VBUS",
+      "xy_mm": [
+        92.015,
+        51.55
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "USB_VBUS",
+      "xy_mm": [
+        92.015,
+        56.45
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "USB_VBUS",
+      "xy_mm": [
+        87.3,
+        58.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "xy_mm": [
+        92.015,
+        50.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    },
+    {
+      "net": "GND",
+      "xy_mm": [
+        92.015,
+        57.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3
+    }
+  ],
+  "manufacturing_ready": false,
+  "canonical_publication_status": "Blocked by automatic approval review; explicit user approval pending. Canonical24-open board is unchanged.",
+  "routing_status": "Stopped after bounded repair at parent request",
+  "generated_utc": "2026-10-23T02:49:36.160866+00:00"
+}

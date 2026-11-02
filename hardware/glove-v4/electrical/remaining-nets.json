@@ -1,0 +1,329 @@
+{
+  "board_sha256": "973111f03d52a0288c53378c9ba5df2dc6b7ac896ce2e6f88557ab0d7846a84b",
+  "open_count": 20,
+  "nets": {
+    "ADC_SDO": 1,
+    "CAM_D3": 1,
+    "CAM_D7": 1,
+    "CAM_DV_EN": 1,
+    "CAM_VSYNC": 1,
+    "CUFF_IMU_INT1": 1,
+    "IO1_SPARE4": 1,
+    "LED_G_N": 1,
+    "MCU_CAM_PWDN": 1,
+    "MCU_CAM_RESET_N": 1,
+    "MUX_SHIFT_CLK": 1,
+    "SD_CD_N": 1,
+    "USB_CC1": 2,
+    "USB_CC2": 1,
+    "USB_CFG_ATTACH_N": 1,
+    "USB_CONFIG_CLR_N": 1,
+    "USB_CONFIG_SET": 1,
+    "USB_NOT_SUSPEND": 1,
+    "USB_RECOVERY_ON": 1
+  },
+  "items": [
+    {
+      "net": "ADC_SDO",
+      "endpoints": [
+        {
+          "x_mm": 60.2,
+          "y_mm": 49.5,
+          "description": "Track [ADC_SDO] on F.Cu, length 2.5179 mm"
+        },
+        {
+          "x_mm": 81.0,
+          "y_mm": 69.62,
+          "description": "Track [ADC_SDO] on F.Cu, length 0.6500 mm"
+        }
+      ]
+    },
+    {
+      "net": "CAM_D3",
+      "endpoints": [
+        {
+          "x_mm": 77.6375,
+          "y_mm": 54.675,
+          "description": "Track [CAM_D3] on F.Cu, length 1.3500 mm"
+        },
+        {
+          "x_mm": 86.1,
+          "y_mm": 27.15,
+          "description": "Via [CAM_D3] on F.Cu - B.Cu"
+        }
+      ]
+    },
+    {
+      "net": "CAM_D7",
+      "endpoints": [
+        {
+          "x_mm": 77.6375,
+          "y_mm": 57.275,
+          "description": "Track [CAM_D7] on F.Cu, length 0.6500 mm"
+        },
+        {
+          "x_mm": 90.25,
+          "y_mm": 25.8,
+          "description": "Track [CAM_D7] on F.Cu, length 0.8500 mm"
+        }
+      ]
+    },
+    {
+      "net": "CAM_DV_EN",
+      "endpoints": [
+        {
+          "x_mm": 80.5,
+          "y_mm": 25.825,
+          "description": "Track [CAM_DV_EN] on B.Cu, length 0.4596 mm"
+        },
+        {
+          "x_mm": 62.1375,
+          "y_mm": 70.325,
+          "description": "Track [CAM_DV_EN] on B.Cu, length 0.6500 mm"
+        }
+      ]
+    },
+    {
+      "net": "CAM_VSYNC",
+      "endpoints": [
+        {
+          "x_mm": 76.6375,
+          "y_mm": 42.375,
+          "description": "Pad 4 [CAM_VSYNC] of U58 on F.Cu"
+        },
+        {
+          "x_mm": 92.9,
+          "y_mm": 27.4,
+          "description": "Via [CAM_VSYNC] on F.Cu - B.Cu"
+        }
+      ]
+    },
+    {
+      "net": "CUFF_IMU_INT1",
+      "endpoints": [
+        {
+          "x_mm": 88.8375,
+          "y_mm": 30.25,
+          "description": "Track [CUFF_IMU_INT1] on B.Cu, length 1.3583 mm"
+        },
+        {
+          "x_mm": 77.8625,
+          "y_mm": 66.425,
+          "description": "Track [CUFF_IMU_INT1] on B.Cu, length 0.6500 mm"
+        }
+      ]
+    },
+    {
+      "net": "IO1_SPARE4",
+      "endpoints": [
+        {
+          "x_mm": 77.1,
+          "y_mm": 65.325,
+          "description": "Track [IO1_SPARE4] on SIGNAL_TOP, length 0.1061 mm"
+        },
+        {
+          "x_mm": 75.675,
+          "y_mm": 65.7,
+          "description": "Track [IO1_SPARE4] on SIGNAL_TOP, length 0.5250 mm"
+        }
+      ]
+    },
+    {
+      "net": "LED_G_N",
+      "endpoints": [
+        {
+          "x_mm": 61.9133,
+          "y_mm": 66.8508,
+          "description": "Track [LED_G_N] on B.Cu, length 0.3171 mm"
+        },
+        {
+          "x_mm": 46.675,
+          "y_mm": 68.0,
+          "description": "Pad 1 [LED_G_N] of R209 on B.Cu"
+        }
+      ]
+    },
+    {
+      "net": "MCU_CAM_PWDN",
+      "endpoints": [
+        {
+          "x_mm": 82.3625,
+          "y_mm": 46.275,
+          "description": "Pad 15 [MCU_CAM_PWDN] of U58 on F.Cu"
+        },
+        {
+          "x_mm": 62.1375,
+          "y_mm": 68.375,
+          "description": "Track [MCU_CAM_PWDN] on B.Cu, length 2.0000 mm"
+        }
+      ]
+    },
+    {
+      "net": "MCU_CAM_RESET_N",
+      "endpoints": [
+        {
+          "x_mm": 62.1375,
+          "y_mm": 69.025,
+          "description": "Pad 8 [MCU_CAM_RESET_N] of U52 on B.Cu"
+        },
+        {
+          "x_mm": 82.3625,
+          "y_mm": 45.625,
+          "description": "Pad 16 [MCU_CAM_RESET_N] of U58 on F.Cu"
+        }
+      ]
+    },
+    {
+      "net": "MUX_SHIFT_CLK",
+      "endpoints": [
+        {
+          "x_mm": 41.6383,
+          "y_mm": 48.8008,
+          "description": "Track [MUX_SHIFT_CLK] on B.Cu, length 0.3171 mm"
+        },
+        {
+          "x_mm": 80.35,
+          "y_mm": 75.0,
+          "description": "Via [MUX_SHIFT_CLK] on F.Cu - B.Cu"
+        }
+      ]
+    },
+    {
+      "net": "SD_CD_N",
+      "endpoints": [
+        {
+          "x_mm": 48.095,
+          "y_mm": 63.245,
+          "description": "Track [SD_CD_N] on F.Cu, length 0.0703 mm"
+        },
+        {
+          "x_mm": 72.1375,
+          "y_mm": 67.725,
+          "description": "Track [SD_CD_N] on B.Cu, length 0.6500 mm"
+        }
+      ]
+    },
+    {
+      "net": "USB_CC1",
+      "endpoints": [
+        {
+          "x_mm": 91.875,
+          "y_mm": 55.2,
+          "description": "Track [USB_CC1] on F.Cu, length 0.6000 mm"
+        },
+        {
+          "x_mm": 88.275,
+          "y_mm": 54.2,
+          "description": "Track [USB_CC1] on B.Cu, length 0.7159 mm"
+        }
+      ]
+    },
+    {
+      "net": "USB_CC1",
+      "endpoints": [
+        {
+          "x_mm": 93.1376,
+          "y_mm": 54.4866,
+          "description": "Track [USB_CC1] on F.Cu, length 0.0750 mm"
+        },
+        {
+          "x_mm": 92.5,
+          "y_mm": 45.55,
+          "description": "Track [USB_CC1] on F.Cu, length 0.8500 mm"
+        }
+      ]
+    },
+    {
+      "net": "USB_CC2",
+      "endpoints": [
+        {
+          "x_mm": 88.275,
+          "y_mm": 53.8,
+          "description": "Pad 2 [USB_CC2] of U33 on B.Cu"
+        },
+        {
+          "x_mm": 91.0388,
+          "y_mm": 52.25,
+          "description": "Track [USB_CC2] on F.Cu, length 2.7119 mm"
+        }
+      ]
+    },
+    {
+      "net": "USB_CFG_ATTACH_N",
+      "endpoints": [
+        {
+          "x_mm": 63.975,
+          "y_mm": 62.325,
+          "description": "Track [USB_CFG_ATTACH_N] on B.Cu, length 0.1500 mm"
+        },
+        {
+          "x_mm": 65.925,
+          "y_mm": 62.175,
+          "description": "Track [USB_CFG_ATTACH_N] on B.Cu, length 0.4243 mm"
+        }
+      ]
+    },
+    {
+      "net": "USB_CONFIG_CLR_N",
+      "endpoints": [
+        {
+          "x_mm": 78.175,
+          "y_mm": 52.5,
+          "description": "Track [USB_CONFIG_CLR_N] on B.Cu, length 2.0000 mm"
+        },
+        {
+          "x_mm": 66.15,
+          "y_mm": 66.85,
+          "description": "Track [USB_CONFIG_CLR_N] on SIGNAL_TOP, length 0.9500 mm"
+        }
+      ]
+    },
+    {
+      "net": "USB_CONFIG_SET",
+      "endpoints": [
+        {
+          "x_mm": 65.925,
+          "y_mm": 70.125,
+          "description": "Track [USB_CONFIG_SET] on F.Cu, length 0.6000 mm"
+        },
+        {
+          "x_mm": 68.725,
+          "y_mm": 71.9,
+          "description": "Pad 1 [USB_CONFIG_SET] of R213 on F.Cu"
+        }
+      ]
+    },
+    {
+      "net": "USB_NOT_SUSPEND",
+      "endpoints": [
+        {
+          "x_mm": 64.3625,
+          "y_mm": 59.5,
+          "description": "Track [USB_NOT_SUSPEND] on B.Cu, length 0.6500 mm"
+        },
+        {
+          "x_mm": 73.4875,
+          "y_mm": 75.55,
+          "description": "Via [USB_NOT_SUSPEND] on F.Cu - B.Cu"
+        }
+      ]
+    },
+    {
+      "net": "USB_RECOVERY_ON",
+      "endpoints": [
+        {
+          "x_mm": 67.0,
+          "y_mm": 63.5,
+          "description": "Pad 3 [USB_RECOVERY_ON] of Q1 on B.Cu"
+        },
+        {
+          "x_mm": 89.3,
+          "y_mm": 53.2,
+          "description": "Track [USB_RECOVERY_ON] on F.Cu, length 0.4000 mm"
+        }
+      ]
+    }
+  ],
+  "source": "native KiCad 7 DRC [unconnected_items] sections from routing-candidate.drc.txt",
+  "source_drc_sha256": "9c3a18b201f0a5f912a8fb1f417101e494f88654a65e25bf422b3da8324252b6"
+}

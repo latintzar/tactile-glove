@@ -1,0 +1,8 @@
+Designator,Manufacturer Part Number,Footprint,Quantity,Purpose
+U1,ISM330DHCXTR,GloveV4:ST_ISM330DHCX_LGA14_0.35mm,1,"Six-axis mode1 I2C, address 0x6b"
+C1,GRM188R71C104KA01D,GloveV4:C_0603_1608Metric,1,100nF16V X7R at IMU supply pin
+C2,GRM188R71C104KA01D,GloveV4:C_0603_1608Metric,1,100nF16V X7R at IMU supply pin
+C3,GRM188R61A475KE15D,GloveV4:C_0603_1608Metric,1,4.7uF 10V X5R local reservoir
+J1,SM04B-SRSS-TB(LF)(SN),GloveV4:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal,1,"Keyed 4-wire power and I2C, QT/Qwiic pin order"
+R1,RC0603FR-0722RL,GloveV4:R_0603_1608Metric,1,22ohm series damping at hand tile connector
+R2,RC0603FR-0722RL,GloveV4:R_0603_1608Metric,1,22ohm series damping at hand tile connector

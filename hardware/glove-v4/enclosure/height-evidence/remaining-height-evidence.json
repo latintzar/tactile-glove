@@ -1,0 +1,228 @@
+{
+  "schema": "glove-package-height-supplement/v1",
+  "date_utc": "2026-10-22",
+  "mounting_allowance_mm": 0.2,
+  "mounting_allowance_basis": "Engineering assembly acceptance, separate from manufacturer maximum; verify assembled component peak no more than max+0.20mm above board.",
+  "entries": [
+    {
+      "mpn": "2N7002,215",
+      "refs": [
+        "Q_USB_SUSPEND",
+        "Q_USB_CC_ILIM",
+        "Q_CHG_ENABLE",
+        "Q_CHG_DISABLE",
+        "Q_REF_GATE",
+        "Q_BAT_MEAS_GATE",
+        "Q_CAM_OE",
+        "Q_CAM_SCCB"
+      ],
+      "maximum_height_mm": 1.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-2N7002-height-extract.txt",
+      "source_sha256": "3c3713aabb6c676dc149af1ef400175148069a07797f86070f1e8345f23341ae",
+      "physical_pdf_pages": [
+        8
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "Rev7, 8 September 2011; SOT23 dimension A maximum 1.1 mm."
+    },
+    {
+      "mpn": "PMV16XN,215",
+      "refs": [
+        "Q_VREF_BLEED_OUT",
+        "Q_VREF_BLEED_IN"
+      ],
+      "maximum_height_mm": 1.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMV16XN.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-PMV16XN-height-extract.txt",
+      "source_sha256": "1c9ebd8b476bfa165ff7f9f40ad62ead2d59efd0f33b299b9f6859f8b9e37983",
+      "physical_pdf_pages": [
+        10
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "11 November 2014; SOT23 dimension A maximum 1.1 mm."
+    },
+    {
+      "mpn": "PESD5V0U2BT,215",
+      "refs": [
+        "D_USB_DATA",
+        "D_USB_CC"
+      ],
+      "maximum_height_mm": 1.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PESD5V0U2BT.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-PESD5V0U2BT-height-extract.txt",
+      "source_sha256": "4a78f7f0c308a8e2f2943a959ad361c1e65f128ac2256f3389c99437734ae593",
+      "physical_pdf_pages": [
+        7
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "21 August 2025; SOT23 dimension A maximum 1.1 mm."
+    },
+    {
+      "mpn": "74LVC1G04GW,125",
+      "refs": [
+        "U_CAM_IF_INV"
+      ],
+      "maximum_height_mm": 1.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-74LVC1G04-height-extract.txt",
+      "source_sha256": "0a69ed8e801c446e4647d0b52c7e2b48b2371e2e1603cbf30b8f390fdccb660e",
+      "physical_pdf_pages": [
+        9
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "Rev18.1, 2 September 2024; GW maps to SOT353-1 on page2; dimension A maximum 1.1 mm on page9."
+    },
+    {
+      "mpn": "BAV199,215",
+      "refs": [
+        "D_CLAMP_I1",
+        "D_CLAMP_I2",
+        "D_CLAMP_I3",
+        "D_CLAMP_M1",
+        "D_CLAMP_M2",
+        "D_CLAMP_M3",
+        "D_CLAMP_R1",
+        "D_CLAMP_R2",
+        "D_CLAMP_R3",
+        "D_CLAMP_L1",
+        "D_CLAMP_L2",
+        "D_CLAMP_L3",
+        "D_CLAMP_T1",
+        "D_CLAMP_T2",
+        "D_CLAMP_P1",
+        "D_CLAMP_P2",
+        "D_CLAMP_P3",
+        "D_CLAMP_P4",
+        "D_CLAMP_H1",
+        "D_CLAMP_H2"
+      ],
+      "maximum_height_mm": 1.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-BAV199-height-extract.txt",
+      "source_sha256": "dcf8bfdf9b470a11819c31d019064f9616d7cbe00d2a67206be3420ad521a9af",
+      "physical_pdf_pages": [
+        5
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "1 April 2023; SOT23 seated height 0.9..1.1 mm. Manufacturer PDF accessed with ?hkey=EF798316E3902B6ED9A73243A3159BB0."
+    },
+    {
+      "mpn": "PMEG2010ER,115",
+      "refs": [
+        "D_LDO_REV",
+        "D_REF_REVERSE",
+        "D_ANALOG_REVERSE"
+      ],
+      "maximum_height_mm": 1.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-PMEG2010ER-height-extract.txt",
+      "source_sha256": "312a35e6ee3c51875ba5ed85db89fe1990cd3a10e6d9c7bd7296ee49a2ec88d2",
+      "physical_pdf_pages": [
+        8
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "1 July 2023; SOD123W. Independently cross-checked seated height A maximum1.1mm in manufacturer package-information/SOD123W.pdf,28February2020,page1. The1.05mm dimension is a terminal width, not height."
+    },
+    {
+      "mpn": "RT0603BRD0719K2L",
+      "refs": [
+        "R_USB_RECOVERY_ILIM"
+      ],
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-181409.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "source_sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_classification": "manufacturer_authored_family_PDF_distributor_mirror",
+      "evidence": "Yageo RT series dimensions table: RT0603 H0.45\u00b10.10mm. Applies by selected RT0603 package prefix, independent of resistance value; exact-value specsheet endpoint unavailable."
+    },
+    {
+      "mpn": "RT0603BRD072M15L",
+      "refs": [
+        "R_READY_HYST"
+      ],
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-181409.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "source_sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_classification": "manufacturer_authored_family_PDF_distributor_mirror",
+      "evidence": "Yageo RT series dimensions table: RT0603 H0.45\u00b10.10mm. Applies by selected RT0603 package prefix, independent of resistance value; exact-value specsheet endpoint unavailable."
+    },
+    {
+      "mpn": "RT0603BRD07327KL",
+      "refs": [
+        "R_MAIN_TOP"
+      ],
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-181409.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "source_sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_classification": "manufacturer_authored_family_PDF_distributor_mirror",
+      "evidence": "Yageo RT series dimensions table: RT0603 H0.45\u00b10.10mm. Applies by selected RT0603 package prefix, independent of resistance value; exact-value specsheet endpoint unavailable."
+    },
+    {
+      "mpn": "XFL4020-152MEC",
+      "refs": [
+        "L_CHARGER",
+        "L_MAIN"
+      ],
+      "maximum_height_mm": 2.1,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/xfl4020.pdf",
+      "source_sha256": "6dca915ac1daa47210f7708a7540221ffef4f34a88a8621c94bd50cdf48647e6",
+      "physical_pdf_pages": [
+        1,
+        3
+      ],
+      "source_classification": "manufacturer_PDF",
+      "evidence": "Document745, revised03/10/26. Page1 exact152ME family and E/C suffix map. Page3 height2.10max; optional T/S termination pre-mount allowance does not apply to selected E termination."
+    },
+    {
+      "mpn": "BQ25616RTWR",
+      "refs": [
+        "U_CHARGER"
+      ],
+      "maximum_height_mm": 0.8,
+      "height_datum": "seated_height",
+      "status": "manufacturer_maximum_verified",
+      "source_url": "https://www.ti.com/lit/ds/symlink/bq25616.pdf",
+      "source_file": "hardware/glove-v4/procurement/battery-path-sources/bq25616.pdf",
+      "source_sha256": "db1c80794273f68d40f13969888a1da6abc08d4a1ea38b68af8b9a09d7c9834a",
+      "physical_pdf_pages": [
+        47
+      ],
+      "source_classification": "manufacturer_PDF",
+      "evidence": "RTW0024A package drawing: overall height0.80maximum. Separate0.20mm solder/assembly allowance."
+    }
+  ],
+  "verified_instances": 42
+}

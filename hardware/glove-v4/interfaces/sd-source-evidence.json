@@ -1,0 +1,19 @@
+{
+  "manufacturer": "Hirose",
+  "part": "DM3AT-SF-PEJM5",
+  "drawing_page": 3,
+  "visual_check": "8standardcontacts;detect B at rear maps CAD9,detect A leftside maps CAD10,shell CAD11. Independent switch open without card and closed with card.",
+  "sources": [
+    {
+      "file": "sources/hirose-dm3-series.pdf",
+      "url": "https://www.gocarelectronic.es/pdf/DM3DSFHH.pdf",
+      "sha256": "8f25bd45697e54f0bb2736ebf0aa67611ab57db2a9ee9af947001246f9708e43"
+    },
+    {
+      "file": "footprints/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+      "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/master/Connector_Card.pretty/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+      "sha256": "4b6ab5672c93dbe302312a0b5655ef908181a20588a702827e71c8b7de2563b8"
+    }
+  ],
+  "keepout": "Manufacturer page3 hatched top-side no-trace areas must be implemented in integrated PCB."
+}

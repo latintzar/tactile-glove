@@ -1,0 +1,399 @@
+{
+  "status": "engineering proposal; canonical circuit/BOM/firmware unchanged",
+  "model": "Semitec nominal R-T table with independent endpoint tolerances and declared engineering allocations",
+  "script_sha256": "691fb531e0ad9875324e09fd9ffac43c0dc6e3127acfd55df64de3452bf64ead",
+  "nominal_RT_ohm": [
+    [
+      -50,
+      329500
+    ],
+    [
+      -40,
+      188500
+    ],
+    [
+      -30,
+      111300
+    ],
+    [
+      -20,
+      67770
+    ],
+    [
+      -10,
+      42470
+    ],
+    [
+      0,
+      27280
+    ],
+    [
+      10,
+      17960
+    ],
+    [
+      20,
+      12090
+    ],
+    [
+      25,
+      10000
+    ],
+    [
+      30,
+      8313
+    ],
+    [
+      40,
+      5827
+    ],
+    [
+      50,
+      4160
+    ],
+    [
+      60,
+      3020
+    ],
+    [
+      70,
+      2228
+    ],
+    [
+      80,
+      1668
+    ],
+    [
+      85,
+      1451
+    ],
+    [
+      90,
+      1266
+    ],
+    [
+      100,
+      973.1
+    ],
+    [
+      110,
+      757.6
+    ]
+  ],
+  "calibration": "Default uses r=0.5 with the full divider/buffer bound. Factory measurement of actual VMID/VEXC may narrow initial error but requires temperature qualification. GND is not used as an endpoint.",
+  "temperature_error_corners": [
+    {
+      "true_C": 0,
+      "indicated_C": [
+        -2.0077089273026374,
+        2.2314028878581436
+      ],
+      "error_C": [
+        -2.0077089273026374,
+        2.2314028878581436
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 25,
+      "indicated_C": [
+        23.062928100383278,
+        27.184566556231026
+      ],
+      "error_C": [
+        -1.937071899616722,
+        2.184566556231026
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 30,
+      "indicated_C": [
+        27.87878677814249,
+        32.43499142531165
+      ],
+      "error_C": [
+        -2.1212132218575093,
+        2.434991425311651
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 35,
+      "indicated_C": [
+        32.62459814558516,
+        37.63804369512666
+      ],
+      "error_C": [
+        -2.3754018544148394,
+        2.6380436951266617
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 36,
+      "indicated_C": [
+        33.58569191040146,
+        38.68248927712524
+      ],
+      "error_C": [
+        -2.414308089598542,
+        2.682489277125242
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 37,
+      "indicated_C": [
+        34.54569954744322,
+        39.728324520171824
+      ],
+      "error_C": [
+        -2.4543004525567795,
+        2.7283245201718245
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 40,
+      "indicated_C": [
+        37.41885901333497,
+        43.00898334257448
+      ],
+      "error_C": [
+        -2.5811409866650266,
+        3.0089833425744814
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 45,
+      "indicated_C": [
+        42.053891782292865,
+        48.287565247600085
+      ],
+      "error_C": [
+        -2.9461082177071347,
+        3.287565247600085
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 50,
+      "indicated_C": [
+        46.78203273255933,
+        53.77931533062057
+      ],
+      "error_C": [
+        -3.2179672674406703,
+        3.7793153306205696
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 60,
+      "indicated_C": [
+        55.959865728995446,
+        64.82569827207499
+      ],
+      "error_C": [
+        -4.040134271004554,
+        4.8256982720749875
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 85,
+      "indicated_C": [
+        77.73507102838818,
+        94.36579367168227
+      ],
+      "error_C": [
+        -7.264928971611823,
+        9.365793671682269
+      ],
+      "corner_count": 2048
+    }
+  ],
+  "mux_2kohm_stress": [
+    {
+      "true_C": 35,
+      "indicated_C": [
+        31.38837347132611,
+        39.11523234421364
+      ],
+      "error_C": [
+        -3.6116265286738916,
+        4.115232344213638
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 40,
+      "indicated_C": [
+        36.05461427548631,
+        44.766347783616425
+      ],
+      "error_C": [
+        -3.9453857245136916,
+        4.766347783616425
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 45,
+      "indicated_C": [
+        40.466147432769056,
+        50.27741129851664
+      ],
+      "error_C": [
+        -4.533852567230944,
+        5.27741129851664
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 60,
+      "indicated_C": [
+        53.680802298745306,
+        68.13806559126643
+      ],
+      "error_C": [
+        -6.319197701254694,
+        8.138065591266425
+      ],
+      "corner_count": 2048
+    }
+  ],
+  "rejected_unbuffered_1percent_design": [
+    {
+      "true_C": 35,
+      "indicated_C": [
+        30.66931803173777,
+        39.79414724769349
+      ],
+      "error_C": [
+        -4.33068196826223,
+        4.794147247693488
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 40,
+      "indicated_C": [
+        35.542657269618395,
+        45.23618708166171
+      ],
+      "error_C": [
+        -4.457342730381605,
+        5.236187081661711
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 45,
+      "indicated_C": [
+        40.136128176914895,
+        50.5078911097652
+      ],
+      "error_C": [
+        -4.8638718230851055,
+        5.507891109765197
+      ],
+      "corner_count": 2048
+    },
+    {
+      "true_C": 60,
+      "indicated_C": [
+        54.03640631603184,
+        67.36140201870703
+      ],
+      "error_C": [
+        -5.963593683968163,
+        7.361402018707025
+      ],
+      "corner_count": 2048
+    }
+  ],
+  "assumptions": {
+    "R25_fraction": 0.01,
+    "B25_85_fraction": 0.01,
+    "pullup_and_midpoint_divider_initial_fraction": 0.001,
+    "resistor_tempco_per_C": 2.5e-05,
+    "board_temperature_range_C": [
+      0,
+      85
+    ],
+    "max_temperature_distance_from25_C": 60,
+    "VMID_buffer_offset_acceptance_V": 0.007,
+    "buffer_input_bias_acceptance_A": 2e-09,
+    "buffer_offset_acceptance_V": 0.007,
+    "mux_R_acceptance_ohm": 500,
+    "mux_R_not_guaranteed_at3p3V_by_TI": true,
+    "total_mux_node_leakage_acceptance_A": 8e-06,
+    "leakage_is_manufacturer_guaranteed_total": false,
+    "ADC_per_sample_error_acceptance_counts": 8,
+    "RT_interpolation_acceptance_C": 0.25,
+    "VEXC_range_V": [
+      2.45,
+      2.55
+    ],
+    "ADC_reference_upper_acceptance_V": 3.03,
+    "sensor_return_ground_displacement_acceptance_V": 0.005,
+    "independent_signal_level_path_error_acceptance_V_per_read": 0.001,
+    "self_heating_acceptance_C": [
+      0,
+      0.15
+    ],
+    "series_sensor_wire_and_contacts_acceptance_ohm": [
+      0,
+      1
+    ]
+  },
+  "faults": {
+    "open": {
+      "estimated_q_range": [
+        0.982185300812799,
+        1.0082578150550812
+      ],
+      "detected_all_allocated_corners": true
+    },
+    "short": {
+      "estimated_q_range": [
+        -0.03182986756529638,
+        0.05072322881398278
+      ],
+      "detected_all_allocated_corners": true
+    }
+  },
+  "electrical": {
+    "extra_two_sensors_at25_mA": 0.25,
+    "extra_two_short_sensors_worst_mA": 0.5151515151515151,
+    "total_VEXC_worst_mA": 5.803454545454546,
+    "simulation_load_mA": 5.81,
+    "RISO_47ohm_plus1percent_drop_V": 0.27580069999999995,
+    "minimum_analog_supply_V": 3.111665494505495,
+    "raw_output_required_worst_V": 2.8258007,
+    "remaining_output_headroom_V": 0.28586479450549535,
+    "node_cap_max_F": 1.265e-07,
+    "open_node_time_constant_s": 0.00128524,
+    "startup_settle_s": 0.02,
+    "max_sensor_self_heating_W": 0.00016420454545454545,
+    "typical_still_air_self_heating_C": 0.08210227272727272
+  },
+  "validation": {
+    "all_table_endpoints_and_integer_roundtrips": true,
+    "independent_midpoint_interpolation": true,
+    "ratiometric_formula_with_actual_ratio": true
+  },
+  "threshold_status": "36C base +3C accepted total indication error +1C total gradient/lag reaches40C with zero reserve; unqualified proposal, not protective guarantee",
+  "release": false,
+  "unresolved_guarantees": [
+    "TI off-switch leakage is not a guaranteed selected-channel summed leakage specification; buffer isolates the divider, but selected Ron x leakage still needs qualification at3.3V.",
+    "MCP6002 typical model does not establish production output swing at 5.81mA, 3.112V, 85C; input bias and offset allocations also require temperature acceptance.",
+    "Thermistor R25/B limits do not themselves specify an all-temperature R-T tolerance corridor; confirm two-point/temperature acceptance.",
+    "Sensor-to-hottest-cell and sensor-to-contact gradients, sensor lag, post-shutdown stored-heat overshoot and USB standby heating require instrumented assembly tests.",
+    "Self-heating, return-ground displacement, input-level dependent analog errors, wire/contact resistance and ADC3.03V ceiling are explicit acceptance allocations, not guaranteed measured bounds.",
+    "Cohort-to-cohort and within-cohort VEXC/VMID dynamics, long-term drift and thermistor ageing remain unmodelled."
+  ]
+}

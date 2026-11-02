@@ -1,0 +1,122 @@
+[
+  {
+    "url": "/",
+    "mime": "text/html",
+    "source": "hardware/glove-v4/software-preview/index.html",
+    "raw_bytes": 3556,
+    "gzip_bytes": 1498,
+    "sha256": "b02fbb72ad82ab3baf1eee523fe50d4bffa02d9345aa05f1a6b3986b4fe5be52"
+  },
+  {
+    "url": "/app.js",
+    "mime": "text/javascript",
+    "source": "hardware/glove-v4/software-preview/app.js",
+    "raw_bytes": 10488,
+    "gzip_bytes": 4275,
+    "sha256": "aad6990b2ad23b1575d9570e16c51268b440eceae9206a1ef71de4f2e008512c"
+  },
+  {
+    "url": "/assets/ASSET-SOURCES.md",
+    "mime": "text/markdown",
+    "source": "static/glove-viewer/ASSET-SOURCES.md",
+    "raw_bytes": 2186,
+    "gzip_bytes": 1151,
+    "sha256": "ff288e3f1ce287302c2ce824b9b994b0a15c71332a5f4fc8b8a1e596edc70214"
+  },
+  {
+    "url": "/assets/BufferGeometryUtils.js",
+    "mime": "text/javascript",
+    "source": "static/glove-viewer/BufferGeometryUtils.js",
+    "raw_bytes": 35551,
+    "gzip_bytes": 7999,
+    "sha256": "248b3e8420bd3de805ca01845c1b0cc62aa2766f3c56bdcead265e306f8e715c"
+  },
+  {
+    "url": "/assets/GLTFLoader.js",
+    "mime": "text/javascript",
+    "source": "static/glove-viewer/GLTFLoader.js",
+    "raw_bytes": 114744,
+    "gzip_bytes": 24660,
+    "sha256": "2904f2823e23d5bc1d64512bf4c0d777ac44d728d47c34a9e3d48ce8ef6b761d"
+  },
+  {
+    "url": "/assets/OrbitControls.js",
+    "mime": "text/javascript",
+    "source": "static/glove-viewer/OrbitControls.js",
+    "raw_bytes": 38715,
+    "gzip_bytes": 8132,
+    "sha256": "06864a0fcb647730bfbc690b6c25a121199d716a3e299a40158509cbd247c3bf"
+  },
+  {
+    "url": "/assets/hand-LICENSE.txt",
+    "mime": "text/plain",
+    "source": "static/glove-viewer/hand-LICENSE.txt",
+    "raw_bytes": 1094,
+    "gzip_bytes": 664,
+    "sha256": "0ef0c87e8ffdd0681f332dc3b39f284dee2166d1f853fabc3853884fe81a6f30"
+  },
+  {
+    "url": "/assets/right.glb",
+    "mime": "model/gltf-binary",
+    "source": "static/glove-viewer/right.glb",
+    "raw_bytes": 94004,
+    "gzip_bytes": 66822,
+    "sha256": "291790c14f7f88a7f9bd35330c47392ed8e8d395ae6728f4bb7089f1bc1f2b96"
+  },
+  {
+    "url": "/assets/three-LICENSE.txt",
+    "mime": "text/plain",
+    "source": "static/glove-viewer/three-LICENSE.txt",
+    "raw_bytes": 1081,
+    "gzip_bytes": 662,
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "url": "/assets/three.core.js",
+    "mime": "text/javascript",
+    "source": "static/glove-viewer/three.core.js",
+    "raw_bytes": 381124,
+    "gzip_bytes": 100467,
+    "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de"
+  },
+  {
+    "url": "/assets/three.module.js",
+    "mime": "text/javascript",
+    "source": "static/glove-viewer/three.module.js",
+    "raw_bytes": 338900,
+    "gzip_bytes": 78790,
+    "sha256": "16e8727a664785683044d8164615da974d906a825521e3e05011bfd4440203e2"
+  },
+  {
+    "url": "/hand.js",
+    "mime": "text/javascript",
+    "source": "hardware/glove-v4/software-preview/hand.js",
+    "raw_bytes": 4622,
+    "gzip_bytes": 2007,
+    "sha256": "acc1eab94d568ebeb2e152d45a7b6879be5f5d201f813bd89339e550c19e78db"
+  },
+  {
+    "url": "/index.html",
+    "mime": "text/html",
+    "source": "hardware/glove-v4/software-preview/index.html",
+    "raw_bytes": 3556,
+    "gzip_bytes": 1498,
+    "sha256": "b02fbb72ad82ab3baf1eee523fe50d4bffa02d9345aa05f1a6b3986b4fe5be52"
+  },
+  {
+    "url": "/style.css",
+    "mime": "text/css",
+    "source": "hardware/glove-v4/software-preview/style.css",
+    "raw_bytes": 5638,
+    "gzip_bytes": 1882,
+    "sha256": "d4892029b01a82d3ec068c3eebfa6a2261ba389562f15bde2a7ced05a9d01249"
+  },
+  {
+    "url": "/wire.js",
+    "mime": "text/javascript",
+    "source": "hardware/glove-v4/software-preview/wire.js",
+    "raw_bytes": 4923,
+    "gzip_bytes": 1998,
+    "sha256": "e3e067497d1ced77f03ec4c2c937ddd16c9c3036d93442312d8f4b4bf798f645"
+  }
+]

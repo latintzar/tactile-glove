@@ -1,0 +1,272 @@
+[
+  {
+    "name": "C_0603_1608Metric",
+    "source": "glove-v4/interfaces/footprints/C_0603_1608Metric.kicad_mod",
+    "source_sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0",
+    "sha256": "b5f25b420f24b2161caaf730064b3fe92f266a9a921c2a91de69d1c5bd889329"
+  },
+  {
+    "name": "C_0805_2012Metric",
+    "source": "glove-v4/power/footprints/C_0805_2012Metric.kicad_mod",
+    "source_sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df",
+    "sha256": "95944e28eef36ab243b0f2dc8d967791eea3717efdd3d76a8e017e145ee339ef"
+  },
+  {
+    "name": "C_1210_3225Metric",
+    "source": "glove-v4/power/footprints/C_1210_3225Metric.kicad_mod",
+    "source_sha256": "a3fbcc36622086420d7362ee2bd3cac8e6429f7195a93dfecf49f4995cb48008",
+    "sha256": "6252bc51af7edf75c2a10cc7e2d0b345fe4aeabc37afba471405ed63d1dcba13"
+  },
+  {
+    "name": "microSD_HC_Hirose_DM3AT-SF-PEJM5",
+    "source": "glove-v4/interfaces/footprints/microSD_HC_Hirose_DM3AT-SF-PEJM5.kicad_mod",
+    "source_sha256": "4b6ab5672c93dbe302312a0b5655ef908181a20588a702827e71c8b7de2563b8",
+    "sha256": "6348ce18f8ffc32530882ac145b7406576d274c243967d859be4e5bc22144139"
+  },
+  {
+    "name": "Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal",
+    "source": "https://gitlab.com/kicad/libraries/kicad-footprints/-/raw/f8440fa61a5690b48b325c891fdb99c0038a5a59/Connector_FFC-FPC.pretty/Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal.kicad_mod",
+    "source_sha256": "cb74368b5abe8f3aec49ab37ab6c6d02f1f23fa0101aab3c22a64e5bc5d532e2",
+    "sha256": "b8dc63524dae380ee15e53f72a168224179957c295fac119061945a916636b41"
+  },
+  {
+    "name": "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+    "source": "glove-v4/power/footprints/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.kicad_mod",
+    "source_sha256": "1af3334885ac84d2bc4af629b29fc3dddc25ee1453bb67e20fb8dfdaee358a64",
+    "sha256": "834bda25469fc5d3902ad820c725e92110ee358c2466dfeb025f989ad7e087c6"
+  },
+  {
+    "name": "USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+    "source": "glove-v4/power/footprints/USB_C_Receptacle_HRO_TYPE-C-31-M-12.kicad_mod",
+    "source_sha256": "582a1c5e754ec3fe27e49075b4d028ca040c34d680ebb26aa414a5675c04f741",
+    "sha256": "582a1c5e754ec3fe27e49075b4d028ca040c34d680ebb26aa414a5675c04f741"
+  },
+  {
+    "name": "CP_EIA-3216-18_Kemet-A",
+    "source": "glove-v3/electrical/footprints/CP_EIA-3216-18_Kemet-A.kicad_mod",
+    "source_sha256": "80dbc7d782b72903906d9904177cc83786f3f59440c447ec9c26e059d9cc511c",
+    "sha256": "fc9121438b02935d7d82dda64dcd331e47f779707b642bd080e93d66f37d0afb"
+  },
+  {
+    "name": "C_0603_1608Metric",
+    "source": "glove-v4/interfaces/footprints/C_0603_1608Metric.kicad_mod",
+    "source_sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0",
+    "sha256": "b5f25b420f24b2161caaf730064b3fe92f266a9a921c2a91de69d1c5bd889329"
+  },
+  {
+    "name": "JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+    "source": "glove-v3/electrical/footprints/JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.kicad_mod",
+    "source_sha256": "4e63c43d002a081cd7a6eaa4df0168ccf66def1e3e3b65f7463141987306ce62",
+    "sha256": "c7e1935045a78d9380ae01690c80d73c2202979825288ffd0da7312d9e271818"
+  },
+  {
+    "name": "JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+    "source": "glove-v3/electrical/footprints/JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod",
+    "source_sha256": "b43d24250e96737a6f8770acc602c5a47f713fb40f606b219b2e9c0438130f21",
+    "sha256": "c6f439af9a1cdd25f18cd60b18a953b592ccd341b788d8b3f77a02f8e0c6276a"
+  },
+  {
+    "name": "JST_GH_BM14B-GHS-TBT_1x14-1MP_P1.25mm_Vertical",
+    "source": "glove-v3/electrical/footprints/JST_GH_BM14B-GHS-TBT_1x14-1MP_P1.25mm_Vertical.kicad_mod",
+    "source_sha256": "744d9024c02a1ffde07a17a11f65d5dcf1b22c73ed57250f3f1d32af09be37d9",
+    "sha256": "f4af5fe103b3c1d4f68c478b5244a42a4a64739c1a2d2603ede734f48011c9a6"
+  },
+  {
+    "name": "MSOP-10_3x3mm_P0.5mm",
+    "source": "glove-v3/electrical/footprints/MSOP-10_3x3mm_P0.5mm.kicad_mod",
+    "source_sha256": "c7088b48ffa2eea7fd7a4b87f6381cba13ebd50c85ddb2487e4eb9b2f84fb69b",
+    "sha256": "b6cb963f117dc3a21485387d633682bee006e43d3b194ef901b66846a9899494"
+  },
+  {
+    "name": "R_0603_1608Metric",
+    "source": "glove-v4/interfaces/footprints/R_0603_1608Metric.kicad_mod",
+    "source_sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11",
+    "sha256": "17171e2a61eaff91855878c42a853c3ad1509f342aefad993ceb52171730d348"
+  },
+  {
+    "name": "R_0805_2012Metric",
+    "source": "glove-v4/power/footprints/R_0805_2012Metric.kicad_mod",
+    "source_sha256": "5a41dc236eebf1add9cb10c611da055be50c6b418cb55746a676aecce1154da9",
+    "sha256": "f2682939ede52a7cea4b4b4aa93e31883796578789fdc9d1c827347f7392a450"
+  },
+  {
+    "name": "SOIC-16_3.9x9.9mm_P1.27mm",
+    "source": "glove-v3/electrical/footprints/SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+    "source_sha256": "95a262c3722b508943882fa43ddcc7172553e2357e8cf4524136a8c997d7fb41",
+    "sha256": "9816696b5d2ad5b540b8006ce8860139f7c01e3f3aa5be763cc9fde83c4b925d"
+  },
+  {
+    "name": "SOIC-24W_7.5x15.4mm_P1.27mm",
+    "source": "glove-v3/electrical/footprints/SOIC-24W_7.5x15.4mm_P1.27mm.kicad_mod",
+    "source_sha256": "7cefb6a89e253b6f6d993a9401a1d44da7007166399654f1b19609cc4a90adb0",
+    "sha256": "cb402f14be946888d4b651c19e3916742cdb9cc139da39652d0c3b237226e3fa"
+  },
+  {
+    "name": "SOIC-8_3.9x4.9mm_P1.27mm",
+    "source": "glove-v3/electrical/footprints/SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+    "source_sha256": "3e70be46498e78ced4652bc112f315660ea5d9a2bbf01299ac3cadd39a0826c5",
+    "sha256": "9e73682dd7905c8dcc23770b33182e1bf9608cff998373aad9eb4f564eb92d43"
+  },
+  {
+    "name": "SOT-23",
+    "source": "glove-v4/power/footprints/SOT-23.kicad_mod",
+    "source_sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344",
+    "sha256": "cf95aee2fe6299a39df128563b8341a974f20c11d377ef35e85eea612df984c5"
+  },
+  {
+    "name": "SOT-23-5",
+    "source": "glove-v4/power/footprints/SOT-23-5.kicad_mod",
+    "source_sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7",
+    "sha256": "5acfe8704fa323026caca54d5e78bec22c83ac9ea8958b0cb40cb23dcdbe3c34"
+  },
+  {
+    "name": "SW_PTS636_SK43_G",
+    "source": "glove-v4/power/footprints/SW_PTS636_SK43_G.kicad_mod",
+    "source_sha256": "030e1860f6ca8f3bcf5b6f81cec49bf2a8267d227a247191568ca73275737985",
+    "sha256": "2518dad8eddf7eb49c2c73083725ae4c213d97882823b99902ab47b553a15447"
+  },
+  {
+    "name": "TSSOP-14_4.4x5mm_P0.65mm",
+    "source": "glove-v3/electrical/footprints/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+    "source_sha256": "dd0f6346337d5cf5ec4c0530ceb79a02d258fcc81c304e3106eb5342b5ba8cf3",
+    "sha256": "b77014f9f505c2cb53a039653847c31237ab45a15b878a66359d314771f897dc"
+  },
+  {
+    "name": "TSSOP-16_4.4x5mm_P0.65mm",
+    "source": "glove-v3/electrical/footprints/TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "source_sha256": "97376137b074b5a88d72c1907aa4bb6348541e99b1d066e0ab94f5a172f1b2b6",
+    "sha256": "83d929880b56cc617e790c41ea93796612f05a8b0cf5c3329940017768d29f64"
+  },
+  {
+    "name": "Coilcraft_XFL4020",
+    "source": "glove-v4/power/footprints/Coilcraft_XFL4020.kicad_mod",
+    "source_sha256": "29e7a1d90a516abc72c9f7d277e56b43e4956bb865fac128178216c4f0e926c0",
+    "sha256": "ff948ac1326b8d47920c6945b1ca3ab22ceba8edd2afbb8969db1ed387cb4b0c"
+  },
+  {
+    "name": "Kingbright_APTF1616",
+    "source": "glove-v4/power/footprints/Kingbright_APTF1616.kicad_mod",
+    "source_sha256": "50e3af926a132185f6aea4cc6b57bf4f869b6e62792616df2410890cffc11066",
+    "sha256": "4f70ce4e30168422c427fd4e60bf4edf51f3b2dc8831245cd80fa9e25f151d68"
+  },
+  {
+    "name": "Nexperia_CFP3_SOD123W",
+    "source": "glove-v4/power/footprints/Nexperia_CFP3_SOD123W.kicad_mod",
+    "source_sha256": "d1f8a0c20aba79feee04d55ce19bc509aee1c1a8919bebe20bad41a98f65d859",
+    "sha256": "d5323f986af6c25a387c8107e6f03c89d823db69ca436c803d4d5b02db18e40c"
+  },
+  {
+    "name": "TI_RNM0015A",
+    "source": "glove-v4/power/footprints/TI_RNM0015A.kicad_mod",
+    "source_sha256": "ff69f707eefa0ba7efa727425b1853d3ba3cd80f27a62128cea1f93793b2e8fa",
+    "sha256": "33db34c1033928e4399cb3d710e58eb699a631c979f90ea6f9047b3aec7a4c32"
+  },
+  {
+    "name": "TI_RTW0024_BQ25616",
+    "source": "glove-v4/power/footprints/TI_RTW0024_BQ25616.kicad_mod",
+    "source_sha256": "d367c696711c299fda341f55c83e2a5028fb69cf9f04853ab710418c97f20834",
+    "sha256": "5586d828c870a976a03fe052f9fbdbaf3f70b7154bc4c0502a63284a5d1af8c5"
+  },
+  {
+    "name": "TI_YBH0006_C02",
+    "source": "glove-v4/power/footprints/TI_YBH0006_C02.kicad_mod",
+    "source_sha256": "90864733a929b4b8b9e163089e838599eeb2e4a755dd6c6f4cc54069b157c3ed",
+    "sha256": "f03c1cbd5fe53aeed9b287b010372d10adfc1b17439e66a8e0240055ff09486f"
+  },
+  {
+    "name": "C_0603_1608Metric",
+    "source": "glove-v4/interfaces/footprints/C_0603_1608Metric.kicad_mod",
+    "source_sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0",
+    "sha256": "b5f25b420f24b2161caaf730064b3fe92f266a9a921c2a91de69d1c5bd889329"
+  },
+  {
+    "name": "JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",
+    "source": "glove-v4/interfaces/footprints/JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.kicad_mod",
+    "source_sha256": "517fa24c1f4a9de316dddfaae10aaef1ed2242e855d10672cd0e4af59bef2941",
+    "sha256": "e227fc0ea9bb2856e1536cced4840d60d1e3491361656dd6d52af3c29b371d66"
+  },
+  {
+    "name": "ST_ISM330DHCX_LGA14_0.35mm",
+    "source": "glove-v4/interfaces/footprints/ST_ISM330DHCX_LGA14_0.35mm.kicad_mod",
+    "source_sha256": "29c30fdb2608ef24f85b66b8059762d6ae209fb48edf71b93e9f108c10bdb527",
+    "sha256": "a6f47ed1e98dcecc29ee6090fc9e625cb65f51f1546e20db1b505f301f7abcf8"
+  },
+  {
+    "name": "Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+    "source": "glove-v4/power/footprints/Texas_X2QFN-12_1.6x1.6mm_P0.4mm.kicad_mod",
+    "source_sha256": "41e208f83eb0fab85512c930b702f974e8af886165fadb2d7519d3252a5e8e3d",
+    "sha256": "41e208f83eb0fab85512c930b702f974e8af886165fadb2d7519d3252a5e8e3d"
+  },
+  {
+    "name": "SSOP-8_2.95x2.8mm_P0.65mm",
+    "source": "https://gitlab.com/kicad/libraries/kicad-footprints/-/raw/f8440fa61a5690b48b325c891fdb99c0038a5a59/Package_SO.pretty/SSOP-8_2.95x2.8mm_P0.65mm.kicad_mod",
+    "source_sha256": "8b77f3d670a43e2ddda2c7ac3dc5b3cb8b4511e0ba48bd68220a59679cf2344c",
+    "sha256": "b082bcd86a5607275bcbef7d82a813608b06c46516149f0faabca9326df2eede"
+  },
+  {
+    "name": "TSSOP-24_4.4x7.8mm_P0.65mm",
+    "source": "glove-v4/power/footprints/TSSOP-24_4.4x7.8mm_P0.65mm.kicad_mod",
+    "source_sha256": "06f0d10ccdc5b06f5331a2bebd6ad8f38b1454a1588af26d5ae132542a978723",
+    "sha256": "06f0d10ccdc5b06f5331a2bebd6ad8f38b1454a1588af26d5ae132542a978723"
+  },
+  {
+    "name": "VSSOP-8_2.3x2mm_P0.5mm",
+    "source": "glove-v4/power/footprints/VSSOP-8_2.3x2mm_P0.5mm.kicad_mod",
+    "source_sha256": "b82bc33e71b4828242d9ffa303847773586b7eb1d99931ad283a94453b58689f",
+    "sha256": "2042741bae87d8307dc6ac1b900b200bf92aafa8fe3b281721d9c80ed0a81085"
+  },
+  {
+    "name": "VSSOP-8_3x3mm_P0.65mm",
+    "source": "glove-v4/power/footprints/VSSOP-8_3x3mm_P0.65mm.kicad_mod",
+    "source_sha256": "5a438874423a6191e51d5928f03663b8e13ff46a0226ba97b89dade4534b34de",
+    "sha256": "5a438874423a6191e51d5928f03663b8e13ff46a0226ba97b89dade4534b34de"
+  },
+  {
+    "name": "SOT-23",
+    "source": "glove-v4/power/footprints/SOT-23.kicad_mod",
+    "source_sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344",
+    "sha256": "cf95aee2fe6299a39df128563b8341a974f20c11d377ef35e85eea612df984c5"
+  },
+  {
+    "name": "SOT-23-5",
+    "source": "glove-v4/power/footprints/SOT-23-5.kicad_mod",
+    "source_sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7",
+    "sha256": "5acfe8704fa323026caca54d5e78bec22c83ac9ea8958b0cb40cb23dcdbe3c34"
+  },
+  {
+    "name": "SOT-23-6",
+    "source": "glove-v4/power/footprints/SOT-23-6.kicad_mod",
+    "source_sha256": "4eb0a8e17345bdb60fee17f13a801a6ddcfd371f90fcde5f1879dcd023857eaf",
+    "sha256": "4eb0a8e17345bdb60fee17f13a801a6ddcfd371f90fcde5f1879dcd023857eaf"
+  },
+  {
+    "name": "SOT-353_SC-70-5",
+    "source": "https://gitlab.com/kicad/libraries/kicad-footprints/-/raw/f8440fa61a5690b48b325c891fdb99c0038a5a59/Package_TO_SOT_SMD.pretty/SOT-353_SC-70-5.kicad_mod",
+    "source_sha256": "869e17094994ff787b769a2d69512455a2f20950d59dd5c4103026ec413bb88e",
+    "sha256": "43116354f9dba89a266eaace66f33eb2ac2b4dce17380f921d64fcaeb652d1c6"
+  },
+  {
+    "name": "SOT-363_SC-70-6",
+    "source": "glove-v3/electrical/footprints/SOT-363_SC-70-6.kicad_mod",
+    "source_sha256": "7f8cbb36d9b22e903f761b5565b870107ed7f4fd30f3717cda405f2a1c010f6a",
+    "sha256": "489e620e355e020253dfb21e273a08fbf154e97b403aaa4eb2df9beb923f6418"
+  },
+  {
+    "name": "ESP32-S3-WROOM-1",
+    "source": "glove-v4/power/footprints/ESP32-S3-WROOM-1.kicad_mod",
+    "source_sha256": "dffd5a2246568f1f4d5b271e7d7f2b137b28604bdcae91761a9feee02998c877",
+    "sha256": "dffd5a2246568f1f4d5b271e7d7f2b137b28604bdcae91761a9feee02998c877"
+  },
+  {
+    "name": "R_0603_1608Metric",
+    "source": "glove-v4/interfaces/footprints/R_0603_1608Metric.kicad_mod",
+    "source_sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11",
+    "sha256": "17171e2a61eaff91855878c42a853c3ad1509f342aefad993ceb52171730d348"
+  },
+  {
+    "name": "R_0805_2012Metric",
+    "source": "glove-v4/power/footprints/R_0805_2012Metric.kicad_mod",
+    "source_sha256": "5a41dc236eebf1add9cb10c611da055be50c6b418cb55746a676aecce1154da9",
+    "sha256": "f2682939ede52a7cea4b4b4aa93e31883796578789fdc9d1c827347f7392a450"
+  }
+]

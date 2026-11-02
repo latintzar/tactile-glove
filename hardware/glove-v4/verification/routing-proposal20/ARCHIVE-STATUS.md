@@ -1,0 +1,9 @@
+# Unapplied routing and USB power review
+
+This separate candidate has20 open connections and0 physical clearance/short errors under the recorded DRC settings. The canonical board remains the24-open snapshot. Its561 components and1,806 connected pin entries reconcile with the canonical manifest. The three USB resistor/ESD placement changes and improved tracks/vias are recorded in candidate.json. Explicit approval to update the working PCB is pending after automatic approval review rejected canonical file replacement.
+
+`unapplied-candidate.kicad_pcb.gz` is a compressed native review file; its decompressed SHA256 is in candidate.json. It is an incomplete design, not a manufacturing release. The reports and their source hashes were generated against that exact candidate.
+
+USB differential lengths and the nearby return reference pass the recorded geometry checks. Added filled/capped via-in-pad connections remove the narrow USB-C inlet escapes. The actual positive path through U32 and U42 still needs correction: U32 OUT has2.926mm of0.15mm-wide surface copper, and U42 VBUS pin24 has an escape requiring thermal/width closure. The bounded51.48mOhm positive-copper result includes those escapes; the low-current recovery branch and full USB return are outside that calculation. See usb-power-path.json for current, copper and thermal assumptions. Existing battery-positive+return model totals13.544mOhm under its separate assumptions.
+
+The retained scripts include scratch absolute paths; candidate.json and each report hash identify their actual inputs. The manifest preserves the original review files; this README, compressed board and copied DRC are additional archival members. Applying this candidate requires the canonical source/placement, mechanical checks and reports to be regenerated together. Temperature-readout/reset changes are separate unapplied proposals.

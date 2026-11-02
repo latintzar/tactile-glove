@@ -1,0 +1,49 @@
+{
+  "source_repository": "https://github.com/KiCad/kicad-footprints",
+  "files": [
+    "SOIC-14_3.9x8.7mm_P1.27mm.kicad_mod",
+    "XIAO-nRF52840-SMD.kicad_mod",
+    "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.kicad_mod",
+    "MSOP-10_3x3mm_P0.5mm.kicad_mod",
+    "R_0805_2012Metric.kicad_mod",
+    "C_0603_1608Metric.kicad_mod",
+    "TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+    "SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+    "SOIC-24W_7.5x15.4mm_P1.27mm.kicad_mod",
+    "JST_GH_BM14B-GHS-TBT_1x14-1MP_P1.25mm_Vertical.kicad_mod",
+    "JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.kicad_mod",
+    "SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+    "R_0603_1608Metric.kicad_mod",
+    "SOT-23-5.kicad_mod",
+    "JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod",
+    "JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.kicad_mod"
+  ],
+  "official_kicad_source": "https://github.com/KiCad/kicad-footprints",
+  "xiao_official_footprint": {
+    "file": "footprints/XIAO-nRF52840-SMD.kicad_mod",
+    "source_url": "https://github.com/Seeed-Studio/OSHW-XIAO-Series/blob/main/Seeed%20Studio%20XIAO%20Series%20Library/XIAO-nRF52840-SMD.kicad_mod",
+    "note": "Seeed library footprint; Sense uses the same 21x17.8mm XIAO carrier outline, verify Sense revision mechanical drawing before placement"
+  },
+  "package_crosscheck": {
+    "MCP6004T-I/SL": "SOIC-14_3.9x8.7mm_P1.27mm",
+    "CD74HC4067M": "SOIC-24W_7.5x15.4mm_P1.27mm",
+    "PCF8574T": "SOIC-16W_7.5x10.3mm_P1.27mm",
+    "CD74HC4052M": "SOIC-16_3.9x9.9mm_P1.27mm",
+    "MCP33131D-10-I/MS": "MSOP-10_3x3mm_P0.5mm",
+    "TLV75518PDBVR": "SOT-23-5",
+    "OPA4320AIPWR": "TSSOP-14_4.4x5mm_P0.65mm",
+    "JST GH BM06/BM08/BM14": "JST GH vertical 1.25mm",
+    "JST SH SM04": "JST SH horizontal 1.00mm",
+    "JST PH B2B-PH-K": "JST PH vertical 2.00mm"
+  },
+  "manufacturer_sources": {
+    "MCP6004": "https://ww1.microchip.com/downloads/en/DeviceDoc/21733j.pdf",
+    "CD74HC4067": "https://www.ti.com/lit/ds/symlink/cd74hct4067.pdf",
+    "CD74HC4052": "https://www.ti.com/lit/ds/symlink/cd74hc4052.pdf",
+    "MCP33131": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP33131D-Data-Sheet-DS20005947B.pdf",
+    "TLV755P": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+    "OPA320": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+    "XIAO": "https://wiki.seeedstudio.com/XIAO_BLE/",
+    "JST": "https://www.jst-mfg.com/product/index.php?series=308"
+  }
+}

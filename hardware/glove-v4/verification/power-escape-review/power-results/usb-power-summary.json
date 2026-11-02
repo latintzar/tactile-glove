@@ -1,0 +1,143 @@
+{
+  "board_sha256": "973111f03d52a0288c53378c9ba5df2dc6b7ac896ce2e6f88557ab0d7846a84b",
+  "component_manifest_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "component_count": 561,
+  "canonical_pin_map_mismatches": 0,
+  "physical_drc_errors": 0,
+  "remaining_connections": 20,
+  "drc_counts": {
+    "copper_sliver": 1,
+    "via_dangling": 51,
+    "track_dangling": 35,
+    "unconnected_items": 20
+  },
+  "status": "applied canonical engineering candidate",
+  "manufacturing_ready": false,
+  "scope": "USB high-current positive copper. Full USB ground return, recovery branch and enclosure temperature remain outside this calculation.",
+  "temperature_C": 50,
+  "copper_assumptions_um": {
+    "outer": 28,
+    "inner": 24,
+    "barrel_plating": 15
+  },
+  "main_branch_current_max_A": 1.2818339641864271,
+  "total_input_current_A": 1.348164789560634,
+  "plane_estimates_ohm": {
+    "USB_VBUS": 0.0019142774087724035,
+    "USB_CHARGER_IN": 0.02233271119142727
+  },
+  "surface_estimates": [
+    {
+      "name": "J11 VBUS pad spreading; conservatively all current in one pad",
+      "length_mm": 0.725,
+      "width_mm": 0.6,
+      "resistance_ohm": 0.0008317042916666669
+    },
+    {
+      "name": "U32 IN pad spreading to existing via",
+      "length_mm": 0.25279685520195877,
+      "width_mm": 0.25,
+      "resistance_ohm": 0.0006960073800539786
+    },
+    {
+      "name": "U32 OUT seven native F.Cu segments",
+      "length_mm": 3.148863918680351,
+      "width_mm": 0.6,
+      "resistance_ohm": 0.0036123084621251943
+    },
+    {
+      "name": "Entire branch to second POWER_A source via",
+      "length_mm": 0.6082762530298225,
+      "width_mm": 0.6,
+      "resistance_ohm": 0.0006978013381569968
+    },
+    {
+      "name": "U42 pin24 VBUS to new plane via",
+      "length_mm": 0.25,
+      "width_mm": 0.28,
+      "resistance_ohm": 0.0006145598214285714
+    }
+  ],
+  "barrel_estimates": [
+    {
+      "name": "J11 inlet",
+      "xy_mm": [
+        92.015,
+        51.55
+      ],
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.947237163814181,
+      "resistance_ohm": 0.0012298361677458285,
+      "one_via_carries_full_current": true
+    },
+    {
+      "name": "U32 IN",
+      "xy_mm": [
+        87.3,
+        58.6
+      ],
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.947237163814181,
+      "resistance_ohm": 0.0012298361677458285,
+      "one_via_carries_full_current": true
+    },
+    {
+      "name": "U32 OUT",
+      "xy_mm": [
+        85.1229,
+        57.5659
+      ],
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.7751100244498779,
+      "resistance_ohm": 0.0010063565688368762,
+      "one_via_carries_full_current": true
+    },
+    {
+      "name": "U42 VBUS",
+      "xy_mm": [
+        13.875,
+        68.45
+      ],
+      "drill_mm": 0.2,
+      "barrel_length_mm": 0.7751100244498779,
+      "resistance_ohm": 0.001474429391551702,
+      "one_via_carries_full_current": true
+    }
+  ],
+  "positive_copper_estimate_ohm": 0.03563982818951132,
+  "at_total_input_current": {
+    "drop_V": 0.04804836147108968,
+    "loss_W": 0.06477710913140489
+  },
+  "previous_candidate": {
+    "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+    "positive_copper_estimate_ohm": 0.05148432302346857
+  },
+  "calculated_resistance_reduction_percent": 30.77537763628495,
+  "U32_output": {
+    "length_mm": 3.148863918680351,
+    "width_mm": 0.6,
+    "required_width_mm": 0.5288395611328617,
+    "long_conductor_width_screen_pass": true
+  },
+  "U42_input": {
+    "pin": 24,
+    "fanout_length_mm": 0.25,
+    "fanout_width_mm": 0.28,
+    "via_diameter_mm": 0.4,
+    "via_drill_mm": 0.2,
+    "filled_capped_planarized_process_required": true,
+    "short_fanout_loss_at_main_current_W": 0.0010097822050536835,
+    "via_loss_at_main_current_W": 0.002422632444041225
+  },
+  "inlet_mesh_relative_change": 0.02540322207784773,
+  "battery_plus_return_ohm": 0.013558672577602262,
+  "battery_copper_allocation_ohm": 0.015,
+  "limitations": [
+    "Minimum copper/plating values are engineering assumptions requiring fabricator confirmation.",
+    "A DC sheet and IPC long-conductor width screen do not establish local or enclosed temperature rise.",
+    "Terminal contacts are idealized disks; grids are converged to 5 percent and a 5 percent mesh margin is applied.",
+    "The U42 fanout is a short package escape; the long-conductor formula is not an ampacity proof for it.",
+    "TPS2553 loss, charger DPM, cable/connector losses, inrush and battery/harness variation remain in the full power qualification."
+  ]
+}

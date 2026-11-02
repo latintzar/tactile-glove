@@ -1,0 +1,102 @@
+{
+  "source": "https://cart.jlcpcb.com/api/overseas-shop-cart/v1/shoppingCart/getImpedanceTemplateSettings",
+  "request": {
+    "cuprumThickness": 1,
+    "insideCuprumThickness": 1,
+    "stencilLayer": 8,
+    "stencilPly": 1.6
+  },
+  "retrieved_utc": "2026-10-22",
+  "template": {
+    "templateName": "JLC081611-3313",
+    "showName": "JLC081611-3313",
+    "stencilLayer": 8,
+    "stencilPly": 1.6,
+    "cuprumThickness": 1.0,
+    "insideCuprumThickness": 1.0,
+    "defaultFlag": false,
+    "expeditedFlag": false,
+    "enableFlag": true,
+    "sort": 4,
+    "fixedFee": 330.0,
+    "coefficient": 55.0,
+    "iaminationList": [
+      {
+        "iaminationType": 1,
+        "content": "{\"LineThickness\":\"0.035mm\",\"LineLayer\":\"Top Layer\",\"lineMaterialType\":\"Copper\"}",
+        "contentKey": "impedanceContent_7eb3bf9cc27f40edbd90f8ae4deef8c2",
+        "sort": 1
+      },
+      {
+        "iaminationType": 2,
+        "content": "{\"preMaterialType\":\"3313*1\",\"preThickness\":\"0.092mm\",\"preLayer\":\"Prepreg\"}",
+        "contentKey": "impedanceContent_bf58c098771841818f5c6937a34ad726",
+        "sort": 2
+      },
+      {
+        "iaminationType": 3,
+        "content": "{\"coreBoardThickness3\":\"0.03mm\",\"coreBoardThickness2\":\"0.13mm\",\"coreBoardLayer1\":\"Inner Layer L2\",\"coreBoardThickness1\":\"0.03mm\",\"coreBoardRemark\":\"0.13mm 1/1OZ without copper\",\"coreBoardMaterialType1\":\"Copper\",\"coreBoardMaterialType2\":\"Core\",\"coreBoardMaterialType3\":\"Copper\",\"coreBoardLayer2\":\"Core\",\"coreBoardLayer3\":\"Inner Layer L3\"}",
+        "contentKey": "impedanceContent_d3d9bf46f9f74801bd38be6f727adfe7",
+        "sort": 3
+      },
+      {
+        "iaminationType": 2,
+        "content": "{\"preMaterialType\":\"7628*1\",\"preThickness\":\"0.203mm\",\"preLayer\":\"Prepreg\"}",
+        "contentKey": "impedanceContent_88d7b9896362480c9deac4e84ebb9324",
+        "sort": 4
+      },
+      {
+        "iaminationType": 2,
+        "content": "{\"preMaterialType\":\"7628*1\",\"preThickness\":\"0.203mm\",\"preLayer\":\"Prepreg\"}",
+        "contentKey": "impedanceContent_67f5d975f4ca44418a764600f3bcc6e8",
+        "sort": 5
+      },
+      {
+        "iaminationType": 3,
+        "content": "{\"coreBoardThickness3\":\"0.03mm\",\"coreBoardThickness2\":\"0.13mm\",\"coreBoardLayer1\":\"Inner Layer L4\",\"coreBoardThickness1\":\"0.03mm\",\"coreBoardRemark\":\"0.13mm 1/1OZ without copper\",\"coreBoardMaterialType1\":\"Copper\",\"coreBoardMaterialType2\":\"Core\",\"coreBoardMaterialType3\":\"Copper\",\"coreBoardLayer2\":\"Core\",\"coreBoardLayer3\":\"Inner Layer L5\"}",
+        "contentKey": "impedanceContent_ecb480bdc53441dbb617185296ea20fc",
+        "sort": 6
+      },
+      {
+        "iaminationType": 2,
+        "content": "{\"preMaterialType\":\"7628*1\",\"preThickness\":\"0.203mm\",\"preLayer\":\"Prepreg\"}",
+        "contentKey": "impedanceContent_dbb727ac10e74b59b06176606cb7b990",
+        "sort": 7
+      },
+      {
+        "iaminationType": 2,
+        "content": "{\"preMaterialType\":\"7628*1\",\"preThickness\":\"0.203mm\",\"preLayer\":\"Prepreg\"}",
+        "contentKey": "impedanceContent_a21f239dfdfc42a2aca05ede2e7cecd6",
+        "sort": 8
+      },
+      {
+        "iaminationType": 3,
+        "content": "{\"coreBoardThickness3\":\"0.03mm\",\"coreBoardThickness2\":\"0.13mm\",\"coreBoardLayer1\":\"Inner Layer L6\",\"coreBoardThickness1\":\"0.03mm\",\"coreBoardRemark\":\"0.13mm 1/1OZ without copper\",\"coreBoardMaterialType1\":\"Copper\",\"coreBoardMaterialType2\":\"Core\",\"coreBoardMaterialType3\":\"Copper\",\"coreBoardLayer2\":\"Core\",\"coreBoardLayer3\":\"Inner Layer L7\"}",
+        "contentKey": "impedanceContent_17d81047549b40f08178654ff6eefe30",
+        "sort": 9
+      },
+      {
+        "iaminationType": 2,
+        "content": "{\"preMaterialType\":\"3313*1\",\"preThickness\":\"0.092mm\",\"preLayer\":\"Prepreg\"}",
+        "contentKey": "impedanceContent_4451b598c02241429df29b1348189a3a",
+        "sort": 10
+      },
+      {
+        "iaminationType": 1,
+        "content": "{\"LineThickness\":\"0.035mm\",\"LineLayer\":\"Bottom Layer\",\"lineMaterialType\":\"Copper\"}",
+        "contentKey": "impedanceContent_8cf5394a38a8471a8e3dab8f9c29afb3",
+        "sort": 11
+      }
+    ],
+    "impedanceTemplateCode": "20221102070712770",
+    "laminationType": 2,
+    "compressionThickness": 1.636,
+    "plateType": 1,
+    "delamination": false,
+    "innerLayerCoverlay": false,
+    "pricePanelFixedFeeVO": {
+      "fixedFeeFlag": true,
+      "fixedFeeFlagBatch": null
+    }
+  }
+}

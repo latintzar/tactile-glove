@@ -1,0 +1,347 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "source_hashes": {
+    "components": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+    "board": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+    "cost_rows": "5db4cba61b09b597cd0bafbd64c1847a66d00177b41d6452a1d019401c5f0ae2",
+    "system_contract": "cc72b763f5e9162337ff957ae959a85fe5405dfe37d6038f2e1659069fd382e0"
+  },
+  "current_board": {
+    "placements": 561,
+    "unique_mpn": 107,
+    "subsystems": {
+      "tactile": 343,
+      "power": 161,
+      "camera": 37,
+      "imu": 5,
+      "sd": 15
+    },
+    "placement_sides": {
+      "F.Cu": 183,
+      "B.Cu": 378
+    },
+    "physical_pad_types": {
+      "smd": 1892,
+      "np_thru_hole": 3,
+      "thru_hole": 20
+    },
+    "joint_count_note": "Physical pad count from canonical KiCad; includes separate exposed-pad lands. Vendor billed count may differ."
+  },
+  "historical_component_subset": {
+    "usd": 54.5377,
+    "mpn_rows": 35,
+    "placements": 414,
+    "costs": [
+      {
+        "mpn": "MCP33131D-10-I/MS",
+        "qty": 1,
+        "historical_usd_extension": 12.2511,
+        "source": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP33131D-Data-Sheet-DS20005947B.pdf"
+      },
+      {
+        "mpn": "MCP6004T-I/ST",
+        "qty": 15,
+        "historical_usd_extension": 8.3895,
+        "source": "https://store.comet.bg/Catalogue/Product/82685/"
+      },
+      {
+        "mpn": "C0603C153J3GACAUTO",
+        "qty": 20,
+        "historical_usd_extension": 6.938,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=C0603C153J3GACAUTO"
+      },
+      {
+        "mpn": "C0603C123J3GACAUTO",
+        "qty": 20,
+        "historical_usd_extension": 6.728,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=C0603C123J3GACAUTO"
+      },
+      {
+        "mpn": "CD74HC4067M",
+        "qty": 4,
+        "historical_usd_extension": 4.8008,
+        "source": "https://www.ti.com/lit/ds/symlink/cd74hct4067.pdf"
+      },
+      {
+        "mpn": "OPA320AIDBVR",
+        "qty": 2,
+        "historical_usd_extension": 2.734,
+        "source": "https://www.ti.com/product/OPA320"
+      },
+      {
+        "mpn": "OPA4323IPWR",
+        "qty": 1,
+        "historical_usd_extension": 1.7627,
+        "source": "https://www.ti.com/lit/ds/symlink/opa4323.pdf"
+      },
+      {
+        "mpn": "REF3330AIDBZR",
+        "qty": 1,
+        "historical_usd_extension": 1.6384,
+        "source": "https://www.ti.com/lit/ds/symlink/ref33.pdf"
+      },
+      {
+        "mpn": "BM06B-GHS-TBT(LF)(SN)",
+        "qty": 1,
+        "historical_usd_extension": 1.1839,
+        "source": "https://www.jst-mfg.com/product/index.php?series=308"
+      },
+      {
+        "mpn": "BM08B-GHS-TBT(LF)(SN)",
+        "qty": 4,
+        "historical_usd_extension": 1.1592,
+        "source": "https://www.jst-mfg.com/product/index.php?series=308"
+      },
+      {
+        "mpn": "BAV199,215",
+        "qty": 20,
+        "historical_usd_extension": 0.756,
+        "source": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf"
+      },
+      {
+        "mpn": "GRM1885C1H103JA01D",
+        "qty": 20,
+        "historical_usd_extension": 0.708,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM1885C1H103JA01D"
+      },
+      {
+        "mpn": "BM14B-GHS-TBT(LF)(SN)",
+        "qty": 1,
+        "historical_usd_extension": 0.6132,
+        "source": "https://www.jst-mfg.com/product/index.php?series=308"
+      },
+      {
+        "mpn": "GRM188R71C104KA01D",
+        "qty": 34,
+        "historical_usd_extension": 0.5814,
+        "source": "https://www.murata.com/en-us/products/capacitor/mlcc"
+      },
+      {
+        "mpn": "PMEG2010ER,115",
+        "qty": 3,
+        "historical_usd_extension": 0.5472,
+        "source": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+      },
+      {
+        "mpn": "GRM1885C1H222JA01D",
+        "qty": 20,
+        "historical_usd_extension": 0.41,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM1885C1H222JA01D"
+      },
+      {
+        "mpn": "SN74AHC595PWR",
+        "qty": 1,
+        "historical_usd_extension": 0.3629,
+        "source": "https://www.ti.com/lit/ds/symlink/sn74ahc595.pdf"
+      },
+      {
+        "mpn": "GRM188R71H104KA93D",
+        "qty": 28,
+        "historical_usd_extension": 0.3528,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM188R71H104KA93D"
+      },
+      {
+        "mpn": "CD74HC4052M",
+        "qty": 1,
+        "historical_usd_extension": 0.3292,
+        "source": "https://www.ti.com/product/CD74HC4052"
+      },
+      {
+        "mpn": "MCP6002T-I/SN",
+        "qty": 1,
+        "historical_usd_extension": 0.3034,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=MCP6002T-I%2FSN"
+      },
+      {
+        "mpn": "GRM1885C1H471JA01D",
+        "qty": 20,
+        "historical_usd_extension": 0.3,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM1885C1H471JA01D"
+      },
+      {
+        "mpn": "GRM188R61A105KA61D",
+        "qty": 7,
+        "historical_usd_extension": 0.2352,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM188R61A105KA61D"
+      },
+      {
+        "mpn": "RV0805FR-0722ML",
+        "qty": 20,
+        "historical_usd_extension": 0.224,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=RV0805FR-0722ML"
+      },
+      {
+        "mpn": "SM04B-SRSS-TB(LF)(SN)",
+        "qty": 1,
+        "historical_usd_extension": 0.2146,
+        "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+      },
+      {
+        "mpn": "TAJA685K010RNJ",
+        "qty": 1,
+        "historical_usd_extension": 0.2059,
+        "source": "https://datasheets.kyocera-avx.com/TAJ.pdf"
+      },
+      {
+        "mpn": "TLV75518PDBVR",
+        "qty": 1,
+        "historical_usd_extension": 0.2053,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=TLV75518PDBVR"
+      },
+      {
+        "mpn": "RC0603FR-0714K7L",
+        "qty": 40,
+        "historical_usd_extension": 0.192,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=RC0603FR-0714K7L"
+      },
+      {
+        "mpn": "RC0603FR-0710KL",
+        "qty": 40,
+        "historical_usd_extension": 0.144,
+        "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+      },
+      {
+        "mpn": "RC0603FR-0727K4L",
+        "qty": 40,
+        "historical_usd_extension": 0.1,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=RC0603FR-0727K4L"
+      },
+      {
+        "mpn": "RC0603FR-07100KL",
+        "qty": 37,
+        "historical_usd_extension": 0.0962,
+        "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+      },
+      {
+        "mpn": "GRM1885C1H102JA01D",
+        "qty": 2,
+        "historical_usd_extension": 0.0524,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM1885C1H102JA01D"
+      },
+      {
+        "mpn": "RC0603FR-0722RL",
+        "qty": 4,
+        "historical_usd_extension": 0.0096,
+        "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+      },
+      {
+        "mpn": "RC0603FR-0747RL",
+        "qty": 1,
+        "historical_usd_extension": 0.0035,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=RC0603FR-0747RL"
+      },
+      {
+        "mpn": "RC0603FR-074K7L",
+        "qty": 1,
+        "historical_usd_extension": 0.0032,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=RC0603FR-074K7L"
+      },
+      {
+        "mpn": "RC0603FR-072KL",
+        "qty": 1,
+        "historical_usd_extension": 0.0021,
+        "source": "https://jlcpcb.com/parts/componentSearch?searchTxt=RC0603FR-072KL"
+      }
+    ],
+    "excluded": "All unpriced rows, mixed currency Comet rows, minimum order/attrition, PCBs, assembly and external kit. Not a current quote."
+  },
+  "assembly_scenarios": {
+    "standard_loading_current_types_usd": 163.71,
+    "type_count_sensitivity": [
+      {
+        "unique_types": 107,
+        "standard_loading_usd": 163.71,
+        "delta_vs_current_usd": 0.0,
+        "status": "arithmetic_only; no replacement BOM exists for reduced type counts"
+      },
+      {
+        "unique_types": 80,
+        "standard_loading_usd": 122.4,
+        "delta_vs_current_usd": 41.31,
+        "status": "arithmetic_only; no replacement BOM exists for reduced type counts"
+      },
+      {
+        "unique_types": 60,
+        "standard_loading_usd": 91.8,
+        "delta_vs_current_usd": 71.91,
+        "status": "arithmetic_only; no replacement BOM exists for reduced type counts"
+      },
+      {
+        "unique_types": 40,
+        "standard_loading_usd": 61.2,
+        "delta_vs_current_usd": 102.51,
+        "status": "arithmetic_only; no replacement BOM exists for reduced type counts"
+      }
+    ],
+    "minimum_assembled_quantity": 2,
+    "economic_eligible_as_drawn": false,
+    "eligibility_blockers": [
+      "Current 8-layer PCB is outside Economic layer options.",
+      "Current TPS22950YBHR uses 0.4 mm BGA pitch, below Economic 0.5 mm threshold.",
+      "Single-sided placement, stackup and other quote eligibility must all be checked.",
+      "Current placement is double-sided: 183 front and 378 back components; Economic supports single-sided placement."
+    ],
+    "price_source": "https://jlcpcb.com/help/article/pcb-assembly-price"
+  },
+  "battery_screen": [
+    {
+      "name": "selected_Jauch_minimum",
+      "capacity_ah": 6.5,
+      "nominal_v": 3.6,
+      "battery_input_power_w": 3.110011,
+      "runtime_h": 6.019271314474451,
+      "meets_arithmetic_six_hours": true,
+      "status": "calculation_only; nominal candidate capacities are not guaranteed minimum capacity"
+    },
+    {
+      "name": "candidate_nominal_6Ah",
+      "capacity_ah": 6,
+      "nominal_v": 3.7,
+      "battery_input_power_w": 3.110011,
+      "runtime_h": 5.710590734244992,
+      "meets_arithmetic_six_hours": false,
+      "status": "calculation_only; nominal candidate capacities are not guaranteed minimum capacity"
+    },
+    {
+      "name": "candidate_nominal_4p8Ah",
+      "capacity_ah": 4.8,
+      "nominal_v": 3.7,
+      "battery_input_power_w": 3.110011,
+      "runtime_h": 4.568472587395994,
+      "meets_arithmetic_six_hours": false,
+      "status": "calculation_only; nominal candidate capacities are not guaranteed minimum capacity"
+    }
+  ],
+  "wire_candidate": {
+    "baseline": "Alpha 5851 BK005 100ft spool",
+    "baseline_observed_goods_usd": 143.3,
+    "candidate": "2 \u00d7 Adafruit 3164 50ft spool",
+    "candidate_observed_goods_usd": 9.9,
+    "goods_difference_usd": 133.4,
+    "total_nominal_length_m": 30.48,
+    "stock_observation": "Adafruit in stock; Mouser US page111; quantities not reserved",
+    "unit_length_note": "Adafruit rounds50ft to15.2m; procure total100ft. Actual conductor cut schedule remains to close.",
+    "source": "https://www.adafruit.com/product/3164",
+    "decision": "candidate_for_harness_qualification",
+    "canonical_substitution_approved": false,
+    "open": [
+      "Sofia delivered quote",
+      "actual total cut length and markings",
+      "GH crimp pull/retention and strand count",
+      "insulation bond/strain relief",
+      "bundle fit and glove feel",
+      "cable capacitance/leakage/motion artifact under PVDF acquisition"
+    ]
+  },
+  "complete_delivered_totals_usd": {
+    "baseline": null,
+    "cost_reduced": null
+  },
+  "cost_ratio": null,
+  "price_target_met": false,
+  "candidate_qualified": false,
+  "threefold_reduction_achieved": false,
+  "manufacturing_ready": false,
+  "scope": "Sourcing/engineering cost screen. Baseline and cheaper complete glove remain unquoted and unreleased."
+}

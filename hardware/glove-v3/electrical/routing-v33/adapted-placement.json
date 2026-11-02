@@ -1,0 +1,302 @@
+[
+  {
+    "ref": "U_REF",
+    "position": [
+      58.0,
+      42.5
+    ],
+    "angle": 270,
+    "side": 0,
+    "score": 0.5
+  },
+  {
+    "ref": "C_ADC_REF",
+    "position": [
+      55.5,
+      44.5
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 0.3
+  },
+  {
+    "ref": "R_VEXC_H",
+    "position": [
+      54.0,
+      55.0
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 1.0
+  },
+  {
+    "ref": "R_VEXC_L",
+    "position": [
+      54.0,
+      57.0
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 2.7
+  },
+  {
+    "ref": "R_VMID_IN",
+    "position": [
+      60.0,
+      57.0
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 0.7
+  },
+  {
+    "ref": "D_LDO_REV",
+    "position": [
+      64.0,
+      55.5
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 1.0
+  },
+  {
+    "ref": "R_VEXC_ISO",
+    "position": [
+      51.5,
+      55.0
+    ],
+    "angle": 90,
+    "side": 1,
+    "score": 3.2
+  },
+  {
+    "ref": "R_VEXC_FB",
+    "position": [
+      56.5,
+      55.0
+    ],
+    "angle": 90,
+    "side": 1,
+    "score": 3.5
+  },
+  {
+    "ref": "C_VEXC_FB",
+    "position": [
+      50.5,
+      57.5
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 5.0011626335213135
+  },
+  {
+    "ref": "C_VEXC",
+    "position": [
+      49.5,
+      55.0
+    ],
+    "angle": 90,
+    "side": 1,
+    "score": 5.2
+  },
+  {
+    "ref": "D_CLAMP_I1",
+    "position": [
+      4.0,
+      11.0
+    ],
+    "angle": 180,
+    "side": 0,
+    "score": 3.411370276903731
+  },
+  {
+    "ref": "D_CLAMP_I2",
+    "position": [
+      11.5,
+      22.5
+    ],
+    "angle": 90,
+    "side": 1,
+    "score": 2.6600075301034023
+  },
+  {
+    "ref": "D_CLAMP_I3",
+    "position": [
+      18.5,
+      19.5
+    ],
+    "angle": 180,
+    "side": 1,
+    "score": 3.0623346502983013
+  },
+  {
+    "ref": "D_CLAMP_M1",
+    "position": [
+      18.5,
+      10.5
+    ],
+    "angle": 90,
+    "side": 1,
+    "score": 5.4807556934024575
+  },
+  {
+    "ref": "D_CLAMP_M2",
+    "position": [
+      21.5,
+      11.0
+    ],
+    "angle": 0,
+    "side": 0,
+    "score": 3.111370276903731
+  },
+  {
+    "ref": "D_CLAMP_M3",
+    "position": [
+      29.0,
+      22.5
+    ],
+    "angle": 180,
+    "side": 1,
+    "score": 2.960007530103402
+  },
+  {
+    "ref": "D_CLAMP_R1",
+    "position": [
+      36.0,
+      19.5
+    ],
+    "angle": 180,
+    "side": 1,
+    "score": 3.0623346502983013
+  },
+  {
+    "ref": "D_CLAMP_R2",
+    "position": [
+      36.0,
+      10.0
+    ],
+    "angle": 90,
+    "side": 0,
+    "score": 4.909747956871107
+  },
+  {
+    "ref": "D_CLAMP_R3",
+    "position": [
+      37.0,
+      10.5
+    ],
+    "angle": 90,
+    "side": 1,
+    "score": 5.197846707036604
+  },
+  {
+    "ref": "D_CLAMP_L1",
+    "position": [
+      44.5,
+      23.5
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 3.230933622203474
+  },
+  {
+    "ref": "D_CLAMP_L2",
+    "position": [
+      53.5,
+      19.5
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 3.362334650298301
+  },
+  {
+    "ref": "D_CLAMP_L3",
+    "position": [
+      53.0,
+      10.5
+    ],
+    "angle": 0,
+    "side": 0,
+    "score": 4.293090378736508
+  },
+  {
+    "ref": "D_CLAMP_T1",
+    "position": [
+      54.5,
+      10.5
+    ],
+    "angle": 180,
+    "side": 1,
+    "score": 5.197846707036604
+  },
+  {
+    "ref": "D_CLAMP_T2",
+    "position": [
+      64.0,
+      22.5
+    ],
+    "angle": 0,
+    "side": 1,
+    "score": 2.960007530103402
+  },
+  {
+    "ref": "D_CLAMP_P1",
+    "position": [
+      71.0,
+      19.5
+    ],
+    "angle": 270,
+    "side": 1,
+    "score": 3.0623346502983013
+  },
+  {
+    "ref": "D_CLAMP_P2",
+    "position": [
+      70.0,
+      11.5
+    ],
+    "angle": 0,
+    "side": 0,
+    "score": 3.674999999999997
+  },
+  {
+    "ref": "D_CLAMP_P3",
+    "position": [
+      74.0,
+      11.0
+    ],
+    "angle": 180,
+    "side": 0,
+    "score": 3.111370276903732
+  },
+  {
+    "ref": "D_CLAMP_P4",
+    "position": [
+      81.5,
+      22.5
+    ],
+    "angle": 180,
+    "side": 1,
+    "score": 2.6600075301034023
+  },
+  {
+    "ref": "D_CLAMP_H1",
+    "position": [
+      87.5,
+      22.0
+    ],
+    "angle": 0,
+    "side": 0,
+    "score": 4.353805806418103
+  },
+  {
+    "ref": "D_CLAMP_H2",
+    "position": [
+      86.5,
+      11.5
+    ],
+    "angle": 0,
+    "side": 0,
+    "score": 2.674999999999997
+  }
+]

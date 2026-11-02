@@ -1,0 +1,968 @@
+{
+  "status": "pass",
+  "components": 160,
+  "unique_footprints": 21,
+  "method": "All used footprints loaded by KiCad7; every unique physical pad number equals circuit pin set; geometry and copper clearance checked separately during board DRC",
+  "parts": [
+    {
+      "ref": "J_USB",
+      "footprint": "USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "unique_pins": 17,
+      "sha256": "582a1c5e754ec3fe27e49075b4d028ca040c34d680ebb26aa414a5675c04f741"
+    },
+    {
+      "ref": "C_USB_RAW",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_USB_RECOVERY",
+      "footprint": "TI_YBH0006_C02",
+      "unique_pins": 6,
+      "sha256": "90864733a929b4b8b9e163089e838599eeb2e4a755dd6c6f4cc54069b157c3ed"
+    },
+    {
+      "ref": "R_USB_RECOVERY_ILIM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_RECOVERY_ON",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_USB_SUSPEND",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "U_USB_HIGH",
+      "footprint": "SOT-23-6",
+      "unique_pins": 6,
+      "sha256": "4eb0a8e17345bdb60fee17f13a801a6ddcfd371f90fcde5f1879dcd023857eaf"
+    },
+    {
+      "ref": "R_USB_HIGH_ILIM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_CC_ILIM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_USB_CC_ILIM",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_USB_HIGH_ON",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_LIMIT_FAULT_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_RECOVERY_FAULT_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_USB_LIMITED",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_CC",
+      "footprint": "Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "unique_pins": 12,
+      "sha256": "41e208f83eb0fab85512c930b702f974e8af886165fadb2d7519d3252a5e8e3d"
+    },
+    {
+      "ref": "C_CC",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "R_CC_VBUS",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_CC_OUT1",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_CC_OUT2",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "U_CC_HIGH",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_CC_HIGH",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_CC_ATTACH",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_CC_ATTACH",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_CFG_CLEAR",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_CFG_CLEAR",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_CFG_RESET",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_CFG_RESET",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_USB_CFG",
+      "footprint": "VSSOP-8_2.3x2mm_P0.5mm",
+      "unique_pins": 8,
+      "sha256": "b82bc33e71b4828242d9ffa303847773586b7eb1d99931ad283a94453b58689f"
+    },
+    {
+      "ref": "C_USB_CFG",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_USB_ALLOW",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_USB_ALLOW",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_USB_NOSUSP",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_USB_NOSUSP",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_USB_ON",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_USB_ON",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_CHARGER",
+      "footprint": "TI_RTW0024_BQ25616",
+      "unique_pins": 25,
+      "sha256": "d367c696711c299fda341f55c83e2a5028fb69cf9f04853ab710418c97f20834"
+    },
+    {
+      "ref": "R_CHG_ICHG",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_CHG_ILIM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_CHG_BTST",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "C_CHG_REGN",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_CHG_PMID",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_BAT",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_SYS0",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_SYS1",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "L_CHARGER",
+      "footprint": "Coilcraft_XFL4020",
+      "unique_pins": 2,
+      "sha256": "29e7a1d90a516abc72c9f7d277e56b43e4956bb865fac128178216c4f0e926c0"
+    },
+    {
+      "ref": "L_MAIN",
+      "footprint": "Coilcraft_XFL4020",
+      "unique_pins": 2,
+      "sha256": "29e7a1d90a516abc72c9f7d277e56b43e4956bb865fac128178216c4f0e926c0"
+    },
+    {
+      "ref": "R_CHG_STAT_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_PG_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "J_BAT",
+      "footprint": "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "unique_pins": 2,
+      "sha256": "1af3334885ac84d2bc4af629b29fc3dddc25ee1453bb67e20fb8dfdaee358a64"
+    },
+    {
+      "ref": "J_NTC",
+      "footprint": "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "unique_pins": 2,
+      "sha256": "1af3334885ac84d2bc4af629b29fc3dddc25ee1453bb67e20fb8dfdaee358a64"
+    },
+    {
+      "ref": "R_TS_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_TS_BOTTOM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_TS",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_BAT_WINDOW",
+      "footprint": "VSSOP-8_3x3mm_P0.65mm",
+      "unique_pins": 8,
+      "sha256": "5a438874423a6191e51d5928f03663b8e13ff46a0226ba97b89dade4534b34de"
+    },
+    {
+      "ref": "C_BAT_WINDOW",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "R_NTC_COLD_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_NTC_COLD_BOT",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_NTC_HOT_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_NTC_HOT_BOT",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_NTC_PULL",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_NTC_COLD_HYST",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_NTC_HOT_HYST",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_CHG_ENABLE",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_CHG_CE",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_CHG_DISABLE",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "U_MAIN",
+      "footprint": "TI_RNM0015A",
+      "unique_pins": 15,
+      "sha256": "ff69f707eefa0ba7efa727425b1853d3ba3cd80f27a62128cea1f93793b2e8fa"
+    },
+    {
+      "ref": "R_MAIN_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_MAIN_BOT",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_MAIN_EN_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_MAIN_EN_BOT",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_MAIN_AUX",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "C_MAIN_IN0",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_MAIN_IN1",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_MAIN_OUT0",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_MAIN_OUT1",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_MAIN_OUT2",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_MAIN_LOCAL_IN",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "C_MAIN_LOCAL_OUT",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "R_MAIN_PG",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "U_BAT_READY",
+      "footprint": "SOT-23-6",
+      "unique_pins": 6,
+      "sha256": "4eb0a8e17345bdb60fee17f13a801a6ddcfd371f90fcde5f1879dcd023857eaf"
+    },
+    {
+      "ref": "C_BAT_READY",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "R_READY_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_READY_BOTTOM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_READY_HYST",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "U_BOOT_SOURCE",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_BOOT_SOURCE",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_BOOT_PG",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_BOOT_PG",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "R_BOOT_DELAY",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_BOOT_DELAY",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_BOOT_SCHMITT",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_BOOT_SCHMITT",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_ANALOG_LDO",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_ANALOG_IN",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_ANALOG_OUT0",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_ANALOG_OUT1",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "C_ANALOG_OUT2",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "R_ANALOG_EN",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_REF_FEED",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_REF_GATE",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_REF_GATE",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_REF_FILTER",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_REF_SUPPLY",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_ANALOG_OFF",
+      "footprint": "SOT-23-5",
+      "unique_pins": 5,
+      "sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7"
+    },
+    {
+      "ref": "C_U_ANALOG_OFF",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "Q_VREF_BLEED_OUT",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_VREF_BLEED_OUT",
+      "footprint": "R_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "5a41dc236eebf1add9cb10c611da055be50c6b418cb55746a676aecce1154da9"
+    },
+    {
+      "ref": "R_VREF_GATE_OUT",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_VREF_BLEED_IN",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_VREF_BLEED_IN",
+      "footprint": "R_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "5a41dc236eebf1add9cb10c611da055be50c6b418cb55746a676aecce1154da9"
+    },
+    {
+      "ref": "R_VREF_GATE_IN",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_BAT_MEAS",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_BAT_MEAS_GATE",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "Q_BAT_MEAS_GATE",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "R_BAT_ADC_TOP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_BAT_ADC_BOTTOM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_BAT_ADC",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_MCU",
+      "footprint": "ESP32-S3-WROOM-1",
+      "unique_pins": 41,
+      "sha256": "dffd5a2246568f1f4d5b271e7d7f2b137b28604bdcae91761a9feee02998c877"
+    },
+    {
+      "ref": "C_MCU",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "footprint": "C_0805_2012Metric",
+      "unique_pins": 2,
+      "sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df"
+    },
+    {
+      "ref": "R_BOOT0",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_STRAP45",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_STRAP46",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_MUX_LATCH",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_DP",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_USB_DM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_I2C_SDA",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_I2C_SCL",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "SW_USER",
+      "footprint": "SW_PTS636_SK43_G",
+      "unique_pins": 2,
+      "sha256": "030e1860f6ca8f3bcf5b6f81cec49bf2a8267d227a247191568ca73275737985"
+    },
+    {
+      "ref": "R_BUTTON_SERIES",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_BUTTON_PULL",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "C_BUTTON",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_IO0",
+      "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm",
+      "unique_pins": 24,
+      "sha256": "06f0d10ccdc5b06f5331a2bebd6ad8f38b1454a1588af26d5ae132542a978723"
+    },
+    {
+      "ref": "C_IO0",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "U_IO1",
+      "footprint": "TSSOP-24_4.4x7.8mm_P0.65mm",
+      "unique_pins": 24,
+      "sha256": "06f0d10ccdc5b06f5331a2bebd6ad8f38b1454a1588af26d5ae132542a978723"
+    },
+    {
+      "ref": "C_IO1",
+      "footprint": "C_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0"
+    },
+    {
+      "ref": "R_DEFAULT_LED_R_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_LED_G_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_LED_B_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_BAT_DIV_EN",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_REG_PFM",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_USB_CONFIG_SET",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_USB_CONFIG_CLR_N",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_USB_SUSPEND",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_DEFAULT_CHG_DISABLE",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_UNUSED_P07",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_SPARE0",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_SPARE1",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_SPARE2",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_SPARE3",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_SPARE4",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_IO1_SPARE5",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "D_RGB",
+      "footprint": "Kingbright_APTF1616",
+      "unique_pins": 4,
+      "sha256": "50e3af926a132185f6aea4cc6b57bf4f869b6e62792616df2410890cffc11066"
+    },
+    {
+      "ref": "R_LED_R",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_LED_G",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "R_LED_B",
+      "footprint": "R_0603_1608Metric",
+      "unique_pins": 2,
+      "sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11"
+    },
+    {
+      "ref": "D_USB_DATA",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "D_USB_CC",
+      "footprint": "SOT-23",
+      "unique_pins": 3,
+      "sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344"
+    },
+    {
+      "ref": "D_REF_REVERSE",
+      "footprint": "Nexperia_CFP3_SOD123W",
+      "unique_pins": 2,
+      "sha256": "d1f8a0c20aba79feee04d55ce19bc509aee1c1a8919bebe20bad41a98f65d859"
+    },
+    {
+      "ref": "D_ANALOG_REVERSE",
+      "footprint": "Nexperia_CFP3_SOD123W",
+      "unique_pins": 2,
+      "sha256": "d1f8a0c20aba79feee04d55ce19bc509aee1c1a8919bebe20bad41a98f65d859"
+    }
+  ]
+}

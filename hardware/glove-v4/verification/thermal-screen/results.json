@@ -1,0 +1,6026 @@
+{
+  "schema": 2,
+  "script_sha256": "66255e6328f2dfeb758374094790ad5a15f15430d2f97347edc05f7f9e9212dd",
+  "sources_sha256": "f9594d49fa09a638650377144b1e60cc6f306e863bcd3c797ea113ae87cb718b",
+  "analysis": "five-node nonlinear steady-state thermal resistance screening",
+  "FEA": false,
+  "physical_validation": false,
+  "date": "2026-10-23",
+  "input_sha256": {
+    "verification/energy-budget.json": "6b70cb4027bef60d22b2f70d466c2426336e1c4baa0b303bc4ee1c3b39372049",
+    "power/power-check-results.json": "48ac7fd15dda6bee30d3e55f2545139d2afad3150ef3b21a84a680c9cbcb535a",
+    "power/battery-path-check-results.json": "17835bd5827cbbcc98eb6baab9aa87e8bcb49d403c4192ebd689d3ec3f8b32a4",
+    "power/firmware-contract.json": "7f9deb3e989796e0a10aab763a091393189a43efea675ed532463f8861436c9f",
+    "enclosure/clearance-report.json": "2cad3733d6e6364f0739e8cda0739a779967e386c364a6b2f69a9a15635c5ab8",
+    "enclosure/print-manifest.json": "e2061964d4b1e8951f1b93d2824022641c11b82c4815adc103861076f407b5d1"
+  },
+  "geometry": {
+    "case_mm": [
+      112,
+      104,
+      45.5
+    ],
+    "assembly_mm": [
+      112,
+      105.6,
+      47.1
+    ],
+    "shell_exposed_top_sides_m2": 0.03043700858012569,
+    "base_m2": 0.01156215926535898,
+    "battery_foam_effective_area_m2": 0.0024882000000000007,
+    "window_carrier_surface_credit": false
+  },
+  "nodes": [
+    "electronics_mean",
+    "pack_mean",
+    "exposed_shell_mean",
+    "wrist_facing_base_mean",
+    "internal_air_mean"
+  ],
+  "power_ranges": {
+    "recording_duty": {
+      "additional_entropic_heat_w": [
+        0,
+        0.1
+      ],
+      "battery_current_A": [
+        0.7625988969999999,
+        0.7625988969999999
+      ],
+      "battery_output_w": [
+        2.440316,
+        2.440316
+      ],
+      "electronics_heat_w": [
+        2.440316,
+        2.440316
+      ],
+      "pack_heat_w": [
+        0.017446712331168495,
+        0.18723356165584248
+      ],
+      "pack_internal_R_ohm": [
+        0.03,
+        0.15
+      ]
+    },
+    "recording_sustained": {
+      "additional_entropic_heat_w": [
+        0,
+        0.1
+      ],
+      "battery_current_A": [
+        0.971878526,
+        0.971878526
+      ],
+      "battery_output_w": [
+        3.110011,
+        3.110011
+      ],
+      "electronics_heat_w": [
+        3.110011,
+        3.110011
+      ],
+      "pack_heat_w": [
+        0.02833643607899798,
+        0.2416821803949899
+      ],
+      "pack_internal_R_ohm": [
+        0.03,
+        0.15
+      ]
+    },
+    "charging_acquisition_off": {
+      "USB_input_w": [
+        4.396490637939658,
+        6.740823947803172
+      ],
+      "USB_limit_A": [
+        1.146126045607367,
+        1.3481647895606341
+      ],
+      "USB_limiter_loss_w": [
+        0.10437730161925175,
+        0.24536902047449438
+      ],
+      "charge_current_A": [
+        0.9591665348196996,
+        1.2812812812812813
+      ],
+      "charge_setting_A": [
+        1.138861138861139,
+        1.2812812812812813
+      ],
+      "charger_efficiency": [
+        0.85,
+        0.94
+      ],
+      "charger_loss_w": [
+        0.2563268001792243,
+        0.9713182390993018
+      ],
+      "electronics_heat_w": [
+        0.7521349935840133,
+        2.0272649657151907
+      ],
+      "pack_heat_w": [
+        0.027600013245540896,
+        0.3462522582642703
+      ],
+      "pack_voltage_V": [
+        3.2,
+        4.2
+      ],
+      "stored_chemical_power_w": [
+        3.3498049403144314,
+        5.332130929728527
+      ],
+      "system_output_w": [
+        0.1,
+        0.4
+      ]
+    },
+    "charging_and_recording_duty": {
+      "USB_input_w": [
+        5.7306302280368335,
+        6.7408239478031735
+      ],
+      "USB_limit_A": [
+        1.146126045607367,
+        1.3481647895606341
+      ],
+      "USB_limiter_loss_w": [
+        0.17733666317664326,
+        0.24536902047449458
+      ],
+      "charge_current_A": [
+        0.5513618003574785,
+        1.1019919507446323
+      ],
+      "charge_setting_A": [
+        1.138861138861139,
+        1.2812812812812813
+      ],
+      "charger_efficiency": [
+        0.85,
+        0.94
+      ],
+      "charger_loss_w": [
+        0.33199761389161137,
+        0.9713182390993019
+      ],
+      "electronics_heat_w": [
+        2.9428625128093158,
+        3.734233909487367
+      ],
+      "pack_heat_w": [
+        0.009119995046803199,
+        0.282157938925894
+      ],
+      "pack_voltage_V": [
+        3.2,
+        4.2
+      ],
+      "stored_chemical_power_w": [
+        2.101291492417849,
+        3.5940122718106915
+      ],
+      "system_output_w": [
+        1.863856,
+        1.863856
+      ]
+    },
+    "charging_and_recording_sustained": {
+      "USB_input_w": [
+        5.7306302280368335,
+        6.740823947803172
+      ],
+      "USB_limit_A": [
+        1.146126045607367,
+        1.3481647895606341
+      ],
+      "USB_limiter_loss_w": [
+        0.17733666317664326,
+        0.24536902047449438
+      ],
+      "charge_current_A": [
+        0.4143182623460955,
+        0.9345154662284733
+      ],
+      "charge_setting_A": [
+        1.138861138861139,
+        1.2812812812812813
+      ],
+      "charger_efficiency": [
+        0.85,
+        0.94
+      ],
+      "charger_loss_w": [
+        0.3319976138916114,
+        0.9713182390993018
+      ],
+      "electronics_heat_w": [
+        3.512858920967755,
+        4.279629383574558
+      ],
+      "pack_heat_w": [
+        0.005149788675404639,
+        0.2309978734930331
+      ],
+      "pack_voltage_V": [
+        3.2,
+        4.2
+      ],
+      "stored_chemical_power_w": [
+        1.5747535584995282,
+        3.0399207699362094
+      ],
+      "system_output_w": [
+        2.344438,
+        2.344438
+      ]
+    },
+    "USB_charge_inhibited_acquisition_off": {
+      "USB_input_w": [
+        0.1531053060718911,
+        0.6102462567848145
+      ],
+      "USB_limit_A": [
+        1.146126045607367,
+        1.3481647895606341
+      ],
+      "USB_limiter_loss_w": [
+        0.00012658266763578428,
+        0.0020109626671673394
+      ],
+      "charge_current_A": [
+        0,
+        0
+      ],
+      "charge_setting_A": [
+        0,
+        0
+      ],
+      "charger_efficiency": [
+        0.85,
+        0.94
+      ],
+      "charger_loss_w": [
+        0.007978723404255317,
+        0.08823529411764708
+      ],
+      "electronics_heat_w": [
+        0.1531053060718911,
+        0.6102462567848145
+      ],
+      "pack_heat_w": [
+        0,
+        0
+      ],
+      "pack_voltage_V": [
+        3.6,
+        3.6
+      ],
+      "stored_chemical_power_w": [
+        0.0,
+        0.0
+      ],
+      "system_output_w": [
+        0.1,
+        0.4
+      ]
+    },
+    "USB_charge_inhibited_recording_duty": {
+      "USB_input_w": [
+        2.5331838244513105,
+        2.8034036962157147
+      ],
+      "USB_limit_A": [
+        1.146126045607367,
+        1.3481647895606341
+      ],
+      "USB_limiter_loss_w": [
+        0.03465190955769355,
+        0.04243899033336204
+      ],
+      "charge_current_A": [
+        0,
+        0
+      ],
+      "charge_setting_A": [
+        0,
+        0
+      ],
+      "charger_efficiency": [
+        0.85,
+        0.94
+      ],
+      "charger_loss_w": [
+        0.14871191489361696,
+        0.41114470588235297
+      ],
+      "electronics_heat_w": [
+        2.53318382445131,
+        2.8034036962157147
+      ],
+      "pack_heat_w": [
+        0,
+        0
+      ],
+      "pack_voltage_V": [
+        3.6,
+        3.6
+      ],
+      "stored_chemical_power_w": [
+        0.0,
+        0.0
+      ],
+      "system_output_w": [
+        1.863856,
+        1.863856
+      ]
+    },
+    "USB_charge_inhibited_recording_sustained": {
+      "USB_input_w": [
+        3.1926458562466644,
+        3.5351898026568387
+      ],
+      "USB_limit_A": [
+        1.146126045607367,
+        1.3481647895606341
+      ],
+      "USB_limiter_loss_w": [
+        0.055042132842408574,
+        0.06748686148036805
+      ],
+      "charge_current_A": [
+        0,
+        0
+      ],
+      "charge_setting_A": [
+        0,
+        0
+      ],
+      "charger_efficiency": [
+        0.85,
+        0.94
+      ],
+      "charger_loss_w": [
+        0.18705622340425523,
+        0.5171554411764706
+      ],
+      "electronics_heat_w": [
+        3.192645856246663,
+        3.5351898026568382
+      ],
+      "pack_heat_w": [
+        0,
+        0
+      ],
+      "pack_voltage_V": [
+        3.6,
+        3.6
+      ],
+      "stored_chemical_power_w": [
+        0.0,
+        0.0
+      ],
+      "system_output_w": [
+        2.344438,
+        2.344438
+      ]
+    }
+  },
+  "electrical_power_scenario_count": 408,
+  "thermal_solution_count": 18432,
+  "charge_hardware_hot_window_C": [
+    39.00785796313782,
+    41.233269019500725
+  ],
+  "charge_enabled_cases_are_unregulated_requested_power": true,
+  "thermal_release": false,
+  "recommended_disposition": "instrumented bench/phantom characterization; thermal path and operating envelope unresolved",
+  "optimistic_exposed_shell_heat_rejection_at40C_W": {
+    "25": [
+      3.588683414095882,
+      6.463197198402702
+    ],
+    "35": [
+      1.2327078101566975,
+      2.20060707304779
+    ],
+    "40": [
+      0.0,
+      0.0
+    ]
+  },
+  "thermal_cases": [
+    {
+      "mode": "recording_duty",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          45.39853413403575,
+          64.68460976990318
+        ],
+        "pack_mean": [
+          32.992590732943086,
+          46.04144870939873
+        ],
+        "exposed_shell_mean": [
+          28.365075766655668,
+          32.608772199636185
+        ],
+        "wrist_facing_base_mean": [
+          30.091161554480184,
+          37.04627779365702
+        ],
+        "internal_air_mean": [
+          33.77044981336832,
+          42.55951240752157
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 64.68460976990318,
+          "pack_mean": 46.04144870939873,
+          "exposed_shell_mean": 31.991583966207074,
+          "wrist_facing_base_mean": 36.08554885013486,
+          "internal_air_mean": 42.55951240752157
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 63.03400553082038,
+          "pack_mean": 41.494944665170216,
+          "exposed_shell_mean": 31.6159223543738,
+          "wrist_facing_base_mean": 37.04627779365702,
+          "internal_air_mean": 41.55399110618365
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          51.572631601248304,
+          79.61920752749931
+        ],
+        "pack_mean": [
+          42.09092858342149,
+          67.68867066915068
+        ],
+        "exposed_shell_mean": [
+          30.817591457953167,
+          36.114661124960534
+        ],
+        "wrist_facing_base_mean": [
+          43.63491250806256,
+          71.19930371859061
+        ],
+        "internal_air_mean": [
+          39.36862885111639,
+          55.906974110236696
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 79.40051785147688,
+          "pack_mean": 67.68867066915068,
+          "exposed_shell_mean": 36.11466112496051,
+          "wrist_facing_base_mean": 69.72554070343531,
+          "internal_air_mean": 55.706214586404535
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 79.61920752749931,
+          "pack_mean": 67.12343535718693,
+          "exposed_shell_mean": 36.114661124960506,
+          "wrist_facing_base_mean": 71.19930371859061,
+          "internal_air_mean": 55.906974110236696
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          49.310176595664956,
+          68.4560027450159
+        ],
+        "pack_mean": [
+          39.06431162181581,
+          51.57737054622343
+        ],
+        "exposed_shell_mean": [
+          29.310496050637504,
+          34.09764081977233
+        ],
+        "wrist_facing_base_mean": [
+          38.80626334384325,
+          46.00685173503339
+        ],
+        "internal_air_mean": [
+          37.328158402251255,
+          45.99071406770466
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 68.4560027450159,
+          "pack_mean": 51.57737054622343,
+          "exposed_shell_mean": 33.021853905207635,
+          "wrist_facing_base_mean": 45.23533396800158,
+          "internal_air_mean": 45.99071406770466
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.7490222645334385
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 68.01176613046853,
+          "pack_mean": 49.477665307004784,
+          "exposed_shell_mean": 32.807327994884226,
+          "wrist_facing_base_mean": 46.00685173503339,
+          "internal_air_mean": 45.636064057537226
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.8004567823355596
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          54.44272926175405,
+          72.7390829695559
+        ],
+        "pack_mean": [
+          42.68590191894117,
+          55.029381321892096
+        ],
+        "exposed_shell_mean": [
+          38.236538481451504,
+          42.167716132891876
+        ],
+        "wrist_facing_base_mean": [
+          39.8826589745211,
+          46.332155047843074
+        ],
+        "internal_air_mean": [
+          43.38189416396038,
+          51.660239161284444
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 72.7390829695559,
+          "pack_mean": 55.029381321892096,
+          "exposed_shell_mean": 41.60176882897643,
+          "wrist_facing_base_mean": 45.417073006834336,
+          "internal_air_mean": 51.660239161284444
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 71.13937872597333,
+          "pack_mean": 50.671120009547934,
+          "exposed_shell_mean": 41.244600555751965,
+          "wrist_facing_base_mean": 46.332155047843074,
+          "internal_air_mean": 50.6925104455673
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          60.40516971736169,
+          87.04599063026268
+        ],
+        "pack_mean": [
+          51.32672647828645,
+          75.50550903935108
+        ],
+        "exposed_shell_mean": [
+          40.57729226182715,
+          45.48003027166514
+        ],
+        "wrist_facing_base_mean": [
+          52.9394945346989,
+          79.06834732888426
+        ],
+        "internal_air_mean": [
+          48.76415077902862,
+          64.3795949156503
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 86.82043678500233,
+          "pack_mean": 75.50550903935108,
+          "exposed_shell_mean": 45.48003027166512,
+          "wrist_facing_base_mean": 77.58540406276907,
+          "internal_air_mean": 64.17642721064321
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 87.04599063026268,
+          "pack_mean": 74.93472212554737,
+          "exposed_shell_mean": 45.480030271665136,
+          "wrist_facing_base_mean": 79.06834732888426,
+          "internal_air_mean": 64.3795949156503
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          56.03840018579427,
+          73.73989221166856
+        ],
+        "pack_mean": [
+          45.14660085746173,
+          56.48889437649243
+        ],
+        "exposed_shell_mean": [
+          38.668591383138555,
+          42.492983728216146
+        ],
+        "wrist_facing_base_mean": [
+          43.2746718036316,
+          48.92458931598625
+        ],
+        "internal_air_mean": [
+          44.83094051922765,
+          52.569491121820235
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 73.73989221166856,
+          "pack_mean": 56.48889437649243,
+          "exposed_shell_mean": 41.86975667991158,
+          "wrist_facing_base_mean": 47.86226830281113,
+          "internal_air_mean": 52.569491121820235
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.9241512201874087
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 73.1544680248243,
+          "pack_mean": 53.663494212068215,
+          "exposed_shell_mean": 41.58978443535547,
+          "wrist_facing_base_mean": 48.92458931598625,
+          "internal_air_mean": 52.10308715087786
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.9949726210657502
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          58.978396059624764,
+          76.79848213454834
+        ],
+        "pack_mean": [
+          47.53503831910979,
+          59.540980846213856
+        ],
+        "exposed_shell_mean": [
+          43.17292721078003,
+          46.9562346660284
+        ],
+        "wrist_facing_base_mean": [
+          44.77986280933311,
+          50.989608810339845
+        ],
+        "internal_air_mean": [
+          48.19221760018829,
+          56.22653372195966
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 76.79848213454834,
+          "pack_mean": 59.540980846213856,
+          "exposed_shell_mean": 46.41437508314829,
+          "wrist_facing_base_mean": 50.096948334853984,
+          "internal_air_mean": 56.22653372195966
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 75.22300099096203,
+          "pack_mean": 55.274612373178286,
+          "exposed_shell_mean": 46.0662657187446,
+          "wrist_facing_base_mean": 50.989608810339845,
+          "internal_air_mean": 55.27708975024938
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          64.83636236282251,
+          90.80052166693348
+        ],
+        "pack_mean": [
+          55.95325422704068,
+          79.45189731064193
+        ],
+        "exposed_shell_mean": [
+          45.459006952804835,
+          50.175306549790875
+        ],
+        "wrist_facing_base_mean": [
+          57.597773956360115,
+          83.03810974641672
+        ],
+        "internal_air_mean": [
+          53.46840230217441,
+          68.64209664864632
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 90.57178647723413,
+          "pack_mean": 79.45189731064193,
+          "exposed_shell_mean": 50.17530654979085,
+          "wrist_facing_base_mean": 81.55198145036799,
+          "internal_air_mean": 68.43792216793538
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 90.80052166693348,
+          "pack_mean": 78.87891417754906,
+          "exposed_shell_mean": 50.17530654979085,
+          "wrist_facing_base_mean": 83.03810974641672,
+          "internal_air_mean": 68.64209664864632
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_duty",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          59.44615927039538,
+          76.44173177519794
+        ],
+        "pack_mean": [
+          48.25392366220144,
+          59.022503175305864
+        ],
+        "exposed_shell_mean": [
+          43.35568398987541,
+          46.734906983986995
+        ],
+        "wrist_facing_base_mean": [
+          45.5561031599658,
+          50.48477440634911
+        ],
+        "internal_air_mean": [
+          48.616656321068966,
+          55.90264595198828
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 76.44173177519794,
+          "pack_mean": 59.022503175305864,
+          "exposed_shell_mean": 46.319797390032164,
+          "wrist_facing_base_mean": 49.22224272502456,
+          "internal_air_mean": 55.90264595198828
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.014816181668304
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 74.98504952241301,
+          "pack_mean": 54.86809979703705,
+          "exposed_shell_mean": 45.995915179782095,
+          "wrist_facing_base_mean": 50.48477440634911,
+          "internal_air_mean": 55.061679372115236
+        },
+        "heat_w": [
+          2.440316,
+          0.18723356165584248
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.098984960423274
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          50.65214013709186,
+          74.23032906602857
+        ],
+        "pack_mean": [
+          35.188618559703826,
+          51.474629237097155
+        ],
+        "exposed_shell_mean": [
+          29.2881519073074,
+          34.642333330837815
+        ],
+        "wrist_facing_base_mean": [
+          31.489308400562862,
+          40.20666603451029
+        ],
+        "internal_air_mean": [
+          36.08729258746902,
+          46.959519408565065
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 74.23032906602857,
+          "pack_mean": 51.474629237097155,
+          "exposed_shell_mean": 33.87267592000537,
+          "wrist_facing_base_mean": 39.00074199922067,
+          "internal_air_mean": 46.959519408565065
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 72.21169116419685,
+          "pack_mean": 45.81094618167752,
+          "exposed_shell_mean": 33.39765474296277,
+          "wrist_facing_base_mean": 40.20666603451029,
+          "internal_air_mean": 45.71440080902476
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          58.3308323056435,
+          92.18673741350997
+        ],
+        "pack_mean": [
+          46.618858226101494,
+          77.7802502211206
+        ],
+        "exposed_shell_mean": [
+          32.40352517382584,
+          39.05047241627323
+        ],
+        "wrist_facing_base_mean": [
+          48.60364773261112,
+          82.2978365303155
+        ],
+        "internal_air_mean": [
+          43.129626517653236,
+          63.29712341170356
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 91.90294085724646,
+          "pack_mean": 77.7802502211206,
+          "exposed_shell_mean": 39.050472416273216,
+          "wrist_facing_base_mean": 80.4246515198019,
+          "internal_air_mean": 63.04127469690329
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 92.18673741350997,
+          "pack_mean": 77.05504194527222,
+          "exposed_shell_mean": 39.05047241627321,
+          "wrist_facing_base_mean": 82.2978365303155,
+          "internal_air_mean": 63.29712341170356
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          54.97392275324118,
+          78.18379622065467
+        ],
+        "pack_mean": [
+          41.99458440082173,
+          57.4027558333815
+        ],
+        "exposed_shell_mean": [
+          30.37467280872471,
+          36.24095384664936
+        ],
+        "wrist_facing_base_mean": [
+          41.25836220308756,
+          49.98270245517739
+        ],
+        "internal_air_mean": [
+          40.069798116224256,
+          50.6435604883149
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 78.18379622065467,
+          "pack_mean": 57.4027558333815,
+          "exposed_shell_mean": 34.99924727687258,
+          "wrist_facing_base_mean": 48.938505217513644,
+          "internal_air_mean": 50.6435604883149
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.9959003478342429
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 77.62376884638724,
+          "pack_mean": 54.637101545466486,
+          "exposed_shell_mean": 34.71230286591721,
+          "wrist_facing_base_mean": 49.98270245517739,
+          "internal_air_mean": 50.18472507955307
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.0655134970118258
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          59.46408112210185,
+          81.87481015910137
+        ],
+        "pack_mean": [
+          44.79925219078095,
+          60.22062603637349
+        ],
+        "exposed_shell_mean": [
+          39.12431366576843,
+          44.0867427062818
+        ],
+        "wrist_facing_base_mean": [
+          41.223225376330404,
+          49.31350068485798
+        ],
+        "internal_air_mean": [
+          45.60024508124105,
+          55.85340726932049
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 81.87481015910137,
+          "pack_mean": 60.22062603637349,
+          "exposed_shell_mean": 43.38009556061449,
+          "wrist_facing_base_mean": 48.163837155353825,
+          "internal_air_mean": 55.85340726932049
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 79.91293157784348,
+          "pack_mean": 54.78457286119212,
+          "exposed_shell_mean": 42.928252364077366,
+          "wrist_facing_base_mean": 49.31350068485798,
+          "internal_air_mean": 54.653010672424436
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          66.88681280163858,
+          99.124890361383
+        ],
+        "pack_mean": [
+          55.65979005267017,
+          85.1573491822034
+        ],
+        "exposed_shell_mean": [
+          42.098195916366514,
+          48.25448662563968
+        ],
+        "wrist_facing_base_mean": [
+          57.72712229857489,
+          89.72847766358828
+        ],
+        "internal_air_mean": [
+          52.373926856556665,
+          71.45235072415096
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 98.83379070674503,
+          "pack_mean": 85.1573491822034,
+          "exposed_shell_mean": 48.25448662563964,
+          "wrist_facing_base_mean": 87.84884814704454,
+          "internal_air_mean": 71.19427888723173
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 99.124890361383,
+          "pack_mean": 84.42740966139523,
+          "exposed_shell_mean": 48.25448662563968,
+          "wrist_facing_base_mean": 89.72847766358828,
+          "internal_air_mean": 71.45235072415096
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          61.52773907261005,
+          83.20850328042576
+        ],
+        "pack_mean": [
+          48.025501692843676,
+          62.205206530703435
+        ],
+        "exposed_shell_mean": [
+          39.69460853748976,
+          44.54128592500126
+        ],
+        "wrist_facing_base_mean": [
+          45.70334662567354,
+          52.867002477227096
+        ],
+        "internal_air_mean": [
+          47.497863752688474,
+          57.09319222710608
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 83.20850328042576,
+          "pack_mean": 62.205206530703435,
+          "exposed_shell_mean": 43.75203376647846,
+          "wrist_facing_base_mean": 51.535136276248146,
+          "internal_air_mean": 57.09319222710608
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.1690090850832098
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 82.52376926284212,
+          "pack_mean": 58.75603203608068,
+          "exposed_shell_mean": 43.40495311200148,
+          "wrist_facing_base_mean": 52.867002477227096,
+          "internal_air_mean": 56.53391172879095
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.2578001651484731
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          63.88671508243636,
+          85.7346582141925
+        ],
+        "pack_mean": [
+          49.60772688705672,
+          64.61500989491896
+        ],
+        "exposed_shell_mean": [
+          44.043250796600766,
+          48.82024234506616
+        ],
+        "wrist_facing_base_mean": [
+          46.09208329855326,
+          53.88481319529272
+        ],
+        "internal_air_mean": [
+          50.362426543567636,
+          60.319522857772746
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 85.7346582141925,
+          "pack_mean": 64.61500989491896,
+          "exposed_shell_mean": 48.14325053737639,
+          "wrist_facing_base_mean": 52.76281691311678,
+          "internal_air_mean": 60.319522857772746
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 83.79986961893455,
+          "pack_mean": 59.290247494936196,
+          "exposed_shell_mean": 47.70276594061088,
+          "wrist_facing_base_mean": 53.88481319529272,
+          "internal_air_mean": 59.14081252605483
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          71.18301340592205,
+          102.64045028419386
+        ],
+        "pack_mean": [
+          60.19109889288467,
+          88.88953201908691
+        ],
+        "exposed_shell_mean": [
+          46.94791712429912,
+          52.87211016921938
+        ],
+        "wrist_facing_base_mean": [
+          62.296511338342675,
+          93.48445020955592
+        ],
+        "internal_air_mean": [
+          57.00414075914111,
+          75.56043452039509
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 102.34598129250462,
+          "pack_mean": 88.88953201908691,
+          "exposed_shell_mean": 52.87211016921938,
+          "wrist_facing_base_mean": 91.6031245015683,
+          "internal_air_mean": 75.30146634168146
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 102.64045028419386,
+          "pack_mean": 88.15786979849752,
+          "exposed_shell_mean": 52.87211016921935,
+          "wrist_facing_base_mean": 93.48445020955592,
+          "internal_air_mean": 75.56043452039509
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "recording_sustained",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          64.84905968445722,
+          85.78070172679402
+        ],
+        "pack_mean": [
+          51.10653493562911,
+          64.68325101307289
+        ],
+        "exposed_shell_mean": [
+          44.36287403233639,
+          48.73298442060349
+        ],
+        "wrist_facing_base_mean": [
+          47.97271925956308,
+          54.387242176034846
+        ],
+        "internal_air_mean": [
+          51.246375372488636,
+          60.36227281384236
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 85.78070172679402,
+          "pack_mean": 64.68325101307289,
+          "exposed_shell_mean": 48.155953498388335,
+          "wrist_facing_base_mean": 52.87953412897772,
+          "internal_air_mean": 60.36227281384236
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.2586356085985144
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 84.02949853024502,
+          "pack_mean": 59.69251773237413,
+          "exposed_shell_mean": 47.7734113202969,
+          "wrist_facing_base_mean": 54.387242176034846,
+          "internal_air_mean": 59.35340067761033
+        },
+        "heat_w": [
+          3.110011,
+          0.2416821803949899
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.359149478402323
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          31.59247917754153,
+          59.7762023750118
+        ],
+        "pack_mean": [
+          27.667898180982117,
+          45.902059612351195
+        ],
+        "exposed_shell_mean": [
+          26.057409255173354,
+          31.85173295601496
+        ],
+        "wrist_facing_base_mean": [
+          26.632753731841095,
+          36.316983137459005
+        ],
+        "internal_air_mean": [
+          27.83349264062521,
+          40.815373077542866
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 59.7762023750118,
+          "pack_mean": 45.902059612351195,
+          "exposed_shell_mean": 31.242201614183156,
+          "wrist_facing_base_mean": 35.26745860847991,
+          "internal_air_mean": 40.815373077542866
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 58.113290824006825,
+          "pack_mean": 41.08189729489999,
+          "exposed_shell_mean": 30.83184069323948,
+          "wrist_facing_base_mean": 36.316983137459005,
+          "internal_air_mean": 39.770644326737816
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          33.72414346016881,
+          73.9458176962044
+        ],
+        "pack_mean": [
+          30.749780217860625,
+          65.88076033101811
+        ],
+        "exposed_shell_mean": [
+          26.861159373755637,
+          35.07222715424787
+        ],
+        "wrist_facing_base_mean": [
+          31.122346324964827,
+          67.93229177623607
+        ],
+        "internal_air_mean": [
+          29.707059217085252,
+          53.30414121929218
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 73.81661250854818,
+          "pack_mean": 65.88076033101811,
+          "exposed_shell_mean": 35.07222715424785,
+          "wrist_facing_base_mean": 67.06770509915935,
+          "internal_air_mean": 53.18580293657536
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 73.9458176962044,
+          "pack_mean": 65.55195088056745,
+          "exposed_shell_mean": 35.07222715424784,
+          "wrist_facing_base_mean": 67.93229177623607,
+          "internal_air_mean": 53.30414121929218
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          34.387766142293124,
+          63.54254654995914
+        ],
+        "pack_mean": [
+          31.542575216290867,
+          51.31193090431548
+        ],
+        "exposed_shell_mean": [
+          26.66498430819823,
+          33.30917502609418
+        ],
+        "wrist_facing_base_mean": [
+          32.57174464756748,
+          45.06172941916117
+        ],
+        "internal_air_mean": [
+          30.288705181608158,
+          44.187622810757446
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 63.54254654995914,
+          "pack_mean": 51.31193090431548,
+          "exposed_shell_mean": 32.249867189150535,
+          "wrist_facing_base_mean": 44.19652071892821,
+          "internal_air_mean": 44.187622810757446
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.6797680479285475
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 63.02938500120946,
+          "pack_mean": 48.95342953569462,
+          "exposed_shell_mean": 32.00814035783862,
+          "wrist_facing_base_mean": 45.06172941916117,
+          "internal_air_mean": 43.785089599549515
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.7374486279440778
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          41.27510967941266,
+          68.05084742111747
+        ],
+        "pack_mean": [
+          37.56601708967919,
+          54.9324441862752
+        ],
+        "exposed_shell_mean": [
+          36.01739972991768,
+          41.45666907848241
+        ],
+        "wrist_facing_base_mean": [
+          36.565546150591366,
+          45.64036948570424
+        ],
+        "internal_air_mean": [
+          37.70580346193576,
+          50.00449931604802
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 68.05084742111747,
+          "pack_mean": 54.9324441862752,
+          "exposed_shell_mean": 40.897568971822885,
+          "wrist_facing_base_mean": 44.63761998967156,
+          "internal_air_mean": 50.00449931604802
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 66.44422160509666,
+          "pack_mean": 50.30183280318443,
+          "exposed_shell_mean": 40.506218802723254,
+          "wrist_facing_base_mean": 45.64036948570424,
+          "internal_air_mean": 48.999157909241106
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          43.32739220743925,
+          81.5944764483604
+        ],
+        "pack_mean": [
+          40.488833865433314,
+          73.79383208774036
+        ],
+        "exposed_shell_mean": [
+          36.78399294967044,
+          44.49551842789122
+        ],
+        "wrist_facing_base_mean": [
+          40.88845145304327,
+          75.90191652003965
+        ],
+        "internal_air_mean": [
+          39.504220067083835,
+          61.88683017610267
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 81.45954886515177,
+          "pack_mean": 73.79383208774036,
+          "exposed_shell_mean": 44.49551842789122,
+          "wrist_facing_base_mean": 75.02108704894576,
+          "internal_air_mean": 61.7655797475187
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 81.5944764483604,
+          "pack_mean": 73.45759265597862,
+          "exposed_shell_mean": 44.495518427891184,
+          "wrist_facing_base_mean": 75.90191652003965,
+          "internal_air_mean": 61.88683017610267
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          41.649083635417036,
+          68.96625768980445
+        ],
+        "pack_mean": [
+          38.12108648795257,
+          56.239790037109294
+        ],
+        "exposed_shell_mean": [
+          36.121366026088864,
+          41.742025891684996
+        ],
+        "wrist_facing_base_mean": [
+          37.281613828428895,
+          47.9841214140868
+        ],
+        "internal_air_mean": [
+          38.03419674274605,
+          50.823483251787025
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 68.96625768980445,
+          "pack_mean": 56.239790037109294,
+          "exposed_shell_mean": 41.13781995771126,
+          "wrist_facing_base_mean": 46.825212826987524,
+          "internal_air_mean": 50.823483251787025
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.855014188465835
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 68.3089076313067,
+          "pack_mean": 53.1528590586774,
+          "exposed_shell_mean": 40.8310032573137,
+          "wrist_facing_base_mean": 47.9841214140868,
+          "internal_air_mean": 50.30869803323212
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.93227476093912
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          46.121028606861636,
+          72.21724418422511
+        ],
+        "pack_mean": [
+          42.5158762257627,
+          59.46394031437055
+        ],
+        "exposed_shell_mean": [
+          40.99758140395799,
+          46.26722375392194
+        ],
+        "wrist_facing_base_mean": [
+          41.532401996948394,
+          50.315829506252435
+        ],
+        "internal_air_mean": [
+          42.643494675799566,
+          54.613510943067844
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 72.21724418422511,
+          "pack_mean": 59.46394031437055,
+          "exposed_shell_mean": 45.73184285806365,
+          "wrist_facing_base_mean": 49.33616377165835,
+          "internal_air_mean": 54.613510943067844
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 70.63749166809514,
+          "pack_mean": 54.92620185979123,
+          "exposed_shell_mean": 45.349846502797284,
+          "wrist_facing_base_mean": 50.315829506252435,
+          "internal_air_mean": 53.62728307653579
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          48.134194402463756,
+          85.45737944863308
+        ],
+        "pack_mean": [
+          45.36126847286401,
+          77.78680303172423
+        ],
+        "exposed_shell_mean": [
+          41.74599686672516,
+          49.2186516382831
+        ],
+        "wrist_facing_base_mean": [
+          45.77347175957326,
+          79.92088845976929
+        ],
+        "internal_air_mean": [
+          44.404994107797734,
+          66.20282852897863
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 85.31976725934673,
+          "pack_mean": 77.78680303172423,
+          "exposed_shell_mean": 49.21865163828306,
+          "wrist_facing_base_mean": 79.03311835530553,
+          "internal_air_mean": 66.08028223026213
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 85.45737944863308,
+          "pack_mean": 77.44730984859196,
+          "exposed_shell_mean": 49.21865163828307,
+          "wrist_facing_base_mean": 79.92088845976929,
+          "internal_air_mean": 66.20282852897863
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_acquisition_off",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          45.29512951843797,
+          71.73791438020292
+        ],
+        "pack_mean": [
+          41.29296911880998,
+          58.781463419980646
+        ],
+        "exposed_shell_mean": [
+          40.84217390055151,
+          46.00602814910302
+        ],
+        "wrist_facing_base_mean": [
+          39.417001496799344,
+          49.58231470520364
+        ],
+        "internal_air_mean": [
+          41.91829237622263,
+          54.18483721285119
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 71.73791438020292,
+          "pack_mean": 58.781463419980646,
+          "exposed_shell_mean": 45.607244328835726,
+          "wrist_facing_base_mean": 48.186089145193705,
+          "internal_air_mean": 54.18483721285119
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.945739276346247
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 70.28387330848072,
+          "pack_mean": 54.334948087405465,
+          "exposed_shell_mean": 45.24746713531021,
+          "wrist_facing_base_mean": 49.58231470520364,
+          "internal_air_mean": 53.31214461798774
+        },
+        "heat_w": [
+          2.0272649657151907,
+          0.3462522582642703
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.0388209803469095
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          49.306493514394305,
+          82.63922642764055
+        ],
+        "pack_mean": [
+          34.51402945555883,
+          56.23703123830133
+        ],
+        "exposed_shell_mean": [
+          29.0450847771307,
+          36.48814858385495
+        ],
+        "wrist_facing_base_mean": [
+          31.10056566709986,
+          43.029448011267554
+        ],
+        "internal_air_mean": [
+          35.46893000747442,
+          50.867152247510866
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 82.63922642764055,
+          "pack_mean": 56.23703123830133,
+          "exposed_shell_mean": 35.58720490954773,
+          "wrist_facing_base_mean": 41.61521333795986,
+          "internal_air_mean": 50.867152247510866
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 80.31403185185914,
+          "pack_mean": 49.629426094942744,
+          "exposed_shell_mean": 35.02655406323596,
+          "wrist_facing_base_mean": 43.029448011267554,
+          "internal_air_mean": 49.42004370754963
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          56.560681319313474,
+          103.0684126451324
+        ],
+        "pack_mean": [
+          45.27259502216035,
+          86.44662850281648
+        ],
+        "exposed_shell_mean": [
+          31.97031206742235,
+          41.69989613011771
+        ],
+        "wrist_facing_base_mean": [
+          47.200971392289865,
+          91.95193583796845
+        ],
+        "internal_air_mean": [
+          42.10421720522077,
+          69.74365345588636
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 102.72083540911802,
+          "pack_mean": 86.44662850281648,
+          "exposed_shell_mean": 41.69989613011768,
+          "wrist_facing_base_mean": 89.69443736721213,
+          "internal_air_mean": 69.43476476361224
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 103.0684126451324,
+          "pack_mean": 85.56535550885623,
+          "exposed_shell_mean": 41.6998961301177,
+          "wrist_facing_base_mean": 91.95193583796845,
+          "internal_air_mean": 69.74365345588636
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          53.510113877121135,
+          86.75945909112855
+        ],
+        "pack_mean": [
+          41.112820793456855,
+          62.52982744632219
+        ],
+        "exposed_shell_mean": [
+          30.090101109177116,
+          38.19012672644776
+        ],
+        "wrist_facing_base_mean": [
+          40.57672601769067,
+          53.574002998886385
+        ],
+        "internal_air_mean": [
+          39.33040861107518,
+          54.787930639744026
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 86.75945909112855,
+          "pack_mean": 62.52982744632219,
+          "exposed_shell_mean": 36.804925209748546,
+          "wrist_facing_base_mean": 52.296145146993005,
+          "internal_air_mean": 54.787930639744026
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.2197430097995337
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 86.11589095573456,
+          "pack_mean": 59.2252117919115,
+          "exposed_shell_mean": 36.457539047164836,
+          "wrist_facing_base_mean": 53.574002998886385,
+          "internal_air_mean": 54.2483457222128
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.3049335332590923
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          58.17692591095132,
+          89.94046853854499
+        ],
+        "pack_mean": [
+          44.14912978947307,
+          64.77517713811311
+        ],
+        "exposed_shell_mean": [
+          38.890338164901074,
+          45.82962697223039
+        ],
+        "wrist_facing_base_mean": [
+          40.85107993519266,
+          51.97946305527605
+        ],
+        "internal_air_mean": [
+          45.007692722486965,
+          59.582832275216745
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 89.94046853854499,
+          "pack_mean": 64.77517713811311,
+          "exposed_shell_mean": 45.00152894954999,
+          "wrist_facing_base_mean": 50.63033000984865,
+          "internal_air_mean": 59.582832275216745
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 87.67514430645468,
+          "pack_mean": 58.42679486925635,
+          "exposed_shell_mean": 44.468088756410125,
+          "wrist_facing_base_mean": 51.97946305527605,
+          "internal_air_mean": 58.185686280615236
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          65.18813078904672,
+          109.6126661442822
+        ],
+        "pack_mean": [
+          54.37056836079143,
+          93.46711027914438
+        ],
+        "exposed_shell_mean": [
+          41.68272526893084,
+          50.76053315377202
+        ],
+        "wrist_facing_base_mean": [
+          56.376945578324744,
+          99.02427143901119
+        ],
+        "internal_air_mean": [
+          51.38959545966099,
+          77.63571303251818
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 109.25766522168452,
+          "pack_mean": 93.46711027914438,
+          "exposed_shell_mean": 50.760533153772016,
+          "wrist_facing_base_mean": 96.76403837538851,
+          "internal_air_mean": 77.32494867093462
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 109.6126661442822,
+          "pack_mean": 92.58242208974377,
+          "exposed_shell_mean": 50.76053315377202,
+          "wrist_facing_base_mean": 99.02427143901119,
+          "internal_air_mean": 77.63571303251818
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          60.108071790782475,
+          91.56723900896445
+        ],
+        "pack_mean": [
+          47.15914752271411,
+          67.23842530049012
+        ],
+        "exposed_shell_mean": [
+          39.42010233835037,
+          46.4047883627731
+        ],
+        "wrist_facing_base_mean": [
+          45.02900773604831,
+          56.42850910087119
+        ],
+        "internal_air_mean": [
+          46.77814484905775,
+          61.125742762279074
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 91.56723900896445,
+          "pack_mean": 67.23842530049012,
+          "exposed_shell_mean": 45.4714442352803,
+          "wrist_facing_base_mean": 54.86596486226245,
+          "internal_air_mean": 61.125742762279074
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.39106432415083
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 90.81185574224546,
+          "pack_mean": 63.285567328824335,
+          "exposed_shell_mean": 45.06842393338145,
+          "wrist_facing_base_mean": 56.42850910087119,
+          "internal_air_mean": 60.4949221479509
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.4952339400580792
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          62.62804664477213,
+          93.63281085221078
+        ],
+        "pack_mean": [
+          48.96964708529907,
+          69.0687425109786
+        ],
+        "exposed_shell_mean": [
+          43.81377268223581,
+          50.513647696738126
+        ],
+        "wrist_facing_base_mean": [
+          45.72809232323782,
+          56.475238209506465
+        ],
+        "internal_air_mean": [
+          49.782499725507606,
+          63.962502875144224
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 93.63281085221078,
+          "pack_mean": 69.0687425109786,
+          "exposed_shell_mean": 49.71986957805702,
+          "wrist_facing_base_mean": 55.15814668927803,
+          "internal_air_mean": 63.962502875144224
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 91.39613021195576,
+          "pack_mean": 62.84724966517419,
+          "exposed_shell_mean": 49.19976684520049,
+          "wrist_facing_base_mean": 56.475238209506465,
+          "internal_air_mean": 62.58962776959755
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          69.5192415404434,
+          112.93487545175564
+        ],
+        "pack_mean": [
+          58.92975577696104,
+          97.02501189437488
+        ],
+        "exposed_shell_mean": [
+          46.54117475236303,
+          55.3090909613187
+        ],
+        "wrist_facing_base_mean": [
+          60.97207743594588,
+          102.60496144056219
+        ],
+        "internal_air_mean": [
+          56.03992486025712,
+          81.61543547026913
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 112.57646714328007,
+          "pack_mean": 97.02501189437488,
+          "exposed_shell_mean": 55.309090961318674,
+          "wrist_facing_base_mean": 100.34495984060423,
+          "internal_air_mean": 81.30395947442662
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 112.93487545175564,
+          "pack_mean": 96.1393023706203,
+          "exposed_shell_mean": 55.309090961318695,
+          "wrist_facing_base_mean": 102.60496144056219,
+          "internal_air_mean": 81.61543547026913
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_duty",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          63.451282535365564,
+          94.03075724553103
+        ],
+        "pack_mean": [
+          50.24806480816341,
+          69.66862697827685
+        ],
+        "exposed_shell_mean": [
+          44.09333453425093,
+          50.55457464822828
+        ],
+        "wrist_facing_base_mean": [
+          47.30212355327766,
+          57.91019067132046
+        ],
+        "internal_air_mean": [
+          50.53646116618112,
+          64.33931716439811
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 94.03075724553103,
+          "pack_mean": 69.66862697827685,
+          "exposed_shell_mean": 49.833516388890345,
+          "wrist_facing_base_mean": 56.19658298178518,
+          "internal_air_mean": 64.33931716439811
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.4797721987856784
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 92.03448328383791,
+          "pack_mean": 63.99029237820511,
+          "exposed_shell_mean": 49.40309359425118,
+          "wrist_facing_base_mean": 57.91019067132046,
+          "internal_air_mean": 63.1924056118428
+        },
+        "heat_w": [
+          3.734233909487367,
+          0.282157938925894
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.5940127114213638
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          53.65901157798449,
+          89.20810409579403
+        ],
+        "pack_mean": [
+          36.270415788995685,
+          58.90726146022296
+        ],
+        "exposed_shell_mean": [
+          29.819027208529157,
+          37.86136956988845
+        ],
+        "wrist_facing_base_mean": [
+          32.254990796196346,
+          44.92679880140265
+        ],
+        "internal_air_mean": [
+          37.38174628430016,
+          53.74460273385587
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 89.20810409579403,
+          "pack_mean": 58.90726146022296,
+          "exposed_shell_mean": 36.88608740006679,
+          "wrist_facing_base_mean": 43.44274888188222,
+          "internal_air_mean": 53.74460273385587
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 86.72730992674727,
+          "pack_mean": 51.918476780962656,
+          "exposed_shell_mean": 36.29567243160271,
+          "wrist_facing_base_mean": 44.92679880140265,
+          "internal_air_mean": 52.20786733481836
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          62.10590671008992,
+          111.17601509078887
+        ],
+        "pack_mean": [
+          48.89343278450702,
+          91.86070341307754
+        ],
+        "exposed_shell_mean": [
+          33.2835937474853,
+          43.64253535055163
+        ],
+        "wrist_facing_base_mean": [
+          51.24773232235873,
+          98.59760026703461
+        ],
+        "internal_air_mean": [
+          45.18224157278064,
+          74.31938934040468
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 110.75167171926259,
+          "pack_mean": 91.86070341307754,
+          "exposed_shell_mean": 43.642535350551626,
+          "wrist_facing_base_mean": 95.85705081814969,
+          "internal_air_mean": 73.94483400672243
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 111.17601509078887,
+          "pack_mean": 90.78212581075158,
+          "exposed_shell_mean": 43.64253535055161,
+          "wrist_facing_base_mean": 98.59760026703461,
+          "internal_air_mean": 74.31938934040468
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          58.1900219148124,
+          93.42907814095149
+        ],
+        "pack_mean": [
+          43.47042500783526,
+          65.47282366674285
+        ],
+        "exposed_shell_mean": [
+          30.980065280328937,
+          39.6390783864071
+        ],
+        "wrist_facing_base_mean": [
+          42.60396261823509,
+          56.02581194139155
+        ],
+        "internal_air_mean": [
+          41.58984476167661,
+          57.83294906241977
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 93.42907814095149,
+          "pack_mean": 65.47282366674285,
+          "exposed_shell_mean": 38.168543080266815,
+          "wrist_facing_base_mean": 54.667446132597824,
+          "internal_air_mean": 57.83294906241977
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.3778297421731882
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 92.77615570028792,
+          "pack_mean": 62.00817425716713,
+          "exposed_shell_mean": 37.80229866043369,
+          "wrist_facing_base_mean": 56.02581194139155,
+          "internal_air_mean": 57.274477372513665
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.4683874627594369
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          62.33978651147743,
+          96.2523044690017
+        ],
+        "pack_mean": [
+          45.83896715026014,
+          67.31740255641374
+        ],
+        "exposed_shell_mean": [
+          39.63449988220275,
+          47.12574708162993
+        ],
+        "wrist_facing_base_mean": [
+          41.95841389486162,
+          53.774867142689786
+        ],
+        "internal_air_mean": [
+          46.83983648493293,
+          62.33098513505578
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 96.2523044690017,
+          "pack_mean": 67.31740255641374,
+          "exposed_shell_mean": 46.228746305260756,
+          "wrist_facing_base_mean": 52.35966461186086,
+          "internal_air_mean": 62.33098513505578
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 93.8297951469477,
+          "pack_mean": 60.60221660811895,
+          "exposed_shell_mean": 45.66730213082359,
+          "wrist_facing_base_mean": 53.774867142689786,
+          "internal_air_mean": 60.845844901149746
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          70.51077725853062,
+          117.4467688401061
+        ],
+        "pack_mean": [
+          57.83672985388574,
+          98.6633033814023
+        ],
+        "exposed_shell_mean": [
+          42.94227038419408,
+          52.59938743729925
+        ],
+        "wrist_facing_base_mean": [
+          60.2785917497225,
+          105.44618603901492
+        ],
+        "internal_air_mean": [
+          54.34550163206485,
+          82.0339638374634
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 117.01486142722331,
+          "pack_mean": 98.6633033814023,
+          "exposed_shell_mean": 52.59938743729923,
+          "wrist_facing_base_mean": 102.70903551920287,
+          "internal_air_mean": 81.658119059041
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 117.4467688401061,
+          "pack_mean": 97.58351345305243,
+          "exposed_shell_mean": 52.599387437299235,
+          "wrist_facing_base_mean": 105.44618603901492,
+          "internal_air_mean": 82.0339638374634
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          64.64603857783835,
+          98.07432693304278
+        ],
+        "pack_mean": [
+          49.47547123645745,
+          70.12499184089796
+        ],
+        "exposed_shell_mean": [
+          40.27804850664992,
+          47.789658191714686
+        ],
+        "wrist_facing_base_mean": [
+          47.03731829234085,
+          58.86167145501331
+        ],
+        "internal_air_mean": [
+          48.9764556618076,
+          64.08869917557718
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 98.07432693304278,
+          "pack_mean": 70.12499184089796,
+          "exposed_shell_mean": 46.76930073481834,
+          "wrist_facing_base_mean": 57.22143860944972,
+          "internal_air_mean": 64.08869917557718
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.548095907296648
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 97.31678301088154,
+          "pack_mean": 66.03127971719465,
+          "exposed_shell_mean": 46.34955391663466,
+          "wrist_facing_base_mean": 58.86167145501331,
+          "internal_air_mean": 63.44372055157479
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.6574447636675538
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          66.6985594928694,
+          99.81890712606476
+        ],
+        "pack_mean": [
+          50.62676464412488,
+          71.54904401034285
+        ],
+        "exposed_shell_mean": [
+          44.54321865890003,
+          51.7727016886538
+        ],
+        "wrist_facing_base_mean": [
+          46.81224002909303,
+          58.22149488512779
+        ],
+        "internal_air_mean": [
+          51.5752014374046,
+          66.6478681078329
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 99.81890712606476,
+          "pack_mean": 71.54904401034285,
+          "exposed_shell_mean": 50.91260306028667,
+          "wrist_facing_base_mean": 56.84015807108201,
+          "internal_air_mean": 66.6478681078329
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 97.42429455059188,
+          "pack_mean": 64.96776548471158,
+          "exposed_shell_mean": 50.36534736941746,
+          "wrist_facing_base_mean": 58.22149488512779,
+          "internal_air_mean": 65.18779940234128
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          74.73318318111079,
+          120.63429404526835
+        ],
+        "pack_mean": [
+          62.3203353094998,
+          102.11451293060473
+        ],
+        "exposed_shell_mean": [
+          47.77428601662878,
+          57.09791209242393
+        ],
+        "wrist_facing_base_mean": [
+          64.80249354681928,
+          108.91706925775794
+        ],
+        "internal_air_mean": [
+          58.93602623619327,
+          85.92693823868329
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 120.19893883680268,
+          "pack_mean": 102.11451293060473,
+          "exposed_shell_mean": 57.09791209242389,
+          "wrist_facing_base_mean": 106.18330157123849,
+          "internal_air_mean": 85.5506882898463
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 120.63429404526835,
+          "pack_mean": 101.03485703549352,
+          "exposed_shell_mean": 57.0979120924239,
+          "wrist_facing_base_mean": 108.91706925775794,
+          "internal_air_mean": 85.92693823868329
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "charging_and_recording_sustained",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          67.91887724787527,
+          100.45631508696029
+        ],
+        "pack_mean": [
+          52.543266225700194,
+          72.52648491841248
+        ],
+        "exposed_shell_mean": [
+          44.93548651508149,
+          51.908101948194485
+        ],
+        "wrist_facing_base_mean": [
+          49.300690173002664,
+          60.33141714230399
+        ],
+        "internal_air_mean": [
+          52.70433350402963,
+          67.26155832949777
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 100.45631508696029,
+          "pack_mean": 72.52648491841248,
+          "exposed_shell_mean": 51.099472231231154,
+          "wrist_facing_base_mean": 58.54392202866265,
+          "internal_air_mean": 67.26155832949777
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.6362614685775099
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 99.64755334444996,
+          "pack_mean": 68.11495113547848,
+          "exposed_shell_mean": 50.65392222049338,
+          "wrist_facing_base_mean": 60.33141714230399,
+          "internal_air_mean": 66.5745829993736
+        },
+        "heat_w": [
+          4.279629383574558,
+          0.2309978734930331
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.7554278094869327
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          26.342111530821114,
+          35.42196301695832
+        ],
+        "pack_mean": [
+          25.500479033452134,
+          29.6520085687448
+        ],
+        "exposed_shell_mean": [
+          25.211114463508082,
+          26.81073764325626
+        ],
+        "wrist_facing_base_mean": [
+          25.318868345730884,
+          27.78389177322067
+        ],
+        "internal_air_mean": [
+          25.566385150116858,
+          29.381306987139542
+        ]
+      },
+      "pack_charge_cutoff_possible": false,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 35.42196301695832,
+          "pack_mean": 29.6520085687448,
+          "exposed_shell_mean": 26.67016787930032,
+          "wrist_facing_base_mean": 27.589952627249396,
+          "internal_air_mean": 29.381306987139542
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 35.22355434416366,
+          "pack_mean": 28.90060331430666,
+          "exposed_shell_mean": 26.596024657435652,
+          "wrist_facing_base_mean": 27.78389177322067,
+          "internal_air_mean": 29.233803864483463
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          26.765237740183764,
+          39.51135243383374
+        ],
+        "pack_mean": [
+          26.09960083783638,
+          35.408908428093405
+        ],
+        "exposed_shell_mean": [
+          25.366598367505958,
+          27.648895744874743
+        ],
+        "wrist_facing_base_mean": [
+          26.192825530770783,
+          36.44608339443704
+        ],
+        "internal_air_mean": [
+          25.934019273441592,
+          32.832433832038774
+        ]
+      },
+      "pack_charge_cutoff_possible": false,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 39.44967958567386,
+          "pack_mean": 35.408908428093405,
+          "exposed_shell_mean": 27.64889574487472,
+          "wrist_facing_base_mean": 35.994839311374854,
+          "internal_air_mean": 32.77171515773973
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 39.51135243383374,
+          "pack_mean": 35.24083863804247,
+          "exposed_shell_mean": 27.64889574487472,
+          "wrist_facing_base_mean": 36.44608339443704,
+          "internal_air_mean": 32.832433832038774
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          28.65710692047734,
+          38.738004856015856
+        ],
+        "pack_mean": [
+          28.402638620619808,
+          34.322404402116476
+        ],
+        "exposed_shell_mean": [
+          25.655985156316994,
+          28.063455742220942
+        ],
+        "wrist_facing_base_mean": [
+          30.151102901858973,
+          34.68532343218184
+        ],
+        "internal_air_mean": [
+          27.574323337448067,
+          32.17782297154664
+        ]
+      },
+      "pack_charge_cutoff_possible": false,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 38.738004856015856,
+          "pack_mean": 34.322404402116476,
+          "exposed_shell_mean": 27.47056230613584,
+          "wrist_facing_base_mean": 34.6208754889582,
+          "internal_air_mean": 32.17782297154664
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.04139169926387988
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 38.692065951548436,
+          "pack_mean": 34.13215780028364,
+          "exposed_shell_mean": 27.45203995844113,
+          "wrist_facing_base_mean": 34.68532343218184,
+          "internal_air_mean": 32.14389965130733
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.04568822881212261
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          36.27662862913686,
+          44.87283614099769
+        ],
+        "pack_mean": [
+          35.48099801197247,
+          39.40684028160937
+        ],
+        "exposed_shell_mean": [
+          35.203063038164856,
+          36.70319318980733
+        ],
+        "wrist_facing_base_mean": [
+          35.30588403259142,
+          37.61470482135465
+        ],
+        "internal_air_mean": [
+          35.540524623187665,
+          39.143867278289065
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 44.87283614099769,
+          "pack_mean": 39.40684028160937,
+          "exposed_shell_mean": 36.57490020534215,
+          "wrist_facing_base_mean": 37.43214735144899,
+          "internal_air_mean": 39.143867278289065
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 44.68876904120693,
+          "pack_mean": 38.695284196935994,
+          "exposed_shell_mean": 36.50513594387584,
+          "wrist_facing_base_mean": 37.61470482135465,
+          "internal_air_mean": 39.00521557560825
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          36.683823946618375,
+          48.75720573296874
+        ],
+        "pack_mean": [
+          36.04913970485442,
+          44.821843812677194
+        ],
+        "exposed_shell_mean": [
+          35.35137779492255,
+          37.49422679528178
+        ],
+        "wrist_facing_base_mean": [
+          36.14766365361293,
+          45.880420210107474
+        ],
+        "internal_air_mean": [
+          35.89344783038824,
+          42.414529926703246
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 48.69251163775396,
+          "pack_mean": 44.821843812677194,
+          "exposed_shell_mean": 37.49422679528177,
+          "wrist_facing_base_mean": 45.42404036712477,
+          "internal_air_mean": 42.35263699839717
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 48.75720573296874,
+          "pack_mean": 44.65096468327885,
+          "exposed_shell_mean": 37.49422679528176,
+          "wrist_facing_base_mean": 45.880420210107474,
+          "internal_air_mean": 42.414529926703246
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          36.14951950005346,
+          44.85908367265731
+        ],
+        "pack_mean": [
+          35.294959294018206,
+          39.38805029414286
+        ],
+        "exposed_shell_mean": [
+          35.18078333562175,
+          36.682032009295376
+        ],
+        "wrist_facing_base_mean": [
+          34.984198868107775,
+          37.636514349898626
+        ],
+        "internal_air_mean": [
+          35.43028701649712,
+          39.13222798030657
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 44.85908367265731,
+          "pack_mean": 39.38805029414286,
+          "exposed_shell_mean": 36.571660315279495,
+          "wrist_facing_base_mean": 37.40195637354512,
+          "internal_air_mean": 39.13222798030657
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.22679709156967456
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 44.69986854791297,
+          "pack_mean": 38.7124409350242,
+          "exposed_shell_mean": 36.50786016199591,
+          "wrist_facing_base_mean": 37.636514349898626,
+          "internal_air_mean": 39.014530420657216
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.2424342899932417
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          41.244848452474,
+          49.60820995967914
+        ],
+        "pack_mean": [
+          40.47141334704034,
+          44.28900116918261
+        ],
+        "exposed_shell_mean": [
+          40.199074950682416,
+          41.65169334667888
+        ],
+        "wrist_facing_base_mean": [
+          40.2994745098347,
+          42.53387925891507
+        ],
+        "internal_air_mean": [
+          40.527910633440946,
+          44.02963854930008
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 49.60820995967914,
+          "pack_mean": 44.28900116918261,
+          "exposed_shell_mean": 41.529144440892026,
+          "wrist_facing_base_mean": 42.35667870404093,
+          "internal_air_mean": 44.02963854930008
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 49.229954865820865,
+          "pack_mean": 43.39346509455794,
+          "exposed_shell_mean": 41.46144047529236,
+          "wrist_facing_base_mean": 42.53387925891507,
+          "internal_air_mean": 43.81922983978051
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          41.64419093298045,
+          53.394016393735356
+        ],
+        "pack_mean": [
+          41.02446861304297,
+          49.54000647521353
+        ],
+        "exposed_shell_mean": [
+          40.34388239554243,
+          42.42005760038678
+        ],
+        "wrist_facing_base_mean": [
+          41.12544472647556,
+          50.60814878031694
+        ],
+        "internal_air_mean": [
+          40.8736018528473,
+          47.213573214325955
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 53.32791471474508,
+          "pack_mean": 49.54000647521353,
+          "exposed_shell_mean": 42.42005760038674,
+          "wrist_facing_base_mean": 50.14979747783565,
+          "internal_air_mean": 47.15117741780653
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 53.394016393735356,
+          "pack_mean": 49.36795717427856,
+          "exposed_shell_mean": 42.42005760038674,
+          "wrist_facing_base_mean": 50.60814878031694,
+          "internal_air_mean": 47.213573214325955
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_acquisition_off",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          39.78340701781502,
+          48.00122696056633
+        ],
+        "pack_mean": [
+          37.734859932355654,
+          42.096788101326275
+        ],
+        "exposed_shell_mean": [
+          39.674429336498136,
+          41.153347913768215
+        ],
+        "wrist_facing_base_mean": [
+          36.480645546172624,
+          39.50748610180171
+        ],
+        "internal_air_mean": [
+          39.220642108503014,
+          42.66833651398962
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 48.00122696056633,
+          "pack_mean": 42.096788101326275,
+          "exposed_shell_mean": 41.153347913768215,
+          "wrist_facing_base_mean": 38.808055685947345,
+          "internal_air_mean": 42.66833651398962
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.320537045729823
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 44.25264189644003,
+          "pack_mean": 40.707590430620655,
+          "exposed_shell_mean": 40.968262405499395,
+          "wrist_facing_base_mean": 39.50748610180171,
+          "internal_air_mean": 41.56879993128159
+        },
+        "heat_w": [
+          0.6102462567848145,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.85,
+          "additional_internal_mixing_h_W_m2K": 3
+        },
+        "phantom_heat_flow_W": 0.367165740120114
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          46.079817670366026,
+          68.60204380371682
+        ],
+        "pack_mean": [
+          33.15026389571571,
+          45.34800538247705
+        ],
+        "exposed_shell_mean": [
+          28.478431812627118,
+          33.14617255411292
+        ],
+        "wrist_facing_base_mean": [
+          30.238738242144613,
+          37.38489411122196
+        ],
+        "internal_air_mean": [
+          34.0432652609133,
+          43.80797813003843
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": false,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 68.60204380371682,
+          "pack_mean": 45.34800538247705,
+          "exposed_shell_mean": 32.54417130107228,
+          "wrist_facing_base_mean": 36.55752448346597,
+          "internal_air_mean": 43.80797813003843
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 67.87647608942916,
+          "pack_mean": 42.21825410937568,
+          "exposed_shell_mean": 32.220994393271596,
+          "wrist_facing_base_mean": 37.38489411122196,
+          "internal_air_mean": 43.21511780359287
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          52.40093212849192,
+          83.88555098645425
+        ],
+        "pack_mean": [
+          42.462210614718096,
+          68.12178667168882
+        ],
+        "exposed_shell_mean": [
+          30.993870000507194,
+          36.83243850846046
+        ],
+        "wrist_facing_base_mean": [
+          44.130047680560324,
+          73.12394094151414
+        ],
+        "internal_air_mean": [
+          39.784886596523116,
+          57.63782400670952
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 83.57806395723586,
+          "pack_mean": 68.12178667168882,
+          "exposed_shell_mean": 36.832438508460456,
+          "wrist_facing_base_mean": 71.0292697079632,
+          "internal_air_mean": 57.354097114933005
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 83.88555098645425,
+          "pack_mean": 67.31196243898845,
+          "exposed_shell_mean": 36.83243850846044,
+          "wrist_facing_base_mean": 73.12394094151414,
+          "internal_air_mean": 57.63782400670952
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          50.02922174874566,
+          72.35359289832056
+        ],
+        "pack_mean": [
+          39.29560350093515,
+          50.968620106093255
+        ],
+        "exposed_shell_mean": [
+          29.436344347555284,
+          34.65429635591843
+        ],
+        "wrist_facing_base_mean": [
+          39.06548991465923,
+          46.463177332982845
+        ],
+        "internal_air_mean": [
+          37.64228229463797,
+          47.26881229289659
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 72.35359289832056,
+          "pack_mean": 50.968620106093255,
+          "exposed_shell_mean": 33.58574615857169,
+          "wrist_facing_base_mean": 45.84037514530717,
+          "internal_air_mean": 47.26881229289659
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.789358343020478
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 72.00267326661292,
+          "pack_mean": 49.26952351633093,
+          "exposed_shell_mean": 33.41318533082246,
+          "wrist_facing_base_mean": 46.463177332982845,
+          "internal_air_mean": 46.98428470042578
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.830878488865523
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          55.093038273579836,
+          76.48478781952755
+        ],
+        "pack_mean": [
+          42.83660284577456,
+          54.32742312633269
+        ],
+        "exposed_shell_mean": [
+          38.34532194150086,
+          42.67139309179138
+        ],
+        "wrist_facing_base_mean": [
+          40.02484327804393,
+          46.65384334359682
+        ],
+        "internal_air_mean": [
+          43.64264887665938,
+          52.84478634147596
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 76.48478781952755,
+          "pack_mean": 54.32742312633269,
+          "exposed_shell_mean": 42.11966343146863,
+          "wrist_facing_base_mean": 45.87173606740354,
+          "internal_air_mean": 52.84478634147596
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 75.8035293980302,
+          "pack_mean": 51.34914896080331,
+          "exposed_shell_mean": 41.81468577360259,
+          "wrist_facing_base_mean": 46.65384334359682,
+          "internal_air_mean": 52.28344079755586
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          61.19892664201062,
+          91.15366981788618
+        ],
+        "pack_mean": [
+          51.681251995698744,
+          75.9035048256637
+        ],
+        "exposed_shell_mean": [
+          40.74633217087458,
+          46.158116647851855
+        ],
+        "wrist_facing_base_mean": [
+          53.41837079063154,
+          80.95143107069232
+        ],
+        "internal_air_mean": [
+          49.16368100886033,
+          66.04105670794524
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 90.83819238421198,
+          "pack_mean": 75.9035048256637,
+          "exposed_shell_mean": 46.15811664785185,
+          "wrist_facing_base_mean": 78.85558285689861,
+          "internal_air_mean": 65.7555153417106
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 91.15366981788618,
+          "pack_mean": 75.09042605833143,
+          "exposed_shell_mean": 46.158116647851855,
+          "wrist_facing_base_mean": 80.95143107069232,
+          "internal_air_mean": 66.04105670794524
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          56.734471404361194,
+          77.52829336638163
+        ],
+        "pack_mean": [
+          45.37378875532928,
+          55.87961709540253
+        ],
+        "exposed_shell_mean": [
+          38.78976603429806,
+          43.02233065718518
+        ],
+        "wrist_facing_base_mean": [
+          43.53231917467018,
+          49.380836102608036
+        ],
+        "internal_air_mean": [
+          45.13601950034023,
+          53.805570280726926
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 77.52829336638163,
+          "pack_mean": 55.87961709540253,
+          "exposed_shell_mean": 42.40347635403184,
+          "wrist_facing_base_mean": 48.46992178053995,
+          "internal_air_mean": 53.805570280726926
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0.9646614520359965
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 77.03678111800363,
+          "pack_mean": 53.45090785499132,
+          "exposed_shell_mean": 42.16421552279232,
+          "wrist_facing_base_mean": 49.380836102608036,
+          "internal_air_mean": 53.40798179434766
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.0253890735072024
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          59.61364913376256,
+          80.46061043357761
+        ],
+        "pack_mean": [
+          47.68232188056736,
+          58.835610145091394
+        ],
+        "exposed_shell_mean": [
+          43.279453742877244,
+          47.44376607534392
+        ],
+        "wrist_facing_base_mean": [
+          44.91937468106761,
+          51.303363515374215
+        ],
+        "internal_air_mean": [
+          48.447087044065924,
+          57.38018522651576
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 80.46061043357761,
+          "pack_mean": 58.835610145091394,
+          "exposed_shell_mean": 46.91565158605151,
+          "wrist_facing_base_mean": 50.543162445621896,
+          "internal_air_mean": 57.38018522651576
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 79.80052392965199,
+          "pack_mean": 55.931141472939615,
+          "exposed_shell_mean": 46.61946286822201,
+          "wrist_facing_base_mean": 51.303363515374215,
+          "internal_air_mean": 56.834072155514136
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          65.61328020839505,
+          94.8305438819315
+        ],
+        "pack_mean": [
+          56.299597902354755,
+          79.83301429825275
+        ],
+        "exposed_shell_mean": [
+          45.62448526748968,
+          50.834298487766326
+        ],
+        "wrist_facing_base_mean": [
+          58.06864209252535,
+          84.90067875000203
+        ],
+        "internal_air_mean": [
+          53.85974559898796,
+          70.26978538339904
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 94.51139300406778,
+          "pack_mean": 79.83301429825275,
+          "exposed_shell_mean": 50.83429848776631,
+          "wrist_facing_base_mean": 82.80585296414296,
+          "internal_air_mean": 69.98356806099811
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 94.8305438819315,
+          "pack_mean": 79.01900352803494,
+          "exposed_shell_mean": 50.8342984877663,
+          "wrist_facing_base_mean": 84.90067875000203,
+          "internal_air_mean": 70.26978538339904
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_duty",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          60.13085660978876,
+          80.17557732133645
+        ],
+        "pack_mean": [
+          48.479010220374064,
+          58.4132239780052
+        ],
+        "exposed_shell_mean": [
+          43.474553668240794,
+          47.24751540830506
+        ],
+        "wrist_facing_base_mean": [
+          45.81292299770996,
+          50.90379476492474
+        ],
+        "internal_air_mean": [
+          48.91724234459049,
+          57.11799916932849
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 80.17557732133645,
+          "pack_mean": 58.4132239780052,
+          "exposed_shell_mean": 46.83892156415952,
+          "wrist_facing_base_mean": 49.83124105624068,
+          "internal_air_mean": 57.11799916932849
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.0554160704160451
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 78.7593180039873,
+          "pack_mean": 54.722891506182975,
+          "exposed_shell_mean": 46.56468574587234,
+          "wrist_facing_base_mean": 50.90379476492474,
+          "internal_air_mean": 56.33873418626491
+        },
+        "heat_w": [
+          2.8034036962157147,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.3,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.1269196509949826
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 25,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          51.20492861691198,
+          78.44580557768822
+        ],
+        "pack_mean": [
+          35.228005607298776,
+          50.27531687855614
+        ],
+        "exposed_shell_mean": [
+          29.378681896656317,
+          35.203168397208394
+        ],
+        "wrist_facing_base_mean": [
+          31.58896807714185,
+          40.45742206068557
+        ],
+        "internal_air_mean": [
+          36.29115046273648,
+          48.23596358713619
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": false,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": false,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 78.44580557768822,
+          "pack_mean": 50.27531687855614,
+          "exposed_shell_mean": 34.4611016850445,
+          "wrist_facing_base_mean": 39.43757493577619,
+          "internal_air_mean": 48.23596358713619
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 77.59058130091312,
+          "pack_mean": 46.445119455895856,
+          "exposed_shell_mean": 34.06006212884348,
+          "wrist_facing_base_mean": 40.45742206068557,
+          "internal_air_mean": 47.51711815979809
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 25,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          58.96335930097716,
+          96.6069997645595
+        ],
+        "pack_mean": [
+          46.76723016046414,
+          77.7240215015714
+        ],
+        "exposed_shell_mean": [
+          32.52959369877255,
+          39.78615081017599
+        ],
+        "wrist_facing_base_mean": [
+          48.905687639577025,
+          84.07933938841707
+        ],
+        "internal_air_mean": [
+          43.41819595737182,
+          64.99021958654305
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 96.21419829800655,
+          "pack_mean": 77.7240215015714,
+          "exposed_shell_mean": 39.78615081017598,
+          "wrist_facing_base_mean": 81.450751597737,
+          "internal_air_mean": 64.633734380545
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 96.6069997645595,
+          "pack_mean": 76.6966116489731,
+          "exposed_shell_mean": 39.786150810175975,
+          "wrist_facing_base_mean": 84.07933938841707,
+          "internal_air_mean": 64.99021958654305
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 25,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          55.54559789768271,
+          82.36622425664746
+        ],
+        "pack_mean": [
+          42.07993554340517,
+          56.29482641786875
+        ],
+        "exposed_shell_mean": [
+          30.47165100122276,
+          36.82110099124548
+        ],
+        "wrist_facing_base_mean": [
+          41.43431337768663,
+          50.343212621568604
+        ],
+        "internal_air_mean": [
+          40.29803093592837,
+          51.94631298016016
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 82.36622425664746,
+          "pack_mean": 56.29482641786875,
+          "exposed_shell_mean": 35.5973776703569,
+          "wrist_facing_base_mean": 49.50848430520321,
+          "internal_air_mean": 51.94631298016016
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.0338989536802141
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 81.92842183922502,
+          "pack_mean": 54.07351513568701,
+          "exposed_shell_mean": 35.368867634758665,
+          "wrist_facing_base_mean": 50.343212621568604,
+          "internal_air_mean": 51.581213965383405
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.0895475081045736
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 35,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          59.991952893519816,
+          85.91512762529648
+        ],
+        "pack_mean": [
+          44.83559975738781,
+          59.026631445587626
+        ],
+        "exposed_shell_mean": [
+          39.21100744700244,
+          44.61212648461801
+        ],
+        "wrist_facing_base_mean": [
+          41.319828557345595,
+          49.55344873056443
+        ],
+        "internal_air_mean": [
+          45.79495710240427,
+          57.066097375721874
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": false,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 85.91512762529648,
+          "pack_mean": 59.026631445587626,
+          "exposed_shell_mean": 43.931133672749944,
+          "wrist_facing_base_mean": 48.588194013832286,
+          "internal_air_mean": 57.066097375721874
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 85.10938562268066,
+          "pack_mean": 55.37665320852085,
+          "exposed_shell_mean": 43.552356435632575,
+          "wrist_facing_base_mean": 49.55344873056443,
+          "internal_air_mean": 56.38411206351633
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 35,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          67.49360420658752,
+          103.3946114893506
+        ],
+        "pack_mean": [
+          55.800839422276674,
+          85.08560185757105
+        ],
+        "exposed_shell_mean": [
+          42.21910425243966,
+          48.95014026688686
+        ],
+        "wrist_facing_base_mean": [
+          58.02108013529526,
+          91.48431319139179
+        ],
+        "internal_air_mean": [
+          52.65126784007586,
+          73.08269547538306
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 102.99346185015251,
+          "pack_mean": 85.08560185757105,
+          "exposed_shell_mean": 48.95014026688685,
+          "wrist_facing_base_mean": 88.85978060582313,
+          "internal_air_mean": 72.72484236182758
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 103.3946114893506,
+          "pack_mean": 84.05675763423764,
+          "exposed_shell_mean": 48.95014026688684,
+          "wrist_facing_base_mean": 91.48431319139179,
+          "internal_air_mean": 73.08269547538306
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 35,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          62.081208243225724,
+          87.27961105382691
+        ],
+        "pack_mean": [
+          48.109301284673016,
+          61.104186897833095
+        ],
+        "exposed_shell_mean": [
+          39.787861796369725,
+          45.09279484175412
+        ],
+        "wrist_facing_base_mean": [
+          45.87895885427699,
+          53.22934984000129
+        ],
+        "internal_air_mean": [
+          47.71932233709463,
+          58.3535972349976
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 87.27961105382691,
+          "pack_mean": 61.104186897833095,
+          "exposed_shell_mean": 44.317942871849084,
+          "wrist_facing_base_mean": 52.10995285667373,
+          "internal_air_mean": 58.3535972349976
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.2073301904449152
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 86.71648099613074,
+          "pack_mean": 58.191505970750974,
+          "exposed_shell_mean": 44.02728490303339,
+          "wrist_facing_base_mean": 53.22934984000129,
+          "internal_air_mean": 57.88555974366012
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.2819566560000861
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 40,
+      "boundary": "bench_all_faces_exposed",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          64.4024741953934,
+          89.68948131334405
+        ],
+        "pack_mean": [
+          49.64259760128509,
+          63.42442087082451
+        ],
+        "exposed_shell_mean": [
+          44.128054807800865,
+          49.32864974474712
+        ],
+        "wrist_facing_base_mean": [
+          46.18715613145876,
+          54.11979658290455
+        ],
+        "internal_air_mean": [
+          50.55267907957823,
+          61.501345116212285
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 89.68948131334405,
+          "pack_mean": 63.42442087082451,
+          "exposed_shell_mean": 48.6763828429974,
+          "wrist_facing_base_mean": 53.18100393305913,
+          "internal_air_mean": 61.501345116212285
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 88.90746861391371,
+          "pack_mean": 59.862400142677416,
+          "exposed_shell_mean": 48.30836712606293,
+          "wrist_facing_base_mean": 54.11979658290455,
+          "internal_air_mean": 60.83721879213056
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 40,
+      "boundary": "worn_no_body_sink",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          71.77725828840722,
+          106.8361801073756
+        ],
+        "pack_mean": [
+          60.328578987858144,
+          88.81042374974035
+        ],
+        "exposed_shell_mean": [
+          47.066287032990495,
+          53.54848985908863
+        ],
+        "wrist_facing_base_mean": [
+          62.586463477601775,
+          95.22741811615376
+        ],
+        "internal_air_mean": [
+          57.27598435041848,
+          77.1601426459427
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 106.43121315778617,
+          "pack_mean": 88.81042374974035,
+          "exposed_shell_mean": 53.54848985908863,
+          "wrist_facing_base_mean": 92.60664918035555,
+          "internal_air_mean": 76.80185523162193
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 106.8361801073756,
+          "pack_mean": 87.78162965381944,
+          "exposed_shell_mean": 53.5484898590886,
+          "wrist_facing_base_mean": 95.22741811615376,
+          "internal_air_mean": 77.1601426459427
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 0
+      }
+    },
+    {
+      "mode": "USB_charge_inhibited_recording_sustained",
+      "ambient_C": 40,
+      "boundary": "34C_phantom_R15",
+      "sampled_parameter_corners": 256,
+      "temperature_range_C": {
+        "electronics_mean": [
+          65.39351642006443,
+          89.79609620384105
+        ],
+        "pack_mean": [
+          51.18953896729198,
+          63.58604549220092
+        ],
+        "exposed_shell_mean": [
+          44.454291426212045,
+          49.27054891348783
+        ],
+        "wrist_facing_base_mean": [
+          48.14813644966722,
+          54.72509428419566
+        ],
+        "internal_air_mean": [
+          51.464475083923915,
+          61.60179508058943
+        ]
+      },
+      "pack_charge_cutoff_possible": true,
+      "pack_charge_cutoff_all_corners": true,
+      "pack_discharge_60C_exceeded_some_corners": true,
+      "base_40C_comfort_target_exceeded_some_corners": true,
+      "base_43C_stop_target_exceeded_some_corners": true,
+      "pack_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 89.79609620384105,
+          "pack_mean": 63.58604549220092,
+          "exposed_shell_mean": 48.7062738212551,
+          "wrist_facing_base_mean": 53.45683734091965,
+          "internal_air_mean": 61.60179508058943
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.03,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.2971224893946431
+      },
+      "base_maximizing_corner": {
+        "temperatures_C": {
+          "electronics_mean": 89.17161713976911,
+          "pack_mean": 60.32407526675669,
+          "exposed_shell_mean": 48.385624394474654,
+          "wrist_facing_base_mean": 54.72509428419566,
+          "internal_air_mean": 61.08365756233321
+        },
+        "heat_w": [
+          3.5351898026568382,
+          0
+        ],
+        "parameters": {
+          "outside_h_W_m2K": 3,
+          "emissivity": 0.75,
+          "PA12_k_W_mK": 0.127,
+          "foam_k_W_mK": 0.1,
+          "internal_effective_emissivity_viewfactor": 0.45,
+          "additional_internal_mixing_h_W_m2K": 0.1
+        },
+        "phantom_heat_flow_W": 1.3816729522797109
+      }
+    }
+  ],
+  "network_parameter_ranges": {
+    "external_convection_W_m2K": [
+      3,
+      8
+    ],
+    "surface_emissivity": [
+      0.75,
+      0.95
+    ],
+    "PA12_conductivity_W_mK": [
+      0.127,
+      0.3
+    ],
+    "foam_conductivity_W_mK": [
+      0.03,
+      0.1
+    ],
+    "internal_effective_emissivity_viewfactor": [
+      0.45,
+      0.85
+    ],
+    "additional_internal_mixing_h_W_m2K": [
+      0.1,
+      3
+    ],
+    "air_conductivity_W_mK": 0.026,
+    "pack_internal_resistance_ohm": [
+      0.03,
+      0.15
+    ],
+    "additional_pack_heat_W": [
+      0,
+      0.1
+    ],
+    "charger_efficiency": [
+      0.85,
+      0.94
+    ],
+    "USB_limiter_R_ohm": 0.135,
+    "charge_only_system_output_W": [
+      0.1,
+      0.4
+    ],
+    "34C_phantom_effective_contact_resistance_K_W": 15
+  },
+  "validation": {
+    "zero_power_equilibrium": true,
+    "phantom_zero_power_equilibrium": true,
+    "minimum_temperature_principle_all_cases": true,
+    "monotonic_power_response": true,
+    "electrical_energy_balance_all_cases": true,
+    "max_steady_energy_residual_W": 1.1491427254206599e-10
+  },
+  "limitations": [
+    "The parameter-corner range is a sensitivity envelope, not a probability interval or guaranteed temperature bound. Independent extrema for electronics and pack heat conservatively remove electrical correlations.",
+    "Nodes are average temperatures; localized cell, IC, sleeve and contact hotspots are unresolved.",
+    "No thermal-via/trace/airflow mesh, measured material properties or human perfusion model is present. Nylon ribs, fasteners and wire conduction are omitted; no intentional low-resistance heat path is specified. Omitted conduction may cool electronics and warm the base; the ranges do not bound localized temperatures.",
+    "The 34C/R15 phantom is a defined comparison fixture, not a validated model of human skin.",
+    "Charging steady-state values describe requested charging before cutoff; physical CE inhibition changes heat generation and may cycle.",
+    "Pack internal resistance, entropic heat, standby draw, charger efficiency, optical/RF heat escape and static-air boundary are unmeasured.",
+    "Insulated clothing, direct sun, motion, sweat and hand contact change boundary conditions; these are not inferred from the sampled natural-convection range.",
+    "No transient warmup/cutoff time is claimed; measured thermal capacitance/NTC lag is needed."
+  ]
+}

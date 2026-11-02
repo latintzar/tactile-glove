@@ -1,0 +1,47 @@
+{
+  "scope": "Numerical initialization diagnostic; original amplifier equations unchanged.",
+  "completed_coupled_cases": 0,
+  "seed_operating_point_complete": true,
+  "seed_nodeset_count": 1541,
+  "models_modified": false,
+  "waveform_available": false,
+  "files": {
+    "seed.cir": {
+      "archive": "seed.cir",
+      "sha256": "8415dc90c72b014200cb09d17855f2f98b1c2e891b103ca19b8702b29202c271"
+    },
+    "seed.dat": {
+      "archive": "seed.dat.gz",
+      "sha256": "5455ad28c8526adbe2f4628d19be414df8433d40774e5b8159dfa06a644b8f9d"
+    },
+    "seed.log": {
+      "archive": "seed.log",
+      "sha256": "3c420a1133a8a8b1792724205c2aac04e4712de50c537e8a60d0c6bb985f8618"
+    },
+    "full.cir": {
+      "archive": "full.cir.gz",
+      "sha256": "7e9df54eaa659d5e762e38f555e261bd19be5dfd3debb3db8c61c650a82422ac"
+    },
+    "full.log": {
+      "archive": "full.log.gz",
+      "sha256": "9fcec60bcf20a44de53848292d3f1dd3417cb9fb33f06c41a4bdc844506dea4d"
+    },
+    "meta.json": {
+      "archive": "meta.json",
+      "sha256": "f4ac5cb41da9009818cd28bd81ca0e7784aca73187b811d206b311f333063aa2"
+    },
+    "make.py": {
+      "archive": "make.py",
+      "sha256": "4618200b5380a1b401ee47233d6580369782bb5ee1095324ecfd251357918e9d"
+    }
+  },
+  "errors": [
+    "Error: Transient op failed, timestep too small",
+    "Error: The operating point could not be simulated successfully.",
+    "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xneg.x_u1.e3#branch\"",
+    "tran simulation(s) aborted",
+    "Error: RHS \"time[length(time)-1]\" invalid",
+    "Error: no such vector v(VEXC2V5)"
+  ],
+  "finding": "Single-MCP6001 and OPA320 follower DC operating points complete. Using their internal voltages as nodeset guesses for the exact coupled network still fails at its initial transient point. No simultaneous-channel validation follows from this diagnostic."
+}

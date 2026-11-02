@@ -1,0 +1,114 @@
+{
+  "scope": "Typical25C; original vendor models. Mux RC/current are declared stress values; SAR31pF+200ohm continuous equivalent. Selector uses buffered voltage with separate conservative continuous load, not transistor switch charge injection.",
+  "models": {
+    "hardware/glove-v3/simulation/power_validation/models/MCP6001-original.lib": "6d64bba209890979467c7d16aea1786bf37169a8f5feff6057d3afedeee5364b",
+    "hardware/glove-v3/simulation/vendor/OPAx323-prefixed.lib": "23a63ccd42a03cdddcb4dd27dac926592304820e0c7a9334b0649684454d7edc",
+    "hardware/glove-v3/simulation/vendor/OPAx320-prefixed.lib": "2775a4f7d4b94d384340513f343b21fd2872b030e54bf69807418afcc678152c"
+  },
+  "cases": [
+    {
+      "case": "select40_from_low",
+      "complete": true,
+      "native_end_s": 8e-05,
+      "returncode": 0,
+      "errors": [],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": 8e-06,
+      "deck_sha256": "f6f7cd29949d0d17bf52b09c7127c3c7cee9d4c1e7331b44a80bfef819d7f0a5",
+      "log_sha256": "f746f611c3a9c7709717dfa97bc342f6df2d6d84f64b6d9b296b26dc17ea05e6",
+      "samples": 40103,
+      "input_node_V": 0.938829218771,
+      "buffer_output_V": 0.9383215798348,
+      "ADC_positive_V": 0.9217029351507,
+      "ADC_negative_V": 1.275024791723,
+      "differential_final_V": -0.35332185656179993,
+      "sample_residual_24us_V": 8.283708907708132e-08,
+      "sample_within_half_LSB": true,
+      "last_outside_half_LSB_us": 4.945941619979999,
+      "DC_error_against_divider_V": -0.017126283620299998,
+      "waveform_sha256": "52e829af77628066ec5aae7c23c87fe57f7f8a58b8f26b88026c06baa7673876"
+    },
+    {
+      "case": "select40_from_high",
+      "complete": true,
+      "native_end_s": 8e-05,
+      "returncode": 0,
+      "errors": [],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": -8e-06,
+      "deck_sha256": "adf9340ce7e18ea707c3555f66aab78fc3e810c6905ab90c72a43f70cbde07a5",
+      "log_sha256": "2995b7eca5a878b1bfdc309c775131c4f13a7b650259487d4acfd2054b9afb23",
+      "samples": 40046,
+      "input_node_V": 0.9388292187704,
+      "buffer_output_V": 0.9383215968364,
+      "ADC_positive_V": 0.9552999646385,
+      "ADC_negative_V": 1.275024791723,
+      "differential_final_V": -0.31972482710249994,
+      "sample_residual_24us_V": -1.4356795074998985e-07,
+      "sample_within_half_LSB": true,
+      "last_outside_half_LSB_us": 5.405000214169998,
+      "DC_error_against_divider_V": 0.016470745868099934,
+      "waveform_sha256": "cf954565db2318328888483173832f50d7d708073639b1629cc4f0e5d0388bd1"
+    },
+    {
+      "case": "open",
+      "complete": true,
+      "native_end_s": 8e-05,
+      "returncode": 0,
+      "errors": [],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": 8e-06,
+      "deck_sha256": "f040dd00f33d152251fca7076457156fde6abfca4a60824d1ca9cf5b4abbc63f",
+      "log_sha256": "166861a7035da52d1f7739d11106c326fa69e1bfc93757f43bf9b74622bde6eb",
+      "samples": 40093,
+      "input_node_V": 2.549999981788,
+      "buffer_output_V": 2.549230989494,
+      "ADC_positive_V": 2.532572668524,
+      "ADC_negative_V": 1.275024791723,
+      "differential_final_V": 1.2575478768319999,
+      "sample_residual_24us_V": 2.3109194158266178e-07,
+      "sample_within_half_LSB": true,
+      "last_outside_half_LSB_us": 5.766171156869999,
+      "DC_error_against_divider_V": -0.01742731326399971,
+      "waveform_sha256": "9a104a40d93bfd855da09bcc8f27a99a0c4ed0bf227b379ba8f8d8504e638686"
+    },
+    {
+      "case": "short",
+      "complete": true,
+      "native_end_s": 8e-05,
+      "returncode": 0,
+      "errors": [],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": -8e-06,
+      "deck_sha256": "18affd6467de8872ba0228c912cd5a18de91bb31aeab930e1b180c40a87d9180",
+      "log_sha256": "f5879fbe9ad506d29b3a22b1646ae9704d2f0bab7e640ba75d86e376c4e6d3db",
+      "samples": 40106,
+      "input_node_V": 2.549999899084e-07,
+      "buffer_output_V": -0.0003545880517257,
+      "ADC_positive_V": 0.021388326378,
+      "ADC_negative_V": 1.275024791723,
+      "differential_final_V": -1.25363646534492,
+      "sample_residual_24us_V": 6.087910175978095e-10,
+      "sample_within_half_LSB": true,
+      "last_outside_half_LSB_us": 5.42140669915,
+      "DC_error_against_divider_V": 0.02138807137801009,
+      "waveform_sha256": "9893522c2604668b97e0f334a4c5b806a32ebb4d0732600e1965b34243e1ff8a"
+    }
+  ]
+}

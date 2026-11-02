@@ -1,0 +1,34 @@
+Executing action: size
+Running ninja in directory [original source path]/build
+Executing "ninja all"...
+[1/4] cd [original source path]/esptool_py && [original source path]/python [original source path]/check_sizes.py --offset 0x8000 partition --type app [original source path]/partition-table.bin [original source path]/artisan_tactile_v4.bin
+artisan_tactile_v4.bin binary size 0x17aab0 bytes. Smallest app partition is 0x200000 bytes. 0x85550 bytes (26%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd [original source path]/esptool_py && [original source path]/python [original source path]/check_sizes.py --offset 0x8000 bootloader 0x0 [original source path]/bootloader.bin
+Bootloader binary size 0x5110 bytes. 0x2ef0 bytes (37%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
+Running ninja in directory [original source path]/build
+Executing "ninja size"...
+[0/1] cd [original source path]/build && [original source path]/cmake -D "IDF_SIZE_TOOL=[original source path]/python;-m;esp_idf_size" -D MAP_FILE=[original source path]/artisan_tactile_v4.map -D OUTPUT_JSON= -P [original source path]/run_size_tool.cmake
+                            Memory Type Usage Summary                             
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory Type/Section ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ Flash Code          │       897596 │          │                │               │
+│    .text            │       897596 │          │                │               │
+│ Flash Data          │       494400 │          │                │               │
+│    .rodata          │       494144 │          │                │               │
+│    .appdesc         │          256 │          │                │               │
+│ DIRAM               │       185947 │    54.41 │         155813 │        341760 │
+│    .text            │       115387 │    33.76 │                │               │
+│    .bss             │        43504 │    12.73 │                │               │
+│    .data            │        27056 │     7.92 │                │               │
+│ IRAM                │        16383 │    99.99 │              1 │         16384 │
+│    .text            │        15356 │    93.73 │                │               │
+│    .vectors         │         1027 │     6.27 │                │               │
+│ RTC FAST            │          108 │     1.32 │           8084 │          8192 │
+│    .text            │           52 │     0.63 │                │               │
+│    .force_fast      │           32 │     0.39 │                │               │
+│    .rtc_reserved    │           24 │     0.29 │                │               │
+└─────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘

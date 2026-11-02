@@ -1,0 +1,9 @@
+# Enclosure simplification decisions
+
+The current mechanical checkpoint implements the window and button changes. The cable-seal simplification remains a separately scoped next iteration.
+
+1. **Implemented: flat overlap window.** The manufactured window is a Ø22±0.2 mm disk cut from RS PRO7698720 stock1 mm polycarbonate. A die-cut3M VHB LSE-060WF ring bonds it to a flatØ24 mm PA12 land. The close radial seat is removed. The audit includes120° viewing-cone tolerances,1.6 mm front projection and actual sheet/tape variation. Local surface preparation, flatness and bond qualification remain fabrication processes; see window-fabrication.md.
+2. **Parked: cut silicone cable seals.** Replace the seven tiny cast gland bodies and optional blanking plugs with cut silicone compression strips under accessible printed retainers, grouped into the front bank and two sides. A future design must preserve actual cable diameters, close unused positions and establish cable-pull/ingress performance. The current42 manufactured solids include seven alternative plugs, cut pads and an adhesive-ring volume; they are not42 printed parts.
+3. **Implemented: broader button setting and catalog spring.** Released gap is0.15±0.10 mm, adjusted to the measured switch. The selected spring is SDP/SI S78CSYM030035008, with receiving load/rate acceptance. A0.80±0.05 mm measured hard stop gives0.10 mm worst actuation margin. The independent calculation gives4.55 mm minimum spring length and4.69 N maximum accepted contact force. The complete tolerance/sweep audit has been rerun. Print finishing and switch overload/cycle validation remain explicit process and physical acceptance items.
+
+The assembly still uses several fabrication processes. The manifest keeps supplier process acceptance separate from later physical first-article tests.

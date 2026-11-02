@@ -1,0 +1,929 @@
+{
+  "date": "2026-10-22",
+  "canonical_sha256": "68475c8740f073eeaf4cf5fe4c1b317360fe04654b6434fcfd931f962bce9774",
+  "topology_verified_locations": 20,
+  "opamp_model_source": "https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/UserGuides/51419a.pdf AppendixA, originalPOLY equations",
+  "opamp_model_sha256": "6d64bba209890979467c7d16aea1786bf37169a8f5feff6057d3afedeee5364b",
+  "diode_source": "https://assets.nexperia.com/documents/spice-model/BAV199.txt",
+  "diode_model_sha256": "1a0e7e07ecdb810b4bac1215cc86aa86304f51d554109062cee991fcd5f2ad2c",
+  "results": [
+    {
+      "case": "canonical-0pC",
+      "charge_pC": 0,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200452,
+      "solver_warnings": 0,
+      "netlist_sha256": "0c757c794ccb219d6426ce727d15a3c810e306e8d96eee0009f021f3c6f7439b",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25
+      ],
+      "last_V": [
+        1.24947187,
+        1.24893286,
+        1.2483939,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        0.0003285072449985549,
+        0.00033799790749733383,
+        0.00034186702499550137,
+        7.699931581228725e-09,
+        7.869929818937749e-09
+      ],
+      "recovery_residual_V": [
+        0.0003285072449783488,
+        0.0003379910919216744,
+        0.0003418634736842563,
+        7.699987092379956e-09,
+        7.86998533008898e-09
+      ]
+    },
+    {
+      "case": "canonical-1pC",
+      "charge_pC": 1,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200422,
+      "solver_warnings": 0,
+      "netlist_sha256": "c83fcd7e9f3b78b9fe65051e288616de9953615e3290f33a591ebaf46700c45d",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25,
+        1.25091758
+      ],
+      "last_V": [
+        1.24947185,
+        1.24893284,
+        1.24839388,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        0.001965652755001379,
+        0.0018806020925026257,
+        0.002128652975004419,
+        5.437699931443163e-06,
+        0.001456647869929828
+      ],
+      "recovery_residual_V": [
+        0.00032847220659748544,
+        0.00033795801135338976,
+        0.0003418280891154257,
+        7.699987092379956e-09,
+        7.86998533008898e-09
+      ]
+    },
+    {
+      "case": "canonical--1pC",
+      "charge_pC": -1,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": false,
+      "samples": 119503,
+      "solver_warnings": 0,
+      "netlist_sha256": "8d3852e8780bb090aa5fa8af57f4aea39b2db36e101866ebe2bff45bf8fdd1f4",
+      "failure_tail": "nch_1_0          -0.45105\na$poly$e.xsk1.e55#branch_1_0      -2.06542e-13\na$poly$e.xsk1.e32#branch_1_0      -1.19439e-11\na$poly$e.xsk1.e31#branch_1_0      -9.68609e-12\na$poly$e.xsk1.e12#branch_1_0       1.29895e-12\na$poly$e.xca.e56#branch_1_0           -0.45105\na$poly$e.xca.e55#branch_1_0       -2.06542e-13\na$poly$e.xca.e32#branch_1_0       -1.19439e-11\na$poly$e.xca.e31#branch_1_0       -9.68609e-12\na$poly$e.xca.e12#branch_1_0        1.29895e-12\n\ndoAnalyses: TRAN:  Timestep too small; time = 0.117656, timestep = 1.25e-18: trouble with node \"xsk2.50\"\n\n\ntran simulation(s) aborted\nngspice-42 done\n"
+    },
+    {
+      "case": "canonical-250pC",
+      "charge_pC": 250,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200394,
+      "solver_warnings": 0,
+      "netlist_sha256": "0710f8db297cd2141e053226bbe8fcea1cb57c87a43c461e28d16679be05bf48",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25081804,
+        1.61352797
+      ],
+      "last_V": [
+        1.24946699,
+        1.24892783,
+        1.24838882,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        0.5142373057550015,
+        0.4970793470925027,
+        0.5593768829750044,
+        0.0013571076999314702,
+        0.3640670378699298
+      ],
+      "recovery_residual_V": [
+        0.00032027671931778023,
+        0.0003295264004012921,
+        0.00033329975336671147,
+        7.699987092379956e-09,
+        7.86998533008898e-09
+      ]
+    },
+    {
+      "case": "canonical--250pC",
+      "charge_pC": -250,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": false,
+      "samples": 196606,
+      "solver_warnings": 0,
+      "netlist_sha256": "2c5df0c2832f74d526389f696c84f1dd21e31bf279de3eb74e1d706546464ec7",
+      "failure_tail": "nch_1_0          -0.45105\na$poly$e.xsk1.e55#branch_1_0      -2.06542e-13\na$poly$e.xsk1.e32#branch_1_0      -1.19439e-11\na$poly$e.xsk1.e31#branch_1_0      -9.68609e-12\na$poly$e.xsk1.e12#branch_1_0       1.29895e-12\na$poly$e.xca.e56#branch_1_0           -0.45105\na$poly$e.xca.e55#branch_1_0       -2.06542e-13\na$poly$e.xca.e32#branch_1_0       -1.19439e-11\na$poly$e.xca.e31#branch_1_0       -9.68609e-12\na$poly$e.xca.e12#branch_1_0        1.29895e-12\n\ndoAnalyses: TRAN:  Timestep too small; time = 0.192744, timestep = 1.25e-18: trouble with node \"xsk2.50\"\n\n\ntran simulation(s) aborted\nngspice-42 done\n"
+    },
+    {
+      "case": "canonical-500pC",
+      "charge_pC": 500,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200394,
+      "solver_warnings": 0,
+      "netlist_sha256": "75ba4637632d1fae830ddc39d3c10685c49cda0f6c5aad4ce69f7ac3147f933d",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25217469,
+        1.97760197
+      ],
+      "last_V": [
+        1.24946211,
+        1.24892281,
+        1.24838374,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        1.0285697597550014,
+        0.9942702690925027,
+        1.1188662519750046,
+        0.0027137576999314295,
+        0.7281410378699298
+      ],
+      "recovery_residual_V": [
+        0.00031204888051394875,
+        0.0003210609565806877,
+        0.0003247373838932699,
+        7.699987092379956e-09,
+        7.86998533008898e-09
+      ]
+    },
+    {
+      "case": "canonical--500pC",
+      "charge_pC": -500,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 204200,
+      "solver_warnings": 0,
+      "netlist_sha256": "e12d7b664686a04907d62f51f89d2f878197dd9ae9b5e863d3a64d83611d9e2e",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.521271464
+      ],
+      "max_V": [
+        2.27797279,
+        2.24315543,
+        2.36722013,
+        1.25,
+        1.25
+      ],
+      "last_V": [
+        1.2494816,
+        1.24894287,
+        1.24840403,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        1.0288294272449987,
+        0.9945605679074971,
+        1.1191680970249958,
+        0.002713782300068468,
+        0.7281894681300702
+      ],
+      "recovery_residual_V": [
+        0.0003446262056119309,
+        0.00035457921001125214,
+        0.00035863945021796795,
+        7.699987980558376e-09,
+        7.8699862182674e-09
+      ]
+    },
+    {
+      "case": "canonical-50000pC",
+      "charge_pC": 50000,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200836,
+      "solver_warnings": 0,
+      "netlist_sha256": "c461b676cbdc2845afcb12904097a8fa623dd26ade8dc2ec3cc211c237553678",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.000465462,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.86687115
+      ],
+      "max_V": [
+        1.26998699,
+        1.25,
+        1.39027949,
+        2.01096016,
+        74.0831295
+      ],
+      "last_V": [
+        1.24945577,
+        1.24891629,
+        1.24837714,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        1.2486779007550015,
+        1.2471296533025027,
+        1.2466834743750044,
+        0.7614992276999317,
+        72.83366856786992
+      ],
+      "recovery_residual_V": [
+        0.00030136661331914283,
+        0.00031007016936457354,
+        0.00031362075813445855,
+        7.699987092379956e-09,
+        7.86998533008898e-09
+      ],
+      "max_series_current_A": 0.0007228057106999999,
+      "input_within_powered_absolute_voltage": true
+    },
+    {
+      "case": "canonical--50000pC",
+      "charge_pC": -50000,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 202955,
+      "solver_warnings": 0,
+      "netlist_sha256": "4aaae107756aed95f19880b27a6e9ec6c42afb00c7493cf5e2ca3aa513de75c6",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.489821965,
+        -71.5871052
+      ],
+      "max_V": [
+        3.29939336,
+        3.29814216,
+        3.29878787,
+        1.6030693,
+        1.59925681
+      ],
+      "last_V": [
+        1.24950284,
+        1.24896472,
+        1.24842612,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        2.0502499972449986,
+        2.0495472979074973,
+        2.0507358370249955,
+        0.7596389673000685,
+        72.83656613213007
+      ],
+      "recovery_residual_V": [
+        0.00038075682241189845,
+        0.0003917553016450359,
+        0.0003962421000334171,
+        7.699988202602981e-09,
+        7.869986440312005e-09
+      ],
+      "max_series_current_A": 0.000722341125,
+      "input_within_powered_absolute_voltage": true
+    },
+    {
+      "case": "canonical-cable-50",
+      "charge_pC": 250,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 50,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200391,
+      "solver_warnings": 0,
+      "netlist_sha256": "a5c31c947f0e98f7fc49d1f807683194179bb73fc19c10bb7a205c1434f01f90",
+      "baseline_V": [
+        1.2491420633625023,
+        1.2485935241424992,
+        1.2480506792575026,
+        1.2494609321950696,
+        1.2494609320500711
+      ],
+      "min_V": [
+        0.00163031697,
+        0.00140273328,
+        0.00135129234,
+        0.532566551,
+        0.938947355
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25104648,
+        1.67559504
+      ],
+      "last_V": [
+        1.24946703,
+        1.24892788,
+        1.24838886,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        0.5163093093625023,
+        0.49741683914249923,
+        0.5613290872575025,
+        0.001585547804930476,
+        0.4261341079499288
+      ],
+      "recovery_residual_V": [
+        0.00032162125073420533,
+        0.00033090968520066433,
+        0.0003346988486381264,
+        7.80498599084467e-09,
+        7.94998444852979e-09
+      ]
+    },
+    {
+      "case": "canonical-cable-300",
+      "charge_pC": 250,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 300,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200394,
+      "solver_warnings": 0,
+      "netlist_sha256": "726da9da069e8d3d9b79afea0f15870f46d770f8ae34b40ec34f88621452c41e",
+      "baseline_V": [
+        1.2491449989849999,
+        1.2485965447000018,
+        1.248053734417501,
+        1.249460932427567,
+        1.2494609322175694
+      ],
+      "min_V": [
+        0.00163702034,
+        0.00140251397,
+        0.00135172791,
+        0.53256657,
+        0.997027691
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25057656,
+        1.54811766
+      ],
+      "last_V": [
+        1.24946702,
+        1.24892786,
+        1.24838885,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        0.5110438459849999,
+        0.49620737870000176,
+        0.5556956114175009,
+        0.0011156275724331088,
+        0.2986567277824306
+      ],
+      "recovery_residual_V": [
+        0.00031866584107720364,
+        0.0003278689235477472,
+        0.00033162333140590583,
+        7.572488636142793e-09,
+        7.782486211027617e-09
+      ]
+    },
+    {
+      "case": "canonical-cable-1000",
+      "charge_pC": 250,
+      "sine_charge_amplitude_pC": null,
+      "frequency_Hz": null,
+      "rin_ohm": 100000,
+      "cable_pF": 1000,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200396,
+      "solver_warnings": 0,
+      "netlist_sha256": "aa38d7e14557dc9f33c63cd658823357839b7d47cc9fc557b4bcdccbda25bb13",
+      "baseline_V": [
+        1.2491500114849996,
+        1.2486017022225002,
+        1.2480589511475004,
+        1.2494609328275628,
+        1.249460932440067
+      ],
+      "min_V": [
+        0.00164433393,
+        0.00140228428,
+        0.00135174612,
+        0.53256659,
+        1.0841227
+      ],
+      "max_V": [
+        1.25,
+        1.25,
+        1.25,
+        1.25007159,
+        1.41213895
+      ],
+      "last_V": [
+        1.24946697,
+        1.24892781,
+        1.2483888,
+        1.24946094,
+        1.24946094
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "peak_delta_V": [
+        0.4990309264849996,
+        0.4912281512225002,
+        0.5346465931475004,
+        0.0006106571724371346,
+        0.16267801755993294
+      ],
+      "recovery_residual_V": [
+        0.00031358133072201255,
+        0.00032263766151108264,
+        0.0003263321291786525,
+        7.172492821894139e-09,
+        7.559988635108539e-09
+      ]
+    },
+    {
+      "case": "canonical-sine-20",
+      "charge_pC": null,
+      "sine_charge_amplitude_pC": 20,
+      "frequency_Hz": 20,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 340368,
+      "solver_warnings": 0,
+      "netlist_sha256": "2d1dbfc5d9c6821eeca16ae015429332cf070d977bfd700cde0f8e662e984dbf",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.28319348,
+        1.28263978,
+        1.28210472,
+        1.25,
+        1.25
+      ],
+      "last_V": [
+        1.27637144,
+        1.27655408,
+        1.27630929,
+        1.24946132,
+        1.24945916
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "output_amplitude_V": 0.033710874593700806,
+      "fit_residual_rms_V": 2.866734513327573e-07,
+      "charge_gain_V_per_C": 1685543729.6850405
+    },
+    {
+      "case": "canonical-sine-100",
+      "charge_pC": null,
+      "sine_charge_amplitude_pC": 20,
+      "frequency_Hz": 100,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200353,
+      "solver_warnings": 0,
+      "netlist_sha256": "7087618904cba7277384f15beca124baa73eb3aedb3f278f419c1b1391afd7f1",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.29149077,
+        1.29065705,
+        1.29040217,
+        1.25,
+        1.25072096
+      ],
+      "last_V": [
+        1.29123822,
+        1.29054123,
+        1.28992091,
+        1.24946136,
+        1.24940749
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "output_amplitude_V": 0.04201045618584983,
+      "fit_residual_rms_V": 4.695759690367394e-06,
+      "charge_gain_V_per_C": 2100522809.2924917
+    },
+    {
+      "case": "canonical-sine-500",
+      "charge_pC": null,
+      "sine_charge_amplitude_pC": 20,
+      "frequency_Hz": 500,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200353,
+      "solver_warnings": 0,
+      "netlist_sha256": "f391487ffc684c652d9d2dd1a5bffb5d9db1b46ce6b046895ee9aabb9bb95343",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.29105705,
+        1.28398235,
+        1.28989366,
+        1.25,
+        1.25562693
+      ],
+      "last_V": [
+        1.29037559,
+        1.26560192,
+        1.24956877,
+        1.24945708,
+        1.24816727
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "output_amplitude_V": 0.04150102547805299,
+      "fit_residual_rms_V": 2.3401483713486957e-07,
+      "charge_gain_V_per_C": 2075051273.9026496
+    },
+    {
+      "case": "canonical-sine-800",
+      "charge_pC": null,
+      "sine_charge_amplitude_pC": 20,
+      "frequency_Hz": 800,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200353,
+      "solver_warnings": 0,
+      "netlist_sha256": "ad5dbf116ec275506abbac3d76ee07beb7f7da0851df1fca1a9e7e65686d12c2",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.28970904,
+        1.27543113,
+        1.28560559,
+        1.25,
+        1.25901574
+      ],
+      "last_V": [
+        1.28775884,
+        1.24667698,
+        1.2150682,
+        1.24945061,
+        1.246361
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "output_amplitude_V": 0.03721289899347068,
+      "fit_residual_rms_V": 1.3043996105514803e-07,
+      "charge_gain_V_per_C": 1860644949.6735342
+    },
+    {
+      "case": "canonical-sine-1000",
+      "charge_pC": null,
+      "sine_charge_amplitude_pC": 20,
+      "frequency_Hz": 1000,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200353,
+      "solver_warnings": 0,
+      "netlist_sha256": "78dd561d628e0a408b7c64b146ab180333272589acf93f09dedfe0a2635a87f2",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.28856749,
+        1.2700768,
+        1.27620431,
+        1.25,
+        1.26109644
+      ],
+      "last_V": [
+        1.28561058,
+        1.24057285,
+        1.22262712,
+        1.24944518,
+        1.2448882
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "output_amplitude_V": 0.027811600647920084,
+      "fit_residual_rms_V": 1.0043510939189117e-07,
+      "charge_gain_V_per_C": 1390580032.3960042
+    },
+    {
+      "case": "canonical-sine-2000",
+      "charge_pC": null,
+      "sine_charge_amplitude_pC": 20,
+      "frequency_Hz": 2000,
+      "rin_ohm": 100000,
+      "cable_pF": 150,
+      "canonical_protection": true,
+      "returncode": 0,
+      "complete": true,
+      "samples": 200353,
+      "solver_warnings": 0,
+      "netlist_sha256": "8556aa6c155a21d144192b7297f00d0e5a0c2897cc0a528b2e872a0ac9cd30d6",
+      "baseline_V": [
+        1.2491433627550015,
+        1.2485948620925027,
+        1.2480520329750044,
+        1.2494609323000685,
+        1.2494609321300703
+      ],
+      "min_V": [
+        0.00163355038,
+        0.00140262588,
+        0.00135150523,
+        0.53256656,
+        0.965070634
+      ],
+      "max_V": [
+        1.28174815,
+        1.25561752,
+        1.25041494,
+        1.25,
+        1.2695021
+      ],
+      "last_V": [
+        1.27406765,
+        1.2423374,
+        1.25001339,
+        1.2494151,
+        1.2369915
+      ],
+      "normal_charge_outside_design_0_2v5": false,
+      "output_amplitude_V": 0.0020222320270501465,
+      "fit_residual_rms_V": 4.676864577655308e-08,
+      "charge_gain_V_per_C": 101111601.35250734
+    }
+  ],
+  "tolerance": {
+    "samples": 3000,
+    "frequency_Hz": [
+      20.0,
+      100.0,
+      500.0,
+      800.0,
+      1000.0,
+      2000.0,
+      4000.0
+    ],
+    "min_dB": [
+      -0.0007448987908664621,
+      -0.018462305994127962,
+      -0.39240640634763874,
+      -1.327036699075287,
+      -3.8545124509502804,
+      -25.58563963131664,
+      -49.75340145245492
+    ],
+    "max_dB": [
+      0.0007296067758648798,
+      0.018035750459371957,
+      0.32817025584333903,
+      0.00506362554160587,
+      -2.0781403028590626,
+      -22.300593533677493,
+      -46.45069512373222
+    ]
+  },
+  "limits": [
+    "Electrical charge is injected; real force/friction-to-charge response is unmeasured.",
+    "All semiconductor models are typical; no process/yield or calibrated noise guarantee.",
+    "Ideal VMID and3.3V source here; shared-reference loading is a separate test.",
+    "Exact100k+BAV199 topology checked independently across all20canonical locations; pad/cable capacitance remains an assumed measurement input.",
+    "Initial node constraints are released during transient;80ms warmup precedes pulse. SPICE27degC numerical default; manufacturer model is nominal room-temperature and not a temperature-corner guarantee. Transient warmup is retained; solver warnings are recorded. AC about an unqualified operating point is deliberately not used.",
+    "Overload operation lies outside the op-amp vendor model supported normal region; external current/voltage bounds are supplementary, not an ESD rating."
+  ]
+}

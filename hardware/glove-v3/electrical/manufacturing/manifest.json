@@ -1,0 +1,98 @@
+{
+  "board": "glove-v3-routed.kicad_pcb",
+  "board_sha256": "feb122182190ef7c7e0303f19acc07aaefc8416172bf91f6595cc17ad2262e2b",
+  "canonical_sha256": "68475c8740f073eeaf4cf5fe4c1b317360fe04654b6434fcfd931f962bce9774",
+  "files": [
+    {
+      "path": "component-positions.csv",
+      "bytes": 29175,
+      "sha256": "0b5849f0c4b83f17ae04209fb784206f16cceb3f8efb58d8cfbd17dc60bc66be"
+    },
+    {
+      "path": "drill/glove-v3-routed-NPTH-drl_map.pdf",
+      "bytes": 2455,
+      "sha256": "b63a2a03d29c17d0392725ad2296e16fed1364e7032b4eee055fbb08aa2c3c89"
+    },
+    {
+      "path": "drill/glove-v3-routed-NPTH.drl",
+      "bytes": 297,
+      "sha256": "6a06eabf5685cd6118010757be479f95e8a0245b22db438ee261138548a681b9"
+    },
+    {
+      "path": "drill/glove-v3-routed-PTH-drl_map.pdf",
+      "bytes": 17860,
+      "sha256": "c0cd1ae363865daacb1d4c1f55b182bf9373d9a2f944cfba57c1df90b23081e2"
+    },
+    {
+      "path": "drill/glove-v3-routed-PTH.drl",
+      "bytes": 8048,
+      "sha256": "026b9619513622beef86fa9d68f7d111494651f86ca22f790aec80139239fe05"
+    },
+    {
+      "path": "fabrication-requirements.json",
+      "bytes": 2264,
+      "sha256": "ea9f11db78dd9eb7153578b9c7c97853430063aada0298c0a53f1a1dfe57c8ce"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-B_Cu.gbl",
+      "bytes": 138822,
+      "sha256": "bd7813d012fc4c23aaa7021efd26ec9c6156b0e318de13dcdd474bb402fa47d6"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-B_Mask.gbs",
+      "bytes": 21161,
+      "sha256": "c309ebd3a8fe4e2ba0b8c1e8d1141d79dd272f8ef60e3f96205a4d74da61ca46"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-B_Paste.gbp",
+      "bytes": 20950,
+      "sha256": "b5bae57a8a13f9db8a4f435428e3641891f6e68394bd65b467b182c444dadc57"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-B_Silkscreen.gbo",
+      "bytes": 21171,
+      "sha256": "7fcd8b208f190e9279d95ab3f0d0f89d12440d464194468bcf5bd5190ee9279f"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-Edge_Cuts.gm1",
+      "bytes": 648,
+      "sha256": "065c95ed49fef93f49677ab5e88ecf323e92101cfbc9b538cbebdd535996322e"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-F_Cu.gtl",
+      "bytes": 132309,
+      "sha256": "ebcef1ebbf1bb2f19c0e3d594de34d258fe54e95c394be334397bc2c65a9e0a4"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-F_Mask.gts",
+      "bytes": 19618,
+      "sha256": "757b339f6ae280494494b96ca3525755ef45a6e0063854cfccd16dba066dc4a1"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-F_Paste.gtp",
+      "bytes": 19407,
+      "sha256": "64cb284d9a4d2a6e43c737bac6f9e88ad19cdc110ead5186d5d744a194ca26b6"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-F_Silkscreen.gto",
+      "bytes": 19628,
+      "sha256": "d10431e77ff98e25359ba8e03bca1d0c1651896fde4761ff6a8bf5307eb03043"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-In1_Cu.g2",
+      "bytes": 380555,
+      "sha256": "54a67efb439f8b7ab2b9ebcc0fdcd03073330af27d94882fcd36c9735ba8a711"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-In2_Cu.g3",
+      "bytes": 414600,
+      "sha256": "5dd71099e8ebf0e656d78cd069819ddc66aba93409f70a6a25220391dd11a108"
+    },
+    {
+      "path": "gerbers/glove-v3-routed-job.gbrjob",
+      "bytes": 3493,
+      "sha256": "e793d4077b27c7869503d574f3931cd1edebf3979c1118e95b03d48f3c9015a0"
+    }
+  ],
+  "required_process": "IPC-4761 Type VII epoxy-filled and copper-capped vias"
+}

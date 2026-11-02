@@ -1,0 +1,54 @@
+{
+  "status": "proposal",
+  "items": [
+    {
+      "id": "gpio3-module-boot",
+      "severity": "release-blocker",
+      "question": "Confirm GPIO3 pulldown and early release on exact ESP32-S3-WROOM module boot."
+    },
+    {
+      "id": "camera-failoff-pulls",
+      "severity": "review",
+      "nets": [
+        "CAM_IO_EN",
+        "CAM_AV_EN",
+        "CAM_DV_EN",
+        "CAM_IF_EN",
+        "MCU_CAM_RESET_N",
+        "MCU_CAM_PWDN"
+      ],
+      "question": "Confirm R_CAM_* population and downstream enable polarity at PCB/first article; canonical components.json defines the six pulls."
+    },
+    {
+      "id": "sd-failoff-pull",
+      "severity": "review",
+      "net": "SD_EN",
+      "question": "Confirm R_SD_EN population and TPS22919 enable polarity at PCB/first article; canonical components.json defines the pull."
+    },
+    {
+      "id": "polarity",
+      "severity": "review",
+      "nets": [
+        "REG_PFM",
+        "USB_SUSPEND",
+        "CHG_DISABLE"
+      ],
+      "question": "Confirm low default is the intended safe state at each downstream device."
+    },
+    {
+      "id": "timeout-policy",
+      "severity": "release-blocker",
+      "question": "Integrate the owner acknowledgements and direct esp_restart timeout branch; registered shutdown handlers must not cut rails or touch live DMA/SPI."
+    },
+    {
+      "id": "part-and-address",
+      "severity": "review",
+      "question": "Approve TCA9539 PW24 pin/footprint and 0x74 address in PCB CAD and driver."
+    },
+    {
+      "id": "camera-timeout-wrapper",
+      "severity": "release-blocker",
+      "question": "The pinned public esp_camera_fb_get() has no timeout parameter. Confirm the exact linked component or expose cam_take(timeout) through the owner task before relying on a bounded capture wait."
+    }
+  ]
+}

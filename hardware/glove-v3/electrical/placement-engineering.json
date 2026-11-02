@@ -1,0 +1,41 @@
+{
+  "board_mm": [
+    90,
+    60,
+    1.6
+  ],
+  "layer_order": [
+    "F.Cu signals/components",
+    "In1.Cu signals with stitched GND fill",
+    "In2.Cu signals with stitched 3V3A fill",
+    "B.Cu signals/components"
+  ],
+  "charge_amplifiers": "Five four-channel groups on front; feedback resistor/capacitor and series input resistor remain beside their corresponding amplifier pins.",
+  "filters": "Ten two-channel fourth-order filter groups on back; RC components cluster around their corresponding quad amplifiers.",
+  "adc": "Input isolation, charge buckets, supply and reference capacitors placed on back immediately beneath the converter; drivers remain next to it on front.",
+  "xiao": {
+    "origin_mm": [
+      66.71975,
+      40.482499
+    ],
+    "rotation_deg": 270,
+    "usb_opening": "right board edge, y approximately 49.4 mm",
+    "antenna_keepout_mm": [
+      63,
+      42,
+      73.5,
+      52
+    ],
+    "keepout_layers": [
+      "F.Cu",
+      "In1.Cu",
+      "In2.Cu",
+      "B.Cu"
+    ],
+    "evidence": "Seeed Studio XIAO nRF52840 v1.1 native PCB, ANT1 center (139.095479,103.205275); ground-plane exclusion x137.9728..141.1478,y99.06..107.3658. Carrier keepout contains that mapped exclusion with additional margin.",
+    "rf_validation": "Physical RF measurement remains a first-article test; this geometric keepout is derived from manufacturer CAD."
+  },
+  "mounting": "Perimeter board retention; no mounting holes.",
+  "release_gate": "Passed: 0 DRC violations, 0 unconnected pads, 0 footprint errors; exact reconciliation of 1,054 canonical endpoints.",
+  "screen": "XIAO built-in RGB LED; external display and its pull-up removed."
+}

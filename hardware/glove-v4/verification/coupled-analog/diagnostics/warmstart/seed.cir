@@ -1,0 +1,19 @@
+* Original Microchip model operating point for numerical initialization only
+VDD vdd 0 3.3
+VIN vin 0 1.25
+XAMP vin out vdd 0 out MCP6001
+RLOAD out 0 100Meg
+XOPA vin opaout vdd 0 opaout opa320_OPAx320
+RLOADOPA opaout 0 100Meg
+.include [original source path]/OPAx320-prefixed.lib
+.include [original source path]/MCP6001-rev-C.lib
+.options gmin=1e-13 reltol=1e-4 abstol=1e-12
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+op
+wrdata /tmp/glove-coupled-warmstart-20261023/seed.dat all
+quit
+.endc
+.end

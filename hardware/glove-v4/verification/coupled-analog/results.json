@@ -1,0 +1,134 @@
+{
+  "canonical_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "runner_sha256": "42d830f05b550c095e6c04a593166afb1e30d95beea2c68404543e76e61cff69",
+  "selected_components": 289,
+  "active_amplifier_sections": 63,
+  "completed_coupled_cases": 1,
+  "attempts": [
+    {
+      "attempt": "initial",
+      "complete": false,
+      "native_end_s": 2e-08,
+      "seconds": 10.885,
+      "deck_sha256": "c103c7d3f0804661bcb2021fcfecf438bf8d4d8b8ea6a41c27de4a1f43c7b25c",
+      "log_sha256": "9fabb5b68f214d845e4906ec74b4a2468fbbaf46fc96232b4728b4ba63ce247b",
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 2e-08, timestep = 2.5e-18: trouble with node \"e.xneg.x_u4.e1#branch\"",
+        "tran simulation(s) aborted"
+      ]
+    },
+    {
+      "attempt": "biased",
+      "complete": false,
+      "native_end_s": null,
+      "seconds": 12.599,
+      "deck_sha256": "f660dd0a802da50b005d75e522dc16e4f384665126dfb76d63f06acae635c460",
+      "log_sha256": "9580275fbecb7aa4053915a1d3b8e04946251ec0dd8ded81f159f2651a34d12a",
+      "errors": [
+        "Warning: singular matrix:  check node xneg.x_u1.7",
+        "Warning: singular matrix:  check node xneg.x_u1.7",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"e.xneg.x_u4.e1#branch\"",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ]
+    },
+    {
+      "attempt": "dc",
+      "complete": false,
+      "native_end_s": null,
+      "seconds": 1.983,
+      "deck_sha256": "126bd2282425e49bbbdb3d5ec30a958d17c76dbb69285821373af57e9558c56b",
+      "log_sha256": "f9e1f457bd266d6c20842884ff0d7e5b9360d6feb051abf01d03fa3c52c6b574",
+      "errors": [
+        "Warning: singular matrix:  check node xu_filt6_1.20",
+        "Warning: singular matrix:  check node xu_filt6_1.20",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xu_chg1_0:dl-instance d.xu_chg1_0.d16",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ]
+    },
+    {
+      "attempt": "nodeset",
+      "complete": false,
+      "native_end_s": null,
+      "seconds": 11.715,
+      "deck_sha256": "48194718dc90235d58bd400466b8361fc4f486a2d23aa430a658c672dd98116f",
+      "log_sha256": "5eca8602480c065209f4f93784081a5caf594dbba7db5365a5de4a32731eb855",
+      "errors": [
+        "Warning: singular matrix:  check node xneg.x_u1.7",
+        "Warning: singular matrix:  check node xneg.x_u1.7",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xu_chg1_0:dl-instance d.xu_chg1_0.d16",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ]
+    },
+    {
+      "attempt": "uic",
+      "complete": false,
+      "native_end_s": null,
+      "seconds": 0.469,
+      "deck_sha256": "ad89085dd0892b962c7607865e739d28150c9c414c2cf7decc335b890af3c586",
+      "log_sha256": "b9064002aa2c5c6242196a8ba10998414ef28da10b5dae9d9f3709dd573d946a",
+      "errors": [
+        "Warning: singular matrix:  check nodes xu_filt9_2.50 and xu_filt6_3.20",
+        "Warning: singular matrix:  check nodes xu_filt9_2.50 and xu_filt6_3.20",
+        "Warning: singular matrix:  check nodes xu_filt9_2.50 and xu_filt6_3.20",
+        "Warning: singular matrix:  check nodes xu_filt9_2.50 and xu_filt6_3.20",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xu_chg1_0:dl-instance d.xu_chg1_0.d16",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ]
+    },
+    {
+      "attempt": "klu",
+      "complete": false,
+      "native_end_s": null,
+      "seconds": 8.11,
+      "deck_sha256": "58a8dab7b95a5639bcfb0a3ed780ee3df10d0684b3fb402e01ff3f8935c91aea",
+      "log_sha256": "b7305c507d7c4927d2bbc71e288bc87e4df7bf825ba433d1a76a4b22594e6492",
+      "errors": [
+        "Warning: singular matrix:  check node xu_chg1_1.12",
+        "Warning: singular matrix:  check node xu_chg1_1.12",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xu_chg1_0:dl-instance d.xu_chg1_0.d16",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ]
+    },
+    {
+      "attempt": "noiseguess",
+      "complete": false,
+      "native_end_s": null,
+      "seconds": 17.433,
+      "deck_sha256": "09bc67d601951e73c06f07ae92312cb5f6bd96fc7218720fcb5e2b317cc4a295",
+      "log_sha256": "cd39b13bbea312ef5e300c104083dfc5674945b0f74d6560f2f4b52073f909bf",
+      "errors": [
+        "Warning: singular matrix:  check node xu_chg1_1.12",
+        "Warning: singular matrix:  check node xu_chg1_1.12",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with xu_chg1_0:dl-instance d.xu_chg1_0.d16",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ]
+    }
+  ],
+  "disposition": "One conditioned native waveform completes; isolated gmin/abstol tightening fails. Coupled-network numerical qualification remains unresolved.",
+  "completed_native_diagnostics": 1,
+  "qualified_coupled_cases": 0,
+  "conditioning_evidence": "diagnostics/conditioning/results.json",
+  "completed_original_seven_attempts": 0
+}

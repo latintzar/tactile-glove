@@ -1,0 +1,34 @@
+{
+  "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+  "configuration": {
+    "net": "USB_CHARGER_IN",
+    "sources": [
+      [
+        85.1229,
+        57.5659
+      ],
+      [
+        85.0229,
+        58.1659
+      ]
+    ],
+    "loads": [
+      [
+        14.75,
+        69.9
+      ]
+    ]
+  },
+  "method": "2D four-neighbour resistive sheet on the largest filled main-rail polygon; excludes parallel copper and vias, so estimates only this plane contribution. Not a thermal or AC model. Coarse raster must converge before use.",
+  "grid_mm": 0.05,
+  "widest_interior_corridor_mm": 0.498046875,
+  "corridor_terminal_exclusion_radius_mm": 1.5,
+  "nodes": 296849,
+  "solver_info": 0,
+  "elapsed_s": 1.0797249237075448,
+  "equivalent_squares": 24.484397633010165,
+  "residual_l2": 3.975014535477153e-12,
+  "rho_at50C_ohm_m": 1.9272596000000003e-08,
+  "resistance_at15um_ohm": 0.031458526925624085,
+  "resistance_at30um_ohm": 0.015729263462812042
+}

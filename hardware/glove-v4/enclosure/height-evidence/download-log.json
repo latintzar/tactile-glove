@@ -1,0 +1,502 @@
+{
+  "sources": [
+    {
+      "file": "2N7002.pdf",
+      "url": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
+    },
+    {
+      "file": "74LVC1G04.pdf",
+      "url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf"
+    },
+    {
+      "file": "BAV199.pdf",
+      "url": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf"
+    },
+    {
+      "file": "bq25616.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/bq25616.pdf"
+    },
+    {
+      "file": "cd74hct4067.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/cd74hct4067.pdf"
+    },
+    {
+      "file": "DMP2035U.pdf",
+      "url": "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf"
+    },
+    {
+      "file": "lm393lv.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/lm393lv.pdf"
+    },
+    {
+      "file": "opa4323.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/opa4323.pdf"
+    },
+    {
+      "file": "pca9306.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/pca9306.pdf"
+    },
+    {
+      "file": "PESD5V0U2BT.pdf",
+      "url": "https://assets.nexperia.com/documents/data-sheet/PESD5V0U2BT.pdf"
+    },
+    {
+      "file": "PMEG2010ER.pdf",
+      "url": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf"
+    },
+    {
+      "file": "PMV16XN.pdf",
+      "url": "https://assets.nexperia.com/documents/data-sheet/PMV16XN.pdf"
+    },
+    {
+      "file": "RC0603FR-07100KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"
+    },
+    {
+      "file": "RC0603FR-0710KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL"
+    },
+    {
+      "file": "RC0603FR-0710ML.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710ML"
+    },
+    {
+      "file": "RC0603FR-0710RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710RL"
+    },
+    {
+      "file": "RC0603FR-0714K7L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0714K7L"
+    },
+    {
+      "file": "RC0603FR-071KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"
+    },
+    {
+      "file": "RC0603FR-07200KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07200KL"
+    },
+    {
+      "file": "RC0603FR-07220RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07220RL"
+    },
+    {
+      "file": "RC0603FR-0722RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0722RL"
+    },
+    {
+      "file": "RC0603FR-0727K4L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0727K4L"
+    },
+    {
+      "file": "RC0603FR-072K2L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K2L"
+    },
+    {
+      "file": "RC0603FR-072KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-072KL"
+    },
+    {
+      "file": "RC0603FR-0733RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL"
+    },
+    {
+      "file": "RC0603FR-0747KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL"
+    },
+    {
+      "file": "RC0603FR-0747RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL"
+    },
+    {
+      "file": "RC0603FR-074K7L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L"
+    },
+    {
+      "file": "RC0603FR-07680RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07680RL"
+    },
+    {
+      "file": "RC0805FR-0722RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL"
+    },
+    {
+      "file": "ref33.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/ref33.pdf"
+    },
+    {
+      "file": "RT0603BRD07100KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07100KL"
+    },
+    {
+      "file": "RT0603BRD07107KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07107KL"
+    },
+    {
+      "file": "RT0603BRD07158KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07158KL"
+    },
+    {
+      "file": "RT0603BRD0719K2L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0719K2L"
+    },
+    {
+      "file": "RT0603BRD072M15L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD072M15L"
+    },
+    {
+      "file": "RT0603BRD07300KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07300KL"
+    },
+    {
+      "file": "RT0603BRD0730K9L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0730K9L"
+    },
+    {
+      "file": "RT0603BRD07327KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07327KL"
+    },
+    {
+      "file": "RT0603BRD07390RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07390RL"
+    },
+    {
+      "file": "RT0603BRD0752K3L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0752K3L"
+    },
+    {
+      "file": "RT0603BRD07562RL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07562RL"
+    },
+    {
+      "file": "RT0603BRD075K23L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD075K23L"
+    },
+    {
+      "file": "RT0603BRD0771K5L.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0771K5L"
+    },
+    {
+      "file": "RT0603BRD07887KL.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07887KL"
+    },
+    {
+      "file": "RV0805FR-0722ML.pdf",
+      "url": "https://yageogroup.com/component-documentation/download/specsheet/RV0805FR-0722ML"
+    },
+    {
+      "file": "sn74ahc595.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74ahc595.pdf"
+    },
+    {
+      "file": "sn74axc8t245.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf"
+    },
+    {
+      "file": "sn74lvc1g00.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g00.pdf"
+    },
+    {
+      "file": "sn74lvc1g04.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf"
+    },
+    {
+      "file": "sn74lvc1g08.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf"
+    },
+    {
+      "file": "sn74lvc1g17.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf"
+    },
+    {
+      "file": "sn74lvc1g32.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf"
+    },
+    {
+      "file": "sn74lvc1g74.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf"
+    },
+    {
+      "file": "tca9535.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tca9535.pdf"
+    },
+    {
+      "file": "tlv3012.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tlv3012.pdf"
+    },
+    {
+      "file": "tps22919.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22919.pdf"
+    },
+    {
+      "file": "tps22950.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps22950.pdf"
+    },
+    {
+      "file": "tps2553.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps2553.pdf"
+    },
+    {
+      "file": "tps63070.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps63070.pdf"
+    },
+    {
+      "file": "tps7a20.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+    },
+    {
+      "file": "tusb320lai.pdf",
+      "url": "https://www.ti.com/lit/ds/symlink/tusb320lai.pdf"
+    }
+  ],
+  "results": [
+    [
+      "2N7002.pdf",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "74LVC1G04.pdf",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "BAV199.pdf",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "bq25616.pdf",
+      "ok"
+    ],
+    [
+      "cd74hct4067.pdf",
+      "ok"
+    ],
+    [
+      "DMP2035U.pdf",
+      "ok"
+    ],
+    [
+      "lm393lv.pdf",
+      "ok"
+    ],
+    [
+      "opa4323.pdf",
+      "ok"
+    ],
+    [
+      "pca9306.pdf",
+      "ok"
+    ],
+    [
+      "PESD5V0U2BT.pdf",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "PMEG2010ER.pdf",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "PMV16XN.pdf",
+      "HTTP Error 403: Forbidden"
+    ],
+    [
+      "RC0603FR-07100KL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0710KL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0710ML.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0710RL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0714K7L.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-071KL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-07200KL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-07220RL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0722RL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0727K4L.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-072K2L.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-072KL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0733RL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0747KL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-0747RL.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-074K7L.pdf",
+      "ok"
+    ],
+    [
+      "RC0603FR-07680RL.pdf",
+      "ok"
+    ],
+    [
+      "RC0805FR-0722RL.pdf",
+      "ok"
+    ],
+    [
+      "ref33.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD07100KL.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD07107KL.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD07158KL.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD0719K2L.pdf",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "RT0603BRD072M15L.pdf",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "RT0603BRD07300KL.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD0730K9L.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD07327KL.pdf",
+      "HTTP Error 404: Not Found"
+    ],
+    [
+      "RT0603BRD07390RL.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD0752K3L.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD07562RL.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD075K23L.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD0771K5L.pdf",
+      "ok"
+    ],
+    [
+      "RT0603BRD07887KL.pdf",
+      "ok"
+    ],
+    [
+      "RV0805FR-0722ML.pdf",
+      "ok"
+    ],
+    [
+      "sn74ahc595.pdf",
+      "ok"
+    ],
+    [
+      "sn74axc8t245.pdf",
+      "ok"
+    ],
+    [
+      "sn74lvc1g00.pdf",
+      "ok"
+    ],
+    [
+      "sn74lvc1g04.pdf",
+      "ok"
+    ],
+    [
+      "sn74lvc1g08.pdf",
+      "ok"
+    ],
+    [
+      "sn74lvc1g17.pdf",
+      "ok"
+    ],
+    [
+      "sn74lvc1g32.pdf",
+      "ok"
+    ],
+    [
+      "sn74lvc1g74.pdf",
+      "ok"
+    ],
+    [
+      "tca9535.pdf",
+      "ok"
+    ],
+    [
+      "tlv3012.pdf",
+      "ok"
+    ],
+    [
+      "tps22919.pdf",
+      "ok"
+    ],
+    [
+      "tps22950.pdf",
+      "ok"
+    ],
+    [
+      "tps2553.pdf",
+      "ok"
+    ],
+    [
+      "tps63070.pdf",
+      "ok"
+    ],
+    [
+      "tps7a20.pdf",
+      "ok"
+    ],
+    [
+      "tusb320lai.pdf",
+      "ok"
+    ]
+  ]
+}

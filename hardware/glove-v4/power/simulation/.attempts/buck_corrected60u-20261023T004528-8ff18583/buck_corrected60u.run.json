@@ -1,0 +1,25 @@
+{
+  "name": "buck_corrected60u",
+  "attempt_directory": ".attempts/buck_corrected60u-20261023T004528-8ff18583",
+  "analysis_complete": true,
+  "simulation_errors": [],
+  "seconds": 226.049,
+  "simulator_returncode": 0,
+  "actual_native_end_s": 0.0007,
+  "expected_end_s": 0.0007,
+  "completion_marker": true,
+  "expected_step_s": 1.0000000000000001e-07,
+  "expected_columns": 12,
+  "deck_sha256": "889972e8fcfd5ae937e3c2aa7fd8ebca224d84af8402b332f6a927ef5daa29a6",
+  "executed_deck_sha256": "42c62688eef4b96751a627833dee1277a6d4b58a0579a4f7d4c94828da34a934",
+  "log_sha256": "c3b6ec90f562b78177bd79c9d4abfb354dee8308aa6ac299e3315e5a6cb8b463",
+  "waveform_sha256": "3b596f41a0ad41bda7a3f0d62f25489190cdbf6ac844bf3408a53ad21706b046",
+  "waveform_validation": {
+    "valid": true,
+    "rows": 7001,
+    "expected_rows": 7001,
+    "last_time_s": 0.0007,
+    "all_zero_tail_rows": 0,
+    "errors": []
+  }
+}

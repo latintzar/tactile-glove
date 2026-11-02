@@ -1,0 +1,1176 @@
+{
+  "board_sha256": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+  "USB_geometry": {
+    "USB_DP": {
+      "total_routed_segment_length_mm": 14.231784570859933,
+      "segment_count": 34,
+      "via_count": 1,
+      "layers": {
+        "F.Cu": 31,
+        "B.Cu": 3
+      },
+      "widths_mm": [
+        0.15
+      ],
+      "length_fraction_with_other_member_centerline_within_0p35mm_same_layer": 0.0,
+      "pads": [
+        {
+          "ref": "J11",
+          "pin": "A6",
+          "xy_mm": [
+            92.015,
+            54.25
+          ]
+        },
+        {
+          "ref": "J11",
+          "pin": "B6",
+          "xy_mm": [
+            92.015,
+            53.25
+          ]
+        },
+        {
+          "ref": "D23",
+          "pin": "1",
+          "xy_mm": [
+            87.5,
+            50.05
+          ]
+        },
+        {
+          "ref": "R202",
+          "pin": "1",
+          "xy_mm": [
+            90.175,
+            45.5
+          ]
+        }
+      ]
+    },
+    "USB_DM": {
+      "total_routed_segment_length_mm": 21.34894191123332,
+      "segment_count": 34,
+      "via_count": 2,
+      "layers": {
+        "F.Cu": 10,
+        "SIGNAL_BOTTOM": 22,
+        "B.Cu": 2
+      },
+      "widths_mm": [
+        0.15
+      ],
+      "length_fraction_with_other_member_centerline_within_0p35mm_same_layer": 0.0,
+      "pads": [
+        {
+          "ref": "J11",
+          "pin": "A7",
+          "xy_mm": [
+            92.015,
+            53.75
+          ]
+        },
+        {
+          "ref": "J11",
+          "pin": "B7",
+          "xy_mm": [
+            92.015,
+            54.75
+          ]
+        },
+        {
+          "ref": "D23",
+          "pin": "2",
+          "xy_mm": [
+            87.5,
+            51.95
+          ]
+        },
+        {
+          "ref": "R203",
+          "pin": "1",
+          "xy_mm": [
+            85.5,
+            49.825
+          ]
+        }
+      ]
+    },
+    "MCU_USB_DP": {
+      "total_routed_segment_length_mm": 22.716092144114185,
+      "segment_count": 9,
+      "via_count": 3,
+      "layers": {
+        "F.Cu": 3,
+        "SIGNAL_TOP": 3,
+        "SIGNAL_BOTTOM": 2,
+        "B.Cu": 1
+      },
+      "widths_mm": [
+        0.15
+      ],
+      "length_fraction_with_other_member_centerline_within_0p35mm_same_layer": 0.0,
+      "pads": [
+        {
+          "ref": "U51",
+          "pin": "14",
+          "xy_mm": [
+            98.5,
+            62.0
+          ]
+        },
+        {
+          "ref": "R202",
+          "pin": "2",
+          "xy_mm": [
+            91.825,
+            45.5
+          ]
+        }
+      ]
+    },
+    "MCU_USB_DM": {
+      "total_routed_segment_length_mm": 25.550380640115108,
+      "segment_count": 71,
+      "via_count": 2,
+      "layers": {
+        "F.Cu": 1,
+        "SIGNAL_BOTTOM": 69,
+        "B.Cu": 1
+      },
+      "widths_mm": [
+        0.15
+      ],
+      "length_fraction_with_other_member_centerline_within_0p35mm_same_layer": 0.0,
+      "pads": [
+        {
+          "ref": "U51",
+          "pin": "13",
+          "xy_mm": [
+            98.5,
+            63.27
+          ]
+        },
+        {
+          "ref": "R203",
+          "pin": "2",
+          "xy_mm": [
+            85.5,
+            48.175
+          ]
+        }
+      ]
+    }
+  },
+  "fast_signal_vias": [
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        78.3,
+        45.599999
+      ],
+      "nearest_ground_via_distance_mm": 2.27901332817537
+    },
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        79.425,
+        26.249999
+      ],
+      "nearest_ground_via_distance_mm": 2.003902442735175
+    },
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        86.75,
+        24.95
+      ],
+      "nearest_ground_via_distance_mm": 0.9340770846134688
+    },
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        78.3,
+        49.574999
+      ],
+      "nearest_ground_via_distance_mm": 1.360146242137583
+    },
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        80.925,
+        28.124999
+      ],
+      "nearest_ground_via_distance_mm": 2.0615528128088303
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        77.875,
+        53.375
+      ],
+      "nearest_ground_via_distance_mm": 2.225939273655055
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        75.5,
+        40.875
+      ],
+      "nearest_ground_via_distance_mm": 0.6082762530298166
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        84.0,
+        33.5
+      ],
+      "nearest_ground_via_distance_mm": 2.3504173523014953
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        75.0,
+        46.125
+      ],
+      "nearest_ground_via_distance_mm": 1.0
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        76.575,
+        48.824999
+      ],
+      "nearest_ground_via_distance_mm": 1.2515605259039566
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        79.625,
+        37.0
+      ],
+      "nearest_ground_via_distance_mm": 0.8646198066202269
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        85.6,
+        27.8
+      ],
+      "nearest_ground_via_distance_mm": 1.9723082923316044
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        75.1375,
+        53.375
+      ],
+      "nearest_ground_via_distance_mm": 2.081614613707353
+    },
+    {
+      "net": "CAM_D2",
+      "xy_mm": [
+        78.9875,
+        54.025
+      ],
+      "nearest_ground_via_distance_mm": 1.5641805842037593
+    },
+    {
+      "net": "CAM_D2",
+      "xy_mm": [
+        85.1,
+        27.15
+      ],
+      "nearest_ground_via_distance_mm": 2.565414900167221
+    },
+    {
+      "net": "CAM_D3",
+      "xy_mm": [
+        78.9875,
+        54.675
+      ],
+      "nearest_ground_via_distance_mm": 2.063291278515957
+    },
+    {
+      "net": "CAM_D3",
+      "xy_mm": [
+        86.1,
+        27.15
+      ],
+      "nearest_ground_via_distance_mm": 2.04022057631032
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        86.75,
+        27.125
+      ],
+      "nearest_ground_via_distance_mm": 1.7629875212263981
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        84.549999,
+        20.95
+      ],
+      "nearest_ground_via_distance_mm": 1.0738356019433322
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        70.449999,
+        35.4
+      ],
+      "nearest_ground_via_distance_mm": 1.1401751619821485
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        84.25,
+        38.375
+      ],
+      "nearest_ground_via_distance_mm": 2.814173052603559
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        72.499999,
+        26.25
+      ],
+      "nearest_ground_via_distance_mm": 2.8021601959561395
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        82.375,
+        36.125
+      ],
+      "nearest_ground_via_distance_mm": 2.440225532609643
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        77.875,
+        55.375
+      ],
+      "nearest_ground_via_distance_mm": 2.5610361672573045
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        70.449999,
+        33.85
+      ],
+      "nearest_ground_via_distance_mm": 1.252996408614175
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        85.25,
+        41.125
+      ],
+      "nearest_ground_via_distance_mm": 0.6082762530298166
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        94.999999,
+        34.55
+      ],
+      "nearest_ground_via_distance_mm": 2.3501329643237154
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        92.349999,
+        31.6
+      ],
+      "nearest_ground_via_distance_mm": 2.69269943551095
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        82.899999,
+        48.8
+      ],
+      "nearest_ground_via_distance_mm": 1.2250637840541145
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        88.799999,
+        29.3
+      ],
+      "nearest_ground_via_distance_mm": 1.5811378814009256
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        96.525,
+        26.849999
+      ],
+      "nearest_ground_via_distance_mm": 0.995616266440538
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        92.699999,
+        22.8
+      ],
+      "nearest_ground_via_distance_mm": 0.6020789815306681
+    },
+    {
+      "net": "CAM_D6",
+      "xy_mm": [
+        76.099999,
+        48.3
+      ],
+      "nearest_ground_via_distance_mm": 0.9025144458683186
+    },
+    {
+      "net": "CAM_D6",
+      "xy_mm": [
+        89.999999,
+        27.9
+      ],
+      "nearest_ground_via_distance_mm": 1.205779405613237
+    },
+    {
+      "net": "CAM_D7",
+      "xy_mm": [
+        76.9875,
+        57.275
+      ],
+      "nearest_ground_via_distance_mm": 0.9192388155425147
+    },
+    {
+      "net": "CAM_D7",
+      "xy_mm": [
+        90.25,
+        25.45
+      ],
+      "nearest_ground_via_distance_mm": 2.393252232841329
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        77.4,
+        36.074999
+      ],
+      "nearest_ground_via_distance_mm": 2.8958204340050075
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        74.175,
+        26.249999
+      ],
+      "nearest_ground_via_distance_mm": 1.1349474995791622
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        75.5375,
+        43.175
+      ],
+      "nearest_ground_via_distance_mm": 1.208304597359465
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        74.925,
+        39.599999
+      ],
+      "nearest_ground_via_distance_mm": 0.6082764174296033
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        72.375,
+        32.174999
+      ],
+      "nearest_ground_via_distance_mm": 3.419521326150928
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        92.05,
+        23.8
+      ],
+      "nearest_ground_via_distance_mm": 1.4142135623730976
+    },
+    {
+      "net": "CAM_PCLK",
+      "xy_mm": [
+        76.65,
+        41.699999
+      ],
+      "nearest_ground_via_distance_mm": 1.894234291211358
+    },
+    {
+      "net": "CAM_PCLK",
+      "xy_mm": [
+        82.425,
+        25.799999
+      ],
+      "nearest_ground_via_distance_mm": 1.0514870422406544
+    },
+    {
+      "net": "CAM_VSYNC",
+      "xy_mm": [
+        75.5375,
+        42.075
+      ],
+      "nearest_ground_via_distance_mm": 1.2713796639871147
+    },
+    {
+      "net": "CAM_VSYNC",
+      "xy_mm": [
+        92.9,
+        27.4
+      ],
+      "nearest_ground_via_distance_mm": 1.3253825485496535
+    },
+    {
+      "net": "CAM_XCLK",
+      "xy_mm": [
+        89.999999,
+        23.8
+      ],
+      "nearest_ground_via_distance_mm": 1.1763944810313471
+    },
+    {
+      "net": "CAM_XCLK",
+      "xy_mm": [
+        91.299999,
+        32.8
+      ],
+      "nearest_ground_via_distance_mm": 2.7352157821643646
+    },
+    {
+      "net": "MCU_CAM_D0",
+      "xy_mm": [
+        84.599999,
+        52.5
+      ],
+      "nearest_ground_via_distance_mm": 1.0250002195126608
+    },
+    {
+      "net": "MCU_CAM_D0",
+      "xy_mm": [
+        91.399999,
+        61.3
+      ],
+      "nearest_ground_via_distance_mm": 2.311385645019247
+    },
+    {
+      "net": "MCU_CAM_D1",
+      "xy_mm": [
+        80.025,
+        60.825
+      ],
+      "nearest_ground_via_distance_mm": 2.6637614382673247
+    },
+    {
+      "net": "MCU_CAM_D1",
+      "xy_mm": [
+        80.325,
+        57.45
+      ],
+      "nearest_ground_via_distance_mm": 1.0585217097443023
+    },
+    {
+      "net": "MCU_CAM_D1",
+      "xy_mm": [
+        91.425,
+        63.825
+      ],
+      "nearest_ground_via_distance_mm": 1.3999999999999915
+    },
+    {
+      "net": "MCU_CAM_D2",
+      "xy_mm": [
+        86.4,
+        54.0
+      ],
+      "nearest_ground_via_distance_mm": 1.4269126182075753
+    },
+    {
+      "net": "MCU_CAM_D2",
+      "xy_mm": [
+        83.25,
+        54.675
+      ],
+      "nearest_ground_via_distance_mm": 1.965006361312859
+    },
+    {
+      "net": "MCU_CAM_D2",
+      "xy_mm": [
+        93.525,
+        64.725
+      ],
+      "nearest_ground_via_distance_mm": 0.9848857801796179
+    },
+    {
+      "net": "MCU_CAM_D2",
+      "xy_mm": [
+        98.475,
+        64.575
+      ],
+      "nearest_ground_via_distance_mm": 1.6278827967642475
+    },
+    {
+      "net": "MCU_CAM_D3",
+      "xy_mm": [
+        80.299999,
+        59.4
+      ],
+      "nearest_ground_via_distance_mm": 1.36404803801076
+    },
+    {
+      "net": "MCU_CAM_D3",
+      "xy_mm": [
+        92.599999,
+        60.2
+      ],
+      "nearest_ground_via_distance_mm": 2.6196376085254602
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        90.399999,
+        60.7
+      ],
+      "nearest_ground_via_distance_mm": 3.2650604588584513
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        83.4,
+        56.025
+      ],
+      "nearest_ground_via_distance_mm": 2.076635066640263
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        84.3,
+        59.325
+      ],
+      "nearest_ground_via_distance_mm": 0.8441897002451535
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        86.699999,
+        59.1
+      ],
+      "nearest_ground_via_distance_mm": 2.1659661239273786
+    },
+    {
+      "net": "MCU_CAM_D5",
+      "xy_mm": [
+        84.45,
+        61.95
+      ],
+      "nearest_ground_via_distance_mm": 3.4175329186417516
+    },
+    {
+      "net": "MCU_CAM_D5",
+      "xy_mm": [
+        79.899999,
+        62.499999
+      ],
+      "nearest_ground_via_distance_mm": 2.36583415382439
+    },
+    {
+      "net": "MCU_CAM_D5",
+      "xy_mm": [
+        84.0125,
+        56.625
+      ],
+      "nearest_ground_via_distance_mm": 1.9525624189766668
+    },
+    {
+      "net": "MCU_CAM_D5",
+      "xy_mm": [
+        81.699999,
+        59.449999
+      ],
+      "nearest_ground_via_distance_mm": 1.0213336134691733
+    },
+    {
+      "net": "MCU_CAM_D6",
+      "xy_mm": [
+        97.15,
+        66.929999
+      ],
+      "nearest_ground_via_distance_mm": 1.2612086425338165
+    },
+    {
+      "net": "MCU_CAM_D6",
+      "xy_mm": [
+        81.675,
+        60.45
+      ],
+      "nearest_ground_via_distance_mm": 1.9811612756158967
+    },
+    {
+      "net": "MCU_CAM_D6",
+      "xy_mm": [
+        92.4,
+        61.95
+      ],
+      "nearest_ground_via_distance_mm": 1.131370849898472
+    },
+    {
+      "net": "MCU_CAM_D6",
+      "xy_mm": [
+        84.0125,
+        57.275
+      ],
+      "nearest_ground_via_distance_mm": 1.3038404810405346
+    },
+    {
+      "net": "MCU_CAM_D6",
+      "xy_mm": [
+        79.875,
+        57.825
+      ],
+      "nearest_ground_via_distance_mm": 1.5994139551723325
+    },
+    {
+      "net": "MCU_CAM_D6",
+      "xy_mm": [
+        89.4,
+        61.875
+      ],
+      "nearest_ground_via_distance_mm": 1.7888543819998382
+    },
+    {
+      "net": "MCU_CAM_D7",
+      "xy_mm": [
+        97.899999,
+        68.1
+      ],
+      "nearest_ground_via_distance_mm": 1.655294535724686
+    },
+    {
+      "net": "MCU_CAM_D7",
+      "xy_mm": [
+        84.699999,
+        58.9
+      ],
+      "nearest_ground_via_distance_mm": 0.8519270361955974
+    },
+    {
+      "net": "MCU_CAM_HREF",
+      "xy_mm": [
+        98.399999,
+        70.6
+      ],
+      "nearest_ground_via_distance_mm": 1.4866068747318426
+    },
+    {
+      "net": "MCU_CAM_HREF",
+      "xy_mm": [
+        84.399999,
+        43.4
+      ],
+      "nearest_ground_via_distance_mm": 1.264912012750687
+    },
+    {
+      "net": "MCU_CAM_PCLK",
+      "xy_mm": [
+        83.299999,
+        42.4
+      ],
+      "nearest_ground_via_distance_mm": 0.7280112636498175
+    },
+    {
+      "net": "MCU_CAM_PCLK",
+      "xy_mm": [
+        80.699999,
+        61.0
+      ],
+      "nearest_ground_via_distance_mm": 2.576941258546845
+    },
+    {
+      "net": "MCU_CAM_PCLK",
+      "xy_mm": [
+        88.599999,
+        61.9
+      ],
+      "nearest_ground_via_distance_mm": 1.1138327522572666
+    },
+    {
+      "net": "MCU_CAM_VSYNC",
+      "xy_mm": [
+        95.099999,
+        48.5
+      ],
+      "nearest_ground_via_distance_mm": 1.3928388277184094
+    },
+    {
+      "net": "MCU_CAM_VSYNC",
+      "xy_mm": [
+        84.999999,
+        42.9
+      ],
+      "nearest_ground_via_distance_mm": 1.2206561350359897
+    },
+    {
+      "net": "MCU_CAM_VSYNC",
+      "xy_mm": [
+        98.399999,
+        71.9
+      ],
+      "nearest_ground_via_distance_mm": 2.2803508501982797
+    },
+    {
+      "net": "MCU_CAM_XCLK",
+      "xy_mm": [
+        98.599999,
+        69.3
+      ],
+      "nearest_ground_via_distance_mm": 1.7888543819998255
+    },
+    {
+      "net": "MCU_CAM_XCLK",
+      "xy_mm": [
+        83.899999,
+        44.0
+      ],
+      "nearest_ground_via_distance_mm": 1.802776636192351
+    },
+    {
+      "net": "MCU_USB_DM",
+      "xy_mm": [
+        98.399999,
+        63.0
+      ],
+      "nearest_ground_via_distance_mm": 2.901939006940012
+    },
+    {
+      "net": "MCU_USB_DM",
+      "xy_mm": [
+        86.099999,
+        47.9
+      ],
+      "nearest_ground_via_distance_mm": 1.6852853077746253
+    },
+    {
+      "net": "MCU_USB_DP",
+      "xy_mm": [
+        97.0941,
+        61.9787
+      ],
+      "nearest_ground_via_distance_mm": 3.700724001894893
+    },
+    {
+      "net": "MCU_USB_DP",
+      "xy_mm": [
+        94.1238,
+        61.9771
+      ],
+      "nearest_ground_via_distance_mm": 1.2044836445547942
+    },
+    {
+      "net": "MCU_USB_DP",
+      "xy_mm": [
+        91.1063,
+        46.2187
+      ],
+      "nearest_ground_via_distance_mm": 2.5312663589594853
+    },
+    {
+      "net": "USB_DM",
+      "xy_mm": [
+        90.075,
+        53.1
+      ],
+      "nearest_ground_via_distance_mm": 1.9275962103098785
+    },
+    {
+      "net": "USB_DM",
+      "xy_mm": [
+        84.2343,
+        50.0171
+      ],
+      "nearest_ground_via_distance_mm": 1.1401754250991298
+    },
+    {
+      "net": "USB_DP",
+      "xy_mm": [
+        90.2024,
+        49.0606
+      ],
+      "nearest_ground_via_distance_mm": 1.1303331898161721
+    }
+  ],
+  "nearest_ground_via_target_mm": 2,
+  "fast_vias_exceeding_target": [
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        78.3,
+        45.599999
+      ],
+      "nearest_ground_via_distance_mm": 2.27901332817537
+    },
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        79.425,
+        26.249999
+      ],
+      "nearest_ground_via_distance_mm": 2.003902442735175
+    },
+    {
+      "net": "CAM_D0",
+      "xy_mm": [
+        80.925,
+        28.124999
+      ],
+      "nearest_ground_via_distance_mm": 2.0615528128088303
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        77.875,
+        53.375
+      ],
+      "nearest_ground_via_distance_mm": 2.225939273655055
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        84.0,
+        33.5
+      ],
+      "nearest_ground_via_distance_mm": 2.3504173523014953
+    },
+    {
+      "net": "CAM_D1",
+      "xy_mm": [
+        75.1375,
+        53.375
+      ],
+      "nearest_ground_via_distance_mm": 2.081614613707353
+    },
+    {
+      "net": "CAM_D2",
+      "xy_mm": [
+        85.1,
+        27.15
+      ],
+      "nearest_ground_via_distance_mm": 2.565414900167221
+    },
+    {
+      "net": "CAM_D3",
+      "xy_mm": [
+        78.9875,
+        54.675
+      ],
+      "nearest_ground_via_distance_mm": 2.063291278515957
+    },
+    {
+      "net": "CAM_D3",
+      "xy_mm": [
+        86.1,
+        27.15
+      ],
+      "nearest_ground_via_distance_mm": 2.04022057631032
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        84.25,
+        38.375
+      ],
+      "nearest_ground_via_distance_mm": 2.814173052603559
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        72.499999,
+        26.25
+      ],
+      "nearest_ground_via_distance_mm": 2.8021601959561395
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        82.375,
+        36.125
+      ],
+      "nearest_ground_via_distance_mm": 2.440225532609643
+    },
+    {
+      "net": "CAM_D4",
+      "xy_mm": [
+        77.875,
+        55.375
+      ],
+      "nearest_ground_via_distance_mm": 2.5610361672573045
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        94.999999,
+        34.55
+      ],
+      "nearest_ground_via_distance_mm": 2.3501329643237154
+    },
+    {
+      "net": "CAM_D5",
+      "xy_mm": [
+        92.349999,
+        31.6
+      ],
+      "nearest_ground_via_distance_mm": 2.69269943551095
+    },
+    {
+      "net": "CAM_D7",
+      "xy_mm": [
+        90.25,
+        25.45
+      ],
+      "nearest_ground_via_distance_mm": 2.393252232841329
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        77.4,
+        36.074999
+      ],
+      "nearest_ground_via_distance_mm": 2.8958204340050075
+    },
+    {
+      "net": "CAM_HREF",
+      "xy_mm": [
+        72.375,
+        32.174999
+      ],
+      "nearest_ground_via_distance_mm": 3.419521326150928
+    },
+    {
+      "net": "CAM_XCLK",
+      "xy_mm": [
+        91.299999,
+        32.8
+      ],
+      "nearest_ground_via_distance_mm": 2.7352157821643646
+    },
+    {
+      "net": "MCU_CAM_D0",
+      "xy_mm": [
+        91.399999,
+        61.3
+      ],
+      "nearest_ground_via_distance_mm": 2.311385645019247
+    },
+    {
+      "net": "MCU_CAM_D1",
+      "xy_mm": [
+        80.025,
+        60.825
+      ],
+      "nearest_ground_via_distance_mm": 2.6637614382673247
+    },
+    {
+      "net": "MCU_CAM_D3",
+      "xy_mm": [
+        92.599999,
+        60.2
+      ],
+      "nearest_ground_via_distance_mm": 2.6196376085254602
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        90.399999,
+        60.7
+      ],
+      "nearest_ground_via_distance_mm": 3.2650604588584513
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        83.4,
+        56.025
+      ],
+      "nearest_ground_via_distance_mm": 2.076635066640263
+    },
+    {
+      "net": "MCU_CAM_D4",
+      "xy_mm": [
+        86.699999,
+        59.1
+      ],
+      "nearest_ground_via_distance_mm": 2.1659661239273786
+    },
+    {
+      "net": "MCU_CAM_D5",
+      "xy_mm": [
+        84.45,
+        61.95
+      ],
+      "nearest_ground_via_distance_mm": 3.4175329186417516
+    },
+    {
+      "net": "MCU_CAM_D5",
+      "xy_mm": [
+        79.899999,
+        62.499999
+      ],
+      "nearest_ground_via_distance_mm": 2.36583415382439
+    },
+    {
+      "net": "MCU_CAM_PCLK",
+      "xy_mm": [
+        80.699999,
+        61.0
+      ],
+      "nearest_ground_via_distance_mm": 2.576941258546845
+    },
+    {
+      "net": "MCU_CAM_VSYNC",
+      "xy_mm": [
+        98.399999,
+        71.9
+      ],
+      "nearest_ground_via_distance_mm": 2.2803508501982797
+    },
+    {
+      "net": "MCU_USB_DM",
+      "xy_mm": [
+        98.399999,
+        63.0
+      ],
+      "nearest_ground_via_distance_mm": 2.901939006940012
+    },
+    {
+      "net": "MCU_USB_DP",
+      "xy_mm": [
+        97.0941,
+        61.9787
+      ],
+      "nearest_ground_via_distance_mm": 3.700724001894893
+    },
+    {
+      "net": "MCU_USB_DP",
+      "xy_mm": [
+        91.1063,
+        46.2187
+      ],
+      "nearest_ground_via_distance_mm": 2.5312663589594853
+    }
+  ],
+  "limitations": [
+    "Segment sums include branches and stubs and are not end-to-end propagation length.",
+    "Nearness metric alone does not prove differential impedance, return continuity or coupling.",
+    "Ground-via distance is an engineering screening target and is not a device-specific timing limit.",
+    "Controlled USB routing review remains a release gate."
+  ]
+}

@@ -1,0 +1,47 @@
+* Proposed V4 shared-COM 4067 bus, case=pressure-r2000
+.include "[original source path]/OPAx320-prefixed.lib"
+.param RMUX=2000
+.model SW4067 SW(Ron={RMUX} Roff=1e12 Vt=2.5 Vh=0.1)
+VDD vdd 0 3.3
+VBIAS vmid 0 1.25
+VIN0 src0 0 PULSE(0 2.5 10u 1n 1n 100u 200u)
+RSRC0 src0 sensor0 10000
+VQUIET1 sensor1 0 1.25
+VQUIET2 sensor2 0 1.25
+VQUIET3 sensor3 0 1.25
+VCTRL0 ctrl0 0 5
+VCTRL1 ctrl1 0 0
+VCTRL2 ctrl2 0 0
+VCTRL3 ctrl3 0 0
+SBANK0 sensor0 bus ctrl0 0 SW4067
+SBANK1 sensor1 bus ctrl1 0 SW4067
+SBANK2 sensor2 bus ctrl2 0 SW4067
+SBANK3 sensor3 bus ctrl3 0 SW4067
+CCOM0 bus 0 80p
+CCOM1 bus 0 80p
+CCOM2 bus 0 80p
+CCOM3 bus 0 80p
+* Only the selected switch conducts; the four CCOM terms remain on the bus
+* even when their corresponding bank is disabled.
+XDRV bus driverout vdd 0 driverout opa320_OPAx320
+XNEG vmid negout vdd 0 negout opa320_OPAx320
+RISO driverout adcplus 22
+CBUCKET adcplus 0 1n
+RNEGIS negout adcminus 22
+CNEGBUCKET adcminus 0 1n
+RSAMPLEP adcplus sampleplus 200
+CSAMPLEP sampleplus 0 31p
+RSAMPLEN adcminus sampleminus 200
+CSAMPLEN sampleminus 0 31p
+.options method=gear reltol=1e-5 abstol=1e-12 gmin=1e-12 itl1=500 itl4=100
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 1n 80u 0 1n
+let actual_simulation_end=time[length(time)-1]
+print actual_simulation_end
+wrdata waveform.dat v(bus) v(driverout) v(adcplus) v(adcminus) v(sampleplus) v(sampleminus)
+quit
+.endc
+.end

@@ -1,0 +1,150 @@
+{
+  "schema": 3,
+  "date": "2026-10-23",
+  "purpose": "V4 six-hour continuous camera+tactile+dual-IMU budget",
+  "battery": {
+    "part": "Jauch LI18650JLS HB 1S2P / 250480",
+    "minimum_capacity_mah": 6500,
+    "nominal_voltage_v": 3.6,
+    "minimum_nominal_energy_wh": 23.4,
+    "usable_energy_wh_after_20pct_capacity_reserve": 18.72
+  },
+  "boundary": {
+    "system_v_nominal": 3.416,
+    "system_v_design_worst": 3.55,
+    "imu_supply_v": 3.416,
+    "converter_efficiency": 0.8,
+    "battery_path_resistance_allocation_ohm": 0.19,
+    "path_loss_evaluation_pack_v": 3.2,
+    "path_allocation_note": "190mohm includes protected-pack leads, connector/crimps, fuse, BQ25616 BATFET and PCB copper, with the documented factory lead-extension variant; requires measured assembly acceptance. Capacity reserve covers pack internal loss/early cutoff separately. Thermal and fuse tolerances are allocations, not manufacturer guarantees.",
+    "six_hour_max_equivalent_current_ma_at_design_worst": 662.395775,
+    "six_hour_max_system_power_w_at_design_worst": 2.351505,
+    "capacity_reserve": "20% allocation for capacity loss and early cutoff; converter and external path losses separate. This is a design allowance, not a proven discharge-curve equivalence or lifetime guarantee.",
+    "capture_stop_v": 3.2,
+    "capture_restart_v": 3.55,
+    "capture_voltage_node": "VBAT after connector and fuse, referenced to board GND; not protected pack output",
+    "path_loss_source_node": "Protected pack output before external leads and board path;3.2V here is a conservative low-source loss/stress assumption"
+  },
+  "camera": {
+    "rails_v": {
+      "avdd": 2.8,
+      "dvdd": 1.5,
+      "dovdd": 1.8
+    },
+    "external_core_max_current_ma": 125,
+    "total_conservative_input_current_ma": 177,
+    "method": "sum of LDO output currents; external DVDD remains powered in every conservative case"
+  },
+  "firmware_seen": {
+    "pixel_format": "JPEG",
+    "frame_size": "VGA",
+    "jpeg_quality": 12,
+    "explicit_frame_rate_hz": 9.997556152940392,
+    "frame_rate_status": "OV5640 registers target 9.99756fps with 24MHz XCLK, HTS2060,VTS2622. Actual frame timestamps and skipped frames remain recorded. No sensor power reduction assumed."
+  },
+  "sd": {
+    "chosen_reference": "Kingston Industrial microSD SDCIT2 family",
+    "host_mode": "SPI3 at20MHz",
+    "average_current_ma": 100,
+    "peak_current_ma": 300,
+    "source_note": "Selected SDCIT2 manufacturer sheet publishes no current limits.100mA average/300mA peak are design assumptions, requiring selected-card characterization."
+  },
+  "esp32": {
+    "wifi_tx_peak_ma": 286,
+    "wifi_rx_ma": 95,
+    "cpu_240mhz_dual_core_typ_max_table_ma": 107.9,
+    "note": "286mA is a Wi-Fi TX peak at 100% duty, not a guaranteed continuous part maximum; CPU allowance is separately duty-weighted in realistic case."
+  },
+  "cases": [
+    {
+      "name": "conservative_sustained_design",
+      "inputs": {
+        "esp32_combined_ma_at_3v3": 286,
+        "camera_external_rail_input_ma": 177,
+        "sd_average_ma_at_3v3": 100,
+        "sd_peak_ma_at_3v3": 300,
+        "dual_imu_ma_at_3v416": 3.0,
+        "analog_ma_at_3v416": 64.405,
+        "board_translator_margin_ma": 30
+      },
+      "result": {
+        "equivalent_system_current_ma": 660.405,
+        "system_power_w_at_3v416": 2.255943,
+        "system_power_w_at_3v55": 2.344438,
+        "converter_input_power_w": 2.930547,
+        "battery_path_loss_w_at_low_voltage": 0.179464,
+        "battery_current_at_low_voltage_ma": 971.878526,
+        "battery_input_power_w_at_3v55": 3.110011,
+        "battery_current_at_nominal_voltage_ma": 863.892023,
+        "runtime_h_after_reserves": 6.019271,
+        "six_hour_margin_h": 0.019271
+      },
+      "notes": "ESP32 published TX operating point held continuously; SD100mA is a design assumption, not a manufacturer maximum. Scenario calculation, not guaranteed runtime."
+    },
+    {
+      "name": "realistic_duty_budget",
+      "inputs": {
+        "esp32_combined_ma_at_3v3": 150.625,
+        "camera_external_rail_input_ma": 177,
+        "sd_average_ma_at_3v3": 100,
+        "sd_peak_ma_at_3v3": 300,
+        "dual_imu_ma_at_3v416": 3.0,
+        "analog_ma_at_3v416": 64.405,
+        "board_translator_margin_ma": 30
+      },
+      "result": {
+        "equivalent_system_current_ma": 525.03,
+        "system_power_w_at_3v416": 1.793502,
+        "system_power_w_at_3v55": 1.863856,
+        "converter_input_power_w": 2.329821,
+        "battery_path_loss_w_at_low_voltage": 0.110496,
+        "battery_current_at_low_voltage_ma": 762.598897,
+        "battery_input_power_w_at_3v55": 2.440316,
+        "battery_current_at_nominal_voltage_ma": 677.865686,
+        "runtime_h_after_reserves": 7.671136,
+        "six_hour_margin_h": 1.671136
+      },
+      "notes": "Wi-Fi: 15% TX at 286mA + 85% RX at 95mA = 123.65mA; CPU: 25% at 107.9mA dual-core 240MHz modem-sleep ceiling = 26.975mA. Combined ESP allowance is 150.625mA and must be measured."
+    },
+    {
+      "name": "peak_converter_sizing",
+      "inputs": {
+        "esp32_combined_ma_at_3v3": 286,
+        "camera_external_rail_input_ma": 177,
+        "sd_average_ma_at_3v3": 300,
+        "sd_peak_ma_at_3v3": 300,
+        "dual_imu_ma_at_3v416": 3.0,
+        "analog_ma_at_3v416": 64.405,
+        "board_translator_margin_ma": 30
+      },
+      "result": {
+        "equivalent_system_current_ma": 860.405,
+        "system_power_w_at_3v416": 2.939143,
+        "system_power_w_at_3v55": 3.054438,
+        "converter_input_power_w": 3.818047,
+        "battery_path_loss_w_at_low_voltage": 0.317306,
+        "battery_current_at_low_voltage_ma": 1292.298026,
+        "battery_input_power_w_at_3v55": 4.135354,
+        "battery_current_at_nominal_voltage_ma": 1148.709356,
+        "runtime_h_after_reserves": 4.52682,
+        "six_hour_margin_h": -1.47318
+      },
+      "notes": "Instantaneous sizing only: ESP TX operating point and assumed SD300mA peak; this case is not a sustained runtime prediction."
+    }
+  ],
+  "sources": {
+    "battery": "https://www.jauch.com/downloadfile/61f0fb7230945444b292c0fac704609f8/6700%20mAh,%20LI18650JLS%20HB%201s2p,%20Mat.%20250480.pdf",
+    "camera_module": "https://wiki.camthink.ai/docs/hardware-dev-resources/camera-module-ov5640/",
+    "camera_sensor": "https://files.waveshare.com/upload/d/da/OV5640_DataSheet.pdf",
+    "esp32": "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf",
+    "imu": "https://www.st.com/resource/en/datasheet/ism330dhcx.pdf",
+    "sd": "https://www.kingston.com/datasheets/sdcit2_en.pdf",
+    "translator_axc": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf"
+  },
+  "acceptance": [
+    "Measure the external battery path at temperature and require <=190mohm equivalent; retain current/voltage traces.",
+    "Measure combined ESP current and TX/RX/CPU duty with actual VGA JPEG traffic.",
+    "Measure SD current at SPI20MHz with sustained writes; retain peak trace for converter sizing.",
+    "Measure all rails and battery current at thermal steady state for >=30 minutes and record frame rate, cutoff, and efficiency."
+  ]
+}

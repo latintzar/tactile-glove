@@ -1,0 +1,143 @@
+{
+  "status": "engineering prototype; physical timing,thermal,radio,storage and six-hour endurance pending",
+  "target": "ESP32-S3-WROOM-1-N8R8",
+  "sdk": {
+    "esp_idf": "5.4.2",
+    "esp32_camera": "2.0.16",
+    "esp_tinyusb": "1.7.6"
+  },
+  "tactile": {
+    "dynamic_channels": 20,
+    "dynamic_hz_per_channel": 4000,
+    "pressure_channels": 20,
+    "pressure_hz_per_channel": 50,
+    "adc_reference_mv": 3000,
+    "midpoint_mv": 1250,
+    "excitation_mv": 2500,
+    "dynamic_settle_us": 6,
+    "pressure_settle_us": 24,
+    "adc_spi_host": 2,
+    "adc_spi_hz": 16000000,
+    "calibration_clocks": 1024
+  },
+  "imu": {
+    "model": "ISM330DHCXTR",
+    "sources": [
+      {
+        "id": 0,
+        "role": "cuff rigid to camera",
+        "i2c_address": 106
+      },
+      {
+        "id": 1,
+        "role": "dorsal hand",
+        "i2c_address": 107
+      }
+    ],
+    "odr_hz": 833,
+    "accel_range_g": 4,
+    "gyro_range_dps": 1000,
+    "fifo_records": 512,
+    "fifo_count_bits": 10,
+    "timestamp_decimation": 8,
+    "raw_factory_axes": true,
+    "extrinsics_calibrated": false
+  },
+  "power": {
+    "capture_resume_mv": 3550,
+    "capture_stop_mv": 3200,
+    "warning_mv": 3400,
+    "qualified_usb_override": "Valid attached high-current CC advertisement (at least1.5A)",
+    "configured_usb_500ma": "input latch only; retains battery hysteresis",
+    "battery_ratio": 2,
+    "battery_divider_settle_ms": 50,
+    "io0_address": 32,
+    "io1_address": 33,
+    "io0_outputs": [
+      "CAM_IO_EN",
+      "CAM_AV_EN",
+      "CAM_DV_EN",
+      "CAM_IF_EN",
+      "CAM_RESET_N",
+      "CAM_PWDN",
+      "LED_R_N",
+      "LED_G_N",
+      "LED_B_N",
+      "BAT_DIV_EN",
+      "REG_PFM",
+      "USB_CONFIG_SET",
+      "USB_CONFIG_CLR_N",
+      "USB_SUSPEND",
+      "CHG_DISABLE",
+      "SD_EN"
+    ],
+    "reg_pfm_startup": 0,
+    "reg_pfm_capture": 0,
+    "reg_pfm_standby": 1
+  },
+  "camera": {
+    "sensor": "OV5640",
+    "format": "JPEG",
+    "size": [
+      640,
+      480
+    ],
+    "requested_xclk_hz": 24000000,
+    "configured_jpeg_quality": 12,
+    "explicit_frame_rate_hz": 9.997556152940392,
+    "timestamp": "first DMA arrival; ESP timer microseconds",
+    "output_target_hz": 10,
+    "sensor_frame_rate_hz": null,
+    "pacing_energy_reduction_claim": false,
+    "sensor_nominal_hz": 9.997556152940392,
+    "sensor_timing": {
+      "sysclk_hz": 54000000,
+      "hts": 2060,
+      "vts": 2622,
+      "night_mode": false,
+      "register_readback_required": true
+    },
+    "measured_frame_rate_hz": null
+  },
+  "transport": {
+    "usb": "G3v2 COBS, newline commands",
+    "wifi_data_tcp": 7002,
+    "wifi_jpeg_tcp": 7001,
+    "jpeg_header_bytes": 32,
+    "ble": "encrypted setup,status,features or selected raw; physical pairing window; JustWorks",
+    "http_port": 80,
+    "browser_route": "/ws",
+    "browser_binary_prefixes": {
+      "0": "complete G3 COBS packet",
+      "1": "complete GV4J JPEG record"
+    },
+    "browser_full_scan": false,
+    "browser_features_hz": 50,
+    "browser_selected_raw_additive": true,
+    "browser_queue_packets": 64,
+    "browser_ws_frame_deadline_ms": 200,
+    "browser_clients": 1,
+    "browser_drop_status": {
+      "kind": 9,
+      "payload_bytes": 8,
+      "period_ms": 1000,
+      "recorded_to_sd": true
+    }
+  },
+  "recording": {
+    "spi_host": 3,
+    "sd_clock_hz": 20000000,
+    "segment_bytes": 1000000000,
+    "flush_interval_ms": 1000,
+    "queue_depth_camera": 2,
+    "queue_depth_sensor_packets": 128,
+    "sd_power_output": 15
+  },
+  "validation": {
+    "native_core_cases": 23,
+    "host_decoder_cases": 23,
+    "physical_capture_timing": false,
+    "six_hour_runtime_measured": false,
+    "native_http_cases": 13
+  }
+}

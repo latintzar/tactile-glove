@@ -1,0 +1,11 @@
+{
+  "url": "https://ds.murata.com/simserve/characteristics",
+  "params": {
+    "callback": "nothing",
+    "ReqType": "Characteristics",
+    "ReqChara": "[{\"partnumber\": \"GRM21BC81C226ME44\", \"chara_type\": \"c_dcbias_capacitance\", \"parameter\": {\"tc\": \"-20\", \"ac\": \"0.5\"}, \"WorkInfo\": {\"color\": \"#000000\", \"graph_set_y_name\": \"\"}}, {\"partnumber\": \"GRM21BC81C226ME44\", \"chara_type\": \"c_dcbias_capacitance\", \"parameter\": {\"tc\": \"25\", \"ac\": \"0.5\"}, \"WorkInfo\": {\"color\": \"#000000\", \"graph_set_y_name\": \"\"}}, {\"partnumber\": \"GRM21BC81C226ME44\", \"chara_type\": \"c_dcbias_capacitance\", \"parameter\": {\"tc\": \"85\", \"ac\": \"0.5\"}, \"WorkInfo\": {\"color\": \"#000000\", \"graph_set_y_name\": \"\"}}, {\"partnumber\": \"GRM32ER61C476KE15\", \"chara_type\": \"c_dcbias_capacitance\", \"parameter\": {\"tc\": \"-20\", \"ac\": \"0.5\"}, \"WorkInfo\": {\"color\": \"#000000\", \"graph_set_y_name\": \"\"}}, {\"partnumber\": \"GRM32ER61C476KE15\", \"chara_type\": \"c_dcbias_capacitance\", \"parameter\": {\"tc\": \"25\", \"ac\": \"0.5\"}, \"WorkInfo\": {\"color\": \"#000000\", \"graph_set_y_name\": \"\"}}, {\"partnumber\": \"GRM32ER61C476KE15\", \"chara_type\": \"c_dcbias_capacitance\", \"parameter\": {\"tc\": \"85\", \"ac\": \"0.5\"}, \"WorkInfo\": {\"color\": \"#000000\", \"graph_set_y_name\": \"\"}}]",
+    "CallBack": "mycallback",
+    "WorkInfo": "graph1"
+  },
+  "interpretation": "Manufacturer typical characteristic, not guaranteed production limits; use tolerance, temperature and aging margin."
+}

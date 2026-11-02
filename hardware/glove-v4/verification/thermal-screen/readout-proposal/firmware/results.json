@@ -1,0 +1,36 @@
+{
+  "checks": 100254,
+  "deterministic_assertions": 254,
+  "random_adc_vectors": 100000,
+  "passed": true,
+  "status": "unapplied proposal: host policy tests only",
+  "vendor_table_matches": true,
+  "sanitizers": [
+    "ASan",
+    "UBSan"
+  ],
+  "compile_command": [
+    "g++",
+    "-std=c++17",
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-g",
+    "[original source path]/test_thermal.cpp",
+    "-o",
+    "/tmp/v4-thermal-native/test_thermal"
+  ],
+  "sources": {
+    "thermal.hpp": "d60d6eaa1293f06fe96945fbff2efd305fec1c423959fb651bd5e8fcf5efd15a",
+    "test_thermal.cpp": "470240aa2d913488d21d7abdbfee46b0779b0235d4bd05da8c937376a91f8dc1",
+    "run_tests.py": "1d67a1c7e3a4c0e70071bb6a6fa6ee9d34cbf358b960577ef75b4de13e6c7e10",
+    "calculate.py": "691fb531e0ad9875324e09fd9ffac43c0dc6e3127acfd55df64de3452bf64ead"
+  },
+  "limitations": [
+    "Not included in target app; canonical board has no proposed two-NTC readout.",
+    "Does not exercise ADC/mux hardware, ISR timing, actuator acknowledgments or thermal response.",
+    "Indicated-temperature trip settings are provisional; assembled thermal bounds remain open."
+  ]
+}

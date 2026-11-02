@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-10-23",
+  "selected_sleeve": {
+    "mpn": "TE Raychem ATUM-3/1-0-STK",
+    "TE_internal": "NB10602001",
+    "source_url": "https://www.te.com/en/product-NB10602001.html",
+    "primary_family_pdf": "https://www.te.com/content/dam/te-com/documents/automotive/global/heatshrinktubing/fluidmanagement/atum-tubing.pdf",
+    "supplied_minimum_ID_mm": 3,
+    "fully_recovered_maximum_ID_mm": 1,
+    "wall_nominal_mm": 1,
+    "minimum_full_recovery_temperature_C": 110,
+    "assembly_acceptance": "Cut16mm; finished14..16mm long andOD<=4mm, fully cover5mm overlap, heat controlled away from battery; assembler process qualification required"
+  },
+  "wire_procurement_requirement": {
+    "AWG": 22,
+    "maximum_insulation_OD_mm": 1.85,
+    "added_length_each_mm": 35,
+    "quantity": 2,
+    "minimum_static_centerline_R_mm": 4,
+    "supplier_part_and_bend_acceptance": "Open supplier process item; select stranded wire specifically qualified for the reservedR4 bends."
+  },
+  "rejected_wire_candidate": {
+    "mpn": "Alpha Wire3051",
+    "reason": "Manufacturer specifies10x diameter bend radius.1.57mm nominalOD would need15.7mm; does not qualify the reservedR4 route.",
+    "source_url": "https://www.alphawire.com/products/wire/hook-up-wire/premium/3051"
+  }
+}

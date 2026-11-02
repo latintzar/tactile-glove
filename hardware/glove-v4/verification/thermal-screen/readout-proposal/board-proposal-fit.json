@@ -1,0 +1,120 @@
+{
+  "status": "unapplied proposal check",
+  "canonical_component_envelopes_sha256": "617a153e12eac7d1605e24b084901b3261fc19d6cee85be5cb76ba14be4cd4dd",
+  "proposal_placement_sha256": "b708d44e10e8fb41e47966d39a09c3f5ffce89da661fe5eb9b31383f03ee7df7",
+  "components": [
+    {
+      "ref": "U_TEMP",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 1.95,
+      "bounds_mm": [
+        23.550001,
+        49.300001,
+        30.6,
+        30.949999,
+        54.699999,
+        32.550000000000004
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "R_PACK",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 0.75,
+      "bounds_mm": [
+        18.52,
+        39.52,
+        30.6,
+        19.98,
+        42.48,
+        31.35
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "C_PACK",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 1.2,
+      "bounds_mm": [
+        20.27,
+        39.52,
+        30.6,
+        21.73,
+        42.48,
+        31.800000000000004
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "R_BASE",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 0.75,
+      "bounds_mm": [
+        18.52,
+        42.77,
+        30.6,
+        21.48,
+        44.23,
+        31.35
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "C_BASE",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 1.2,
+      "bounds_mm": [
+        18.52,
+        44.52,
+        30.6,
+        21.48,
+        45.98,
+        31.800000000000004
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "C_TEMP",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 1.2,
+      "bounds_mm": [
+        31.020000000000003,
+        49.27,
+        30.6,
+        32.48,
+        52.23,
+        31.800000000000004
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "R_PACK_ISO",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 0.75,
+      "bounds_mm": [
+        23.27,
+        42.27,
+        30.6,
+        26.23,
+        43.73,
+        31.35
+      ],
+      "hits": {}
+    },
+    {
+      "ref": "R_BASE_ISO",
+      "envelope": "entire native courtyard extruded conservatively to body+assembly height",
+      "height_mm": 0.75,
+      "bounds_mm": [
+        31.020000000000003,
+        52.77,
+        30.6,
+        33.98,
+        54.23,
+        31.35
+      ],
+      "hits": {}
+    }
+  ],
+  "pass": true
+}

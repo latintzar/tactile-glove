@@ -1,0 +1,39 @@
+{
+  "status": "pass; physical validation pending",
+  "core_cases": 34,
+  "http_cases": 13,
+  "host_decoder_piezo_cases": 32,
+  "source_set_sha256": "003f11f9ef76c3ce6d0c3f3e56038cde223ecb816d74f14955ab3b2c9135150b",
+  "binary_sha256": "390026c7ebc8eb2b1aec5cadbd02652bd1f3273a8d3cc6a780a2df591511fbbe",
+  "binary_bytes": 1551600,
+  "generated_web_gzip_bytes": 302505,
+  "compiler_warnings": [],
+  "iram_call_audit": "pass",
+  "physical_device_programmed": false,
+  "host_test_sources": {
+    "tools/tactile_v4/protocol.py": "89e37e3063571f70a7902205feb6de23612584dca5cfab98d02d90d239d6239c",
+    "tools/tactile_v4/test_protocol.py": "e1ce9500161f62d80cbb96e4cb4d1dfb57f7eb151b031925be5e1162aef153cb",
+    "tools/tactile_v4/test_piezo_e2e.py": "dce3e8ca2d5d01199b0f514cc5601e0362d838de2f639ef016091b34f877601e"
+  },
+  "host_conversion_evidence": {
+    "source": "ST DS13012 Rev7 Table3 p10",
+    "gyro_dps_per_lsb_at_1000dps": 0.035,
+    "accel_g_per_lsb_at_4g": 0.000122,
+    "unit_specific_calibration": false,
+    "firmware_image_unchanged": false
+  },
+  "firmware_change": "Pressure wait24us/dynamic6us; lost-source latch; owner-acknowledged ordered shutdown; pinned camera250ms total wait and iterative malformed recovery.",
+  "timestamp_reset_delay_us": 150,
+  "pressure_settle_us": 24,
+  "dynamic_settle_us": 6,
+  "fixed_scan_budget_us": 186,
+  "remaining_scan_budget_us": 64,
+  "local_target_build": true,
+  "power_loss_stop_latch_native_cases": true,
+  "camera_driver_cases": 9,
+  "camera_queue_budget_ms": 250,
+  "camera_malformed_frame_limit": 3,
+  "shutdown_phase_fault_cases": 8,
+  "camera_override_compilation_verified": true,
+  "shutdown_remaining": "Permanent bus/driver faults require independent reset/power-off hardware; current firmware holds shutdown and does not claim successful power-off."
+}

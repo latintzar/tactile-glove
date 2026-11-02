@@ -1,0 +1,357 @@
+Designator,Role,MPN,Package,Value,Status
+J1,J_XIAO,102010469,module 21x17.8mm,,topology corrected; physical CAD and supplier verification pending
+J2,J_BAT,B2B-PH-K-S(LF)(SN),JST PH 2,,topology corrected; physical CAD and supplier verification pending
+U1,U_LDO,TLV75518PDBVR,SOT-23-5,,topology corrected; physical CAD and supplier verification pending
+U2,U_REF,REF3330AIDBZR,SOT-23-3,,topology corrected; physical CAD and supplier verification pending
+U3,U_VMID,MCP6002T-I/SN,SOIC-8,,topology corrected; physical CAD and supplier verification pending
+U4,U_ADC,MCP33131D-10-I/MS,MSOP-10,,topology corrected; physical CAD and supplier verification pending
+U5,U_ADC_DRV,OPA320AIDBVR,SOT-23-5,,topology corrected; physical CAD and supplier verification pending
+U6,U_MUX1,CD74HC4067M,SOIC-24,,topology corrected; physical CAD and supplier verification pending
+U7,U_MUX2,CD74HC4067M,SOIC-24,,topology corrected; physical CAD and supplier verification pending
+U8,U_MUX3,CD74HC4067M,SOIC-24,,topology corrected; physical CAD and supplier verification pending
+U9,U_MUX4,CD74HC4067M,SOIC-24,,topology corrected; physical CAD and supplier verification pending
+U10,U_MUX_FINAL,CD74HC4052M,SOIC-16,,topology corrected; physical CAD and supplier verification pending
+U11,U_CHG1,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U12,U_CHG2,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U13,U_CHG3,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U14,U_CHG4,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U15,U_CHG5,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U16,U_FILT1,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U17,U_FILT2,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U18,U_FILT3,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U19,U_FILT4,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U20,U_FILT5,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U21,U_FILT6,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U22,U_FILT7,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U23,U_FILT8,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U24,U_FILT9,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U25,U_FILT10,MCP6004T-I/ST,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+U26,U_BANK1,OPA4323IPWR,TSSOP-14,,topology corrected; physical CAD and supplier verification pending
+J3,J_IMU,SM04B-SRSS-TB(LF)(SN),JST SH 1mm side entry 4,,topology corrected; physical CAD and supplier verification pending
+U27,U_IOX,TCA9534DWR,SOIC-16,,topology corrected; physical CAD and supplier verification pending
+J5,J_THUMB,BM06B-GHS-TBT(LF)(SN),JST GH 1.25mm top-entry,,topology corrected; physical CAD and supplier verification pending
+J6,J_INDEX,BM08B-GHS-TBT(LF)(SN),JST GH 1.25mm top-entry,,topology corrected; physical CAD and supplier verification pending
+J7,J_MIDDLE,BM08B-GHS-TBT(LF)(SN),JST GH 1.25mm top-entry,,topology corrected; physical CAD and supplier verification pending
+J8,J_RING,BM08B-GHS-TBT(LF)(SN),JST GH 1.25mm top-entry,,topology corrected; physical CAD and supplier verification pending
+J9,J_LITTLE,BM08B-GHS-TBT(LF)(SN),JST GH 1.25mm top-entry,,topology corrected; physical CAD and supplier verification pending
+J10,J_PALM_HEEL,BM14B-GHS-TBT(LF)(SN),JST GH 1.25mm top-entry,,topology corrected; physical CAD and supplier verification pending
+R1,RFB_I1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C1,CFB_I1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R2,RIN_I1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R3,RS1A_I1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R4,RS1B_I1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C2,CS1FB_I1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C3,CS1G_I1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R5,RS2A_I1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R6,RS2B_I1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C4,CS2FB_I1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C5,CS2G_I1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R7,RPD_I1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R8,RFB_I2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C6,CFB_I2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R9,RIN_I2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R10,RS1A_I2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R11,RS1B_I2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C7,CS1FB_I2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C8,CS1G_I2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R12,RS2A_I2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R13,RS2B_I2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C9,CS2FB_I2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C10,CS2G_I2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R14,RPD_I2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R15,RFB_I3,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C11,CFB_I3,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R16,RIN_I3,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R17,RS1A_I3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R18,RS1B_I3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C12,CS1FB_I3,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C13,CS1G_I3,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R19,RS2A_I3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R20,RS2B_I3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C14,CS2FB_I3,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C15,CS2G_I3,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R21,RPD_I3,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R22,RFB_M1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C16,CFB_M1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R23,RIN_M1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R24,RS1A_M1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R25,RS1B_M1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C17,CS1FB_M1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C18,CS1G_M1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R26,RS2A_M1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R27,RS2B_M1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C19,CS2FB_M1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C20,CS2G_M1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R28,RPD_M1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R29,RFB_M2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C21,CFB_M2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R30,RIN_M2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R31,RS1A_M2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R32,RS1B_M2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C22,CS1FB_M2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C23,CS1G_M2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R33,RS2A_M2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R34,RS2B_M2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C24,CS2FB_M2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C25,CS2G_M2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R35,RPD_M2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R36,RFB_M3,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C26,CFB_M3,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R37,RIN_M3,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R38,RS1A_M3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R39,RS1B_M3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C27,CS1FB_M3,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C28,CS1G_M3,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R40,RS2A_M3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R41,RS2B_M3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C29,CS2FB_M3,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C30,CS2G_M3,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R42,RPD_M3,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R43,RFB_R1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C31,CFB_R1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R44,RIN_R1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R45,RS1A_R1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R46,RS1B_R1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C32,CS1FB_R1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C33,CS1G_R1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R47,RS2A_R1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R48,RS2B_R1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C34,CS2FB_R1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C35,CS2G_R1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R49,RPD_R1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R50,RFB_R2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C36,CFB_R2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R51,RIN_R2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R52,RS1A_R2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R53,RS1B_R2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C37,CS1FB_R2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C38,CS1G_R2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R54,RS2A_R2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R55,RS2B_R2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C39,CS2FB_R2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C40,CS2G_R2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R56,RPD_R2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R57,RFB_R3,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C41,CFB_R3,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R58,RIN_R3,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R59,RS1A_R3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R60,RS1B_R3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C42,CS1FB_R3,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C43,CS1G_R3,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R61,RS2A_R3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R62,RS2B_R3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C44,CS2FB_R3,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C45,CS2G_R3,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R63,RPD_R3,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R64,RFB_L1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C46,CFB_L1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R65,RIN_L1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R66,RS1A_L1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R67,RS1B_L1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C47,CS1FB_L1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C48,CS1G_L1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R68,RS2A_L1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R69,RS2B_L1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C49,CS2FB_L1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C50,CS2G_L1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R70,RPD_L1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R71,RFB_L2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C51,CFB_L2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R72,RIN_L2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R73,RS1A_L2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R74,RS1B_L2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C52,CS1FB_L2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C53,CS1G_L2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R75,RS2A_L2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R76,RS2B_L2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C54,CS2FB_L2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C55,CS2G_L2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R77,RPD_L2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R78,RFB_L3,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C56,CFB_L3,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R79,RIN_L3,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R80,RS1A_L3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R81,RS1B_L3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C57,CS1FB_L3,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C58,CS1G_L3,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R82,RS2A_L3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R83,RS2B_L3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C59,CS2FB_L3,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C60,CS2G_L3,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R84,RPD_L3,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R85,RFB_T1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C61,CFB_T1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R86,RIN_T1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R87,RS1A_T1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R88,RS1B_T1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C62,CS1FB_T1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C63,CS1G_T1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R89,RS2A_T1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R90,RS2B_T1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C64,CS2FB_T1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C65,CS2G_T1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R91,RPD_T1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R92,RFB_T2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C66,CFB_T2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R93,RIN_T2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R94,RS1A_T2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R95,RS1B_T2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C67,CS1FB_T2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C68,CS1G_T2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R96,RS2A_T2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R97,RS2B_T2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C69,CS2FB_T2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C70,CS2G_T2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R98,RPD_T2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R99,RFB_P1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C71,CFB_P1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R100,RIN_P1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R101,RS1A_P1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R102,RS1B_P1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C72,CS1FB_P1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C73,CS1G_P1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R103,RS2A_P1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R104,RS2B_P1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C74,CS2FB_P1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C75,CS2G_P1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R105,RPD_P1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R106,RFB_P2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C76,CFB_P2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R107,RIN_P2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R108,RS1A_P2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R109,RS1B_P2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C77,CS1FB_P2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C78,CS1G_P2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R110,RS2A_P2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R111,RS2B_P2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C79,CS2FB_P2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C80,CS2G_P2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R112,RPD_P2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R113,RFB_P3,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C81,CFB_P3,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R114,RIN_P3,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R115,RS1A_P3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R116,RS1B_P3,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C82,CS1FB_P3,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C83,CS1G_P3,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R117,RS2A_P3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R118,RS2B_P3,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C84,CS2FB_P3,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C85,CS2G_P3,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R119,RPD_P3,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R120,RFB_P4,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C86,CFB_P4,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R121,RIN_P4,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R122,RS1A_P4,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R123,RS1B_P4,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C87,CS1FB_P4,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C88,CS1G_P4,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R124,RS2A_P4,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R125,RS2B_P4,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C89,CS2FB_P4,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C90,CS2G_P4,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R126,RPD_P4,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R127,RFB_H1,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C91,CFB_H1,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R128,RIN_H1,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R129,RS1A_H1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R130,RS1B_H1,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C92,CS1FB_H1,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C93,CS1G_H1,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R131,RS2A_H1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R132,RS2B_H1,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C94,CS2FB_H1,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C95,CS2G_H1,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R133,RPD_H1,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R134,RFB_H2,RV0805FR-0722ML,0805,22Meg,10% exact order candidate; manufacturer evidence audit in progress
+C96,CFB_H2,GRM1885C1H471JA01D,0603,470p,topology corrected; physical CAD and supplier verification pending
+R135,RIN_H2,RC0603FR-07100KL,0603,100k,topology corrected; physical CAD and supplier verification pending
+R136,RS1A_H2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+R137,RS1B_H2,RC0603FR-0714K7L,0603,14.7k,topology corrected; physical CAD and supplier verification pending
+C97,CS1FB_H2,C0603C123J3GACAUTO,0603,12n,candidate exact order awaiting independent source confirmation
+C98,CS1G_H2,GRM1885C1H103JA01D,0603,10n,topology corrected; physical CAD and supplier verification pending
+R138,RS2A_H2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+R139,RS2B_H2,RC0603FR-0727K4L,0603,27.4k,topology corrected; physical CAD and supplier verification pending
+C99,CS2FB_H2,C0603C153J3GACAUTO,0603,15n,order confirmed; manufacturer drawing crosscheck pending
+C100,CS2G_H2,GRM1885C1H222JA01D,0603,2.2n,topology corrected; physical CAD and supplier verification pending
+R140,RPD_H2,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+C101,C_LDO_IN,GRM188R61A105KA61D,0603,1u,topology corrected; physical CAD and supplier verification pending
+C102,C_LDO_OUT,GRM188R61A105KA61D,0603,1u,topology corrected; physical CAD and supplier verification pending
+C103,C_REF,GRM188R61A105KA61D,0603,1u,topology corrected; physical CAD and supplier verification pending
+C104,C_ADC_AVDD,GRM188R61A105KA61D,0603,1u,topology corrected; physical CAD and supplier verification pending
+C105,C_ADC_DVIO,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C106,C_ADC_REF,TAJA685K010RNJ,tantalum3216-18,6.8u,topology corrected; physical CAD and supplier verification pending
+C107,CDEC_U_LDO,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C108,CDEC_U_REF,GRM188R61A105KA61D,0603,1u,topology corrected; physical CAD and supplier verification pending
+C109,CDEC_U_VMID,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C110,CDEC_U_ADC_DRV,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C111,CDEC_U_MUX1,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C112,CDEC_U_MUX2,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C113,CDEC_U_MUX3,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C114,CDEC_U_MUX4,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C115,CDEC_U_MUX_FINAL,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C116,CDEC_U_CHG1,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C117,CDEC_U_CHG2,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C118,CDEC_U_CHG3,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C119,CDEC_U_CHG4,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C120,CDEC_U_CHG5,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C121,CDEC_U_FILT1,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C122,CDEC_U_FILT2,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C123,CDEC_U_FILT3,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C124,CDEC_U_FILT4,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C125,CDEC_U_FILT5,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C126,CDEC_U_FILT6,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C127,CDEC_U_FILT7,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C128,CDEC_U_FILT8,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C129,CDEC_U_FILT9,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C130,CDEC_U_FILT10,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C131,CDEC_U_BANK1,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+C132,CDEC_U_IOX,GRM188R71H104KA93D,0603,100n,topology corrected; physical CAD and supplier verification pending
+R141,R_VMID_H,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+R142,R_VMID_L,RC0603FR-0710KL,0603,10k,topology corrected; physical CAD and supplier verification pending
+C133,C_VMID,GRM188R61A105KA61D,0603,1u,topology corrected; physical CAD and supplier verification pending
+R143,R_ADC_ISO,RC0603FR-0722RL,0603,22,topology corrected; physical CAD and supplier verification pending
+C134,C_ADC_BUCKET,GRM1885C1H102JA01D,0603,1n,topology corrected; physical CAD and supplier verification pending
+R144,R_I2C_SDA,RC0603FR-074K7L,0603,4.7k,topology corrected; physical CAD and supplier verification pending
+R145,R_I2C_SCL,RC0603FR-074K7L,0603,4.7k,topology corrected; physical CAD and supplier verification pending
+SW1,SW1,PTS636SK43SMTR-LFS,switch 6x3.5mm,,topology corrected; physical CAD and supplier verification pending
+U28,U_LOAD,TPS22919DCKT,SC70-6,TPS22919,source-backed design; board verification pending
+R146,R_ANALOG_EN,RC0603FR-07100KL,0603,100k,source-backed design; board verification pending
+R147,R_WAKE,RC0603FR-0710KL,0603,10k,source-backed design; board verification pending
+C135,C_LOAD_IN,GRM188R61A105KA61D,0603,1u,source-backed design; board verification pending
+C136,C_LOAD_OUT,GRM188R61A105KA61D,0603,1u,source-backed design; board verification pending
+U29,U_ADC_NEG,OPA320AIDBVR,SOT-23-5,OPA320,source-backed design; board verification pending
+C137,CDEC_U_ADC_NEG,GRM188R71H104KA93D,0603,100n,source-backed design; board verification pending
+R148,R_ADC_NEG_ISO,RC0603FR-0722RL,0603,22,source-backed design; board verification pending
+C138,C_ADC_NEG_BUCKET,GRM1885C1H102JA01D,0603,1n,source-backed design; board verification pending
+R149,R_BTN0,RC0603FR-0710KL,0603,10k,source-backed design; board validation pending
+U30,U_MUX_ADDR,SN74AHC595PWR,TSSOP-16,,datasheet pinmap checked;8MHz below specified3.3V clock limit;layout pending
+C139,C_MUX_ADDR,GRM188R71C104KA01D,0603,100n,layout pending
+R150,R_VEXC_H,RC0603FR-072KL,0603,2k,V3.3 simulation-led correction; physical validation pending
+R151,R_VEXC_L,RC0603FR-0710KL,0603,10k,V3.3 simulation-led correction; physical validation pending
+R152,R_VMID_IN,RC0603FR-074K7L,0603,4.7k,V3.3 simulation-led correction; physical validation pending
+D1,D_LDO_REV,"PMEG2010ER,115",SOD-123W,PMEG2010ER,V3.3 simulation-led correction; physical validation pending
+R153,R_VEXC_ISO,RC0603FR-0747RL,0603,47,V3.3 simulation-led correction; physical validation pending
+R154,R_VEXC_FB,RC0603FR-0710KL,0603,10k,V3.3 simulation-led correction; physical validation pending
+C140,C_VEXC_FB,GRM188R71H104KA93D,0603,100n,V3.3 simulation-led correction; physical validation pending
+C141,C_VEXC,GRM188R61A105KA61D,0603,1u,V3.3 simulation-led correction; physical validation pending
+D2,D_CLAMP_I1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D3,D_CLAMP_I2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D4,D_CLAMP_I3,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D5,D_CLAMP_M1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D6,D_CLAMP_M2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D7,D_CLAMP_M3,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D8,D_CLAMP_R1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D9,D_CLAMP_R2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D10,D_CLAMP_R3,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D11,D_CLAMP_L1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D12,D_CLAMP_L2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D13,D_CLAMP_L3,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D14,D_CLAMP_T1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D15,D_CLAMP_T2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D16,D_CLAMP_P1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D17,D_CLAMP_P2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D18,D_CLAMP_P3,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D19,D_CLAMP_P4,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D20,D_CLAMP_H1,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending
+D21,D_CLAMP_H2,"BAV199,215",SOT-23,BAV199,V3.3 simulation-led correction; physical validation pending

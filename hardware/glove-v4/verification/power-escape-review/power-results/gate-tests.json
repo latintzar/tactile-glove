@@ -1,0 +1,40 @@
+{
+  "board_sha256": "973111f03d52a0288c53378c9ba5df2dc6b7ac896ce2e6f88557ab0d7846a84b",
+  "validate_only": [
+    {
+      "case": "valid",
+      "passed": true,
+      "log": "{\n  \"board_sha256\": \"973111f03d52a0288c53378c9ba5df2dc6b7ac896ce2e6f88557ab0d7846a84b\",\n  \"net\": \"USB_CHARGER_IN\",\n  \"layer\": \"POWER_A\",\n  \"sources\": [\n    [\n      85.1229,\n      57.5659\n    ],\n    [\n      85.0229,\n      58.1659\n    ]\n  ],\n  \"loads\": [\n    [\n      13.875,\n      68.45\n    ]\n  ],\n  \"validated\": true\n}"
+    },
+    {
+      "case": "outside",
+      "passed": false,
+      "log": "Traceback (most recent call last):\n  File \"/tmp/glove-power-escape-20261023/power-model/plane_dc_audit.py\", line 30, in <module>\n    if not g.covers(Point(float(pt[0]),float(pt[1]))): raise ValueError(f\"{role} terminal {pt} is outside filled {net_name} zone on {zone_layer_name}\")\n                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: load terminal [13.875, 67.9] is outside filled USB_CHARGER_IN zone on POWER_A"
+    },
+    {
+      "case": "nopad",
+      "passed": false,
+      "log": "Traceback (most recent call last):\n  File \"/tmp/glove-power-escape-20261023/power-model/plane_dc_audit.py\", line 41, in <module>\n    if min(math.hypot(float(x)-a,float(y)-bb) for a,bb,_ in terminal_items)>0.02: raise ValueError(f\"{role} terminal ({x},{y}) has no matching {net_name} pad/via on {zone_layer_name}\")\n                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: load terminal (13.9,69.3) has no matching USB_CHARGER_IN pad/via on POWER_A"
+    },
+    {
+      "case": "missingnet",
+      "passed": false,
+      "log": "Traceback (most recent call last):\n  File \"/tmp/glove-power-escape-20261023/power-model/plane_dc_audit.py\", line 11, in <module>\n    if not net_name or net_name not in b.GetNetsByName(): raise ValueError(f\"terminal net is missing from board: {net_name!r}\")\n                                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: terminal net is missing from board: 'NO_SUCH_NET'"
+    },
+    {
+      "case": "wronglayer",
+      "passed": false,
+      "log": "Traceback (most recent call last):\n  File \"/tmp/glove-power-escape-20261023/power-model/plane_dc_audit.py\", line 22, in <module>\n    if not zone_polys: raise ValueError(f\"no filled zone for terminal net {net_name!r} on requested layer {config.get('layer')!r}\")\n                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: no filled zone for terminal net 'USB_CHARGER_IN' on requested layer 'In1.Cu'"
+    },
+    {
+      "case": "emptysources",
+      "passed": false,
+      "log": "Traceback (most recent call last):\n  File \"/tmp/glove-power-escape-20261023/power-model/plane_dc_audit.py\", line 27, in <module>\n    if not pts: raise ValueError(f\"missing {role} terminals\")\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: missing source terminals"
+    },
+    {
+      "case": "nonfinite",
+      "passed": false,
+      "log": "Traceback (most recent call last):\n  File \"/tmp/glove-power-escape-20261023/power-model/plane_dc_audit.py\", line 29, in <module>\n    if len(pt)!=2 or not all(math.isfinite(float(v)) for v in pt): raise ValueError(f\"nonfinite {role} terminal: {pt!r}\")\n                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: nonfinite load terminal: [nan, 68.45]"
+    }
+  ]
+}

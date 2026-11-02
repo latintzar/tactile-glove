@@ -1,0 +1,20 @@
+{
+  "changes": [
+    "cam_take uses one absolute TickType_t budget for queue receive, one ESP32-S3 GDMA retry, and malformed-JPEG recovery; malformed frames are returned once and capped at three",
+    "esp_camera_fb_get uses a 250 ms public wait"
+  ],
+  "generated_sources": {
+    "cam_hal.c": "3fc32b6c49ec15a0b9d9cd71ff1fce2e589f888cca2fddd4fb2b055554959836",
+    "esp_camera.c": "d8b3648076f5677ec69c2befbc7af34b31681a26df45838da47779f241dd69c2"
+  },
+  "pinned_component": "espressif/esp32-camera 2.0.16",
+  "pinned_sources": {
+    "cam_hal.c": "88a08e4a0b277172127840efe9ff736c8f1dcd51f3b31810ab32053297a7d902",
+    "esp_camera.c": "c39e6e65f7e68d13b481d2a86573ec049ef2b13004406336b874caadda3f7133"
+  },
+  "reviewed_sources": {
+    "cam_hal.c": "3fc32b6c49ec15a0b9d9cd71ff1fce2e589f888cca2fddd4fb2b055554959836",
+    "esp_camera.c": "d8b3648076f5677ec69c2befbc7af34b31681a26df45838da47779f241dd69c2"
+  },
+  "schema": 1
+}

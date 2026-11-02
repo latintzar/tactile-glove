@@ -1,0 +1,256 @@
+{
+  "schema": 1,
+  "revision": "V4 microSD SPI interface",
+  "parts": [
+    {
+      "ref": "U_SD_POWER",
+      "qty": 1,
+      "mpn": "TPS22919DCKR",
+      "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND",
+        "3": "SD_EN",
+        "4": "NC",
+        "5": "SD_VDD",
+        "6": "SD_VDD"
+      },
+      "purpose": "Controlled-rise supply, QOD directly connected to output, default off",
+      "source": "https://www.ti.com/lit/ds/symlink/tps22919.pdf",
+      "pin_functions": {
+        "1": "IN",
+        "2": "GND",
+        "3": "ON",
+        "4": "NC",
+        "5": "QOD",
+        "6": "OUT"
+      }
+    },
+    {
+      "ref": "R_SD_EN",
+      "qty": 1,
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_EN",
+        "2": "GND"
+      },
+      "purpose": "100k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "100k"
+    },
+    {
+      "ref": "C_SD_IN",
+      "qty": 1,
+      "mpn": "GRM21BR61A106KE19L",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "10uF local card decoupling",
+      "source": "https://www.murata.com/en-us/products/capacitor/mlcc",
+      "value": "10uF"
+    },
+    {
+      "ref": "C_SD_BULK",
+      "qty": 1,
+      "mpn": "GRM32ER61A476KE20L",
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "GND"
+      },
+      "purpose": "47uF local card decoupling",
+      "source": "https://www.murata.com/en-us/products/capacitor/mlcc",
+      "value": "47uF"
+    },
+    {
+      "ref": "C_SD_HF",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "GND"
+      },
+      "purpose": "100nF local card decoupling",
+      "source": "https://www.murata.com/en-us/products/capacitor/mlcc",
+      "value": "100nF"
+    },
+    {
+      "ref": "R_SD_SCK",
+      "qty": 1,
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_SCK",
+        "2": "CARD_SCK"
+      },
+      "purpose": "33 ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "33"
+    },
+    {
+      "ref": "R_SD_MOSI",
+      "qty": 1,
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_MOSI",
+        "2": "CARD_MOSI"
+      },
+      "purpose": "33 ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "33"
+    },
+    {
+      "ref": "R_SD_CS_N",
+      "qty": 1,
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_CS_N",
+        "2": "CARD_CS_N"
+      },
+      "purpose": "33 ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "33"
+    },
+    {
+      "ref": "R_SD_PULL_CS_N",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "CARD_CS_N"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "47k"
+    },
+    {
+      "ref": "R_SD_PULL_MOSI",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "CARD_MOSI"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "47k"
+    },
+    {
+      "ref": "R_SD_PULL_MISO",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "SD_MISO"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "47k"
+    },
+    {
+      "ref": "R_SD_PULL_DAT1",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "SD_DAT1"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "47k"
+    },
+    {
+      "ref": "R_SD_PULL_DAT2",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "SD_VDD",
+        "2": "SD_DAT2"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "47k"
+    },
+    {
+      "ref": "R_SD_CD",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "SD_CD_N"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "value": "47k"
+    },
+    {
+      "ref": "J_SD",
+      "qty": 1,
+      "mpn": "DM3AT-SF-PEJM5",
+      "footprint": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+      "pins": {
+        "1": "SD_DAT2",
+        "2": "CARD_CS_N",
+        "3": "CARD_MOSI",
+        "4": "SD_VDD",
+        "5": "CARD_SCK",
+        "6": "GND",
+        "7": "SD_MISO",
+        "8": "SD_DAT1",
+        "9": "SD_CD_N",
+        "10": "GND",
+        "11": "GND"
+      },
+      "purpose": "Push-push microSD, independent detect A/B, shell grounded; CAD numbering reconciled to drawing",
+      "source": "https://www.hirose.com/en/product/p/CL0609-0031-0-00"
+    }
+  ],
+  "acquisition": {
+    "bus": "ESP32-S3 SPI3",
+    "clock_hz": 20000000,
+    "gpio": {
+      "sck": 14,
+      "mosi": 21,
+      "miso": 47,
+      "cs": 48
+    },
+    "card_detect": "IO1 P06, active low",
+    "power_enable": "IO0 P17"
+  },
+  "power_sequence": {
+    "on": [
+      "Qualify source",
+      "SD_EN high",
+      "Wait 5ms",
+      "Initialize SPI/card and mount"
+    ],
+    "off": [
+      "Stop writes and flush",
+      "Unmount and release SPI",
+      "SCK/MOSI/CS low; MISO input without pullup",
+      "SD_EN low"
+    ]
+  },
+  "electrical_limits": {
+    "card_voltage_min_V": 2.7,
+    "card_voltage_max_V": 3.6,
+    "design_peak_current_A": 0.3,
+    "switch_Ron_conservative_ohm": 0.4,
+    "switched_rail_max_drop_V": 0.12,
+    "nominal_bulk_uF": 47,
+    "startup_inrush_A_typical": 0.127
+  },
+  "validation_scope": "Pin and supply design; selected card current remains a design assumption until electrically characterized."
+}

@@ -1,0 +1,17 @@
+# Temperature policy implementation
+
+This executable C++17 policy belongs to the proposed two-NTC hardware revision. It is deliberately outside the target build: the current board routes these mux inputs to VMID and cannot provide these temperatures. The nine-part circuit delta, routed board and acquisition/actuator integration must land together.
+
+`thermal.hpp` implements the exact Semitec nominal table, differential ratiometric conversion and fault policy described in the parent proposal. The ADC owner must supply signed16-bit values for bank0 slots10–13, ordered pack/base/VMID/VEXC, with actual per-conversion timestamps. Each complete cohort gets its own sequence. Timestamping a cached frame anew cannot make it new data; the acquisition owner must enforce this provenance. Identical values from independent conversions are allowed.
+
+After rail-ready, the gate waits at least20ms for settling and requires two distinct cool cohorts before allowing capture. Cool means indicated pack≤40°C and base≤33°C. Two consecutive indicated readings at pack≥45°C or base≥36°C latch a hot fault. Invalid ADC/reference/readout/cohort evidence faults immediately. Missing data faults after500ms, measured from the oldest reading in the last accepted cohort. Repeated, skipped, backwards or overlapping cohorts fault;32-bit sequence wrap is supported. Faults remain latched through later cool readings. A fresh boot constructs a new gate and repeats the cool-start checks.
+
+The decision is a thermal permission, not an instruction to bypass independent battery, USB or charge-window checks. `chargingDisabled=false` only permits the existing charge policy to consider charging. The consuming task must atomically publish `stopRequested` to the shared shutdown path, assert charge disable, request camera stop/reset and stop recording/ADC/storage. This pure policy does not operate or verify those actuators. `poll()` must run even when the input queue is empty; a stalled MCU/task requires independent watchdog/control hardware. ADC ownership, the four staggered24µs conversions, queue publication, target timing, and actuator acknowledgment remain integration work.
+
+The trip thresholds are provisional indicated temperatures. They do not establish a40°C contact-temperature bound or six-hour wearability; the parent error/thermal model still has unresolved margin and lag.
+
+## Verification
+
+Run `python3 hardware/glove-v4/verification/thermal-screen/readout-proposal/firmware/run_tests.py --output /tmp/v4-thermal-native`. The retained `results.json` records source hashes and the actual compiler flags. The repository test suite runs this same test automatically when g++ is available.
+
+ASan/UBSan tests pass254 deterministic assertions plus100,000 seeded ADC input vectors. Coverage includes all nominal table endpoints and independent interpolation checks, affine reference correction, signed-code overflow, open/short sensors, invalid references/calibration, startup settling, future/backwards/stale timestamps, missing/duplicate/out-of-order sequences, sequence wrap and large uptime, consecutive hot/cool behavior, retained fault latch and fresh-boot recovery. A separate Luna review found no arithmetic defect; its integration observations are recorded above and its requested two-cool-after-fault/fresh-boot cases were added. These tests exercise the policy rather than a physical sensor, scheduler or shutdown actuator.

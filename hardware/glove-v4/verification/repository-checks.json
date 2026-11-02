@@ -1,0 +1,91 @@
+{
+  "checked_utc": "2026-10-23T02:48:03.179893+00:00",
+  "repository_suite": {
+    "command": "PYTHONPATH=/tmp/glove-engineering/pydeps python3 -m pytest -q tests",
+    "passed": 504,
+    "subtests_passed": 4,
+    "elapsed_seconds": 73.46
+  },
+  "focused_gateway_after_csp_change": {
+    "passed": 6,
+    "elapsed_seconds": 3.39
+  },
+  "required_javascript": "node --check static/app.js: pass",
+  "firmware_source_manifest_mismatches": [],
+  "embedded_viewer_source_manifest_mismatches": [],
+  "independent_native_net_reconciliation": "electrical/native-net-reconciliation.json",
+  "browser_report": "web/hosted-route-review.json",
+  "scope": "Desktop checks and target compilation; manufactured unit not connected.",
+  "focused_gateway_v4_photo_and_review": {
+    "passed": 9,
+    "elapsed_seconds": 4.99,
+    "note": "Run after adding V4 dispatch to actual GatewayHandler; includes photo upload, CSRF, private retrieval and operator review."
+  },
+  "host_decoder_and_piezo": {
+    "passed": 32,
+    "elapsed_seconds": 0.1,
+    "manufacturer_sensitivity_vectors": 8
+  },
+  "firmware_binary_sha256": "390026c7ebc8eb2b1aec5cadbd02652bd1f3273a8d3cc6a780a2df591511fbbe",
+  "enclosure_viewer_javascript": "node --check hardware/glove-v4/enclosure/viewer.js: pass",
+  "focused_gateway_after_enclosure_references": {
+    "passed": 9,
+    "elapsed_seconds": 5.02,
+    "command": "PYTHONPATH=/tmp/glove-engineering/pydeps python3 -m pytest -q tests/test_build_v4_route.py tests/test_build_gateway.py",
+    "note": "Current2026-10-23 ZIP tested for private operator access and anonymous/device denial. Archived2026-10-22 explicit paths retained."
+  },
+  "enclosure_browser": "web/cuff-viewer-review.json",
+  "enclosure_quote_pack": "enclosure-final-quote-pack.json",
+  "live_build_source_commit": "84e2126c033d14ed26f55ded5cb9c15912c69b77",
+  "spice_completion_regressions": {
+    "passed": 13,
+    "scope": "Native endpoint, schema, isolated attempt and abort reporting regressions; included in full suite."
+  },
+  "reproduced_regulator_case": {
+    "case": "buck_corrected60u",
+    "native_execution_verified": true,
+    "waveform_identical_to_previous": true,
+    "duration_us": 700,
+    "rows": 7001,
+    "seconds": 226.049
+  },
+  "focused_host_and_spice": {
+    "passed": 45,
+    "elapsed_seconds": 0.15,
+    "command": "pytest -q tools/tactile_v4/test_protocol.py tools/tactile_v4/test_piezo_e2e.py tests/test_v4_spice_completion.py"
+  },
+  "unscoped_collection_note": "Running pytest without the repository tests path collected legacy V3 tool scripts in an unsupported root import context and produced5 bridge import errors. The established repository suite and separately scoped V4 tool suites passed.",
+  "hardware_simulation_scope": {
+    "differential_adc_native_cases": 5,
+    "pressure_wait_us": 24,
+    "dynamic_wait_us": 6,
+    "coupled63section_native_cases_complete": 0,
+    "verified_regulating_finite_battery_path_cases": 0,
+    "thermal_release": false
+  },
+  "power_loss_shutdown": {
+    "native_core_cases": 34,
+    "native_http_cases": 13,
+    "sanitizers": [
+      "ASan",
+      "UBSan"
+    ],
+    "target_build": "local ESP-IDF5.4.2 pass",
+    "scope": "Lost-source latch, owner-gated checked shutdown, camera deadline/recursion correction implemented. Permanent bus/driver fault power-off requires independent hardware reset.",
+    "camera_driver_cases": 9
+  },
+  "camera_override": {
+    "cases": 9,
+    "queue_budget_ms": 250,
+    "malformed_frame_cap": 3,
+    "generated_sources_verified_in_compile_commands": true,
+    "managed_sources_unchanged": true
+  },
+  "thermal_readout_proposal": {
+    "canonical_implementation": false,
+    "native_buffer_cases": 4,
+    "native_VEXC_cases": 2,
+    "manifest_files_verified": 45,
+    "protective_threshold_qualified": false
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "status": "proposal",
+  "whole_board_failoff": {
+    "source": "hardware/glove-v4/electrical/components.json",
+    "component_count": 561,
+    "io0_outputs_with_defined_resistor_defaults": 16
+  },
+  "normal_stop": [
+    "camera owner receives stop request",
+    "camera owner returns final framebuffer",
+    "camera owner calls esp_camera_deinit (HAL cam_stop before DMA/queue teardown)",
+    "storage owner closes files, unmounts SD, calls spi_bus_free(SPI3_HOST), holds pins low, then disables SD_EN",
+    "caller verifies both acknowledgements before camera/SD rail-off"
+  ],
+  "timeout_stop": [
+    "set stop requests and close clients",
+    "wait fixed deadline; current esp_camera_fb_get can require 8000 ms on the valid-frame GDMA-retry path and has an unbounded malformed-JPEG recursion case",
+    "if either owner has not acknowledged: keep camera/SD rails applied and call esp_restart directly",
+    "do not assume GPIO3 becomes high-Z: ESP32-S3 software restart source does not reset GPIO configuration",
+    "at first app entry after restart: hold SD pins low, disable PERIPH_SPI3_MODULE, stop XCLK and make camera GPIOs inputs",
+    "disconnect GPIO3 matrix function, explicitly drive GPIO3 low, disable internal pullup and enable pulldown",
+    "asserted GPIO3 resets TCA9539, allowing defined external defaults to remove rails",
+    "release GPIO3 only after I2C/output register initialization"
+  ],
+  "source_evidence": [
+    {
+      "file": "/tmp/glove-local-idf-20261023/esp-idf/components/esp_system/esp_system.c",
+      "lines": "47-63",
+      "finding": "esp_restart runs shutdown handlers, suspends scheduling, then calls esp_restart_noos"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c",
+      "lines": "70-145",
+      "finding": "disables interrupts, resets selected modules including DMA, then resets CPUs"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/cam_hal.c",
+      "lines": "426-470",
+      "finding": "cam_deinit calls cam_stop before task/queue/DMA teardown"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/cam_hal.c",
+      "lines": "477-507",
+      "finding": "cam_take accepts timeout; ESP32-S3 GDMA recovery can perform a second receive with same timeout"
+    },
+    {
+      "file": "firmware/tactile_v4/main/app.cpp",
+      "lines": "128,137,147",
+      "finding": "capture uses no-argument fb_get; caller currently powers down after deadline even if cameraStopped is false"
+    },
+    {
+      "file": "firmware/tactile_v4/main/storage.cpp",
+      "lines": "23-27",
+      "finding": "storage owner performs unmount, spi_bus_free, pin isolation, and SD_EN off"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/esp_camera.c",
+      "lines": "365-372",
+      "finding": "FB_GET_TIMEOUT is 4000/portTICK_PERIOD_MS and esp_camera_fb_get calls cam_take with it"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/cam_hal.c",
+      "lines": "481-490",
+      "finding": "ESP32-S3 GDMA recovery can perform a second queue receive with the same timeout"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/cam_hal.c",
+      "lines": "501-507",
+      "finding": "JPEG without EOI recurses with remaining timeout; immediate malformed frames can prevent a finite total deadline"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c",
+      "lines": "122-145",
+      "finding": "software restart resets selected modules and CPUs but source has no GPIO reset operation"
+    },
+    {
+      "file": "/tmp/glove-local-idf-20261023/esp-idf/components/esp_driver_gpio/src/gpio.c",
+      "lines": "436-449",
+      "finding": "gpio_reset_pin disables a pin but enables its internal pullup; it must be followed by explicit low/pulldown handling for TCA9539 RESET"
+    }
+  ],
+  "known_limit": "esp_restart_noos does not explicitly name SPI3 or GPIO in its reset mask; GPIO3 may retain output-high across software reset until first app code disconnects and drives it low",
+  "camera_timeout": {
+    "component": "espressif/esp32-camera==2.0.16",
+    "source": "/tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/esp_camera.c",
+    "FB_GET_TIMEOUT_EXPRESSION": "4000 / portTICK_PERIOD_MS",
+    "project_CONFIG_FREERTOS_HZ": 1000,
+    "FB_GET_TIMEOUT_MS": 4000,
+    "cam_take_valid_frame_worst_ms": 8000,
+    "cam_take_malformed_jpeg_eoi_worst": "unbounded: cam_hal.c recursion can reuse remaining timeout when malformed frames arrive immediately",
+    "lines": [
+      "esp_camera.c:365-372",
+      "cam_hal.c:481-490",
+      "cam_hal.c:501-507"
+    ],
+    "FB_GET_TIMEOUT_MAX_MS": 4000
+  }
+}

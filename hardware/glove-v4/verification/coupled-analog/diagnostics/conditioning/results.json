@@ -1,0 +1,129 @@
+{
+  "status": "diagnostic_complete; tolerance convergence unestablished",
+  "qualified_coupled_cases": 0,
+  "completed_native_diagnostics": 1,
+  "canonical_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "runner_sha256": "e99afb29932338f9482977e6f44dc3c00f733f992e863e75ff4c66861c9689c5",
+  "analysis_sha256": "2cc69bab54deb9548c0abf85e686888ed3db527195f8625e4ea7cae90117d907",
+  "cases": [
+    {
+      "case": "conditioned",
+      "solver_options": ".options method=gear reltol=1e-3 abstol=1e-9 gmin=1e-9 maxord=2 itl1=1000 itl4=500",
+      "complete_native_trace": true,
+      "native_end_s": 0.135,
+      "errors": [],
+      "canonical_circuit_unchanged": true,
+      "artifacts_sha256": {
+        "circuit.cir": "bae740cc6956e8bcd4dc7fd7cee06a685de069b6a2bb3195cdfe73f3482096d8",
+        "run.log.gz": "e777f0070893f8d5b1b3f1e72d67273cbfd7f7cb77c148560299a484e8c97069",
+        "waveform.dat.gz": "406bbbd239aafe4b1cdd7a039715edb8ad63326513459f91e4f8008b88ad821e"
+      },
+      "samples": 67674,
+      "baseline_V": {
+        "VEXC2V5": 2.4992759242564477,
+        "VMID1V25": 1.2490876175166616,
+        "ADC_AIN_n": 1.2489171682067064,
+        "S2_OUT_I1": 1.3317927021511915,
+        "S2_OUT_I2": 1.3317927021504614,
+        "S2_OUT_H2": 1.331792702150508,
+        "CHG_OUT_I1": 1.332934797495596,
+        "PRESS_I1": 2.499225939737643e-05,
+        "VEXC_DRV": 2.505151849239462
+      },
+      "pulse_differential_peak_V": {
+        "I1": 0.5600656369658852,
+        "I2": 0.0016637473817548987,
+        "H2": 0.001663747381801528
+      },
+      "quiet_to_active_peak_ratio": 0.0029706292833249492,
+      "pressure_step_vexc_min_V": 2.305005345988,
+      "pressure_step_idle_differential_max_V": 0.021807172483754966,
+      "pressure_step_vexc_final_V": 2.4992705349637423,
+      "recovery_differential_residual_V": [
+        -0.00773690571376251,
+        -0.004873494058323935,
+        -0.004873494058344613
+      ],
+      "waveform_uncompressed_sha256": "82ea5070f3e02651ed24254e2be73587d3212fa5216d779c35d8d917be57b87d"
+    },
+    {
+      "case": "lower_gmin",
+      "solver_options": ".options method=gear reltol=1e-3 abstol=1e-9 gmin=1e-10 maxord=2 itl1=1000 itl4=500",
+      "complete_native_trace": false,
+      "native_end_s": 0.0143183793312,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.0143184, timestep = 2.5e-18: trouble with node \"vexc2v5\"",
+        "tran simulation(s) aborted"
+      ],
+      "canonical_circuit_unchanged": true,
+      "artifacts_sha256": {
+        "circuit.cir": "98d38088c63fd155deb2789cec20c2914e4def23becc32dbf85206c11a7a3e8b",
+        "run.log.gz": "22bfd57985bdd8136921d3bf270d6f77c46b3fb816511eb4df35c3fa1249cf6b",
+        "waveform.dat.gz": "8f80e2880311b675b09f2dae90a737c6a87475fa7c397be83626472e680ef209"
+      }
+    },
+    {
+      "case": "lower_abstol",
+      "solver_options": ".options method=gear reltol=1e-3 abstol=1e-12 gmin=1e-9 maxord=2 itl1=1000 itl4=500",
+      "complete_native_trace": false,
+      "native_end_s": null,
+      "errors": [
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"a$poly$e.xbias1.e12#branch_1_0\"",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ],
+      "canonical_circuit_unchanged": true,
+      "artifacts_sha256": {
+        "circuit.cir": "4fbf29584d28afda42034e39d4d7319e3bfd2e14050a5e0f0c06b38aea0dc39d",
+        "run.log.gz": "fb8bc9afb7ee5732ea9b3ebd5d80f3b3bbb711190c1627c29f7e1ea27646c887"
+      }
+    },
+    {
+      "case": "tight",
+      "solver_options": ".options method=gear reltol=1e-4 abstol=1e-12 gmin=1e-10 maxord=2 itl1=1000 itl4=500",
+      "complete_native_trace": false,
+      "native_end_s": null,
+      "errors": [
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"xneg.n1356409\"",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ],
+      "canonical_circuit_unchanged": true,
+      "artifacts_sha256": {
+        "circuit.cir": "1bbddec7ed82fe0c2a6e94b06b4681c0d2a61e97eed37031e167027ca977c597",
+        "run.log.gz": "968fbe99347491f64de0d9ac2ffe50e17e6ac01cd70c666bb09c1416cd12dc9c"
+      }
+    },
+    {
+      "case": "tight_gmin9",
+      "solver_options": ".options method=gear reltol=1e-4 abstol=1e-12 gmin=1e-9 maxord=2 itl1=1000 itl4=500",
+      "complete_native_trace": false,
+      "native_end_s": null,
+      "errors": [
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"a$poly$e.xbias1.e12#branch_1_0\"",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(VEXC2V5)"
+      ],
+      "canonical_circuit_unchanged": true,
+      "artifacts_sha256": {
+        "circuit.cir": "2d78d1484d89e294cceafed4b1e6961bc30a70f6e9e69e2410f3d0851eddce57",
+        "run.log.gz": "41fa5210eee8fb4040697644f27bb63e015ade32839bcf070ed2c9f121a56084"
+      }
+    }
+  ],
+  "limits": [
+    "The successful native trace needs both1nA absolute tolerance and1nS gmin. Tightening either alone prevents completion.",
+    "No converged sensitivity comparison exists; resulting voltage amplitudes are diagnostic only.",
+    "Ideal3.3V rail and3V reference; typical vendor models at27C; no mux/ADC sampling/harness parasitic extraction.",
+    "Twenty1Gohm-to1ohm contact transitions bound the excitation load; they do not model observed glove behavior."
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+  "configuration": {
+    "net": "VSYS",
+    "sources": [
+      [
+        15.85,
+        65.025
+      ],
+      [
+        16.15,
+        64.525
+      ]
+    ],
+    "loads": [
+      [
+        29.375,
+        63.6
+      ],
+      [
+        29.975,
+        63.6
+      ]
+    ],
+    "load_radius_mm": 0.2
+  },
+  "method": "2D four-neighbour resistive sheet on the largest filled main-rail polygon; excludes parallel copper and vias, so estimates only this plane contribution. Not a thermal or AC model. Coarse raster must converge before use.",
+  "grid_mm": 0.1,
+  "widest_interior_corridor_mm": 0.712890625,
+  "corridor_terminal_exclusion_radius_mm": 1.5,
+  "nodes": 45085,
+  "solver_info": 0,
+  "elapsed_s": 0.1190341510809958,
+  "equivalent_squares": 3.863169791894099,
+  "residual_l2": 2.294692407339261e-13,
+  "rho_at50C_ohm_m": 1.9272596000000003e-08,
+  "resistance_at15um_ohm": 0.004963554045238604,
+  "resistance_at30um_ohm": 0.002481777022619302
+}

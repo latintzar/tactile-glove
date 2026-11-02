@@ -1,0 +1,16 @@
+{
+  "name": "buck_path190m_start",
+  "seconds": 94.401,
+  "simulator_returncode": 0,
+  "analysis_complete": false,
+  "actual_native_end_s": 0.000499039,
+  "expected_end_s": 0.0009,
+  "simulation_errors": [
+    "doAnalyses: TRAN:  Timestep too small; time = 0.000499039, timestep = 1.25e-19: trouble with xu.x_u4.x_u4:dd1-instance d.xu.x_u4.x_u4.d1",
+    "tran simulation(s) aborted"
+  ],
+  "deck_sha256": "3becef3440b99603d28ccdec1e45725270bb2a7d0dffcd26fd3bc1f76868703f",
+  "executed_deck_sha256": "068b3c5453f325f21e5af1159dac0a23be461b5109cd4ce4cd4d72b1ca1d758f",
+  "log_sha256": "9bec2d8df591faabffcbe3325ecce5384661b741c43fae083a220b778ababa75",
+  "waveform_sha256": "7ca18e3839569238d03cf3f2b7baf743e1dd40130e51ab16aa664a8c29333f13"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "proposal-only local envelopes; flexible cable routing pending",
+  "placement_sha256": "78b9603bf98ec5d4b9b2554ce17f34cf36ccb01b675c7084fea13e05bc0ad20f",
+  "checks": {
+    "J_TEMP_mate_access": {
+      "bounds_mm": [
+        2.0,
+        39.6,
+        30.599999999999998,
+        18.3,
+        47.4,
+        35.5
+      ],
+      "hits": {}
+    },
+    "pack_sensor": {
+      "bounds_mm": [
+        36.0,
+        21.0,
+        24.0,
+        44.0,
+        25.0,
+        26.0
+      ],
+      "hits": {}
+    },
+    "base_sensor": {
+      "bounds_mm": [
+        24.0,
+        64.0,
+        1.2999999999999998,
+        32.0,
+        68.0,
+        3.3
+      ],
+      "hits": {}
+    }
+  }
+}

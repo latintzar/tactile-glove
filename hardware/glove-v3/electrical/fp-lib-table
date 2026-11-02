@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "Glove") (type "KiCad") (uri "${KIPRJMOD}/footprints") (options "") (descr "Local verified-source package geometry")))

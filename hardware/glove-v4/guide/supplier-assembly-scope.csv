@@ -1,0 +1,9 @@
+qty,scope_item,reference,acceptance_record,user_step
+1,Populated V4 cuff PCB,"J5-J10; J14/J_CAM; J15; J16; SW2; D22; U61","Inspection; pin-1 marks; camera-tail check; serial",Plug prepared kit
+6,Keyed tactile harnesses,"J5 thumb; J6 index; J7 middle; J8 ring; J9 little; J10 palm/heel","Branch label; continuity; adjacent isolation",Plug named branch
+1,Remote dorsal-hand IMU tile,"U1/U_IMU_HAND; J1; address 0x6B","Arrow; tile inspection; J1-J15 continuity",Plug tile cable
+1,100 mm JST-SH cable,"J15 to J1","1 GND; 2 3V3_SYS; 3 I2C_SDA; 4 I2C_SCL",Route above wrist
+20,PVDF lead-prep subassemblies,"I1-I3; M1-M3; R1-R3; L1-L3; T1-T2; P1-P4; H1-H2","10x14 mm blank; two silver-tab leads; face mark; strain relief",Laminate cell
+20 sets,Tactile laminate cut kit,"Pressure pairs; Velostat/Linqstat; separators; PVDF; covers","IDs and material batch recorded",Laminate 20 cells
+1,Cuff integration,"Camera FPC; microSD; protected battery; cuff cover","Tail contact side/pin 1; card latch; battery dimensions/leads; cover clearance; first power",Receive integrated cuff
+1,Factory firmware load and bench test,"Firmware version/hash; USB; button; RGB; IMUs","Version/hash and first-article test record",Use flashed cuff

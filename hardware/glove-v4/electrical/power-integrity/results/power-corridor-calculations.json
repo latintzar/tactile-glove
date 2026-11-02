@@ -1,0 +1,185 @@
+{
+  "board_sha256": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+  "stackup": "JLC081611-3313",
+  "nominal_finished_mm": 1.6,
+  "template_compressed_mm": 1.636,
+  "maximum_finished_mm_assumption": 1.76,
+  "outer_copper_nominal_um": 35,
+  "inner_copper_nominal_um": 30,
+  "engineering_minimum_copper_assumptions_um": {
+    "outer": 28,
+    "inner": 24,
+    "via_plating": 15
+  },
+  "temperature_C": 50,
+  "plane_models": {
+    "entry": {
+      "resistance_30um_ohm": 0.001068962053984609,
+      "last_grid_relative_change": 0.008710673235568622,
+      "converged_5percent": true,
+      "widest_interior_corridor_mm": 2.861328125,
+      "terminal_spreading_exclusion_radius_mm": 1.5
+    },
+    "battery": {
+      "resistance_30um_ohm": 0.0012438008040790674,
+      "last_grid_relative_change": 0.005446662014247039,
+      "converged_5percent": true,
+      "widest_interior_corridor_mm": 1.19140625,
+      "terminal_spreading_exclusion_radius_mm": 1.5
+    },
+    "battery-return": {
+      "resistance_30um_ohm": 0.001335676662236668,
+      "last_grid_relative_change": 0.006739368441408988,
+      "converged_5percent": true,
+      "widest_interior_corridor_mm": 1.796875,
+      "terminal_spreading_exclusion_radius_mm": 1.5
+    },
+    "vsys": {
+      "resistance_30um_ohm": 0.002481777022619302,
+      "last_grid_relative_change": 0.014303183034018119,
+      "converged_5percent": true,
+      "widest_interior_corridor_mm": 0.712890625,
+      "terminal_spreading_exclusion_radius_mm": 1.5
+    },
+    "main": {
+      "resistance_30um_ohm": 0.0028966075650630374,
+      "last_grid_relative_change": 0.012571553708629724,
+      "converged_5percent": true,
+      "widest_interior_corridor_mm": 1.19140625,
+      "terminal_spreading_exclusion_radius_mm": 1.5
+    },
+    "usb": {
+      "resistance_30um_ohm": 0.016344882203856853,
+      "last_grid_relative_change": 0.03169273554644558,
+      "converged_5percent": true,
+      "widest_interior_corridor_mm": 0.439453125,
+      "terminal_spreading_exclusion_radius_mm": 1.5
+    }
+  },
+  "barrels": [
+    {
+      "name": "J12 positive",
+      "drill_mm": 1.02,
+      "barrel_length_mm": 0.9472371638141809,
+      "parallel": 1,
+      "resistance_ohm": 0.00037429796409655644
+    },
+    {
+      "name": "F1 entry array",
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.9472371638141809,
+      "parallel": 4,
+      "resistance_ohm": 0.00030745904193645707
+    },
+    {
+      "name": "F1 output array",
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.9472371638141809,
+      "parallel": 4,
+      "resistance_ohm": 0.00030745904193645707
+    },
+    {
+      "name": "BQ battery array",
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.9472371638141809,
+      "parallel": 2,
+      "resistance_ohm": 0.0006149180838729141
+    },
+    {
+      "name": "BQ system array",
+      "drill_mm": 0.3,
+      "barrel_length_mm": 0.7751100244498779,
+      "parallel": 2,
+      "resistance_ohm": 0.0005031782844184381
+    },
+    {
+      "name": "TPS63070 input array",
+      "drill_mm": 0.2,
+      "barrel_length_mm": 0.7751100244498779,
+      "parallel": 2,
+      "resistance_ohm": 0.000737214695775851
+    },
+    {
+      "name": "J12 return",
+      "drill_mm": 1.02,
+      "barrel_length_mm": 0.1339364303178484,
+      "parallel": 1,
+      "resistance_ohm": 5.29245843611826e-05
+    },
+    {
+      "name": "TPS63070 power ground",
+      "drill_mm": 0.2,
+      "barrel_length_mm": 0.1339364303178484,
+      "parallel": 3,
+      "resistance_ohm": 8.492549583538605e-05
+    }
+  ],
+  "surface_escape_bounds": [
+    {
+      "name": "BQ battery escape",
+      "length_upper_mm": 0.75,
+      "width_lower_mm": 0.25,
+      "parallel": 2,
+      "resistance_at28um_ohm": 0.0010324605000000002
+    },
+    {
+      "name": "BQ system escape",
+      "length_upper_mm": 0.5099019513592785,
+      "width_lower_mm": 0.28,
+      "parallel": 2,
+      "resistance_at28um_ohm": 0.0006267305043468767
+    },
+    {
+      "name": "TPS63070 pad spreading",
+      "length_upper_mm": 0.4,
+      "width_lower_mm": 0.25,
+      "parallel": 2,
+      "resistance_at28um_ohm": 0.0005506456000000001
+    },
+    {
+      "name": "two fuse-pad spreading paths",
+      "length_upper_mm": 0.8,
+      "width_lower_mm": 1.8,
+      "parallel": 1,
+      "resistance_at28um_ohm": 0.0003059142222222223
+    }
+  ],
+  "battery_plus_return_plane_bound_ohm": 0.008045909212582036,
+  "battery_plus_return_total_calculated_ohm": 0.013544037231384379,
+  "battery_plus_return_allocation_ohm": 0.015,
+  "battery_plus_return_allocation_calculation_pass": true,
+  "at_1p525A": {
+    "drop_V": 0.020654656777861175,
+    "copper_loss_W": 0.03149835158623829
+  },
+  "long_corridor_width_requirements": {
+    "battery": {
+      "current_A": 1.525,
+      "minimum_long_inner_width_24um_10C_mm": 2.0395625165846725,
+      "minimum_long_outer_width_28um_10C_mm": 0.6720110976344479
+    },
+    "USB_input": {
+      "current_A": 1.35,
+      "minimum_long_inner_width_24um_10C_mm": 1.7239384087943819,
+      "minimum_long_outer_width_28um_10C_mm": 0.568016784446529
+    },
+    "main_output": {
+      "current_A": 1.0,
+      "minimum_long_inner_width_24um_10C_mm": 1.1395963000750824,
+      "minimum_long_outer_width_28um_10C_mm": 0.37548315104163116
+    }
+  },
+  "sources": [
+    "https://www.ti.com/lit/an/snva766/snva766.pdf",
+    "https://jlcpcb.com/help/article/jlcpcb-copper-weight",
+    "https://jlcpcb.com/help/article/multi-layer-pcb-standard-laminated-structures",
+    "https://jlcpcb.com/capabilities/pcb-capabilities"
+  ],
+  "limitations": [
+    "Factory must confirm copper and minimum barrel plating assumptions; JLC advertised average plating is not a guaranteed minimum.",
+    "The plane model is DC only and ignores parallel copper. A grid convergence check does not establish temperature rise or switching stability.",
+    "Short package escapes require first-article thermal validation; the long-trace formula is not applied blindly to package pads.",
+    "Power integrity also requires input/output ripple and load-step measurements, actual battery harness resistance, and temperature-rise qualification.",
+    "Manufacturing readiness additionally requires zero opens, final DRC, RF clearance, controlled USB routing review and specified filled/capped via treatment."
+  ]
+}

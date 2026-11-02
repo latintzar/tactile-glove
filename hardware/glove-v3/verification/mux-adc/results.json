@@ -1,0 +1,294 @@
+{
+  "date": "2026-10-22",
+  "canonical_sha256": "68475c8740f073eeaf4cf5fe4c1b317360fe04654b6434fcfd931f962bce9774",
+  "models": [
+    {
+      "part": "OPA4323",
+      "url": "https://www.ti.com/lit/zip/sbomch0b",
+      "model": "OPAx323",
+      "sha256": "d24f667edb534971704bff105f01e85e7f9f6f1de79e06850f5ac50f3b19232f"
+    },
+    {
+      "part": "OPA320",
+      "url": "https://www.ti.com/lit/zip/sbom438f",
+      "model": "OPAx320",
+      "sha256": "a3ecb23eb81d73b9d03cc4d44ef0e06ffdaadc995301bad1cb4882ba8a0f3b8c"
+    }
+  ],
+  "model_transformation": "Unique subcircuit prefixes only to avoid name collisions; original device equations retained;ngspicePSPICEcompatibility.",
+  "results": [
+    {
+      "case": "dynamic-up",
+      "source_R_ohm": 0,
+      "switch_R_each_ohm_assumed": 1000,
+      "mux_C_pF": [
+        80,
+        40
+      ],
+      "step_V": [
+        0.1,
+        2.5
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        0.002742880751999799,
+        0.00022216622399984232,
+        1.8049015999999085e-05,
+        1.5100000001488922e-06,
+        1.6999999985500835e-07,
+        5.000000014021566e-08,
+        1.999999987845058e-08
+      ],
+      "last_outside_half_lsb_us": 5.2569507999999985,
+      "final_output_V": 2.50015176,
+      "final_offset_V": 0.0001517600000000563,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 0,
+      "source_sha256": "6fd335cc65fb4535d1e1fbd2f66eef4f219ed5777a5557d4ac6213c2bd756922"
+    },
+    {
+      "case": "dynamic-down",
+      "source_R_ohm": 0,
+      "switch_R_each_ohm_assumed": 1000,
+      "mux_C_pF": [
+        80,
+        40
+      ],
+      "step_V": [
+        2.5,
+        0.1
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        -0.0027427961137399953,
+        -0.00022209058939999526,
+        -1.7983009200001066e-05,
+        -1.456637199998001e-06,
+        -1.1799999999340116e-07,
+        -9.999999994736442e-09,
+        -9.999999994736442e-10
+      ],
+      "last_outside_half_lsb_us": 5.255818599999999,
+      "final_output_V": 0.100170761,
+      "final_offset_V": 0.0001707609999999915,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 6,
+      "source_sha256": "05d7c11e7d85b8df014a2d220943b588cd559f4309934682cd3197ddb7df8085"
+    },
+    {
+      "case": "dynamic-r2000",
+      "source_R_ohm": 0,
+      "switch_R_each_ohm_assumed": 2000,
+      "mux_C_pF": [
+        80,
+        40
+      ],
+      "step_V": [
+        0.1,
+        2.5
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        0.0032447846280003745,
+        0.0002651859460001127,
+        2.1535086000223913e-05,
+        1.7983620002048895e-06,
+        1.9000000017754815e-07,
+        5.000000014021566e-08,
+        2.000000032253979e-08
+      ],
+      "last_outside_half_lsb_us": 5.397836199999998,
+      "final_output_V": 2.50015005,
+      "final_offset_V": 0.00015004999999979063,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 0,
+      "source_sha256": "d101a7a05866d49bdbc27d623220f726e3e118c6c52950f547d6cde8d24d1e7b"
+    },
+    {
+      "case": "pressure-down",
+      "source_R_ohm": 10000,
+      "switch_R_each_ohm_assumed": 1000,
+      "mux_C_pF": [
+        80,
+        40
+      ],
+      "step_V": [
+        2.5,
+        0
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        0.2645439989609998,
+        0.008611583846290013,
+        8.905845400000029e-06,
+        1.919999999960842e-08,
+        2.299999999483271e-09,
+        3.999999984016789e-10,
+        9.999999786569624e-11
+      ],
+      "last_outside_half_lsb_us": 5.968164399999997,
+      "final_output_V": 0.0213911645,
+      "final_offset_V": 0.0213911645,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 0,
+      "source_sha256": "b66fdf16325e6336b7632503b7d1ed412fdb563e98a64e5c0408a16570e09975"
+    },
+    {
+      "case": "pressure-up-bound",
+      "source_R_ohm": 10000,
+      "switch_R_each_ohm_assumed": 1000,
+      "mux_C_pF": [
+        80,
+        40
+      ],
+      "step_V": [
+        0,
+        2.5
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        -0.2856244353120001,
+        -0.029756459872000374,
+        -0.003115523312000157,
+        -0.0003274286720000852,
+        -3.447742400020104e-05,
+        -3.6100000002647903e-06,
+        -1.0000000028043132e-07
+      ],
+      "last_outside_half_lsb_us": 9.7471856,
+      "final_output_V": 2.50013479,
+      "final_offset_V": 0.00013479000000016228,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 0,
+      "source_sha256": "80329ddd341acd408b20b51255b003eb2e5e03742f582e5734a9969bbb016277"
+    },
+    {
+      "case": "pressure-cap-double",
+      "source_R_ohm": 10000,
+      "switch_R_each_ohm_assumed": 1000,
+      "mux_C_pF": [
+        160,
+        80
+      ],
+      "step_V": [
+        2.5,
+        0
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        0.8416769498395997,
+        0.25723226547119993,
+        0.06879882830728004,
+        0.007923282161480017,
+        0.0016621871964200077,
+        1.728907200009011e-07,
+        3.049072000091413e-08
+      ],
+      "last_outside_half_lsb_us": 10.6749072,
+      "final_output_V": 0.0213911665,
+      "final_offset_V": 0.0213911665,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 0,
+      "source_sha256": "fe486abcd0d3d2415cee1ac8f2660dc1e1e71d4b7c5518c8496bc823be5cb5ee"
+    },
+    {
+      "case": "dynamic-cap-double",
+      "source_R_ohm": 0,
+      "switch_R_each_ohm_assumed": 1000,
+      "mux_C_pF": [
+        160,
+        80
+      ],
+      "step_V": [
+        0.1,
+        2.5
+      ],
+      "complete": true,
+      "sample_after_step_us": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        15
+      ],
+      "settling_residual_V": [
+        0.0032350353469996485,
+        0.00026412090700000945,
+        2.144553700000884e-05,
+        1.789999999779468e-06,
+        1.8999999973345894e-07,
+        5.000000014021566e-08,
+        1.999999987845058e-08
+      ],
+      "last_outside_half_lsb_us": 5.395517899999999,
+      "final_output_V": 2.50015176,
+      "final_offset_V": 0.0001517600000000563,
+      "half_lsb_V": 4.57763671875e-05,
+      "solver_warnings": 0,
+      "source_sha256": "1c31e3a6abe3786435db2af7b3211d8f9868fc4ccdb7a5e4d17c8b3df638772c"
+    }
+  ],
+  "limits": [
+    "CD74HC4067/CD74HC4052 are RC equivalents, not transistor switch models. RON1000/2000ohm are explicit engineering sweeps, not a manufacturer3.3V guarantee.",
+    "Capacitance includes estimated PCB/input parasitics; routed extraction and actual cable capacitance remain unmeasured.",
+    "ADC load is continuous acquisition equivalent31pF+200ohm fromMCP33131datasheet, not a complete switched SAR converter.",
+    "Half-LSB residual compares with final modeledDCoutput; does not subtract or guarantee input offset,referenceerror,noiseorINL.",
+    "Typicalamplifier models do not guaranteeprocess/temperature/boardtiming."
+  ]
+}

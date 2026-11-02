@@ -1,0 +1,34 @@
+* V4 differential ADC analog input network; original TI amplifier models
+.include "[original source path]/OPAx323-prefixed.lib"
+.include "[original source path]/OPAx320-prefixed.lib"
+VDD vdd 0 3.3
+VBIAS vmid 0 1.25
+VIN src 0 PULSE(2.5 0.1 10u 1n 1n 100u 200u)
+RSRC src source 0.001
+RM1 source bankin 1000
+CM1 bankin 0 80p
+XBANK bankin bankout vdd 0 bankout opa323_OPAx323
+RM2 bankout driverin 1000
+CM2 driverin 0 40p
+XDRV driverin driverout vdd 0 driverout opa320_OPAx320
+XNEG vmid negout vdd 0 negout opa320_OPAx320
+RISO driverout adcplus 22
+CBUCKET adcplus 0 1n
+RNEGIS negout adcminus 22
+CNEGBUCKET adcminus 0 1n
+RSAMPLEP adcplus sampleplus 200
+CSAMPLEP sampleplus 0 31p
+RSAMPLEN adcminus sampleminus 200
+CSAMPLEN sampleminus 0 31p
+.options method=gear reltol=1e-5 abstol=1e-12 gmin=1e-12 itl1=500 itl4=100
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=12
+tran 1n 80u 0 1n
+let actual_simulation_end=time[length(time)-1]
+print actual_simulation_end
+wrdata waveform.dat v(src) v(adcplus) v(adcminus) v(sampleplus) v(sampleminus)
+quit
+.endc
+.end

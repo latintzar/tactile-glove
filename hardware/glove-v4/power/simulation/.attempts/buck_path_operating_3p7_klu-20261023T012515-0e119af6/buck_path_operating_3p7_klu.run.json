@@ -1,0 +1,29 @@
+{
+  "name": "buck_path_operating_3p7_klu",
+  "attempt_directory": ".attempts/buck_path_operating_3p7_klu-20261023T012515-0e119af6",
+  "analysis_complete": false,
+  "simulation_errors": [
+    "Waveform export is missing"
+  ],
+  "seconds": 180.01,
+  "simulator_returncode": 124,
+  "actual_native_end_s": null,
+  "expected_end_s": 0.0007,
+  "completion_marker": false,
+  "expected_step_s": 1.0000000000000001e-07,
+  "expected_columns": 18,
+  "deck_sha256": "7b89955429b2bc2fa12997727caaa2e825aa8401abd7843020780bb110d30a22",
+  "executed_deck_sha256": "ece398fc24c9f4d4dbb43b90d1e38c3c4c4af543c6ae5e6287359bb5b5d73e0e",
+  "log_sha256": "d5d72c9434532330d8cc42009356cb43e8b018eaa608ba2784300558cf98430f",
+  "waveform_sha256": null,
+  "waveform_validation": {
+    "valid": false,
+    "rows": 0,
+    "expected_rows": null,
+    "last_time_s": null,
+    "all_zero_tail_rows": 0,
+    "errors": [
+      "Waveform export is missing"
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "scope": "Read-only audit of simulated V4 tactile analog/acquisition coverage against current V4 manifest.",
+  "verdict": "partial_coverage; no V4 hardware validation claim",
+  "v4_requirements": {
+    "pressure_taxels": 20,
+    "pvdf_channels": 20,
+    "pvdf_rate_hz_per_channel": 4000,
+    "pressure_rate_hz_per_channel": 50,
+    "adc_reference_v": 3.0,
+    "midpoint_v": 1.25,
+    "pressure_excitation_v": 2.5,
+    "adc_avdd_v": 1.8,
+    "adc_dvio_v": 3.3,
+    "analog_supply_family": "3V3_A"
+  },
+  "source_hashes": {
+    "hardware/glove-v4/electrical/components.json": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+    "hardware/glove-v4/system-contract.json": "cc72b763f5e9162337ff957ae959a85fe5405dfe37d6038f2e1659069fd382e0",
+    "hardware/glove-v4/power/firmware-contract.json": "7f9deb3e989796e0a10aab763a091393189a43efea675ed532463f8861436c9f",
+    "hardware/glove-v3/electrical/components.json": "68475c8740f073eeaf4cf5fe4c1b317360fe04654b6434fcfd931f962bce9774",
+    "hardware/glove-v3/verification/signal-chain/results.json": "37b8222d2669b150b61b1297d96588aac4dcdae723b6a08cd957a630f73aab26",
+    "hardware/glove-v3/verification/mux-adc/results.json": "80a969ab672b0fddab463bef72a50090ba0a2720f5f5f4295d0070456f7523cb",
+    "hardware/glove-v3/verification/analog-signal-chain.md": "b94f901310440acc34bc0164b319dfa214e876f8193e9cfdcafca78dc4b019f0",
+    "hardware/glove-v3/simulation/README.md": "48a6befce93902a6d125af0df2a7d82a720a4fb9fd9a67bbd5dcb55b639e91ef",
+    "hardware/glove-v3/verification/signal-chain/piezo-to-firmware.json": "65e1dbc61d6b79ebd789ac7feca3e2b48c359f91e6d7005453cd98f6d33e2142",
+    "hardware/glove-v4/interfaces/camera-interface-checks.json": "1476b4a9428b3525e6963c79e4dc15f2a6219e99e168caf2b10d043a4c1a21c1",
+    "hardware/glove-v3/verification/power-simulation.md": "73f468470512a64785fa42cfa92525b603e8932c5bdb88eb62912a1294071154",
+    "hardware/glove-v3/simulation/power_validation/rerun-results.json": "4dac9d6ecbbfc421388070a26cae6dd7ebe4c62347dec878abe6b09f682ece68",
+    "hardware/glove-v3/simulation/power_validation/calculations.json": "a2f952eb95156af387ce6efab005258e170fd6f147321336f231536b1729a4e1",
+    "hardware/glove-v3/simulation/power_validation/decks/vexc-loadstep.cir": "125c3aaa2fc1458753d6322bb1d02001ece86e5dc0978b4dbf6212b3cab138cd",
+    "hardware/glove-v3/simulation/power_validation/decks/vmid_1e-09.cir": "1717b851879a246e156137524c4025abb7fdf9232d1ff6443fb78ddce63dece1"
+  },
+  "coverage": [
+    {
+      "area": "PVDF charge amplifier and filters",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v3/verification/signal-chain/results.json",
+        "hardware/glove-v3/verification/analog-signal-chain.md"
+      ],
+      "covered": "Manifest-checked 20 site topology; one-cell SPICE with 531 pF PVDF, 50/150/300/1000 pF cable sweeps, 100 kOhm input, BAV199 clamps, 22 MOhm/470 pF feedback, two Sallen-Key stages, 20-2000 Hz cases and passive tolerance sweep. V4 electrical/components.json retains the same value/MPN topology and records the V3 canonical source hash.",
+      "gap": "The saved result is dated V3 and has no V4-run identity. It does not electrically simulate all 20 channels simultaneously, shared reference loading, channel-to-channel coupling, laminate force response, noise, or temperature corners."
+    },
+    {
+      "area": "V4 feedback metadata",
+      "status": "corrected",
+      "evidence": [
+        "hardware/glove-v4/electrical/components.json:839-868"
+      ],
+      "covered": "V4 labels now agree with the actual MPN/value fields: RV0805FR-0722ML/22Meg and GRM1885C1H471JA01D/470p, matching the saved decks.",
+      "gap": "Historical V3 evidence remains the provenance; a V4-named netlist rerun and hash is still absent."
+    },
+    {
+      "area": "Pressure electrical endpoints",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v3/verification/mux-adc/results.json",
+        "hardware/glove-v3/verification/mux-adc/dynamic-up.cir",
+        "hardware/glove-v3/verification/mux-adc/pressure-down.cir"
+      ],
+      "covered": "Seven complete RC-proxy cases: dynamic 0.1\u21942.5 V, pressure 0\u21942.5 V with 10 kOhm source, 1 kOhm mux resistance, 80/40 pF mux nodes, doubled-capacitance sensitivity; settling under 11 us in the proxy.",
+      "gap": "No measured Velostat/Linqstat resistance or pressure-range sweep, nonlinear resistance, sensor hysteresis, adjacent-channel crosstalk, 20-pressure scan, or 50 Hz analog excitation schedule."
+    },
+    {
+      "area": "PVDF overload and recovery",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v3/verification/signal-chain/results.json",
+        "hardware/glove-v3/verification/signal-chain/numerical-stability.json"
+      ],
+      "covered": "Positive/negative charge cases through \u00b1500 pC and \u00b150 nC protected cases are represented; 1 fF regularized reruns are separately identified.",
+      "gap": "Native negative -1 pC and -250 pC cases abort; protected negative -250 pC and -50 nC also abort. No V4 rail-clipping, overload-recovery, or physical PVDF overstress test exists."
+    },
+    {
+      "area": "ADC driver, reference and differential input",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v3/verification/mux-adc/results.json",
+        "hardware/glove-v4/electrical/components.json:59-98,4995-5045"
+      ],
+      "covered": "OPA4323/OPA320 vendor models with 22 Ohm isolation, 1 nF bucket, 200 Ohm/31 pF ADC-equivalent load; positive single-ended RC settling cases. REF3330 load/headroom arithmetic exists in the inherited power validation.",
+      "gap": "The transient deck uses ideal 3.3 V supply and single-ended 0.1/2.5 V source. It does not model V4 REF3330 dynamic impedance/ESR, 1.8 V AVDD, 3.3 V DVIO, VMID1V25 negative driver, differential common-mode, reference kickback, CNV/SCK switched SAR behavior, or rail decoupling/impedance."
+    },
+    {
+      "area": "20\u00d74 kS/s plus 20\u00d750 Hz acquisition schedule",
+      "status": "digital_only",
+      "evidence": [
+        "hardware/glove-v3/verification/firmware-simulation.md",
+        "hardware/glove-v3/verification/signal-chain/piezo-to-firmware.json"
+      ],
+      "covered": "Native firmware fixture exercises 520 synthetic 4 kHz ADC samples on one channel and reports pressure scheduling; host checks preserve counts/features.",
+      "gap": "This is firmware/data-path evidence, not a 20-channel analog simulation. No analog deck drives 20 PVDF channels concurrently or interleaves 20 pressure channels at 50 Hz under mux/reference load."
+    },
+    {
+      "area": "Cable capacitance and mux crosstalk",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v3/verification/signal-chain/results.json",
+        "hardware/glove-v3/verification/mux-adc/results.json"
+      ],
+      "covered": "PVDF single-channel cable values 50/150/300/1000 pF; mux proxy capacitance 80/40 pF and doubled sensitivity.",
+      "gap": "No routed/harness extraction, per-branch cable variation, shared-return coupling, switch charge injection, extraction/settling across consecutive channels, or crosstalk metric."
+    },
+    {
+      "area": "GPIO, translator and logic levels",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v4/power/firmware-contract.json",
+        "hardware/glove-v4/interfaces/camera-interface-checks.json"
+      ],
+      "covered": "V4 pin/net mapping exists; camera translator static voltage margins and I2C sink/rise arithmetic are checked.",
+      "gap": "No voltage/timing simulation for tactile SN74AHC595 mux-address controls, CD74HC4067 S0-S3/COM behavior, ADC CNV/SCK/SDO at 1.8/3.3 V domains, or translator dynamic loading. Camera checks explicitly state dynamic waveforms still require target integration."
+    },
+    {
+      "area": "Analog rails, excitation and startup",
+      "status": "partial",
+      "evidence": [
+        "hardware/glove-v3/verification/power-simulation.md",
+        "hardware/glove-v3/simulation/power_validation/rerun-results.json",
+        "hardware/glove-v3/simulation/power_validation/calculations.json",
+        "hardware/glove-v3/simulation/power_validation/decks/vexc-loadstep.cir",
+        "hardware/glove-v3/simulation/power_validation/decks/vmid_1e-09.cir",
+        "hardware/glove-v4/electrical/components.json:23-98,4940-5160"
+      ],
+      "covered": "Inherited V3.3 power validation covers the canonical topology: REF3330 3.0 V load/headroom arithmetic, VEXC dual-loop 47 Ohm/10 kOhm/100 nF with 0.8/1/1.2/2 uF bulk cases and 5 mA load-step, and VMID driving all 20 passive filter branches with 0.1/1/10 nF direct-parasitic cases. V4 retains the same VEXC/VMID component topology and 1 uF VEXC reservoir.",
+      "gap": "Those decks use an ideal 3.3 V supply and typical 25 C vendor model. They do not model the V4 3.416 V main rail, REF3330 transient/ESR, V4 rail gates and decoupling impedance, startup/shutdown sequencing, or the coupled ADC/reference/mux load. They are inherited topology evidence, not a V4 assembled-board result."
+    }
+  ],
+  "required_followups": [
+    "Generate one V4-declared coupled transient deck from electrical/components.json values and hash the generated netlist against the V4 manifest.",
+    "Model REF3330, U_VMID excitation/midpoint loops, 1.8 V ADC AVDD, 3.3 V DVIO, both ADC inputs and actual rail decoupling/impedance.",
+    "Run 20-channel sequential and concurrent PVDF/pressure cases with measured or bounded sensor resistance/capacitance and a crosstalk metric.",
+    "Run negative overload/recovery cases to completion without numerical regularization being presented as hardware proof.",
+    "Capture logic-analyzer/oscilloscope evidence for 250 us scan deadlines, 50 Hz pressure schedule, CNV/SCK/SDO, mux address controls and analog rails.",
+    "Run that coupled deck at 3.416 V main rail: REF3330/reference reservoir, VEXC 1 uF plus 20\u00d710 kOhm pressure load, VMID with all 20 filter branches, one mux-bank transition, one PVDF pulse and one pressure step during the 250 us scan; record rail ripple, VEXC/VMID settling, ADC differential settling and selected-channel crosstalk."
+  ],
+  "claim_boundary": "The inherited evidence supports the V3-derived PVDF, mux proxy, REF3330 arithmetic, VEXC dual-loop and all-20 passive VMID topology. It does not establish V4 3.416 V coupled-board electrical behavior, material force calibration, noise, crosstalk, or sustained 20-channel hardware acquisition."
+}

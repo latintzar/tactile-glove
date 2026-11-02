@@ -1,0 +1,22 @@
+* Proposal only; original MCP6001/2/4 model; typical 25C.
+.include "[original source path]/MCP6001-original.lib"
+VDD vdd 0 3.111665494505495
+VIN inp 0 2.55
+XBUF inp fb vdd 0 raw MCP6001
+RISO raw out 47
+RF out fb 10k
+CF raw fb 100n
+CP out 0 1u
+RL out 0 1Meg
+ILOAD out 0 PULSE(0 5.81m 5m 1u 1u 20m 50m)
+.options method=gear reltol=1e-5 abstol=1e-12 gmin=1e-13 maxord=2
+.control
+set wr_singlescale
+set wr_vecnames
+tran 5u 35m 0 2u
+let actual_end=time[length(time)-1]
+print actual_end
+wrdata waveform.dat v(out) v(raw)
+quit
+.endc
+.end

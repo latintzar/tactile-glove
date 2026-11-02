@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280mm" height="203mm" viewBox="0 0 280 203">
+  <title>1:1 glove v3 sensor cut template</title>
+  <desc>Millimetre drawing. Red solid lines are cut lines. Blue dashed boxes are 8 by 10 mm active footprints. Green bands are PVDF lead tabs.</desc>
+  <style>
+    text{font-family:Arial,sans-serif;fill:#202522} .title{font-size:5px;font-weight:bold}
+    .note{font-size:3px;fill:#4d5750}.cut{fill:none;stroke:#c84b3f;stroke-width:.25}
+    .active{fill:#3f83a3;fill-opacity:.12;stroke:#3f83a3;stroke-width:.22;stroke-dasharray:1,1}
+    .tab{fill:#75a96b;fill-opacity:.28;stroke:#4e7d4b;stroke-width:.15}
+    .grid{stroke:#d6ddd7;stroke-width:.12}.dim{stroke:#202522;stroke-width:.18;marker-start:url(#a);marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="4" markerHeight="4" refX="2" refY="2" orient="auto"><path d="M4,0 L0,2 L4,4" fill="none" stroke="#202522" stroke-width=".4"/></marker></defs>
+  <rect width="280" height="203" fill="#fffdf8"/>
+  <text x="8" y="8" class="title">BELA GLOVE V3 — 1:1 SENSOR CUT TEMPLATE (mm)</text>
+  <text x="8" y="13" class="note">PVDF sheet reference: TE 1-1004347-0, 28 µm PVDF + silver ink, 40 µm total. Align the 10 mm arrow with the factory stretch/length direction.</text>
+  <line x1="8" y1="17" x2="48" y2="17" stroke="#9b4036" stroke-width=".4" marker-end="url(#a)"/>
+  <text x="8" y="21" class="note">factory stretch / axis 1</text>
+  <text x="8" y="29" class="title">PVDF BLANKS — 20 pieces, each 10 × 14</text>
+  <g id="pvdf-blanks">
+    <g transform="translate(10,35)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V01</text></g>
+    <g transform="translate(30,35)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V02</text></g>
+    <g transform="translate(50,35)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V03</text></g>
+    <g transform="translate(70,35)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V04</text></g>
+    <g transform="translate(90,35)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V05</text></g>
+    <g transform="translate(10,55)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V06</text></g>
+    <g transform="translate(30,55)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V07</text></g>
+    <g transform="translate(50,55)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V08</text></g>
+    <g transform="translate(70,55)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V09</text></g>
+    <g transform="translate(90,55)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V10</text></g>
+    <g transform="translate(10,75)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V11</text></g>
+    <g transform="translate(30,75)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V12</text></g>
+    <g transform="translate(50,75)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V13</text></g>
+    <g transform="translate(70,75)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V14</text></g>
+    <g transform="translate(90,75)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V15</text></g>
+    <g transform="translate(10,95)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V16</text></g>
+    <g transform="translate(30,95)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V17</text></g>
+    <g transform="translate(50,95)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V18</text></g>
+    <g transform="translate(70,95)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V19</text></g>
+    <g transform="translate(90,95)"><rect class="cut" width="10" height="14"/><rect class="active" x="1" y="2" width="8" height="10"/><rect class="tab" x="1" y="0" width="8" height="2"/><rect class="tab" x="1" y="12" width="8" height="2"/><text x="2" y="8" class="note">V20</text></g>
+  </g>
+  <text x="125" y="29" class="title">PRESSURE ISLANDS — 20 pieces, each 8 × 10</text>
+  <g id="pressure-islands" transform="translate(125,35)">
+    <g fill="#d38b45" fill-opacity=".18" stroke="#b56939" stroke-width=".25">
+      <rect x="0" y="0" width="8" height="10"/><rect x="12" y="0" width="8" height="10"/><rect x="24" y="0" width="8" height="10"/><rect x="36" y="0" width="8" height="10"/><rect x="48" y="0" width="8" height="10"/>
+      <rect x="0" y="14" width="8" height="10"/><rect x="12" y="14" width="8" height="10"/><rect x="24" y="14" width="8" height="10"/><rect x="36" y="14" width="8" height="10"/><rect x="48" y="14" width="8" height="10"/>
+      <rect x="0" y="28" width="8" height="10"/><rect x="12" y="28" width="8" height="10"/><rect x="24" y="28" width="8" height="10"/><rect x="36" y="28" width="8" height="10"/><rect x="48" y="28" width="8" height="10"/>
+      <rect x="0" y="42" width="8" height="10"/><rect x="12" y="42" width="8" height="10"/><rect x="24" y="42" width="8" height="10"/><rect x="36" y="42" width="8" height="10"/><rect x="48" y="42" width="8" height="10"/>
+    </g>
+    <text x="70" y="5" class="note">cut Velostat and each conductive electrode separately</text>
+    <text x="70" y="10" class="note">do not use the sheet as a shared pressure layer</text>
+  </g>
+  <line x1="125" y1="110" x2="133" y2="110" class="dim"/><text x="125" y="115" class="note">8 mm</text>
+  <line x1="116" y1="115" x2="116" y2="125" class="dim"/><text x="109" y="121" class="note">10 mm</text>
+  <text x="8" y="135" class="title">CUT AND MARKING KEY</text>
+  <rect x="8" y="140" width="10" height="6" class="cut"/><text x="22" y="145" class="note">red: PVDF blank cut line</text>
+  <rect x="8" y="151" width="10" height="6" class="active"/><text x="22" y="156" class="note">blue: 8 × 10 mm starting active area</text>
+  <rect x="8" y="162" width="10" height="6" class="tab"/><text x="22" y="167" class="note">green: electrical tab; attach one face per tab</text>
+  <text x="8" y="178" class="note">The two PVDF tabs are on opposite faces. Mask the active area while bonding leads.</text>
+  <text x="8" y="184" class="note">Scale check: the 8 mm dimension must measure 8.00 mm on the printed/cut output. Do not fit-to-page.</text>
+  <text x="8" y="194" class="note">Template is a starting mechanical layout; verify crease clearance and hand fit before cutting the 20 final locations.</text>
+</svg>

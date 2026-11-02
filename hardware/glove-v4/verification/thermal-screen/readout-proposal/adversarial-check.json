@@ -1,0 +1,37 @@
+{
+  "scope": "Final bounded adversarial check of isolated readout proposal; no canonical changes",
+  "overall_disposition": "calculation consistency passes after correction; protective-temperature guarantee and implementation release remain unqualified",
+  "checks": [
+    {
+      "name": "Semitec nominal R/T table and inversion",
+      "status": "PASS",
+      "evidence": "All19 source-table endpoint pairs,161 integer-temperature roundtrips, independent35C geometric-mean interpolation, and24 nonideal-ratio/VEXC formula cases pass."
+    },
+    {
+      "name": "Uncertainty completeness relative to stated allocations",
+      "status": "PASS_AFTER_FIX",
+      "evidence": "Added self-heating0..0.15C, wire/contact0..1ohm, sensor return ground\u00b15mV and independent signal-level errors\u00b11mV/read. Corrected ADC scaling to actualVEXC and3.03V reference ceiling.2048 corners per temperature."
+    },
+    {
+      "name": "Open/short discrimination under declared stress",
+      "status": "PASS",
+      "evidence": "qopen minimum0.982185 exceeds0.94; qshort maximum0.050724 is below0.06, including2kohm mux/ground/path-error allocations."
+    },
+    {
+      "name": "36C base cutoff protective guarantee",
+      "status": "FAIL_UNQUALIFIED",
+      "evidence": "36+3+1=40C leaves zero reserve. Corrected40C indication range37.4189..43.0090C.3C symmetric bound is slightly exceeded, and reference dynamics, mounting/local gradients, thermal/control lag, ageing and stored-heat/USB standby overshoot are not guaranteed."
+    },
+    {
+      "name": "Power-down analog input limits",
+      "status": "UNRESOLVED",
+      "evidence": "Steady-state sensors have no independent supply; charged100nF inputs and VEXC reservoir can inject during rail collapse. MCP6002\u00b12mA input-current limit and input differential range need a transition check; no circuit alteration made."
+    },
+    {
+      "name": "Temperature performance across actual mux/amplifier limits",
+      "status": "UNQUALIFIED",
+      "evidence": "500ohm/8uA mux,7mV MCP6002 offset,2nA bias,5mV ground,1mV level-dependent analog error and0.15C self-heating are acceptance allocations, not guaranteed installed maxima. Native settling passes do not close these bounds."
+    }
+  ],
+  "new_features_or_canonical_changes": false
+}

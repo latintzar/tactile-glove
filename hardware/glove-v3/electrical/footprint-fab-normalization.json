@@ -1,0 +1,152 @@
+[
+  {
+    "footprint": "JST_SH_SM07B-SRSS-TB_1x07-1MP_P1.00mm_Horizontal.kicad_mod",
+    "original_sha256": "5b86dce7a4a543f41c9067f1520659ef7a5bfc2552cf4b217b2a6c9b850ea7b0",
+    "modified_sha256": "afc9bb44cf5efe0fdf411b932b09c3e49fd374b6f290e09cf719001c5674186d",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SW_PTS636_SK43_G.kicad_mod",
+    "original_sha256": "97a815ada57993129639dfd99f90283a05d5166e02e9841cf3ce34d0d7b50f5b",
+    "modified_sha256": "030e1860f6ca8f3bcf5b6f81cec49bf2a8267d227a247191568ca73275737985",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal.kicad_mod",
+    "original_sha256": "d0c40d57efc7f2fb939ae0fe707f89cd8aa0083801ce8177c5c978703562cd66",
+    "modified_sha256": "517fa24c1f4a9de316dddfaae10aaef1ed2242e855d10672cd0e4af59bef2941",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical.kicad_mod",
+    "original_sha256": "1d3813c14ffafdf4cf2dd5bf74a392b22f60561c37103e6fc94eb3c7f0c70c08",
+    "modified_sha256": "b43d24250e96737a6f8770acc602c5a47f713fb40f606b219b2e9c0438130f21",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+    "original_sha256": "809a7dab0a6690e65eff75fbb4256bdb718000a629b0ade4ea98513828d190a3",
+    "modified_sha256": "95a262c3722b508943882fa43ddcc7172553e2357e8cf4524136a8c997d7fb41",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOT-23-5.kicad_mod",
+    "original_sha256": "559f4c60fd9a2f3b575b5c4efb9bcb51863ea2c8e3837c27504059c8fa704827",
+    "modified_sha256": "ccb91b2b935e7b4022a7b9d82412d47300b3a1518fd0eb79de9382b61e0b5cc7",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "R_0603_1608Metric.kicad_mod",
+    "original_sha256": "effcae403a15810b3a1947b8664576270d6781e7cd525e97c47d48be0fdae8ce",
+    "modified_sha256": "61fd6e271cc22a21173f48cb5551f3f1adecc20fd4c35a9c757800a7af279b11",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOT-363_SC-70-6.kicad_mod",
+    "original_sha256": "f21930d6b4038a9eb6c22bcfd39c51415f4cc2deddb0c725b6f6e23280922c59",
+    "modified_sha256": "7f8cbb36d9b22e903f761b5565b870107ed7f4fd30f3717cda405f2a1c010f6a",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOIC-16W_7.5x10.3mm_P1.27mm.kicad_mod",
+    "original_sha256": "d5d78ebf9ebd81b3e158f301eab1192102d8bab5ace4d50ee83e6cc52f4fc312",
+    "modified_sha256": "df503a491c9cc67874b20b97aa8e8164ef7a1001593d068bd84de08a365abae1",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical.kicad_mod",
+    "original_sha256": "68ac1c358a932af545f478b779d82fd98f0f0d8c7a796a95d07ca047e413db46",
+    "modified_sha256": "4e63c43d002a081cd7a6eaa4df0168ccf66def1e3e3b65f7463141987306ce62",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "JST_GH_BM14B-GHS-TBT_1x14-1MP_P1.25mm_Vertical.kicad_mod",
+    "original_sha256": "0023da3c438db7cbe237a2e69756594676ed1d873315c50ba1c84b16e22f7ff8",
+    "modified_sha256": "744d9024c02a1ffde07a17a11f65d5dcf1b22c73ed57250f3f1d32af09be37d9",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOIC-24W_7.5x15.4mm_P1.27mm.kicad_mod",
+    "original_sha256": "b51a11b1e2848216957c07647cf61152370cb4adf06bb625e85217551c4afea4",
+    "modified_sha256": "7cefb6a89e253b6f6d993a9401a1d44da7007166399654f1b19609cc4a90adb0",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOIC-8_3.9x4.9mm_P1.27mm.kicad_mod",
+    "original_sha256": "c11287038ffba034da8faed0c90c4ef9d7d34bb728d370c841215c275677dcaf",
+    "modified_sha256": "3e70be46498e78ced4652bc112f315660ea5d9a2bbf01299ac3cadd39a0826c5",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "TSSOP-14_4.4x5mm_P0.65mm.kicad_mod",
+    "original_sha256": "d0c22285c3c4825670dc7ddf438fef6c1c6a4e8fdd4564c1b596b7890651737e",
+    "modified_sha256": "dd0f6346337d5cf5ec4c0530ceb79a02d258fcc81c304e3106eb5342b5ba8cf3",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "C_0603_1608Metric.kicad_mod",
+    "original_sha256": "341de40ed02527c21b097661d4c2411c604c253ca12041f5eb4521bde00a8db4",
+    "modified_sha256": "bbe3a9a579aebf4eae5feccc090e98faa417cfba0afb852cd0007f2bc6b065a0",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "R_0805_2012Metric.kicad_mod",
+    "original_sha256": "34ef5a7238e8aa2622071b1ded0ce1aaaf9fd5fd2fa2d5e9914f8ee250ac3f7c",
+    "modified_sha256": "5a41dc236eebf1add9cb10c611da055be50c6b418cb55746a676aecce1154da9",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "MSOP-10_3x3mm_P0.5mm.kicad_mod",
+    "original_sha256": "af57156439279f1fdc555bc72a8e1ea9b3a1cd8bb4c5705f073ae4fe799bd113",
+    "modified_sha256": "c7088b48ffa2eea7fd7a4b87f6381cba13ebd50c85ddb2487e4eb9b2f84fb69b",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "TSSOP-16_4.4x5mm_P0.65mm.kicad_mod",
+    "original_sha256": "0fa7ddd45e6cc5d327e2adeddc4ef03a24d43cec35f3edab5729e1e3ce32ecb1",
+    "modified_sha256": "97376137b074b5a88d72c1907aa4bb6348541e99b1d066e0ab94f5a172f1b2b6",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.kicad_mod",
+    "original_sha256": "1af3334885ac84d2bc4af629b29fc3dddc25ee1453bb67e20fb8dfdaee358a64",
+    "modified_sha256": "b4636d3eaefd243a887acde29b5c2b9d079e6036e2312ea689848e0bb0bff0ea",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "XIAO-nRF52840-SMD.kicad_mod",
+    "original_sha256": "cc41edbcd921013c057d34cb86faa296ab30e597afb7e5f33bda8022a7c99395",
+    "modified_sha256": "60867972332da94807eb1c7ca0f9947a0a62327bdf6d91e41828d8fe019eda0a",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOIC-14_3.9x8.7mm_P1.27mm.kicad_mod",
+    "original_sha256": "e79ced5edb179990da39505bb2e1eff62da520f56809bacdd9e816293cc4cacd",
+    "modified_sha256": "011bdb3f36962eec5baf1cb9a931eac606db362247d905c6635ac648df764e5b",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "C_0805_2012Metric.kicad_mod",
+    "original_sha256": "99fff2e6692af4126feb9f9ebdfd454834bf414b13d04be0d075dffc23cfbd02",
+    "modified_sha256": "e03d6d8ff723a95dc411473a640aa91757275c6d6fbf271d21ecad6da9a8e6df",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "CP_EIA-3216-18_Kemet-A.kicad_mod",
+    "original_sha256": "d2a538bf3493367a542952cf1b6738cc51a0e554b27f6cdfa664ccef5eabc356",
+    "modified_sha256": "80dbc7d782b72903906d9904177cc83786f3f59440c447ec9c26e059d9cc511c",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "D_SOD-123F.kicad_mod",
+    "original_sha256": "57a20ddcb726198d48cadbea70be9adafa89c3d74c8d17c4ff21b6b80c787637",
+    "modified_sha256": "55db85be0713e3cdf39ee4888a680ea24a576b82592b5284bd63554fd9eb1919",
+    "pads_and_courtyards_changed": false
+  },
+  {
+    "footprint": "SOT-23.kicad_mod",
+    "original_sha256": "db5b998f0d36708205a4b8edc0db1501deb0246a81b52e9cb036cfd58b7570d3",
+    "modified_sha256": "4532eee2a6a7171975c84a324fcbb1a39020a4a2193bc72aec78bb2faeea2344",
+    "pads_and_courtyards_changed": false
+  }
+]

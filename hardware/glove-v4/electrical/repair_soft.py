@@ -1,0 +1,33 @@
+from pathlib import Path
+import pcbnew as k,re,json,math,sys,time
+import route_soft
+from route_soft import route,layers
+from island_multi import candidates
+P=Path(__file__).resolve().parent;src=Path(sys.argv[1]);dst=Path(sys.argv[2]);b=k.LoadBoard(str(src));__import__("routing_layers").assert_stack(b);log=[];deadline=time.monotonic()+600
+for rnd in range(2):
+ b.BuildConnectivity();k.ZONE_FILLER(b).Fill(b.Zones());k.SaveBoard(str(dst),b);k.WriteDRCReport(b,str(dst.with_suffix('.current.drc.txt')),k.EDA_UNITS_MILLIMETRES,True);s=(dst.with_suffix('.current.drc.txt')).read_text();items=[]
+ for bl in s.split('\n['):
+  if not bl.startswith('unconnected_items]'):continue
+  endpoints=re.findall(r'@\(([-\d.]+) mm, ([-\d.]+) mm\): (.*)',bl)
+  if len(endpoints)!=2:continue
+  ep=[]
+  for x,y,desc in endpoints:
+   net=re.search(r'\[(.+?)\]',desc).group(1);al=layers if 'Via ' in desc or ' on *.Cu' in desc else [l for l in layers if b.GetLayerName(l) in desc]
+   if not al:break
+   ep.append(((float(x),float(y)),al))
+  if len(ep)==2 and "Zone [" not in bl:items.append((math.dist(ep[0][0],ep[1][0]),net,ep))
+ route_soft.SOFT_OPEN_TARGETS={n for d,n,e in items}
+ route_soft.SOFT_ALLOWED={n.GetNetname() for n in b.GetNetsByNetcode().values() if not n.GetNetname().startswith(('CHG_','MAIN_','VREF','VMID','VEXC','DYN','PVDF','PRESS','CHG_IN','CFB','RFB')) and n.GetNetname() not in ['GND','3V3_A','3V3_SYS','VBAT','VBAT_ENTRY','VSYS','USB_CHARGER_IN','USB_VBUS','1V8','CAM_DOVDD_1V8','CAM_AVDD_2V8','CAM_DVDD_1V5','SD_3V3']}
+ owners={}
+ for c in json.loads((P/'components.json').read_text())['components']:
+  for n in c['pins'].values():owners.setdefault(n,set()).add(c['subsystem'])
+ route_soft.SOFT_ALLOWED-={n for n,v in owners.items() if v=={'tactile'}}
+ print('ROUND',rnd,'OPENS',len(items),'DISPLACEABLE',len(route_soft.SOFT_ALLOWED),flush=True)
+ for dist,net,ep in sorted(items):
+  if time.monotonic()>deadline:break
+  b.BuildConnectivity();aa=candidates(b,net,*ep[0]);dd=candidates(b,net,*ep[1]);dist=math.dist(ep[0][0],ep[1][0])
+  ok=route(b,net,*ep[0],*ep[1],step=(.125 if dist>25 else .075) if rnd==0 else (.10 if dist>25 else .05),margin=4 if rnd==0 else 8,extra_a=aa,extra_d=dd);log.append({'round':rnd,'net':net,'endpoints':ep,'routed':bool(ok)})
+  if ok:route_soft.SOFT_ALLOWED.discard(net)
+  if len(log)%10==0:k.SaveBoard(str(dst),b)
+ if time.monotonic()>deadline:break
+b.BuildConnectivity();k.ZONE_FILLER(b).Fill(b.Zones());b.SetFileName(str(dst));k.SaveBoard(str(dst),b);dst.with_suffix('.kicad_pro').write_bytes(src.with_suffix('.kicad_pro').read_bytes());k.WriteDRCReport(b,str(dst.with_suffix('.drc.txt')),k.EDA_UNITS_MILLIMETRES,True);dst.with_suffix('.repairs.json').write_text(json.dumps(log,indent=2));print('FINISHED',sum(x['routed'] for x in log),'of',len(log),flush=True)

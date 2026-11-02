@@ -1,0 +1,29 @@
+{
+  "board_sha256": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+  "method": "Actual KiCad cached courtyard polygon areas, separately for the installed side; polygon intersections detect overlaps. Polygon arcs use KiCad tessellation. AABB values are reported separately and are not a rigorous packing lower bound.",
+  "current_bom_parts": 561,
+  "missing_courtyards": [],
+  "by_side": {
+    "F": {
+      "sum_polygon_mm2": 5086.02820839674,
+      "union_mm2": 5086.0282083967395,
+      "sum_aabb_mm2": 5679.493808396732
+    },
+    "B": {
+      "sum_polygon_mm2": 2590.9325362815302,
+      "union_mm2": 2590.932536281538,
+      "sum_aabb_mm2": 2596.9733377215152
+    }
+  },
+  "sum_courtyard_polygon_mm2": 7676.96074467827,
+  "same_side_overlap_pairs": [],
+  "requested_footprint_mm": [
+    50.8,
+    38.1
+  ],
+  "requested_two_faces_area_mm2": 3870.96,
+  "interpretation": "Current BOM only. Courtyard area requires two faces at minimum, before routing channels, antenna clearance, edge access, harness mating, or battery. This does not establish the minimum achievable rearchitected product.",
+  "conservative_area_excluding_all_connectors_and_mcu_courtyard_mm2": 4963.821041738216,
+  "rf_courtyard_note": "The MCU courtyard includes its external antenna exclusion region and extends beyond the PCB. It is excluded entirely, along with every connector, from the conservative area bound.",
+  "sum_polygon_to_target_two_faces_ratio": 1.9832188254795373
+}

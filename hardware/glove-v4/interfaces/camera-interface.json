@@ -1,0 +1,663 @@
+{
+  "schema": 1,
+  "revision": "V4 camera interface",
+  "module": {
+    "manufacturer": "CamThink",
+    "selection": "OV5640 120\u00b0FOV, 8CM preset focus",
+    "part_number_status": "Store variation identifier and exact supplied mechanical drawing still need capture",
+    "source": "https://wiki.camthink.ai/docs/hardware-dev-resources/camera-module-ov5640/",
+    "supply_choice_v": {
+      "AVDD": 2.8,
+      "DVDD": 1.5,
+      "DOVDD": 1.8
+    },
+    "body_mm": [
+      8.5,
+      8.5,
+      6.5
+    ],
+    "assembly_design_status": "pin-level circuit; connector tail fit and supplied variant not yet production released"
+  },
+  "gpio": {
+    "MCU_CAM_D0": 11,
+    "MCU_CAM_D1": 9,
+    "MCU_CAM_D2": 8,
+    "MCU_CAM_D3": 10,
+    "MCU_CAM_D4": 12,
+    "MCU_CAM_D5": 18,
+    "MCU_CAM_D6": 17,
+    "MCU_CAM_D7": 16,
+    "MCU_CAM_XCLK": 15,
+    "MCU_CAM_PCLK": 13,
+    "MCU_CAM_VSYNC": 6,
+    "MCU_CAM_HREF": 7,
+    "I2C_SDA": 4,
+    "I2C_SCL": 5
+  },
+  "expander_outputs": [
+    "CAM_IO_EN",
+    "CAM_AV_EN",
+    "CAM_DV_EN",
+    "CAM_IF_EN",
+    "MCU_CAM_RESET_N",
+    "MCU_CAM_PWDN"
+  ],
+  "parts": [
+    {
+      "ref": "J_CAM",
+      "qty": 1,
+      "mpn": "FH12-24S-0.5SH(55)",
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal",
+      "pins": {
+        "1": "NC",
+        "2": "GND",
+        "3": "CAM_SDA",
+        "4": "CAM_AVDD_2V8",
+        "5": "CAM_SCL",
+        "6": "CAM_RESET_N",
+        "7": "CAM_VSYNC",
+        "8": "CAM_PWDN",
+        "9": "CAM_HREF",
+        "10": "CAM_DVDD_1V5",
+        "11": "CAM_DOVDD_1V8",
+        "12": "CAM_D7",
+        "13": "CAM_XCLK",
+        "14": "CAM_D6",
+        "15": "GND",
+        "16": "CAM_D5",
+        "17": "CAM_PCLK",
+        "18": "CAM_D4",
+        "19": "CAM_D0",
+        "20": "CAM_D3",
+        "21": "CAM_D1",
+        "22": "CAM_D2",
+        "23": "NC",
+        "24": "NC"
+      },
+      "purpose": "24-contact bottom-contact 0.5mm FPC; 0.3mm cable thickness. Module tail/contact-side verification required before layout freeze.",
+      "source": "https://www.hirose.com/product/p/CL0586-0521-0-55"
+    },
+    {
+      "ref": "U_CAM_IO",
+      "qty": 1,
+      "mpn": "TPS7A2018PDBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND",
+        "3": "CAM_IO_EN",
+        "4": "NC",
+        "5": "CAM_DOVDD_1V8"
+      },
+      "purpose": "Separate camera 1V8 regulator with active discharge",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+    },
+    {
+      "ref": "R_CAM_IO_EN",
+      "qty": 1,
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_IO_EN",
+        "2": "GND"
+      },
+      "purpose": "100k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "C_CAM_IO_IN",
+      "qty": 1,
+      "mpn": "CL21A106KAYNNNE",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "10uF 25V X5R, effective >=1uF required",
+      "source": "https://product.samsungsem.com/mlcc/CL21A106KAYNNNE.do"
+    },
+    {
+      "ref": "C_CAM_IO_OUT",
+      "qty": 1,
+      "mpn": "CL21A106KAYNNNE",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "GND"
+      },
+      "purpose": "10uF 25V X5R, effective >=1uF required",
+      "source": "https://product.samsungsem.com/mlcc/CL21A106KAYNNNE.do"
+    },
+    {
+      "ref": "C_CAM_IO_HF",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "U_CAM_AV",
+      "qty": 1,
+      "mpn": "TPS7A2028PDBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND",
+        "3": "CAM_AV_EN",
+        "4": "NC",
+        "5": "CAM_AVDD_2V8"
+      },
+      "purpose": "Separate camera 2V8 regulator with active discharge",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+    },
+    {
+      "ref": "R_CAM_AV_EN",
+      "qty": 1,
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_AV_EN",
+        "2": "GND"
+      },
+      "purpose": "100k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "C_CAM_AV_IN",
+      "qty": 1,
+      "mpn": "CL21A106KAYNNNE",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "10uF 25V X5R, effective >=1uF required",
+      "source": "https://product.samsungsem.com/mlcc/CL21A106KAYNNNE.do"
+    },
+    {
+      "ref": "C_CAM_AV_OUT",
+      "qty": 1,
+      "mpn": "CL21A106KAYNNNE",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "CAM_AVDD_2V8",
+        "2": "GND"
+      },
+      "purpose": "10uF 25V X5R, effective >=1uF required",
+      "source": "https://product.samsungsem.com/mlcc/CL21A106KAYNNNE.do"
+    },
+    {
+      "ref": "C_CAM_AV_HF",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CAM_AVDD_2V8",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "U_CAM_DV",
+      "qty": 1,
+      "mpn": "TPS7A2015PDBVR",
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND",
+        "3": "CAM_DV_EN",
+        "4": "NC",
+        "5": "CAM_DVDD_1V5"
+      },
+      "purpose": "Separate camera 1V5 regulator with active discharge",
+      "source": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+    },
+    {
+      "ref": "R_CAM_DV_EN",
+      "qty": 1,
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DV_EN",
+        "2": "GND"
+      },
+      "purpose": "100k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "C_CAM_DV_IN",
+      "qty": 1,
+      "mpn": "CL21A106KAYNNNE",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "10uF 25V X5R, effective >=1uF required",
+      "source": "https://product.samsungsem.com/mlcc/CL21A106KAYNNNE.do"
+    },
+    {
+      "ref": "C_CAM_DV_OUT",
+      "qty": 1,
+      "mpn": "CL21A106KAYNNNE",
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "pins": {
+        "1": "CAM_DVDD_1V5",
+        "2": "GND"
+      },
+      "purpose": "10uF 25V X5R, effective >=1uF required",
+      "source": "https://product.samsungsem.com/mlcc/CL21A106KAYNNNE.do"
+    },
+    {
+      "ref": "C_CAM_DV_HF",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DVDD_1V5",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "U_CAM_DATA",
+      "qty": 1,
+      "mpn": "SN74AXC8T245PWR",
+      "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "CAM_DOVDD_1V8",
+        "11": "GND",
+        "12": "GND",
+        "13": "GND",
+        "22": "CAM_OE_N",
+        "23": "3V3_SYS",
+        "24": "3V3_SYS",
+        "3": "CAM_D0",
+        "21": "MCU_CAM_D0",
+        "4": "CAM_D1",
+        "20": "MCU_CAM_D1",
+        "5": "CAM_D2",
+        "19": "MCU_CAM_D2",
+        "6": "CAM_D3",
+        "18": "MCU_CAM_D3",
+        "7": "CAM_D4",
+        "17": "MCU_CAM_D4",
+        "8": "CAM_D5",
+        "16": "MCU_CAM_D5",
+        "9": "CAM_D6",
+        "15": "MCU_CAM_D6",
+        "10": "CAM_D7",
+        "14": "MCU_CAM_D7"
+      },
+      "purpose": "8 data lines 1.8V camera to system MCU",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf"
+    },
+    {
+      "ref": "U_CAM_CTRL",
+      "qty": 1,
+      "mpn": "SN74AXC8T245PWR",
+      "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "CAM_DOVDD_1V8",
+        "11": "CAM_DOVDD_1V8",
+        "12": "GND",
+        "13": "GND",
+        "22": "CAM_OE_N",
+        "23": "3V3_SYS",
+        "24": "3V3_SYS",
+        "3": "CAM_PCLK",
+        "21": "MCU_CAM_PCLK",
+        "4": "CAM_VSYNC",
+        "20": "MCU_CAM_VSYNC",
+        "5": "CAM_HREF",
+        "19": "MCU_CAM_HREF",
+        "6": "GND",
+        "18": "NC",
+        "7": "CAM_XCLK_BUF",
+        "17": "MCU_CAM_XCLK",
+        "8": "CAM_RESET_N",
+        "16": "MCU_CAM_RESET_N",
+        "9": "CAM_PWDN",
+        "15": "MCU_CAM_PWDN",
+        "10": "NC",
+        "14": "GND"
+      },
+      "purpose": "3 sync lines up, XCLK/reset/powerdown down; unused input sides grounded",
+      "source": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf"
+    },
+    {
+      "ref": "R_CAM_XCLK",
+      "qty": 1,
+      "mpn": "RC0603FR-0733RL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_XCLK_BUF",
+        "2": "CAM_XCLK"
+      },
+      "purpose": "33 ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "C_CAM_DATA_A",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "C_CAM_DATA_B",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "C_CAM_CTRL_A",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "C_CAM_CTRL_B",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "R_CAM_OE",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "CAM_OE_N"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_CAM_IF",
+      "qty": 1,
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_IF_EN",
+        "2": "GND"
+      },
+      "purpose": "100k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "Q_CAM_OE",
+      "qty": 1,
+      "mpn": "2N7002,215",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "CAM_IF_EN",
+        "2": "GND",
+        "3": "CAM_OE_N"
+      },
+      "purpose": "Open-drain enable, keeps translator control in camera 1.8V domain",
+      "source": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
+    },
+    {
+      "ref": "U_CAM_SCCB",
+      "qty": 1,
+      "mpn": "PCA9306DCTR",
+      "footprint": "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm",
+      "pins": {
+        "1": "GND",
+        "2": "CAM_DOVDD_1V8",
+        "3": "CAM_SCL",
+        "4": "CAM_SDA",
+        "5": "I2C_SDA",
+        "6": "I2C_SCL",
+        "7": "CAM_SCCB_BIAS",
+        "8": "CAM_SCCB_BIAS"
+      },
+      "purpose": "SCCB voltage translation; I2C address 0x3c",
+      "source": "https://www.ti.com/lit/ds/symlink/pca9306.pdf"
+    },
+    {
+      "ref": "R_CAM_SCCB_BIAS",
+      "qty": 1,
+      "mpn": "RC0603FR-07200KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "CAM_SCCB_BIAS"
+      },
+      "purpose": "200k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_CAM_SDA",
+      "qty": 1,
+      "mpn": "RC0603FR-072K2L",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "CAM_SDA"
+      },
+      "purpose": "2.2k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_CAM_SCL",
+      "qty": 1,
+      "mpn": "RC0603FR-072K2L",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "CAM_SCL"
+      },
+      "purpose": "2.2k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "U_CAM_IF_INV",
+      "qty": 1,
+      "mpn": "74LVC1G04GW,125",
+      "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+      "pins": {
+        "1": "NC",
+        "2": "CAM_IF_EN",
+        "3": "GND",
+        "4": "CAM_IF_DISABLE",
+        "5": "3V3_SYS"
+      },
+      "purpose": "Hardware default isolates SCCB when interface enable is low",
+      "source": "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf"
+    },
+    {
+      "ref": "C_CAM_IF_INV",
+      "qty": 1,
+      "mpn": "GRM188R71C104KA01D",
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "100nF 16V X7R decoupling",
+      "source": "https://www.murata.com/en-us/products/productdetail?partno=GRM188R71C104KA01%23"
+    },
+    {
+      "ref": "Q_CAM_SCCB",
+      "qty": 1,
+      "mpn": "2N7002,215",
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "pins": {
+        "1": "CAM_IF_DISABLE",
+        "2": "GND",
+        "3": "CAM_SCCB_BIAS"
+      },
+      "purpose": "Clamps SCCB gate bias off until camera I/O is powered",
+      "source": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
+    },
+    {
+      "ref": "R_CAM_RESET",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_RESET_N",
+        "2": "GND"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_CAM_PWDN",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "CAM_DOVDD_1V8",
+        "2": "CAM_PWDN"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_CAM_MCU_RESET",
+      "qty": 1,
+      "mpn": "RC0603FR-07100KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "MCU_CAM_RESET_N",
+        "2": "GND"
+      },
+      "purpose": "100k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_CAM_MCU_PWDN",
+      "qty": 1,
+      "mpn": "RC0603FR-0747KL",
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "MCU_CAM_PWDN"
+      },
+      "purpose": "47k ohm",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    }
+  ],
+  "power_up_sequence": [
+    {
+      "t_ms": 0,
+      "action": "prepare",
+      "state": {
+        "CAM_IF_EN": 0,
+        "CAM_IO_EN": 0,
+        "CAM_AV_EN": 0,
+        "CAM_DV_EN": 0,
+        "MCU_CAM_RESET_N": 0,
+        "MCU_CAM_PWDN": 1,
+        "XCLK": 0
+      }
+    },
+    {
+      "t_ms": 1,
+      "action": "io_rail",
+      "state": {
+        "CAM_IO_EN": 1
+      }
+    },
+    {
+      "t_ms": 21,
+      "action": "analog_rail",
+      "state": {
+        "CAM_AV_EN": 1
+      }
+    },
+    {
+      "t_ms": 41,
+      "action": "core_rail",
+      "state": {
+        "CAM_DV_EN": 1
+      }
+    },
+    {
+      "t_ms": 61,
+      "action": "interface_and_clock",
+      "state": {
+        "CAM_IF_EN": 1,
+        "XCLK": 24000000
+      }
+    },
+    {
+      "t_ms": 62,
+      "action": "leave_powerdown",
+      "state": {
+        "MCU_CAM_PWDN": 0
+      }
+    },
+    {
+      "t_ms": 64,
+      "action": "release_reset",
+      "state": {
+        "MCU_CAM_RESET_N": 1
+      }
+    },
+    {
+      "t_ms": 90,
+      "action": "probe_configure",
+      "state": {}
+    }
+  ],
+  "power_down_sequence": [
+    "RESET_N low; PWDN high",
+    "stop XCLK",
+    "CAM_IF_EN low",
+    "CAM_DV_EN low; wait20ms",
+    "CAM_AV_EN low; wait20ms",
+    "CAM_IO_EN low"
+  ],
+  "sources": {
+    "sensor": "https://files.waveshare.com/upload/d/da/OV5640_DataSheet.pdf",
+    "translator": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf",
+    "ldo": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+  },
+  "layout_rules": [
+    "Continuous ground plane beneath camera data/clock, no split crossing",
+    "Buffer PCLK and data with same translator family; short matched routes, avoid analog charge inputs",
+    "Camera flex strain relief and outward heat path; connector pin1/contact side explicit in assembly drawing",
+    "100nF at every translator supply; LDO effective output capacitance >=1uF over DC bias/tolerance",
+    "3V3_SYS <=3.6V including converter ripple/transients",
+    "Host-side I2C pullups owned by main board; budget total bus capacitance and combined sink current",
+    "Stop XCLK and isolate all camera I/O before removing rail power"
+  ],
+  "validation_scope": "Source maps and arithmetic are design checks; dynamic interface waveforms and sensor operation require target integration."
+}

@@ -1,0 +1,64 @@
+[
+  {
+    "name": "Semitec103AT-2",
+    "local_path_relative_to_v4": "verification/thermal-screen/sources/semitec-at.pdf",
+    "sha256": "389dc527ed8d783cbbf94db460504e26d17993020d8d3627056499a9264b3262",
+    "primary_url": "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf",
+    "location": "PDF1 ratings/dimensions; PDF2 R-T/handling"
+  },
+  {
+    "name": "RT0603BRD0710KL",
+    "local_path_relative_to_v4": "verification/thermal-screen/readout-proposal/RT0603BRD0710KL.pdf",
+    "sha256": "541526ea9f9fcaa8c318aaa2b68958c0476237020e0a1592ba10f78032b578aa",
+    "primary_url": "https://www.yageogroup.com/component-documentation/download/specsheet/RT0603BRD0710KL",
+    "location": "PDF1 exact10k0.1%25ppm"
+  },
+  {
+    "name": "CD74HC4067M",
+    "local_path_relative_to_v4": "../glove-v3/component-evidence/active/datasheets/cd74hc4067.pdf",
+    "sha256": "be0091cbec79831f5ced7d5d42016eadb88b8fad431a1d460a94b9f4f98a421d",
+    "primary_url": "https://www.ti.com/lit/ds/symlink/cd74hct4067.pdf",
+    "location": "PDF7 HC Ron/leakage; PDF3 pinout"
+  },
+  {
+    "name": "MCP6002T-I/SN",
+    "local_path_relative_to_v4": "../glove-v3/component-evidence/active/datasheets/mcp6004.pdf",
+    "sha256": "4f879ab31115ecfa149dfea62073c9efdbc4beccbdfc3a8d7e10281f3877f8fb",
+    "primary_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20001733L.pdf",
+    "location": "PDF3 DC specifications; pinout first pages"
+  },
+  {
+    "name": "MCP33131D",
+    "local_path_relative_to_v4": "../glove-v3/component-evidence/active/datasheets/mcp33131.pdf",
+    "sha256": "3a22170eb5131bf7b37a8bbaa038fafbb011e97d37cb648cd28c9d346acc3fe1",
+    "primary_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP33131D-MCP33121D-MCP33111D-XX-Data-Sheet-DS20005947.pdf",
+    "location": "PDF4 INL/offset and differential transfer"
+  },
+  {
+    "name": "JSTSH",
+    "local_path_relative_to_v4": "../glove-v3/component-evidence/interfaces/jst-sh-series.pdf",
+    "sha256": "ea3071ca5ee5a6069eba534fa39a10f34c9fb742ee42135a69ab4156bfa0f5de",
+    "primary_url": "https://www.jst.com/wp-content/uploads/2025/06/eSH.pdf",
+    "location": "PDF1 layout; PDF2 contact/housing; PDF3 SM04 header"
+  },
+  {
+    "name": "BQ25616",
+    "local_path_relative_to_v4": "procurement/battery-path-sources/bq25616.pdf",
+    "sha256": "db1c80794273f68d40f13969888a1da6abc08d4a1ea38b68af8b9a09d7c9834a",
+    "primary_url": "https://www.ti.com/lit/ds/symlink/bq25616.pdf",
+    "location": "Section9.3.2 REGN battery-only state;9.3.10 status"
+  },
+  {
+    "name": "6061 aluminum typical properties",
+    "local_path_relative_to_v4": "verification/thermal-screen/readout-proposal/Hydro-6061.pdf",
+    "sha256": "cc3cc79ef34d7ccd2a69fe5216f726be23d23d0b07e12c2ea1091adbba7fd009",
+    "primary_url": "https://www.hydro.com/globalassets/01-products--services/extruded-profiles/americas/ena-resources/alloy-data-sheets/hydro_2019_data_sheet_6061.pdf",
+    "location": "PDF2 T6 conductivity/density"
+  },
+  {
+    "name": "Parker PAD60 candidate",
+    "primary_url": "https://www.parker.com/content/dam/Parker-com/Literature/Chomerics/Parker-Chomerics-THERM-A-GAP-PAD-60.pdf",
+    "location": "PDF2 typical thermal/mechanical/dielectric properties;PDF3 ordering",
+    "access": "primaryPDF read via browser; rawdownload403; no cached hash claimed"
+  }
+]

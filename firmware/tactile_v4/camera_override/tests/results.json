@@ -1,0 +1,7 @@
+{
+  "source": "firmware/tactile_v4/camera_override/driver/cam_hal.c",
+  "source_sha256": "f81b24bee4eb3c1668a04bb90ae8b20c5d89396e3efede0fdc6a0280424ea700",
+  "compile": true,
+  "run_exit": 0,
+  "cases": 9
+}

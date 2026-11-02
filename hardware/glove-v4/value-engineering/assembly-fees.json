@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-23",
+  "source": "https://jlcpcb.com/help/article/pcb-assembly-price",
+  "source_updated": "2026-09-09",
+  "currency": "USD",
+  "status": "public_fee_schedule_not_order_quote",
+  "standard": {
+    "setup_single_side": 25.56,
+    "setup_double_side": 51.12,
+    "stencil_single_side": 8.21,
+    "stencil_double_side": 16.42,
+    "loading_per_component_type": 1.53,
+    "smt_per_joint": 0.0016,
+    "fixture_each": 8.21,
+    "fixtures_for_1_to_29": 2
+  },
+  "economic": {
+    "setup": 8.18,
+    "stencil": 1.53,
+    "loading_per_extended_type": 3.07,
+    "smt_per_joint": 0.0016
+  },
+  "eligibility_source": "https://jlcpcb.com/capabilities/pcb-assembly-capabilities",
+  "economic_layers": [
+    2,
+    4,
+    6
+  ],
+  "minimum_order_boards": 2,
+  "economic_min_bga_pitch_mm": 0.5,
+  "economic_min_ic_pitch_mm": 0.4,
+  "excluded": [
+    "PCB fabrication",
+    "components and attrition",
+    "X-ray",
+    "manual assembly",
+    "packing",
+    "handling",
+    "programming",
+    "testing",
+    "shipping",
+    "tax"
+  ],
+  "current_blockers": [
+    "Current 8-layer PCB is outside Economic layer options.",
+    "Current TPS22950YBHR uses 0.4 mm BGA pitch, below Economic 0.5 mm threshold.",
+    "Single-sided placement, stackup and other quote eligibility must all be checked.",
+    "Current placement is double-sided: 183 front and 378 back components; Economic supports single-sided placement."
+  ],
+  "caution": "A 6-layer reroute alone does not make the current BOM Economic eligible. Fees per exact component type are a scenario approximation until vendor quote reconciliation."
+}

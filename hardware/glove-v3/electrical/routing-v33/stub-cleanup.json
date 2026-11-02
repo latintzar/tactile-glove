@@ -1,0 +1,117 @@
+[
+  {
+    "uuid": "6d7fac8f-4155-46ec-980a-e741409fa1e6",
+    "net": "3V3A",
+    "round": 0
+  },
+  {
+    "uuid": "79758b5b-8ef5-467b-9189-f15311191710",
+    "net": "CHG_OUT_P1",
+    "round": 0
+  },
+  {
+    "uuid": "6655c100-6d34-457e-8750-be0e6d41c88e",
+    "net": "CHG_OUT_R1",
+    "round": 0
+  },
+  {
+    "uuid": "a648fd55-4698-4d34-b40b-2e5ed761ea5d",
+    "net": "CHG_OUT_R1",
+    "round": 0
+  },
+  {
+    "uuid": "5690a903-673c-4cf6-9d4a-99cc9e59d7df",
+    "net": "GND",
+    "round": 0
+  },
+  {
+    "uuid": "6c1b3c3d-7c23-4de2-85c0-62dc7b7bf167",
+    "net": "GND",
+    "round": 0
+  },
+  {
+    "uuid": "9f82f1c5-d1cb-4e7a-952e-4fbaf6a1bfb7",
+    "net": "GND",
+    "round": 0
+  },
+  {
+    "uuid": "b14c0bfc-2aa0-4560-a621-4971cbe44514",
+    "net": "GND",
+    "round": 0
+  },
+  {
+    "uuid": "c22b2fdd-9808-4c24-9127-a6476af293c2",
+    "net": "GND",
+    "round": 0
+  },
+  {
+    "uuid": "902c136d-07cd-44f6-8c67-9b3296a57d18",
+    "net": "PVDF_I1",
+    "round": 0
+  },
+  {
+    "uuid": "e1505be0-9d50-4b67-b9e7-93c8e186bed1",
+    "net": "PVDF_I2",
+    "round": 0
+  },
+  {
+    "uuid": "86d1628c-905d-43f3-9a00-eea20f4ea08d",
+    "net": "PVDF_I2",
+    "round": 0
+  },
+  {
+    "uuid": "1b483786-14a3-432d-b253-7d003d61e4d4",
+    "net": "PVDF_L2",
+    "round": 0
+  },
+  {
+    "uuid": "0deb8b60-a5a6-4083-bac7-5634a0866f88",
+    "net": "PVDF_T2",
+    "round": 0
+  },
+  {
+    "uuid": "84b00a2b-d567-4f29-ab20-99746125f638",
+    "net": "VEXC2V5",
+    "round": 0
+  },
+  {
+    "uuid": "bdf33bec-cf72-4594-8542-e451a822b216",
+    "net": "VEXC2V5",
+    "round": 0
+  },
+  {
+    "uuid": "f2ae5d99-65aa-45d1-b62e-984cf58503eb",
+    "net": "VMID_DIV",
+    "round": 0
+  },
+  {
+    "uuid": "aab17595-8aef-4a93-b069-5063d47d58b6",
+    "net": "VREF3V0",
+    "round": 0
+  },
+  {
+    "uuid": "dd8c5907-eabb-4aa2-beba-a111f3bcfdf6",
+    "net": "VEXC_FB",
+    "round": 0
+  },
+  {
+    "uuid": "3f7e7f18-efbc-48ce-ba43-75b644b09895",
+    "net": "3V3A",
+    "round": 1
+  },
+  {
+    "uuid": "7f9f3378-e8ad-471c-a4ef-e00630a26394",
+    "net": "GND",
+    "round": 1
+  },
+  {
+    "uuid": "ffc5a2f3-072b-4e5e-8405-99ee03115cbc",
+    "net": "VEXC2V5",
+    "round": 1
+  },
+  {
+    "uuid": "2715f202-2f2e-4313-ac28-9c27c7711d9c",
+    "net": "VEXC2V5",
+    "round": 1
+  }
+]

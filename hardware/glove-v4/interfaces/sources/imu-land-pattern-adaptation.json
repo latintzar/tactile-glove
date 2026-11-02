@@ -1,0 +1,8 @@
+{
+  "original_sha256": "51683264ee2644cf8114a404ddf26d373e9538eeff156befbcb3c595a01e6c9b",
+  "adapted_sha256": "29c30fdb2608ef24f85b66b8059762d6ae209fb48edf71b93e9f108c10bdb527",
+  "change": "0.4mm lands reduced to0.35mm; lengths0.625to0.575mm; corner polygon strokes0.15to0.10mm. Pin centres and body are unchanged.",
+  "basis": "ST DS13012fig24 terminal0.25\u00b10.05mm width,0.475\u00b10.05mm length. Adapted0.35x0.575 lands retain positive width/length allowance over maximumterminals.",
+  "manufacturing": "0.5mm pitch minus0.35mm landwidth =0.15mm minimum SMDpadclearance. JLCPCBcapabilities specifies0.15mm. No clearance override.",
+  "source": "https://jlcpcb.com/capabilities/pcb-capabilities/"
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "bela-glove-v3-sensor-cell-1",
+  "status": "mechanical starting layout; untested",
+  "count": 20,
+  "locations": [
+    {"id":"I1prox","region":"index finger proximal segment","pressure_channel":"P01","pvdf_channel":"V01","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"I2mid","region":"index finger middle segment","pressure_channel":"P02","pvdf_channel":"V02","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"I3dist","region":"index finger distal segment","pressure_channel":"P03","pvdf_channel":"V03","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":6},
+    {"id":"M1prox","region":"middle finger proximal segment","pressure_channel":"P04","pvdf_channel":"V04","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"M2mid","region":"middle finger middle segment","pressure_channel":"P05","pvdf_channel":"V05","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"M3dist","region":"middle finger distal segment","pressure_channel":"P06","pvdf_channel":"V06","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":6},
+    {"id":"R1prox","region":"ring finger proximal segment","pressure_channel":"P07","pvdf_channel":"V07","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"R2mid","region":"ring finger middle segment","pressure_channel":"P08","pvdf_channel":"V08","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"R3dist","region":"ring finger distal segment","pressure_channel":"P09","pvdf_channel":"V09","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":6},
+    {"id":"L1prox","region":"little finger proximal segment","pressure_channel":"P10","pvdf_channel":"V10","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"L2mid","region":"little finger middle segment","pressure_channel":"P11","pvdf_channel":"V11","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"L3dist","region":"little finger distal segment","pressure_channel":"P12","pvdf_channel":"V12","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":6},
+    {"id":"T1prox","region":"thumb proximal segment","pressure_channel":"P13","pvdf_channel":"V13","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":8},
+    {"id":"T2dist","region":"thumb distal segment","pressure_channel":"P14","pvdf_channel":"V14","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":6},
+    {"id":"P1","region":"palm below index knuckle","pressure_channel":"P15","pvdf_channel":"V15","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":10},
+    {"id":"P2","region":"palm below middle knuckle","pressure_channel":"P16","pvdf_channel":"V16","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":10},
+    {"id":"P3","region":"palm below ring knuckle","pressure_channel":"P17","pvdf_channel":"V17","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":10},
+    {"id":"P4","region":"palm below little knuckle","pressure_channel":"P18","pvdf_channel":"V18","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":10},
+    {"id":"H1","region":"heel radial/base of palm","pressure_channel":"P19","pvdf_channel":"V19","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":12},
+    {"id":"H2","region":"heel ulnar/base of palm","pressure_channel":"P20","pvdf_channel":"V20","active_mm":[8,10],"film_blank_mm":[10,14],"clearance_from_crease_mm":12}
+  ],
+  "interpretation": {
+    "M1prox-M3dist": "middle-finger IDs; P1-P4 are palm/knuckle IDs",
+    "active_mm": "starting active footprint; fit to the user's glove before release",
+    "film_blank_mm": "cut rectangle including two staggered electrical tabs; it is not finished thickness"
+  }
+}

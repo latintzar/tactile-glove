@@ -1,0 +1,13 @@
+{
+  "schema": "glove-flat-window-source-evidence/v2",
+  "source_extract": "hardware/glove-v4/enclosure/sources/3m-window-bond-evidence.txt",
+  "source_extract_sha256": "3f5896606c41c02315ad064789a2b10f089ae7211c8d3bbab3b502f2c809a0e7",
+  "raw_3m_PDF_download": "403; facts reviewed through primary web PDF viewer, cached extract distinctly labeled",
+  "stock": {
+    "mpn": "RS PRO7698720",
+    "source_file": "rs-pro-7698720-polycarbonate.pdf",
+    "sha256": "3ac45e9e80693079ec43c69923d604efce6eba8b3b3386091bb7772d777043c8",
+    "source_url": "https://assets.rs-online.com/image/upload/v1700069110/Datasheets/2f06e8198027e5178809d0e879ee391f.pdf",
+    "physical_pdf_page": 2
+  }
+}

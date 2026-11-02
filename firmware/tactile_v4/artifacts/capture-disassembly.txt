@@ -1,0 +1,511 @@
+
+/tmp/glove-local-idf-20261023/build/artisan_tactile_v4.elf:     file format elf32-xtensa-le
+
+
+Disassembly of section .iram0.text:
+
+403786d0 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)>:
+403786d0:	014136        	entry	a1, 160
+403786d3:	073d      	mov.n	a3, a7
+403786d5:	04fd      	mov.n	a15, a4
+403786d7:	196152        	s32i	a5, a1, 100
+403786da:	186162        	s32i	a6, a1, 96
+403786dd:	0020c0        	memw
+403786e0:	180c      	movi.n	a8, 1
+403786e2:	30d272        	addmi	a7, a2, 0x3000
+403786e5:	0020c0        	memw
+403786e8:	504782        	s8i	a8, a7, 80
+403786eb:	0020c0        	memw
+403786ee:	440782        	l8ui	a8, a7, 68
+403786f1:	748080        	extui	a8, a8, 0, 8
+403786f4:	0020c0        	memw
+403786f7:	a8cc      	bnez.n	a8, 40378705 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x35>
+403786f9:	0020c0        	memw
+403786fc:	0020c0        	memw
+403786ff:	504782        	s8i	a8, a7, 80
+40378702:	011946        	j	40378b6b <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x49b>
+40378705:	91eb      	addi.n	a9, a1, 14
+40378707:	00a0a2        	movi	a10, 0
+4037870a:	29a082        	movi	a8, 41
+4037870d:	048876        	loop	a8, 40378715 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x45>
+40378710:	0059a2        	s16i	a10, a9, 0
+40378713:	992b      	addi.n	a9, a9, 2
+40378715:	0020c0        	memw
+40378718:	480782        	l8ui	a8, a7, 72
+4037871b:	748080        	extui	a8, a8, 0, 8
+4037871e:	0020c0        	memw
+40378721:	38fc      	bnez.n	a8, 40378758 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x88>
+40378723:	0020c0        	memw
+40378726:	480782        	l8ui	a8, a7, 72
+40378729:	748080        	extui	a8, a8, 0, 8
+4037872c:	0020c0        	memw
+4037872f:	0020c0        	memw
+40378732:	4c0792        	l8ui	a9, a7, 76
+40378735:	4a0c      	movi.n	a10, 4
+40378737:	452c      	movi.n	a5, 36
+40378739:	935a80        	movnez	a5, a10, a8
+4037873c:	749090        	extui	a9, a9, 0, 8
+4037873f:	0020c0        	memw
+40378742:	280c      	movi.n	a8, 2
+40378744:	208580        	or	a8, a5, a8
+40378747:	835890        	moveqz	a5, a8, a9
+4037874a:	ffdf81        	l32r	a8, 403786c8 <esp_psram_is_initialized+0x14> (3008 <UserFrameTotalSize+0x2f08>)
+4037874d:	0a0c      	movi.n	a10, 0
+4037874f:	828a      	add.n	a8, a2, a8
+40378751:	892c      	movi.n	a9, 40
+40378753:	000486        	j	40378769 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x99>
+40378756:	00          	.byte	00
+40378757:	00          	.byte	00
+40378758:	0020c0        	memw
+4037875b:	4c07d2        	l8ui	a13, a7, 76
+4037875e:	74d0d0        	extui	a13, a13, 0, 8
+40378761:	0020c0        	memw
+40378764:	0ddc      	bnez.n	a13, 40378778 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0xa8>
+40378766:	ffee46        	j	40378723 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x53>
+40378769:	0048a2        	s8i	a10, a8, 0
+4037876c:	881b      	addi.n	a8, a8, 1
+4037876e:	990b      	addi.n	a9, a9, -1
+40378770:	ff5956        	bnez	a9, 40378769 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x99>
+40378773:	060c      	movi.n	a6, 0
+40378775:	00acc6        	j	40378a2c <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x35c>
+40378778:	36c1e2        	addi	a14, a1, 54
+4037877b:	050c      	movi.n	a5, 0
+4037877d:	eff961        	l32r	a6, 40374764 <_iram_text_start+0x360> (60004000 <GPIO>)
+40378780:	1b6122        	s32i	a2, a1, 108
+40378783:	1d6172        	s32i	a7, a1, 116
+40378786:	032d      	mov.n	a2, a3
+40378788:	00a442        	movi	a4, 0x400
+4037878b:	1a61d2        	s32i	a13, a1, 104
+4037878e:	0e3d      	mov.n	a3, a14
+40378790:	1c61f2        	s32i	a15, a1, 112
+40378793:	057d      	mov.n	a7, a5
+40378795:	000282        	l8ui	a8, a2, 0
+40378798:	98cc      	bnez.n	a8, 403787a5 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0xd5>
+4037879a:	080c      	movi.n	a8, 0
+4037879c:	1a6182        	s32i	a8, a1, 104
+4037879f:	003b46        	j	40378890 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1c0>
+403787a2:	00          	.byte	00
+403787a3:	00          	.byte	00
+403787a4:	00          	.byte	00
+403787a5:	ffc981        	l32r	a8, 403786cc <esp_psram_is_initialized+0x18> (cccccccd <_rtc_reserved_end+0x6cbccccd>)
+403787a8:	f10dd1        	l32r	a13, 40374bdc <_iram_text_start+0x7d8> (800 <UserFrameTotalSize+0x700>)
+403787ab:	a28780        	muluh	a8, a7, a8
+403787ae:	418380        	srli	a8, a8, 3
+403787b1:	a09880        	addx4	a9, a8, a8
+403787b4:	a82b      	addi.n	a10, a8, 2
+403787b6:	999a      	add.n	a9, a9, a9
+403787b8:	c09790        	sub	a9, a7, a9
+403787bb:	11aac0        	slli	a10, a10, 4
+403787be:	20aa90        	or	a10, a10, a9
+403787c1:	74a0a0        	extui	a10, a10, 0, 8
+403787c4:	790c      	movi.n	a9, 7
+403787c6:	880c      	movi.n	a8, 8
+403787c8:	085a97        	bbc	a10, a9, 403787d4 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x104>
+403787cb:	0020c0        	memw
+403787ce:	5649      	s32i.n	a4, a6, 20
+403787d0:	000146        	j	403787d9 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x109>
+403787d3:	00          	.byte	00
+403787d4:	0020c0        	memw
+403787d7:	6649      	s32i.n	a4, a6, 24
+403787d9:	f03d      	nop.n
+403787db:	f03d      	nop.n
+403787dd:	0020c0        	memw
+403787e0:	56d9      	s32i.n	a13, a6, 20
+403787e2:	f03d      	nop.n
+403787e4:	f03d      	nop.n
+403787e6:	0020c0        	memw
+403787e9:	66d9      	s32i.n	a13, a6, 24
+403787eb:	990b      	addi.n	a9, a9, -1
+403787ed:	880b      	addi.n	a8, a8, -1
+403787ef:	fd5856        	bnez	a8, 403787c8 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0xf8>
+403787f2:	084c      	movi.n	a8, 64
+403787f4:	0020c0        	memw
+403787f7:	5689      	s32i.n	a8, a6, 20
+403787f9:	f03d      	nop.n
+403787fb:	0020f0        	nop
+403787fe:	06a0a2        	movi	a10, 6
+40378801:	0020c0        	memw
+40378804:	066682        	s32i	a8, a6, 24
+40378807:	ef0a81        	l32r	a8, 40374430 <_iram_text_start+0x2c> (40000600 <esp_rom_delay_us>)
+4037880a:	0008e0        	callx8	a8
+4037880d:	00a252        	movi	a5, 0x200
+40378810:	1a0c      	movi.n	a10, 1
+40378812:	0020c0        	memw
+40378815:	5659      	s32i.n	a5, a6, 20
+40378817:	ef0681        	l32r	a8, 40374430 <_iram_text_start+0x2c> (40000600 <esp_rom_delay_us>)
+4037881a:	0008e0        	callx8	a8
+4037881d:	1ea082        	movi	a8, 30
+40378820:	0020c0        	memw
+40378823:	066652        	s32i	a5, a6, 24
+40378826:	f03d      	nop.n
+40378828:	880b      	addi.n	a8, a8, -1
+4037882a:	ff8856        	bnez	a8, 40378826 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x156>
+4037882d:	000282        	l8ui	a8, a2, 0
+40378830:	f66816        	beqz	a8, 4037879a <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0xca>
+40378833:	f3d281        	l32r	a8, 4037577c <_iram_text_start+0x1378> (60024000 <GPSPI2>)
+40378836:	fa0c      	movi.n	a10, 15
+40378838:	0020c0        	memw
+4037883b:	7898      	l32i.n	a9, a8, 28
+4037883d:	f3a0d1        	l32r	a13, 403756c0 <_iram_text_start+0x12bc> (800000 <UserFrameTotalSize+0x7fff00>)
+40378840:	d59290        	extui	a9, a9, 18, 14
+40378843:	0199e0        	slli	a9, a9, 18
+40378846:	2099a0        	or	a9, a9, a10
+40378849:	0020c0        	memw
+4037884c:	7899      	s32i.n	a9, a8, 28
+4037884e:	f97c      	movi.n	a9, -1
+40378850:	0020c0        	memw
+40378853:	e899      	s32i.n	a9, a8, 56
+40378855:	0020c0        	memw
+40378858:	0898      	l32i.n	a9, a8, 0
+4037885a:	ff99a1        	l32r	a10, 403786c0 <esp_psram_is_initialized+0xc> (960 <UserFrameTotalSize+0x860>)
+4037885d:	2099d0        	or	a9, a9, a13
+40378860:	0020c0        	memw
+40378863:	0899      	s32i.n	a9, a8, 0
+40378865:	0c8a76        	loop	a10, 40378875 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1a5>
+40378868:	0020c0        	memw
+4037886b:	0898      	l32i.n	a9, a8, 0
+4037886d:	02f977        	bbsi	a9, 23, 40378873 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1a3>
+40378870:	00b846        	j	40378b55 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x485>
+40378873:	f03d      	nop.n
+40378875:	080c      	movi.n	a8, 0
+40378877:	004282        	s8i	a8, a2, 0
+4037887a:	ffc706        	j	4037879a <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0xca>
+4037887d:	0020c0        	memw
+40378880:	0898      	l32i.n	a9, a8, 0
+40378882:	02f987        	bbsi	a9, 24, 40378888 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1b8>
+40378885:	00adc6        	j	40378b40 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x470>
+40378888:	aa0b      	addi.n	a10, a10, -1
+4037888a:	fefa56        	bnez	a10, 4037887d <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1ad>
+4037888d:	fff906        	j	40378875 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1a5>
+40378890:	005382        	s16i	a8, a3, 0
+40378893:	771b      	addi.n	a7, a7, 1
+40378895:	481c      	movi.n	a8, 20
+40378897:	332b      	addi.n	a3, a3, 2
+40378899:	021787        	beq	a7, a8, 4037889f <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1cf>
+4037889c:	ffbd46        	j	40378795 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0xc5>
+4037889f:	182182        	l32i	a8, a1, 96
+403788a2:	023d      	mov.n	a3, a2
+403788a4:	148080        	extui	a8, a8, 0, 2
+403788a7:	1a21d2        	l32i	a13, a1, 104
+403788aa:	1b2122        	l32i	a2, a1, 108
+403788ad:	1c21f2        	l32i	a15, a1, 112
+403788b0:	1d2172        	l32i	a7, a1, 116
+403788b3:	060c      	movi.n	a6, 0
+403788b5:	138856        	bnez	a8, 403789f1 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x321>
+403788b8:	000392        	l8ui	a9, a3, 0
+403788bb:	300762        	l8ui	a6, a7, 48
+403788be:	ff8341        	l32r	a4, 403786cc <esp_psram_is_initialized+0x18> (cccccccd <_rtc_reserved_end+0x6cbccccd>)
+403788c1:	098d      	mov.n	a8, a9
+403788c3:	105916        	beqz	a9, 403789cc <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2fc>
+403788c6:	a28640        	muluh	a8, a6, a4
+403788c9:	0a3c      	movi.n	a10, 48
+403788cb:	418380        	srli	a8, a8, 3
+403788ce:	a09880        	addx4	a9, a8, a8
+403788d1:	999a      	add.n	a9, a9, a9
+403788d3:	1188c0        	slli	a8, a8, 4
+403788d6:	1088a0        	and	a8, a8, a10
+403788d9:	c09690        	sub	a9, a6, a9
+403788dc:	208890        	or	a8, a8, a9
+403788df:	efa151        	l32r	a5, 40374764 <_iram_text_start+0x360> (60004000 <GPIO>)
+403788e2:	f0bec1        	l32r	a12, 40374bdc <_iram_text_start+0x7d8> (800 <UserFrameTotalSize+0x700>)
+403788e5:	748080        	extui	a8, a8, 0, 8
+403788e8:	7a0c      	movi.n	a10, 7
+403788ea:	00a4e2        	movi	a14, 0x400
+403788ed:	08a092        	movi	a9, 8
+403788f0:	0858a7        	bbc	a8, a10, 403788fc <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x22c>
+403788f3:	0020c0        	memw
+403788f6:	55e9      	s32i.n	a14, a5, 20
+403788f8:	000146        	j	40378901 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x231>
+403788fb:	00          	.byte	00
+403788fc:	0020c0        	memw
+403788ff:	65e9      	s32i.n	a14, a5, 24
+40378901:	f03d      	nop.n
+40378903:	f03d      	nop.n
+40378905:	0020c0        	memw
+40378908:	55c9      	s32i.n	a12, a5, 20
+4037890a:	f03d      	nop.n
+4037890c:	f03d      	nop.n
+4037890e:	0020c0        	memw
+40378911:	65c9      	s32i.n	a12, a5, 24
+40378913:	aa0b      	addi.n	a10, a10, -1
+40378915:	990b      	addi.n	a9, a9, -1
+40378917:	fd5956        	bnez	a9, 403788f0 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x220>
+4037891a:	084c      	movi.n	a8, 64
+4037891c:	1b61d2        	s32i	a13, a1, 108
+4037891f:	1a61f2        	s32i	a15, a1, 104
+40378922:	0020c0        	memw
+40378925:	5589      	s32i.n	a8, a5, 20
+40378927:	f03d      	nop.n
+40378929:	f03d      	nop.n
+4037892b:	8a1c      	movi.n	a10, 24
+4037892d:	0020c0        	memw
+40378930:	6589      	s32i.n	a8, a5, 24
+40378932:	eebf81        	l32r	a8, 40374430 <_iram_text_start+0x2c> (40000600 <esp_rom_delay_us>)
+40378935:	0008e0        	callx8	a8
+40378938:	00a262        	movi	a6, 0x200
+4037893b:	1a0c      	movi.n	a10, 1
+4037893d:	0020c0        	memw
+40378940:	5569      	s32i.n	a6, a5, 20
+40378942:	eebb81        	l32r	a8, 40374430 <_iram_text_start+0x2c> (40000600 <esp_rom_delay_us>)
+40378945:	0008e0        	callx8	a8
+40378948:	1b21d2        	l32i	a13, a1, 108
+4037894b:	1a21f2        	l32i	a15, a1, 104
+4037894e:	0020c0        	memw
+40378951:	6569      	s32i.n	a6, a5, 24
+40378953:	e81c      	movi.n	a8, 30
+40378955:	f03d      	nop.n
+40378957:	880b      	addi.n	a8, a8, -1
+40378959:	ff8856        	bnez	a8, 40378955 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x285>
+4037895c:	000392        	l8ui	a9, a3, 0
+4037895f:	69cc      	bnez.n	a9, 40378969 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x299>
+40378961:	300762        	l8ui	a6, a7, 48
+40378964:	098d      	mov.n	a8, a9
+40378966:	001886        	j	403789cc <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2fc>
+40378969:	f38481        	l32r	a8, 4037577c <_iram_text_start+0x1378> (60024000 <GPSPI2>)
+4037896c:	fa0c      	movi.n	a10, 15
+4037896e:	0020c0        	memw
+40378971:	7898      	l32i.n	a9, a8, 28
+40378973:	f353c1        	l32r	a12, 403756c0 <_iram_text_start+0x12bc> (800000 <UserFrameTotalSize+0x7fff00>)
+40378976:	d59290        	extui	a9, a9, 18, 14
+40378979:	0199e0        	slli	a9, a9, 18
+4037897c:	2099a0        	or	a9, a9, a10
+4037897f:	0020c0        	memw
+40378982:	7899      	s32i.n	a9, a8, 28
+40378984:	f97c      	movi.n	a9, -1
+40378986:	0020c0        	memw
+40378989:	e899      	s32i.n	a9, a8, 56
+4037898b:	0020c0        	memw
+4037898e:	0898      	l32i.n	a9, a8, 0
+40378990:	ff4ca1        	l32r	a10, 403786c0 <esp_psram_is_initialized+0xc> (960 <UserFrameTotalSize+0x860>)
+40378993:	2099c0        	or	a9, a9, a12
+40378996:	0020c0        	memw
+40378999:	0899      	s32i.n	a9, a8, 0
+4037899b:	0aed      	mov.n	a14, a10
+4037899d:	118e76        	loop	a14, 403789b2 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2e2>
+403789a0:	0020c0        	memw
+403789a3:	08b8      	l32i.n	a11, a8, 0
+403789a5:	aa0b      	addi.n	a10, a10, -1
+403789a7:	0597b0        	extui	a9, a11, 23, 1
+403789aa:	02fb77        	bbsi	a11, 23, 403789b0 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2e0>
+403789ad:	005dc6        	j	40378b28 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x458>
+403789b0:	f03d      	nop.n
+403789b2:	005946        	j	40378b1b <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x44b>
+403789b5:	0020c0        	memw
+403789b8:	08b8      	l32i.n	a11, a8, 0
+403789ba:	aa0b      	addi.n	a10, a10, -1
+403789bc:	02fb87        	bbsi	a11, 24, 403789c2 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2f2>
+403789bf:	004f46        	j	40378b00 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x430>
+403789c2:	cc0b      	addi.n	a12, a12, -1
+403789c4:	fedc56        	bnez	a12, 403789b5 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2e5>
+403789c7:	004a86        	j	40378af5 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x425>
+403789ca:	00          	.byte	00
+403789cb:	00          	.byte	00
+403789cc:	b61b      	addi.n	a11, a6, 1
+403789ce:	a2ab40        	muluh	a10, a11, a4
+403789d1:	18d6c2        	addmi	a12, a6, 0x1800
+403789d4:	41a4a0        	srli	a10, a10, 4
+403789d7:	a0aaa0        	addx4	a10, a10, a10
+403789da:	90cc20        	addx2	a12, a12, a2
+403789dd:	11aae0        	slli	a10, a10, 2
+403789e0:	045c82        	s16i	a8, a12, 8
+403789e3:	c0bba0        	sub	a11, a11, a10
+403789e6:	00a182        	movi	a8, 0x100
+403789e9:	206680        	or	a6, a6, a8
+403789ec:	3047b2        	s8i	a11, a7, 48
+403789ef:	09dd      	mov.n	a13, a9
+403789f1:	ff35b1        	l32r	a11, 403786c8 <esp_psram_is_initialized+0x14> (3008 <UserFrameTotalSize+0x2f08>)
+403789f4:	28a0c2        	movi	a12, 40
+403789f7:	b2ba      	add.n	a11, a2, a11
+403789f9:	0ec1a2        	addi	a10, a1, 14
+403789fc:	1b61f2        	s32i	a15, a1, 108
+403789ff:	1a61d2        	s32i	a13, a1, 104
+40378a02:	eebb81        	l32r	a8, 403744f0 <_iram_text_start+0xec> (400011f4 <memcpy>)
+40378a05:	0008e0        	callx8	a8
+40378a08:	1a21d2        	l32i	a13, a1, 104
+40378a0b:	1b21f2        	l32i	a15, a1, 108
+40378a0e:	450c      	movi.n	a5, 4
+40378a10:	8ddc      	bnez.n	a13, 40378a2c <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x35c>
+40378a12:	0020c0        	memw
+40378a15:	f788      	l32i.n	a8, a7, 60
+40378a17:	881b      	addi.n	a8, a8, 1
+40378a19:	0020c0        	memw
+40378a1c:	0020c0        	memw
+40378a1f:	f789      	s32i.n	a8, a7, 60
+40378a21:	0020c0        	memw
+40378a24:	650c      	movi.n	a5, 6
+40378a26:	0020c0        	memw
+40378a29:	4c47d2        	s8i	a13, a7, 76
+40378a2c:	0020c0        	memw
+40378a2f:	480782        	l8ui	a8, a7, 72
+40378a32:	748080        	extui	a8, a8, 0, 8
+40378a35:	0020c0        	memw
+40378a38:	28dc      	bnez.n	a8, 40378a4e <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x37e>
+40378a3a:	092c      	movi.n	a9, 32
+40378a3c:	209590        	or	a9, a5, a9
+40378a3f:	f45090        	extui	a5, a9, 0, 16
+40378a42:	a1eb      	addi.n	a10, a1, 14
+40378a44:	892c      	movi.n	a9, 40
+40378a46:	048976        	loop	a9, 40378a4e <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x37e>
+40378a49:	005a82        	s16i	a8, a10, 0
+40378a4c:	aa2b      	addi.n	a10, a10, 2
+40378a4e:	1a61f2        	s32i	a15, a1, 104
+40378a51:	ffab25        	call8	40378504 <esp_timer_get_time>
+40378a54:	1a21f2        	l32i	a15, a1, 104
+40378a57:	0020c0        	memw
+40378a5a:	102792        	l32i	a9, a7, 64
+40378a5d:	c08af0        	sub	a8, a10, a15
+40378a60:	0020c0        	memw
+40378a63:	08b987        	bgeu	a9, a8, 40378a6f <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x39f>
+40378a66:	0020c0        	memw
+40378a69:	0020c0        	memw
+40378a6c:	106782        	s32i	a8, a7, 64
+40378a6f:	f9a092        	movi	a9, 249
+40378a72:	16b987        	bgeu	a9, a8, 40378a8c <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x3bc>
+40378a75:	0020c0        	memw
+40378a78:	e788      	l32i.n	a8, a7, 56
+40378a7a:	190c      	movi.n	a9, 1
+40378a7c:	209590        	or	a9, a5, a9
+40378a7f:	f45090        	extui	a5, a9, 0, 16
+40378a82:	881b      	addi.n	a8, a8, 1
+40378a84:	0020c0        	memw
+40378a87:	0020c0        	memw
+40378a8a:	e789      	s32i.n	a8, a7, 56
+40378a8c:	0020c0        	memw
+40378a8f:	0738      	l32i.n	a3, a7, 0
+40378a91:	0020c0        	memw
+40378a94:	0020c0        	memw
+40378a97:	1788      	l32i.n	a8, a7, 4
+40378a99:	0020c0        	memw
+40378a9c:	c08380        	sub	a8, a3, a8
+40378a9f:	35e826        	beqi	a8, 128, 40378ad8 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x408>
+40378aa2:	648030        	extui	a8, a3, 0, 7
+40378aa5:	908880        	addx2	a8, a8, a8
+40378aa8:	11a8b0        	slli	a10, a8, 5
+40378aab:	192182        	l32i	a8, a1, 100
+40378aae:	60a0c2        	movi	a12, 96
+40378ab1:	1189      	s32i.n	a8, a1, 4
+40378ab3:	182182        	l32i	a8, a1, 96
+40378ab6:	01bd      	mov.n	a11, a1
+40378ab8:	a2aa      	add.n	a10, a2, a10
+40378aba:	01f9      	s32i.n	a15, a1, 0
+40378abc:	2189      	s32i.n	a8, a1, 8
+40378abe:	065152        	s16i	a5, a1, 12
+40378ac1:	2f5162        	s16i	a6, a1, 94
+40378ac4:	331b      	addi.n	a3, a3, 1
+40378ac6:	ee8a81        	l32r	a8, 403744f0 <_iram_text_start+0xec> (400011f4 <memcpy>)
+40378ac9:	0008e0        	callx8	a8
+40378acc:	0020c0        	memw
+40378acf:	0020c0        	memw
+40378ad2:	0739      	s32i.n	a3, a7, 0
+40378ad4:	0003c6        	j	40378ae7 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x417>
+40378ad7:	00          	.byte	00
+40378ad8:	0020c0        	memw
+40378adb:	d788      	l32i.n	a8, a7, 52
+40378add:	881b      	addi.n	a8, a8, 1
+40378adf:	0020c0        	memw
+40378ae2:	0020c0        	memw
+40378ae5:	d789      	s32i.n	a8, a7, 52
+40378ae7:	0020c0        	memw
+40378aea:	080c      	movi.n	a8, 0
+40378aec:	0020c0        	memw
+40378aef:	504782        	s8i	a8, a7, 80
+40378af2:	001d46        	j	40378b6b <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x49b>
+40378af5:	300762        	l8ui	a6, a7, 48
+40378af8:	080c      	movi.n	a8, 0
+40378afa:	0043a2        	s8i	a10, a3, 0
+40378afd:	ffb2c6        	j	403789cc <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2fc>
+40378b00:	0020c0        	memw
+40378b03:	262882        	l32i	a8, a8, 152
+40378b06:	300762        	l8ui	a6, a7, 48
+40378b09:	749880        	extui	a9, a8, 8, 8
+40378b0c:	118880        	slli	a8, a8, 8
+40378b0f:	208890        	or	a8, a8, a9
+40378b12:	f48080        	extui	a8, a8, 0, 16
+40378b15:	0d9d      	mov.n	a9, a13
+40378b17:	ffac46        	j	403789cc <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2fc>
+40378b1a:	00          	.byte	00
+40378b1b:	090c      	movi.n	a9, 0
+40378b1d:	300762        	l8ui	a6, a7, 48
+40378b20:	098d      	mov.n	a8, a9
+40378b22:	0043a2        	s8i	a10, a3, 0
+40378b25:	ffa8c6        	j	403789cc <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2fc>
+40378b28:	0020c0        	memw
+40378b2b:	08c8      	l32i.n	a12, a8, 0
+40378b2d:	efe4e1        	l32r	a14, 40374ac0 <_iram_text_start+0x6bc> (1000000 <UserFrameTotalSize+0xffff00>)
+40378b30:	fee5a1        	l32r	a10, 403786c4 <esp_psram_is_initialized+0x10> (5dc0 <UserFrameTotalSize+0x5cc0>)
+40378b33:	20cce0        	or	a12, a12, a14
+40378b36:	0020c0        	memw
+40378b39:	08c9      	s32i.n	a12, a8, 0
+40378b3b:	0acd      	mov.n	a12, a10
+40378b3d:	ff9d06        	j	403789b5 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x2e5>
+40378b40:	0020c0        	memw
+40378b43:	262882        	l32i	a8, a8, 152
+40378b46:	749880        	extui	a9, a8, 8, 8
+40378b49:	118880        	slli	a8, a8, 8
+40378b4c:	208890        	or	a8, a8, a9
+40378b4f:	f48080        	extui	a8, a8, 0, 16
+40378b52:	ff4e86        	j	40378890 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1c0>
+40378b55:	0020c0        	memw
+40378b58:	0898      	l32i.n	a9, a8, 0
+40378b5a:	efd9d1        	l32r	a13, 40374ac0 <_iram_text_start+0x6bc> (1000000 <UserFrameTotalSize+0xffff00>)
+40378b5d:	fed9a1        	l32r	a10, 403786c4 <esp_psram_is_initialized+0x10> (5dc0 <UserFrameTotalSize+0x5cc0>)
+40378b60:	2099d0        	or	a9, a9, a13
+40378b63:	0020c0        	memw
+40378b66:	0899      	s32i.n	a9, a8, 0
+40378b68:	ff4446        	j	4037887d <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x1ad>
+40378b6b:	f01d      	retw.n
+
+
+/tmp/glove-local-idf-20261023/build/artisan_tactile_v4.elf:     file format elf32-xtensa-le
+
+
+Disassembly of section .iram0.text:
+
+40378b78 <tick(gptimer_t*, gptimer_alarm_event_data_t const*, void*)>:
+40378b78:	008136        	entry	a1, 64
+40378b7b:	ff98a5        	call8	40378504 <esp_timer_get_time>
+40378b7e:	027d      	mov.n	a7, a2
+40378b80:	0a6d      	mov.n	a6, a10
+40378b82:	0b2d      	mov.n	a2, a11
+40378b84:	23a8      	l32i.n	a10, a3, 8
+40378b86:	33b8      	l32i.n	a11, a3, 12
+40378b88:	faa0c2        	movi	a12, 250
+40378b8b:	0d0c      	movi.n	a13, 0
+40378b8d:	ef5581        	l32r	a8, 403748e4 <_iram_text_start+0x4e0> (40002544 <__udivdi3>)
+40378b90:	0008e0        	callx8	a8
+40378b93:	fff7f1        	l32r	a15, 40378b70 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x4a0> (3fcab514 <adc>)
+40378b96:	0aed      	mov.n	a14, a10
+40378b98:	fff7a1        	l32r	a10, 40378b74 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)+0x4a4> (3fcab518 <acquisition>)
+40378b9b:	ee0b      	addi.n	a14, a14, -1
+40378b9d:	06cd      	mov.n	a12, a6
+40378b9f:	02dd      	mov.n	a13, a2
+40378ba1:	ffb2e5        	call8	403786d0 <void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)>
+40378ba4:	18c1b2        	addi	a11, a1, 24
+40378ba7:	07ad      	mov.n	a10, a7
+40378ba9:	09b665        	call8	40382710 <gptimer_get_raw_count>
+40378bac:	020c      	movi.n	a2, 0
+40378bae:	61a8      	l32i.n	a10, a1, 24
+40378bb0:	71b8      	l32i.n	a11, a1, 28
+40378bb2:	faa0c2        	movi	a12, 250
+40378bb5:	02dd      	mov.n	a13, a2
+40378bb7:	2129      	s32i.n	a2, a1, 8
+40378bb9:	3129      	s32i.n	a2, a1, 12
+40378bbb:	4129      	s32i.n	a2, a1, 16
+40378bbd:	5129      	s32i.n	a2, a1, 20
+40378bbf:	ef4981        	l32r	a8, 403748e4 <_iram_text_start+0x4e0> (40002544 <__udivdi3>)
+40378bc2:	0008e0        	callx8	a8
+40378bc5:	aa1b      	addi.n	a10, a10, 1
+40378bc7:	40fa80        	nsau	a8, a10
+40378bca:	418580        	srli	a8, a8, 5
+40378bcd:	faa092        	movi	a9, 250
+40378bd0:	8b8a      	add.n	a8, a11, a8
+40378bd2:	828980        	mull	a8, a9, a8
+40378bd5:	a2b9a0        	muluh	a11, a9, a10
+40378bd8:	8299a0        	mull	a9, a9, a10
+40378bdb:	88ba      	add.n	a8, a8, a11
+40378bdd:	07ad      	mov.n	a10, a7
+40378bdf:	01bd      	mov.n	a11, a1
+40378be1:	0199      	s32i.n	a9, a1, 0
+40378be3:	1189      	s32i.n	a8, a1, 4
+40378be5:	09b6a5        	call8	40382750 <gptimer_set_alarm_action>
+40378be8:	f01d      	retw.n

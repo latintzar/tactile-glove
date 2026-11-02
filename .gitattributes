@@ -1,0 +1,23 @@
+# Preserve the recorded native, manufacturing and verification bytes on checkout.
+* -text
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.glb binary
+*.stl binary
+*.bin binary
+*.bin.* binary
+*.uf2 binary
+*.gz binary
+*.zip binary
+
+# Keep generated exports available while focusing code reviews on their sources.
+**/manufacturing/** linguist-generated=true
+**/enclosure/scene.json linguist-generated=true
+**/enclosure/component-envelopes.json linguist-generated=true
+**/enclosure/harness-envelopes.json linguist-generated=true
+hardware/glove-v4/power/simulation/**/*.txt linguist-generated=true
+firmware/tactile_v4/main/web/web_assets.cpp linguist-generated=true

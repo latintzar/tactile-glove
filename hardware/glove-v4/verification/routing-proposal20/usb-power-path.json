@@ -1,0 +1,146 @@
+{
+  "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+  "scope": "High-current USB positive copper path J11 VBUS lands -> POWER_B -> U32 IN -> U32 OUT -> POWER_A -> U42 VBUS pin24. Detailed low-current recovery branch and complete USB return resistance are outside this bounded calculation.",
+  "temperature_C": 50,
+  "copper_assumptions_um": {
+    "outer_min": 28,
+    "inner_min": 24,
+    "barrel_min": 15
+  },
+  "mesh_margin": 1.05,
+  "main_branch_current_max_A": 1.2818339641864271,
+  "total_input_current_bound_A": 1.348164789560634,
+  "inlet_sheet_30um_max_ohm": 0.0014584970733504026,
+  "inlet_mesh_relative_change": 0.02540322207784773,
+  "inlet_mesh_converged_5percent": true,
+  "charger_sheet_30um_max_ohm": 0.01639599858535038,
+  "plane_resistance_bounds_ohm": {
+    "VBUS_inlet": 0.0019142774087724035,
+    "USB_CHARGER_IN": 0.02151974814327238
+  },
+  "surface_escape_bounds": [
+    {
+      "name": "J11 VBUS land spreading; one land carries all current for this bound",
+      "length_bound_mm": 0.725,
+      "minimum_width_mm": 0.6,
+      "resistance_bound_ohm": 0.0008317042916666669
+    },
+    {
+      "name": "U32 IN pad spreading to existing via",
+      "length_bound_mm": 0.25279685520195877,
+      "minimum_width_mm": 0.25,
+      "resistance_bound_ohm": 0.0006960073800539786
+    },
+    {
+      "name": "U32 OUT to POWER_A entry via; actual two F.Cu tracks",
+      "length_bound_mm": 2.9255646009597824,
+      "minimum_width_mm": 0.15,
+      "resistance_bound_ohm": 0.01342457729195217,
+      "track_uuids": [
+        "f7567b7f-d7fa-42e6-90d5-df22c782dbd6",
+        "0ac1b947-f91e-4ee0-81db-c7fa052cda46"
+      ]
+    },
+    {
+      "name": "Full extra branch to second POWER_A source via; bounds source imbalance",
+      "length_bound_mm": 0.6082762530298225,
+      "minimum_width_mm": 0.6,
+      "resistance_bound_ohm": 0.0006978013381569968
+    },
+    {
+      "name": "U42 VBUS pin24 widest F.Cu route from plane via; ignores narrower parallel route",
+      "length_bound_mm": 3.2249999999999996,
+      "minimum_width_mm": 0.28,
+      "resistance_bound_ohm": 0.007927821696428571
+    }
+  ],
+  "via_barrel_bounds": [
+    {
+      "name": "J11 VBUS inlet one-via worst-share bound",
+      "finished_drill_mm": 0.3,
+      "minimum_plating_um_assumption": 15,
+      "length_mm": 0.9472371638141809,
+      "resistance_bound_ohm": 0.0012298361677458283
+    },
+    {
+      "name": "U32 IN",
+      "finished_drill_mm": 0.3,
+      "minimum_plating_um_assumption": 15,
+      "length_mm": 0.9472371638141809,
+      "resistance_bound_ohm": 0.0012298361677458283
+    },
+    {
+      "name": "U32 OUT one-via worst-share bound",
+      "finished_drill_mm": 0.3,
+      "minimum_plating_um_assumption": 15,
+      "length_mm": 0.7751100244498779,
+      "resistance_bound_ohm": 0.0010063565688368762
+    },
+    {
+      "name": "U42 input plane via",
+      "finished_drill_mm": 0.3,
+      "minimum_plating_um_assumption": 15,
+      "length_mm": 0.7751100244498779,
+      "resistance_bound_ohm": 0.0010063565688368762
+    }
+  ],
+  "positive_copper_resistance_bound_ohm": 0.05148432302346857,
+  "at_total_input_bound": {
+    "drop_V": 0.06940935151460621,
+    "loss_W": 0.09357524377822915
+  },
+  "U32_switch": {
+    "mpn": "TPS2553DBVR",
+    "rds_on_max_ohm": 0.135,
+    "datasheet_condition": "DBV package, TJ -40..125C; IOUT up to1.5A requires TJ<=105C",
+    "drop_at_main_branch_bound_V": 0.1730475851651677,
+    "loss_at_main_branch_bound_W": 0.22181827208515525,
+    "JEDEC_RthetaJA_C_per_W": 182.6,
+    "JEDEC_condition_temperature_rise_C": 40.50401648274935,
+    "enclosure_temperature_prediction": false
+  },
+  "hypothetical_J11_voltage_cases": [
+    {
+      "J11_V": 5.0,
+      "U42_VBUS_estimate_V": 4.7575430633202265
+    },
+    {
+      "J11_V": 4.75,
+      "U42_VBUS_estimate_V": 4.5075430633202265
+    },
+    {
+      "J11_V": 4.5,
+      "U42_VBUS_estimate_V": 4.2575430633202265
+    }
+  ],
+  "width_screen": {
+    "criterion": "TI cited IPC long-conductor formula,10C rise,28um outer copper; short-pad spreading and perforated planes require separate thermal interpretation",
+    "U32_OUT_minimum_width_mm": 0.15,
+    "U32_OUT_length_mm": 2.9255646009597824,
+    "required_outer_width_at_main_branch_bound_mm": 0.5288395611328617,
+    "U32_OUT_screen_pass": false,
+    "U42_power_escape_min_width_mm": 0.28,
+    "required_outer_width_at_total_bound_mm": 0.5669519961988527,
+    "U42_escape_thermal_closure": "Pending;3.225mm routed detour and parallel narrower path need widening/thermal review"
+  },
+  "release_status": "FAIL selected output-trace width screen; current continuity and finite DC calculation do not establish thermal qualification",
+  "specific_remaining_work": [
+    "Widen U32 OUT two-segment escape toward0.6mm or provide direct appropriately treated pad-to-plane vias; validate exact clearance and power-plane connection.",
+    "Include U42 pin24 VBUS escape in final power/thermal design; pin1 VAC is voltage sensing and its nearby plane via does not remove the pin24 escape.",
+    "Review current density and thermal spreading in the perforated POWER_A corridor. A0.439mm widest single corridor does not mean all current flows through a single0.439mm strip because the sheet has parallel paths.",
+    "Qualify USB ground return, low-current recovery branch, contact/cable drop, limiter temperature and charger DPM across battery voltage.",
+    "Confirm factory copper/plating and filled/capped/planarized via-in-pad process."
+  ],
+  "limitations": [
+    "Resistor-sheet models are DC only; surface bounds omit parallel copper conservatively.",
+    "Ideal plane source contacts exclude connector/cable resistance. Applying total input bound to the main positive copper path is a conservative high-current-mode approximation; detailed recovery-branch distribution is not modeled.",
+    "TPS2553 JEDEC RthetaJA is a package test-board metric, not a sealed-case thermal model.",
+    "BQ25616 input DPM uses max(4.3V,VBAT+0.2V) nominal; actual cable, switch and copper drops can reduce charge current. No fixed maximum charge-rate guarantee follows from this audit.",
+    "A first-order USB impedance estimate and physical DRC do not establish USB eye compliance or physical endurance."
+  ],
+  "sources": [
+    "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+    "https://www.ti.com/lit/ds/symlink/bq25616.pdf",
+    "https://www.ti.com/lit/an/snva766/snva766.pdf"
+  ]
+}

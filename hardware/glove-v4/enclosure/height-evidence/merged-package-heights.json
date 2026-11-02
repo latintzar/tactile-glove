@@ -1,0 +1,3618 @@
+{
+  "schema": "glove-package-heights-merged/v1",
+  "date_utc": "2026-10-22",
+  "summary": {
+    "initial_generic_instances": 545,
+    "resolved_generic_instances": 545,
+    "remaining_generic_instances": 0,
+    "verified_mpn_count": 94,
+    "remaining_mpn": []
+  },
+  "mounting_allowance_mm": 0.2,
+  "entries": [
+    {
+      "mpn": "2N7002,215",
+      "main_board_qty": 8,
+      "refs": [
+        "Q_USB_SUSPEND",
+        "Q_USB_CC_ILIM",
+        "Q_CHG_ENABLE",
+        "Q_CHG_DISABLE",
+        "Q_REF_GATE",
+        "Q_BAT_MEAS_GATE",
+        "Q_CAM_OE",
+        "Q_CAM_SCCB"
+      ],
+      "current_generic_3mm_refs": [
+        "Q_USB_SUSPEND",
+        "Q_USB_CC_ILIM",
+        "Q_CHG_ENABLE",
+        "Q_CHG_DISABLE",
+        "Q_REF_GATE",
+        "Q_BAT_MEAS_GATE",
+        "Q_CAM_OE",
+        "Q_CAM_SCCB"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "primary_source_url": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-2N7002-height-extract.txt",
+      "source_sha256": "3c3713aabb6c676dc149af1ef400175148069a07797f86070f1e8345f23341ae",
+      "physical_pdf_pages": [
+        8
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "Rev7, 8 September 2011; SOT23 dimension A maximum 1.1 mm.",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "74LVC1G04GW,125",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CAM_IF_INV"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CAM_IF_INV"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "primary_source_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G04.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-74LVC1G04-height-extract.txt",
+      "source_sha256": "0a69ed8e801c446e4647d0b52c7e2b48b2371e2e1603cbf30b8f390fdccb660e",
+      "physical_pdf_pages": [
+        9
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "Rev18.1, 2 September 2024; GW maps to SOT353-1 on page2; dimension A maximum 1.1 mm on page9.",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "APTF1616LSEEZGKQBKC",
+      "main_board_qty": 1,
+      "refs": [
+        "D_RGB"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "GlovePower:Kingbright_APTF1616",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.kingbrightusa.com/images/catalog/spec/aptf1616lseezgkqbkc.pdf"
+    },
+    {
+      "mpn": "B2B-PH-K-S(LF)(SN)",
+      "main_board_qty": 2,
+      "refs": [
+        "J_BAT",
+        "J_NTC"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
+    },
+    {
+      "mpn": "BAV199,215",
+      "main_board_qty": 20,
+      "refs": [
+        "D_CLAMP_I1",
+        "D_CLAMP_I2",
+        "D_CLAMP_I3",
+        "D_CLAMP_M1",
+        "D_CLAMP_M2",
+        "D_CLAMP_M3",
+        "D_CLAMP_R1",
+        "D_CLAMP_R2",
+        "D_CLAMP_R3",
+        "D_CLAMP_L1",
+        "D_CLAMP_L2",
+        "D_CLAMP_L3",
+        "D_CLAMP_T1",
+        "D_CLAMP_T2",
+        "D_CLAMP_P1",
+        "D_CLAMP_P2",
+        "D_CLAMP_P3",
+        "D_CLAMP_P4",
+        "D_CLAMP_H1",
+        "D_CLAMP_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "D_CLAMP_I1",
+        "D_CLAMP_I2",
+        "D_CLAMP_I3",
+        "D_CLAMP_M1",
+        "D_CLAMP_M2",
+        "D_CLAMP_M3",
+        "D_CLAMP_R1",
+        "D_CLAMP_R2",
+        "D_CLAMP_R3",
+        "D_CLAMP_L1",
+        "D_CLAMP_L2",
+        "D_CLAMP_L3",
+        "D_CLAMP_T1",
+        "D_CLAMP_T2",
+        "D_CLAMP_P1",
+        "D_CLAMP_P2",
+        "D_CLAMP_P3",
+        "D_CLAMP_P4",
+        "D_CLAMP_H1",
+        "D_CLAMP_H2"
+      ],
+      "footprint": "Glove:SOT-23",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "primary_source_url": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/BAV199.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-BAV199-height-extract.txt",
+      "source_sha256": "dcf8bfdf9b470a11819c31d019064f9616d7cbe00d2a67206be3420ad521a9af",
+      "physical_pdf_pages": [
+        5
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "1 April 2023; SOT23 seated height 0.9..1.1 mm. Manufacturer PDF accessed with ?hkey=EF798316E3902B6ED9A73243A3159BB0.",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "BM06B-GHS-TBT(LF)(SN)",
+      "main_board_qty": 1,
+      "refs": [
+        "J_THUMB"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Glove:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.jst-mfg.com/product/index.php?series=308"
+    },
+    {
+      "mpn": "BM08B-GHS-TBT(LF)(SN)",
+      "main_board_qty": 4,
+      "refs": [
+        "J_INDEX",
+        "J_MIDDLE",
+        "J_RING",
+        "J_LITTLE"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Glove:JST_GH_BM08B-GHS-TBT_1x08-1MP_P1.25mm_Vertical",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.jst-mfg.com/product/index.php?series=308"
+    },
+    {
+      "mpn": "BM14B-GHS-TBT(LF)(SN)",
+      "main_board_qty": 1,
+      "refs": [
+        "J_PALM_HEEL"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Glove:JST_GH_BM14B-GHS-TBT_1x14-1MP_P1.25mm_Vertical",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.jst-mfg.com/product/index.php?series=308"
+    },
+    {
+      "mpn": "BQ25616RTWR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CHARGER"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CHARGER"
+      ],
+      "footprint": "GlovePower:TI_RTW0024_BQ25616",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.8,
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/bq25616.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://www.ti.com/lit/ds/symlink/bq25616.pdf",
+      "source_file": "hardware/glove-v4/procurement/battery-path-sources/bq25616.pdf",
+      "source_sha256": "db1c80794273f68d40f13969888a1da6abc08d4a1ea38b68af8b9a09d7c9834a",
+      "physical_pdf_pages": [
+        47
+      ],
+      "source_classification": "manufacturer_PDF",
+      "evidence": "RTW0024A package drawing: overall height0.80maximum. Separate0.20mm solder/assembly allowance.",
+      "audited_height_mm": 1.0
+    },
+    {
+      "mpn": "C0603C123J3GACAUTO",
+      "main_board_qty": 20,
+      "refs": [
+        "CS1FB_I1",
+        "CS1FB_I2",
+        "CS1FB_I3",
+        "CS1FB_M1",
+        "CS1FB_M2",
+        "CS1FB_M3",
+        "CS1FB_R1",
+        "CS1FB_R2",
+        "CS1FB_R3",
+        "CS1FB_L1",
+        "CS1FB_L2",
+        "CS1FB_L3",
+        "CS1FB_T1",
+        "CS1FB_T2",
+        "CS1FB_P1",
+        "CS1FB_P2",
+        "CS1FB_P3",
+        "CS1FB_P4",
+        "CS1FB_H1",
+        "CS1FB_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "CS1FB_I1",
+        "CS1FB_I2",
+        "CS1FB_I3",
+        "CS1FB_M1",
+        "CS1FB_M2",
+        "CS1FB_M3",
+        "CS1FB_R1",
+        "CS1FB_R2",
+        "CS1FB_R3",
+        "CS1FB_L1",
+        "CS1FB_L2",
+        "CS1FB_L3",
+        "CS1FB_T1",
+        "CS1FB_T2",
+        "CS1FB_P1",
+        "CS1FB_P2",
+        "CS1FB_P3",
+        "CS1FB_P4",
+        "CS1FB_H1",
+        "CS1FB_H2"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.87,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v3/component-evidence/passives/kemet-c0g-auto.pdf",
+      "source_sha256": "9d65e0ff54f4f1c111dc024c92816122712649c91239877212016d4b130caf4c",
+      "physical_pdf_pages": [
+        6,
+        8
+      ],
+      "primary_source_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD",
+      "evidence": "25 V code 3, 12/15 nF map to CF in Table 1A; Table 2 CF 0.80 \u00b10.07",
+      "audited_height_mm": 1.07
+    },
+    {
+      "mpn": "C0603C153J3GACAUTO",
+      "main_board_qty": 20,
+      "refs": [
+        "CS2FB_I1",
+        "CS2FB_I2",
+        "CS2FB_I3",
+        "CS2FB_M1",
+        "CS2FB_M2",
+        "CS2FB_M3",
+        "CS2FB_R1",
+        "CS2FB_R2",
+        "CS2FB_R3",
+        "CS2FB_L1",
+        "CS2FB_L2",
+        "CS2FB_L3",
+        "CS2FB_T1",
+        "CS2FB_T2",
+        "CS2FB_P1",
+        "CS2FB_P2",
+        "CS2FB_P3",
+        "CS2FB_P4",
+        "CS2FB_H1",
+        "CS2FB_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "CS2FB_I1",
+        "CS2FB_I2",
+        "CS2FB_I3",
+        "CS2FB_M1",
+        "CS2FB_M2",
+        "CS2FB_M3",
+        "CS2FB_R1",
+        "CS2FB_R2",
+        "CS2FB_R3",
+        "CS2FB_L1",
+        "CS2FB_L2",
+        "CS2FB_L3",
+        "CS2FB_T1",
+        "CS2FB_T2",
+        "CS2FB_P1",
+        "CS2FB_P2",
+        "CS2FB_P3",
+        "CS2FB_P4",
+        "CS2FB_H1",
+        "CS2FB_H2"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.87,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v3/component-evidence/passives/kemet-c0g-auto.pdf",
+      "source_sha256": "9d65e0ff54f4f1c111dc024c92816122712649c91239877212016d4b130caf4c",
+      "physical_pdf_pages": [
+        6,
+        8
+      ],
+      "primary_source_url": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1022_C0G_AUTO_SMD",
+      "evidence": "25 V code 3, 12/15 nF map to CF in Table 1A; Table 2 CF 0.80 \u00b10.07",
+      "audited_height_mm": 1.07
+    },
+    {
+      "mpn": "CD74HC4052M",
+      "main_board_qty": 1,
+      "refs": [
+        "U_MUX_FINAL"
+      ],
+      "current_generic_3mm_refs": [
+        "U_MUX_FINAL"
+      ],
+      "footprint": "Glove:SOIC-16_3.9x9.9mm_P1.27mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.75,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/cd74hc4052.pdf",
+      "source_sha256": "88356c377dcb0afa0bbde9259a3fc68193ea6ce6745fcd38e284bbb23425bb7a",
+      "physical_pdf_pages": [
+        49
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/cd74hc4052.pdf",
+      "evidence": "D R-PDSO-G16 overall max",
+      "audited_height_mm": 1.95
+    },
+    {
+      "mpn": "CD74HC4067M",
+      "main_board_qty": 4,
+      "refs": [
+        "U_MUX1",
+        "U_MUX2",
+        "U_MUX3",
+        "U_MUX4"
+      ],
+      "current_generic_3mm_refs": [
+        "U_MUX1",
+        "U_MUX2",
+        "U_MUX3",
+        "U_MUX4"
+      ],
+      "footprint": "Glove:SOIC-24W_7.5x15.4mm_P1.27mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 2.65,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/cd74hc4067.pdf",
+      "source_sha256": "be0091cbec79831f5ced7d5d42016eadb88b8fad431a1d460a94b9f4f98a421d",
+      "physical_pdf_pages": [
+        26
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf",
+      "evidence": "DW R-PDSO-G24 overall max",
+      "audited_height_mm": 2.85
+    },
+    {
+      "mpn": "CL21A106KAYNNNE",
+      "main_board_qty": 6,
+      "refs": [
+        "C_CAM_IO_IN",
+        "C_CAM_IO_OUT",
+        "C_CAM_AV_IN",
+        "C_CAM_AV_OUT",
+        "C_CAM_DV_IN",
+        "C_CAM_DV_OUT"
+      ],
+      "current_generic_3mm_refs": [
+        "C_CAM_IO_IN",
+        "C_CAM_IO_OUT",
+        "C_CAM_AV_IN",
+        "C_CAM_AV_OUT",
+        "C_CAM_DV_IN",
+        "C_CAM_DV_OUT"
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "primary_source_url": "https://prod-parts-data.s3.amazonaws.com/CL21A106KAYNNNE/datasheet/1_CL21A106KAYNNNE-Samsung-Electro-Mechanics-datasheet-11796682.pdf",
+      "height_datum": "body_thickness",
+      "source_url": "https://prod-parts-data.s3.amazonaws.com/CL21A106KAYNNNE/datasheet/1_CL21A106KAYNNNE-Samsung-Electro-Mechanics-datasheet-11796682.pdf",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Samsung Electro-Mechanics reference sheet, thickness 1.25 \u00b10.20 mm; PDF source was web-indexed but not cached locally.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Samsung Electro-Mechanics specification, 0805 thickness field",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "28-31",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "DM3AT-SF-PEJM5",
+      "main_board_qty": 1,
+      "refs": [
+        "J_SD"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.hirose.com/en/product/p/CL0609-0031-0-00"
+    },
+    {
+      "mpn": "DMP2035U-7",
+      "main_board_qty": 2,
+      "refs": [
+        "Q_REF_FEED",
+        "Q_BAT_MEAS"
+      ],
+      "current_generic_3mm_refs": [
+        "Q_REF_FEED",
+        "Q_BAT_MEAS"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.15,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/DMP2035U.pdf",
+      "source_sha256": "8e34ec7fd49f1c2fdb94b1df5a1335e1cbf723899e0426a2cfc7b61d81246722",
+      "physical_pdf_pages": [
+        6
+      ],
+      "primary_source_url": "https://www.diodes.com/assets/Datasheets/DMP2035U.pdf",
+      "evidence": "SOT23 standard overall A = 0.90..1.15 mm; A2 body is not overall A",
+      "audited_height_mm": 1.35
+    },
+    {
+      "mpn": "ESP32-S3-WROOM-1-N8R8",
+      "main_board_qty": 1,
+      "refs": [
+        "U_MCU"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "RF_Module:ESP32-S3-WROOM-1",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
+    },
+    {
+      "mpn": "FH12-24S-0.5SH(55)",
+      "main_board_qty": 1,
+      "refs": [
+        "J_CAM"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.hirose.com/product/p/CL0586-0521-0-55"
+    },
+    {
+      "mpn": "GRM1885C1H102JA01D",
+      "main_board_qty": 2,
+      "refs": [
+        "C_ADC_BUCKET",
+        "C_ADC_NEG_BUCKET"
+      ],
+      "current_generic_3mm_refs": [
+        "C_ADC_BUCKET",
+        "C_ADC_NEG_BUCKET"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row and Murata reference-sheet family dimension: 0603, T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "7",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM1885C1H103JA01D",
+      "main_board_qty": 20,
+      "refs": [
+        "CS1G_I1",
+        "CS1G_I2",
+        "CS1G_I3",
+        "CS1G_M1",
+        "CS1G_M2",
+        "CS1G_M3",
+        "CS1G_R1",
+        "CS1G_R2",
+        "CS1G_R3",
+        "CS1G_L1",
+        "CS1G_L2",
+        "CS1G_L3",
+        "CS1G_T1",
+        "CS1G_T2",
+        "CS1G_P1",
+        "CS1G_P2",
+        "CS1G_P3",
+        "CS1G_P4",
+        "CS1G_H1",
+        "CS1G_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "CS1G_I1",
+        "CS1G_I2",
+        "CS1G_I3",
+        "CS1G_M1",
+        "CS1G_M2",
+        "CS1G_M3",
+        "CS1G_R1",
+        "CS1G_R2",
+        "CS1G_R3",
+        "CS1G_L1",
+        "CS1G_L2",
+        "CS1G_L3",
+        "CS1G_T1",
+        "CS1G_T2",
+        "CS1G_P1",
+        "CS1G_P2",
+        "CS1G_P3",
+        "CS1G_P4",
+        "CS1G_H1",
+        "CS1G_H2"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.icsoso.com.cn/pdf-dc/GRM1885C1H103JA01D.pdf",
+      "height_datum": "body_thickness",
+      "source_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM1885C1H103JA01D",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/GRM1885C1H103JA01D.pdf",
+      "source_sha256": "039e299f8a356fba65d85bcbd5aa4fbb20babc902d1e782ad7af7469f8b5893d",
+      "evidence": "Murata datasheet mirror lists GRM1885C1H103JA01D and T size 0.8 \u00b10.1 mm; 0603 (1608M), C0G, 10 nF, 50 V.",
+      "source_role": "manufacturer-authored Murata product/datasheet PDF mirrored by distributor or authorized catalog",
+      "validation": {
+        "file_magic": "%PDF",
+        "bytes": 349292,
+        "pdf_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "evidence_location_complete": true
+      },
+      "source_table": "Cached Murata datasheet mirror, thickness specification",
+      "evidence_location": {
+        "source_page": 1,
+        "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/GRM1885C1H103JA01D.pdf",
+        "pdf_cached": true
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM1885C1H222JA01D",
+      "main_board_qty": 20,
+      "refs": [
+        "CS2G_I1",
+        "CS2G_I2",
+        "CS2G_I3",
+        "CS2G_M1",
+        "CS2G_M2",
+        "CS2G_M3",
+        "CS2G_R1",
+        "CS2G_R2",
+        "CS2G_R3",
+        "CS2G_L1",
+        "CS2G_L2",
+        "CS2G_L3",
+        "CS2G_T1",
+        "CS2G_T2",
+        "CS2G_P1",
+        "CS2G_P2",
+        "CS2G_P3",
+        "CS2G_P4",
+        "CS2G_H1",
+        "CS2G_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "CS2G_I1",
+        "CS2G_I2",
+        "CS2G_I3",
+        "CS2G_M1",
+        "CS2G_M2",
+        "CS2G_M3",
+        "CS2G_R1",
+        "CS2G_R2",
+        "CS2G_R3",
+        "CS2G_L1",
+        "CS2G_L2",
+        "CS2G_L3",
+        "CS2G_T1",
+        "CS2G_T2",
+        "CS2G_P1",
+        "CS2G_P2",
+        "CS2G_P3",
+        "CS2G_P4",
+        "CS2G_H1",
+        "CS2G_H2"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row and Murata reference-sheet family dimension: 0603, T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "8",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM1885C1H471JA01D",
+      "main_board_qty": 20,
+      "refs": [
+        "CFB_I1",
+        "CFB_I2",
+        "CFB_I3",
+        "CFB_M1",
+        "CFB_M2",
+        "CFB_M3",
+        "CFB_R1",
+        "CFB_R2",
+        "CFB_R3",
+        "CFB_L1",
+        "CFB_L2",
+        "CFB_L3",
+        "CFB_T1",
+        "CFB_T2",
+        "CFB_P1",
+        "CFB_P2",
+        "CFB_P3",
+        "CFB_P4",
+        "CFB_H1",
+        "CFB_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "CFB_I1",
+        "CFB_I2",
+        "CFB_I3",
+        "CFB_M1",
+        "CFB_M2",
+        "CFB_M3",
+        "CFB_R1",
+        "CFB_R2",
+        "CFB_R3",
+        "CFB_L1",
+        "CFB_L2",
+        "CFB_L3",
+        "CFB_T1",
+        "CFB_T2",
+        "CFB_P1",
+        "CFB_P2",
+        "CFB_P3",
+        "CFB_P4",
+        "CFB_H1",
+        "CFB_H2"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row and Murata reference-sheet family dimension: 0603, T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "9",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM188R61A105KA61D",
+      "main_board_qty": 7,
+      "refs": [
+        "C_LDO_IN",
+        "C_LDO_OUT",
+        "C_REF",
+        "C_ADC_AVDD",
+        "CDEC_U_REF",
+        "C_VMID",
+        "C_VEXC"
+      ],
+      "current_generic_3mm_refs": [
+        "C_LDO_IN",
+        "C_LDO_OUT",
+        "C_REF",
+        "C_ADC_AVDD",
+        "CDEC_U_REF",
+        "C_VMID",
+        "C_VEXC"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row: 0603, T max 0.9 mm; Murata product data identifies T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "10",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM188R61A475KE15D",
+      "main_board_qty": 1,
+      "refs": [
+        "C_IMU_CUFF_BULK"
+      ],
+      "current_generic_3mm_refs": [
+        "C_IMU_CUFF_BULK"
+      ],
+      "footprint": "GloveV4:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row: 0603, T max 0.9 mm; Murata reference sheet identifies T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "11",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM188R61C105KA93D",
+      "main_board_qty": 4,
+      "refs": [
+        "C_USB_RAW",
+        "C_USB_LIMITED",
+        "C_BOOT_DELAY",
+        "C_REF_SUPPLY"
+      ],
+      "current_generic_3mm_refs": [
+        "C_USB_RAW",
+        "C_USB_LIMITED",
+        "C_BOOT_DELAY",
+        "C_REF_SUPPLY"
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row: 0603, T max 0.9 mm; Murata product family dimension T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "12",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM188R71C104KA01D",
+      "main_board_qty": 34,
+      "refs": [
+        "C_MUX_ADDR",
+        "C_CC",
+        "C_U_CC_HIGH",
+        "C_U_CC_ATTACH",
+        "C_U_CFG_CLEAR",
+        "C_U_CFG_RESET",
+        "C_USB_CFG",
+        "C_U_USB_ALLOW",
+        "C_U_USB_NOSUSP",
+        "C_U_USB_ON",
+        "C_TS",
+        "C_BAT_WINDOW",
+        "C_MAIN_AUX",
+        "C_BAT_READY",
+        "C_U_BOOT_SOURCE",
+        "C_U_BOOT_PG",
+        "C_U_BOOT_SCHMITT",
+        "C_U_ANALOG_OFF",
+        "C_BAT_ADC",
+        "C_MCU",
+        "C_BUTTON",
+        "C_IO0",
+        "C_IO1",
+        "C_CAM_IO_HF",
+        "C_CAM_AV_HF",
+        "C_CAM_DV_HF",
+        "C_CAM_DATA_A",
+        "C_CAM_DATA_B",
+        "C_CAM_CTRL_A",
+        "C_CAM_CTRL_B",
+        "C_CAM_IF_INV",
+        "C_IMU_CUFF_VDD",
+        "C_IMU_CUFF_IO",
+        "C_SD_HF"
+      ],
+      "current_generic_3mm_refs": [
+        "C_MUX_ADDR",
+        "C_CC",
+        "C_U_CC_HIGH",
+        "C_U_CC_ATTACH",
+        "C_U_CFG_CLEAR",
+        "C_U_CFG_RESET",
+        "C_USB_CFG",
+        "C_U_USB_ALLOW",
+        "C_U_USB_NOSUSP",
+        "C_U_USB_ON",
+        "C_TS",
+        "C_BAT_WINDOW",
+        "C_MAIN_AUX",
+        "C_BAT_READY",
+        "C_U_BOOT_SOURCE",
+        "C_U_BOOT_PG",
+        "C_U_BOOT_SCHMITT",
+        "C_U_ANALOG_OFF",
+        "C_BAT_ADC",
+        "C_MCU",
+        "C_BUTTON",
+        "C_IO0",
+        "C_IO1",
+        "C_CAM_IO_HF",
+        "C_CAM_AV_HF",
+        "C_CAM_DV_HF",
+        "C_CAM_DATA_A",
+        "C_CAM_DATA_B",
+        "C_CAM_CTRL_A",
+        "C_CAM_CTRL_B",
+        "C_CAM_IF_INV",
+        "C_IMU_CUFF_VDD",
+        "C_IMU_CUFF_IO",
+        "C_SD_HF"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row: 0603, T max 0.9 mm; Murata reference sheet identifies T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "13",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM188R71H104KA93D",
+      "main_board_qty": 28,
+      "refs": [
+        "C_ADC_DVIO",
+        "CDEC_U_LDO",
+        "CDEC_U_VMID",
+        "CDEC_U_ADC_DRV",
+        "CDEC_U_MUX1",
+        "CDEC_U_MUX2",
+        "CDEC_U_MUX3",
+        "CDEC_U_MUX4",
+        "CDEC_U_MUX_FINAL",
+        "CDEC_U_CHG1",
+        "CDEC_U_CHG2",
+        "CDEC_U_CHG3",
+        "CDEC_U_CHG4",
+        "CDEC_U_CHG5",
+        "CDEC_U_FILT1",
+        "CDEC_U_FILT2",
+        "CDEC_U_FILT3",
+        "CDEC_U_FILT4",
+        "CDEC_U_FILT5",
+        "CDEC_U_FILT6",
+        "CDEC_U_FILT7",
+        "CDEC_U_FILT8",
+        "CDEC_U_FILT9",
+        "CDEC_U_FILT10",
+        "CDEC_U_BANK1",
+        "CDEC_U_IOX",
+        "CDEC_U_ADC_NEG",
+        "C_VEXC_FB"
+      ],
+      "current_generic_3mm_refs": [
+        "C_ADC_DVIO",
+        "CDEC_U_LDO",
+        "CDEC_U_VMID",
+        "CDEC_U_ADC_DRV",
+        "CDEC_U_MUX1",
+        "CDEC_U_MUX2",
+        "CDEC_U_MUX3",
+        "CDEC_U_MUX4",
+        "CDEC_U_MUX_FINAL",
+        "CDEC_U_CHG1",
+        "CDEC_U_CHG2",
+        "CDEC_U_CHG3",
+        "CDEC_U_CHG4",
+        "CDEC_U_CHG5",
+        "CDEC_U_FILT1",
+        "CDEC_U_FILT2",
+        "CDEC_U_FILT3",
+        "CDEC_U_FILT4",
+        "CDEC_U_FILT5",
+        "CDEC_U_FILT6",
+        "CDEC_U_FILT7",
+        "CDEC_U_FILT8",
+        "CDEC_U_FILT9",
+        "CDEC_U_FILT10",
+        "CDEC_U_BANK1",
+        "CDEC_U_IOX",
+        "CDEC_U_ADC_NEG",
+        "C_VEXC_FB"
+      ],
+      "footprint": "Glove:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://cms.nacsemi.com/content/AuthDatasheets/MURE-S-A0003031358-1.pdf",
+      "height_datum": "body_thickness",
+      "source_url": "https://jlcpcb.com/parts/componentSearch?searchTxt=GRM188R71H104KA93D",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/GRM188R71H104KA93D.pdf",
+      "source_sha256": "661deec12378c6d9ad62b0e22eafefd68a72c960f1e30b2e45da0411bd3bad2b",
+      "evidence": "Murata product-detail PDF lists GRM188R71H104KA93D and T size 0.8 \u00b10.1 mm; manufacturer-hosted product details show 0603 (1608M), X7R, 50 V.",
+      "source_role": "manufacturer-authored Murata product/datasheet PDF mirrored by distributor or authorized catalog",
+      "validation": {
+        "file_magic": "%PDF",
+        "bytes": 229698,
+        "pdf_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "evidence_location_complete": true
+      },
+      "source_table": "Cached Murata product-detail datasheet, thickness specification",
+      "evidence_location": {
+        "source_page": 1,
+        "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/GRM188R71H104KA93D.pdf",
+        "pdf_cached": true
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM188R71H473KA61D",
+      "main_board_qty": 1,
+      "refs": [
+        "C_CHG_BTST"
+      ],
+      "current_generic_3mm_refs": [
+        "C_CHG_BTST"
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog row: 0603, T max 0.9 mm; same GRM188R71 0603 family dimensional table T 0.8 \u00b10.1 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "14",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "GRM21BC71E106ME11L",
+      "main_board_qty": 4,
+      "refs": [
+        "C_CHG_PMID",
+        "C_MAIN_IN0",
+        "C_MAIN_IN1",
+        "C_ANALOG_IN"
+      ],
+      "current_generic_3mm_refs": [
+        "C_CHG_PMID",
+        "C_MAIN_IN0",
+        "C_MAIN_IN1",
+        "C_ANALOG_IN"
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "primary_source_url": "https://www.murata.com/products/productdetail?partno=GRM21BC71E106ME11L",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata product page: 0805 (2012M), thickness 1.25 \u00b10.20 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "15",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "GRM21BC81C226ME44L",
+      "main_board_qty": 1,
+      "refs": [
+        "C_MCU_BULK"
+      ],
+      "current_generic_3mm_refs": [
+        "C_MCU_BULK"
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "primary_source_url": "https://www.murata.com/products/productdetail?partno=GRM21BC81C226ME44L",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata product page: 0805 (2012M), thickness 1.25 \u00b10.20 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "16",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "GRM21BR61A106KE19L",
+      "main_board_qty": 1,
+      "refs": [
+        "C_SD_IN"
+      ],
+      "current_generic_3mm_refs": [
+        "C_SD_IN"
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.35,
+      "primary_source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata catalog family row; product attribute cross-check gives 0805 thickness max 1.35 mm and T 1.25 \u00b10.10 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "17",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.55
+    },
+    {
+      "mpn": "GRM21BR71A475KA73L",
+      "main_board_qty": 1,
+      "refs": [
+        "C_CHG_REGN"
+      ],
+      "current_generic_3mm_refs": [
+        "C_CHG_REGN"
+      ],
+      "footprint": "Capacitor_SMD:C_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.4,
+      "primary_source_url": "https://www.farnell.com/datasheets/2079190.pdf",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata reference-sheet mirror: 0805, T 1.25 \u00b10.15 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "18",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 1.6
+    },
+    {
+      "mpn": "GRM32ER61A476KE20L",
+      "main_board_qty": 1,
+      "refs": [
+        "C_SD_BULK"
+      ],
+      "current_generic_3mm_refs": [
+        "C_SD_BULK"
+      ],
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 2.7,
+      "primary_source_url": "https://cms.nacsemi.com/content/AuthDatasheets/MURE-S-A0003031248-1.pdf",
+      "height_datum": "body_thickness",
+      "source_url": "https://www.murata.com/-/media/webrenewal/tool/library/common-pdf/static-model/component-list-s-mlcc-2506.ashx?cvid=20250805040438000000&la=ko-kr",
+      "physical_pdf_pages": null,
+      "source_file": null,
+      "source_sha256": null,
+      "evidence": "Murata product-details mirror: 1210, T 2.5 \u00b10.20 mm.",
+      "pdf_cached": false,
+      "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+      "cached_text_sha256": "4e1558e30b921148aafb92a17e5240eaea6a6b735574d7f20b142903ca025f2b",
+      "source_table": "Murata Part Number List: MultiLayer Ceramic Capacitors; T size (mm Max.) column",
+      "validation": {
+        "catalog_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "pdf_cached": false,
+        "evidence_location_complete": true
+      },
+      "evidence_location": {
+        "source_page": null,
+        "cached_text_file": "hardware/glove-v4/enclosure/height-evidence/sources/murata-mlcc-catalog-extract-2026-10-22.txt",
+        "cached_text_lines": "19",
+        "pdf_cached": false
+      },
+      "audited_height_mm": 2.9
+    },
+    {
+      "mpn": "GRM32ER61C476KE15L",
+      "main_board_qty": 9,
+      "refs": [
+        "C_BAT",
+        "C_SYS0",
+        "C_SYS1",
+        "C_MAIN_OUT0",
+        "C_MAIN_OUT1",
+        "C_MAIN_OUT2",
+        "C_ANALOG_OUT0",
+        "C_ANALOG_OUT1",
+        "C_ANALOG_OUT2"
+      ],
+      "current_generic_3mm_refs": [
+        "C_BAT",
+        "C_SYS0",
+        "C_SYS1",
+        "C_MAIN_OUT0",
+        "C_MAIN_OUT1",
+        "C_MAIN_OUT2",
+        "C_ANALOG_OUT0",
+        "C_ANALOG_OUT1",
+        "C_ANALOG_OUT2"
+      ],
+      "footprint": "Capacitor_SMD:C_1210_3225Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 2.7,
+      "primary_source_url": "https://www.farnell.com/datasheets/2079201.pdf",
+      "height_datum": "body_thickness",
+      "source_url": "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM32ER61C476KE15-01A.pdf",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/GRM32ER61C476KE15L.pdf",
+      "source_sha256": "c268c52451c82b2d44f5c60586f4e03e5a0f5a7e53f6b6c2a681597a4648a8ff",
+      "evidence": "Murata datasheet mirror lists GRM32ER61C476KE15L and T size 2.5 \u00b10.2 mm; 1210 (3225M), X5R, 47 \u00b5F, 16 V.",
+      "source_role": "manufacturer-authored Murata product/datasheet PDF mirrored by distributor or authorized catalog",
+      "validation": {
+        "file_magic": "%PDF",
+        "bytes": 336773,
+        "pdf_text_extract": "passed",
+        "max_includes_stated_tolerance": true,
+        "evidence_location_complete": true
+      },
+      "source_table": "Cached Murata datasheet mirror, thickness specification",
+      "evidence_location": {
+        "source_page": 1,
+        "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/GRM32ER61C476KE15L.pdf",
+        "pdf_cached": true
+      },
+      "audited_height_mm": 2.9
+    },
+    {
+      "mpn": "ISM330DHCXTR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_IMU_CUFF"
+      ],
+      "current_generic_3mm_refs": [
+        "U_IMU_CUFF"
+      ],
+      "footprint": "GloveV4:ST_ISM330DHCX_LGA14_0.35mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.86,
+      "height_datum": "package_bottom_to_top",
+      "source_file": "hardware/glove-v4/interfaces/sources/ism330dhcx-DS13012-rev7.pdf",
+      "source_sha256": "4ebd304610da62f31775389ee3ce1a98f596b1331114959e9e052b3f602de8fa",
+      "physical_pdf_pages": [
+        146
+      ],
+      "primary_source_url": "https://www.st.com/resource/en/datasheet/ism330dhcx.pdf",
+      "evidence": "Figure 24: LGA height H 0.86 MAX; solder stand-off separate",
+      "audited_height_mm": 1.06
+    },
+    {
+      "mpn": "LM393LVDGKR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_BAT_WINDOW"
+      ],
+      "current_generic_3mm_refs": [
+        "U_BAT_WINDOW"
+      ],
+      "footprint": "Package_SO:VSSOP-8_3x3mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/lm393lv.pdf",
+      "source_sha256": "5c9acdfda744a95c4a0a8b08b8cfd28d4571c52e6a0139b350df4296cbf54876",
+      "physical_pdf_pages": [
+        42
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/lm393lv.pdf",
+      "evidence": "DGK0008A package outline explicitly states maximum height",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "MCP33131D-10-I/MS",
+      "main_board_qty": 1,
+      "refs": [
+        "U_ADC"
+      ],
+      "current_generic_3mm_refs": [
+        "U_ADC"
+      ],
+      "footprint": "Glove:MSOP-10_3x3mm_P0.5mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/mcp33131.pdf",
+      "source_sha256": "3a22170eb5131bf7b37a8bbaa038fafbb011e97d37cb648cd28c9d346acc3fe1",
+      "physical_pdf_pages": [
+        53
+      ],
+      "primary_source_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP33131D-Data-Sheet-DS20005947B.pdf",
+      "evidence": "MSOP-10 overall A max",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "MCP6002T-I/SN",
+      "main_board_qty": 1,
+      "refs": [
+        "U_VMID"
+      ],
+      "current_generic_3mm_refs": [
+        "U_VMID"
+      ],
+      "footprint": "Glove:SOIC-8_3.9x4.9mm_P1.27mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.75,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/mcp6004.pdf",
+      "source_sha256": "4f879ab31115ecfa149dfea62073c9efdbc4beccbdfc3a8d7e10281f3877f8fb",
+      "physical_pdf_pages": [
+        32
+      ],
+      "primary_source_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20001733L.pdf",
+      "evidence": "SOIC-8 overall A max",
+      "audited_height_mm": 1.95
+    },
+    {
+      "mpn": "MCP6004T-I/ST",
+      "main_board_qty": 15,
+      "refs": [
+        "U_CHG1",
+        "U_CHG2",
+        "U_CHG3",
+        "U_CHG4",
+        "U_CHG5",
+        "U_FILT1",
+        "U_FILT2",
+        "U_FILT3",
+        "U_FILT4",
+        "U_FILT5",
+        "U_FILT6",
+        "U_FILT7",
+        "U_FILT8",
+        "U_FILT9",
+        "U_FILT10"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CHG1",
+        "U_CHG2",
+        "U_CHG3",
+        "U_CHG4",
+        "U_CHG5",
+        "U_FILT1",
+        "U_FILT2",
+        "U_FILT3",
+        "U_FILT4",
+        "U_FILT5",
+        "U_FILT6",
+        "U_FILT7",
+        "U_FILT8",
+        "U_FILT9",
+        "U_FILT10"
+      ],
+      "footprint": "Glove:TSSOP-14_4.4x5mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.2,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/mcp6004.pdf",
+      "source_sha256": "4f879ab31115ecfa149dfea62073c9efdbc4beccbdfc3a8d7e10281f3877f8fb",
+      "physical_pdf_pages": [
+        42
+      ],
+      "primary_source_url": "https://ww1.microchip.com/downloads/en/DeviceDoc/20001733L.pdf",
+      "evidence": "TSSOP-14 overall A max",
+      "audited_height_mm": 1.4
+    },
+    {
+      "mpn": "OPA320AIDBVR",
+      "main_board_qty": 2,
+      "refs": [
+        "U_ADC_DRV",
+        "U_ADC_NEG"
+      ],
+      "current_generic_3mm_refs": [
+        "U_ADC_DRV",
+        "U_ADC_NEG"
+      ],
+      "footprint": "Glove:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/opa320.pdf",
+      "source_sha256": "6ad9e31b95374c9bd582b821c528c91cb5813772e74e68f80cf81d0c10772b13",
+      "physical_pdf_pages": [
+        39
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/opa320.pdf",
+      "evidence": "DBV0005A",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "OPA4323IPWR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_BANK1"
+      ],
+      "current_generic_3mm_refs": [
+        "U_BANK1"
+      ],
+      "footprint": "Glove:TSSOP-14_4.4x5mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.2,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/opa4323.pdf",
+      "source_sha256": "04c80b8060378a0b476da08278ccb822207ae2aca06409df7b985f6f5606b2f5",
+      "physical_pdf_pages": [
+        57
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/opa4323.pdf",
+      "evidence": "PW0014A package outline explicitly states maximum height",
+      "audited_height_mm": 1.4
+    },
+    {
+      "mpn": "PCA9306DCTR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CAM_SCCB"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CAM_SCCB"
+      ],
+      "footprint": "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.3,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/pca9306.pdf",
+      "source_sha256": "1cd97c734729f2bfca26ccaa93521c04c373568e4ebe6d892267dba2571e21e6",
+      "physical_pdf_pages": [
+        28
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/pca9306.pdf",
+      "evidence": "DCT0008A package outline explicitly states maximum height",
+      "audited_height_mm": 1.5
+    },
+    {
+      "mpn": "PESD5V0U2BT,215",
+      "main_board_qty": 2,
+      "refs": [
+        "D_USB_DATA",
+        "D_USB_CC"
+      ],
+      "current_generic_3mm_refs": [
+        "D_USB_DATA",
+        "D_USB_CC"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "primary_source_url": "https://assets.nexperia.com/documents/data-sheet/PESD5V0U2BT.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PESD5V0U2BT.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-PESD5V0U2BT-height-extract.txt",
+      "source_sha256": "4a78f7f0c308a8e2f2943a959ad361c1e65f128ac2256f3389c99437734ae593",
+      "physical_pdf_pages": [
+        7
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "21 August 2025; SOT23 dimension A maximum 1.1 mm.",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "PMEG2010ER,115",
+      "main_board_qty": 3,
+      "refs": [
+        "D_LDO_REV",
+        "D_REF_REVERSE",
+        "D_ANALOG_REVERSE"
+      ],
+      "current_generic_3mm_refs": [
+        "D_LDO_REV",
+        "D_REF_REVERSE",
+        "D_ANALOG_REVERSE"
+      ],
+      "footprint": "GlovePower:Nexperia_CFP3_SOD123W",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "primary_source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMEG2010ER.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-PMEG2010ER-height-extract.txt",
+      "source_sha256": "312a35e6ee3c51875ba5ed85db89fe1990cd3a10e6d9c7bd7296ee49a2ec88d2",
+      "physical_pdf_pages": [
+        8
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "1 July 2023; SOD123W. Independently cross-checked seated height A maximum1.1mm in manufacturer package-information/SOD123W.pdf,28February2020,page1. The1.05mm dimension is a terminal width, not height.",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "PMV16XN,215",
+      "main_board_qty": 2,
+      "refs": [
+        "Q_VREF_BLEED_OUT",
+        "Q_VREF_BLEED_IN"
+      ],
+      "current_generic_3mm_refs": [
+        "Q_VREF_BLEED_OUT",
+        "Q_VREF_BLEED_IN"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "primary_source_url": "https://assets.nexperia.com/documents/data-sheet/PMV16XN.pdf",
+      "height_datum": "seated_height",
+      "source_url": "https://assets.nexperia.com/documents/data-sheet/PMV16XN.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/nexperia-PMV16XN-height-extract.txt",
+      "source_sha256": "1c9ebd8b476bfa165ff7f9f40ad62ead2d59efd0f33b299b9f6859f8b9e37983",
+      "physical_pdf_pages": [
+        10
+      ],
+      "source_classification": "transcribed_manufacturer_PDF_extract",
+      "evidence": "11 November 2014; SOT23 dimension A maximum 1.1 mm.",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "PTS636SK43SMTR-LFS",
+      "main_board_qty": 1,
+      "refs": [
+        "SW_USER"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Glove:SW_PTS636_SK43_G",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.ckswitches.com/media/2565/pts636.pdf"
+    },
+    {
+      "mpn": "RC0603FR-07100KL",
+      "main_board_qty": 37,
+      "refs": [
+        "RIN_I1",
+        "RIN_I2",
+        "RIN_I3",
+        "RIN_M1",
+        "RIN_M2",
+        "RIN_M3",
+        "RIN_R1",
+        "RIN_R2",
+        "RIN_R3",
+        "RIN_L1",
+        "RIN_L2",
+        "RIN_L3",
+        "RIN_T1",
+        "RIN_T2",
+        "RIN_P1",
+        "RIN_P2",
+        "RIN_P3",
+        "RIN_P4",
+        "RIN_H1",
+        "RIN_H2",
+        "R_USB_RECOVERY_ON",
+        "R_USB_HIGH_ON",
+        "R_ANALOG_EN",
+        "R_REF_GATE",
+        "R_BAT_MEAS_GATE",
+        "R_DEFAULT_BAT_DIV_EN",
+        "R_DEFAULT_REG_PFM",
+        "R_DEFAULT_USB_CONFIG_SET",
+        "R_DEFAULT_USB_CONFIG_CLR_N",
+        "R_DEFAULT_USB_SUSPEND",
+        "R_DEFAULT_CHG_DISABLE",
+        "R_CAM_IO_EN",
+        "R_CAM_AV_EN",
+        "R_CAM_DV_EN",
+        "R_CAM_IF",
+        "R_CAM_MCU_RESET",
+        "R_SD_EN"
+      ],
+      "current_generic_3mm_refs": [
+        "RIN_I1",
+        "RIN_I2",
+        "RIN_I3",
+        "RIN_M1",
+        "RIN_M2",
+        "RIN_M3",
+        "RIN_R1",
+        "RIN_R2",
+        "RIN_R3",
+        "RIN_L1",
+        "RIN_L2",
+        "RIN_L3",
+        "RIN_T1",
+        "RIN_T2",
+        "RIN_P1",
+        "RIN_P2",
+        "RIN_P3",
+        "RIN_P4",
+        "RIN_H1",
+        "RIN_H2",
+        "R_USB_RECOVERY_ON",
+        "R_USB_HIGH_ON",
+        "R_ANALOG_EN",
+        "R_REF_GATE",
+        "R_BAT_MEAS_GATE",
+        "R_DEFAULT_BAT_DIV_EN",
+        "R_DEFAULT_REG_PFM",
+        "R_DEFAULT_USB_CONFIG_SET",
+        "R_DEFAULT_USB_CONFIG_CLR_N",
+        "R_DEFAULT_USB_SUSPEND",
+        "R_DEFAULT_CHG_DISABLE",
+        "R_CAM_IO_EN",
+        "R_CAM_AV_EN",
+        "R_CAM_DV_EN",
+        "R_CAM_IF",
+        "R_CAM_MCU_RESET",
+        "R_SD_EN"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07100KL.pdf",
+      "source_sha256": "4335d7e2d8f759e972e50ab44f0921cdc9059989aea4b04b610768cb2f053897",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0710KL",
+      "main_board_qty": 40,
+      "refs": [
+        "RPD_I1",
+        "RPD_I2",
+        "RPD_I3",
+        "RPD_M1",
+        "RPD_M2",
+        "RPD_M3",
+        "RPD_R1",
+        "RPD_R2",
+        "RPD_R3",
+        "RPD_L1",
+        "RPD_L2",
+        "RPD_L3",
+        "RPD_T1",
+        "RPD_T2",
+        "RPD_P1",
+        "RPD_P2",
+        "RPD_P3",
+        "RPD_P4",
+        "RPD_H1",
+        "RPD_H2",
+        "R_VMID_H",
+        "R_VMID_L",
+        "R_VEXC_L",
+        "R_VEXC_FB",
+        "R_CC_OUT1",
+        "R_CC_OUT2",
+        "R_NTC_PULL",
+        "R_CHG_CE",
+        "R_BOOT_DELAY",
+        "R_BOOT0",
+        "R_STRAP45",
+        "R_STRAP46",
+        "R_MUX_LATCH",
+        "R_IO1_UNUSED_P07",
+        "R_IO1_SPARE0",
+        "R_IO1_SPARE1",
+        "R_IO1_SPARE2",
+        "R_IO1_SPARE3",
+        "R_IO1_SPARE4",
+        "R_IO1_SPARE5"
+      ],
+      "current_generic_3mm_refs": [
+        "RPD_I1",
+        "RPD_I2",
+        "RPD_I3",
+        "RPD_M1",
+        "RPD_M2",
+        "RPD_M3",
+        "RPD_R1",
+        "RPD_R2",
+        "RPD_R3",
+        "RPD_L1",
+        "RPD_L2",
+        "RPD_L3",
+        "RPD_T1",
+        "RPD_T2",
+        "RPD_P1",
+        "RPD_P2",
+        "RPD_P3",
+        "RPD_P4",
+        "RPD_H1",
+        "RPD_H2",
+        "R_VMID_H",
+        "R_VMID_L",
+        "R_VEXC_L",
+        "R_VEXC_FB",
+        "R_CC_OUT1",
+        "R_CC_OUT2",
+        "R_NTC_PULL",
+        "R_CHG_CE",
+        "R_BOOT_DELAY",
+        "R_BOOT0",
+        "R_STRAP45",
+        "R_STRAP46",
+        "R_MUX_LATCH",
+        "R_IO1_UNUSED_P07",
+        "R_IO1_SPARE0",
+        "R_IO1_SPARE1",
+        "R_IO1_SPARE2",
+        "R_IO1_SPARE3",
+        "R_IO1_SPARE4",
+        "R_IO1_SPARE5"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0710KL.pdf",
+      "source_sha256": "5884c52bde045a42f76c0e952bd83f6a19cf57a0d3adf20e1c475ecc6da3459e",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0710ML",
+      "main_board_qty": 2,
+      "refs": [
+        "R_NTC_COLD_HYST",
+        "R_NTC_HOT_HYST"
+      ],
+      "current_generic_3mm_refs": [
+        "R_NTC_COLD_HYST",
+        "R_NTC_HOT_HYST"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0710ML.pdf",
+      "source_sha256": "0685ee70a336f8beebeeb2393eaa3907dc121efd76415006a2dd0b6bae34a460",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710ML",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0710RL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_REF_FILTER"
+      ],
+      "current_generic_3mm_refs": [
+        "R_REF_FILTER"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0710RL.pdf",
+      "source_sha256": "6b426d35b06b713411628e4a1095ccbc97521a23458b199ac8b4afb663768211",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0710RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0714K7L",
+      "main_board_qty": 40,
+      "refs": [
+        "RS1A_I1",
+        "RS1B_I1",
+        "RS1A_I2",
+        "RS1B_I2",
+        "RS1A_I3",
+        "RS1B_I3",
+        "RS1A_M1",
+        "RS1B_M1",
+        "RS1A_M2",
+        "RS1B_M2",
+        "RS1A_M3",
+        "RS1B_M3",
+        "RS1A_R1",
+        "RS1B_R1",
+        "RS1A_R2",
+        "RS1B_R2",
+        "RS1A_R3",
+        "RS1B_R3",
+        "RS1A_L1",
+        "RS1B_L1",
+        "RS1A_L2",
+        "RS1B_L2",
+        "RS1A_L3",
+        "RS1B_L3",
+        "RS1A_T1",
+        "RS1B_T1",
+        "RS1A_T2",
+        "RS1B_T2",
+        "RS1A_P1",
+        "RS1B_P1",
+        "RS1A_P2",
+        "RS1B_P2",
+        "RS1A_P3",
+        "RS1B_P3",
+        "RS1A_P4",
+        "RS1B_P4",
+        "RS1A_H1",
+        "RS1B_H1",
+        "RS1A_H2",
+        "RS1B_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "RS1A_I1",
+        "RS1B_I1",
+        "RS1A_I2",
+        "RS1B_I2",
+        "RS1A_I3",
+        "RS1B_I3",
+        "RS1A_M1",
+        "RS1B_M1",
+        "RS1A_M2",
+        "RS1B_M2",
+        "RS1A_M3",
+        "RS1B_M3",
+        "RS1A_R1",
+        "RS1B_R1",
+        "RS1A_R2",
+        "RS1B_R2",
+        "RS1A_R3",
+        "RS1B_R3",
+        "RS1A_L1",
+        "RS1B_L1",
+        "RS1A_L2",
+        "RS1B_L2",
+        "RS1A_L3",
+        "RS1B_L3",
+        "RS1A_T1",
+        "RS1B_T1",
+        "RS1A_T2",
+        "RS1B_T2",
+        "RS1A_P1",
+        "RS1B_P1",
+        "RS1A_P2",
+        "RS1B_P2",
+        "RS1A_P3",
+        "RS1B_P3",
+        "RS1A_P4",
+        "RS1B_P4",
+        "RS1A_H1",
+        "RS1B_H1",
+        "RS1A_H2",
+        "RS1B_H2"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0714K7L.pdf",
+      "source_sha256": "dca5cb6c331d71c7c4165abba70ce149f24b56a0135d5798e0b5da4319d4b469",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0714K7L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-071KL",
+      "main_board_qty": 2,
+      "refs": [
+        "R_BUTTON_SERIES",
+        "R_LED_R"
+      ],
+      "current_generic_3mm_refs": [
+        "R_BUTTON_SERIES",
+        "R_LED_R"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-071KL.pdf",
+      "source_sha256": "3da3eabe86122a3123b92c79e98b0449c27a54206d05638447c2d11d25f323f1",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-07200KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_CAM_SCCB_BIAS"
+      ],
+      "current_generic_3mm_refs": [
+        "R_CAM_SCCB_BIAS"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07200KL.pdf",
+      "source_sha256": "fc06330612e1a9b52feb4563c24fd69f02a28ef6b08d3754affabf7a785b1f2c",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07200KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-07220RL",
+      "main_board_qty": 2,
+      "refs": [
+        "R_VREF_GATE_OUT",
+        "R_VREF_GATE_IN"
+      ],
+      "current_generic_3mm_refs": [
+        "R_VREF_GATE_OUT",
+        "R_VREF_GATE_IN"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07220RL.pdf",
+      "source_sha256": "33c94fc00fa9df6aec626a6a2619f0f79d6b82200d06c9d8262743a53310efbd",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07220RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0722RL",
+      "main_board_qty": 4,
+      "refs": [
+        "R_ADC_ISO",
+        "R_ADC_NEG_ISO",
+        "R_USB_DP",
+        "R_USB_DM"
+      ],
+      "current_generic_3mm_refs": [
+        "R_ADC_ISO",
+        "R_ADC_NEG_ISO",
+        "R_USB_DP",
+        "R_USB_DM"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0722RL.pdf",
+      "source_sha256": "18fba0b825cdffa640b0509703d76dcc1e2698c8825bc0e65b04ea7570e28292",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0722RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0727K4L",
+      "main_board_qty": 40,
+      "refs": [
+        "RS2A_I1",
+        "RS2B_I1",
+        "RS2A_I2",
+        "RS2B_I2",
+        "RS2A_I3",
+        "RS2B_I3",
+        "RS2A_M1",
+        "RS2B_M1",
+        "RS2A_M2",
+        "RS2B_M2",
+        "RS2A_M3",
+        "RS2B_M3",
+        "RS2A_R1",
+        "RS2B_R1",
+        "RS2A_R2",
+        "RS2B_R2",
+        "RS2A_R3",
+        "RS2B_R3",
+        "RS2A_L1",
+        "RS2B_L1",
+        "RS2A_L2",
+        "RS2B_L2",
+        "RS2A_L3",
+        "RS2B_L3",
+        "RS2A_T1",
+        "RS2B_T1",
+        "RS2A_T2",
+        "RS2B_T2",
+        "RS2A_P1",
+        "RS2B_P1",
+        "RS2A_P2",
+        "RS2B_P2",
+        "RS2A_P3",
+        "RS2B_P3",
+        "RS2A_P4",
+        "RS2B_P4",
+        "RS2A_H1",
+        "RS2B_H1",
+        "RS2A_H2",
+        "RS2B_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "RS2A_I1",
+        "RS2B_I1",
+        "RS2A_I2",
+        "RS2B_I2",
+        "RS2A_I3",
+        "RS2B_I3",
+        "RS2A_M1",
+        "RS2B_M1",
+        "RS2A_M2",
+        "RS2B_M2",
+        "RS2A_M3",
+        "RS2B_M3",
+        "RS2A_R1",
+        "RS2B_R1",
+        "RS2A_R2",
+        "RS2B_R2",
+        "RS2A_R3",
+        "RS2B_R3",
+        "RS2A_L1",
+        "RS2B_L1",
+        "RS2A_L2",
+        "RS2B_L2",
+        "RS2A_L3",
+        "RS2B_L3",
+        "RS2A_T1",
+        "RS2B_T1",
+        "RS2A_T2",
+        "RS2B_T2",
+        "RS2A_P1",
+        "RS2B_P1",
+        "RS2A_P2",
+        "RS2B_P2",
+        "RS2A_P3",
+        "RS2B_P3",
+        "RS2A_P4",
+        "RS2B_P4",
+        "RS2A_H1",
+        "RS2B_H1",
+        "RS2A_H2",
+        "RS2B_H2"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0727K4L.pdf",
+      "source_sha256": "f12feecb6c3a47ea608ae0f03374443f8593eb69e6ca1dba773b20b5e37d27a5",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0727K4L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-072K2L",
+      "main_board_qty": 4,
+      "refs": [
+        "R_I2C_SDA",
+        "R_I2C_SCL",
+        "R_CAM_SDA",
+        "R_CAM_SCL"
+      ],
+      "current_generic_3mm_refs": [
+        "R_I2C_SDA",
+        "R_I2C_SCL",
+        "R_CAM_SDA",
+        "R_CAM_SCL"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-072K2L.pdf",
+      "source_sha256": "b2f4bf0a981284ebb3357a2ff899eab3412f677d6bba374cae7c8318ef193a04",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-072K2L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-072KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_VEXC_H"
+      ],
+      "current_generic_3mm_refs": [
+        "R_VEXC_H"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-072KL.pdf",
+      "source_sha256": "8f48675bb127f3b207259b548a60ed15330fa6fa00f121b7ba54ef0feae970db",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-072KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0733RL",
+      "main_board_qty": 4,
+      "refs": [
+        "R_CAM_XCLK",
+        "R_SD_SCK",
+        "R_SD_MOSI",
+        "R_SD_CS_N"
+      ],
+      "current_generic_3mm_refs": [
+        "R_CAM_XCLK",
+        "R_SD_SCK",
+        "R_SD_MOSI",
+        "R_SD_CS_N"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0733RL.pdf",
+      "source_sha256": "5f96797f60b0e2c4ed7926aff24d8d1b8296d3b191e6481e0d9e1ea07ba674ad",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0733RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0747KL",
+      "main_board_qty": 19,
+      "refs": [
+        "R_USB_LIMIT_FAULT_N",
+        "R_USB_RECOVERY_FAULT_N",
+        "R_CHG_STAT_N",
+        "R_USB_PG_N",
+        "R_MAIN_PG",
+        "R_BUTTON_PULL",
+        "R_DEFAULT_LED_R_N",
+        "R_DEFAULT_LED_G_N",
+        "R_DEFAULT_LED_B_N",
+        "R_CAM_OE",
+        "R_CAM_RESET",
+        "R_CAM_PWDN",
+        "R_CAM_MCU_PWDN",
+        "R_SD_PULL_CS_N",
+        "R_SD_PULL_MOSI",
+        "R_SD_PULL_MISO",
+        "R_SD_PULL_DAT1",
+        "R_SD_PULL_DAT2",
+        "R_SD_CD"
+      ],
+      "current_generic_3mm_refs": [
+        "R_USB_LIMIT_FAULT_N",
+        "R_USB_RECOVERY_FAULT_N",
+        "R_CHG_STAT_N",
+        "R_USB_PG_N",
+        "R_MAIN_PG",
+        "R_BUTTON_PULL",
+        "R_DEFAULT_LED_R_N",
+        "R_DEFAULT_LED_G_N",
+        "R_DEFAULT_LED_B_N",
+        "R_CAM_OE",
+        "R_CAM_RESET",
+        "R_CAM_PWDN",
+        "R_CAM_MCU_PWDN",
+        "R_SD_PULL_CS_N",
+        "R_SD_PULL_MOSI",
+        "R_SD_PULL_MISO",
+        "R_SD_PULL_DAT1",
+        "R_SD_PULL_DAT2",
+        "R_SD_CD"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0747KL.pdf",
+      "source_sha256": "6f84d6f198504710c3c48a717cb216ff1e66ea069865eee01df3b2ff9cd55cd4",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-0747RL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_VEXC_ISO"
+      ],
+      "current_generic_3mm_refs": [
+        "R_VEXC_ISO"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0747RL.pdf",
+      "source_sha256": "edca8c1b6fb898b91ad64e87563be8ceefcab6209293d0127329b21325ccb9a6",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-0747RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-074K7L",
+      "main_board_qty": 1,
+      "refs": [
+        "R_VMID_IN"
+      ],
+      "current_generic_3mm_refs": [
+        "R_VMID_IN"
+      ],
+      "footprint": "Glove:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-074K7L.pdf",
+      "source_sha256": "bcf89e1ca3354beda4a756bb52484117d5895e5ee27c1d6a79ca9e6b69d14188",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-074K7L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0603FR-07680RL",
+      "main_board_qty": 2,
+      "refs": [
+        "R_LED_G",
+        "R_LED_B"
+      ],
+      "current_generic_3mm_refs": [
+        "R_LED_G",
+        "R_LED_B"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07680RL.pdf",
+      "source_sha256": "09f39b3bbb49717564ab99d4e68fe13233ba27249150a59840a81b1017b3c8b6",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07680RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RC0805FR-0722RL",
+      "main_board_qty": 2,
+      "refs": [
+        "R_VREF_BLEED_OUT",
+        "R_VREF_BLEED_IN"
+      ],
+      "current_generic_3mm_refs": [
+        "R_VREF_BLEED_OUT",
+        "R_VREF_BLEED_IN"
+      ],
+      "footprint": "Resistor_SMD:R_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.6,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RC0805FR-0722RL.pdf",
+      "source_sha256": "cfbea27b442a850c949eb2924f9ac181342f8f9f6cfde635093ed40a47ab9b2d",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RC0805FR-0722RL",
+      "evidence": "Exact MPN Dimensions T = 0.5 \u00b1 0.1 mm",
+      "audited_height_mm": 0.8
+    },
+    {
+      "mpn": "REF3330AIDBZR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_REF"
+      ],
+      "current_generic_3mm_refs": [
+        "U_REF"
+      ],
+      "footprint": "Glove:SOT-23",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.12,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/ref33.pdf",
+      "source_sha256": "39839abc9bf09417d0a4b446c6e922679f6dc63b19072e284169dd23007e65fe",
+      "physical_pdf_pages": [
+        33
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/ref33.pdf",
+      "evidence": "DBZ0003A package outline explicitly states maximum height",
+      "audited_height_mm": 1.32
+    },
+    {
+      "mpn": "RT0603BRD07100KL",
+      "main_board_qty": 7,
+      "refs": [
+        "R_NTC_COLD_BOT",
+        "R_NTC_HOT_BOT",
+        "R_MAIN_BOT",
+        "R_MAIN_EN_BOT",
+        "R_READY_BOTTOM",
+        "R_BAT_ADC_TOP",
+        "R_BAT_ADC_BOTTOM"
+      ],
+      "current_generic_3mm_refs": [
+        "R_NTC_COLD_BOT",
+        "R_NTC_HOT_BOT",
+        "R_MAIN_BOT",
+        "R_MAIN_EN_BOT",
+        "R_READY_BOTTOM",
+        "R_BAT_ADC_TOP",
+        "R_BAT_ADC_BOTTOM"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07100KL.pdf",
+      "source_sha256": "f8edb3f69f4c43321dd1b6af93f4e759c3a57f27b1cecc58ba0eb18740d3864f",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07100KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07107KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_NTC_HOT_TOP"
+      ],
+      "current_generic_3mm_refs": [
+        "R_NTC_HOT_TOP"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07107KL.pdf",
+      "source_sha256": "624f602b2bcdb0ad909ea5b34771acd1d92b79ab43a05e1cfd2677b0046a0983",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07107KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07158KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_READY_TOP"
+      ],
+      "current_generic_3mm_refs": [
+        "R_READY_TOP"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07158KL.pdf",
+      "source_sha256": "d6ac997fd4fee85c87acc1bcca3d981161cd7e2cefa13e68e7d1fb2144312a35",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07158KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD0719K2L",
+      "main_board_qty": 1,
+      "refs": [
+        "R_USB_RECOVERY_ILIM"
+      ],
+      "current_generic_3mm_refs": [
+        "R_USB_RECOVERY_ILIM"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "primary_source_url": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "height_datum": "body_thickness",
+      "source_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-181409.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "source_sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_classification": "manufacturer_authored_family_PDF_distributor_mirror",
+      "evidence": "Yageo RT series dimensions table: RT0603 H0.45\u00b10.10mm. Applies by selected RT0603 package prefix, independent of resistance value; exact-value specsheet endpoint unavailable.",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD072M15L",
+      "main_board_qty": 1,
+      "refs": [
+        "R_READY_HYST"
+      ],
+      "current_generic_3mm_refs": [
+        "R_READY_HYST"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "primary_source_url": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "height_datum": "body_thickness",
+      "source_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-181409.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "source_sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_classification": "manufacturer_authored_family_PDF_distributor_mirror",
+      "evidence": "Yageo RT series dimensions table: RT0603 H0.45\u00b10.10mm. Applies by selected RT0603 package prefix, independent of resistance value; exact-value specsheet endpoint unavailable.",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07300KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_MAIN_EN_TOP"
+      ],
+      "current_generic_3mm_refs": [
+        "R_MAIN_EN_TOP"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07300KL.pdf",
+      "source_sha256": "46a0b17cdeab7683a7a9b558f66897dbad38e835e9e7204368dfbdee068ed01c",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07300KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD0730K9L",
+      "main_board_qty": 2,
+      "refs": [
+        "R_USB_CC_ILIM",
+        "R_TS_BOTTOM"
+      ],
+      "current_generic_3mm_refs": [
+        "R_USB_CC_ILIM",
+        "R_TS_BOTTOM"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD0730K9L.pdf",
+      "source_sha256": "74a9cb406f6a3f7d332b97a5990f85607ac861fbe72aefef06fdc56320457a70",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0730K9L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07327KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_MAIN_TOP"
+      ],
+      "current_generic_3mm_refs": [
+        "R_MAIN_TOP"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "primary_source_url": "https://www.yageo.com/en/Chart/Download/pdf/RC0603",
+      "height_datum": "body_thickness",
+      "source_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-181409.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "source_sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "physical_pdf_pages": [
+        1
+      ],
+      "source_classification": "manufacturer_authored_family_PDF_distributor_mirror",
+      "evidence": "Yageo RT series dimensions table: RT0603 H0.45\u00b10.10mm. Applies by selected RT0603 package prefix, independent of resistance value; exact-value specsheet endpoint unavailable.",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07390RL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_CHG_ILIM"
+      ],
+      "current_generic_3mm_refs": [
+        "R_CHG_ILIM"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07390RL.pdf",
+      "source_sha256": "f534ebfdd3a49d3ddb38efb606e4d42b632c3e7faee902959e4c25006352ba57",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07390RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD0752K3L",
+      "main_board_qty": 1,
+      "refs": [
+        "R_NTC_COLD_TOP"
+      ],
+      "current_generic_3mm_refs": [
+        "R_NTC_COLD_TOP"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD0752K3L.pdf",
+      "source_sha256": "23c92afb05719371b7c70bfd4176bb513327fc56ded5240c2e329ec2f19b803d",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0752K3L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07562RL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_CHG_ICHG"
+      ],
+      "current_generic_3mm_refs": [
+        "R_CHG_ICHG"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07562RL.pdf",
+      "source_sha256": "b1ed9f51183db1722f1cab9112cb7321e5afa70a2ea8476226792f79f020978c",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07562RL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD075K23L",
+      "main_board_qty": 1,
+      "refs": [
+        "R_TS_TOP"
+      ],
+      "current_generic_3mm_refs": [
+        "R_TS_TOP"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD075K23L.pdf",
+      "source_sha256": "67f8565e106c3c5880958a046c1b682a24ddb046ecdbfb0fb6f581b206cf8ab3",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD075K23L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD0771K5L",
+      "main_board_qty": 1,
+      "refs": [
+        "R_USB_HIGH_ILIM"
+      ],
+      "current_generic_3mm_refs": [
+        "R_USB_HIGH_ILIM"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD0771K5L.pdf",
+      "source_sha256": "69dc67a40b0166c0a34c11e201883e9e6f573a85530fd618899504285c680bb8",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD0771K5L",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RT0603BRD07887KL",
+      "main_board_qty": 1,
+      "refs": [
+        "R_CC_VBUS"
+      ],
+      "current_generic_3mm_refs": [
+        "R_CC_VBUS"
+      ],
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.55,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07887KL.pdf",
+      "source_sha256": "4ace91ef57a479d1e543753e4710dec10223019111ddb155f20c12c05e0171a0",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD07887KL",
+      "evidence": "Exact MPN Dimensions T = 0.45 \u00b1 0.1 mm",
+      "audited_height_mm": 0.75
+    },
+    {
+      "mpn": "RV0805FR-0722ML",
+      "main_board_qty": 20,
+      "refs": [
+        "RFB_I1",
+        "RFB_I2",
+        "RFB_I3",
+        "RFB_M1",
+        "RFB_M2",
+        "RFB_M3",
+        "RFB_R1",
+        "RFB_R2",
+        "RFB_R3",
+        "RFB_L1",
+        "RFB_L2",
+        "RFB_L3",
+        "RFB_T1",
+        "RFB_T2",
+        "RFB_P1",
+        "RFB_P2",
+        "RFB_P3",
+        "RFB_P4",
+        "RFB_H1",
+        "RFB_H2"
+      ],
+      "current_generic_3mm_refs": [
+        "RFB_I1",
+        "RFB_I2",
+        "RFB_I3",
+        "RFB_M1",
+        "RFB_M2",
+        "RFB_M3",
+        "RFB_R1",
+        "RFB_R2",
+        "RFB_R3",
+        "RFB_L1",
+        "RFB_L2",
+        "RFB_L3",
+        "RFB_T1",
+        "RFB_T2",
+        "RFB_P1",
+        "RFB_P2",
+        "RFB_P3",
+        "RFB_P4",
+        "RFB_H1",
+        "RFB_H2"
+      ],
+      "footprint": "Glove:R_0805_2012Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.6,
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/RV0805FR-0722ML.pdf",
+      "source_sha256": "87c9f1c663351fbab0cd79714da7cb29ddcb83b943b2c378099f042b7f4881c8",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://yageogroup.com/component-documentation/download/specsheet/RV0805FR-0722ML",
+      "evidence": "Exact MPN Dimensions T = 0.5 \u00b1 0.1 mm",
+      "audited_height_mm": 0.8
+    },
+    {
+      "mpn": "SM04B-SRSS-TB(LF)(SN)",
+      "main_board_qty": 1,
+      "refs": [
+        "J_IMU_CUFF"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "GloveV4:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    },
+    {
+      "mpn": "SN74AHC595PWR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_MUX_ADDR"
+      ],
+      "current_generic_3mm_refs": [
+        "U_MUX_ADDR"
+      ],
+      "footprint": "Glove:TSSOP-16_4.4x5mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.2,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74ahc595.pdf",
+      "source_sha256": "36153634a69a83956b78ea076e8219a8b61e96e1b8516b96223c2aa88ad7505b",
+      "physical_pdf_pages": [
+        33
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74ahc595.pdf",
+      "evidence": "PW0016A package outline explicitly states maximum height",
+      "audited_height_mm": 1.4
+    },
+    {
+      "mpn": "SN74AXC8T245PWR",
+      "main_board_qty": 2,
+      "refs": [
+        "U_CAM_DATA",
+        "U_CAM_CTRL"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CAM_DATA",
+        "U_CAM_CTRL"
+      ],
+      "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.2,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74axc8t245.pdf",
+      "source_sha256": "6cf4003c438c0546fb86f0932613896197dd19a75bdb307f385eb6e75535126e",
+      "physical_pdf_pages": [
+        29
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74axc8t245.pdf",
+      "evidence": "PW0024A package outline explicitly states maximum height",
+      "audited_height_mm": 1.4
+    },
+    {
+      "mpn": "SN74LVC1G00DBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CC_ATTACH"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CC_ATTACH"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g00.pdf",
+      "source_sha256": "1264f79853e6119b66d60fe54f1f6e87995c12c00138bd820981fe68febb1063",
+      "physical_pdf_pages": [
+        40
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g00.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "SN74LVC1G04DBVR",
+      "main_board_qty": 3,
+      "refs": [
+        "U_CC_HIGH",
+        "U_USB_NOSUSP",
+        "U_ANALOG_OFF"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CC_HIGH",
+        "U_USB_NOSUSP",
+        "U_ANALOG_OFF"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g04.pdf",
+      "source_sha256": "c9c30cad010d198aaa645d511b03415edc42108ca9799b173ee97d54e3f1a977",
+      "physical_pdf_pages": [
+        23
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "SN74LVC1G08DBVR",
+      "main_board_qty": 4,
+      "refs": [
+        "U_CFG_CLEAR",
+        "U_CFG_RESET",
+        "U_USB_ON",
+        "U_BOOT_PG"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CFG_CLEAR",
+        "U_CFG_RESET",
+        "U_USB_ON",
+        "U_BOOT_PG"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g08.pdf",
+      "source_sha256": "30b963cc44233cf3ca35c891ff987c8323a2244ecc765e23296ec96ca4b42666",
+      "physical_pdf_pages": [
+        27
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "SN74LVC1G17DBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_BOOT_SCHMITT"
+      ],
+      "current_generic_3mm_refs": [
+        "U_BOOT_SCHMITT"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g17.pdf",
+      "source_sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309",
+      "physical_pdf_pages": [
+        23
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "SN74LVC1G32DBVR",
+      "main_board_qty": 2,
+      "refs": [
+        "U_USB_ALLOW",
+        "U_BOOT_SOURCE"
+      ],
+      "current_generic_3mm_refs": [
+        "U_USB_ALLOW",
+        "U_BOOT_SOURCE"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g32.pdf",
+      "source_sha256": "b64786a568abe6a715c6f15dbc8ab1ffde3ad1017a1128a98931200e12c4c416",
+      "physical_pdf_pages": [
+        41
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "SN74LVC1G74DCUR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_USB_CFG"
+      ],
+      "current_generic_3mm_refs": [
+        "U_USB_CFG"
+      ],
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.9,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g74.pdf",
+      "source_sha256": "e46a5a867fec742290000dca5ed3b291535f3c4418ef2ae267acc4ab51b26d8a",
+      "physical_pdf_pages": [
+        22
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g74.pdf",
+      "evidence": "DCU0008A package outline explicitly states maximum height",
+      "audited_height_mm": 1.1
+    },
+    {
+      "mpn": "TAJA685K010RNJ",
+      "main_board_qty": 1,
+      "refs": [
+        "C_ADC_REF"
+      ],
+      "current_generic_3mm_refs": [
+        "C_ADC_REF"
+      ],
+      "footprint": "Glove:CP_EIA-3216-18_Kemet-A",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.8,
+      "height_datum": "package_bottom_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/TAJA685K010RNJ.pdf",
+      "source_sha256": "dd60ace79c228051cac79d64cd8b377fded1f0d84cc241a5d9c2299ceb603c6a",
+      "physical_pdf_pages": [
+        1
+      ],
+      "primary_source_url": "https://datasheets.kyocera-avx.com/TAJ.pdf",
+      "evidence": "TAJ A case height H 1.60 +0.20/-0.10 mm; termination included in overall outline, solder separate",
+      "audited_height_mm": 2.0
+    },
+    {
+      "mpn": "TCA9535PWR",
+      "main_board_qty": 2,
+      "refs": [
+        "U_IO0",
+        "U_IO1"
+      ],
+      "current_generic_3mm_refs": [
+        "U_IO0",
+        "U_IO1"
+      ],
+      "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.2,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tca9535.pdf",
+      "source_sha256": "cdaa29e68dbf21d55819621aae81544ce85c898a48dbd202b3067d18c87b0ab8",
+      "physical_pdf_pages": [
+        38
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tca9535.pdf",
+      "evidence": "PW0024A package outline explicitly states maximum height",
+      "audited_height_mm": 1.4
+    },
+    {
+      "mpn": "TLV3012BIDBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_BAT_READY"
+      ],
+      "current_generic_3mm_refs": [
+        "U_BAT_READY"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tlv3012.pdf",
+      "source_sha256": "02993c016420887ee4f1ab2fa640e7596c9c1324a73f4f72bee3b32adec38df3",
+      "physical_pdf_pages": [
+        37
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tlv3012.pdf",
+      "evidence": "DBV0006A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TLV75518PDBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_LDO"
+      ],
+      "current_generic_3mm_refs": [
+        "U_LDO"
+      ],
+      "footprint": "Glove:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v3/component-evidence/active/datasheets/tlv755p.pdf",
+      "source_sha256": "21731db76a8edbf368a2e9e996a525a3998132a5356379d9af1a8ad7d4934f57",
+      "physical_pdf_pages": [
+        37
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+      "evidence": "DBV0005A",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TMK107BBJ106MA-T",
+      "main_board_qty": 2,
+      "refs": [
+        "C_MAIN_LOCAL_IN",
+        "C_MAIN_LOCAL_OUT"
+      ],
+      "current_generic_3mm_refs": [
+        "C_MAIN_LOCAL_IN",
+        "C_MAIN_LOCAL_OUT"
+      ],
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.0,
+      "primary_source_url": "https://www.es.co.th/Schemetic/PDF/TMK107BBJ106MA-T.PDF",
+      "height_datum": "body_thickness",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/TMK107BBJ106MA-T.pdf",
+      "source_sha256": "8011c51d49639db7731d83e9832c0577e71bcf7cfbb51867616c1a9c83694ca5",
+      "physical_pdf_pages": [
+        1
+      ],
+      "evidence": "Manufacturer spec sheet exact part: Dimension T 0.8 +0.20/-0.00 mm.",
+      "part_number_note": "Manufacturer renamed to MSAST168BB5106MTNA01 for general equipment; retained exact selected legacy MPN pending supply review. No automatic substitution.",
+      "rename_source": "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TMK107BBJ106MA-T+&u=M",
+      "audited_height_mm": 1.2
+    },
+    {
+      "mpn": "TPS22919DCKR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_SD_POWER"
+      ],
+      "current_generic_3mm_refs": [
+        "U_SD_POWER"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.1,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps22919.pdf",
+      "source_sha256": "743c59b01fb0891d2d0f1faba779161cd2d2b6c18edf68e6d5b3279016240c84",
+      "physical_pdf_pages": [
+        24
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps22919.pdf",
+      "evidence": "DCK0006A package outline explicitly states maximum height",
+      "audited_height_mm": 1.3
+    },
+    {
+      "mpn": "TPS22950YBHR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_USB_RECOVERY"
+      ],
+      "current_generic_3mm_refs": [
+        "U_USB_RECOVERY"
+      ],
+      "footprint": "GlovePower:TI_YBH0006_C02",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.4,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps22950.pdf",
+      "source_sha256": "e0f4f5766ba30309af96287e20345b34b38986da59bb0e644bf5401e009c0c66",
+      "physical_pdf_pages": [
+        21
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps22950.pdf",
+      "evidence": "YBH0006-C02 package outline explicitly states maximum height",
+      "audited_height_mm": 0.6
+    },
+    {
+      "mpn": "TPS2553DBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_USB_HIGH"
+      ],
+      "current_generic_3mm_refs": [
+        "U_USB_HIGH"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps2553.pdf",
+      "source_sha256": "88e453700cea2b263cdb5b44fce1e883e0f6d3b975457f879ac1423eeea42071",
+      "physical_pdf_pages": [
+        41
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps2553.pdf",
+      "evidence": "DBV0006A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TPS63070RNMR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_MAIN"
+      ],
+      "current_generic_3mm_refs": [
+        "U_MAIN"
+      ],
+      "footprint": "GlovePower:TI_RNM0015A",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.0,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps63070.pdf",
+      "source_sha256": "a88ef66f3493156ff6e7da0849de0e0e1068647f2553d08c1844d4a90c5c65ef",
+      "physical_pdf_pages": [
+        39
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+      "evidence": "RNM0015A package outline explicitly states maximum height",
+      "audited_height_mm": 1.2
+    },
+    {
+      "mpn": "TPS7A2015PDBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CAM_DV"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CAM_DV"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps7a20.pdf",
+      "source_sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+      "physical_pdf_pages": [
+        56
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TPS7A2018PDBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CAM_IO"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CAM_IO"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps7a20.pdf",
+      "source_sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+      "physical_pdf_pages": [
+        56
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TPS7A2028PDBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CAM_AV"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CAM_AV"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps7a20.pdf",
+      "source_sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+      "physical_pdf_pages": [
+        56
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TPS7A2033PDBVR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_ANALOG_LDO"
+      ],
+      "current_generic_3mm_refs": [
+        "U_ANALOG_LDO"
+      ],
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 1.45,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tps7a20.pdf",
+      "source_sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+      "physical_pdf_pages": [
+        56
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+      "evidence": "DBV0005A package outline explicitly states maximum height",
+      "audited_height_mm": 1.65
+    },
+    {
+      "mpn": "TUSB320LAIRWBR",
+      "main_board_qty": 1,
+      "refs": [
+        "U_CC"
+      ],
+      "current_generic_3mm_refs": [
+        "U_CC"
+      ],
+      "footprint": "Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 0.4,
+      "height_datum": "seating_plane_to_top",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/tusb320lai.pdf",
+      "source_sha256": "62f7b3f65338e25ebd6fd46ef04474ba806b06b1cc04bc0b3d7b8191b01ca87d",
+      "physical_pdf_pages": [
+        35
+      ],
+      "primary_source_url": "https://www.ti.com/lit/ds/symlink/tusb320lai.pdf",
+      "evidence": "RWB0012A package outline explicitly states maximum height",
+      "audited_height_mm": 0.6
+    },
+    {
+      "mpn": "TYPE-C-31-M-12",
+      "main_board_qty": 1,
+      "refs": [
+        "J_USB"
+      ],
+      "current_generic_3mm_refs": [],
+      "footprint": "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12",
+      "mounting_allowance_mm": null,
+      "mounting_allowance_status": "Assembly-process solder stand-off/tolerance must be set separately before lowering CAD envelopes.",
+      "status": "existing_specific_envelope_outside_initial_generic_audit",
+      "maximum_height_mm": null,
+      "primary_source_url": "https://www.hrocn.com/ProductDetail.aspx?id=199"
+    },
+    {
+      "mpn": "XFL4020-152MEC",
+      "main_board_qty": 2,
+      "refs": [
+        "L_CHARGER",
+        "L_MAIN"
+      ],
+      "current_generic_3mm_refs": [
+        "L_CHARGER",
+        "L_MAIN"
+      ],
+      "footprint": "GlovePower:Coilcraft_XFL4020",
+      "mounting_allowance_mm": 0.2,
+      "mounting_allowance_status": "Engineering assembly acceptance limit; measured board-to-peak must not exceed manufacturer maximum+0.20mm.",
+      "status": "manufacturer_maximum_verified",
+      "maximum_height_mm": 2.1,
+      "primary_source_url": "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xfl/xfl4020/",
+      "height_datum": "seated_height",
+      "source_url": "https://www.coilcraft.com/getmedia/50632d43-da1b-4cdb-8ab4-3029cab51df3/xfl4020.pdf",
+      "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/xfl4020.pdf",
+      "source_sha256": "6dca915ac1daa47210f7708a7540221ffef4f34a88a8621c94bd50cdf48647e6",
+      "physical_pdf_pages": [
+        1,
+        3
+      ],
+      "source_classification": "manufacturer_PDF",
+      "evidence": "Document745, revised03/10/26. Page1 exact152ME family and E/C suffix map. Page3 height2.10max; optional T/S termination pre-mount allowance does not apply to selected E termination.",
+      "audited_height_mm": 2.3
+    }
+  ],
+  "initial_snapshot": "package-heights.json",
+  "supplements": [
+    "mlcc-height-evidence.json",
+    "remaining-height-evidence.json",
+    "taiyo-height-evidence.json"
+  ]
+}

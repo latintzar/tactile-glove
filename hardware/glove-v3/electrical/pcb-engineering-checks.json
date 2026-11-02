@@ -1,0 +1,172 @@
+{
+  "board_sha256": "feb122182190ef7c7e0303f19acc07aaefc8416172bf91f6595cc17ad2262e2b",
+  "component_count": 356,
+  "distinct_connected_nets": 244,
+  "track_segments_by_layer": {
+    "F.Cu": 1676,
+    "In1.Cu": 566,
+    "B.Cu": 1769,
+    "In2.Cu": 394
+  },
+  "charge_input_nets": {
+    "CHG_IN_H1": {
+      "total_branch_length_mm": 14.5029,
+      "vias": 0
+    },
+    "CHG_IN_H2": {
+      "total_branch_length_mm": 15.3631,
+      "vias": 0
+    },
+    "CHG_IN_I1": {
+      "total_branch_length_mm": 21.2217,
+      "vias": 0
+    },
+    "CHG_IN_I2": {
+      "total_branch_length_mm": 11.8741,
+      "vias": 1
+    },
+    "CHG_IN_I3": {
+      "total_branch_length_mm": 14.494,
+      "vias": 1
+    },
+    "CHG_IN_L1": {
+      "total_branch_length_mm": 11.6975,
+      "vias": 1
+    },
+    "CHG_IN_L2": {
+      "total_branch_length_mm": 12.2687,
+      "vias": 1
+    },
+    "CHG_IN_L3": {
+      "total_branch_length_mm": 15.9481,
+      "vias": 0
+    },
+    "CHG_IN_M1": {
+      "total_branch_length_mm": 17.3436,
+      "vias": 2
+    },
+    "CHG_IN_M2": {
+      "total_branch_length_mm": 18.1358,
+      "vias": 0
+    },
+    "CHG_IN_M3": {
+      "total_branch_length_mm": 10.3401,
+      "vias": 1
+    },
+    "CHG_IN_P1": {
+      "total_branch_length_mm": 13.0564,
+      "vias": 1
+    },
+    "CHG_IN_P2": {
+      "total_branch_length_mm": 16.2739,
+      "vias": 0
+    },
+    "CHG_IN_P3": {
+      "total_branch_length_mm": 20.1098,
+      "vias": 2
+    },
+    "CHG_IN_P4": {
+      "total_branch_length_mm": 11.7291,
+      "vias": 1
+    },
+    "CHG_IN_R1": {
+      "total_branch_length_mm": 10.8421,
+      "vias": 1
+    },
+    "CHG_IN_R2": {
+      "total_branch_length_mm": 21.3994,
+      "vias": 2
+    },
+    "CHG_IN_R3": {
+      "total_branch_length_mm": 22.5565,
+      "vias": 3
+    },
+    "CHG_IN_T1": {
+      "total_branch_length_mm": 23.6886,
+      "vias": 1
+    },
+    "CHG_IN_T2": {
+      "total_branch_length_mm": 16.586,
+      "vias": 1
+    }
+  },
+  "adc_nets": {
+    "ADC_AIN+": {
+      "total_branch_length_mm": 11.6388,
+      "vias": 2
+    },
+    "ADC_AIN-": {
+      "total_branch_length_mm": 11.728,
+      "vias": 1
+    },
+    "ADC_CNV": {
+      "total_branch_length_mm": 21.5052,
+      "vias": 2
+    },
+    "ADC_DRIVER_OUT": {
+      "total_branch_length_mm": 5.3564,
+      "vias": 1
+    },
+    "ADC_MISO": {
+      "total_branch_length_mm": 19.0325,
+      "vias": 2
+    },
+    "ADC_MUX": {
+      "total_branch_length_mm": 10.5167,
+      "vias": 2
+    },
+    "ADC_NEG_OUT": {
+      "total_branch_length_mm": 4.2259,
+      "vias": 1
+    },
+    "ADC_SCK": {
+      "total_branch_length_mm": 19.134,
+      "vias": 2
+    }
+  },
+  "rules_mm": {
+    "minimum_track": 0.15,
+    "copper_clearance": 0.15,
+    "copper_edge_clearance": 0.5,
+    "via_diameter": 0.6,
+    "via_drill": 0.3,
+    "minimum_hole_to_hole": 0.25
+  },
+  "drc_exclusions": [],
+  "routing_method": "Preserved original four-layer routes; V3.3 reference/buffer/20-clamp additions completed by clearance-conservative local routing and escape vias; orphan stubs removed; all native pads reconciled; zones refilled and KiCad DRC run with unchanged rules.",
+  "assembly_note": "Clean flux residues around 22 Meg feedback and charge-input nodes. First-article electrical, RF and mechanical tests are physical commissioning.",
+  "bias_nets": {
+    "VEXC2V5": {
+      "total_branch_length_mm": 212.1082,
+      "vias": 11
+    },
+    "VEXC_DIV": {
+      "total_branch_length_mm": 4.0551,
+      "vias": 2
+    },
+    "VEXC_DRV": {
+      "total_branch_length_mm": 10.0587,
+      "vias": 1
+    },
+    "VEXC_FB": {
+      "total_branch_length_mm": 22.0211,
+      "vias": 4
+    },
+    "VMID1V25": {
+      "total_branch_length_mm": 713.8995,
+      "vias": 42
+    },
+    "VMID_BUF_IN": {
+      "total_branch_length_mm": 0.5382,
+      "vias": 1
+    },
+    "VMID_DIV": {
+      "total_branch_length_mm": 33.4347,
+      "vias": 3
+    },
+    "VREF3V0": {
+      "total_branch_length_mm": 58.1268,
+      "vias": 7
+    }
+  }
+}

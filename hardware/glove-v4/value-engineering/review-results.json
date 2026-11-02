@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-23",
+  "native_cases_independently_recomputed": [
+    {
+      "case": "dynamic-r1000",
+      "residual_V": -2.4159446221361236e-08,
+      "passes_existing_wait": true
+    },
+    {
+      "case": "pressure-r1000",
+      "residual_V": -0.0030048745399178234,
+      "passes_existing_wait": false
+    },
+    {
+      "case": "dynamic-r2000",
+      "residual_V": -0.00024136160915078086,
+      "passes_existing_wait": false
+    },
+    {
+      "case": "pressure-r2000",
+      "residual_V": -0.00526233194559933,
+      "passes_existing_wait": false
+    }
+  ],
+  "shared_com_accepted": false,
+  "repository_tests": {
+    "passed": 510,
+    "subtests_passed": 4,
+    "duration_s": 70.52,
+    "log": "hardware/glove-v4/value-engineering/repository-tests.log"
+  },
+  "javascript_syntax": "passed",
+  "consequential_review_corrections": [
+    "Restored external power-path loss in alternative battery runtime.",
+    "Counted entire minimum material purchases for one-glove cash outlay.",
+    "Rejected backed PVDF as a drop-in to the existing soft pad.",
+    "Precharged shared-COM simulation for full source steps and corrected the buffered ADC explanation.",
+    "Kept possible wire goods-price difference separate from qualified delivered savings.",
+    "Detected Economic PCBA ineligibility from layers, both-side placement and BGA pitch."
+  ],
+  "canonical_hardware_changed": false,
+  "complete_cheaper_design_ready": false,
+  "physical_hardware_tested": false
+}

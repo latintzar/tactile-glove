@@ -1,0 +1,111 @@
+{
+  "schema": 1,
+  "circuit_sha256": "6fce7100f25a63020bf07900c7b29898cddf5ea7d47e4beb4b7b728807fbd91a",
+  "checks": [
+    {
+      "name": "Fuse precedes every board battery branch",
+      "status": "pass",
+      "details": [
+        [
+          "F_BAT",
+          "1"
+        ],
+        [
+          "J_BAT",
+          "1"
+        ]
+      ]
+    },
+    {
+      "name": "Exact direct-AWG22 battery header and fuse",
+      "status": "pass",
+      "details": {
+        "header": "43045-0200",
+        "fuse": "045102.5MRL"
+      }
+    },
+    {
+      "name": "Loss components fit explicit 190mohm acceptance allocation",
+      "status": "pass",
+      "details": {
+        "wire_65C_ohm": 0.009348896399999999,
+        "two_contacts_and_crimps_ohm": 0.06999999999999999,
+        "fuse_engineering_allocation_ohm": 0.0572,
+        "BATFET_max_ohm": 0.03,
+        "PCB_copper_allocation_ohm": 0.015,
+        "subtotal_ohm": 0.1815488964,
+        "assembly_acceptance_ceiling_ohm": 0.19
+      }
+    },
+    {
+      "name": "Factory extension variant fits the same path allocation",
+      "status": "pass",
+      "details": {
+        "added_wire_max_per_lead_mm": 35,
+        "added_wire_65C_ohm": 0.0043628183200000005,
+        "two_splices_acceptance_ohm": 0.004,
+        "extended_subtotal_ohm": 0.18991171471999999,
+        "assembly_acceptance_ceiling_ohm": 0.19,
+        "direct_leads_preferred": true,
+        "splice_resistance_requires_kelvin_measurement": true
+      }
+    },
+    {
+      "name": "Load step including path losses fits fuse allocation",
+      "status": "pass",
+      "details": {
+        "1A_system_load_step_battery_current_A": 1.5247591150638633,
+        "charge_corner_A": 1.2812812812812813,
+        "fuse_continuous_allocation_A": 1.59375,
+        "minimum_temperature_rerating_factor_required": 0.8132048613673938,
+        "temperature_factor_is_allocation_requiring_current_datasheet_and_measured_ambient": true
+      }
+    },
+    {
+      "name": "Charge corner within pack rating",
+      "status": "pass",
+      "details": {
+        "charge_A": 1.2812812812812813,
+        "pack_rating_A": 2.0
+      }
+    },
+    {
+      "name": "200percent fuse test current below connector reference",
+      "status": "pass",
+      "details": {
+        "fault_fixture_current_A": 5.0,
+        "datasheet_max_opening_s_at25C": 5,
+        "conservative_2circuit_AWG22_connector_reference_A": 5.5,
+        "reference_not_installed_thermal_rating": true
+      }
+    },
+    {
+      "name": "Constant-power equation residual",
+      "status": "pass",
+      "details": {
+        "residual_W": 0.0
+      }
+    },
+    {
+      "name": "Voltage-collapse input rejected",
+      "status": "pass",
+      "details": {}
+    }
+  ],
+  "failed_checks": [],
+  "all_calculated_checks_pass": true,
+  "physical_validation": false,
+  "sources": {
+    "connector": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/430/43045/PS-43045-001.pdf",
+    "fuse": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+    "BATFET": "https://www.ti.com/lit/ds/symlink/bq25616.pdf"
+  },
+  "qualification_required": [
+    "Measure assembled path loss from protected pack output to converter input at temperature; require <=190mohm equivalent at load.",
+    "Verify actual fuse ambient with current manufacturer rerating curve: required factor >=0.85, separate from75percent continuous derating.",
+    "Characterize inrush and repeated startup I-squared-t; nominal1.029A2s melting value is not a guaranteed repetitive pulse limit.",
+    "Use current-limited laboratory source and sacrificial fixture for5A fault opening; record current/time and connector/wire/PCB temperature. The5s rating applies at datasheet conditions.",
+    "Check low voltage at converter input and capture cutoff with real source impedance; repeat native switching-model low-input case if outside its tested range.",
+    "Physical six-hour endurance remains required with the production camera, SD and radio workload."
+  ]
+}

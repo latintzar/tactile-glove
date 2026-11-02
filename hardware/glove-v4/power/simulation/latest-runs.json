@@ -1,0 +1,59 @@
+[
+  {
+    "name": "buck_path_operating_3p7_klu",
+    "attempt_directory": ".attempts/buck_path_operating_3p7_klu-20261023T012515-0e119af6",
+    "analysis_complete": false,
+    "simulation_errors": [
+      "Waveform export is missing"
+    ],
+    "seconds": 180.01,
+    "simulator_returncode": 124,
+    "actual_native_end_s": null,
+    "expected_end_s": 0.0007,
+    "completion_marker": false,
+    "expected_step_s": 1.0000000000000001e-07,
+    "expected_columns": 18,
+    "deck_sha256": "7b89955429b2bc2fa12997727caaa2e825aa8401abd7843020780bb110d30a22",
+    "executed_deck_sha256": "ece398fc24c9f4d4dbb43b90d1e38c3c4c4af543c6ae5e6287359bb5b5d73e0e",
+    "log_sha256": "d5d72c9434532330d8cc42009356cb43e8b018eaa608ba2784300558cf98430f",
+    "waveform_sha256": null,
+    "waveform_validation": {
+      "valid": false,
+      "rows": 0,
+      "expected_rows": null,
+      "last_time_s": null,
+      "all_zero_tail_rows": 0,
+      "errors": [
+        "Waveform export is missing"
+      ]
+    }
+  },
+  {
+    "name": "buck_path_network_start_klu",
+    "attempt_directory": ".attempts/buck_path_network_start_klu-20261023T012515-85ff3daf",
+    "analysis_complete": false,
+    "simulation_errors": [
+      "doAnalyses: TRAN:  Timestep too small; time = 0.000158519, timestep = 1.25e-19: trouble with node \"xu.x_u3.isen_int\"",
+      "tran simulation(s) aborted"
+    ],
+    "seconds": 12.453,
+    "simulator_returncode": 0,
+    "actual_native_end_s": 0.0001585194,
+    "expected_end_s": 0.0009,
+    "completion_marker": true,
+    "expected_step_s": 1.0000000000000001e-07,
+    "expected_columns": 18,
+    "deck_sha256": "d05957a0e1f8bfa13373367a1a48bcaa303066f5becc14c0b9d09221ffa4720e",
+    "executed_deck_sha256": "34203fa02c7f5f999886c75e4fe67934bdfe30920594849e0cf4ea9b011ce413",
+    "log_sha256": "b75867a70060781d655856a40a5dc594f54c3489b08cfd9217260bae3f30b6bb",
+    "waveform_sha256": "59f109796d29fffacdf31acca2b5b80f5118e0cbf16fb832612dc2383a0995f8",
+    "waveform_validation": {
+      "valid": true,
+      "rows": 9001,
+      "expected_rows": 9001,
+      "last_time_s": 0.0009,
+      "all_zero_tail_rows": 0,
+      "errors": []
+    }
+  }
+]

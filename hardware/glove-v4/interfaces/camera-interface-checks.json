@@ -1,0 +1,236 @@
+{
+  "source_sha256": "45264f7214829efe9e6b5bb3739472fb50bcb5b752d37db0c42826b42711aaaa",
+  "check_count": 29,
+  "passed": 29,
+  "checks": [
+    {
+      "name": "data_bank_directions",
+      "pass_": true,
+      "detail": "All eight image lines must travel camera A to MCU B."
+    },
+    {
+      "name": "sync_control_bank_directions",
+      "pass_": true,
+      "detail": "DIR2 has opposite polarity to DIR1 in this exact IC."
+    },
+    {
+      "name": "data_bit_0",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_1",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_2",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_3",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_4",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_5",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_6",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "data_bit_7",
+      "pass_": true,
+      "detail": "Independent one-to-one mapping; no data bit permutation."
+    },
+    {
+      "name": "camera_power_pins",
+      "pass_": true,
+      "detail": "AVDD pin4, core pin10, I/O pin11; no reliance on old1V2 net label."
+    },
+    {
+      "name": "camera_unused_af_pins",
+      "pass_": true,
+      "detail": "This fixed-focus camera must not receive AF power on NC pins."
+    },
+    {
+      "name": "sccb_gate_bias",
+      "pass_": true,
+      "detail": "200k resistor biases EN/VREF2; these pins are not tied directly to supply."
+    },
+    {
+      "name": "off_state_isolation",
+      "pass_": true,
+      "detail": "Interface low -> inverter high -> NMOS clamps SCCB gate; AXC OE pulled high."
+    },
+    {
+      "name": "gpio_uniqueness",
+      "pass_": true,
+      "detail": "Camera + I2C allocation unique."
+    },
+    {
+      "name": "boot_strap_avoidance",
+      "pass_": true,
+      "detail": "Avoid S3 strapping and N8R8 PSRAM reserved pins."
+    },
+    {
+      "name": "DOVDD_supply_corner",
+      "pass_": true,
+      "detail": {
+        "design_range_v": [
+          1.764,
+          1.836
+        ],
+        "allowed_v": [
+          1.71,
+          2.8
+        ]
+      }
+    },
+    {
+      "name": "AVDD_supply_corner",
+      "pass_": true,
+      "detail": {
+        "design_range_v": [
+          2.7439999999999998,
+          2.856
+        ],
+        "allowed_v": [
+          2.6,
+          3.0
+        ]
+      }
+    },
+    {
+      "name": "DVDD_supply_corner",
+      "pass_": true,
+      "detail": {
+        "design_range_v": [
+          1.47,
+          1.53
+        ],
+        "allowed_v": [
+          1.425,
+          1.575
+        ]
+      }
+    },
+    {
+      "name": "nominal_camera_output_logic_margin",
+      "pass_": true,
+      "detail": {
+        "camera_voh_v": 1.62,
+        "camera_vol_v": 0.18,
+        "translator_vih_max_v": 1.1934000000000002,
+        "translator_vil_min_v": 0.6174,
+        "camera_input_vih_v": 1.26,
+        "camera_input_vil_v": 0.54,
+        "translator_out_high_at_100ua_v": 1.664,
+        "translator_out_low_at_100ua_v": 0.1
+      }
+    },
+    {
+      "name": "camera_control_static_load",
+      "pass_": true,
+      "detail": "47k pulls draw <40uA, within the translator 100uA DC output specification; dynamic charging is separate."
+    },
+    {
+      "name": "nominal_camera_input_logic_margin",
+      "pass_": true,
+      "detail": {
+        "camera_voh_v": 1.62,
+        "camera_vol_v": 0.18,
+        "translator_vih_max_v": 1.1934000000000002,
+        "translator_vil_min_v": 0.6174,
+        "camera_input_vih_v": 1.26,
+        "camera_input_vil_v": 0.54,
+        "translator_out_high_at_100ua_v": 1.664,
+        "translator_out_low_at_100ua_v": 0.1
+      }
+    },
+    {
+      "name": "i2c_400khz_rise_budget",
+      "pass_": true,
+      "detail": {
+        "capacitance_budget_pf": 100,
+        "rise_ns": 186.40600000000003,
+        "limit_ns": 300
+      }
+    },
+    {
+      "name": "shared_i2c_sink_budget",
+      "pass_": true,
+      "detail": {
+        "worst_combined_sink_ma": 2.4481818181818182,
+        "limit_ma": 3,
+        "host_pullup_ohm": 2200,
+        "camera_pullup_ohm": 2200
+      }
+    },
+    {
+      "name": "power_up_order",
+      "pass_": true,
+      "detail": "Separate20ms gaps accommodate LDO startup; LDO power-good waveform still verified on assembled board."
+    },
+    {
+      "name": "core_to_powerdown_delay",
+      "pass_": true,
+      "detail": {
+        "delay_ms": 21,
+        "minimum_ms": 5
+      }
+    },
+    {
+      "name": "powerdown_to_reset_delay",
+      "pass_": true,
+      "detail": {
+        "delay_ms": 2,
+        "minimum_ms": 1
+      }
+    },
+    {
+      "name": "reset_to_sccb_delay",
+      "pass_": true,
+      "detail": {
+        "delay_ms": 26,
+        "minimum_ms": 20
+      }
+    },
+    {
+      "name": "clock_before_sccb",
+      "pass_": true,
+      "detail": "24MHz source started before probe; lies in sensor6\u201327MHz specification."
+    }
+  ],
+  "power_sizing": {
+    "camera_datasheet_maximum_rail_current_ma": {
+      "analog": 40,
+      "digital_core": 125,
+      "digital_io": 12
+    },
+    "linear_regulator_input_power_w_at_3v55": 0.62835,
+    "ldo_dissipation_w": {
+      "AVDD": 0.032239999999999984,
+      "DVDD": 0.26,
+      "DOVDD": 0.021432
+    }
+  },
+  "not_established_by_checks": [
+    "camera supplied-tail thickness/contact orientation",
+    "full sensor module operating power at selectedmode",
+    "manufactured interconnect edge rate, timing skew and EMC",
+    "LDO measured startup at capacitor corners",
+    "actual combined I2C capacitance",
+    "temperature and image quality"
+  ]
+}

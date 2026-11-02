@@ -1,0 +1,26 @@
+TPS63070 original TI model main rail startup/load step
+.include ../models/SLVMBP8/TPS63070_PSPICE_TRANS/TPS63070_TRANS.LIB
+Vbat in 0 3.7
+Ven en 0 3.7
+XU en fb 0 0 l1 l2 pg 0 0 aux in in out out 0 TPS63070_TRANS
+L1 l1 lr 1.2u
+R1 lr l2 0.0144
+CIN in 0 20u
+CO out 0 40u
+CA aux 0 100n
+Rtop out fb 327k
+Rbottom fb 0 100k
+Rpg out pg 100k
+RBASE out 0 341.6
+ILOAD out 0 PWL(0 0 300u 0 301u 0.25 500u 0.25 501u 1.0 650u 1.0 651u 0.25)
+.options method=gear reltol=0.003 abstol=1n
+.ic v(out)=3.416
+.control
+set noaskquit
+save v(out) v(in) v(pg) i(l1) v(xu.fault) v(xu.enlogic) v(aux)
+tran 100n 700u 0 100n
+linearize v(out) v(pg) i(l1) v(xu.fault) v(xu.enlogic) v(aux)
+wrdata buck_3p7_1p2.txt v(out) v(pg) i(l1) v(xu.fault) v(xu.enlogic) v(aux)
+quit
+.endc
+.end

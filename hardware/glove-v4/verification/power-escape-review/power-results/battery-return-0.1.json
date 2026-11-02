@@ -1,0 +1,40 @@
+{
+  "board_sha256": "973111f03d52a0288c53378c9ba5df2dc6b7ac896ce2e6f88557ab0d7846a84b",
+  "configuration": {
+    "net": "GND",
+    "layer": "GND_TOP",
+    "sources": [
+      [
+        4.1,
+        63.25
+      ]
+    ],
+    "loads": [
+      [
+        29,
+        65
+      ],
+      [
+        29.65,
+        65
+      ],
+      [
+        30.3,
+        65
+      ]
+    ],
+    "load_radius_mm": 0.225
+  },
+  "method": "2D four-neighbour resistive sheet on the largest filled main-rail polygon; excludes parallel copper and vias, so estimates only this plane contribution. Not a thermal or AC model. Coarse raster must converge before use.",
+  "grid_mm": 0.1,
+  "widest_interior_corridor_mm": 1.796875,
+  "corridor_terminal_exclusion_radius_mm": 1.5,
+  "nodes": 699450,
+  "solver_info": 0,
+  "elapsed_s": 4.549469857942313,
+  "equivalent_squares": 2.080677830418822,
+  "residual_l2": 5.69869032472877e-13,
+  "rho_at50C_ohm_m": 1.9272596000000003e-08,
+  "resistance_at15um_ohm": 0.002673337548787898,
+  "resistance_at30um_ohm": 0.001336668774393949
+}

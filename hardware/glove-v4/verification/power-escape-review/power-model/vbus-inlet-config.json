@@ -1,0 +1,22 @@
+{
+  "net": "USB_VBUS",
+  "layer": "POWER_B",
+  "sources": [
+    [
+      92.015,
+      51.55
+    ],
+    [
+      92.015,
+      56.45
+    ]
+  ],
+  "loads": [
+    [
+      87.3,
+      58.6
+    ]
+  ],
+  "source_radius_mm": 0.3,
+  "load_radius_mm": 0.3
+}

@@ -1,0 +1,45 @@
+* Glove v3 representative one-cell PVDF readout
+* Nominal: 3.3 V rail, 1.25 V Vmid, 531 pF full 10 x 14 mm PVDF blank plus 150 pF cable, 22 Mohm || 470 pF charge feedback.
+* All three amplifiers use the fetched MCP6001/2/4 macro-model.
+.title One-cell PVDF charge amplifier and two Sallen-Key stages
+.param VDDVAL=3.3 VBIAS=1.25 CPV=531p CABLEVAL=300p IPULSEV=250u RFBV=22Meg CFBV=470p
+VDD vdd 0 {VDDVAL}
+VBIAS vmi 0 {VBIAS}
+CPVDF nsense vmi {CPV}
+CCABLE nsense vmi {CABLEVAL}
+RIN nsense nin 1000
+RINPUT nin vmi 1G
+* A250uA pulse with100ns ramps and900ns flat injects250pC.
+IAC vmi nsense DC 0 AC 1
+IPULSE vmi nsense PULSE(0 {IPULSEV} 10m 100n 100n 900n 1s)
+XCA vmi nin vdd 0 nca MCP6001
+RFB nca nin {RFBV}
+CFB nca nin {CFBV}
+
+* Stage 1: 14.7k / 14.7k, 12 nF feedback, 10 nF to Vmid.
+R1A nca n1 14.7k
+R1B n1 n2 14.7k
+C1FB n1 s1out 12n
+C1G n2 vmi 10n
+XSK1 n2 s1out vdd 0 s1out MCP6001
+
+* Stage 2: 27.4k / 27.4k, 15 nF feedback, 2.2 nF to Vmid.
+R2A s1out n3 27.4k
+R2B n3 n4 27.4k
+C2FB n3 s2out 15n
+C2G n4 vmi 2.2n
+XSK2 n4 s2out vdd 0 s2out MCP6001
+
+
+.include MCP6001-original.lib
+.options method=gear reltol=1e-4 abstol=1e-12 gmin=1e-13 maxord=2 itl1=500 itl4=100
+.temp 27
+
+.control
+set wr_singlescale
+set wr_vecnames
+tran 2u 0.13 0 1u
+wrdata /tmp/glove-eda-runtime/analog-v32/current-cable-300.dat v(nca) v(s1out) v(s2out) v(nin) v(nsense)
+quit
+.endc
+.end

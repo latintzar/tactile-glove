@@ -1,0 +1,46 @@
+{
+  "board_sha256": "a4462256898956eeb897fb65d5c1fc2024cbc64493809682df3a095a8dfc685b",
+  "configuration": {
+    "net": "VBAT",
+    "sources": [
+      [
+        14.055,
+        74.5
+      ],
+      [
+        14.855,
+        74.5
+      ],
+      [
+        14.055,
+        75.5
+      ],
+      [
+        14.855,
+        75.5
+      ]
+    ],
+    "loads": [
+      [
+        17.8,
+        65.025
+      ],
+      [
+        17.3736,
+        64.6083
+      ]
+    ]
+  },
+  "method": "2D four-neighbour resistive sheet on the largest filled main-rail polygon; excludes parallel copper and vias, so estimates only this plane contribution. Not a thermal or AC model. Coarse raster must converge before use.",
+  "grid_mm": 0.1,
+  "widest_interior_corridor_mm": 1.19140625,
+  "corridor_terminal_exclusion_radius_mm": 1.5,
+  "nodes": 22532,
+  "solver_info": 0,
+  "elapsed_s": 0.06030314601957798,
+  "equivalent_squares": 1.936118212739582,
+  "residual_l2": 1.0684349747822586e-13,
+  "rho_at50C_ohm_m": 1.9272596000000003e-08,
+  "resistance_at15um_ohm": 0.002487601608158135,
+  "resistance_at30um_ohm": 0.0012438008040790674
+}

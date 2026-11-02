@@ -1,0 +1,20 @@
+[
+  {
+    "name": "buck_path190m_low",
+    "simulator_returncode": 0,
+    "validated": false,
+    "reason": "Native solver aborted at70.5737us; linearize produced misleading1200us padded output",
+    "deck_sha256": "bb3e53b8a26e4037ab83b99801db402d80d022004f27b78269d2d342bbc255ba",
+    "log_sha256": "a0801cc289d4f44fc95f21c4e76e7df2ce1998850371907690bed7c27d832789",
+    "waveform_sha256": "2012d5d4beb9b9aaea1fdaaad8f91b04a889dfa183b63cceb297ffc3e79bc539"
+  },
+  {
+    "name": "buck_path190m_start",
+    "simulator_returncode": 124,
+    "validated": false,
+    "reason": "Process timed out after330s before waveform export",
+    "deck_sha256": "3d84f510ff244d6db9791c9e6c6a7506e9d8b901b6421687124051f30ef7a796",
+    "log_sha256": "2b33aedfd062032a01258110800e8b604f517c4358543852ec14bd2a82f09aae",
+    "waveform_sha256": null
+  }
+]

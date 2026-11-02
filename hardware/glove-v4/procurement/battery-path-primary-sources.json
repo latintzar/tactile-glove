@@ -1,0 +1,159 @@
+{
+  "recorded_utc": "2026-10-23",
+  "scope": "Current V4 direct-AWG22 Micro-Fit battery interface and 045102.5MRL fuse",
+  "status": "Primary Molex manufacturer series drawing and product records retained; exact STP archive endpoints were attempted and timed out in this runtime. No generic family CAD is used.",
+  "sources": [
+    {
+      "part": "43045-0200",
+      "role": "PCB right-angle header",
+      "manufacturer": "Molex",
+      "drawing_url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450600_sd.pdf",
+      "product_url": "https://www.molex.com/en-us/products/series-chart/43045",
+      "facts": [
+        "Exact selected row 02 is 43045-0200 (finish A); dual-row right-angle through-hole, 3.00 mm pitch, snap-in plastic PCB lock.",
+        "Drawing shows 2-circuit centerline pitch 3.00 mm, 1.02 \u00b10.05 mm finished holes, 1.50 \u00b10.05 mm land width, and 6.65 mm A profile for the 2-circuit variant.",
+        "Manufacturer product record gives 10.29 mm mated-height attribute; the mated side-view drawing profile gives 10.81 mm and rear/wire-exit-to-mating-face profile 17.56 mm. These are different profile datums and must not be merged.",
+        "Circuit-1 identifier is shown on the marked header surface; current board mating direction is +Y."
+      ],
+      "drawing_note": "Current SD-43045-001 Rev H1 series drawing; exact 43045-0200 appears in the 02-circuit row. The 430450200.pdf 3D-model drawing is an identification sheet, while this sales drawing supplies the section/centerline dimensions."
+    },
+    {
+      "part": "43025-0200",
+      "role": "pack-side receptacle housing",
+      "manufacturer": "Molex",
+      "drawing_url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43025/430250200_sd.pdf",
+      "product_url": "https://www.molex.com/en-us/products/part-detail/0430250200",
+      "facts": [
+        "Exact 2-position, dual-row, 3.00 mm pitch receptacle; Molex drawing says it mates with 43045.",
+        "Drawing row 02: A=3.86 mm +0.35/-0.25; depth=14.00 mm; 2/4-circuit profile=7.57 mm. The 8.28 mm profile applies only to 6\u201324 circuits.",
+        "No top pull tab for 2- and 4-circuit parts; circuit 1 is the molded rib or engraved 1.",
+        "The 24.77 mm dimension is the complete 43020 plug + 43025 receptacle wire-to-wire family view. It is not the header + 43025 rear-plane distance."
+      ]
+    },
+    {
+      "part": "43030-0007",
+      "role": "pack crimp contacts",
+      "manufacturer": "Molex",
+      "drawing_url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43030/430300010_sd.pdf",
+      "product_url": "https://www.molex.com/en-us/products/part-detail/43030-0007",
+      "facts": [
+        "43030-0007 is loose female tin contact, form A, 20\u201324 AWG",
+        "maximum insulation OD 1.85 mm for the 20\u201324 AWG family",
+        "contact drawing table lists 43030-0007 under the 20\u201324 AWG loose-contact variants"
+      ]
+    },
+    {
+      "part": "045102.5MRL",
+      "role": "positive battery-entry fuse",
+      "manufacturer": "Littelfuse",
+      "datasheet_url": "https://www.littelfuse.com/assetdocs/fuse-451-and-453-datasheet?assetguid=533cd5cc-956c-4243-867f-6ab5a62f6ba1",
+      "facts": [
+        "451 NANO2 very-fast-acting fuse",
+        "2.5 A, 125 V maximum; 28.6 mOhm nominal cold resistance; 1.029 A2s nominal melting I2t",
+        "at 200% rating, 0.062\u201310 A rows specify 5 s maximum opening; standard continuous derating is 25%"
+      ]
+    }
+  ],
+  "mechanical_check": {
+    "pack_lead_length_mm": "70 \u00b15",
+    "native_board_ref": "J12",
+    "native_board_placement": "Final checkpoint: J12 pin1=(4.10,66.25) mm, rotation 180\u00b0, header mouth +Y; header rear-body datum Y=65.26 mm.",
+    "mated_envelope_evidence": {
+      "extract_file": "hardware/glove-v4/procurement/battery-path-sources/molex-mated-envelope-extract-2026-10-22.txt",
+      "extract_sha256": "ffcc9f0f3042688105ce82db69eda57e56146a53e10035f250af31b035f61c6d",
+      "header_mated_height_mm": 10.29,
+      "header_mated_height_tolerance_published": false,
+      "housing_depth_along_mating_axis_mm": 14.0,
+      "housing_depth_general_tolerance_mm": 0.25,
+      "housing_dimension_a_mm": 3.86,
+      "housing_dimension_a_tolerance_plus_minus_mm": [
+        0.35,
+        -0.25
+      ],
+      "housing_2_4_profile_mm": 7.57,
+      "housing_2_4_profile_tolerance_assumed_mm": 0.25,
+      "housing_latch_callout_mm": 11.0,
+      "housing_latch_tolerance_assumed_mm": 0.35,
+      "mated_family_profile_callouts_mm": [
+        17.56,
+        10.81,
+        11.0
+      ],
+      "mated_family_callout_mm": 24.77,
+      "nominal_rear_wire_exit_y_mm": 82.82,
+      "absolute_pin_relative_wire_exit_z": "UNRESOLVED: the drawing does not dimension the AWG22 contact/wire center Z from J12 pin 1. Do not infer it from the 1.40 mm latch projection or mated-height attribute.",
+      "header_series_drawing_document": "SD-43045-001 Rev H1 (current manufacturer series drawing; exact 43045-0200 row 02)",
+      "header_series_drawing_url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450600_sd.pdf",
+      "header_datum_extract_file": "hardware/glove-v4/procurement/battery-path-sources/molex-43045-0200-datum-extract-2026-10-23.txt",
+      "header_datum_extract_sha256": "55e85bcb4d779d772f4b3c0477ff58296bac233a88465cd335860a82863cebfe",
+      "header_product_mated_height_profile_mm": 10.29,
+      "mated_side_profile_height_mm": 10.81,
+      "mated_rear_wire_exit_to_mating_face_datum_mm": 17.56,
+      "mated_family_callout_interpretation": "43020 plug + 43025 receptacle wire-to-wire profile only; not used for J12 header + receptacle rear plane.",
+      "j12_pin1_x_mm": 4.1,
+      "j12_pin1_y_mm": 66.25,
+      "j12_header_rear_body_y_mm": 65.26,
+      "rear_wire_exit_y_nominal_mm": 82.82,
+      "rear_wire_exit_y_tolerance_plus_minus_mm": 0.83,
+      "rear_wire_exit_y_min_mm": 81.99,
+      "rear_wire_exit_y_max_mm_before_pcb_allowance": 83.65,
+      "rear_wire_exit_y_chain": "pin1 Y 66.25 + 4.32 \u00b10.08 + 4.60 \u00b10.25 - 9.91 \u00b10.25 + 17.56 \u00b10.25",
+      "rear_wire_exit_y_allowance_scope": "The \u00b10.83 mm chain covers the shown connector/profile dimensions only. PCB mounting, drill/retention, and assembly allowances remain separate.",
+      "header_bare_max_profile_mm": 9.27,
+      "header_bare_max_profile_chain": "7.37 +0.25 + 1.40 +0.25; the 1.40 mm term is latch projection above the housing, not a pin-center or wire-center offset.",
+      "header_bare_max_with_separate_assembly_allowance_mm": 9.47,
+      "separate_assembly_allowance_mm": 0.2,
+      "geometry_resolution_status": "Axial XY/profile chain is resolved to 82.82 \u00b10.83 mm before PCB mounting/drill allowance; absolute contact/wire Z and PCB mounting/drill allowance remain unresolved."
+    },
+    "primary_geometry_urls": {
+      "header_product": "https://www.molex.com/en-us/products/part-detail/0430450200",
+      "header_series": "https://www.molex.com/en-us/products/series-chart/43045",
+      "housing_drawing": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43025/430250200_sd.pdf",
+      "housing_product": "https://www.molex.com/en-us/products/part-detail/0430250200",
+      "header_drawing": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450600_sd.pdf"
+    },
+    "cad_3d_archive_attempts": [
+      {
+        "part": "43045-0200",
+        "url": "https://www.molex.com/pdm_docs/stp/430450200_stp.zip",
+        "status": "connection_timeout_no_bytes"
+      },
+      {
+        "part": "43025-0200",
+        "url": "https://www.molex.com/pdm_docs/stp/430250200_stp.zip",
+        "status": "connection_timeout_no_bytes"
+      }
+    ],
+    "secondary_cached_drawing_sources": {
+      "housing_pdf": "hardware/glove-v4/procurement/battery-path-sources/43025-mirror.pdf",
+      "housing_pdf_sha256": "3fa78847433b382fa07609fb9f44b5e8b017804b9b491250dc493eef9e029e28",
+      "header_product_record_pdf_sha256": "4f535bfb6719f4c7c666d319790a5f20f52c8827d5c566df1d3d410d1693bab7",
+      "header_product_record_pdf_source": "https://www.es.co.th/Schemetic/PDF/430450200.PDF"
+    }
+  },
+  "local_verification": {
+    "footprint_path": "power/footprints/Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal.kicad_mod",
+    "footprint_sha256": "3356e8ddfe600c3dbadf7b5ac93fac337969b7ff119aace18030ae4660d4c498",
+    "pad_geometry_mm": {
+      "pin_1": [
+        0,
+        0
+      ],
+      "pin_2": [
+        0,
+        3
+      ],
+      "pad_size": [
+        1.5,
+        1.5
+      ],
+      "drill": 1.02,
+      "mounting_hole": [
+        0,
+        -4.32
+      ],
+      "mounting_hole_drill": 3.0
+    },
+    "note": "Local KiCad footprint is the routed candidate; manufacturer drawing remains the authority for production land pattern."
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "revision": "V3.3 tactile core",
+  "board_mm": [
+    90,
+    60,
+    1.6
+  ],
+  "copper_layers": 4,
+  "minimum_track_mm": 0.15,
+  "minimum_copper_clearance_mm": 0.15,
+  "via_finished_drill_mm": 0.3,
+  "via_land_diameter_mm": 0.6,
+  "via_process_mandatory": "Epoxy/resin filled, planarized and copper capped through vias: IPC-4761 Type VII (VIPPO). Apply to all 0.30mm vias. Ordinary tenting or simple resin plugging without copper cap is insufficient.",
+  "smd_mask_overlap_via_count": 34,
+  "smd_mask_overlap_pad_pairs": 44,
+  "smd_mask_overlap_via_locations_mm": [
+    [
+      4.999999,
+      10.099999
+    ],
+    [
+      5.499999,
+      10.399999
+    ],
+    [
+      5.599999,
+      33.0
+    ],
+    [
+      10.099999,
+      21.2
+    ],
+    [
+      18.599999,
+      9.499999
+    ],
+    [
+      19.899999,
+      11.699999
+    ],
+    [
+      34.6,
+      18.099999
+    ],
+    [
+      35.6,
+      11.299999
+    ],
+    [
+      35.8,
+      9.499999
+    ],
+    [
+      36.899999,
+      9.224999
+    ],
+    [
+      37.0318,
+      10.6932
+    ],
+    [
+      37.399999,
+      11.199999
+    ],
+    [
+      48.9,
+      52.1
+    ],
+    [
+      49.3102,
+      6.982767
+    ],
+    [
+      49.5,
+      54.2
+    ],
+    [
+      51.8,
+      12.599999
+    ],
+    [
+      51.9,
+      19.399999
+    ],
+    [
+      52.0,
+      9.999999
+    ],
+    [
+      54.5,
+      57.3
+    ],
+    [
+      55.3,
+      57.3
+    ],
+    [
+      55.5,
+      56.0
+    ],
+    [
+      57.3,
+      44.4
+    ],
+    [
+      59.1694,
+      56.661
+    ],
+    [
+      60.6,
+      57.3
+    ],
+    [
+      61.4,
+      21.5
+    ],
+    [
+      62.8,
+      55.8
+    ],
+    [
+      65.6,
+      55.5
+    ],
+    [
+      69.599999,
+      12.699999
+    ],
+    [
+      70.599999,
+      18.199999
+    ],
+    [
+      73.099999,
+      10.999999
+    ],
+    [
+      74.699999,
+      10.499999
+    ],
+    [
+      80.499999,
+      21.2
+    ],
+    [
+      84.999999,
+      12.199999
+    ],
+    [
+      86.299999,
+      21.3
+    ]
+  ],
+  "assembly": "Double-sided SMD reflow; XIAO and remote IMU are separately supplied modules per system BOM.",
+  "qualification": "Prototype tactile-core assembly. Continuous camera operation with a minimum six-hour runtime and twelve-hour stretch target requires a separate design revision."
+}

@@ -1,0 +1,133 @@
+{
+  "status": "unapplied proposal",
+  "basis_board": "eight-camrepair-routed.kicad_pcb",
+  "reserved_connector_service_bbox_mm": [
+    2,
+    39.6,
+    18.3,
+    47.4
+  ],
+  "connector": {
+    "reference": "J_TEMP",
+    "center_mm": [
+      15,
+      43.5
+    ],
+    "rotation_deg": 90,
+    "side": "F"
+  },
+  "components": [
+    {
+      "provisional_ref": "U_TEMP",
+      "center_mm": [
+        27.25,
+        52.0
+      ],
+      "courtyard_relative_rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        23.550001,
+        49.300001,
+        30.949999,
+        54.699999
+      ]
+    },
+    {
+      "provisional_ref": "R_PACK",
+      "center_mm": [
+        19.25,
+        41.0
+      ],
+      "courtyard_relative_rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        18.52,
+        39.52,
+        19.98,
+        42.48
+      ]
+    },
+    {
+      "provisional_ref": "C_PACK",
+      "center_mm": [
+        21.0,
+        41.0
+      ],
+      "courtyard_relative_rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        20.27,
+        39.52,
+        21.73,
+        42.48
+      ]
+    },
+    {
+      "provisional_ref": "R_BASE",
+      "center_mm": [
+        20.0,
+        43.5
+      ],
+      "courtyard_relative_rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        18.52,
+        42.77,
+        21.48,
+        44.23
+      ]
+    },
+    {
+      "provisional_ref": "C_BASE",
+      "center_mm": [
+        20.0,
+        45.25
+      ],
+      "courtyard_relative_rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        18.52,
+        44.52,
+        21.48,
+        45.98
+      ]
+    },
+    {
+      "provisional_ref": "C_TEMP",
+      "center_mm": [
+        31.75,
+        50.75
+      ],
+      "courtyard_relative_rotation_deg": 90,
+      "courtyard_bbox_mm": [
+        31.02,
+        49.27,
+        32.48,
+        52.23
+      ]
+    },
+    {
+      "provisional_ref": "R_PACK_ISO",
+      "center_mm": [
+        24.75,
+        43.0
+      ],
+      "courtyard_relative_rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        23.27,
+        42.27,
+        26.23,
+        43.73
+      ]
+    },
+    {
+      "provisional_ref": "R_BASE_ISO",
+      "center_mm": [
+        32.5,
+        53.5
+      ],
+      "courtyard_relative_rotation_deg": 0,
+      "courtyard_bbox_mm": [
+        31.02,
+        52.77,
+        33.98,
+        54.23
+      ]
+    }
+  ]
+}

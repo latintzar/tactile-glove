@@ -1,0 +1,16 @@
+{
+  "name": "buck_path_network_start",
+  "seconds": 93.244,
+  "simulator_returncode": 0,
+  "analysis_complete": false,
+  "actual_native_end_s": 0.0003841978,
+  "expected_end_s": 0.0009,
+  "simulation_errors": [
+    "doAnalyses: TRAN:  Timestep too small; time = 0.000384198, timestep = 1.25e-19: trouble with node \"v.xu.x_u1.v_v4#branch\"",
+    "tran simulation(s) aborted"
+  ],
+  "deck_sha256": "83e21415c353a16b126dbd3002c5dbbb3adf4e8962a885f84308f0cd3caf4a2d",
+  "executed_deck_sha256": "f1f97f85e9cc77635390f9e9309d7f7da4d6b6f2031ee0ee044426f052591ab4",
+  "log_sha256": "d4d410729d30fde6ffc7e97544f1656557b825470d520b5fb88f72e23100e022",
+  "waveform_sha256": "f1e57c2894c820f1bc070aa15e8595b4be9a55b35158998b89250085cd9a4a7b"
+}

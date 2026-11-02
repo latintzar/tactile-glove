@@ -1,0 +1,11 @@
+20-open engineering candidate review
+
+The native board is `../eight-i2c-vias-restored.kicad_pcb`, SHA-256 `53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5`. Its matching `.kicad_pro` and `.drc.txt` are beside it. `candidate.json` records 561 canonical parts, zero pin-net mismatches, 20 missing connections and zero physical DRC errors. The canonical repository board remains the 24-open checkpoint at commit 859f20e. Publication was rejected by automatic approval review and awaits explicit user approval.
+
+The scratch candidate includes the reviewed USB pair, CAM_RESET_N and CAM_D2 completion, both I2C_SCL gap repairs, and direct 0.6/0.3 mm VBUS pad-to-plane vias. Footprint changes are limited to the three reviewed USB parts. `usb-pair-audit.json` rechecks this exact board: nominal 90.58 ohm first-order differential estimate, geometric mismatch below 0.001 mm, and zero uncovered reference area. Fabricator impedance confirmation and physical USB compliance remain required.
+
+`usb-power-path.json` contains the bounded power finding: the high-current positive copper path is estimated at 51.48 mΩ using 50°C and minimum-copper assumptions, about 69.41 mV drop at 1.348 A. The U32 OUT path remains 2.926 mm of 0.15 mm trace and fails the selected 10°C long-trace width screen; the calculated target width is about 0.529 mm at the high-branch current bound. Widening or an appropriate direct pad-to-plane path needs a later reviewed routing change. The true U42 power input is pin 24 VBUS; its 3.225 mm / 0.28 mm detour is now included. Full USB return/recovery-path and enclosed thermal qualification remain outstanding. The plane calculation distinguishes a perforated plane's narrowest single corridor from its aggregate parallel current capacity.
+
+The full power-sheet results were regenerated against this board. Battery plus return copper remains 13.544 mΩ against its 15 mΩ allocation. These DC calculations leave temperature, inrush, switching and endurance validation outstanding.
+
+`run_review.py BOARD.kicad_pcb` reproduces the included audits using KiCad 7 Python, numpy, scipy and shapely; it reads canonical components from the owning repository and writes only this review directory. `power-model/` contains the exact copied model scripts and configurations. Routing is stopped. Thermal-readout and reset proposals remain unapplied.

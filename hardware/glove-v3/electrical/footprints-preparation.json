@@ -1,0 +1,29 @@
+[
+  {
+    "file": "SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/7ebfa6b23cc292a56f751b7b5f4a0e12eeef69dd/Package_SO.pretty/SOIC-16_3.9x9.9mm_P1.27mm.kicad_mod",
+    "sha256": "809a7dab0a6690e65eff75fbb4256bdb718000a629b0ade4ea98513828d190a3"
+  },
+  {
+    "file": "C_0805_2012Metric.kicad_mod",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/7ebfa6b23cc292a56f751b7b5f4a0e12eeef69dd/Capacitor_SMD.pretty/C_0805_2012Metric.kicad_mod",
+    "sha256": "99fff2e6692af4126feb9f9ebdfd454834bf414b13d04be0d075dffc23cfbd02"
+  },
+  {
+    "file": "SOT-363_SC-70-6.kicad_mod",
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/7ebfa6b23cc292a56f751b7b5f4a0e12eeef69dd/Package_TO_SOT_SMD.pretty/SOT-363_SC-70-6.kicad_mod",
+    "sha256": "f21930d6b4038a9eb6c22bcfd39c51415f4cc2deddb0c725b6f6e23280922c59"
+  },
+  {
+    "name": "SW_SPST_PTS636",
+    "error": 404,
+    "url": "https://raw.githubusercontent.com/KiCad/kicad-footprints/7ebfa6b23cc292a56f751b7b5f4a0e12eeef69dd/Button_Switch_SMD.pretty/SW_SPST_PTS636.kicad_mod"
+  },
+  {
+    "file": "XIAO-nRF52840-SMD-kicad7.kicad_mod",
+    "source": "XIAO-nRF52840-SMD.kicad_mod",
+    "source_sha256": "bea5909ccd161094a91cb9c6dde3f8b5370ed9b57a54f4a4414b329a86d7c7e2",
+    "sha256": "186215696c4f44cd81286a72738b1f46bc8ecb075b125a799aec10e3d7bdbc66",
+    "check": "all 22 pad numbers, positions, sizes, rotations, shapes, radii and layers identical to manufacturer source"
+  }
+]

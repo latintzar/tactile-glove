@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "purpose": "Target one-third of complete one-glove delivered cash cost while preserving capability and qualification requirements.",
+  "baseline_contract_sha256": "cc72b763f5e9162337ff957ae959a85fe5405dfe37d6038f2e1659069fd382e0",
+  "baseline_components_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "requirements": {
+    "pressure_taxels": 20,
+    "vibration_channels": 20,
+    "vibration_rate_hz_per_channel": 4000,
+    "pressure_rate_hz_per_channel": 50,
+    "imu_mpn": "ISM330DHCXTR",
+    "imu_acquisition": "Both six-axis 833 Hz, \u00b14 g / \u00b11000 dps, timestamped tagged FIFO bursts on 400 kHz I2C; separate cuff/camera and hand motion.",
+    "minimum_continuous_hours": 6,
+    "stretch_hours": 12,
+    "camera": "colour JPEG, near-finger optics, continuous capture",
+    "camera_candidate": "CamThink 73.002.000035 OV5640 120 degree, 8 cm fixed focus",
+    "control": "one large top button: hold on, continue hold pair, hold while on shutdown",
+    "indicator": "diffused RGB, explicit recording/pairing/battery/error states",
+    "charging": "USB-C, protected single lithium cell, temperature-qualified power path",
+    "connectivity": [
+      "Bluetooth setup/status/sensor preview",
+      "Wi-Fi video and full data",
+      "USB data and charging"
+    ],
+    "construction": "factory assembled electronics, keyed plug-in glove harnesses, soft sensing stack, removable cuff",
+    "imu_devices": [
+      {
+        "role": "cuff camera",
+        "address": "0x6a",
+        "mpn": "ISM330DHCXTR"
+      },
+      {
+        "role": "dorsal hand",
+        "address": "0x6b",
+        "mpn": "ISM330DHCXTR"
+      }
+    ],
+    "camera_sourcing_evidence": "procurement/camera-sourcing.json",
+    "industrial_design": {
+      "preferred_top_footprint_mm": [
+        50.8,
+        38.1
+      ],
+      "dimension_interpretation": "Width and length viewed from above; minimise thickness separately.",
+      "size_status": "Preferred target; current electrical placement and battery exceed it.",
+      "form": "Slim rounded rectangle; curvature optional. Minimise mounting stack.",
+      "larger_size_requires": "Evidence-backed component, wiring and tolerance dimensions shown before ordering.",
+      "fabrication_candidate": "JLC3DP MJF PA12 shell with separately specified flexible, optical and cut parts.",
+      "process_release": "Pass vendor-specific dimensional and assembly checks before first-article fabrication; physical qualification follows first-article build."
+    }
+  },
+  "additional_preserved_requirements": {
+    "adc_resolution_bits": 16,
+    "tactile_signal_chain": "20 independent charge front ends, local overload protection and per-channel anti-alias filtering before multiplexing; preserve or improve measured/modelled usable bandwidth, noise, crosstalk and recovery.",
+    "camera_profile": "VGA JPEG target 9.99756 frames/s throughout six-hour recording; preserve selected near-finger field of view/focus and timestamps/drop accounting.",
+    "factory_scope": "Factory assembled and programmed electronics, prepared keyed harnesses; Peter only fits sensing materials and plugs finished connections.",
+    "physical_scope": "Preserve softness, anatomical pad locations and assembly accessibility; keep preferred cuff footprint as an open requirement.",
+    "tracking_scope": "Existing precise hidden-hand position, joint-pose and calibrated roughness gaps remain engineering requirements; cost equivalence does not establish those capabilities."
+  },
+  "cost_policy": {
+    "primary_metric": "Cash needed to receive one complete usable right-hand glove in Sofia, including all mandatory order quantities, materials, preparation, assembly, flashing, test, enclosure, battery, shipping, tax and fees.",
+    "target_ratio": 0.3333333333333333,
+    "baseline_complete_delivered_cost": null,
+    "currency": "USD",
+    "exchange_rate_policy": "Retain original currencies; require dated conversion basis before aggregating. Never subtract tax-inclusive from tax-exclusive amounts as a savings claim.",
+    "batch_policy": "Show batch unit cost separately. Entire mandatory purchase counts for one-glove cash outlay; shared assembler stock can reduce outlay only through an actual cut-material/consumables service quote.",
+    "success_policy": "A cost-reduced alternative is selected only with preserved capabilities, same engineering release checks, and comparable complete quotes. Threefold saving is a target, not an achieved result.",
+    "fallback_policy": "If one-third cost is unattainable, select the lowest supported complete cost that passes the same capability and engineering gates. No purchase authorization."
+  },
+  "required_cost_categories": [
+    "main_pcba",
+    "hand_imu_pcba",
+    "pvdf_material",
+    "pressure_material",
+    "electrode_material",
+    "wire_and_harness",
+    "sensor_attachment_and_prep",
+    "camera",
+    "battery_and_temperature_sensors",
+    "storage_card",
+    "enclosure_and_hardware",
+    "factory_programming_and_test",
+    "shipping",
+    "tax_and_import_fees"
+  ],
+  "status": "cost_reduction_in_progress; canonical design remains unreleased"
+}

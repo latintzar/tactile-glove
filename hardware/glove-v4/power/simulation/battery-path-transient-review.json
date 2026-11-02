@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "date": "2026-10-23",
+  "status": "numerical_convergence_failure",
+  "validates_battery_path_transient": false,
+  "cases": [
+    {
+      "name": "buck_path190m_start",
+      "seconds": 94.401,
+      "simulator_returncode": 0,
+      "analysis_complete": false,
+      "actual_native_end_s": 0.000499039,
+      "expected_end_s": 0.0009,
+      "simulation_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.000499039, timestep = 1.25e-19: trouble with xu.x_u4.x_u4:dd1-instance d.xu.x_u4.x_u4.d1",
+        "tran simulation(s) aborted"
+      ],
+      "deck_sha256": "3becef3440b99603d28ccdec1e45725270bb2a7d0dffcd26fd3bc1f76868703f",
+      "executed_deck_sha256": "068b3c5453f325f21e5af1159dac0a23be461b5109cd4ce4cd4d72b1ca1d758f",
+      "log_sha256": "9bec2d8df591faabffcbe3325ecce5384661b741c43fae083a220b778ababa75",
+      "waveform_sha256": "7ca18e3839569238d03cf3f2b7baf743e1dd40130e51ab16aa664a8c29333f13",
+      "result_file": "buck_path190m_start.run.json"
+    },
+    {
+      "name": "buck_path190m_low",
+      "seconds": 21.39,
+      "simulator_returncode": 0,
+      "analysis_complete": false,
+      "actual_native_end_s": 0.0002171198,
+      "expected_end_s": 0.0009,
+      "simulation_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.00021712, timestep = 1.25e-19: trouble with xu.x_u4.x_u4:dd1-instance d.xu.x_u4.x_u4.d1",
+        "tran simulation(s) aborted"
+      ],
+      "deck_sha256": "190982f33bf191ac2dd0a0b89291df97f525f10fa11d70967efaf66d1755fb75",
+      "executed_deck_sha256": "e903ee5994cbaaaa81067d2dd8db47609a22d1029b8652f7737ef6b35e40ff86",
+      "log_sha256": "83fd070168472048ba0004dcb28e4906fe75103fce86e7a315328acd302e6da7",
+      "waveform_sha256": "b3afa61edec34d8d96ff7d7a9254ac945dd7dea5856d8764435d542426bbf251",
+      "result_file": "buck_path190m_low.run.json"
+    },
+    {
+      "name": "buck_path_network_start",
+      "seconds": 93.244,
+      "simulator_returncode": 0,
+      "analysis_complete": false,
+      "actual_native_end_s": 0.0003841978,
+      "expected_end_s": 0.0009,
+      "simulation_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.000384198, timestep = 1.25e-19: trouble with node \"v.xu.x_u1.v_v4#branch\"",
+        "tran simulation(s) aborted"
+      ],
+      "deck_sha256": "83e21415c353a16b126dbd3002c5dbbb3adf4e8962a885f84308f0cd3caf4a2d",
+      "executed_deck_sha256": "f1f97f85e9cc77635390f9e9309d7f7da4d6b6f2031ee0ee044426f052591ab4",
+      "log_sha256": "d4d410729d30fde6ffc7e97544f1656557b825470d520b5fb88f72e23100e022",
+      "waveform_sha256": "f1e57c2894c820f1bc070aa15e8595b4be9a55b35158998b89250085cd9a4a7b",
+      "result_file": "buck_path_network_start.run.json"
+    },
+    {
+      "name": "buck_path_network_low",
+      "seconds": 93.105,
+      "simulator_returncode": 0,
+      "analysis_complete": false,
+      "actual_native_end_s": 0.0003841978,
+      "expected_end_s": 0.0009,
+      "simulation_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.000384198, timestep = 1.25e-19: trouble with node \"v.xu.x_u1.v_v4#branch\"",
+        "tran simulation(s) aborted"
+      ],
+      "deck_sha256": "eb47a518beb414d1c156c9f0d3b9b16cdfe5a64bfb59316b8afcc039c313a73b",
+      "executed_deck_sha256": "dd2084a3ef7617994245279ae5fde1ddf42b2a80d61b275ec2514823de8ed0d3",
+      "log_sha256": "025ab08bf73f1926257b3b0da08b2f212257ac0a6f99805016e74caa902429ca",
+      "waveform_sha256": "f1e57c2894c820f1bc070aa15e8595b4be9a55b35158998b89250085cd9a4a7b",
+      "result_file": "buck_path_network_low.run.json"
+    }
+  ],
+  "invalid_waveform_disposition": "Waveform SHA retained; padded failed outputs excluded from manufacturing evidence. Native log and run metadata retained next to each source deck.",
+  "interpretation": "The TI PSpice macro aborted under ngspice42 with finite input impedance. This establishes a simulator/model convergence limitation for these attempts, not circuit stability or circuit failure.",
+  "prior_attempts": [
+    "battery-path-initial-attempts.json",
+    "buck_path190m_start.gear1-attempt.run.json",
+    "buck_path190m_low.gear1-attempt.run.json"
+  ],
+  "independent_evidence": [
+    "../battery-path-check-results.json",
+    "../../electrical/power-integrity/results/power-corridor-calculations.json"
+  ],
+  "release_requirement": "Verify converter startup and load steps with source impedance using a supported convergent vendor-model backend and qualify first article with the actual pack, harness, camera/radio/SD load."
+}

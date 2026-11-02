@@ -1,0 +1,19 @@
+{
+  "status": "physical pin-number manifest corrected from primary datasheets; candidate only; not routed or released",
+  "component_count": 312,
+  "endpoint_count": 1024,
+  "unconnected_active_pins": [],
+  "errors": [],
+  "warnings": [
+    "JST GH supplier suffix and all passive ordering suffixes need procurement verification",
+    "OPA320 ADC driver settling, mux charge injection, sensor SNR, and routed PCB remain bench/CAD work",
+    "MCP33131 input common-mode table permits 0..VREF with typical VREF/2; AIN-=1.25V candidate is within range but ADC driver settling and mux charge injection need bench validation",
+    "All NC entries are per-component unconnected pins and omitted from nets.csv; they are not shared nets"
+  ],
+  "notes": [
+    "MCP33131 pin 9 SDI is tied to 3V3/DVIO; XIAO D10 is repurposed as CNV",
+    "ADC AIN- is VMID1V25 with 2.5V VREF; signal uses half differential span and effective bits require measurement",
+    "pressure path is VEXC2V5 -> Velostat -> PRESS_s -> RPD_s 10k -> GND",
+    "each finger connector is 8 pin; thumb 6 pin; palm/heel 14 pin; all 20 PVDF and 20 pressure IDs are independent"
+  ]
+}

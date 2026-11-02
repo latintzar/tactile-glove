@@ -1,0 +1,24 @@
+{
+  "board": "hand-tile-routed.kicad_pcb",
+  "parts": 7,
+  "size_mm": [
+    16,
+    16,
+    0.8
+  ],
+  "counts": {
+    "DRC violations": 0,
+    "unconnected pads": 0,
+    "Footprint errors": 0
+  },
+  "native_endpoints_reconciled": true,
+  "connected_endpoints": 25,
+  "routing": {
+    "segments": 80,
+    "vias": 0,
+    "ground_stitch_vias": 3,
+    "total_vias": 3
+  },
+  "board_sha256": "7a430597c698034715d3dd2b5840194ce8b72b97c0449d55b8093304b4603490",
+  "ground_plane": "Continuous B.Cu ground with three 0.3mm drilled stitching vias; ordinary vias outside solder lands."
+}

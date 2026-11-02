@@ -1,0 +1,36 @@
+{
+  "actual_core_cases": 34,
+  "scans": 4000,
+  "dynamic_samples": 80000,
+  "pressure_samples": 1000,
+  "feature_windows": 50,
+  "status": "pass",
+  "actual_http_cases": 13,
+  "sanitizers": [
+    "ASan",
+    "UBSan"
+  ],
+  "sources": {
+    "firmware/tactile_v4/main/core.hpp": "d3e056a8a17b7751de1e2c07394c0940a246429edf2ecdc70391b34f6da6939f",
+    "firmware/tactile_v4/main/shutdown.hpp": "2e4a9ab470c75e78574ec528ba4665a69a72aefb264097e8ad941943ca05c96c",
+    "firmware/tactile_v4/main/http.cpp": "12ec2e77684ae670633261896ad6f8296c698361f60ae73af224b2e04cfc681a",
+    "firmware/tactile_v4/main/http.hpp": "02b10ccb1c168adf144e5d91c78dbb693048326e897c34d46fca37b97481f547",
+    "firmware/tactile_v4/main/packet.hpp": "280ac552440ed42df30b6d1bb14ceb7d02a54950c95ec202d411d4fd552dd1b9",
+    "firmware/tactile_v4/main/video_frame.hpp": "f95df95d23c5d092a1087a0753cf157496801dd3f5347779fa0180447185e1c8",
+    "firmware/tactile_v3/tactile_v3_protocol.h": "429449991e88a23eb4f430a256ea5252596b000acfd0ea5e778b284e8c6e1e60",
+    "firmware/tactile_v3/button_control.h": "db0f0b6fcc1b701d78c16719b2dd6fa8fde2c76e292b8cdcd2f7bf174fe35765",
+    "tools/tactile_v4/test_core.cpp": "745add73291364af4c54afb9e82e6da9afd66016d24dc24bd89a85ed105c490b",
+    "tools/tactile_v4/test_http.cpp": "b13009da13d73c29ae1d29946bdb95ec71f9e83a39b0ada300b85c5a01244101",
+    "tools/tactile_v4/http_native_stubs.hpp": "6ba946e3c9a6d1c4ae7a10d098698877b7831827803fead332381cbbfec0d3cf",
+    "hardware/glove-v3/verification/signal-chain/piezo-to-firmware.csv": "92a8ea0e8100aa698586144a277f1971ae09d8190c4b560c5ba297f794af3d3b"
+  },
+  "fixtures": {
+    "actual-core.bin.jpeg": "0a1ab391edd376450632602b2f354533dc41f864d396db2e951c95e1c1adfcda",
+    "actual-core.bin.piezo": "40d5986f396800d5508e7de1b512a48393053fb57a9e5530bc9fca281661162f",
+    "actual-core.bin.imu-status": "951a78b7f1d36a5bcd08f959ef8a5dfbe1ede55cbd20652a05cc7d9034c52640",
+    "actual-core.bin.dual-mode": "588ab62f34daf7a56cb791c8cd63ed8a7fe078fae71d4d8b5b1ef8a7cd38a811",
+    "actual-core.bin": "12dfcce67f1eda379932745ac26b747976c2af8bf9b5a3d1380c822ff7598331",
+    "actual-core.bin.label": "a6f61561c2f06e6e3f04672aa8dc8d280f8714e5da8c05246bc62c5c83ca793d",
+    "actual-core.bin.browser-status": "aa38bbc514ac973fcb5515002d006f59723ec34eacbee0d9f8369c338af24481"
+  }
+}

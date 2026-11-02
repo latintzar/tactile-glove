@@ -1,0 +1,25 @@
+{
+  "name": "buck_path_operating_3p2",
+  "attempt_directory": ".attempts/buck_path_operating_3p2-20261023T010816-440cc12d",
+  "analysis_complete": true,
+  "simulation_errors": [],
+  "seconds": 3.498,
+  "simulator_returncode": 0,
+  "actual_native_end_s": 0.0007,
+  "expected_end_s": 0.0007,
+  "completion_marker": true,
+  "expected_step_s": 1.0000000000000001e-07,
+  "expected_columns": 18,
+  "deck_sha256": "fcd51738fed1f5c826b065d63ab46afd0603635a4e7d64575438596f74b10c7e",
+  "executed_deck_sha256": "63e2de5773d3b0e6de6e96e0e37520d437bf6bd263d5d6e4798c836d8a5ab516",
+  "log_sha256": "0547b26a581e8d14df4ef1f7978258f3232a0886e5da5de6be0097934e3d0048",
+  "waveform_sha256": "65d1a85073aa5ea395da8fae7f95735ce1d66f6bf6da88f769cfba8020936180",
+  "waveform_validation": {
+    "valid": true,
+    "rows": 7001,
+    "expected_rows": 7001,
+    "last_time_s": 0.0007,
+    "all_zero_tail_rows": 0,
+    "errors": []
+  }
+}

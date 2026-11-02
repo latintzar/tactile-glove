@@ -1,0 +1,36 @@
+{
+  "status": "unresolved; additional numerical changes do not qualify finite-path behavior",
+  "model_sha256": "251545a36d3a9d9295eb00a061f622ef492035feacaaef2a61bf33f606caddb8",
+  "manufacturer_declared_backend": "PSpice16.2.0.p001; TI final1.00 transient model,22July2016",
+  "model_exclusions": [
+    "temperature",
+    "operating current",
+    "shutdown current"
+  ],
+  "next_backend": "Run this same finite-source circuit in vendor-declared PSpice; no alternate backend compatibility is established here.",
+  "cases": [
+    {
+      "case": "exp1",
+      "complete_regulated_finite_path": false,
+      "outcome": "native timestep failure despite process exit0",
+      "solver_options": ".options method=gear maxord=1 reltol=0.003 abstol=1n vntol=10u trtol=7 gmin=1e-10 itl4=5000 gminsteps=100 srcsteps=100",
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.000120351, timestep = 1.25e-19: trouble with node \"v.xu.x_u1.v_v4#branch\"",
+        "tran simulation(s) aborted"
+      ],
+      "deck_sha256": "3d3b9a65a26b42bf6d261a0748487083d24ec4cb9489d03f4ce81841b65aab90",
+      "log_uncompressed_sha256": "a70661d0805edefdf6d2a8ebb8dbaed6eecf8782cf629b46fb893166c7c68bd4",
+      "log_gzip_sha256": "d80a757f907a1ce80681c29b36204913026cca00b96a41c46d562430072d0546"
+    },
+    {
+      "case": "exp2",
+      "complete_regulated_finite_path": false,
+      "outcome": "bounded85s run without endpoint",
+      "solver_options": ".options method=gear maxord=2 reltol=0.003 abstol=1n vntol=10u trtol=7 gmin=1e-10 rshunt=1e12 itl4=5000",
+      "errors": [],
+      "deck_sha256": "1b99502c20d7fbf370e7f49fcbb4f61a8e89465eedfe9b6df502e070ae674938",
+      "log_uncompressed_sha256": "66483f896af15e7915357abd53c55d7ffa0bb20e5996cff148823e41c680a9af",
+      "log_gzip_sha256": "41fefcb07cac3f6942e128c07934e7848da7a24d8d40211bb9c7cf5fe905949f"
+    }
+  ]
+}

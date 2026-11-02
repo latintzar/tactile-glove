@@ -1,0 +1,521 @@
+{
+  "schema": 1,
+  "circuit_sha256": "6fce7100f25a63020bf07900c7b29898cddf5ea7d47e4beb4b7b728807fbd91a",
+  "checks": [
+    {
+      "name": "Main operating voltage corner",
+      "status": "pass",
+      "detail": {
+        "nominal_V": 3.416,
+        "PWM_min_V": 3.3766654945054952,
+        "PFM_max_V": 3.5238743543543545,
+        "overshoot_allowance_V": 0.06,
+        "PFM_standby_max_with_allowance_V": 3.5838743543543545,
+        "PWM_max_V": 3.4554496096096097,
+        "PWM_overshoot_allowance_V": 0.1,
+        "PWM_max_with_allowance_V": 3.5554496096096098,
+        "allowance_is_design_requirement_not_measured": true
+      }
+    },
+    {
+      "name": "REF3330 supply corner",
+      "status": "pass",
+      "detail": {
+        "min_V": 3.248071994505495,
+        "margin_above3V2_V": 0.04807199450549504,
+        "droop_allowance_V": 0.12,
+        "reference_total_load_A": 0.00085,
+        "requires_transient_validation": true
+      }
+    },
+    {
+      "name": "Analog minimum supply",
+      "status": "pass",
+      "detail": {
+        "min_V": 3.111665494505495,
+        "LDO_dropout_max_V_at300mA": 0.145,
+        "assumed_analog_load_A": 0.064,
+        "MCP600x_min_V": 1.8,
+        "OPA4323_min_V": 2.7,
+        "VEXC_driver_required_V": 2.735,
+        "comment": "Analograilmayleave3.3Vregulationatworstdroop;operatingheadroomremains."
+      }
+    },
+    {
+      "name": "USBdefaultinputlimit",
+      "status": "pass",
+      "detail": {
+        "recovery": {
+          "min_mA": 33.96358972150096,
+          "max_mA": 66.07082537420673,
+          "supply_max_mA": 0.06
+        },
+        "extra_VBUS_control_budget_mA": 0.3,
+        "max_total_mA": 66.37082537420673
+      }
+    },
+    {
+      "name": "USBconfiguredinputlimit",
+      "status": "pass",
+      "detail": {
+        "min_mA": 329.23143075061205,
+        "nom_mA": 369.5289899248859,
+        "max_mA": 415.6337313705714,
+        "total_max_mA": 481.9645567447781,
+        "total_min_mA": 363.195020472113
+      }
+    },
+    {
+      "name": "USBTypeCinputlimit",
+      "status": "pass",
+      "detail": {
+        "min_mA": 1112.162455885866,
+        "nom_mA": 1191.3027331055762,
+        "max_mA": 1281.8339641864272,
+        "total_max_mA": 1348.164789560634,
+        "total_min_mA": 1146.126045607367
+      }
+    },
+    {
+      "name": "Detachresetcurrentpermission",
+      "status": "pass",
+      "detail": {
+        "states_checked": 32
+      }
+    },
+    {
+      "name": "Hardwarechargewindow",
+      "status": "pass",
+      "detail": {
+        "trip_C": {
+          "cold": [
+            13.703159924738422,
+            16.231591646372195
+          ],
+          "hot": [
+            39.00785796313782,
+            41.233269019500725
+          ]
+        },
+        "NTC_R_envelope_pct": 3,
+        "resistor_tolerance_pct": 0.1,
+        "comparator_offset_mV": 3,
+        "self_heating_allowance_C": 0.5,
+        "pack_allowed_C": [
+          10,
+          45
+        ],
+        "thermal_contact_and_time_constant_require_pack_test": true
+      }
+    },
+    {
+      "name": "NTCopenandshortfailoff",
+      "status": "pass",
+      "detail": {
+        "open_TS_ratio": 0.8552449487960144,
+        "short_TS_ratio": 0
+      }
+    },
+    {
+      "name": "MCUstartupbatteryhysteresis",
+      "status": "pass",
+      "detail": {
+        "rising_V": [
+          3.2132566549729344,
+          3.3741342970877852
+        ],
+        "falling_V": [
+          2.9558883548377324,
+          3.127216216223788
+        ]
+      }
+    },
+    {
+      "name": "Chargecurrentwithinpacklimit",
+      "status": "pass",
+      "detail": {
+        "min_A": 1.138861138861139,
+        "nom_A": 1.205,
+        "max_A": 1.2812812812812813,
+        "pack_max_A": 2.0,
+        "standard_A": 1.2,
+        "charge_rate_C_max": 0.19712019712019713,
+        "CC_6V5Ah_hours_atmin": 5.707456140350877,
+        "fast_timer_min_hours": 8,
+        "CV_time_available_hours": 2.2925438596491228,
+        "timer_doubles_in_DPM": true,
+        "CVdurationandcellthermals_not_guaranteed_from_capacity": true
+      }
+    },
+    {
+      "name": "BatteryADCsettle",
+      "status": "pass",
+      "detail": {
+        "ratio": 2.0,
+        "max_divider_ratio_error_fraction": 0.001,
+        "tau_ms": 5.0,
+        "50ms_residual_fraction": 4.5399929762484854e-05,
+        "adc_calibration_required": true
+      }
+    },
+    {
+      "name": "Referenceanalogshutdownordering",
+      "status": "pass",
+      "detail": {
+        "max_reference_minus_analog_V": 0.048247585064018085,
+        "analog_C_effective_min_uF": 24,
+        "reference_plus_input_C_max_uF": 9.8,
+        "LDO_QOD_assumed_min_ohm": 80,
+        "analog_load_max_A": 0.064,
+        "FET_Ron_design_bound_ohm": 0.1,
+        "FET_Ron_25C_max_at2V5_ohm": 0.024,
+        "gate_delay_allowance_us": 5,
+        "temperaturedependent_diode_andLDOdischarge_bounds_need_validation": true
+      }
+    },
+    {
+      "name": "Referencegatedwithanalog",
+      "status": "pass",
+      "detail": {}
+    },
+    {
+      "name": "Latchphysicalpinmap",
+      "status": "pass",
+      "detail": {
+        "source": "TI SCES794G p4"
+      }
+    },
+    {
+      "name": "ADCVIODomain",
+      "status": "pass",
+      "detail": {
+        "VIO": "3V3_SYS",
+        "VDDsequencing_audit_owned_by_mainanalogintegration": true
+      }
+    },
+    {
+      "name": "Singlebutton",
+      "status": "pass",
+      "detail": {}
+    },
+    {
+      "name": "Uniquecomponentreferences",
+      "status": "pass",
+      "detail": {}
+    }
+  ],
+  "failed_checks": [],
+  "all_calculated_checks_pass": true,
+  "physical_validation": false,
+  "qualification_open": [
+    "Switchingcharger and limiter loop interaction has no manufacturer transient model here; benchtest lowcurrentstartup, poor-source qualification, DPM and cableinrush.",
+    "BQ25616 poor-source test is specified30mA typical, without guaranteedmaximum.34mAminimumrecovery has nominalmargin, notaguaranteed qualification bound.",
+    "BQ25616 safety timer8\u201312h doublesinDPM; extremelyweakportsmaytimeoutearlierthanfullcharge. Fullpackchargequalification usesTypeC>=1.5A. Verifydepletedpackreaches3.3VMCUstartupbeforetimeout.",
+    "TPS63070 originalPSpicemodelrun is trackedseparately; modelcompatibility/startupmustpassbeforeclaimingtransientvalidation.",
+    "Revised mode-specific allocation: PWM droop120mV/overshoot100mV, PFM standby overshoot60mV. Earlier100/60mV allocation failed; see saved original vendor-model results.",
+    "Selected47uF1210 bias curves yield74.44uF bank after10% tolerance and20% extra allowance; corrected model uses60uF. Typical curves and allowance need production/physical validation.",
+    "BatteryNTCthermalcontact, pouchtemperature, cellCVtail, chargerthermal andsurfaceheatingrequirephysicalpack/enclosuretests.",
+    "Copperplanes, switchingloops, RFkeepout, USBimpedanceandcameraconcurrencyawaitV4PCB integration; thispowercircuitisnotafabricationrelease."
+  ],
+  "budgets": {
+    "cell_min_Ah": 6.5,
+    "nominal_V": 3.6,
+    "usable_fraction": 0.8,
+    "six_hour_battery_input_limit_W": 3.1200000000000006,
+    "system_runtime_analysis_owner": "hardware/glove-v4/verification; complete camera/radio/SD load budget overrides the former1.9W allocation",
+    "charging_output_W_at1V28A4V2": 5.381381381381382,
+    "charger_loss_W_at_assumed90pct": 0.5979312645979316,
+    "USB_limiter_loss_W_at1V3A135mohm": 0.22815000000000005,
+    "efficiency_90pct_is_assumption": true
+  },
+  "usb_truth_table": [
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": true,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 0,
+      "mount_latched": true,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": true,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 0,
+      "cc2": 1,
+      "mount_latched": true,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": true,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": true,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 0,
+      "mount_latched": true,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 0,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": true
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 0,
+      "high_branch": false,
+      "recovery_branch": false
+    },
+    {
+      "cc1": 1,
+      "cc2": 1,
+      "mount_latched": false,
+      "suspend": 1,
+      "esp_en": 1,
+      "high_branch": false,
+      "recovery_branch": false
+    }
+  ]
+}

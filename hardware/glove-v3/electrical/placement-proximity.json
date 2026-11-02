@@ -1,0 +1,270 @@
+[
+  {
+    "ref": "CFB_I2",
+    "closest_matching_ic_pin_mm": 2.951615024016513
+  },
+  {
+    "ref": "CFB_M1",
+    "closest_matching_ic_pin_mm": 2.64707975890414
+  },
+  {
+    "ref": "RFB_H2",
+    "closest_matching_ic_pin_mm": 2.4141509894784954
+  },
+  {
+    "ref": "CFB_R2",
+    "closest_matching_ic_pin_mm": 2.64707975890414
+  },
+  {
+    "ref": "CDEC_U_MUX3",
+    "closest_matching_ic_pin_mm": 2.2171716216838067
+  },
+  {
+    "ref": "CDEC_U_MUX1",
+    "closest_matching_ic_pin_mm": 2.2171716216838067
+  },
+  {
+    "ref": "CFB_P3",
+    "closest_matching_ic_pin_mm": 2.7467310115844983
+  },
+  {
+    "ref": "CFB_P1",
+    "closest_matching_ic_pin_mm": 2.14465177826145
+  },
+  {
+    "ref": "CFB_R3",
+    "closest_matching_ic_pin_mm": 2.7467310115844983
+  },
+  {
+    "ref": "RFB_I2",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CDEC_U_CHG3",
+    "closest_matching_ic_pin_mm": 4.143613308454349
+  },
+  {
+    "ref": "RFB_M2",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CFB_L1",
+    "closest_matching_ic_pin_mm": 2.951615024016513
+  },
+  {
+    "ref": "RFB_P1",
+    "closest_matching_ic_pin_mm": 2.068362879187305
+  },
+  {
+    "ref": "RFB_R2",
+    "closest_matching_ic_pin_mm": 2.4141509894784954
+  },
+  {
+    "ref": "RFB_H1",
+    "closest_matching_ic_pin_mm": 2.068362879187305
+  },
+  {
+    "ref": "RFB_R3",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CDEC_U_CHG5",
+    "closest_matching_ic_pin_mm": 4.143613308454349
+  },
+  {
+    "ref": "RFB_L1",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "RFB_T2",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CFB_P2",
+    "closest_matching_ic_pin_mm": 2.64707975890414
+  },
+  {
+    "ref": "CFB_H1",
+    "closest_matching_ic_pin_mm": 2.14465177826145
+  },
+  {
+    "ref": "CFB_M3",
+    "closest_matching_ic_pin_mm": 2.951615024016513
+  },
+  {
+    "ref": "CFB_T2",
+    "closest_matching_ic_pin_mm": 2.951615024016513
+  },
+  {
+    "ref": "CDEC_U_CHG2",
+    "closest_matching_ic_pin_mm": 4.143613308454349
+  },
+  {
+    "ref": "RFB_M3",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "RFB_L3",
+    "closest_matching_ic_pin_mm": 2.4141509894784954
+  },
+  {
+    "ref": "CDEC_U_CHG1",
+    "closest_matching_ic_pin_mm": 4.143613308454349
+  },
+  {
+    "ref": "CFB_L2",
+    "closest_matching_ic_pin_mm": 2.14465177826145
+  },
+  {
+    "ref": "CDEC_U_REF",
+    "closest_matching_ic_pin_mm": 2.7871176867868352
+  },
+  {
+    "ref": "RFB_R1",
+    "closest_matching_ic_pin_mm": 2.068362879187305
+  },
+  {
+    "ref": "CFB_I3",
+    "closest_matching_ic_pin_mm": 2.14465177826145
+  },
+  {
+    "ref": "CFB_R1",
+    "closest_matching_ic_pin_mm": 2.14465177826145
+  },
+  {
+    "ref": "CFB_M2",
+    "closest_matching_ic_pin_mm": 2.7467310115844983
+  },
+  {
+    "ref": "CFB_L3",
+    "closest_matching_ic_pin_mm": 2.64707975890414
+  },
+  {
+    "ref": "CDEC_U_BANK1",
+    "closest_matching_ic_pin_mm": 2.149309482136065
+  },
+  {
+    "ref": "CFB_T1",
+    "closest_matching_ic_pin_mm": 2.7467310115844983
+  },
+  {
+    "ref": "CDEC_U_MUX_FINAL",
+    "closest_matching_ic_pin_mm": 2.1875842840905584
+  },
+  {
+    "ref": "RFB_T1",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CDEC_U_MUX4",
+    "closest_matching_ic_pin_mm": 2.2171716216838067
+  },
+  {
+    "ref": "CDEC_U_MUX2",
+    "closest_matching_ic_pin_mm": 2.2171716216838067
+  },
+  {
+    "ref": "RFB_P2",
+    "closest_matching_ic_pin_mm": 2.4141509894784954
+  },
+  {
+    "ref": "CDEC_U_CHG4",
+    "closest_matching_ic_pin_mm": 4.143613308454349
+  },
+  {
+    "ref": "RFB_I1",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CFB_I1",
+    "closest_matching_ic_pin_mm": 2.7467310115844983
+  },
+  {
+    "ref": "CFB_P4",
+    "closest_matching_ic_pin_mm": 2.951615024016513
+  },
+  {
+    "ref": "RFB_P4",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CDEC_U_LDO",
+    "closest_matching_ic_pin_mm": 6.497655827296487
+  },
+  {
+    "ref": "CDEC_U_ADC_NEG",
+    "closest_matching_ic_pin_mm": 5.226808897405758
+  },
+  {
+    "ref": "CFB_H2",
+    "closest_matching_ic_pin_mm": 2.64707975890414
+  },
+  {
+    "ref": "RFB_L2",
+    "closest_matching_ic_pin_mm": 2.068362879187305
+  },
+  {
+    "ref": "CDEC_U_VMID",
+    "closest_matching_ic_pin_mm": 2.471240832051785
+  },
+  {
+    "ref": "RFB_P3",
+    "closest_matching_ic_pin_mm": 2.122498527679112
+  },
+  {
+    "ref": "CDEC_U_ADC_DRV",
+    "closest_matching_ic_pin_mm": 2.24391538387703
+  },
+  {
+    "ref": "RFB_I3",
+    "closest_matching_ic_pin_mm": 2.068362879187305
+  },
+  {
+    "ref": "RFB_M1",
+    "closest_matching_ic_pin_mm": 2.4141509894784954
+  },
+  {
+    "ref": "CDEC_U_FILT9",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT7",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_IOX",
+    "closest_matching_ic_pin_mm": 2.2535860311956144
+  },
+  {
+    "ref": "CDEC_U_FILT10",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT5",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT2",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT1",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT6",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT4",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT8",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  },
+  {
+    "ref": "CDEC_U_FILT3",
+    "closest_matching_ic_pin_mm": 2.2736603198367167
+  }
+]

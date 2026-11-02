@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name GloveV4)(type KiCad)(uri "${KIPRJMOD}/assembly-footprints")(options "")(descr "Assembly library; physical lands preserved, decorative silk on Fab")))

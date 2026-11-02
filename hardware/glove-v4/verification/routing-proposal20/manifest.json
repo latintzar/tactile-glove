@@ -1,0 +1,193 @@
+{
+  "status": "engineering review only; manufacturing_ready=false",
+  "board_sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+  "external_native_artifacts": [
+    {
+      "path": "/tmp/glove-v4-routing-cache/eight-i2c-vias-restored.kicad_pcb",
+      "sha256": "53d0d956f016748fcdcfb6cd0ae84dfd56f47e43a227efb4d26c83fc53c5bcb5",
+      "bytes": 9690127
+    },
+    {
+      "path": "/tmp/glove-v4-routing-cache/eight-i2c-vias-restored.kicad_pro",
+      "sha256": "b2b71d42979450e09e076030f48c5a3e8734e4a3e9131b517f58508d23d321c3",
+      "bytes": 6887
+    },
+    {
+      "path": "/tmp/glove-v4-routing-cache/eight-i2c-vias-restored.drc.txt",
+      "sha256": "824db6e7a5d5df979a02a7840ab9558a8df01a12bc4e8e4101db818336678051",
+      "bytes": 19234
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "eab585a4f59d23e14cb245abfb735ec2215671a9dcca4ba16643918b704a8150",
+      "bytes": 2375
+    },
+    {
+      "path": "audit_usb_pair.py",
+      "sha256": "e40d627cfddcb9312f6dd15de3f432a549567670bd12083430a4137844cf21dd",
+      "bytes": 7630
+    },
+    {
+      "path": "candidate.json",
+      "sha256": "3332879c36c7d694142caa8d0eb4d4f63875f0eb2ea1066d6000074805ef9830",
+      "bytes": 8422
+    },
+    {
+      "path": "finalize_review.py",
+      "sha256": "2468bf5b26b62d42f33b573bf8d82c4b96ac809fad36ce7b1214c9a34aa07366",
+      "bytes": 9725
+    },
+    {
+      "path": "plane_dc_current_audit.py",
+      "sha256": "3af3be265afb57b666a7296b28c9d51d01f3f0a82867e00642023f77d158938c",
+      "bytes": 5280
+    },
+    {
+      "path": "power-model/battery-return-sheet-config.json",
+      "sha256": "523fb41c27aae53dfc412165cb84e75c1c0b61042b89249d3ce125bd172ce329",
+      "bytes": 132
+    },
+    {
+      "path": "power-model/battery-sheet-config.json",
+      "sha256": "4d485ee403d8dd8cf6d5e690f243733b0d38bd9b0a97f8fc55cd09613d431b9a",
+      "bytes": 139
+    },
+    {
+      "path": "power-model/entry-sheet-config.json",
+      "sha256": "30314ebff139c0a06903341989df47e0905386b9a390ac6afb77f6a8e54d9679",
+      "bytes": 119
+    },
+    {
+      "path": "power-model/main-sheet-config.json",
+      "sha256": "809a3e8cb0a029ecaba4dbfb134aa5ae51e9955c088edd178d9c282124bfcfa5",
+      "bytes": 18
+    },
+    {
+      "path": "power-model/plane_dc_audit.py",
+      "sha256": "e286907efc7fc178a2c1cf63fc8f5875ef281a401cca57bdb6dfcd837955847d",
+      "bytes": 4446
+    },
+    {
+      "path": "power-model/run_audit.py",
+      "sha256": "71b1f6beaa407b257b581ae4d96c5d7ac5a7c579ae67b55288b11d2fca71d3fa",
+      "bytes": 6254
+    },
+    {
+      "path": "power-model/selected-stackup.json",
+      "sha256": "e628d5c60254aaee1e29d853907dc7a3e2d6c6a6c2711b695cb521aa0987c01c",
+      "bytes": 4540
+    },
+    {
+      "path": "power-model/usb-sheet-config.json",
+      "sha256": "23c4a0c600832ce29781d123080e16a137154c4267c3699d1b09e30de928efc4",
+      "bytes": 104
+    },
+    {
+      "path": "power-model/vsys-sheet-config.json",
+      "sha256": "cbde0746767191f73050629cbb9044265657c64e115eb02071bd7bc54d5ac2fd",
+      "bytes": 128
+    },
+    {
+      "path": "power-results/battery-0.075.json",
+      "sha256": "91a17c61f86d99ecd174740117ba831699210aebb60b62ae5b69a65980db693f",
+      "bytes": 1107
+    },
+    {
+      "path": "power-results/battery-0.1.json",
+      "sha256": "200018f4da82b20352992a94b83c4d5a6c70373d635d36946f8929e4face5680",
+      "bytes": 1105
+    },
+    {
+      "path": "power-results/battery-return-0.075.json",
+      "sha256": "864831e1252a011692ee730c6397ede4c3c8c451fe7523dbd77b33d9f82200f0",
+      "bytes": 1047
+    },
+    {
+      "path": "power-results/battery-return-0.1.json",
+      "sha256": "2b897330f4938d92ffb6845712814013bd155e3d02a3cecbf6c69204c6c8e75f",
+      "bytes": 1044
+    },
+    {
+      "path": "power-results/entry-0.075.json",
+      "sha256": "15713250c3e2d4cd5df44e8b793e3ce3eb7ce38044599e2bc0cacd81c8df5ee1",
+      "bytes": 1059
+    },
+    {
+      "path": "power-results/entry-0.1.json",
+      "sha256": "5ce5c68f950b53d0739d3164b58f21438f69080de46f4e40281a86a09bcffca6",
+      "bytes": 1055
+    },
+    {
+      "path": "power-results/main-0.075.json",
+      "sha256": "8651d4f9cfe690d2875379cc1ec1c6134515d3c9a5c3a2b15a10e140d2f07556",
+      "bytes": 786
+    },
+    {
+      "path": "power-results/main-0.1.json",
+      "sha256": "f694b5145ffddd3ddd3a655deee382845394637be29f64f85003788948333172",
+      "bytes": 783
+    },
+    {
+      "path": "power-results/power-corridor-calculations.json",
+      "sha256": "0d206406bbf07c4cea1e0ff22c16c3486a41658c294050420dba9e0236989728",
+      "bytes": 6274
+    },
+    {
+      "path": "power-results/usb-0.05.json",
+      "sha256": "5e04fc29603afead9a8521b3ad4e207edcd0f42c4873f36a67c211f08f7bd061",
+      "bytes": 981
+    },
+    {
+      "path": "power-results/usb-0.075.json",
+      "sha256": "76c5db289167a243825bc4d1b87372dc6f5ed70ed2b20313c402c8fda6aaee31",
+      "bytes": 983
+    },
+    {
+      "path": "power-results/usb-0.1.json",
+      "sha256": "8bb5917e2b90af4e5dc46997eb388540ddc5147fbb2551ff3bbe99951061f9cb",
+      "bytes": 977
+    },
+    {
+      "path": "power-results/vbus-inlet-0.075.json",
+      "sha256": "8975ce930564d99961fbeff8addf4500afd97e0cc9cb1032492b7e39909c4b70",
+      "bytes": 1604
+    },
+    {
+      "path": "power-results/vbus-inlet-0.1.json",
+      "sha256": "6eba89cb68111a6303835e11caacb82b8ae8324f285f12659ee1d114746b461a",
+      "bytes": 1604
+    },
+    {
+      "path": "power-results/vsys-0.075.json",
+      "sha256": "7e1a3fdfba25516dbccbd2517be6bde7f00200d1efe4beaf163fb9a3b3c8196b",
+      "bytes": 1038
+    },
+    {
+      "path": "power-results/vsys-0.1.json",
+      "sha256": "70ce49c2d173cc5a6ed01845ac6cb7859cd172a2119e134c74f1f716c9a86e4a",
+      "bytes": 1036
+    },
+    {
+      "path": "run_review.py",
+      "sha256": "62ed822471c7fe83a61ff9ce7668a59afc1e8fac6fcde70ecb0af8e282ff8b50",
+      "bytes": 557
+    },
+    {
+      "path": "usb-pair-audit.json",
+      "sha256": "519de7c8272f8a718184d307dc12e68a90e5a3e3968984c1e5c510acafd9cba6",
+      "bytes": 10669
+    },
+    {
+      "path": "usb-power-path.json",
+      "sha256": "767f1fee8fd0882445809049b4390bc71baefe9286e4edf6758dcd223c370fea",
+      "bytes": 6433
+    },
+    {
+      "path": "vbus-inlet-config.json",
+      "sha256": "2301df17b5902f12e1d109d7add22c06d27933e233e19f5028f3848fa8b07f8e",
+      "bytes": 248
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-23",
+  "sources": [
+    {
+      "id": "jauch_pack",
+      "url": "https://www.jauch.com/downloadfile/61f0fb7230945444b292c0fac704609f8/6700%20mAh,%20LI18650JLS%20HB%201s2p,%20Mat.%20250480.pdf",
+      "local_file": "enclosure/sources/jauch-250480.pdf",
+      "sha256": "de28483b424c917c46d01596c925326568c85192829a3a9b1b49d88de1eaa1ef",
+      "page_or_section": "PDF page 1",
+      "facts_used": [
+        "Charge temperature 10 to 45 \u00b0C; discharge temperature -20 to 60 \u00b0C.",
+        "Standard charge 1.3 A; maximum charge 2 A; mass approximately 100 g."
+      ],
+      "scope": "Selected manufacturer part 250480; internal resistance and thermal properties are unspecified in this sheet."
+    },
+    {
+      "id": "ti_charger",
+      "url": "https://www.ti.com/lit/ds/symlink/bq25616.pdf",
+      "local_file": "procurement/battery-path-sources/bq25616.pdf",
+      "sha256": "db1c80794273f68d40f13969888a1da6abc08d4a1ea38b68af8b9a09d7c9834a",
+      "page_or_section": "PDF pages 1, 7\u20138 and thermal regulation sections",
+      "facts_used": [
+        "Switching buck charger with NVDC power path.",
+        "Typical efficiency example 92% at 2 A from 5 V is a context point, not used as a guaranteed efficiency at this load.",
+        "Junction thermal regulation 110 \u00b0C typical; JEDEC theta_JA 31.9 K/W."
+      ],
+      "scope": "Selected BQ25616. JEDEC junction resistance is not used as an installed board-to-enclosure thermal resistance."
+    },
+    {
+      "id": "eos_pa12",
+      "url": "https://www.protiq.com/out/marketplace/merchants/0dab15bdac1ae142211675f47bd25f37/datasheets/13_pa2200_product_information_07-2020_en.pdf",
+      "local_file": "verification/thermal-screen/sources/eos-pa2200-2020.pdf",
+      "sha256": "d509557ac87e71d0ab6161b1ac4fc15ae8cae305c340450f84945b7cbd44aa65",
+      "page_or_section": "PDF page 1; EOS July 2020",
+      "facts_used": [
+        "PA2200 laser-sintered thermal conductivity 0.144 W/(m K) normal to layers, 0.127 parallel."
+      ],
+      "scope": "Manufacturer-authored primary sheet mirrored by PROTIQ. Analogy only: selected case is HP MJF PA12, whose as-built conductivity remains unmeasured. Upper sweep 0.30 W/(m K) is an engineering assumption."
+    },
+    {
+      "id": "rogers_foam",
+      "url": "https://www.sealanddesign.com/wp-content/uploads/2019/03/BISCO-HT-800.pdf",
+      "local_file": null,
+      "sha256": null,
+      "page_or_section": "PDF page 2; Rogers publication 180-070, 0117",
+      "facts_used": [
+        "Typical HT-800 silicone foam conductivity 0.09 W/(m K), ASTM C518."
+      ],
+      "scope": "Manufacturer-authored primary sheet mirrored by Seal & Design; read with browser PDF extraction on 2026-10-23. Production foam is not selected. This anchors a sensitivity and does not select HT-800 or guarantee 0.03\u20130.10 endpoints."
+    },
+    {
+      "id": "nasa_convection",
+      "url": "https://ntrs.nasa.gov/api/citations/20220006584/downloads/NASAPassiveThermalGuidebookv5%201Public.pdf",
+      "local_file": null,
+      "sha256": null,
+      "page_or_section": "NASA Passive Thermal Control Engineering Guidebook v5.1, 2024-12-19, page 43",
+      "facts_used": [
+        "Natural convection on Earth is of order 5 W/(m\u00b2 K)."
+      ],
+      "scope": "Primary NASA engineering guide, browser-verified. Chosen 3\u20138 external coefficient is a screening sensitivity, not a validated correlation for this geometry/orientation."
+    },
+    {
+      "id": "nist_air",
+      "url": "https://www.nist.gov/el/fire-research-division-73300/firegov-fire-service/fire-dynamics",
+      "local_file": null,
+      "sha256": null,
+      "page_or_section": "Heat transfer / material thermal conductivities",
+      "facts_used": [
+        "Representative air conductivity 0.026 W/(m K)."
+      ],
+      "scope": "Primary NIST. Constant value used as screening approximation over sampled temperatures."
+    },
+    {
+      "id": "nasa_contact",
+      "url": "https://www.nasa.gov/reference/9-0-hardware-and-equipment-vol-2/",
+      "local_file": null,
+      "sha256": null,
+      "page_or_section": "Tables 9.3-5 and 9.3-8",
+      "facts_used": [
+        "43 \u00b0C skin temperature appears as a pain/performance threshold; permissible material temperature depends on contact time and thermal inertia."
+      ],
+      "scope": "Primary NASA guidance, not a glove certification standard. The 40 \u00b0C contact goal and 43 \u00b0C test stop are provisional project screening criteria."
+    }
+  ],
+  "engineering_assumptions_not_manufacturer_guarantees": {
+    "external_convection_W_m2K": [
+      3,
+      8
+    ],
+    "outer_emissivity": [
+      0.75,
+      0.95
+    ],
+    "internal_effective_emissivity_viewfactor": [
+      0.45,
+      0.85
+    ],
+    "additional_internal_air_mixing_W_m2K": [
+      0.1,
+      3
+    ],
+    "PA12_conductivity_W_mK": [
+      0.127,
+      0.3
+    ],
+    "foam_conductivity_W_mK": [
+      0.03,
+      0.1
+    ],
+    "pack_cell_PCM_internal_resistance_ohm": [
+      0.03,
+      0.15
+    ],
+    "additional_pack_entropic_heat_W": [
+      0,
+      0.1
+    ],
+    "buck_stage_charger_efficiency": [
+      0.85,
+      0.94
+    ],
+    "acquisition_off_system_output_W": [
+      0.1,
+      0.4
+    ],
+    "USB_limiter_resistance_ohm": 0.135,
+    "control_heat_W": 0.02,
+    "phantom_temperature_C": 34,
+    "phantom_effective_contact_resistance_K_W": 15
+  },
+  "input_authority": "Actual authored energy-budget.json, power-check-results.json and frozen clearance-report.json hashes are exported in results.json.",
+  "scope": "Read-only CAD screening; source constants and illustrative analogies do not change selected material or hardware."
+}

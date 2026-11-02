@@ -1,0 +1,95 @@
+# DESIGN SKETCH ONLY — deliberately not an apply-able production patch.
+# Canonical app.cpp/storage.cpp/hardware.hpp were not modified.
+
+--- firmware/tactile_v4/main/hardware.hpp
++++ firmware/tactile_v4/main/hardware.hpp
+@@
++// New PCB net, pending electrical/boot approval.
++static constexpr int io0Reset = 3; // active-low TCA9539 RESET_N
+
+--- firmware/tactile_v4/main/app.cpp
++++ firmware/tactile_v4/main/app.cpp
+@@
++static constexpr uint8_t IO0_RESET_ADDRESS = 0x74;
++static constexpr TickType_t STOP_DEADLINE = pdMS_TO_TICKS(3000);
++static std::atomic<bool> cameraStopRequested{false};
++static std::atomic<bool> storageStopRequested{false};
++static std::atomic<bool> cameraStopAck{false};
++static std::atomic<bool> storageStopAck{false};
+@@
++static void io0BootHold() {
++  gpio_set_direction(gpio_num_t(Pins::io0Reset), GPIO_MODE_OUTPUT);
++  gpio_set_level(gpio_num_t(Pins::io0Reset), 0); // pulldown is the POR default
++}
++static void bootPeripheralQuiesce() {
+  // Runs at the first app entry after a timeout restart, before IO0 release.
+  holdSdPinsLow();
+  periph_module_disable(PERIPH_SPI3_MODULE);
+  ledc_stop(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, 0);
+  for (int pin : {6,7,8,9,10,11,12,13,15,16,17,18}) {
+    gpio_reset_pin(gpio_num_t(pin));
+    gpio_set_direction(gpio_num_t(pin), GPIO_MODE_INPUT);
+  }
+  gpio_reset_pin(gpio_num_t(Pins::io0Reset));
+  gpio_set_level(gpio_num_t(Pins::io0Reset), 0);
+  gpio_pullup_dis(gpio_num_t(Pins::io0Reset));
+  gpio_pulldown_en(gpio_num_t(Pins::io0Reset));
+  gpio_set_direction(gpio_num_t(Pins::io0Reset), GPIO_MODE_OUTPUT);
+}
+static bool io0Release() {
++  gpio_set_level(gpio_num_t(Pins::io0Reset), 1);
++  vTaskDelay(pdMS_TO_TICKS(1));
++  return true; // first I2C register writes remain the qualification check
++}
++static void io0ResetFailoff() {
++  gpio_set_level(gpio_num_t(Pins::io0Reset), 0);
++  // Only call this after both worker acknowledgements. Timeout recovery uses
++  // esp_restart() first; bootPeripheralQuiesce() runs after reset. Software
++  // reset does not guarantee GPIO3 becomes high-Z.
++}
+@@
+-static void sleepNow(){ ... old three-second waits and rail removal ... }
++static void sleepNow(){
++  sleeping = true;
++  // Stop requests are consumed by their owners; no caller-side task deletion.
++  cameraStopRequested = true;
++  storageStopRequested = true;
++  stopStorage();
++  shutdownVideoClients();
++  if (!waitFor(cameraStopAck && storageStopAck, STOP_DEADLINE)) {
++    controlFaults++;
++    // Do not remove rails or assert IO0 reset from this live task. The pinned
++    // esp_restart() resets selected DMA/timer modules and CPUs; SPI3 is disabled at boot before
++    // GPIO3 is driven low, so IO0 resets and its defined defaults remove rails.
++    esp_restart();
++  }
++  // Owners have stopped DMA/SPI and acknowledged; now execute the existing
++  // ordered camera and SD rail-off sequence under busMutex, checking writes.
++  if (!cameraStopAck || !storageStopAck) return;
++  if (!output(CAM_PWDN, CAM_RESET) || !output(0, CAM_IF)) { controlFaults++; io0ResetFailoff(); esp_restart(); }
++  // ... existing waits and checked rail sequence ...
++}
+@@
+ static void cameraCapture(void*){
+@@
+-  while(!sleeping.load()){
++  while(!sleeping.load() && !cameraStopRequested.load()){
+@@
+-  xSemaphoreTake(busMutex,portMAX_DELAY);esp_camera_deinit();xSemaphoreGive(busMutex);
+-  cameraStopped=true;vTaskDelete(nullptr);
++  xSemaphoreTake(busMutex,portMAX_DELAY);
++  // This task is the sole owner of fb_get/fb_return/deinit and DMA teardown.
++  esp_camera_deinit();
++  ledc_stop(LEDC_LOW_SPEED_MODE,LEDC_CHANNEL_0,0);
++  xSemaphoreGive(busMutex);
++  cameraStopped=true; cameraStopAck=true; vTaskDelete(nullptr);
+@@
+ static void storage(void*){
+@@
+-  if(stopping.load()&&!work){ ... spi_bus_free ... setSdPower(false); sdStopped=true; vTaskDelete(nullptr); }
++  if(stopping.load()&&!work){
++    // This task remains the sole owner through unmount, spi_bus_free, pin
++    // isolation, and SD_EN off. A caller must wait for storageStopAck.
++    ...
++    storageStopAck=true; sdStopped=true; vTaskDelete(nullptr);
++  }

@@ -1,0 +1,102 @@
+{
+  "scope": "Typical25C; original vendor models. Mux RC/current are declared stress values; SAR31pF+200ohm continuous equivalent. Selector uses buffered voltage with separate conservative continuous load, not transistor switch charge injection.",
+  "models": {
+    "hardware/glove-v3/simulation/power_validation/models/MCP6001-original.lib": "6d64bba209890979467c7d16aea1786bf37169a8f5feff6057d3afedeee5364b",
+    "hardware/glove-v3/simulation/vendor/OPAx323-prefixed.lib": "23a63ccd42a03cdddcb4dd27dac926592304820e0c7a9334b0649684454d7edc",
+    "hardware/glove-v3/simulation/vendor/OPAx320-prefixed.lib": "2775a4f7d4b94d384340513f343b21fd2872b030e54bf69807418afcc678152c"
+  },
+  "cases": [
+    {
+      "case": "select40_from_low",
+      "complete": false,
+      "native_end_s": null,
+      "returncode": 0,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"a$poly$e.xbuf.e12#branch_1_0\"",
+        "tran simulation(s) aborted",
+        "Error: nostrchring on a scalar (time)",
+        "Error: Can't evaluate \"time[length(time)-1]\""
+      ],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": 8e-06,
+      "deck_sha256": "2ccd2548bfe0e930565c341f1b3a6d3c1da40e9578b11bd03501192185aa488e",
+      "log_sha256": "72e50f508faefefda9309831f469e73ba880d9a62716acc6a58b3fbf598e975c"
+    },
+    {
+      "case": "select40_from_high",
+      "complete": false,
+      "native_end_s": null,
+      "returncode": 0,
+      "errors": [
+        "Warning: singular matrix:  check nodes xbuf.50 and xbuf.20",
+        "Warning: singular matrix:  check node xbuf.20",
+        "Warning: singular matrix:  check node xbank.x_u2.7",
+        "Warning: singular matrix:  check node xbank.x_u2.7",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"a$poly$e.xbuf.e12#branch_1_0\"",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(ntc)"
+      ],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": -8e-06,
+      "deck_sha256": "8c1981567c6f12e688f0ccf9ca32e64a3ba794efc4ce3966055720eeb5098cb1",
+      "log_sha256": "8a262e7bed16fd9408c3c5ec1883791b7fdc380f28adb794b1b3d6d0ef57f25a"
+    },
+    {
+      "case": "open",
+      "complete": false,
+      "native_end_s": null,
+      "returncode": 0,
+      "errors": [
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"a$poly$e.xbuf.e12#branch_1_0\"",
+        "tran simulation(s) aborted",
+        "Error: nostrchring on a scalar (time)",
+        "Error: Can't evaluate \"time[length(time)-1]\""
+      ],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": 8e-06,
+      "deck_sha256": "c2d17ba2eff924dbf8468e4fbd2d9be600daa9ec07c145b6ee732ec63c99129a",
+      "log_sha256": "2b7b6e203e39915cec1e4ee21b0337c31353e6fbaa81121009dc5a9910f928cd"
+    },
+    {
+      "case": "short",
+      "complete": false,
+      "native_end_s": null,
+      "returncode": 0,
+      "errors": [
+        "Warning: singular matrix:  check node xbuf.20",
+        "Warning: singular matrix:  check node xbuf.20",
+        "Warning: singular matrix:  check node xbank.x_u2.7",
+        "Warning: singular matrix:  check node xbank.x_u2.7",
+        "Error: Transient op failed, timestep too small",
+        "Error: The operating point could not be simulated successfully.",
+        "doAnalyses: TRAN:  Timestep too small; initial timepoint: trouble with node \"a$poly$e.xbuf.e12#branch_1_0\"",
+        "tran simulation(s) aborted",
+        "Error: RHS \"time[length(time)-1]\" invalid",
+        "Error: no such vector v(ntc)"
+      ],
+      "mux_R_each_ohm_assumed": 2000,
+      "mux_C_pF_assumed": [
+        160,
+        80
+      ],
+      "leakage_A_assumed": -8e-06,
+      "deck_sha256": "13838072fd64b1e46e8d5c2997334f8e9396d15dcd26f28f94da5d49262eac29",
+      "log_sha256": "797186593966110c91292a4bdf1d15f7e7f40a476ab61512ef0e0deeeb5170d3"
+    }
+  ]
+}

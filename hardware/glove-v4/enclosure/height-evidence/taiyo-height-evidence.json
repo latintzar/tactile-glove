@@ -1,0 +1,15 @@
+{
+  "mpn": "TMK107BBJ106MA-T",
+  "maximum_height_mm": 1.0,
+  "height_datum": "body_thickness",
+  "primary_source_url": "https://www.es.co.th/Schemetic/PDF/TMK107BBJ106MA-T.PDF",
+  "source_file": "hardware/glove-v4/enclosure/height-evidence/sources/TMK107BBJ106MA-T.pdf",
+  "source_sha256": "8011c51d49639db7731d83e9832c0577e71bcf7cfbb51867616c1a9c83694ca5",
+  "physical_pdf_pages": [
+    1
+  ],
+  "evidence": "Manufacturer spec sheet exact part: Dimension T 0.8 +0.20/-0.00 mm.",
+  "status": "verified_manufacturer_height",
+  "part_number_note": "Manufacturer renamed to MSAST168BB5106MTNA01 for general equipment; retained exact selected legacy MPN pending supply review. No automatic substitution.",
+  "rename_source": "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=TMK107BBJ106MA-T+&u=M"
+}

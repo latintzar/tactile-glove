@@ -1,0 +1,261 @@
+{
+  "status": "UNAPPLIED engineering proposal, pending parent review and coordinated circuit/routing/firmware revision",
+  "canonical_components_sha256": "d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8",
+  "canonical_component_count": 561,
+  "new_board_component_count": 9,
+  "proposed_board_component_count": 570,
+  "add_components": [
+    {
+      "ref": "U_TEMP_BUF",
+      "provisional_designator": "U54",
+      "mpn": "MCP6002T-I/SN",
+      "qty": 1,
+      "pins": {
+        "1": "TEMP_PACK_BUF",
+        "2": "TEMP_PACK_BUF",
+        "3": "TEMP_PACK_RAW",
+        "4": "GND",
+        "5": "TEMP_BASE_RAW",
+        "6": "TEMP_BASE_BUF",
+        "7": "TEMP_BASE_BUF",
+        "8": "3V3_A"
+      },
+      "footprint": "Glove:SOIC-8_3.9x4.9mm_P1.27mm"
+    },
+    {
+      "ref": "J_TEMP",
+      "provisional_designator": "J17",
+      "mpn": "SM04B-SRSS-TB(LF)(SN)",
+      "qty": 1,
+      "pins": {
+        "1": "TEMP_PACK_RAW",
+        "2": "GND",
+        "3": "TEMP_BASE_RAW",
+        "4": "GND"
+      },
+      "footprint": "GloveV4:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal"
+    },
+    {
+      "ref": "R_TEMP_PACK_PULL",
+      "provisional_designator": "R250",
+      "mpn": "RT0603BRD0710KL",
+      "qty": 1,
+      "pins": {
+        "1": "VEXC2V5",
+        "2": "TEMP_PACK_RAW"
+      },
+      "footprint": "Glove:R_0603_1608Metric",
+      "value": "10k"
+    },
+    {
+      "ref": "R_TEMP_PACK_ISO",
+      "provisional_designator": "R252",
+      "mpn": "RC0603FR-07100RL",
+      "qty": 1,
+      "pins": {
+        "1": "TEMP_PACK_BUF",
+        "2": "TEMP_PACK"
+      },
+      "footprint": "Glove:R_0603_1608Metric",
+      "value": "100"
+    },
+    {
+      "ref": "C_TEMP_PACK",
+      "provisional_designator": "C206",
+      "mpn": "GRM188R71H104KA93D",
+      "qty": 1,
+      "pins": {
+        "1": "TEMP_PACK_RAW",
+        "2": "GND"
+      },
+      "footprint": "Glove:C_0603_1608Metric",
+      "value": "100n"
+    },
+    {
+      "ref": "R_TEMP_BASE_PULL",
+      "provisional_designator": "R251",
+      "mpn": "RT0603BRD0710KL",
+      "qty": 1,
+      "pins": {
+        "1": "VEXC2V5",
+        "2": "TEMP_BASE_RAW"
+      },
+      "footprint": "Glove:R_0603_1608Metric",
+      "value": "10k"
+    },
+    {
+      "ref": "R_TEMP_BASE_ISO",
+      "provisional_designator": "R253",
+      "mpn": "RC0603FR-07100RL",
+      "qty": 1,
+      "pins": {
+        "1": "TEMP_BASE_BUF",
+        "2": "TEMP_BASE"
+      },
+      "footprint": "Glove:R_0603_1608Metric",
+      "value": "100"
+    },
+    {
+      "ref": "C_TEMP_BASE",
+      "provisional_designator": "C207",
+      "mpn": "GRM188R71H104KA93D",
+      "qty": 1,
+      "pins": {
+        "1": "TEMP_BASE_RAW",
+        "2": "GND"
+      },
+      "footprint": "Glove:C_0603_1608Metric",
+      "value": "100n"
+    },
+    {
+      "ref": "CDEC_U_TEMP_BUF",
+      "provisional_designator": "C208",
+      "mpn": "GRM188R71H104KA93D",
+      "qty": 1,
+      "pins": {
+        "1": "3V3_A",
+        "2": "GND"
+      },
+      "footprint": "Glove:C_0603_1608Metric",
+      "value": "100n"
+    }
+  ],
+  "change_components": [
+    {
+      "ref": "R_VMID_H",
+      "designator": "R141",
+      "from_mpn": "RC0603FR-0710KL",
+      "to_mpn": "RT0603BRD0710KL",
+      "pins_unchanged": true
+    },
+    {
+      "ref": "R_VMID_L",
+      "designator": "R142",
+      "from_mpn": "RC0603FR-0710KL",
+      "to_mpn": "RT0603BRD0710KL",
+      "pins_unchanged": true
+    }
+  ],
+  "change_nets": [
+    {
+      "ref": "U_MUX1",
+      "designator": "U6",
+      "pin": "21",
+      "channel": "I10",
+      "bank": 0,
+      "slot": 10,
+      "from": "VMID1V25",
+      "to": "TEMP_PACK"
+    },
+    {
+      "ref": "U_MUX1",
+      "designator": "U6",
+      "pin": "20",
+      "channel": "I11",
+      "bank": 0,
+      "slot": 11,
+      "from": "VMID1V25",
+      "to": "TEMP_BASE"
+    },
+    {
+      "ref": "U_MUX1",
+      "designator": "U6",
+      "pin": "18",
+      "channel": "I13",
+      "bank": 0,
+      "slot": 13,
+      "from": "VMID1V25",
+      "to": "VEXC2V5"
+    }
+  ],
+  "retained_reference": {
+    "ref": "U_MUX1",
+    "designator": "U6",
+    "pin": "19",
+    "channel": "I12",
+    "bank": 0,
+    "slot": 12,
+    "net": "VMID1V25"
+  },
+  "external_delta": [
+    {
+      "mpn": "103AT-2",
+      "manufacturer": "Semitec",
+      "qty": 2,
+      "function": "Independent pack and base readout NTCs; existing charge NTC retained"
+    },
+    {
+      "mpn": "SHR-04V-S",
+      "manufacturer": "JST",
+      "qty": 1
+    },
+    {
+      "mpn": "SSH-003T-P0.2-H",
+      "manufacturer": "JST",
+      "qty": 4
+    },
+    {
+      "spec": "Four28AWG stranded insulated leads, wireOD0.4..0.8mm, factory crimped and soldered to NTC leads; finished lengths determined by the subsequently collision-tested routing",
+      "qty": 1
+    }
+  ],
+  "connector_candidate": {
+    "center_mm": [
+      15,
+      43.5
+    ],
+    "rotation_deg": 90,
+    "layer": "F",
+    "mouth_direction": "-X",
+    "courtyard_mm": [
+      11.72,
+      39.6,
+      18.28,
+      47.4
+    ],
+    "clear_courtyards_verified_by": "pcb_route_completion",
+    "local_envelope_fit": "local-fit.json",
+    "complete_cable_route_verified": false
+  },
+  "firmware": {
+    "cohort_period_ms": 100,
+    "max_cohort_duration_ms": 2,
+    "slots": [
+      10,
+      11,
+      12,
+      13
+    ],
+    "settle_us_each": 24,
+    "first_valid_after_rails_ms": 20,
+    "stale_ms": 500,
+    "hot_trip_consecutive_cohorts": 2,
+    "fault_trip_cohorts": 1,
+    "provisional_pack_stop_C": 45,
+    "provisional_base_stop_C": 36,
+    "restart_requires_button_and_valid_readings": true,
+    "restart_pack_max_C": 40,
+    "restart_base_max_C": 33,
+    "open_q_gt": 0.94,
+    "short_q_lt": 0.06,
+    "reference_span_counts_range": [
+      12800,
+      14500
+    ],
+    "absolute_midpoint_counts_max": 200,
+    "power_off_reading_valid": false,
+    "reset_default_charge_disable": true,
+    "ground_endpoint_calibration": false,
+    "threshold_release_qualified": false,
+    "threshold_margin_status": "36C+3Cerror+1Cgradient/lag=40C leaves zero reserve. Require measured one-sided error, all shutdown/thermal overshoot and positive reserve before wear;37C+2C+1C has the same issue."
+  },
+  "integration_gates": [
+    "Coordinate full native footprints/pads and maintain front/back component clearance.",
+    "Bounded sensor harness and sensor attachments must be modeled before wearable release.",
+    "MCP6002 output/bias/offset and CD74HC4067 leakage/Ron require analog-temperature acceptance; model assumptions are not guaranteed3.3V production maxima.",
+    "Firmware thermal stop must stop camera, ADC, recording and charging and preserve a latched reason.",
+    "Thermal path/ambient operating envelope still requires physical instrumentation.",
+    "Close positive temperature margin including self-heating, ground/path errors, reference dynamics, mounting gradient, shutdown and stored-heat overshoot; cutoff does not establish runtime.",
+    "Validate power-down retained-charge injection from100nF sensor filters/VEXC reservoir into the unpowered MCP6002/mux; steady-state passive sensors do not prove safe transients."
+  ]
+}

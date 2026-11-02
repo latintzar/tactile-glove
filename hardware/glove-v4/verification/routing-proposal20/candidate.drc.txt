@@ -1,0 +1,350 @@
+** Drc report for /tmp/glove-v4-routing-cache/eight-i2c-vias-restored.kicad_pcb **
+** Created on 2026-10-23 02:31:30 **
+
+** Found 87 DRC violations **
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; Severity: warning
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(71.4923 mm, 16.6556 mm): Via [3V3_A] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(92.4114 mm, 41.1520 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(79.4405 mm, 24.3063 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(31.1000 mm, 67.2000 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(91.1625 mm, 38.3451 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.3773 mm, 55.6400 mm): Via [ADC_CNV] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(62.7000 mm, 49.2000 mm): Via [ADC_SDO] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(80.3500 mm, 69.6200 mm): Via [ADC_SDO] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(52.7459 mm, 43.5133 mm): Via [ANALOG_EN] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.8112 mm, 65.0660 mm): Via [BOOT_DELAY] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(93.5500 mm, 27.5500 mm): Track [CAM_AV_EN] on SIGNAL_BOTTOM, length 0.0500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(94.7000 mm, 29.2000 mm): Track [CAM_AV_EN] on SIGNAL_BOTTOM, length 0.7071 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(76.5750 mm, 50.7000 mm): Track [CAM_D1] on SIGNAL_TOP, length 1.0607 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.8250 mm, 52.1250 mm): Track [CAM_D1] on SIGNAL_TOP, length 0.6364 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(78.9875 mm, 54.6750 mm): Via [CAM_D3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(86.1000 mm, 27.1500 mm): Via [CAM_D3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(88.8000 mm, 29.3000 mm): Via [CAM_D5] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.9750 mm, 49.6500 mm): Track [CAM_D6] on F.Cu, length 0.1346 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.5250 mm, 52.3500 mm): Track [CAM_D6] on F.Cu, length 0.4981 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.8000 mm, 51.5000 mm): Track [CAM_D6] on F.Cu, length 0.1414 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(76.9875 mm, 57.2750 mm): Via [CAM_D7] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(90.2500 mm, 25.4500 mm): Via [CAM_D7] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(92.2000 mm, 27.0000 mm): Via [CAM_DVDD_1V5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(61.4875 mm, 70.3250 mm): Via [CAM_DV_EN] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(96.6750 mm, 63.0000 mm): Track [CAM_IO_EN] on SIGNAL_TOP, length 0.0750 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(85.6000 mm, 45.8000 mm): Track [CAM_PWDN] on F.Cu, length 5.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(93.3750 mm, 23.7000 mm): Track [CAM_PWDN] on F.Cu, length 0.1061 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.7500 mm, 24.7000 mm): Track [CAM_PWDN] on F.Cu, length 0.1768 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.9250 mm, 24.0750 mm): Track [CAM_RESET_N] on F.Cu, length 0.4243 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(93.2500 mm, 24.9500 mm): Via [CAM_RESET_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.9875 mm, 44.9750 mm): Via [CAM_RESET_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.5375 mm, 42.0750 mm): Via [CAM_VSYNC] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(92.9000 mm, 27.4000 mm): Via [CAM_VSYNC] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.9000 mm, 55.9000 mm): Track [CC_OUT1] on B.Cu, length 0.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(89.7250 mm, 53.8000 mm): Track [CC_OUT1] on B.Cu, length 0.5836 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(78.5125 mm, 66.4250 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(87.4875 mm, 30.4000 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(89.5000 mm, 51.0000 mm): Track [GND] on F.Cu, length 0.5500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(49.5000 mm, 50.6750 mm): Track [GND] on B.Cu, length 0.5500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(76.5000 mm, 51.1750 mm): Track [GND] on B.Cu, length 0.5500 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(26.6184 mm, 52.9578 mm): Via [I2C_SCL] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.8500 mm, 28.9500 mm): Track [I2C_SCL] on SIGNAL_BOTTOM, length 0.1500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(94.2750 mm, 27.6750 mm): Track [I2C_SCL] on SIGNAL_BOTTOM, length 0.1500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(74.4143 mm, 52.2254 mm): Track [I2C_SDA] on SIGNAL_BOTTOM, length 2.9229 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.6750 mm, 65.7000 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.5250 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(95.0000 mm, 59.4000 mm): Track [MCU_CAM_D0] on B.Cu, length 0.0500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.8500 mm, 60.7000 mm): Track [MCU_CAM_D0] on B.Cu, length 0.0500 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(83.2500 mm, 54.6750 mm): Via [MCU_CAM_D2] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(95.1000 mm, 61.9500 mm): Track [MCU_CAM_D5] on F.Cu, length 1.8031 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(98.5000 mm, 65.8000 mm): Via [MCU_CAM_D5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(84.0125 mm, 56.6250 mm): Via [MCU_CAM_D5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(60.1375 mm, 68.3750 mm): Via [MCU_CAM_PWDN] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(60.5375 mm, 68.8750 mm): Via [MCU_CAM_RESET_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(45.2392 mm, 48.2658 mm): Via [MUX_DATA] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(80.3500 mm, 75.0000 mm): Via [MUX_SHIFT_CLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(40.2037 mm, 47.9993 mm): Via [MUX_SHIFT_CLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(88.0242 mm, 14.8588 mm): Via [S1_A_P4] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(70.8287 mm, 39.5128 mm): Via [S2_OUT_L3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(71.4875 mm, 67.7250 mm): Via [SD_CD_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(73.4671 mm, 68.3958 mm): Via [SD_MOSI] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(83.9000 mm, 53.9000 mm): Track [STRAP46] on SIGNAL_BOTTOM, length 0.1000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(88.0500 mm, 54.6000 mm): Track [USB_CC1] on F.Cu, length 0.1500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(93.1376 mm, 54.4866 mm): Track [USB_CC1] on F.Cu, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(90.6500 mm, 44.0500 mm): Via [USB_CC1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(91.7000 mm, 48.7000 mm): Via [USB_CC2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(60.4948 mm, 67.2255 mm): Via [USB_CC_RLOW] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(68.0125 mm, 64.1500 mm): Via [USB_CFG_ATTACH_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(62.2875 mm, 62.8500 mm): Via [USB_CFG_ATTACH_N] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(65.9250 mm, 62.1750 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.4243 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(63.9750 mm, 62.3250 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.1500 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(68.9625 mm, 69.1750 mm): Via [USB_CONFIG_CLR_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(78.1750 mm, 50.5000 mm): Via [USB_CONFIG_CLR_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(59.7625 mm, 63.5000 mm): Via [USB_CONFIG_CLR_N] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(90.2250 mm, 53.5500 mm): Track [USB_HIGH_ON] on SIGNAL_TOP, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(73.4875 mm, 75.5500 mm): Via [USB_NOT_SUSPEND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(63.7125 mm, 59.5000 mm): Via [USB_NOT_SUSPEND] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.2500 mm, 62.7750 mm): Track [USB_RECOVERY_FAULT_N] on B.Cu, length 0.4500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(91.3000 mm, 52.1000 mm): Track [USB_RECOVERY_FAULT_N] on B.Cu, length 0.0707 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(95.4750 mm, 59.4750 mm): Track [USB_RECOVERY_FAULT_N] on B.Cu, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(89.3000 mm, 52.2500 mm): Via [USB_RECOVERY_ON] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(88.8750 mm, 52.5000 mm): Track [USB_VBUS] on SIGNAL_BOTTOM, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(57.3000 mm, 57.9750 mm): Via [VEXC_FB] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(81.7000 mm, 20.4000 mm): Via [VMID1V25] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(74.7000 mm, 10.5000 mm): Via [VMID1V25] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(85.0000 mm, 12.2000 mm): Via [VMID1V25] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(53.7000 mm, 63.6750 mm): Track [VREF3V0] on B.Cu, length 0.5202 mm
+
+** Found 20 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(62.7000 mm, 49.2000 mm): Via [ADC_SDO] on F.Cu - B.Cu
+    @(80.3500 mm, 69.6200 mm): Via [ADC_SDO] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(78.9875 mm, 54.6750 mm): Via [CAM_D3] on F.Cu - B.Cu
+    @(86.2500 mm, 25.8000 mm): Track [CAM_D3] on F.Cu, length 1.3583 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.6375 mm, 57.2750 mm): Track [CAM_D7] on F.Cu, length 0.6500 mm
+    @(90.2500 mm, 25.8000 mm): Pad 12 [CAM_D7] of J14 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(80.5000 mm, 25.8250 mm): Track [CAM_DV_EN] on B.Cu, length 0.4596 mm
+    @(62.1375 mm, 70.3250 mm): Track [CAM_DV_EN] on B.Cu, length 0.6500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(76.6375 mm, 42.3750 mm): Track [CAM_VSYNC] on F.Cu, length 1.1402 mm
+    @(92.9000 mm, 27.4000 mm): Via [CAM_VSYNC] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(87.4875 mm, 30.4000 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu
+    @(77.8625 mm, 66.4250 mm): Track [CUFF_IMU_INT1] on B.Cu, length 0.6500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.1000 mm, 65.3250 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.1061 mm
+    @(75.6750 mm, 65.7000 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.5250 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(61.9133 mm, 66.8508 mm): Track [LED_G_N] on B.Cu, length 0.3171 mm
+    @(46.2553 mm, 68.0000 mm): Track [LED_G_N] on B.Cu, length 0.4197 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(82.3625 mm, 46.2750 mm): Track [MCU_CAM_PWDN] on F.Cu, length 0.6611 mm
+    @(62.1375 mm, 68.3750 mm): Track [MCU_CAM_PWDN] on B.Cu, length 2.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(62.1375 mm, 69.0250 mm): Track [MCU_CAM_RESET_N] on B.Cu, length 1.6070 mm
+    @(82.3625 mm, 45.6250 mm): Pad 16 [MCU_CAM_RESET_N] of U58 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(41.6383 mm, 48.8008 mm): Track [MUX_SHIFT_CLK] on B.Cu, length 0.3171 mm
+    @(80.3500 mm, 75.0000 mm): Via [MUX_SHIFT_CLK] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(48.0950 mm, 63.2450 mm): Pad 9 [SD_CD_N] of J16 on F.Cu
+    @(71.4875 mm, 67.7250 mm): Via [SD_CD_N] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(91.8750 mm, 55.2000 mm): Track [USB_CC1] on F.Cu, length 0.6000 mm
+    @(88.2750 mm, 54.2000 mm): Track [USB_CC1] on B.Cu, length 0.7159 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(93.1376 mm, 54.4866 mm): Track [USB_CC1] on F.Cu, length 0.0750 mm
+    @(92.5000 mm, 45.5500 mm): Track [USB_CC1] on F.Cu, length 0.8500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(88.2750 mm, 53.8000 mm): Pad 2 [USB_CC2] of U33 on B.Cu
+    @(91.0388 mm, 52.2500 mm): Track [USB_CC2] on F.Cu, length 2.7119 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(63.9750 mm, 62.3250 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.1500 mm
+    @(65.9250 mm, 62.1750 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.4243 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(78.1750 mm, 52.5000 mm): Track [USB_CONFIG_CLR_N] on B.Cu, length 2.0000 mm
+    @(66.1500 mm, 66.8500 mm): Track [USB_CONFIG_CLR_N] on SIGNAL_TOP, length 0.9500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(64.8750 mm, 71.1750 mm): Track [USB_CONFIG_SET] on F.Cu, length 1.4849 mm
+    @(68.7250 mm, 71.9000 mm): Pad 1 [USB_CONFIG_SET] of R213 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(64.3625 mm, 59.5000 mm): Track [USB_NOT_SUSPEND] on B.Cu, length 0.6500 mm
+    @(74.1375 mm, 75.5500 mm): Track [USB_NOT_SUSPEND] on B.Cu, length 0.6500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(67.0000 mm, 63.5000 mm): Pad 3 [USB_RECOVERY_ON] of Q1 on B.Cu
+    @(89.3000 mm, 53.2000 mm): Track [USB_RECOVERY_ON] on F.Cu, length 0.4000 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **

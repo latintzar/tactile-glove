@@ -1,0 +1,6418 @@
+{
+  "status": "V3.3 tactile-core final placement:356parts; KiCad0DRC/0opens; mandatory filled/capped vias",
+  "board_mm": [
+    90,
+    60,
+    1.6
+  ],
+  "parts": [
+    {
+      "ref": "D_CLAMP_I1",
+      "designator": "D2",
+      "x_mm": 4.0,
+      "y_mm": 11.0,
+      "rotation_deg": 180.0,
+      "side": "F",
+      "courtyard_mm": [
+        2.275,
+        9.225,
+        5.725,
+        12.775
+      ],
+      "center_mm": [
+        4.0,
+        11.0
+      ]
+    },
+    {
+      "ref": "U_CHG5",
+      "designator": "U15",
+      "x_mm": 80.0,
+      "y_mm": 17.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        76.125,
+        14.725,
+        83.875,
+        20.275
+      ],
+      "center_mm": [
+        80.0,
+        17.5
+      ]
+    },
+    {
+      "ref": "RFB_I3",
+      "designator": "R15",
+      "x_mm": 13.5,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        11.795,
+        20.525,
+        15.205,
+        22.475
+      ],
+      "center_mm": [
+        13.5,
+        21.5
+      ]
+    },
+    {
+      "ref": "RIN_T1",
+      "designator": "R86",
+      "x_mm": 56.5,
+      "y_mm": 14.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        54.995,
+        13.245,
+        58.005,
+        14.755
+      ],
+      "center_mm": [
+        56.5,
+        14.0
+      ]
+    },
+    {
+      "ref": "RIN_H2",
+      "designator": "R135",
+      "x_mm": 83.0,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        81.495,
+        10.745,
+        84.505,
+        12.255
+      ],
+      "center_mm": [
+        83.0,
+        11.5
+      ]
+    },
+    {
+      "ref": "RPD_R1",
+      "designator": "R49",
+      "x_mm": 42.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        40.995,
+        8.245,
+        44.005,
+        9.755
+      ],
+      "center_mm": [
+        42.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "CFB_H1",
+      "designator": "C91",
+      "x_mm": 85.0,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        84.245,
+        16.995,
+        85.755,
+        20.005
+      ],
+      "center_mm": [
+        85.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "U_MUX1",
+      "designator": "U6",
+      "x_mm": 15.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        7.025,
+        27.545,
+        22.975,
+        39.455
+      ],
+      "center_mm": [
+        15.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_MUX1",
+      "designator": "C111",
+      "x_mm": 6.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        5.245,
+        27.495,
+        6.755,
+        30.505
+      ],
+      "center_mm": [
+        6.0,
+        29.0
+      ]
+    },
+    {
+      "ref": "R_VMID_L",
+      "designator": "R142",
+      "x_mm": 42.5,
+      "y_mm": 53.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        40.995,
+        52.745,
+        44.005,
+        54.255
+      ],
+      "center_mm": [
+        42.5,
+        53.5
+      ]
+    },
+    {
+      "ref": "RPD_M2",
+      "designator": "R35",
+      "x_mm": 29.0,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        27.495,
+        8.245,
+        30.505,
+        9.755
+      ],
+      "center_mm": [
+        29.0,
+        9.0
+      ]
+    },
+    {
+      "ref": "CFB_H2",
+      "designator": "C96",
+      "x_mm": 85.5,
+      "y_mm": 15.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        84.745,
+        13.495,
+        86.255,
+        16.505
+      ],
+      "center_mm": [
+        85.5,
+        15.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_ADC_NEG",
+      "designator": "C137",
+      "x_mm": 51.0,
+      "y_mm": 55.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        50.245,
+        53.995,
+        51.755,
+        57.005
+      ],
+      "center_mm": [
+        51.0,
+        55.5
+      ]
+    },
+    {
+      "ref": "R_ANALOG_EN",
+      "designator": "R146",
+      "x_mm": 51.0,
+      "y_mm": 41.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        50.245,
+        39.995,
+        51.755,
+        43.005
+      ],
+      "center_mm": [
+        51.0,
+        41.5
+      ]
+    },
+    {
+      "ref": "RFB_P2",
+      "designator": "R106",
+      "x_mm": 65.0,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        63.295,
+        12.525,
+        66.705,
+        14.475
+      ],
+      "center_mm": [
+        65.0,
+        13.5
+      ]
+    },
+    {
+      "ref": "J_BAT",
+      "designator": "J2",
+      "x_mm": 5.0,
+      "y_mm": 42.95,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        2.525,
+        40.725,
+        9.475,
+        46.275
+      ],
+      "center_mm": [
+        6.0,
+        43.5
+      ]
+    },
+    {
+      "ref": "RIN_R3",
+      "designator": "R58",
+      "x_mm": 39.0,
+      "y_mm": 14.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        37.495,
+        13.245,
+        40.505,
+        14.755
+      ],
+      "center_mm": [
+        39.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "RPD_P4",
+      "designator": "R126",
+      "x_mm": 13.0,
+      "y_mm": 57.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        11.495,
+        56.745,
+        14.505,
+        58.255
+      ],
+      "center_mm": [
+        13.0,
+        57.5
+      ]
+    },
+    {
+      "ref": "RPD_P1",
+      "designator": "R105",
+      "x_mm": 6.5,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        4.995,
+        54.745,
+        8.005,
+        56.255
+      ],
+      "center_mm": [
+        6.5,
+        55.5
+      ]
+    },
+    {
+      "ref": "U_ADC",
+      "designator": "U4",
+      "x_mm": 58.0,
+      "y_mm": 49.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        54.825,
+        47.125,
+        61.175,
+        50.875
+      ],
+      "center_mm": [
+        58.0,
+        49.0
+      ]
+    },
+    {
+      "ref": "RPD_L2",
+      "designator": "R77",
+      "x_mm": 63.0,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        61.495,
+        8.245,
+        64.505,
+        9.755
+      ],
+      "center_mm": [
+        63.0,
+        9.0
+      ]
+    },
+    {
+      "ref": "R_VMID_H",
+      "designator": "R141",
+      "x_mm": 46.0,
+      "y_mm": 53.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        44.495,
+        52.745,
+        47.505,
+        54.255
+      ],
+      "center_mm": [
+        46.0,
+        53.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_ADC_DRV",
+      "designator": "C110",
+      "x_mm": 51.0,
+      "y_mm": 44.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        49.495,
+        43.245,
+        52.505,
+        44.755
+      ],
+      "center_mm": [
+        51.0,
+        44.0
+      ]
+    },
+    {
+      "ref": "RPD_R3",
+      "designator": "R63",
+      "x_mm": 49.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        47.995,
+        8.245,
+        51.005,
+        9.755
+      ],
+      "center_mm": [
+        49.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "RFB_R1",
+      "designator": "R43",
+      "x_mm": 31.0,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        29.295,
+        20.525,
+        32.705,
+        22.475
+      ],
+      "center_mm": [
+        31.0,
+        21.5
+      ]
+    },
+    {
+      "ref": "RIN_M3",
+      "designator": "R37",
+      "x_mm": 28.0,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        27.245,
+        20.495,
+        28.755,
+        23.505
+      ],
+      "center_mm": [
+        28.0,
+        22.0
+      ]
+    },
+    {
+      "ref": "CFB_P3",
+      "designator": "C81",
+      "x_mm": 75.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        74.245,
+        14.995,
+        75.755,
+        18.005
+      ],
+      "center_mm": [
+        75.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "RPD_H1",
+      "designator": "R133",
+      "x_mm": 17.0,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        15.495,
+        54.745,
+        18.505,
+        56.255
+      ],
+      "center_mm": [
+        17.0,
+        55.5
+      ]
+    },
+    {
+      "ref": "C_REF",
+      "designator": "C103",
+      "x_mm": 62.0,
+      "y_mm": 38.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        61.245,
+        36.995,
+        62.755,
+        40.005
+      ],
+      "center_mm": [
+        62.0,
+        38.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_MUX2",
+      "designator": "C112",
+      "x_mm": 25.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        24.245,
+        27.495,
+        25.755,
+        30.505
+      ],
+      "center_mm": [
+        25.0,
+        29.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_CHG1",
+      "designator": "C116",
+      "x_mm": 3.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        2.245,
+        14.995,
+        3.755,
+        18.005
+      ],
+      "center_mm": [
+        3.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_CHG2",
+      "designator": "C117",
+      "x_mm": 20.5,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        19.745,
+        14.995,
+        21.255,
+        18.005
+      ],
+      "center_mm": [
+        20.5,
+        16.5
+      ]
+    },
+    {
+      "ref": "RFB_L3",
+      "designator": "R78",
+      "x_mm": 47.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        45.795,
+        12.525,
+        49.205,
+        14.475
+      ],
+      "center_mm": [
+        47.5,
+        13.5
+      ]
+    },
+    {
+      "ref": "RIN_L1",
+      "designator": "R65",
+      "x_mm": 45.5,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        44.745,
+        20.495,
+        46.255,
+        23.505
+      ],
+      "center_mm": [
+        45.5,
+        22.0
+      ]
+    },
+    {
+      "ref": "RFB_P3",
+      "designator": "R113",
+      "x_mm": 77.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        75.795,
+        12.525,
+        79.205,
+        14.475
+      ],
+      "center_mm": [
+        77.5,
+        13.5
+      ]
+    },
+    {
+      "ref": "CFB_I1",
+      "designator": "C1",
+      "x_mm": 5.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        4.245,
+        14.995,
+        5.755,
+        18.005
+      ],
+      "center_mm": [
+        5.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "RPD_R2",
+      "designator": "R56",
+      "x_mm": 46.0,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        44.495,
+        8.245,
+        47.505,
+        9.755
+      ],
+      "center_mm": [
+        46.0,
+        9.0
+      ]
+    },
+    {
+      "ref": "J_LITTLE",
+      "designator": "J9",
+      "x_mm": 62.0,
+      "y_mm": 4.4,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        54.755,
+        1.075,
+        69.245,
+        7.725
+      ],
+      "center_mm": [
+        62.0,
+        4.3999999999999995
+      ]
+    },
+    {
+      "ref": "D_CLAMP_L3",
+      "designator": "D13",
+      "x_mm": 53.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        51.275,
+        8.725,
+        54.725,
+        12.275
+      ],
+      "center_mm": [
+        53.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "U_CHG3",
+      "designator": "U13",
+      "x_mm": 45.0,
+      "y_mm": 17.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        41.125,
+        14.725,
+        48.875,
+        20.275
+      ],
+      "center_mm": [
+        45.0,
+        17.5
+      ]
+    },
+    {
+      "ref": "RFB_T2",
+      "designator": "R92",
+      "x_mm": 60.0,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        58.295,
+        20.525,
+        61.705,
+        22.475
+      ],
+      "center_mm": [
+        60.0,
+        21.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_CHG3",
+      "designator": "C118",
+      "x_mm": 38.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        37.245,
+        14.995,
+        38.755,
+        18.005
+      ],
+      "center_mm": [
+        38.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "CFB_T1",
+      "designator": "C61",
+      "x_mm": 57.5,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        56.745,
+        14.995,
+        58.255,
+        18.005
+      ],
+      "center_mm": [
+        57.5,
+        16.5
+      ]
+    },
+    {
+      "ref": "RIN_H1",
+      "designator": "R128",
+      "x_mm": 87.0,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        86.245,
+        16.995,
+        87.755,
+        20.005
+      ],
+      "center_mm": [
+        87.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "RIN_P2",
+      "designator": "R107",
+      "x_mm": 65.5,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        63.995,
+        10.745,
+        67.005,
+        12.255
+      ],
+      "center_mm": [
+        65.5,
+        11.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_MUX_FINAL",
+      "designator": "C115",
+      "x_mm": 34.5,
+      "y_mm": 45.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        33.745,
+        43.495,
+        35.255,
+        46.505
+      ],
+      "center_mm": [
+        34.5,
+        45.0
+      ]
+    },
+    {
+      "ref": "RIN_L2",
+      "designator": "R72",
+      "x_mm": 52.0,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        51.245,
+        16.995,
+        52.755,
+        20.005
+      ],
+      "center_mm": [
+        52.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "RIN_M1",
+      "designator": "R23",
+      "x_mm": 13.0,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        11.495,
+        10.745,
+        14.505,
+        12.255
+      ],
+      "center_mm": [
+        13.0,
+        11.5
+      ]
+    },
+    {
+      "ref": "RIN_P4",
+      "designator": "R121",
+      "x_mm": 80.5,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        79.745,
+        20.495,
+        81.255,
+        23.505
+      ],
+      "center_mm": [
+        80.5,
+        22.0
+      ]
+    },
+    {
+      "ref": "CFB_P1",
+      "designator": "C71",
+      "x_mm": 67.5,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        66.745,
+        16.995,
+        68.255,
+        20.005
+      ],
+      "center_mm": [
+        67.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "SW1",
+      "designator": "SW1",
+      "x_mm": 44.0,
+      "y_mm": 56.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        38.625,
+        54.475,
+        49.375,
+        58.525
+      ],
+      "center_mm": [
+        44.0,
+        56.5
+      ]
+    },
+    {
+      "ref": "RFB_R3",
+      "designator": "R57",
+      "x_mm": 42.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        40.795,
+        12.525,
+        44.205,
+        14.475
+      ],
+      "center_mm": [
+        42.5,
+        13.5
+      ]
+    },
+    {
+      "ref": "C_LDO_OUT",
+      "designator": "C102",
+      "x_mm": 64.0,
+      "y_mm": 41.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        62.495,
+        40.245,
+        65.505,
+        41.755
+      ],
+      "center_mm": [
+        64.0,
+        41.0
+      ]
+    },
+    {
+      "ref": "RPD_L1",
+      "designator": "R70",
+      "x_mm": 59.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        57.995,
+        8.245,
+        61.005,
+        9.755
+      ],
+      "center_mm": [
+        59.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_REF",
+      "designator": "C108",
+      "x_mm": 53.0,
+      "y_mm": 41.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        52.245,
+        39.995,
+        53.755,
+        43.005
+      ],
+      "center_mm": [
+        53.0,
+        41.5
+      ]
+    },
+    {
+      "ref": "J_THUMB",
+      "designator": "J5",
+      "x_mm": 79.0,
+      "y_mm": 4.4,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        72.995,
+        1.075,
+        85.005,
+        7.725
+      ],
+      "center_mm": [
+        79.0,
+        4.3999999999999995
+      ]
+    },
+    {
+      "ref": "D_CLAMP_M2",
+      "designator": "D6",
+      "x_mm": 21.5,
+      "y_mm": 11.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        19.775,
+        9.225,
+        23.225,
+        12.775
+      ],
+      "center_mm": [
+        21.5,
+        11.0
+      ]
+    },
+    {
+      "ref": "CFB_L1",
+      "designator": "C46",
+      "x_mm": 39.5,
+      "y_mm": 20.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        38.745,
+        18.495,
+        40.255,
+        21.505
+      ],
+      "center_mm": [
+        39.5,
+        20.0
+      ]
+    },
+    {
+      "ref": "J_RING",
+      "designator": "J8",
+      "x_mm": 45.0,
+      "y_mm": 4.4,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        37.755,
+        1.075,
+        52.245,
+        7.725
+      ],
+      "center_mm": [
+        45.0,
+        4.3999999999999995
+      ]
+    },
+    {
+      "ref": "U_CHG1",
+      "designator": "U11",
+      "x_mm": 10.0,
+      "y_mm": 17.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        6.125,
+        14.725,
+        13.875,
+        20.275
+      ],
+      "center_mm": [
+        10.0,
+        17.5
+      ]
+    },
+    {
+      "ref": "RFB_I1",
+      "designator": "R1",
+      "x_mm": 7.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        5.795,
+        12.525,
+        9.205,
+        14.475
+      ],
+      "center_mm": [
+        7.5,
+        13.5
+      ]
+    },
+    {
+      "ref": "RFB_L1",
+      "designator": "R64",
+      "x_mm": 42.5,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        40.795,
+        20.525,
+        44.205,
+        22.475
+      ],
+      "center_mm": [
+        42.5,
+        21.5
+      ]
+    },
+    {
+      "ref": "RIN_P3",
+      "designator": "R114",
+      "x_mm": 74.0,
+      "y_mm": 14.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        72.495,
+        13.245,
+        75.505,
+        14.755
+      ],
+      "center_mm": [
+        74.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "CFB_I2",
+      "designator": "C6",
+      "x_mm": 4.5,
+      "y_mm": 20.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        3.745,
+        18.495,
+        5.255,
+        21.505
+      ],
+      "center_mm": [
+        4.5,
+        20.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_MUX4",
+      "designator": "C114",
+      "x_mm": 63.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        62.245,
+        27.495,
+        63.755,
+        30.505
+      ],
+      "center_mm": [
+        63.0,
+        29.0
+      ]
+    },
+    {
+      "ref": "CFB_R1",
+      "designator": "C31",
+      "x_mm": 32.5,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        31.745,
+        16.995,
+        33.255,
+        20.005
+      ],
+      "center_mm": [
+        32.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "CFB_R2",
+      "designator": "C36",
+      "x_mm": 33.0,
+      "y_mm": 15.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        32.245,
+        13.495,
+        33.755,
+        16.505
+      ],
+      "center_mm": [
+        33.0,
+        15.0
+      ]
+    },
+    {
+      "ref": "RFB_M3",
+      "designator": "R36",
+      "x_mm": 25.0,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        23.295,
+        20.525,
+        26.705,
+        22.475
+      ],
+      "center_mm": [
+        25.0,
+        21.5
+      ]
+    },
+    {
+      "ref": "RIN_T2",
+      "designator": "R93",
+      "x_mm": 63.0,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        62.245,
+        20.495,
+        63.755,
+        23.505
+      ],
+      "center_mm": [
+        63.0,
+        22.0
+      ]
+    },
+    {
+      "ref": "CFB_L2",
+      "designator": "C51",
+      "x_mm": 50.0,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        49.245,
+        16.995,
+        50.755,
+        20.005
+      ],
+      "center_mm": [
+        50.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "C_LOAD_OUT",
+      "designator": "C136",
+      "x_mm": 48.5,
+      "y_mm": 41.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        46.995,
+        40.245,
+        50.005,
+        41.755
+      ],
+      "center_mm": [
+        48.5,
+        41.0
+      ]
+    },
+    {
+      "ref": "RPD_L3",
+      "designator": "R84",
+      "x_mm": 66.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        64.995,
+        8.245,
+        68.005,
+        9.755
+      ],
+      "center_mm": [
+        66.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "J_PALM_HEEL",
+      "designator": "J10",
+      "x_mm": 12.5,
+      "y_mm": 51.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        1.495,
+        47.675,
+        23.505,
+        54.325
+      ],
+      "center_mm": [
+        12.5,
+        51.0
+      ]
+    },
+    {
+      "ref": "RFB_L2",
+      "designator": "R71",
+      "x_mm": 48.5,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        46.795,
+        20.525,
+        50.205,
+        22.475
+      ],
+      "center_mm": [
+        48.5,
+        21.5
+      ]
+    },
+    {
+      "ref": "U_MUX_FINAL",
+      "designator": "U10",
+      "x_mm": 41.0,
+      "y_mm": 47.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        35.775,
+        43.775,
+        46.225,
+        51.225
+      ],
+      "center_mm": [
+        41.0,
+        47.5
+      ]
+    },
+    {
+      "ref": "RIN_L3",
+      "designator": "R79",
+      "x_mm": 48.0,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        46.495,
+        10.745,
+        49.505,
+        12.255
+      ],
+      "center_mm": [
+        48.0,
+        11.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_R2",
+      "designator": "D9",
+      "x_mm": 36.0,
+      "y_mm": 10.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        34.225,
+        8.275,
+        37.775,
+        11.725
+      ],
+      "center_mm": [
+        36.0,
+        10.0
+      ]
+    },
+    {
+      "ref": "D_CLAMP_P2",
+      "designator": "D17",
+      "x_mm": 70.0,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        68.275,
+        9.725,
+        71.725,
+        13.275
+      ],
+      "center_mm": [
+        70.0,
+        11.5
+      ]
+    },
+    {
+      "ref": "CFB_M3",
+      "designator": "C26",
+      "x_mm": 22.0,
+      "y_mm": 20.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        21.245,
+        18.495,
+        22.755,
+        21.505
+      ],
+      "center_mm": [
+        22.0,
+        20.0
+      ]
+    },
+    {
+      "ref": "RPD_I1",
+      "designator": "R7",
+      "x_mm": 8.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        6.995,
+        8.245,
+        10.005,
+        9.755
+      ],
+      "center_mm": [
+        8.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "CFB_M1",
+      "designator": "C16",
+      "x_mm": 15.5,
+      "y_mm": 15.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        14.745,
+        13.495,
+        16.255,
+        16.505
+      ],
+      "center_mm": [
+        15.5,
+        15.0
+      ]
+    },
+    {
+      "ref": "J_INDEX",
+      "designator": "J6",
+      "x_mm": 11.0,
+      "y_mm": 4.4,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        3.755,
+        1.075,
+        18.245,
+        7.725
+      ],
+      "center_mm": [
+        11.0,
+        4.3999999999999995
+      ]
+    },
+    {
+      "ref": "RIN_P1",
+      "designator": "R100",
+      "x_mm": 69.5,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        68.745,
+        16.995,
+        70.255,
+        20.005
+      ],
+      "center_mm": [
+        69.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "RIN_M2",
+      "designator": "R30",
+      "x_mm": 21.5,
+      "y_mm": 14.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        19.995,
+        13.245,
+        23.005,
+        14.755
+      ],
+      "center_mm": [
+        21.5,
+        14.0
+      ]
+    },
+    {
+      "ref": "D_CLAMP_H2",
+      "designator": "D21",
+      "x_mm": 86.5,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        84.775,
+        9.725,
+        88.225,
+        13.275
+      ],
+      "center_mm": [
+        86.5,
+        11.5
+      ]
+    },
+    {
+      "ref": "RIN_I2",
+      "designator": "R9",
+      "x_mm": 10.5,
+      "y_mm": 22.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        9.745,
+        20.495,
+        11.255,
+        23.505
+      ],
+      "center_mm": [
+        10.5,
+        22.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_VMID",
+      "designator": "C109",
+      "x_mm": 53.5,
+      "y_mm": 51.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        52.745,
+        49.495,
+        54.255,
+        52.505
+      ],
+      "center_mm": [
+        53.5,
+        51.0
+      ]
+    },
+    {
+      "ref": "RIN_R1",
+      "designator": "R44",
+      "x_mm": 34.5,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        33.745,
+        16.995,
+        35.255,
+        20.005
+      ],
+      "center_mm": [
+        34.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "RFB_T1",
+      "designator": "R85",
+      "x_mm": 60.0,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        58.295,
+        12.525,
+        61.705,
+        14.475
+      ],
+      "center_mm": [
+        60.0,
+        13.5
+      ]
+    },
+    {
+      "ref": "RPD_T2",
+      "designator": "R98",
+      "x_mm": 81.0,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        79.495,
+        8.245,
+        82.505,
+        9.755
+      ],
+      "center_mm": [
+        81.0,
+        9.0
+      ]
+    },
+    {
+      "ref": "RFB_M2",
+      "designator": "R29",
+      "x_mm": 25.0,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        23.295,
+        12.525,
+        26.705,
+        14.475
+      ],
+      "center_mm": [
+        25.0,
+        13.5
+      ]
+    },
+    {
+      "ref": "RIN_I1",
+      "designator": "R2",
+      "x_mm": 4.0,
+      "y_mm": 14.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        2.495,
+        13.245,
+        5.505,
+        14.755
+      ],
+      "center_mm": [
+        4.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "CFB_P4",
+      "designator": "C86",
+      "x_mm": 74.5,
+      "y_mm": 20.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        73.745,
+        18.495,
+        75.255,
+        21.505
+      ],
+      "center_mm": [
+        74.5,
+        20.0
+      ]
+    },
+    {
+      "ref": "RFB_M1",
+      "designator": "R22",
+      "x_mm": 12.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        10.795,
+        12.525,
+        14.205,
+        14.475
+      ],
+      "center_mm": [
+        12.5,
+        13.5
+      ]
+    },
+    {
+      "ref": "RPD_I3",
+      "designator": "R21",
+      "x_mm": 15.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        13.995,
+        8.245,
+        17.005,
+        9.755
+      ],
+      "center_mm": [
+        15.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "RIN_I3",
+      "designator": "R16",
+      "x_mm": 17.0,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        16.245,
+        16.995,
+        17.755,
+        20.005
+      ],
+      "center_mm": [
+        17.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "RFB_P1",
+      "designator": "R99",
+      "x_mm": 66.0,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        64.295,
+        20.525,
+        67.705,
+        22.475
+      ],
+      "center_mm": [
+        66.0,
+        21.5
+      ]
+    },
+    {
+      "ref": "CFB_I3",
+      "designator": "C11",
+      "x_mm": 15.0,
+      "y_mm": 18.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        14.245,
+        16.995,
+        15.755,
+        20.005
+      ],
+      "center_mm": [
+        15.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "U_REF",
+      "designator": "U2",
+      "x_mm": 58.0,
+      "y_mm": 42.5,
+      "rotation_deg": -90.0,
+      "side": "F",
+      "courtyard_mm": [
+        56.225,
+        40.775,
+        59.775,
+        44.225
+      ],
+      "center_mm": [
+        58.0,
+        42.5
+      ]
+    },
+    {
+      "ref": "RPD_I2",
+      "designator": "R14",
+      "x_mm": 12.0,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        10.495,
+        8.245,
+        13.505,
+        9.755
+      ],
+      "center_mm": [
+        12.0,
+        9.0
+      ]
+    },
+    {
+      "ref": "U_MUX2",
+      "designator": "U7",
+      "x_mm": 34.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        26.025,
+        27.545,
+        41.975,
+        39.455
+      ],
+      "center_mm": [
+        34.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "CFB_L3",
+      "designator": "C56",
+      "x_mm": 50.5,
+      "y_mm": 15.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        49.745,
+        13.495,
+        51.255,
+        16.505
+      ],
+      "center_mm": [
+        50.5,
+        15.0
+      ]
+    },
+    {
+      "ref": "U_MUX3",
+      "designator": "U8",
+      "x_mm": 53.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        45.025,
+        27.545,
+        60.975,
+        39.455
+      ],
+      "center_mm": [
+        53.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "U_LOAD",
+      "designator": "U28",
+      "x_mm": 64.0,
+      "y_mm": 53.8,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        62.375,
+        52.375,
+        65.625,
+        55.225
+      ],
+      "center_mm": [
+        64.0,
+        53.8
+      ]
+    },
+    {
+      "ref": "U_ADC_NEG",
+      "designator": "U29",
+      "x_mm": 50.0,
+      "y_mm": 52.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        47.925,
+        50.275,
+        52.075,
+        53.725
+      ],
+      "center_mm": [
+        50.0,
+        52.0
+      ]
+    },
+    {
+      "ref": "RPD_M1",
+      "designator": "R28",
+      "x_mm": 25.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        23.995,
+        8.245,
+        27.005,
+        9.755
+      ],
+      "center_mm": [
+        25.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "U_BANK1",
+      "designator": "U26",
+      "x_mm": 28.0,
+      "y_mm": 46.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        24.125,
+        43.725,
+        31.875,
+        49.275
+      ],
+      "center_mm": [
+        28.0,
+        46.5
+      ]
+    },
+    {
+      "ref": "CFB_T2",
+      "designator": "C66",
+      "x_mm": 57.0,
+      "y_mm": 20.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        56.245,
+        18.495,
+        57.755,
+        21.505
+      ],
+      "center_mm": [
+        57.0,
+        20.0
+      ]
+    },
+    {
+      "ref": "J_MIDDLE",
+      "designator": "J7",
+      "x_mm": 28.0,
+      "y_mm": 4.4,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        20.755,
+        1.075,
+        35.245,
+        7.725
+      ],
+      "center_mm": [
+        28.0,
+        4.3999999999999995
+      ]
+    },
+    {
+      "ref": "U_ADC_DRV",
+      "designator": "U5",
+      "x_mm": 50.0,
+      "y_mm": 47.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        47.925,
+        45.275,
+        52.075,
+        48.725
+      ],
+      "center_mm": [
+        50.0,
+        47.0
+      ]
+    },
+    {
+      "ref": "RFB_P4",
+      "designator": "R120",
+      "x_mm": 77.5,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        75.795,
+        20.525,
+        79.205,
+        22.475
+      ],
+      "center_mm": [
+        77.5,
+        21.5
+      ]
+    },
+    {
+      "ref": "CFB_P2",
+      "designator": "C76",
+      "x_mm": 68.0,
+      "y_mm": 15.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        67.245,
+        13.495,
+        68.755,
+        16.505
+      ],
+      "center_mm": [
+        68.0,
+        15.0
+      ]
+    },
+    {
+      "ref": "RFB_I2",
+      "designator": "R8",
+      "x_mm": 7.5,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        5.795,
+        20.525,
+        9.205,
+        22.475
+      ],
+      "center_mm": [
+        7.5,
+        21.5
+      ]
+    },
+    {
+      "ref": "RPD_H2",
+      "designator": "R140",
+      "x_mm": 20.5,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        18.995,
+        54.745,
+        22.005,
+        56.255
+      ],
+      "center_mm": [
+        20.5,
+        55.5
+      ]
+    },
+    {
+      "ref": "U_VMID",
+      "designator": "U3",
+      "x_mm": 58.0,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        54.275,
+        52.775,
+        61.725,
+        58.225
+      ],
+      "center_mm": [
+        58.0,
+        55.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_CHG4",
+      "designator": "C119",
+      "x_mm": 55.5,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        54.745,
+        14.995,
+        56.255,
+        18.005
+      ],
+      "center_mm": [
+        55.5,
+        16.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_P3",
+      "designator": "D18",
+      "x_mm": 74.0,
+      "y_mm": 11.0,
+      "rotation_deg": 180.0,
+      "side": "F",
+      "courtyard_mm": [
+        72.275,
+        9.225,
+        75.725,
+        12.775
+      ],
+      "center_mm": [
+        74.0,
+        11.0
+      ]
+    },
+    {
+      "ref": "C_LOAD_IN",
+      "designator": "C135",
+      "x_mm": 63.0,
+      "y_mm": 35.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        62.245,
+        33.495,
+        63.755,
+        36.505
+      ],
+      "center_mm": [
+        63.0,
+        35.0
+      ]
+    },
+    {
+      "ref": "RFB_H1",
+      "designator": "R127",
+      "x_mm": 83.5,
+      "y_mm": 21.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        81.795,
+        20.525,
+        85.205,
+        22.475
+      ],
+      "center_mm": [
+        83.5,
+        21.5
+      ]
+    },
+    {
+      "ref": "RPD_T1",
+      "designator": "R91",
+      "x_mm": 77.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        75.995,
+        8.245,
+        79.005,
+        9.755
+      ],
+      "center_mm": [
+        77.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "C_LDO_IN",
+      "designator": "C101",
+      "x_mm": 53.5,
+      "y_mm": 47.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        52.745,
+        45.995,
+        54.255,
+        49.005
+      ],
+      "center_mm": [
+        53.5,
+        47.5
+      ]
+    },
+    {
+      "ref": "RFB_H2",
+      "designator": "R134",
+      "x_mm": 82.5,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        80.795,
+        12.525,
+        84.205,
+        14.475
+      ],
+      "center_mm": [
+        82.5,
+        13.5
+      ]
+    },
+    {
+      "ref": "RPD_P3",
+      "designator": "R119",
+      "x_mm": 13.5,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        11.995,
+        54.745,
+        15.005,
+        56.255
+      ],
+      "center_mm": [
+        13.5,
+        55.5
+      ]
+    },
+    {
+      "ref": "U_MUX4",
+      "designator": "U9",
+      "x_mm": 72.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        64.025,
+        27.545,
+        79.975,
+        39.455
+      ],
+      "center_mm": [
+        72.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "U_CHG2",
+      "designator": "U12",
+      "x_mm": 27.5,
+      "y_mm": 17.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        23.625,
+        14.725,
+        31.375,
+        20.275
+      ],
+      "center_mm": [
+        27.5,
+        17.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_BANK1",
+      "designator": "C131",
+      "x_mm": 23.0,
+      "y_mm": 45.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        22.245,
+        43.995,
+        23.755,
+        47.005
+      ],
+      "center_mm": [
+        23.0,
+        45.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_LDO",
+      "designator": "C107",
+      "x_mm": 53.0,
+      "y_mm": 56.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        52.245,
+        54.995,
+        53.755,
+        58.005
+      ],
+      "center_mm": [
+        53.0,
+        56.5
+      ]
+    },
+    {
+      "ref": "RFB_R2",
+      "designator": "R50",
+      "x_mm": 30.0,
+      "y_mm": 13.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        28.295,
+        12.525,
+        31.705,
+        14.475
+      ],
+      "center_mm": [
+        30.0,
+        13.5
+      ]
+    },
+    {
+      "ref": "C_VMID",
+      "designator": "C133",
+      "x_mm": 48.5,
+      "y_mm": 43.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        47.745,
+        41.995,
+        49.255,
+        45.005
+      ],
+      "center_mm": [
+        48.5,
+        43.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_H1",
+      "designator": "D20",
+      "x_mm": 87.5,
+      "y_mm": 22.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        85.775,
+        20.225,
+        89.225,
+        23.775
+      ],
+      "center_mm": [
+        87.5,
+        22.0
+      ]
+    },
+    {
+      "ref": "J_XIAO",
+      "designator": "J1",
+      "x_mm": 66.71975,
+      "y_mm": 40.482499,
+      "rotation_deg": -90.0,
+      "side": "F",
+      "courtyard_mm": [
+        66.46975,
+        39.942499,
+        89.33025,
+        58.857499
+      ],
+      "center_mm": [
+        77.9,
+        49.399998999999994
+      ]
+    },
+    {
+      "ref": "RPD_P2",
+      "designator": "R112",
+      "x_mm": 10.0,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        8.495,
+        54.745,
+        11.505,
+        56.255
+      ],
+      "center_mm": [
+        10.0,
+        55.5
+      ]
+    },
+    {
+      "ref": "CFB_R3",
+      "designator": "C41",
+      "x_mm": 40.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        39.245,
+        14.995,
+        40.755,
+        18.005
+      ],
+      "center_mm": [
+        40.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "U_CHG4",
+      "designator": "U14",
+      "x_mm": 62.5,
+      "y_mm": 17.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        58.625,
+        14.725,
+        66.375,
+        20.275
+      ],
+      "center_mm": [
+        62.5,
+        17.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_CHG5",
+      "designator": "C120",
+      "x_mm": 73.0,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        72.245,
+        14.995,
+        73.755,
+        18.005
+      ],
+      "center_mm": [
+        73.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "U_LDO",
+      "designator": "U1",
+      "x_mm": 64.0,
+      "y_mm": 57.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        61.925,
+        55.775,
+        66.075,
+        59.225
+      ],
+      "center_mm": [
+        64.0,
+        57.5
+      ]
+    },
+    {
+      "ref": "RPD_M3",
+      "designator": "R42",
+      "x_mm": 32.5,
+      "y_mm": 9.0,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        30.995,
+        8.245,
+        34.005,
+        9.755
+      ],
+      "center_mm": [
+        32.5,
+        9.0
+      ]
+    },
+    {
+      "ref": "R_BTN0",
+      "designator": "R149",
+      "x_mm": 37.5,
+      "y_mm": 56.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        36.745,
+        54.995,
+        38.255,
+        58.005
+      ],
+      "center_mm": [
+        37.5,
+        56.5
+      ]
+    },
+    {
+      "ref": "RIN_R2",
+      "designator": "R51",
+      "x_mm": 30.5,
+      "y_mm": 11.5,
+      "rotation_deg": 0.0,
+      "side": "F",
+      "courtyard_mm": [
+        28.995,
+        10.745,
+        32.005,
+        12.255
+      ],
+      "center_mm": [
+        30.5,
+        11.5
+      ]
+    },
+    {
+      "ref": "CFB_M2",
+      "designator": "C21",
+      "x_mm": 22.5,
+      "y_mm": 16.5,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        21.745,
+        14.995,
+        23.255,
+        18.005
+      ],
+      "center_mm": [
+        22.5,
+        16.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_MUX3",
+      "designator": "C113",
+      "x_mm": 44.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "F",
+      "courtyard_mm": [
+        43.245,
+        27.495,
+        44.755,
+        30.505
+      ],
+      "center_mm": [
+        44.0,
+        29.0
+      ]
+    },
+    {
+      "ref": "RS1B_I1",
+      "designator": "R4",
+      "x_mm": 8.0,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        6.495,
+        17.745,
+        9.505,
+        19.255
+      ],
+      "center_mm": [
+        8.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "RS1A_H2",
+      "designator": "R136",
+      "x_mm": 83.0,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        81.495,
+        26.745,
+        84.505,
+        28.255
+      ],
+      "center_mm": [
+        83.0,
+        27.5
+      ]
+    },
+    {
+      "ref": "CS2FB_M1",
+      "designator": "C19",
+      "x_mm": 13.0,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        11.495,
+        38.745,
+        14.505,
+        40.255
+      ],
+      "center_mm": [
+        13.0,
+        39.5
+      ]
+    },
+    {
+      "ref": "CS2G_L3",
+      "designator": "C60",
+      "x_mm": 50.5,
+      "y_mm": 36.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        49.745,
+        34.995,
+        51.255,
+        38.005
+      ],
+      "center_mm": [
+        50.5,
+        36.5
+      ]
+    },
+    {
+      "ref": "RS1B_P2",
+      "designator": "R109",
+      "x_mm": 67.5,
+      "y_mm": 33.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        66.745,
+        31.495,
+        68.255,
+        34.505
+      ],
+      "center_mm": [
+        67.5,
+        33.0
+      ]
+    },
+    {
+      "ref": "CS2G_R1",
+      "designator": "C35",
+      "x_mm": 22.0,
+      "y_mm": 30.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        21.245,
+        28.495,
+        22.755,
+        31.505
+      ],
+      "center_mm": [
+        22.0,
+        30.0
+      ]
+    },
+    {
+      "ref": "RS2A_P2",
+      "designator": "R110",
+      "x_mm": 69.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        68.245,
+        27.495,
+        69.755,
+        30.505
+      ],
+      "center_mm": [
+        69.0,
+        29.0
+      ]
+    },
+    {
+      "ref": "RS2A_T2",
+      "designator": "R96",
+      "x_mm": 65.5,
+      "y_mm": 8.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        63.995,
+        7.745,
+        67.005,
+        9.255
+      ],
+      "center_mm": [
+        65.5,
+        8.5
+      ]
+    },
+    {
+      "ref": "CS2FB_M2",
+      "designator": "C24",
+      "x_mm": 28.0,
+      "y_mm": 10.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        27.245,
+        8.495,
+        28.755,
+        11.505
+      ],
+      "center_mm": [
+        28.0,
+        10.0
+      ]
+    },
+    {
+      "ref": "CS1G_P1",
+      "designator": "C73",
+      "x_mm": 57.5,
+      "y_mm": 37.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        56.745,
+        35.495,
+        58.255,
+        38.505
+      ],
+      "center_mm": [
+        57.5,
+        37.0
+      ]
+    },
+    {
+      "ref": "CS1FB_L2",
+      "designator": "C52",
+      "x_mm": 45.5,
+      "y_mm": 38.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        44.745,
+        36.495,
+        46.255,
+        39.505
+      ],
+      "center_mm": [
+        45.5,
+        38.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT3",
+      "designator": "C123",
+      "x_mm": 22.5,
+      "y_mm": 14.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        21.745,
+        12.995,
+        23.255,
+        16.005
+      ],
+      "center_mm": [
+        22.5,
+        14.5
+      ]
+    },
+    {
+      "ref": "RS1B_M2",
+      "designator": "R32",
+      "x_mm": 25.5,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.995,
+        17.745,
+        27.005,
+        19.255
+      ],
+      "center_mm": [
+        25.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "RS1B_P1",
+      "designator": "R102",
+      "x_mm": 60.5,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.995,
+        36.745,
+        62.005,
+        38.255
+      ],
+      "center_mm": [
+        60.5,
+        37.5
+      ]
+    },
+    {
+      "ref": "RS1A_I3",
+      "designator": "R17",
+      "x_mm": 10.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        8.995,
+        28.745,
+        12.005,
+        30.255
+      ],
+      "center_mm": [
+        10.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "CS1G_I3",
+      "designator": "C13",
+      "x_mm": 5.0,
+      "y_mm": 37.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        4.245,
+        35.495,
+        5.755,
+        38.505
+      ],
+      "center_mm": [
+        5.0,
+        37.0
+      ]
+    },
+    {
+      "ref": "D_CLAMP_R3",
+      "designator": "D10",
+      "x_mm": 37.0,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        35.225,
+        8.775,
+        38.775,
+        12.225
+      ],
+      "center_mm": [
+        37.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_R1",
+      "designator": "D8",
+      "x_mm": 36.0,
+      "y_mm": 19.5,
+      "rotation_deg": 180.0,
+      "side": "B",
+      "courtyard_mm": [
+        34.275,
+        17.725,
+        37.725,
+        21.275
+      ],
+      "center_mm": [
+        36.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "CS1FB_P3",
+      "designator": "C82",
+      "x_mm": 80.5,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        79.745,
+        17.495,
+        81.255,
+        20.505
+      ],
+      "center_mm": [
+        80.5,
+        19.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT2",
+      "designator": "C122",
+      "x_mm": 5.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        4.245,
+        31.995,
+        5.755,
+        35.005
+      ],
+      "center_mm": [
+        5.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_IOX",
+      "designator": "C132",
+      "x_mm": 29.5,
+      "y_mm": 57.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        27.995,
+        56.745,
+        31.005,
+        58.255
+      ],
+      "center_mm": [
+        29.5,
+        57.5
+      ]
+    },
+    {
+      "ref": "RS2B_P3",
+      "designator": "R118",
+      "x_mm": 78.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        76.495,
+        9.745,
+        79.505,
+        11.255
+      ],
+      "center_mm": [
+        78.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "RS1A_H1",
+      "designator": "R129",
+      "x_mm": 80.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        78.995,
+        28.745,
+        82.005,
+        30.255
+      ],
+      "center_mm": [
+        80.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "U_FILT3",
+      "designator": "U18",
+      "x_mm": 27.5,
+      "y_mm": 14.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.625,
+        11.725,
+        31.375,
+        17.275
+      ],
+      "center_mm": [
+        27.5,
+        14.5
+      ]
+    },
+    {
+      "ref": "CS1FB_L1",
+      "designator": "C47",
+      "x_mm": 50.5,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        49.745,
+        8.995,
+        51.255,
+        12.005
+      ],
+      "center_mm": [
+        50.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "CS2G_P3",
+      "designator": "C85",
+      "x_mm": 75.0,
+      "y_mm": 11.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        74.245,
+        9.495,
+        75.755,
+        12.505
+      ],
+      "center_mm": [
+        75.0,
+        11.0
+      ]
+    },
+    {
+      "ref": "CS1G_R1",
+      "designator": "C33",
+      "x_mm": 22.5,
+      "y_mm": 37.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        21.745,
+        35.495,
+        23.255,
+        38.505
+      ],
+      "center_mm": [
+        22.5,
+        37.0
+      ]
+    },
+    {
+      "ref": "CS2FB_I3",
+      "designator": "C14",
+      "x_mm": 7.5,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        5.995,
+        26.745,
+        9.005,
+        28.255
+      ],
+      "center_mm": [
+        7.5,
+        27.5
+      ]
+    },
+    {
+      "ref": "R_VEXC_FB",
+      "designator": "R154",
+      "x_mm": 56.5,
+      "y_mm": 55.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        55.745,
+        53.495,
+        57.255,
+        56.505
+      ],
+      "center_mm": [
+        56.5,
+        55.0
+      ]
+    },
+    {
+      "ref": "U_IOX",
+      "designator": "U27",
+      "x_mm": 25.0,
+      "y_mm": 51.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        19.045,
+        45.575,
+        30.955,
+        56.425
+      ],
+      "center_mm": [
+        25.0,
+        51.0
+      ]
+    },
+    {
+      "ref": "CS1FB_R1",
+      "designator": "C32",
+      "x_mm": 28.0,
+      "y_mm": 38.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        27.245,
+        36.495,
+        28.755,
+        39.505
+      ],
+      "center_mm": [
+        28.0,
+        38.0
+      ]
+    },
+    {
+      "ref": "CS2G_I2",
+      "designator": "C10",
+      "x_mm": 17.0,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        16.245,
+        12.495,
+        17.755,
+        15.505
+      ],
+      "center_mm": [
+        17.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "CS1G_H2",
+      "designator": "C98",
+      "x_mm": 84.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        82.495,
+        28.745,
+        85.505,
+        30.255
+      ],
+      "center_mm": [
+        84.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "C_ADC_REF",
+      "designator": "C106",
+      "x_mm": 55.5,
+      "y_mm": 44.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        53.175,
+        43.425,
+        57.825,
+        45.575
+      ],
+      "center_mm": [
+        55.5,
+        44.5
+      ]
+    },
+    {
+      "ref": "CS2G_H2",
+      "designator": "C100",
+      "x_mm": 85.5,
+      "y_mm": 36.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        84.745,
+        34.995,
+        86.255,
+        38.005
+      ],
+      "center_mm": [
+        85.5,
+        36.5
+      ]
+    },
+    {
+      "ref": "CS2G_M3",
+      "designator": "C30",
+      "x_mm": 34.5,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        33.745,
+        12.495,
+        35.255,
+        15.505
+      ],
+      "center_mm": [
+        34.5,
+        14.0
+      ]
+    },
+    {
+      "ref": "RS1A_I2",
+      "designator": "R10",
+      "x_mm": 13.0,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        11.495,
+        17.745,
+        14.505,
+        19.255
+      ],
+      "center_mm": [
+        13.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT8",
+      "designator": "C128",
+      "x_mm": 57.5,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        56.745,
+        31.995,
+        58.255,
+        35.005
+      ],
+      "center_mm": [
+        57.5,
+        33.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_P4",
+      "designator": "D19",
+      "x_mm": 81.5,
+      "y_mm": 22.5,
+      "rotation_deg": 180.0,
+      "side": "B",
+      "courtyard_mm": [
+        79.775,
+        20.725,
+        83.225,
+        24.275
+      ],
+      "center_mm": [
+        81.5,
+        22.5
+      ]
+    },
+    {
+      "ref": "RS1B_L1",
+      "designator": "R67",
+      "x_mm": 50.0,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        49.245,
+        12.495,
+        50.755,
+        15.505
+      ],
+      "center_mm": [
+        50.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "R_VEXC_ISO",
+      "designator": "R153",
+      "x_mm": 51.5,
+      "y_mm": 55.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        50.745,
+        53.495,
+        52.255,
+        56.505
+      ],
+      "center_mm": [
+        51.5,
+        55.0
+      ]
+    },
+    {
+      "ref": "R_ADC_ISO",
+      "designator": "R143",
+      "x_mm": 52.0,
+      "y_mm": 48.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        50.495,
+        47.745,
+        53.505,
+        49.255
+      ],
+      "center_mm": [
+        52.0,
+        48.5
+      ]
+    },
+    {
+      "ref": "RS1A_I1",
+      "designator": "R3",
+      "x_mm": 8.0,
+      "y_mm": 20.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        6.495,
+        19.745,
+        9.505,
+        21.255
+      ],
+      "center_mm": [
+        8.0,
+        20.5
+      ]
+    },
+    {
+      "ref": "CS2FB_M3",
+      "designator": "C29",
+      "x_mm": 33.0,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        32.245,
+        17.495,
+        33.755,
+        20.505
+      ],
+      "center_mm": [
+        33.0,
+        19.0
+      ]
+    },
+    {
+      "ref": "CS2G_M1",
+      "designator": "C20",
+      "x_mm": 15.5,
+      "y_mm": 36.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        14.745,
+        34.995,
+        16.255,
+        38.005
+      ],
+      "center_mm": [
+        15.5,
+        36.5
+      ]
+    },
+    {
+      "ref": "U_FILT6",
+      "designator": "U21",
+      "x_mm": 45.0,
+      "y_mm": 33.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        41.125,
+        30.725,
+        48.875,
+        36.275
+      ],
+      "center_mm": [
+        45.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "CS1FB_T2",
+      "designator": "C67",
+      "x_mm": 68.0,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        67.245,
+        8.995,
+        68.755,
+        12.005
+      ],
+      "center_mm": [
+        68.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "U_FILT7",
+      "designator": "U22",
+      "x_mm": 62.5,
+      "y_mm": 14.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.625,
+        11.725,
+        66.375,
+        17.275
+      ],
+      "center_mm": [
+        62.5,
+        14.5
+      ]
+    },
+    {
+      "ref": "CS2G_P2",
+      "designator": "C80",
+      "x_mm": 68.0,
+      "y_mm": 36.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        67.245,
+        34.995,
+        68.755,
+        38.005
+      ],
+      "center_mm": [
+        68.0,
+        36.5
+      ]
+    },
+    {
+      "ref": "CS1FB_L3",
+      "designator": "C57",
+      "x_mm": 52.0,
+      "y_mm": 32.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        51.245,
+        30.995,
+        52.755,
+        34.005
+      ],
+      "center_mm": [
+        52.0,
+        32.5
+      ]
+    },
+    {
+      "ref": "U_FILT10",
+      "designator": "U25",
+      "x_mm": 80.0,
+      "y_mm": 33.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        76.125,
+        30.725,
+        83.875,
+        36.275
+      ],
+      "center_mm": [
+        80.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "U_FILT8",
+      "designator": "U23",
+      "x_mm": 62.5,
+      "y_mm": 33.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.625,
+        30.725,
+        66.375,
+        36.275
+      ],
+      "center_mm": [
+        62.5,
+        33.5
+      ]
+    },
+    {
+      "ref": "CS1G_M3",
+      "designator": "C28",
+      "x_mm": 30.5,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        28.995,
+        9.745,
+        32.005,
+        11.255
+      ],
+      "center_mm": [
+        30.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "R_VMID_IN",
+      "designator": "R152",
+      "x_mm": 60.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.495,
+        56.245,
+        61.505,
+        57.755
+      ],
+      "center_mm": [
+        60.0,
+        57.0
+      ]
+    },
+    {
+      "ref": "RS2B_L2",
+      "designator": "R76",
+      "x_mm": 42.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        40.495,
+        28.745,
+        43.505,
+        30.255
+      ],
+      "center_mm": [
+        42.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS2B_I1",
+      "designator": "R6",
+      "x_mm": 8.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        6.495,
+        9.745,
+        9.505,
+        11.255
+      ],
+      "center_mm": [
+        8.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "CS2G_L1",
+      "designator": "C50",
+      "x_mm": 52.0,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        51.245,
+        12.495,
+        52.755,
+        15.505
+      ],
+      "center_mm": [
+        52.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "RS1A_T1",
+      "designator": "R87",
+      "x_mm": 60.5,
+      "y_mm": 20.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.995,
+        19.745,
+        62.005,
+        21.255
+      ],
+      "center_mm": [
+        60.5,
+        20.5
+      ]
+    },
+    {
+      "ref": "RS2B_P4",
+      "designator": "R125",
+      "x_mm": 86.0,
+      "y_mm": 16.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        84.495,
+        15.745,
+        87.505,
+        17.255
+      ],
+      "center_mm": [
+        86.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "C_ADC_BUCKET",
+      "designator": "C134",
+      "x_mm": 56.0,
+      "y_mm": 50.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        55.245,
+        48.995,
+        56.755,
+        52.005
+      ],
+      "center_mm": [
+        56.0,
+        50.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_M1",
+      "designator": "D5",
+      "x_mm": 18.5,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        16.725,
+        8.775,
+        20.275,
+        12.225
+      ],
+      "center_mm": [
+        18.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "RS2A_M2",
+      "designator": "R33",
+      "x_mm": 20.5,
+      "y_mm": 15.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        19.745,
+        13.995,
+        21.255,
+        17.005
+      ],
+      "center_mm": [
+        20.5,
+        15.5
+      ]
+    },
+    {
+      "ref": "CS1FB_H2",
+      "designator": "C97",
+      "x_mm": 87.0,
+      "y_mm": 32.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        86.245,
+        30.995,
+        87.755,
+        34.005
+      ],
+      "center_mm": [
+        87.0,
+        32.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_P1",
+      "designator": "D16",
+      "x_mm": 71.0,
+      "y_mm": 19.5,
+      "rotation_deg": -90.0,
+      "side": "B",
+      "courtyard_mm": [
+        69.225,
+        17.775,
+        72.775,
+        21.225
+      ],
+      "center_mm": [
+        71.0,
+        19.5
+      ]
+    },
+    {
+      "ref": "CS1FB_I2",
+      "designator": "C7",
+      "x_mm": 15.5,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        14.745,
+        8.995,
+        16.255,
+        12.005
+      ],
+      "center_mm": [
+        15.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "CS1G_T1",
+      "designator": "C63",
+      "x_mm": 57.5,
+      "y_mm": 18.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        56.745,
+        16.495,
+        58.255,
+        19.505
+      ],
+      "center_mm": [
+        57.5,
+        18.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT6",
+      "designator": "C126",
+      "x_mm": 40.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        39.245,
+        31.995,
+        40.755,
+        35.005
+      ],
+      "center_mm": [
+        40.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "U_FILT5",
+      "designator": "U20",
+      "x_mm": 45.0,
+      "y_mm": 14.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        41.125,
+        11.725,
+        48.875,
+        17.275
+      ],
+      "center_mm": [
+        45.0,
+        14.5
+      ]
+    },
+    {
+      "ref": "R_WAKE",
+      "designator": "R147",
+      "x_mm": 33.0,
+      "y_mm": 47.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        31.495,
+        46.745,
+        34.505,
+        48.255
+      ],
+      "center_mm": [
+        33.0,
+        47.5
+      ]
+    },
+    {
+      "ref": "CS1G_L1",
+      "designator": "C48",
+      "x_mm": 48.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        46.495,
+        9.745,
+        49.505,
+        11.255
+      ],
+      "center_mm": [
+        48.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "CS1G_M1",
+      "designator": "C18",
+      "x_mm": 14.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        12.495,
+        28.745,
+        15.505,
+        30.255
+      ],
+      "center_mm": [
+        14.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS1A_M1",
+      "designator": "R24",
+      "x_mm": 13.0,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        11.495,
+        26.745,
+        14.505,
+        28.255
+      ],
+      "center_mm": [
+        13.0,
+        27.5
+      ]
+    },
+    {
+      "ref": "U_MUX_ADDR",
+      "designator": "U30",
+      "x_mm": 39.0,
+      "y_mm": 50.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        35.125,
+        47.225,
+        42.875,
+        52.775
+      ],
+      "center_mm": [
+        39.0,
+        50.0
+      ]
+    },
+    {
+      "ref": "RS2A_L2",
+      "designator": "R75",
+      "x_mm": 38.0,
+      "y_mm": 34.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        37.245,
+        32.995,
+        38.755,
+        36.005
+      ],
+      "center_mm": [
+        38.0,
+        34.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_I3",
+      "designator": "D4",
+      "x_mm": 18.5,
+      "y_mm": 19.5,
+      "rotation_deg": 180.0,
+      "side": "B",
+      "courtyard_mm": [
+        16.775,
+        17.725,
+        20.225,
+        21.275
+      ],
+      "center_mm": [
+        18.5,
+        19.5
+      ]
+    },
+    {
+      "ref": "CS2FB_T2",
+      "designator": "C69",
+      "x_mm": 68.0,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        67.245,
+        17.495,
+        68.755,
+        20.505
+      ],
+      "center_mm": [
+        68.0,
+        19.0
+      ]
+    },
+    {
+      "ref": "D_CLAMP_L1",
+      "designator": "D11",
+      "x_mm": 44.5,
+      "y_mm": 23.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        42.775,
+        21.725,
+        46.225,
+        25.275
+      ],
+      "center_mm": [
+        44.5,
+        23.5
+      ]
+    },
+    {
+      "ref": "RS1B_R1",
+      "designator": "R46",
+      "x_mm": 25.5,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.995,
+        36.745,
+        27.005,
+        38.255
+      ],
+      "center_mm": [
+        25.5,
+        37.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_T1",
+      "designator": "D14",
+      "x_mm": 54.5,
+      "y_mm": 10.5,
+      "rotation_deg": 180.0,
+      "side": "B",
+      "courtyard_mm": [
+        52.775,
+        8.725,
+        56.225,
+        12.275
+      ],
+      "center_mm": [
+        54.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "CS2FB_I2",
+      "designator": "C9",
+      "x_mm": 15.5,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        14.745,
+        17.495,
+        16.255,
+        20.505
+      ],
+      "center_mm": [
+        15.5,
+        19.0
+      ]
+    },
+    {
+      "ref": "CS1G_P4",
+      "designator": "C88",
+      "x_mm": 83.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        81.495,
+        9.745,
+        84.505,
+        11.255
+      ],
+      "center_mm": [
+        83.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "RS2A_P1",
+      "designator": "R103",
+      "x_mm": 55.5,
+      "y_mm": 34.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        54.745,
+        32.995,
+        56.255,
+        36.005
+      ],
+      "center_mm": [
+        55.5,
+        34.5
+      ]
+    },
+    {
+      "ref": "RS1B_H1",
+      "designator": "R130",
+      "x_mm": 78.0,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        76.495,
+        36.745,
+        79.505,
+        38.255
+      ],
+      "center_mm": [
+        78.0,
+        37.5
+      ]
+    },
+    {
+      "ref": "RS2A_L1",
+      "designator": "R68",
+      "x_mm": 48.0,
+      "y_mm": 8.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        46.495,
+        7.745,
+        49.505,
+        9.255
+      ],
+      "center_mm": [
+        48.0,
+        8.5
+      ]
+    },
+    {
+      "ref": "R_ADC_NEG_ISO",
+      "designator": "R148",
+      "x_mm": 52.0,
+      "y_mm": 51.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        50.495,
+        50.745,
+        53.505,
+        52.255
+      ],
+      "center_mm": [
+        52.0,
+        51.5
+      ]
+    },
+    {
+      "ref": "RS1A_T2",
+      "designator": "R94",
+      "x_mm": 65.5,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        63.995,
+        17.745,
+        67.005,
+        19.255
+      ],
+      "center_mm": [
+        65.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "RS2B_H1",
+      "designator": "R132",
+      "x_mm": 77.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        75.495,
+        28.745,
+        78.505,
+        30.255
+      ],
+      "center_mm": [
+        77.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS1A_R2",
+      "designator": "R52",
+      "x_mm": 30.5,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        28.995,
+        26.745,
+        32.005,
+        28.255
+      ],
+      "center_mm": [
+        30.5,
+        27.5
+      ]
+    },
+    {
+      "ref": "RS2A_R3",
+      "designator": "R61",
+      "x_mm": 38.0,
+      "y_mm": 15.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        37.245,
+        13.995,
+        38.755,
+        17.005
+      ],
+      "center_mm": [
+        38.0,
+        15.5
+      ]
+    },
+    {
+      "ref": "CS1G_L3",
+      "designator": "C58",
+      "x_mm": 49.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        47.495,
+        28.745,
+        50.505,
+        30.255
+      ],
+      "center_mm": [
+        49.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS2A_H2",
+      "designator": "R138",
+      "x_mm": 86.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        85.745,
+        27.495,
+        87.255,
+        30.505
+      ],
+      "center_mm": [
+        86.5,
+        29.0
+      ]
+    },
+    {
+      "ref": "CS1FB_H1",
+      "designator": "C92",
+      "x_mm": 80.5,
+      "y_mm": 38.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        79.745,
+        36.495,
+        81.255,
+        39.505
+      ],
+      "center_mm": [
+        80.5,
+        38.0
+      ]
+    },
+    {
+      "ref": "CS2FB_P4",
+      "designator": "C89",
+      "x_mm": 85.5,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        84.745,
+        17.495,
+        86.255,
+        20.505
+      ],
+      "center_mm": [
+        85.5,
+        19.0
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT7",
+      "designator": "C127",
+      "x_mm": 57.5,
+      "y_mm": 14.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        56.745,
+        12.995,
+        58.255,
+        16.005
+      ],
+      "center_mm": [
+        57.5,
+        14.5
+      ]
+    },
+    {
+      "ref": "CS2FB_P2",
+      "designator": "C79",
+      "x_mm": 65.5,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        63.995,
+        38.745,
+        67.005,
+        40.255
+      ],
+      "center_mm": [
+        65.5,
+        39.5
+      ]
+    },
+    {
+      "ref": "RS1A_R1",
+      "designator": "R45",
+      "x_mm": 28.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        26.495,
+        28.745,
+        29.505,
+        30.255
+      ],
+      "center_mm": [
+        28.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "R_I2C_SDA",
+      "designator": "R144",
+      "x_mm": 32.0,
+      "y_mm": 53.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        31.245,
+        51.995,
+        32.755,
+        55.005
+      ],
+      "center_mm": [
+        32.0,
+        53.5
+      ]
+    },
+    {
+      "ref": "C_ADC_AVDD",
+      "designator": "C104",
+      "x_mm": 55.5,
+      "y_mm": 47.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        53.995,
+        46.745,
+        57.005,
+        48.255
+      ],
+      "center_mm": [
+        55.5,
+        47.5
+      ]
+    },
+    {
+      "ref": "RS1B_P3",
+      "designator": "R116",
+      "x_mm": 78.0,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        76.495,
+        17.745,
+        79.505,
+        19.255
+      ],
+      "center_mm": [
+        78.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "RS1B_R2",
+      "designator": "R53",
+      "x_mm": 32.5,
+      "y_mm": 33.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        31.745,
+        31.495,
+        33.255,
+        34.505
+      ],
+      "center_mm": [
+        32.5,
+        33.0
+      ]
+    },
+    {
+      "ref": "RS1B_L2",
+      "designator": "R74",
+      "x_mm": 43.0,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        41.495,
+        36.745,
+        44.505,
+        38.255
+      ],
+      "center_mm": [
+        43.0,
+        37.5
+      ]
+    },
+    {
+      "ref": "CS1G_M2",
+      "designator": "C23",
+      "x_mm": 22.5,
+      "y_mm": 18.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        21.745,
+        16.495,
+        23.255,
+        19.505
+      ],
+      "center_mm": [
+        22.5,
+        18.0
+      ]
+    },
+    {
+      "ref": "RS2B_P2",
+      "designator": "R111",
+      "x_mm": 65.5,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        63.995,
+        36.745,
+        67.005,
+        38.255
+      ],
+      "center_mm": [
+        65.5,
+        37.5
+      ]
+    },
+    {
+      "ref": "RS2B_L1",
+      "designator": "R69",
+      "x_mm": 51.0,
+      "y_mm": 16.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        49.495,
+        15.745,
+        52.505,
+        17.255
+      ],
+      "center_mm": [
+        51.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "CS2G_M2",
+      "designator": "C25",
+      "x_mm": 22.5,
+      "y_mm": 11.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        21.745,
+        9.495,
+        23.255,
+        12.505
+      ],
+      "center_mm": [
+        22.5,
+        11.0
+      ]
+    },
+    {
+      "ref": "CS2G_I3",
+      "designator": "C15",
+      "x_mm": 4.5,
+      "y_mm": 30.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        3.745,
+        28.495,
+        5.255,
+        31.505
+      ],
+      "center_mm": [
+        4.5,
+        30.0
+      ]
+    },
+    {
+      "ref": "CS2G_P4",
+      "designator": "C90",
+      "x_mm": 87.0,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        86.245,
+        12.495,
+        87.755,
+        15.505
+      ],
+      "center_mm": [
+        87.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "RS2B_H2",
+      "designator": "R139",
+      "x_mm": 83.0,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        81.495,
+        36.745,
+        84.505,
+        38.255
+      ],
+      "center_mm": [
+        83.0,
+        37.5
+      ]
+    },
+    {
+      "ref": "CS1G_I2",
+      "designator": "C8",
+      "x_mm": 13.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        11.495,
+        9.745,
+        14.505,
+        11.255
+      ],
+      "center_mm": [
+        13.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "RS1A_R3",
+      "designator": "R59",
+      "x_mm": 43.0,
+      "y_mm": 20.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        41.495,
+        19.745,
+        44.505,
+        21.255
+      ],
+      "center_mm": [
+        43.0,
+        20.5
+      ]
+    },
+    {
+      "ref": "RS2B_P1",
+      "designator": "R104",
+      "x_mm": 59.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        57.995,
+        28.745,
+        61.005,
+        30.255
+      ],
+      "center_mm": [
+        59.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS2B_T2",
+      "designator": "R97",
+      "x_mm": 68.5,
+      "y_mm": 16.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        66.995,
+        15.745,
+        70.005,
+        17.255
+      ],
+      "center_mm": [
+        68.5,
+        16.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT9",
+      "designator": "C129",
+      "x_mm": 75.0,
+      "y_mm": 14.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        74.245,
+        12.995,
+        75.755,
+        16.005
+      ],
+      "center_mm": [
+        75.0,
+        14.5
+      ]
+    },
+    {
+      "ref": "J_IMU",
+      "designator": "J3",
+      "x_mm": 7.0,
+      "y_mm": 53.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        3.075,
+        49.695,
+        10.925,
+        56.305
+      ],
+      "center_mm": [
+        7.0,
+        53.0
+      ]
+    },
+    {
+      "ref": "CS2FB_R3",
+      "designator": "C44",
+      "x_mm": 45.5,
+      "y_mm": 10.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        44.745,
+        8.495,
+        46.255,
+        11.505
+      ],
+      "center_mm": [
+        45.5,
+        10.0
+      ]
+    },
+    {
+      "ref": "CS1FB_M3",
+      "designator": "C27",
+      "x_mm": 33.0,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        32.245,
+        8.995,
+        33.755,
+        12.005
+      ],
+      "center_mm": [
+        33.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "U_FILT9",
+      "designator": "U24",
+      "x_mm": 80.0,
+      "y_mm": 14.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        76.125,
+        11.725,
+        83.875,
+        17.275
+      ],
+      "center_mm": [
+        80.0,
+        14.5
+      ]
+    },
+    {
+      "ref": "CS2G_P1",
+      "designator": "C75",
+      "x_mm": 57.0,
+      "y_mm": 30.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        56.245,
+        28.495,
+        57.755,
+        31.505
+      ],
+      "center_mm": [
+        57.0,
+        30.0
+      ]
+    },
+    {
+      "ref": "RS2A_L3",
+      "designator": "R82",
+      "x_mm": 51.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        50.745,
+        27.495,
+        52.255,
+        30.505
+      ],
+      "center_mm": [
+        51.5,
+        29.0
+      ]
+    },
+    {
+      "ref": "D_LDO_REV",
+      "designator": "D1",
+      "x_mm": 64.0,
+      "y_mm": 55.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        61.775,
+        54.325,
+        66.225,
+        56.675
+      ],
+      "center_mm": [
+        64.0,
+        55.5
+      ]
+    },
+    {
+      "ref": "RS1B_T2",
+      "designator": "R95",
+      "x_mm": 67.5,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        66.745,
+        12.495,
+        68.255,
+        15.505
+      ],
+      "center_mm": [
+        67.5,
+        14.0
+      ]
+    },
+    {
+      "ref": "C_VEXC_FB",
+      "designator": "C140",
+      "x_mm": 50.5,
+      "y_mm": 57.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        48.995,
+        56.745,
+        52.005,
+        58.255
+      ],
+      "center_mm": [
+        50.5,
+        57.5
+      ]
+    },
+    {
+      "ref": "RS2B_I3",
+      "designator": "R20",
+      "x_mm": 7.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        5.495,
+        28.745,
+        8.505,
+        30.255
+      ],
+      "center_mm": [
+        7.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "CS1G_H1",
+      "designator": "C93",
+      "x_mm": 75.0,
+      "y_mm": 37.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        74.245,
+        35.495,
+        75.755,
+        38.505
+      ],
+      "center_mm": [
+        75.0,
+        37.0
+      ]
+    },
+    {
+      "ref": "RS1A_L3",
+      "designator": "R80",
+      "x_mm": 48.0,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        46.495,
+        26.745,
+        49.505,
+        28.255
+      ],
+      "center_mm": [
+        48.0,
+        27.5
+      ]
+    },
+    {
+      "ref": "CS1FB_M1",
+      "designator": "C17",
+      "x_mm": 17.0,
+      "y_mm": 32.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        16.245,
+        30.995,
+        17.755,
+        34.005
+      ],
+      "center_mm": [
+        17.0,
+        32.5
+      ]
+    },
+    {
+      "ref": "C_ADC_DVIO",
+      "designator": "C105",
+      "x_mm": 60.0,
+      "y_mm": 47.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.495,
+        46.745,
+        61.505,
+        48.255
+      ],
+      "center_mm": [
+        60.0,
+        47.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_I2",
+      "designator": "D3",
+      "x_mm": 11.5,
+      "y_mm": 22.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        9.725,
+        20.775,
+        13.275,
+        24.225
+      ],
+      "center_mm": [
+        11.5,
+        22.5
+      ]
+    },
+    {
+      "ref": "CS2FB_T1",
+      "designator": "C64",
+      "x_mm": 63.0,
+      "y_mm": 10.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        62.245,
+        8.495,
+        63.755,
+        11.505
+      ],
+      "center_mm": [
+        63.0,
+        10.0
+      ]
+    },
+    {
+      "ref": "D_CLAMP_M3",
+      "designator": "D7",
+      "x_mm": 29.0,
+      "y_mm": 22.5,
+      "rotation_deg": 180.0,
+      "side": "B",
+      "courtyard_mm": [
+        27.275,
+        20.725,
+        30.725,
+        24.275
+      ],
+      "center_mm": [
+        29.0,
+        22.5
+      ]
+    },
+    {
+      "ref": "U_FILT2",
+      "designator": "U17",
+      "x_mm": 10.0,
+      "y_mm": 33.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        6.125,
+        30.725,
+        13.875,
+        36.275
+      ],
+      "center_mm": [
+        10.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "RS2A_H1",
+      "designator": "R131",
+      "x_mm": 73.0,
+      "y_mm": 34.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        72.245,
+        32.995,
+        73.755,
+        36.005
+      ],
+      "center_mm": [
+        73.0,
+        34.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT1",
+      "designator": "C121",
+      "x_mm": 5.0,
+      "y_mm": 14.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        4.245,
+        12.995,
+        5.755,
+        16.005
+      ],
+      "center_mm": [
+        5.0,
+        14.5
+      ]
+    },
+    {
+      "ref": "C_ADC_NEG_BUCKET",
+      "designator": "C138",
+      "x_mm": 58.0,
+      "y_mm": 50.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        57.245,
+        48.995,
+        58.755,
+        52.005
+      ],
+      "center_mm": [
+        58.0,
+        50.5
+      ]
+    },
+    {
+      "ref": "RS1A_P1",
+      "designator": "R101",
+      "x_mm": 63.0,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        61.495,
+        28.745,
+        64.505,
+        30.255
+      ],
+      "center_mm": [
+        63.0,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS2B_M1",
+      "designator": "R27",
+      "x_mm": 13.0,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        11.495,
+        36.745,
+        14.505,
+        38.255
+      ],
+      "center_mm": [
+        13.0,
+        37.5
+      ]
+    },
+    {
+      "ref": "CS1G_R2",
+      "designator": "C38",
+      "x_mm": 31.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        29.995,
+        28.745,
+        33.005,
+        30.255
+      ],
+      "center_mm": [
+        31.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "CS2G_I1",
+      "designator": "C5",
+      "x_mm": 5.0,
+      "y_mm": 11.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        4.245,
+        9.495,
+        5.755,
+        12.505
+      ],
+      "center_mm": [
+        5.0,
+        11.0
+      ]
+    },
+    {
+      "ref": "CS1FB_P1",
+      "designator": "C72",
+      "x_mm": 63.0,
+      "y_mm": 38.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        62.245,
+        36.495,
+        63.755,
+        39.505
+      ],
+      "center_mm": [
+        63.0,
+        38.0
+      ]
+    },
+    {
+      "ref": "CS1G_L2",
+      "designator": "C53",
+      "x_mm": 40.0,
+      "y_mm": 37.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        39.245,
+        35.495,
+        40.755,
+        38.505
+      ],
+      "center_mm": [
+        40.0,
+        37.0
+      ]
+    },
+    {
+      "ref": "RS2B_M3",
+      "designator": "R41",
+      "x_mm": 33.5,
+      "y_mm": 16.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        31.995,
+        15.745,
+        35.005,
+        17.255
+      ],
+      "center_mm": [
+        33.5,
+        16.5
+      ]
+    },
+    {
+      "ref": "RS1B_L3",
+      "designator": "R81",
+      "x_mm": 50.0,
+      "y_mm": 33.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        49.245,
+        31.495,
+        50.755,
+        34.505
+      ],
+      "center_mm": [
+        50.0,
+        33.0
+      ]
+    },
+    {
+      "ref": "RS2B_R3",
+      "designator": "R62",
+      "x_mm": 43.0,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        41.495,
+        9.745,
+        44.505,
+        11.255
+      ],
+      "center_mm": [
+        43.0,
+        10.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT4",
+      "designator": "C124",
+      "x_mm": 22.5,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        21.745,
+        31.995,
+        23.255,
+        35.005
+      ],
+      "center_mm": [
+        22.5,
+        33.5
+      ]
+    },
+    {
+      "ref": "RS2A_M1",
+      "designator": "R26",
+      "x_mm": 16.5,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        15.745,
+        27.495,
+        17.255,
+        30.505
+      ],
+      "center_mm": [
+        16.5,
+        29.0
+      ]
+    },
+    {
+      "ref": "U_FILT4",
+      "designator": "U19",
+      "x_mm": 27.5,
+      "y_mm": 33.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.625,
+        30.725,
+        31.375,
+        36.275
+      ],
+      "center_mm": [
+        27.5,
+        33.5
+      ]
+    },
+    {
+      "ref": "CS1G_P2",
+      "designator": "C78",
+      "x_mm": 66.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        64.995,
+        28.745,
+        68.005,
+        30.255
+      ],
+      "center_mm": [
+        66.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS2A_I2",
+      "designator": "R12",
+      "x_mm": 13.0,
+      "y_mm": 8.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        11.495,
+        7.745,
+        14.505,
+        9.255
+      ],
+      "center_mm": [
+        13.0,
+        8.5
+      ]
+    },
+    {
+      "ref": "R_VEXC_H",
+      "designator": "R150",
+      "x_mm": 54.0,
+      "y_mm": 55.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        52.495,
+        54.245,
+        55.505,
+        55.755
+      ],
+      "center_mm": [
+        54.0,
+        55.0
+      ]
+    },
+    {
+      "ref": "RS1A_L1",
+      "designator": "R66",
+      "x_mm": 48.0,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        46.495,
+        17.745,
+        49.505,
+        19.255
+      ],
+      "center_mm": [
+        48.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "CS2FB_H1",
+      "designator": "C94",
+      "x_mm": 77.5,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        75.995,
+        26.745,
+        79.005,
+        28.255
+      ],
+      "center_mm": [
+        77.5,
+        27.5
+      ]
+    },
+    {
+      "ref": "RS1A_P4",
+      "designator": "R122",
+      "x_mm": 83.0,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        81.495,
+        17.745,
+        84.505,
+        19.255
+      ],
+      "center_mm": [
+        83.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "CS2G_R2",
+      "designator": "C40",
+      "x_mm": 33.0,
+      "y_mm": 36.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        32.245,
+        34.995,
+        33.755,
+        38.005
+      ],
+      "center_mm": [
+        33.0,
+        36.5
+      ]
+    },
+    {
+      "ref": "CS1FB_P2",
+      "designator": "C77",
+      "x_mm": 69.5,
+      "y_mm": 32.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        68.745,
+        30.995,
+        70.255,
+        34.005
+      ],
+      "center_mm": [
+        69.5,
+        32.5
+      ]
+    },
+    {
+      "ref": "RS1B_R3",
+      "designator": "R60",
+      "x_mm": 43.0,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        41.495,
+        17.745,
+        44.505,
+        19.255
+      ],
+      "center_mm": [
+        43.0,
+        18.5
+      ]
+    },
+    {
+      "ref": "RS2A_R1",
+      "designator": "R47",
+      "x_mm": 20.5,
+      "y_mm": 34.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        19.745,
+        32.995,
+        21.255,
+        36.005
+      ],
+      "center_mm": [
+        20.5,
+        34.5
+      ]
+    },
+    {
+      "ref": "RS2A_P3",
+      "designator": "R117",
+      "x_mm": 73.0,
+      "y_mm": 15.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        72.245,
+        13.995,
+        73.755,
+        17.005
+      ],
+      "center_mm": [
+        73.0,
+        15.5
+      ]
+    },
+    {
+      "ref": "RS2B_R1",
+      "designator": "R48",
+      "x_mm": 24.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        22.995,
+        28.745,
+        26.005,
+        30.255
+      ],
+      "center_mm": [
+        24.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "CS1FB_I1",
+      "designator": "C2",
+      "x_mm": 10.5,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        9.745,
+        17.495,
+        11.255,
+        20.505
+      ],
+      "center_mm": [
+        10.5,
+        19.0
+      ]
+    },
+    {
+      "ref": "CS2G_L2",
+      "designator": "C55",
+      "x_mm": 39.5,
+      "y_mm": 30.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        38.745,
+        28.495,
+        40.255,
+        31.505
+      ],
+      "center_mm": [
+        39.5,
+        30.0
+      ]
+    },
+    {
+      "ref": "CS2FB_L2",
+      "designator": "C54",
+      "x_mm": 42.5,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        40.995,
+        26.745,
+        44.005,
+        28.255
+      ],
+      "center_mm": [
+        42.5,
+        27.5
+      ]
+    },
+    {
+      "ref": "RS1B_I3",
+      "designator": "R18",
+      "x_mm": 8.0,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        6.495,
+        36.745,
+        9.505,
+        38.255
+      ],
+      "center_mm": [
+        8.0,
+        37.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT5",
+      "designator": "C125",
+      "x_mm": 40.0,
+      "y_mm": 14.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        39.245,
+        12.995,
+        40.755,
+        16.005
+      ],
+      "center_mm": [
+        40.0,
+        14.5
+      ]
+    },
+    {
+      "ref": "RS2A_M3",
+      "designator": "R40",
+      "x_mm": 30.5,
+      "y_mm": 8.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        28.995,
+        7.745,
+        32.005,
+        9.255
+      ],
+      "center_mm": [
+        30.5,
+        8.5
+      ]
+    },
+    {
+      "ref": "RS2B_T1",
+      "designator": "R90",
+      "x_mm": 60.5,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.995,
+        9.745,
+        62.005,
+        11.255
+      ],
+      "center_mm": [
+        60.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "CDEC_U_FILT10",
+      "designator": "C130",
+      "x_mm": 75.0,
+      "y_mm": 33.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        74.245,
+        31.995,
+        75.755,
+        35.005
+      ],
+      "center_mm": [
+        75.0,
+        33.5
+      ]
+    },
+    {
+      "ref": "CS1FB_R3",
+      "designator": "C42",
+      "x_mm": 45.5,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        44.745,
+        17.495,
+        46.255,
+        20.505
+      ],
+      "center_mm": [
+        45.5,
+        19.0
+      ]
+    },
+    {
+      "ref": "C_VEXC",
+      "designator": "C141",
+      "x_mm": 49.5,
+      "y_mm": 55.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        48.745,
+        53.495,
+        50.255,
+        56.505
+      ],
+      "center_mm": [
+        49.5,
+        55.0
+      ]
+    },
+    {
+      "ref": "CS2FB_R2",
+      "designator": "C39",
+      "x_mm": 30.5,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        28.995,
+        38.745,
+        32.005,
+        40.255
+      ],
+      "center_mm": [
+        30.5,
+        39.5
+      ]
+    },
+    {
+      "ref": "RS2A_I1",
+      "designator": "R5",
+      "x_mm": 3.0,
+      "y_mm": 15.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        2.245,
+        13.995,
+        3.755,
+        17.005
+      ],
+      "center_mm": [
+        3.0,
+        15.5
+      ]
+    },
+    {
+      "ref": "RS2B_I2",
+      "designator": "R13",
+      "x_mm": 16.0,
+      "y_mm": 16.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        14.495,
+        15.745,
+        17.505,
+        17.255
+      ],
+      "center_mm": [
+        16.0,
+        16.5
+      ]
+    },
+    {
+      "ref": "CS2FB_R1",
+      "designator": "C34",
+      "x_mm": 25.0,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.495,
+        26.745,
+        26.505,
+        28.255
+      ],
+      "center_mm": [
+        25.0,
+        27.5
+      ]
+    },
+    {
+      "ref": "CS1G_I1",
+      "designator": "C3",
+      "x_mm": 5.0,
+      "y_mm": 18.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        4.245,
+        16.495,
+        5.755,
+        19.505
+      ],
+      "center_mm": [
+        5.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "RS2A_R2",
+      "designator": "R54",
+      "x_mm": 34.0,
+      "y_mm": 29.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        33.245,
+        27.495,
+        34.755,
+        30.505
+      ],
+      "center_mm": [
+        34.0,
+        29.0
+      ]
+    },
+    {
+      "ref": "RS2B_M2",
+      "designator": "R34",
+      "x_mm": 25.5,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.995,
+        9.745,
+        27.005,
+        11.255
+      ],
+      "center_mm": [
+        25.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "C_MUX_ADDR",
+      "designator": "C139",
+      "x_mm": 39.0,
+      "y_mm": 46.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        37.495,
+        45.245,
+        40.505,
+        46.755
+      ],
+      "center_mm": [
+        39.0,
+        46.0
+      ]
+    },
+    {
+      "ref": "CS2FB_P3",
+      "designator": "C84",
+      "x_mm": 80.5,
+      "y_mm": 10.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        79.745,
+        8.495,
+        81.255,
+        11.505
+      ],
+      "center_mm": [
+        80.5,
+        10.0
+      ]
+    },
+    {
+      "ref": "RS1A_M3",
+      "designator": "R38",
+      "x_mm": 30.5,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        28.995,
+        17.745,
+        32.005,
+        19.255
+      ],
+      "center_mm": [
+        30.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "CS1FB_R2",
+      "designator": "C37",
+      "x_mm": 34.5,
+      "y_mm": 32.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        33.745,
+        30.995,
+        35.255,
+        34.005
+      ],
+      "center_mm": [
+        34.5,
+        32.5
+      ]
+    },
+    {
+      "ref": "RS1A_P2",
+      "designator": "R108",
+      "x_mm": 65.5,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        63.995,
+        26.745,
+        67.005,
+        28.255
+      ],
+      "center_mm": [
+        65.5,
+        27.5
+      ]
+    },
+    {
+      "ref": "CS2FB_L3",
+      "designator": "C59",
+      "x_mm": 48.0,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        46.495,
+        38.745,
+        49.505,
+        40.255
+      ],
+      "center_mm": [
+        48.0,
+        39.5
+      ]
+    },
+    {
+      "ref": "CS1FB_M2",
+      "designator": "C22",
+      "x_mm": 28.0,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        27.245,
+        17.495,
+        28.755,
+        20.505
+      ],
+      "center_mm": [
+        28.0,
+        19.0
+      ]
+    },
+    {
+      "ref": "RS1A_M2",
+      "designator": "R31",
+      "x_mm": 25.5,
+      "y_mm": 20.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        23.995,
+        19.745,
+        27.005,
+        21.255
+      ],
+      "center_mm": [
+        25.5,
+        20.5
+      ]
+    },
+    {
+      "ref": "U_FILT1",
+      "designator": "U16",
+      "x_mm": 10.0,
+      "y_mm": 14.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        6.125,
+        11.725,
+        13.875,
+        17.275
+      ],
+      "center_mm": [
+        10.0,
+        14.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_T2",
+      "designator": "D15",
+      "x_mm": 64.0,
+      "y_mm": 22.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        62.275,
+        20.725,
+        65.725,
+        24.275
+      ],
+      "center_mm": [
+        64.0,
+        22.5
+      ]
+    },
+    {
+      "ref": "D_CLAMP_L2",
+      "designator": "D12",
+      "x_mm": 53.5,
+      "y_mm": 19.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        51.775,
+        17.725,
+        55.225,
+        21.275
+      ],
+      "center_mm": [
+        53.5,
+        19.5
+      ]
+    },
+    {
+      "ref": "RS1B_I2",
+      "designator": "R11",
+      "x_mm": 15.0,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        14.245,
+        12.495,
+        15.755,
+        15.505
+      ],
+      "center_mm": [
+        15.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "RS2B_L3",
+      "designator": "R83",
+      "x_mm": 48.0,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        46.495,
+        36.745,
+        49.505,
+        38.255
+      ],
+      "center_mm": [
+        48.0,
+        37.5
+      ]
+    },
+    {
+      "ref": "CS2FB_P1",
+      "designator": "C74",
+      "x_mm": 60.0,
+      "y_mm": 27.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.495,
+        26.745,
+        61.505,
+        28.255
+      ],
+      "center_mm": [
+        60.0,
+        27.5
+      ]
+    },
+    {
+      "ref": "RS1A_L2",
+      "designator": "R73",
+      "x_mm": 45.5,
+      "y_mm": 29.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        43.995,
+        28.745,
+        47.005,
+        30.255
+      ],
+      "center_mm": [
+        45.5,
+        29.5
+      ]
+    },
+    {
+      "ref": "RS2A_P4",
+      "designator": "R124",
+      "x_mm": 83.0,
+      "y_mm": 8.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        81.495,
+        7.745,
+        84.505,
+        9.255
+      ],
+      "center_mm": [
+        83.0,
+        8.5
+      ]
+    },
+    {
+      "ref": "CS2G_T2",
+      "designator": "C70",
+      "x_mm": 69.5,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        68.745,
+        12.495,
+        70.255,
+        15.505
+      ],
+      "center_mm": [
+        69.5,
+        14.0
+      ]
+    },
+    {
+      "ref": "CS2G_R3",
+      "designator": "C45",
+      "x_mm": 40.0,
+      "y_mm": 11.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        39.245,
+        9.495,
+        40.755,
+        12.505
+      ],
+      "center_mm": [
+        40.0,
+        11.0
+      ]
+    },
+    {
+      "ref": "CS2FB_I1",
+      "designator": "C4",
+      "x_mm": 10.5,
+      "y_mm": 10.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        9.745,
+        8.495,
+        11.255,
+        11.505
+      ],
+      "center_mm": [
+        10.5,
+        10.0
+      ]
+    },
+    {
+      "ref": "RS1B_M1",
+      "designator": "R25",
+      "x_mm": 15.0,
+      "y_mm": 33.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        14.245,
+        31.495,
+        15.755,
+        34.505
+      ],
+      "center_mm": [
+        15.0,
+        33.0
+      ]
+    },
+    {
+      "ref": "CS1G_P3",
+      "designator": "C83",
+      "x_mm": 75.0,
+      "y_mm": 18.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        74.245,
+        16.495,
+        75.755,
+        19.505
+      ],
+      "center_mm": [
+        75.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "CS1FB_I3",
+      "designator": "C12",
+      "x_mm": 10.5,
+      "y_mm": 38.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        9.745,
+        36.495,
+        11.255,
+        39.505
+      ],
+      "center_mm": [
+        10.5,
+        38.0
+      ]
+    },
+    {
+      "ref": "RS1A_P3",
+      "designator": "R115",
+      "x_mm": 78.0,
+      "y_mm": 20.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        76.495,
+        19.745,
+        79.505,
+        21.255
+      ],
+      "center_mm": [
+        78.0,
+        20.5
+      ]
+    },
+    {
+      "ref": "RS1B_P4",
+      "designator": "R123",
+      "x_mm": 85.0,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        84.245,
+        12.495,
+        85.755,
+        15.505
+      ],
+      "center_mm": [
+        85.0,
+        14.0
+      ]
+    },
+    {
+      "ref": "CS2G_T1",
+      "designator": "C65",
+      "x_mm": 57.5,
+      "y_mm": 11.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        56.745,
+        9.495,
+        58.255,
+        12.505
+      ],
+      "center_mm": [
+        57.5,
+        11.0
+      ]
+    },
+    {
+      "ref": "RS2B_R2",
+      "designator": "R55",
+      "x_mm": 30.5,
+      "y_mm": 37.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        28.995,
+        36.745,
+        32.005,
+        38.255
+      ],
+      "center_mm": [
+        30.5,
+        37.5
+      ]
+    },
+    {
+      "ref": "R_I2C_SCL",
+      "designator": "R145",
+      "x_mm": 32.0,
+      "y_mm": 50.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        31.245,
+        48.495,
+        32.755,
+        51.505
+      ],
+      "center_mm": [
+        32.0,
+        50.0
+      ]
+    },
+    {
+      "ref": "CS1G_R3",
+      "designator": "C43",
+      "x_mm": 40.0,
+      "y_mm": 18.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        39.245,
+        16.495,
+        40.755,
+        19.505
+      ],
+      "center_mm": [
+        40.0,
+        18.0
+      ]
+    },
+    {
+      "ref": "RS1B_H2",
+      "designator": "R137",
+      "x_mm": 85.0,
+      "y_mm": 33.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        84.245,
+        31.495,
+        85.755,
+        34.505
+      ],
+      "center_mm": [
+        85.0,
+        33.0
+      ]
+    },
+    {
+      "ref": "CS1FB_P4",
+      "designator": "C87",
+      "x_mm": 85.5,
+      "y_mm": 10.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        84.745,
+        8.995,
+        86.255,
+        12.005
+      ],
+      "center_mm": [
+        85.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "RS1B_M3",
+      "designator": "R39",
+      "x_mm": 32.5,
+      "y_mm": 14.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        31.745,
+        12.495,
+        33.255,
+        15.505
+      ],
+      "center_mm": [
+        32.5,
+        14.0
+      ]
+    },
+    {
+      "ref": "RS2A_T1",
+      "designator": "R89",
+      "x_mm": 55.5,
+      "y_mm": 15.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        54.745,
+        13.995,
+        56.255,
+        17.005
+      ],
+      "center_mm": [
+        55.5,
+        15.5
+      ]
+    },
+    {
+      "ref": "CS2FB_L1",
+      "designator": "C49",
+      "x_mm": 50.5,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        49.745,
+        17.495,
+        51.255,
+        20.505
+      ],
+      "center_mm": [
+        50.5,
+        19.0
+      ]
+    },
+    {
+      "ref": "CS2G_H1",
+      "designator": "C95",
+      "x_mm": 74.5,
+      "y_mm": 30.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        73.745,
+        28.495,
+        75.255,
+        31.505
+      ],
+      "center_mm": [
+        74.5,
+        30.0
+      ]
+    },
+    {
+      "ref": "CS1FB_T1",
+      "designator": "C62",
+      "x_mm": 63.0,
+      "y_mm": 19.0,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        62.245,
+        17.495,
+        63.755,
+        20.505
+      ],
+      "center_mm": [
+        63.0,
+        19.0
+      ]
+    },
+    {
+      "ref": "CS1G_T2",
+      "designator": "C68",
+      "x_mm": 65.5,
+      "y_mm": 10.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        63.995,
+        9.745,
+        67.005,
+        11.255
+      ],
+      "center_mm": [
+        65.5,
+        10.5
+      ]
+    },
+    {
+      "ref": "RS1B_T1",
+      "designator": "R88",
+      "x_mm": 60.5,
+      "y_mm": 18.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        58.995,
+        17.745,
+        62.005,
+        19.255
+      ],
+      "center_mm": [
+        60.5,
+        18.5
+      ]
+    },
+    {
+      "ref": "CS2FB_H2",
+      "designator": "C99",
+      "x_mm": 83.0,
+      "y_mm": 39.5,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        81.495,
+        38.745,
+        84.505,
+        40.255
+      ],
+      "center_mm": [
+        83.0,
+        39.5
+      ]
+    },
+    {
+      "ref": "R_VEXC_L",
+      "designator": "R151",
+      "x_mm": 54.0,
+      "y_mm": 57.0,
+      "rotation_deg": 0.0,
+      "side": "B",
+      "courtyard_mm": [
+        52.495,
+        56.245,
+        55.505,
+        57.755
+      ],
+      "center_mm": [
+        54.0,
+        57.0
+      ]
+    },
+    {
+      "ref": "RS2A_I3",
+      "designator": "R19",
+      "x_mm": 3.0,
+      "y_mm": 34.5,
+      "rotation_deg": 90.0,
+      "side": "B",
+      "courtyard_mm": [
+        2.245,
+        32.995,
+        3.755,
+        36.005
+      ],
+      "center_mm": [
+        3.0,
+        34.5
+      ]
+    }
+  ]
+}

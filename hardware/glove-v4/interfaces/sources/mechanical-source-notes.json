@@ -1,0 +1,58 @@
+{
+  "scope": "Manufacturer dimensional evidence used for V4 enclosure integration",
+  "fh12": {
+    "part": "FH12-24S-0.5SH(55)",
+    "drawing": "fh12-family-engineering-drawing.pdf",
+    "drawing_number": "EDC3-150229-11",
+    "family_table_includes_24_contacts": true,
+    "source": "https://www.ic-components.fr/files/36/FH12-50S-0.5SH%2855%29.pdf",
+    "bottom_contact_plane_above_pcb_mm": 0.55,
+    "tail_thickness_mm": 0.3,
+    "tail_midplane_above_pcb_mm": 0.7,
+    "insertion_from_outer_front_mm": 4.4,
+    "insertion_interpretation": "Page 1 detail a: tail tip 3.4 mm beyond inner latch rear, 4.4 mm beyond outside front face. Reference dimensions in parentheses; supplied-part fit and tolerances remain factory checks."
+  },
+  "fh12_catalog": {
+    "file": "fh12-manufacturer-catalog.pdf",
+    "source": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/693/FH12_Rev2018.pdf"
+  },
+  "camera": {
+    "part": "CamThink 73.002.000035",
+    "source": "https://wiki.camthink.ai/docs/hardware-dev-resources/camera-module-ov5640/",
+    "outline": "ov5640-outline-browser.png",
+    "overall_length_mm": 38.5,
+    "overall_tolerance_mm": 0.2,
+    "head_side_mm": 8.5,
+    "head_side_tolerance_mm": 0.1,
+    "head_depth_mm": 6.6,
+    "head_depth_tolerance_mm": 0.2,
+    "tail_length_mm": 4.0,
+    "tail_length_tolerance_mm": 0.2,
+    "derived_neck_length_mm": 26.0,
+    "neck_width_mm": 7.0,
+    "neck_thickness_mm": 0.2,
+    "tail_thickness_mm": 0.3,
+    "tail_width_mm": 12.5,
+    "contacts": "On module back; conductive side faces PCB in bottom-contact FH12. Preserve pin 1 and avoid twisting."
+  },
+  "rgb": {
+    "part": "APTF1616LSEEZGKQBKC",
+    "file": "kingbright-aptf1616-rgb.pdf",
+    "source": "https://www.kingbrightusa.com/images/catalog/spec/aptf1616lseezgkqbkc.pdf",
+    "nominal_height_mm": 0.7,
+    "conservative_max_height_mm": 0.9
+  },
+  "button": {
+    "part": "PTS636 SK43 SMTR LFS",
+    "file": "hardware/glove-v3/component-evidence/interfaces/pts636-datasheet.pdf",
+    "height_mm": 4.3,
+    "actuation_travel_nominal_mm": 0.3,
+    "actuation_travel_tolerance_mm": 0.1
+  },
+  "local_evidence_sha256": {
+    "fh12-family-engineering-drawing.pdf": "5af268784cd595a8832d0370b881504f7840611e76a1077fa3c52c8f64234a1e",
+    "fh12-manufacturer-catalog.pdf": "7a0a707be074d6b9e2675e4c6fac8d2d1455926469044cacc8b10fa43a122696",
+    "ov5640-outline-browser.png": "dcce19e81d70b4684fd9573f8f165c113c7b620945ee6f4a22e00235d158f42b",
+    "kingbright-aptf1616-rgb.pdf": "70d08345f8ebe563347ddc787c0de80b7f6465f51b8ce70fdb16ddcb73b51ba6"
+  }
+}

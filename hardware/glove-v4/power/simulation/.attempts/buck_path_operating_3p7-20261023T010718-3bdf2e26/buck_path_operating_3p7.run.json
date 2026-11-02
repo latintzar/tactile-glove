@@ -1,0 +1,28 @@
+{
+  "name": "buck_path_operating_3p7",
+  "attempt_directory": ".attempts/buck_path_operating_3p7-20261023T010718-3bdf2e26",
+  "analysis_complete": false,
+  "simulation_errors": [
+    "doAnalyses: TRAN:  Timestep too small; time = 0.000157513, timestep = 1.25e-19: trouble with node \"v.xu.x_u1.v_v4#branch\"",
+    "tran simulation(s) aborted"
+  ],
+  "seconds": 58.165,
+  "simulator_returncode": 0,
+  "actual_native_end_s": 0.0001575135,
+  "expected_end_s": 0.0007,
+  "completion_marker": true,
+  "expected_step_s": 1.0000000000000001e-07,
+  "expected_columns": 18,
+  "deck_sha256": "363487049937143a71617da06deae73747013e912bd2d5089446f3365a433bf3",
+  "executed_deck_sha256": "ee7e8293066a8b41c43d1f525892be571959fa9095e066ab0bad747bef392f2c",
+  "log_sha256": "0d75e8b91f089ce696be82f9a48feabf4a09b8f817bf23aad5595d45bab740e4",
+  "waveform_sha256": "f22df52c1fd9f0fcb76787ad47fc81483b6a59b257afbc9452a0887afc12229f",
+  "waveform_validation": {
+    "valid": true,
+    "rows": 7001,
+    "expected_rows": 7001,
+    "last_time_s": 0.0007,
+    "all_zero_tail_rows": 0,
+    "errors": []
+  }
+}

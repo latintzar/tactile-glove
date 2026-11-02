@@ -1,0 +1,10 @@
+** Drc report for /tmp/glove-eda-runtime/power-cad-fix/glove-v3-routed.kicad_pcb **
+** Created on 2026-10-22 19:25:59 **
+
+** Found 0 DRC violations **
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

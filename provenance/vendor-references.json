@@ -1,0 +1,783 @@
+{
+  "schema": 1,
+  "scope": "Withheld manufacturer documents/models; originals remain with publishers and under their own terms. URL null means mapping is unresolved, not a permission to redistribute.",
+  "references": [
+    {
+      "path": "hardware/glove-v4/enclosure/sources/molex-header.pdf",
+      "sha256": "87ea82c5efee1d85f640cf18fe1ff8f859a2b7c5f9a72cedd32b95113cc0e925",
+      "bytes": 306775,
+      "publisher_url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43045/430450600_sd.pdf",
+      "included": false,
+      "purpose": "manufacturer reference checksum used by enclosure generator and independent audit"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/molex-housing.pdf",
+      "sha256": "a3f07ed38948507697b11f17dcad8802c6120c390c4a2eeb5c945b877e5320cb",
+      "bytes": 149919,
+      "publisher_url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/430/43025/430250200_sd.pdf",
+      "included": false,
+      "purpose": "manufacturer reference checksum used by enclosure generator and independent audit"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/jauch-250480.pdf",
+      "sha256": "de28483b424c917c46d01596c925326568c85192829a3a9b1b49d88de1eaa1ef",
+      "bytes": 368653,
+      "publisher_url": "https://www.jauch.com/downloadfile/61f0fb7230945444b292c0fac704609f8/6700%20mAh,%20LI18650JLS%20HB%201s2p,%20Mat.%20250480.pdf",
+      "included": false,
+      "purpose": "manufacturer reference checksum used by enclosure generator and independent audit"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/sdp-si-metric-hardware.pdf",
+      "sha256": "45264fc8630e7e3b711a434412e817f6b2617568a3d6c55de4124e87c349f78a",
+      "bytes": 11067000,
+      "publisher_url": "https://www.sdp-si.com/D815/D815-Metric-Section10-Hardware.pdf",
+      "included": false,
+      "purpose": "manufacturer reference checksum used by enclosure generator and independent audit"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/rs-pro-7698720-polycarbonate.pdf",
+      "sha256": "3ac45e9e80693079ec43c69923d604efce6eba8b3b3386091bb7772d777043c8",
+      "bytes": 462672,
+      "publisher_url": "https://assets.rs-online.com/image/upload/v1700069110/Datasheets/2f06e8198027e5178809d0e879ee391f.pdf",
+      "included": false,
+      "purpose": "manufacturer reference checksum used by enclosure generator and independent audit"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/3m-window-bond-evidence.txt",
+      "sha256": "3f5896606c41c02315ad064789a2b10f089ae7211c8d3bbab3b502f2c809a0e7",
+      "bytes": 1739,
+      "publisher_url": null,
+      "included": true,
+      "purpose": "manufacturer reference checksum used by enclosure generator and independent audit"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/assembly-back.pdf",
+      "sha256": "8e9cf5d2330214dc45959f5f1ac1e827d714108f3281c14f06dd5f25b77bb2b1",
+      "bytes": 800867,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/assembly-front.pdf",
+      "sha256": "29453435d66dde8dafaea2549dcdc956f6a17c5b1b0f462905d039a4ce83aaf7",
+      "bytes": 756551,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/sources/cd74hc4052.pdf",
+      "sha256": "88356c377dcb0afa0bbde9259a3fc68193ea6ce6745fcd38e284bbb23425bb7a",
+      "bytes": 1719193,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/sources/mcp1501.pdf",
+      "sha256": "f13d94a440c9f052ad0953098361f96438edccd618b53240668d620a62524216",
+      "bytes": 14308089,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/sources/mcp33131.pdf",
+      "sha256": "a78a66eb6299039c08fbb89d0d7f445f108d50266215606580205c81f3120120",
+      "bytes": 3687241,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/sources/opa320.pdf",
+      "sha256": "6ad9e31b95374c9bd582b821c528c91cb5813772e74e68f80cf81d0c10772b13",
+      "bytes": 2848210,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v3/electrical/sources/tlv755p.pdf",
+      "sha256": "21731db76a8edbf368a2e9e996a525a3998132a5356379d9af1a8ad7d4934f57",
+      "bytes": 3073211,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/DMP2035U.pdf",
+      "sha256": "8e34ec7fd49f1c2fdb94b1df5a1335e1cbf723899e0426a2cfc7b61d81246722",
+      "bytes": 531992,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/GRM1885C1H103JA01D.pdf",
+      "sha256": "039e299f8a356fba65d85bcbd5aa4fbb20babc902d1e782ad7af7469f8b5893d",
+      "bytes": 349292,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/GRM188R71H104KA93D.pdf",
+      "sha256": "661deec12378c6d9ad62b0e22eafefd68a72c960f1e30b2e45da0411bd3bad2b",
+      "bytes": 229698,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/GRM32ER61C476KE15L.pdf",
+      "sha256": "c268c52451c82b2d44f5c60586f4e03e5a0f5a7e53f6b6c2a681597a4648a8ff",
+      "bytes": 336773,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07100KL.pdf",
+      "sha256": "4335d7e2d8f759e972e50ab44f0921cdc9059989aea4b04b610768cb2f053897",
+      "bytes": 56376,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0710KL.pdf",
+      "sha256": "5884c52bde045a42f76c0e952bd83f6a19cf57a0d3adf20e1c475ecc6da3459e",
+      "bytes": 56374,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0710ML.pdf",
+      "sha256": "0685ee70a336f8beebeeb2393eaa3907dc121efd76415006a2dd0b6bae34a460",
+      "bytes": 56317,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0710RL.pdf",
+      "sha256": "6b426d35b06b713411628e4a1095ccbc97521a23458b199ac8b4afb663768211",
+      "bytes": 56248,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0714K7L.pdf",
+      "sha256": "dca5cb6c331d71c7c4165abba70ce149f24b56a0135d5798e0b5da4319d4b469",
+      "bytes": 56450,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-071KL.pdf",
+      "sha256": "3da3eabe86122a3123b92c79e98b0449c27a54206d05638447c2d11d25f323f1",
+      "bytes": 56369,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07200KL.pdf",
+      "sha256": "fc06330612e1a9b52feb4563c24fd69f02a28ef6b08d3754affabf7a785b1f2c",
+      "bytes": 56430,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07220RL.pdf",
+      "sha256": "33c94fc00fa9df6aec626a6a2619f0f79d6b82200d06c9d8262743a53310efbd",
+      "bytes": 56307,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0722RL.pdf",
+      "sha256": "18fba0b825cdffa640b0509703d76dcc1e2698c8825bc0e65b04ea7570e28292",
+      "bytes": 56305,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0727K4L.pdf",
+      "sha256": "f12feecb6c3a47ea608ae0f03374443f8593eb69e6ca1dba773b20b5e37d27a5",
+      "bytes": 56500,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-072K2L.pdf",
+      "sha256": "b2f4bf0a981284ebb3357a2ff899eab3412f677d6bba374cae7c8318ef193a04",
+      "bytes": 56412,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-072KL.pdf",
+      "sha256": "8f48675bb127f3b207259b548a60ed15330fa6fa00f121b7ba54ef0feae970db",
+      "bytes": 56416,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0733RL.pdf",
+      "sha256": "5f96797f60b0e2c4ed7926aff24d8d1b8296d3b191e6481e0d9e1ea07ba674ad",
+      "bytes": 56225,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0747KL.pdf",
+      "sha256": "6f84d6f198504710c3c48a717cb216ff1e66ea069865eee01df3b2ff9cd55cd4",
+      "bytes": 56403,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-0747RL.pdf",
+      "sha256": "edca8c1b6fb898b91ad64e87563be8ceefcab6209293d0127329b21325ccb9a6",
+      "bytes": 56274,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-074K7L.pdf",
+      "sha256": "bcf89e1ca3354beda4a756bb52484117d5895e5ee27c1d6a79ca9e6b69d14188",
+      "bytes": 56398,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0603FR-07680RL.pdf",
+      "sha256": "09f39b3bbb49717564ab99d4e68fe13233ba27249150a59840a81b1017b3c8b6",
+      "bytes": 56382,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RC0805FR-0722RL.pdf",
+      "sha256": "cfbea27b442a850c949eb2924f9ac181342f8f9f6cfde635093ed40a47ab9b2d",
+      "bytes": 56332,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07100KL.pdf",
+      "sha256": "f8edb3f69f4c43321dd1b6af93f4e759c3a57f27b1cecc58ba0eb18740d3864f",
+      "bytes": 55698,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07107KL.pdf",
+      "sha256": "624f602b2bcdb0ad909ea5b34771acd1d92b79ab43a05e1cfd2677b0046a0983",
+      "bytes": 55694,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07158KL.pdf",
+      "sha256": "d6ac997fd4fee85c87acc1bcca3d981161cd7e2cefa13e68e7d1fb2144312a35",
+      "bytes": 55990,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07300KL.pdf",
+      "sha256": "46a0b17cdeab7683a7a9b558f66897dbad38e835e9e7204368dfbdee068ed01c",
+      "bytes": 55666,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD0730K9L.pdf",
+      "sha256": "74a9cb406f6a3f7d332b97a5990f85607ac861fbe72aefef06fdc56320457a70",
+      "bytes": 55865,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07390RL.pdf",
+      "sha256": "f534ebfdd3a49d3ddb38efb606e4d42b632c3e7faee902959e4c25006352ba57",
+      "bytes": 55820,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD0752K3L.pdf",
+      "sha256": "23c92afb05719371b7c70bfd4176bb513327fc56ded5240c2e329ec2f19b803d",
+      "bytes": 55861,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07562RL.pdf",
+      "sha256": "b1ed9f51183db1722f1cab9112cb7321e5afa70a2ea8476226792f79f020978c",
+      "bytes": 55799,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD075K23L.pdf",
+      "sha256": "67f8565e106c3c5880958a046c1b682a24ddb046ecdbfb0fb6f581b206cf8ab3",
+      "bytes": 55863,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD0771K5L.pdf",
+      "sha256": "69dc67a40b0166c0a34c11e201883e9e6f573a85530fd618899504285c680bb8",
+      "bytes": 55803,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RT0603BRD07887KL.pdf",
+      "sha256": "4ace91ef57a479d1e543753e4710dec10223019111ddb155f20c12c05e0171a0",
+      "bytes": 55815,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/RV0805FR-0722ML.pdf",
+      "sha256": "87c9f1c663351fbab0cd79714da7cb29ddcb83b943b2c378099f042b7f4881c8",
+      "bytes": 56782,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/TAJA685K010RNJ.pdf",
+      "sha256": "dd60ace79c228051cac79d64cd8b377fded1f0d84cc241a5d9c2299ceb603c6a",
+      "bytes": 1774801,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/TMK107BBJ106MA-T.pdf",
+      "sha256": "8011c51d49639db7731d83e9832c0577e71bcf7cfbb51867616c1a9c83694ca5",
+      "bytes": 403181,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/bq25616.pdf",
+      "sha256": "db1c80794273f68d40f13969888a1da6abc08d4a1ea38b68af8b9a09d7c9834a",
+      "bytes": 3126759,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/cd74hct4067.pdf",
+      "sha256": "be0091cbec79831f5ced7d5d42016eadb88b8fad431a1d460a94b9f4f98a421d",
+      "bytes": 2097081,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/lm393lv.pdf",
+      "sha256": "5c9acdfda744a95c4a0a8b08b8cfd28d4571c52e6a0139b350df4296cbf54876",
+      "bytes": 4944217,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/opa4323.pdf",
+      "sha256": "04c80b8060378a0b476da08278ccb822207ae2aca06409df7b985f6f5606b2f5",
+      "bytes": 5029779,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/pca9306.pdf",
+      "sha256": "1cd97c734729f2bfca26ccaa93521c04c373568e4ebe6d892267dba2571e21e6",
+      "bytes": 1546898,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/ref33.pdf",
+      "sha256": "39839abc9bf09417d0a4b446c6e922679f6dc63b19072e284169dd23007e65fe",
+      "bytes": 1512901,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74ahc595.pdf",
+      "sha256": "36153634a69a83956b78ea076e8219a8b61e96e1b8516b96223c2aa88ad7505b",
+      "bytes": 2044190,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74axc8t245.pdf",
+      "sha256": "6cf4003c438c0546fb86f0932613896197dd19a75bdb307f385eb6e75535126e",
+      "bytes": 2203973,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g00.pdf",
+      "sha256": "1264f79853e6119b66d60fe54f1f6e87995c12c00138bd820981fe68febb1063",
+      "bytes": 2845572,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g04.pdf",
+      "sha256": "c9c30cad010d198aaa645d511b03415edc42108ca9799b173ee97d54e3f1a977",
+      "bytes": 2748820,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g08.pdf",
+      "sha256": "30b963cc44233cf3ca35c891ff987c8323a2244ecc765e23296ec96ca4b42666",
+      "bytes": 2837825,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g17.pdf",
+      "sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309",
+      "bytes": 3015318,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g32.pdf",
+      "sha256": "b64786a568abe6a715c6f15dbc8ab1ffde3ad1017a1128a98931200e12c4c416",
+      "bytes": 2923095,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/sn74lvc1g74.pdf",
+      "sha256": "e46a5a867fec742290000dca5ed3b291535f3c4418ef2ae267acc4ab51b26d8a",
+      "bytes": 1427201,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tca9535.pdf",
+      "sha256": "cdaa29e68dbf21d55819621aae81544ce85c898a48dbd202b3067d18c87b0ab8",
+      "bytes": 3496374,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tlv3012.pdf",
+      "sha256": "02993c016420887ee4f1ab2fa640e7596c9c1324a73f4f72bee3b32adec38df3",
+      "bytes": 1624948,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tps22919.pdf",
+      "sha256": "743c59b01fb0891d2d0f1faba779161cd2d2b6c18edf68e6d5b3279016240c84",
+      "bytes": 1454791,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tps22950.pdf",
+      "sha256": "e0f4f5766ba30309af96287e20345b34b38986da59bb0e644bf5401e009c0c66",
+      "bytes": 1649886,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tps2553.pdf",
+      "sha256": "88e453700cea2b263cdb5b44fce1e883e0f6d3b975457f879ac1423eeea42071",
+      "bytes": 2091666,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tps63070.pdf",
+      "sha256": "a88ef66f3493156ff6e7da0849de0e0e1068647f2553d08c1844d4a90c5c65ef",
+      "bytes": 1680561,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tps7a20.pdf",
+      "sha256": "b6c487d79ebed6dd43bf220b07fc5b3ecb9ee55d87e6daa2312acda6546046c0",
+      "bytes": 8987811,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/tusb320lai.pdf",
+      "sha256": "62f7b3f65338e25ebd6fd46ef04474ba806b06b1cc04bc0b3d7b8191b01ca87d",
+      "bytes": 1313743,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/xfl4020.pdf",
+      "sha256": "6dca915ac1daa47210f7708a7540221ffef4f34a88a8621c94bd50cdf48647e6",
+      "bytes": 232753,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/height-evidence/sources/yageo-rt-family.pdf",
+      "sha256": "8ad5fb3b5721ecf5571c61b7932ed6871be2e86eb764857f413f0f92dd781145",
+      "bytes": 37836,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/hp-pa12-density.pdf",
+      "sha256": "ba281f115c806c09678e9433d96b7b95e745564c007107743e6991afe8caeecc",
+      "bytes": 168361,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/jauch-250480-outline.pdf",
+      "sha256": "de28483b424c917c46d01596c925326568c85192829a3a9b1b49d88de1eaa1ef",
+      "bytes": 368653,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/enclosure/sources/permabond-2050.pdf",
+      "sha256": "8a448ccf65ad1cc2b5ae1e79a90978c18dec4822abeddb2a7169fe8c2e2c1a3c",
+      "bytes": 382438,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/interfaces/sources/fh12-family-engineering-drawing.pdf",
+      "sha256": "5af268784cd595a8832d0370b881504f7840611e76a1077fa3c52c8f64234a1e",
+      "bytes": 635180,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/interfaces/sources/fh12-manufacturer-catalog.pdf",
+      "sha256": "7a0a707be074d6b9e2675e4c6fac8d2d1455926469044cacc8b10fa43a122696",
+      "bytes": 821580,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/interfaces/sources/hirose-dm3-series.pdf",
+      "sha256": "8f25bd45697e54f0bb2736ebf0aa67611ab57db2a9ee9af947001246f9708e43",
+      "bytes": 1344758,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/interfaces/sources/ism330dhcx-DS13012-rev7.pdf",
+      "sha256": "4ebd304610da62f31775389ee3ce1a98f596b1331114959e9e052b3f602de8fa",
+      "bytes": 2597969,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/interfaces/sources/kingbright-aptf1616-rgb.pdf",
+      "sha256": "70d08345f8ebe563347ddc787c0de80b7f6465f51b8ce70fdb16ddcb73b51ba6",
+      "bytes": 764048,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/power/models/SLVMBP8/TPS63070_PSPICE_TRANS/TPS63070_TRANS.LIB",
+      "sha256": "251545a36d3a9d9295eb00a061f622ef492035feacaaef2a61bf33f606caddb8",
+      "bytes": 20676,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/power/native.pdf",
+      "sha256": "0b7d6fc23dfc35d29b92dd9e7a8e7585093bd90052390733e7777c933a2f47b0",
+      "bytes": 1633306,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/verification/thermal-screen/readout-proposal/Hydro-6061.pdf",
+      "sha256": "cc3cc79ef34d7ccd2a69fe5216f726be23d23d0b07e12c2ea1091adbba7fd009",
+      "bytes": 419400,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/verification/thermal-screen/readout-proposal/RT0603BRD0710KL.pdf",
+      "sha256": "541526ea9f9fcaa8c318aaa2b68958c0476237020e0a1592ba10f78032b578aa",
+      "bytes": 55695,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/verification/thermal-screen/sources/eos-pa2200-2020.pdf",
+      "sha256": "d509557ac87e71d0ab6161b1ac4fc15ae8cae305c340450f84945b7cbd44aa65",
+      "bytes": 324235,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    },
+    {
+      "path": "hardware/glove-v4/verification/thermal-screen/sources/semitec-at.pdf",
+      "sha256": "389dc527ed8d783cbbf94db460504e26d17993020d8d3627056499a9264b3262",
+      "bytes": 102736,
+      "publisher_url": null,
+      "included": false,
+      "purpose": "external reference; consult adjacent source metadata for publisher and licence",
+      "url_status": "retained source metadata identifies references; exact per-file URL not resolved in this index"
+    }
+  ]
+}

@@ -1,0 +1,663 @@
+{
+  "checked_utc": "2026-10-23",
+  "scope": "One right-hand glove: 20 independent PVDF vibration channels and 20 independent pressure locations.",
+  "currency_policy": "Original currencies are retained. No FX, VAT, Bulgaria shipping, or customs conversion is asserted.",
+  "local_baseline": {
+    "source_files": [
+      "hardware/glove-v3/sensors/assembly.md",
+      "hardware/glove-v3/sensors/wiring.csv",
+      "hardware/glove-v3/procurement/complete-kit.csv",
+      "hardware/glove-v4/guide/README.md",
+      "hardware/glove-v4/guide/supplier-assembly-scope.md",
+      "hardware/glove-v4/procurement/bom-source-plan.csv"
+    ],
+    "pvdf_locations": 20,
+    "pvdf_blank_mm": [
+      10,
+      14
+    ],
+    "pvdf_blank_area_mm2": 2800,
+    "pvdf_reference_mpn": "1-1004347-0",
+    "pvdf_reference_observed_price": "EUR 184.19 per sheet",
+    "pvdf_reference_sheet_mm": [
+      203,
+      140
+    ],
+    "pvdf_reference_film_um": 28,
+    "pvdf_reference_finished_um": 40,
+    "pvdf_reference_electrode": "screen-printed silver ink",
+    "pvdf_gross_utilization_percent": 9.8522167488,
+    "pvdf_electrode_utilization_percent": 11.6038126813,
+    "pressure_electrode_mm": [
+      8,
+      10
+    ],
+    "cell_leads": 80,
+    "branch_connectors": {
+      "GHR-06V-S": 1,
+      "GHR-08V-S": 4,
+      "GHR-14V-S": 1
+    },
+    "gh_contacts": 52
+  },
+  "sources": [
+    {
+      "id": "te-sheet-primary",
+      "evidence_class": "manufacturer",
+      "url": "https://www.te.com/en/product-11027667-00.html",
+      "title": "TE Connectivity 1-1004347-0-M / 11027667-00",
+      "manufacturer": "TE Connectivity / MEAS",
+      "mpn": "1-1004347-0-M",
+      "claims": {
+        "description": "28UM AG INK FILM 8 X 5.5",
+        "film_thickness_um": 28,
+        "sheet_type": "piezo film sheet",
+        "availability_note": "TE page says product is not currently available and directs buyers to distributor inventory"
+      },
+      "price": null,
+      "stock": null,
+      "minimum_order": null,
+      "shipping": null,
+      "open_fields": [
+        "current distributor price",
+        "current stock",
+        "Bulgaria landed cost"
+      ]
+    },
+    {
+      "id": "te-metallized-datasheet",
+      "evidence_class": "manufacturer-distributed-datasheet",
+      "url": "https://www.tti.com/content/dam/ttiinc/manufacturers/te-sensor-solutions/Piezo/PDF/Metallized_Filmsheets.pdf",
+      "title": "TE Metallized Piezo Film Sheets",
+      "manufacturer": "TE Connectivity / MEAS",
+      "mpn": "1-1004347-0",
+      "claims": {
+        "28_um_silver_ink": {
+          "film_um": 28,
+          "total_um": 40,
+          "sheet_in": [
+            8,
+            5.5
+          ],
+          "electrode": "silver ink"
+        },
+        "28_um_cu_ni_alternative": {
+          "film_um": 28,
+          "total_um": 28,
+          "sheet_in": [
+            8,
+            11
+          ],
+          "electrode": "Cu-Ni"
+        },
+        "silver_ink_mechanical_note": "silver ink is best where mechanical stress is applied",
+        "sputtered_note": "sputtered metallization is thinner and more brittle"
+      },
+      "price": null,
+      "stock": null,
+      "minimum_order": null,
+      "shipping": null,
+      "open_fields": []
+    },
+    {
+      "id": "farnell-te-sheet",
+      "evidence_class": "authorized-distributor-listing",
+      "url": "https://de.farnell.com/en-DE/sensor-solutions-te-connectivity/11027667-00/piezo-folie-28um-silbertinte/dp/2771978",
+      "title": "Farnell TE 1-1004347-0-M",
+      "manufacturer": "TE Connectivity",
+      "mpn": "1-1004347-0-M",
+      "claims": {
+        "film_um": 28,
+        "sheet_in": [
+          8,
+          5.5
+        ],
+        "electrode": "silver ink",
+        "stock_observed": 12,
+        "manufacturer_lead_time_weeks": 43,
+        "price_eur_ex_vat": {
+          "qty_1": 264.89,
+          "qty_5": 231.78,
+          "qty_10": 192.04,
+          "qty_25": 188.2,
+          "qty_50": 184.36
+        },
+        "minimum_order": 1
+      },
+      "price": "EUR 264.89 ex VAT at qty 1; EUR 184.36 ex VAT at qty 50",
+      "stock": "12 observed on page",
+      "minimum_order": 1,
+      "shipping": "standard delivery terms shown; Bulgaria landed cost unknown",
+      "open_fields": [
+        "date-sensitive stock",
+        "Bulgaria delivery/VAT"
+      ]
+    },
+    {
+      "id": "polyk-silver-sheet",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://piezopvdf.com/pvdf-piezoc-film-thick-silver-ink/",
+      "title": "PolyK PVDF piezo film with screen-printed silver electrode",
+      "manufacturer": "PolyK",
+      "mpn": "PVDF-Ag-120u-A",
+      "claims": {
+        "poled": true,
+        "electrode": "5 um screen-printed silver ink",
+        "thickness_options_um": [
+          28,
+          45,
+          75,
+          100,
+          120,
+          200
+        ],
+        "size_options_mm": [
+          [
+            200,
+            135
+          ],
+          [
+            200,
+            270
+          ]
+        ],
+        "d31_pC_per_N": ">25",
+        "d33_pC_per_N": ">20",
+        "te_compatibility_claim": [
+          "1-1004347-0",
+          "1-1004346-0"
+        ],
+        "price_displayed_usd": 180,
+        "international_shipping_stated_usd": 30,
+        "international_shipping_stated_method": "UPS air, about 5 days",
+        "stock": "page exposes a Current Stock field but no numeric stock in fetched text",
+        "commercial_terms": "R&D, non-refundable"
+      },
+      "price": "USD 180 displayed; exact size/thickness variant price requires selection check",
+      "stock": null,
+      "minimum_order": null,
+      "shipping": "USD 30 international UPS stated; VAT/customs unknown",
+      "open_fields": [
+        "exact 28 um x 200 x 135 mm variant price",
+        "numeric stock",
+        "lot certificate",
+        "Bulgaria landed cost"
+      ]
+    },
+    {
+      "id": "polyk-cuni-sheet",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://piezopvdf.com/metallized-pvdf-film-CuNi/",
+      "title": "PolyK metallized PVDF sheet with sputtered Cu/Ni electrode",
+      "manufacturer": "PolyK",
+      "mpn": "PVDF-CuNi-P0028",
+      "claims": {
+        "size_mm_28_45_um": [
+          180,
+          270
+        ],
+        "thickness_option": "28 um PVDF + 80 nm CuNi",
+        "d31_pC_per_N": "29-31",
+        "d33_pC_per_N": ">20",
+        "electrode": "roll-to-roll sputtered copper + nickel",
+        "price_displayed_usd": 225,
+        "international_shipping_stated_usd": 50,
+        "stock": "not numeric in fetched text"
+      },
+      "price": "USD 225 displayed; exact thickness option price requires selection check",
+      "stock": null,
+      "minimum_order": null,
+      "shipping": "USD 50 international UPS stated; VAT/customs unknown",
+      "open_fields": [
+        "exact 28 um option price",
+        "numeric stock",
+        "lot certificate",
+        "Bulgaria landed cost"
+      ]
+    },
+    {
+      "id": "te-ldt-catalog",
+      "evidence_class": "manufacturer",
+      "url": "https://www.te.com/en/product-CAT-PFS0006.html",
+      "title": "TE Connectivity Piezo Vibration and PVDF Sensors",
+      "manufacturer": "TE Connectivity / MEAS",
+      "mpn": "LDT0-028K",
+      "claims": {
+        "film_um": 28,
+        "electrode": "screen-printed silver ink",
+        "substrate": "0.125 mm polyester",
+        "contacts": "two crimped contacts",
+        "product_behavior": "flexible PVDF vibration sensor/switch"
+      },
+      "price": null,
+      "stock": null,
+      "minimum_order": null,
+      "shipping": null,
+      "open_fields": [
+        "same-class mechanical fit against 10 x 14 mm / 40 um current cell"
+      ],
+      "status": "rejected_pending_same_class_soft_fit"
+    },
+    {
+      "id": "hestore-ldt",
+      "evidence_class": "EU-distributor-listing",
+      "url": "https://www.hestore.eu/en/prod_10045962.html",
+      "title": "HESTORE LDT0-028K",
+      "manufacturer": "TE Connectivity",
+      "mpn": "LDT0-028K",
+      "aliases": [
+        "1002794-0",
+        "11028362-00"
+      ],
+      "claims": {
+        "film_um": 28,
+        "electrode": "screen-printed silver ink",
+        "substrate_um": 125,
+        "outline_mm": [
+          13.5,
+          25
+        ],
+        "total_thickness_um": 205,
+        "typical_capacitance_nF": 0.5,
+        "stock_observed": ">10",
+        "additional_stock_route": ">2000 in 10-15 working days",
+        "price_eur_ex_vat": {
+          "qty_1": 6.669,
+          "qty_5": 5.948,
+          "qty_10": 5.789,
+          "qty_20": 5.66,
+          "qty_50": 5.493
+        },
+        "minimum_order": 1
+      },
+      "price": "EUR 5.660 each at qty 20; EUR 113.20 for 20",
+      "stock": ">10 observed; >2000 on 10-15 working day route",
+      "minimum_order": 1,
+      "shipping": "shipping charge not exposed in fetched text",
+      "open_fields": [
+        "Bulgaria delivery/VAT",
+        "exact stock at order",
+        "contact-to-Alpha-wire process",
+        "same-class mechanical fit against 10 x 14 mm / 40 um current cell"
+      ],
+      "status": "rejected_pending_same_class_soft_fit"
+    },
+    {
+      "id": "ldt-datasheet",
+      "evidence_class": "manufacturer-datasheet",
+      "url": "https://media.digikey.com/pdf/Data%20Sheets/Measurement%20Specialties%20PDFs/LDT0-028K.pdf",
+      "title": "MEAS LDT with Crimps Vibration Sensor/Switch datasheet",
+      "manufacturer": "Measurement Specialties / TE Connectivity",
+      "mpn": "LDT0-028K",
+      "claims": {
+        "film_um": 28,
+        "substrate": "0.125 mm polyester",
+        "electrode": "Ag ink, both sides",
+        "operating_temperature_C": [
+          0,
+          85
+        ],
+        "contact": "AMP 88997-2 solder tab / crimped contact drawing",
+        "nominal_capacitance_nF": 0.5,
+        "film_dimensions_mm": {
+          "A": 13,
+          "B_electrode": 10.2,
+          "C": 25,
+          "D_electrode": 14.7
+        },
+        "total_thickness_um": 205,
+        "manufacturer_part_number": "1002794-0"
+      },
+      "price": null,
+      "stock": null,
+      "minimum_order": null,
+      "shipping": null,
+      "open_fields": [
+        "same-class mechanical fit against 10 x 14 mm / 40 um current cell"
+      ],
+      "status": "rejected_pending_same_class_soft_fit"
+    },
+    {
+      "id": "precision-acoustics-pvdf",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://www.acoustics.co.uk/product/pvdf/",
+      "title": "Precision Acoustics poled PVdF",
+      "manufacturer": "Precision Acoustics Ltd",
+      "mpn": null,
+      "claims": {
+        "poled": true,
+        "orientation": "uniaxially oriented; strong d33 and d31, weak d32",
+        "size_options_cm": [
+          [
+            17,
+            18
+          ],
+          [
+            34,
+            10
+          ]
+        ],
+        "thickness_options_um": [
+          28,
+          40,
+          80,
+          200
+        ],
+        "electrode_options": [
+          "Cr-Au",
+          "ungolded"
+        ],
+        "attachment_options": [
+          "mechanical crimp/fold",
+          "silver loaded epoxy"
+        ],
+        "temperature_note": "keep below 60 C as a general rule; exposure above 100 C likely removes most piezo behavior",
+        "price": "direct online shop/enquiry, no price in product page"
+      },
+      "price": null,
+      "stock": "page says stocked range; numeric stock not exposed",
+      "minimum_order": null,
+      "shipping": "quote/shop terms required",
+      "open_fields": [
+        "exact metallization variant",
+        "price",
+        "MOQ",
+        "Bulgaria delivery"
+      ]
+    },
+    {
+      "id": "adafruit-velostat",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://www.adafruit.com/product/1361",
+      "title": "Adafruit Pressure-Sensitive Conductive Sheet (Velostat/Linqstat)",
+      "manufacturer": "Adafruit",
+      "mpn": "1361",
+      "claims": {
+        "sheet_mm": [
+          280,
+          280
+        ],
+        "thickness_mm": 0.1,
+        "volume_resistivity_ohm_cm": "<500",
+        "surface_resistivity_ohm_sq": "<31000",
+        "temperature_C": [
+          -45,
+          65
+        ],
+        "price_usd": {
+          "qty_1_9": 4.95,
+          "qty_10_99": 4.46,
+          "qty_100_plus": 3.96
+        },
+        "stock": "out of stock on fetched page"
+      },
+      "price": "USD 4.95 at qty 1-9",
+      "stock": "out of stock",
+      "minimum_order": 1,
+      "shipping": "not extracted",
+      "open_fields": [
+        "replenishment",
+        "batch identity",
+        "force-resistance repeatability"
+      ]
+    },
+    {
+      "id": "adafruit-woven-electrode",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://www.adafruit.com/product/1168",
+      "title": "Adafruit Woven Conductive Fabric 20 cm square",
+      "manufacturer": "Adafruit",
+      "mpn": "1168",
+      "claims": {
+        "sheet_mm": [
+          200,
+          200
+        ],
+        "material": "copper + nickel-plated polyester",
+        "resistance": "less than 1 ohm per foot in any direction",
+        "price_usd": 4.95,
+        "stock": "in stock on fetched page"
+      },
+      "price": "USD 4.95",
+      "stock": "in stock",
+      "minimum_order": 1,
+      "shipping": "not extracted",
+      "open_fields": [
+        "lot continuity",
+        "adhesive compatibility"
+      ]
+    },
+    {
+      "id": "adafruit-knit-electrode",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://www.adafruit.com/product/1167",
+      "title": "Adafruit Knit Conductive Fabric Silver 20 cm square",
+      "manufacturer": "Adafruit",
+      "mpn": "1167",
+      "claims": {
+        "sheet_mm": [
+          200,
+          200
+        ],
+        "material": "silver-plated knit",
+        "resistance": "less than 1 ohm per foot in any direction",
+        "price_usd": 9.95,
+        "stock": "out of stock on fetched page"
+      },
+      "price": "USD 9.95",
+      "stock": "out of stock",
+      "minimum_order": 1,
+      "shipping": "not extracted",
+      "open_fields": [
+        "replenishment",
+        "lot continuity",
+        "adhesive compatibility"
+      ]
+    },
+    {
+      "id": "alpha-5851",
+      "evidence_class": "authorized-distributor-listing",
+      "url": "https://www.mouser.com/en/ProductDetail/Alpha-Wire/5851-BK005?qs=KoyiCLLugP%2FPC3wL9NDiSQ%3D%3D",
+      "title": "Mouser Alpha Wire 5851 BK005",
+      "manufacturer": "Alpha Wire",
+      "mpn": "5851 BK005",
+      "claims": {
+        "gauge_awg": 30,
+        "stranding": "7 x 38",
+        "conductor": "silver-plated copper",
+        "insulation": "PTFE",
+        "length_ft": 100,
+        "voltage_V": 600,
+        "temperature_max_C": 200,
+        "stock_observed": 7,
+        "factory_lead_time_weeks": 12,
+        "price_usd": {
+          "qty_1": 143.3,
+          "qty_3": 140.45,
+          "qty_5": 130.39,
+          "qty_10": 126.36
+        }
+      },
+      "price": "USD 143.30 per 100 ft spool",
+      "stock": "7 observed on Mouser Europe page",
+      "minimum_order": 1,
+      "shipping": "destination quote required",
+      "open_fields": [
+        "exact consumed length per glove",
+        "color mix",
+        "Bulgaria landed cost"
+      ]
+    },
+    {
+      "id": "mg-8331d",
+      "evidence_class": "authorized-distributor-listing",
+      "url": "https://us.rs-online.com/product/mg-chemicals/8331d-14g/72243193/",
+      "title": "RS MG Chemicals 8331D-14G",
+      "manufacturer": "MG Chemicals",
+      "mpn": "8331D-14G",
+      "claims": {
+        "type": "two-part silver conductive epoxy",
+        "container": "14 g",
+        "minimum_order": 1,
+        "stock_observed": 36,
+        "price_usd": {
+          "qty_1": 210.55,
+          "qty_5": 193.71,
+          "qty_10": 187.39,
+          "qty_25": 181.08
+        }
+      },
+      "price": "USD 210.55 per 14 g syringe on RS US page",
+      "stock": "36 observed",
+      "minimum_order": 1,
+      "shipping": "hazmat/export and destination terms require check",
+      "open_fields": [
+        "Bulgaria availability",
+        "actual consumed mass per glove"
+      ]
+    },
+    {
+      "id": "jst-gh-contact",
+      "evidence_class": "manufacturer-datasheet",
+      "url": "https://www.jst.com/wp-content/uploads/2025/06/eGH.pdf",
+      "title": "JST GH series crimp contacts and tools",
+      "manufacturer": "JST",
+      "mpn": "SSHL-002T-P0.2",
+      "claims": {
+        "applicable_conductor_awg": "30 to 26",
+        "applicable_conductor_area_mm2": "0.05 to 0.13",
+        "insulation_od_mm": [
+          0.76,
+          1.0
+        ],
+        "contact_plating": "copper alloy, tin-plated (manufacturer table)",
+        "harness_context": "GH series contact used by the existing GHR-06V-S/GHR-08V-S/GHR-14V-S housings",
+        "recommended_tools": {
+          "hand_crimper": "AP-K2N",
+          "applicator": "MKS-L-10-3",
+          "die": "APLMK SSHL002-02"
+        },
+        "qualification_implication": "30 AWG wire with 0.8 mm OD is within the stated conductor and insulation window; inspect crimp bellmouth, insulation support, pull force, bend exit and continuity."
+      },
+      "price": null,
+      "stock": null,
+      "minimum_order": null,
+      "shipping": null,
+      "open_fields": [
+        "current contact price/stock",
+        "crimp height and pull-force acceptance for candidate wire"
+      ]
+    },
+    {
+      "id": "adafruit-30awg-silicone-2m",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://www.adafruit.com/product/2051",
+      "title": "Adafruit Silicone Cover Stranded-Core Wire 30AWG, 2 meters",
+      "manufacturer": "Adafruit",
+      "mpn": "2051",
+      "claims": {
+        "gauge_awg": 30,
+        "stranding": "stranded; strand count not published on fetched product page",
+        "conductor_metal": "not published on fetched product page",
+        "insulation": "silicone",
+        "outside_diameter_mm": 0.8,
+        "length_m": 2,
+        "resistance_ohm_per_km": 331,
+        "voltage_nominal_V": 600,
+        "temperature_C": [
+          -60,
+          200
+        ],
+        "price_usd": {
+          "qty_1_9": 0.75,
+          "qty_10_24": 0.68,
+          "qty_25_49": 0.64,
+          "qty_50_plus": 0.6
+        },
+        "use_case": "few-meter glove lead supply; color variants are selected on the product page"
+      },
+      "price": "USD 0.75 per 2 m piece at qty 1-9",
+      "stock": "page/product family observed; selected color availability must be checked",
+      "minimum_order": 1,
+      "shipping": "destination quote required",
+      "open_fields": [
+        "conductor metal and strand count/dimensions",
+        "selected color stock",
+        "Bulgaria landed cost",
+        "crimp/pull/bend qualification"
+      ]
+    },
+    {
+      "id": "adafruit-30awg-silicone-50ft",
+      "evidence_class": "manufacturer-shop",
+      "url": "https://www.adafruit.com/product/3164",
+      "title": "Adafruit Silicone Cover Stranded-Core Wire 30AWG, 50 feet",
+      "manufacturer": "Adafruit",
+      "mpn": "3164",
+      "claims": {
+        "gauge_awg": 30,
+        "stranding": "stranded; strand count not published on fetched product page",
+        "conductor_metal": "not published on fetched product page",
+        "insulation": "silicone",
+        "outside_diameter_mm": 0.8,
+        "length_ft": 50,
+        "length_m": 15.24,
+        "price_usd": 4.95,
+        "use_case": "two 50 ft spools provide 30.48 m before cut scrap; cash outlay remains the purchased spool price"
+      },
+      "price": "USD 4.95 per 50 ft spool",
+      "stock": "in stock observed for black 3164; selected color availability must be checked",
+      "minimum_order": 1,
+      "shipping": "destination quote required",
+      "open_fields": [
+        "conductor metal and strand count/dimensions",
+        "selected color stock",
+        "Bulgaria landed cost",
+        "crimp/pull/bend qualification"
+      ]
+    }
+  ],
+  "derived_costs": {
+    "ldt20_price_eur": 113.2,
+    "alpha_wire_100mm_each_consumed_m": 8.0,
+    "alpha_wire_100mm_each_allocated_usd": 37.6115485564,
+    "alpha_wire_150mm_each_consumed_m": 12.0,
+    "alpha_wire_150mm_each_allocated_usd": 56.4173228346,
+    "pressure_electrode_area_mm2": 3200,
+    "pressure_electrode_utilization_percent_on_200x200_sheet": 8.0,
+    "ldt20_theoretical_difference_eur": 70.99,
+    "ldt20_theoretical_difference_percent_vs_te_sheet": 38.5352436402,
+    "ldt20_savings_counted_in_target_eur": 0,
+    "alpha_wire_100ft_cash_outlay_usd": 143.3,
+    "adafruit_30awg_2m_unit_cash_outlay_usd": 0.75,
+    "adafruit_30awg_50ft_cash_outlay_usd": 4.95,
+    "adafruit_30awg_6x2m_cash_outlay_usd_at_qty1": 4.5,
+    "adafruit_30awg_2x50ft_cash_outlay_usd": 9.9,
+    "alpha_wire_allocations_are_not_savings": true,
+    "adafruit_30awg_6x2m_gross_delta_vs_alpha_cash_outlay_usd": 138.8,
+    "adafruit_30awg_2x50ft_gross_delta_vs_alpha_cash_outlay_usd": 133.4
+  },
+  "qualification_required": [
+    "same-glove footprint and thickness fit",
+    "PVDF pulse amplitude, polarity, capacitance, leakage, and 4 kHz response",
+    "pressure force response, hysteresis, repeatability, and PVDF cross-talk",
+    "20-channel continuity, adjacent isolation, shared return, and six-branch map",
+    "contact pull, flex endurance, cover, and strain-relief survival",
+    "lot traceability and supplier certificate for poled/metallized PVDF",
+    "Adafruit 30 AWG 0.8 mm wire: SSHL-002T-P0.2 crimp bellmouth, insulation support, pull force, bend cycling and GH-exit strain relief",
+    "Pre-cut PVDF quote: traceable 28 um poled/screen-metallized lot, polarity, electrode adhesion, 10 x 14 mm dimensions and optional tab preparation"
+  ],
+  "cash_outlay_policy": {
+    "single_glove_purchase_cost": "Charge the entire purchased sheet, spool, wire piece, fabric sheet, or epoxy syringe unless the assembler quotes cut length or consumable use from its own stock.",
+    "allocation_is_not_saving": true,
+    "allocation_definition": "Consumed length/area/mass remains a planning metric for supplier quotes and process costing; it does not reduce one-glove cash outlay."
+  },
+  "precut_pvdf_quote_path": {
+    "status": "quote_required",
+    "spec": "20 blanks plus spares, 10 x 14 mm, 28 um poled PVDF, screen-printed silver on both faces, traceable lot, polarity/orientation mark, optional prepared tabs/leads",
+    "price_usd": null,
+    "minimum_order": null,
+    "shipping": null,
+    "qualification": "Require manufacturer or cutting-house evidence for poled/metallized construction, thickness, electrode adhesion, polarity, and dimensions; do not allocate a full sheet as free stock."
+  }
+}

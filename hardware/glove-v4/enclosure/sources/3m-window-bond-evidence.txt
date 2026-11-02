@@ -1,0 +1,14 @@
+Primary manufacturer sources reviewed through web PDF viewer2026-10-22. Direct PDF download returned403; this file records engineering-relevant facts and source locations, not a copy of the unavailable PDF.
+
+3M VHB Tape LSE-060WF, September2024, physical page1:
+https://multimedia.3m.com/mws/media/2523018O/3m-vhb-tape-lse-060wf.pdf?fn=3M-VHB-Tape-LSE-060WF.pdf
+Nominal thickness0.6mm,tolerance±15%; acrylic closed-cell foam,density710kg/m3. Listed compatible substrates include polyamide. Page2: substrate preparation is required; porous surfaces need sealing. Pages2–3:70/30isopropanol/water cleaning;100kPa application pressure; ideal application21–38°C;72hours for full bond strength at room temperature. Page4: thinner foam can accommodate relatively flexible substrates;1.1mm recommendation applies to usual rigid substrates with typical flatness.
+Product page lists polycarbonate compatibility:
+https://www.3m.com/3M/en_US/p/dc/v101026484/
+
+3M Tape Primer94, May2022, page2:
+https://multimedia.3m.com/mws/media/2369599O/3m-tape-primer-94-technical-data-sheet.pdf
+Porous surfaces may require two applications for uniform coverage. Dry the first coat before applying the second; allow each to dry completely before taping, typically5minutes at room temperature. Validate compatibility on the selected substrate.
+https://www.3m.com/3M/en_US/p/d/v000178626/
+
+Engineering process additions: PA12 bond landflatness≤0.20mm; dry and depowder; use two thin primer coats only on the PA12land, keep opticalPCfaces clean; coupon adhesion and splash testing qualify the actual porous MJF surface. Stock1mm PC acts as the compliant substrate. Receiving PCsheetthickness0.9..1.1mm is an engineering acceptance limit; RS states nominal1mm.

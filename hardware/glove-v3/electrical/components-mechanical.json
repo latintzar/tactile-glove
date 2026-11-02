@@ -1,0 +1,91 @@
+{
+  "status": "V3.2: screen-free, DRC-clean 90 \u00d7 60 mm PCB; connected manifold enclosure with integral strap carrier; physical fit checks remain.",
+  "carrier_target_mm": [
+    90,
+    60
+  ],
+  "components": [
+    {
+      "ref": "J_XIAO",
+      "envelope_mm": [
+        21,
+        17.8
+      ],
+      "source": "https://wiki.seeedstudio.com/XIAO_BLE/",
+      "status": "Official native PCB captured; carrier antenna keepout derived from CAD. Sense emitter and assembled USB fit require physical checks."
+    },
+    {
+      "ref": "J_IMU",
+      "source": "https://www.adafruit.com/product/4502",
+      "status": "Remote back-of-hand module; cable exits the rear case port. Verify actual module mounting and harness fit."
+    },
+    {
+      "ref": "J_THUMB",
+      "mpn": "BM06B-GHS-TBT(LF)(SN)",
+      "status": "Canonical routed PCB connector; verify mating harness and latch access on the assembled case."
+    },
+    {
+      "ref": "J_INDEX",
+      "mpn": "BM08B-GHS-TBT(LF)(SN)",
+      "status": "Canonical routed PCB connector; verify mating harness and latch access on the assembled case."
+    },
+    {
+      "ref": "J_PALM_HEEL",
+      "mpn": "BM14B-GHS-TBT(LF)(SN)",
+      "status": "Canonical routed PCB connector; verify mating harness and latch access on the assembled case."
+    }
+  ],
+  "open_items": [
+    "Actual Sense RGB emitter and USB plug fit",
+    "Mating harness bends, connector access and strain relief",
+    "Printed edge retention, nut seating, button travel and wrist comfort",
+    "First-article RF check with battery, enclosure and body present"
+  ],
+  "case_candidate_mm": [
+    102,
+    72,
+    23.8
+  ],
+  "pcb_origin_mm": [
+    6,
+    6,
+    12
+  ],
+  "integral_shell_and_carrier_bounds_mm": [
+    102,
+    78,
+    26.8
+  ],
+  "controls": {
+    "buttons": 1,
+    "button_centre_xy_mm": [
+      50,
+      62.5
+    ],
+    "indicator": "XIAO built-in RGB LED with 3 mm lightpipe",
+    "indicator_nominal_centre_xy_mm": [
+      90.9628,
+      61.0875
+    ],
+    "indicator_fit_status": "Verify actual Sense revision and emitter location/height; current coordinates derive from vendor nRF52840 V1.1 layout."
+  },
+  "fasteners": {
+    "quantity": 4,
+    "screw": "M2 x 25 mm; 25 mm measured under the head",
+    "washers_or_spacers": "None; head bears directly on lid at z23.8 mm",
+    "nut": "M2 hex nut, 4 mm across flats, thickness at most1.6 mm",
+    "nut_well_mm": {
+      "across_flats": 4.1,
+      "open_bottom_z": -3,
+      "bearing_ceiling_z": 1.75
+    },
+    "seated_nut_z_mm": [
+      0.15,
+      1.75
+    ],
+    "screw_tip_z_mm": -1.2,
+    "wrist_tip_recess_mm": 1.8,
+    "thread_beyond_nut_mm": 1.35,
+    "installation": "Insert nuts from underside hex wells; draw them upward to the bearing ceiling with the lid screws. Integral carrier stays attached to base."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "target compile passed",
+  "recorded_utc": "2026-10-23T08:32:16.271126+00:00",
+  "host": "rocoto-staging",
+  "project": "[original source path]/tactile_v4",
+  "idf_version": "5.4.2",
+  "command": "python [original source path]/idf.py -B [original source path]/build build",
+  "source_copy": "Current tactile_v4 source plus required tactile_v3 headers; agent verified representative local/remote file hashes.",
+  "artifacts": {
+    "artisan_tactile_v4.bin": "652a26cd36136baa3dbf7576ccf7df9b4ff92547a2caaa03dbf6543ac008fb1c",
+    "artisan_tactile_v4.elf": "959647e5b78c47d906b4370ac12cc59d1c582ec76728c51e9fd6b1bb736e505e"
+  },
+  "app_size_bytes": 1551600,
+  "partition_free_percent": 26,
+  "root_verification": "Remote artifact hashes and build-complete log independently reread after agent compile.",
+  "hardware_programmed": false,
+  "physical_validation": false,
+  "controls": "BLE, one button and RGB indicator; LCD-CAM references serve camera hardware, not a user screen."
+}

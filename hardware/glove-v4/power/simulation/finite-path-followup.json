@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-23",
+  "cases": [
+    {
+      "name": "buck_path_operating_4p2",
+      "attempt_directory": ".attempts/buck_path_operating_4p2-20261023T010718-f900f01b",
+      "analysis_complete": false,
+      "simulation_errors": [
+        "Waveform export is missing"
+      ],
+      "seconds": 600.047,
+      "simulator_returncode": 124,
+      "actual_native_end_s": null,
+      "expected_end_s": 0.0007,
+      "completion_marker": false,
+      "expected_step_s": 1.0000000000000001e-07,
+      "expected_columns": 18,
+      "deck_sha256": "831240281d4407eb28f685249877076bc01df329fe40bd553c1f8c8e24dbd5a8",
+      "executed_deck_sha256": "811b19158f41bf577a74d8fd54aa9f277e9d5183880b3f7419a32bb823c192eb",
+      "log_sha256": "12a0967c2f408864d7448b1d513bad26a149407d9982d6c05eb087abab85538d",
+      "waveform_sha256": null,
+      "waveform_validation": {
+        "valid": false,
+        "rows": 0,
+        "expected_rows": null,
+        "last_time_s": null,
+        "all_zero_tail_rows": 0,
+        "errors": [
+          "Waveform export is missing"
+        ]
+      },
+      "functional_regulation_pass": null,
+      "interpretation": "Incomplete native analysis; no physical pass/fail inferred."
+    },
+    {
+      "name": "buck_path_operating_3p7",
+      "attempt_directory": ".attempts/buck_path_operating_3p7-20261023T010718-3bdf2e26",
+      "analysis_complete": false,
+      "simulation_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.000157513, timestep = 1.25e-19: trouble with node \"v.xu.x_u1.v_v4#branch\"",
+        "tran simulation(s) aborted"
+      ],
+      "seconds": 58.165,
+      "simulator_returncode": 0,
+      "actual_native_end_s": 0.0001575135,
+      "expected_end_s": 0.0007,
+      "completion_marker": true,
+      "expected_step_s": 1.0000000000000001e-07,
+      "expected_columns": 18,
+      "deck_sha256": "363487049937143a71617da06deae73747013e912bd2d5089446f3365a433bf3",
+      "executed_deck_sha256": "ee7e8293066a8b41c43d1f525892be571959fa9095e066ab0bad747bef392f2c",
+      "log_sha256": "0d75e8b91f089ce696be82f9a48feabf4a09b8f817bf23aad5595d45bab740e4",
+      "waveform_sha256": "f22df52c1fd9f0fcb76787ad47fc81483b6a59b257afbc9452a0887afc12229f",
+      "waveform_validation": {
+        "valid": true,
+        "rows": 7001,
+        "expected_rows": 7001,
+        "last_time_s": 0.0007,
+        "all_zero_tail_rows": 0,
+        "errors": []
+      },
+      "functional_regulation_pass": null,
+      "interpretation": "Incomplete native analysis; no physical pass/fail inferred."
+    },
+    {
+      "name": "buck_path_operating_3p2",
+      "attempt_directory": ".attempts/buck_path_operating_3p2-20261023T010816-440cc12d",
+      "analysis_complete": true,
+      "simulation_errors": [],
+      "seconds": 3.498,
+      "simulator_returncode": 0,
+      "actual_native_end_s": 0.0007,
+      "expected_end_s": 0.0007,
+      "completion_marker": true,
+      "expected_step_s": 1.0000000000000001e-07,
+      "expected_columns": 18,
+      "deck_sha256": "fcd51738fed1f5c826b065d63ab46afd0603635a4e7d64575438596f74b10c7e",
+      "executed_deck_sha256": "63e2de5773d3b0e6de6e96e0e37520d437bf6bd263d5d6e4798c836d8a5ab516",
+      "log_sha256": "0547b26a581e8d14df4ef1f7978258f3232a0886e5da5de6be0097934e3d0048",
+      "waveform_sha256": "65d1a85073aa5ea395da8fae7f95735ce1d66f6bf6da88f769cfba8020936180",
+      "waveform_validation": {
+        "valid": true,
+        "rows": 7001,
+        "expected_rows": 7001,
+        "last_time_s": 0.0007,
+        "all_zero_tail_rows": 0,
+        "errors": []
+      },
+      "functional_regulation_pass": false,
+      "interpretation": "Native completion with EN low at cold3.2V source; precharged output discharges. Negative output caused by ideal current sink is outside physical load/model validity, not predicted hardware voltage."
+    },
+    {
+      "name": "buck_path_operating_3p7_klu",
+      "attempt_directory": ".attempts/buck_path_operating_3p7_klu-20261023T012515-0e119af6",
+      "analysis_complete": false,
+      "simulation_errors": [
+        "Waveform export is missing"
+      ],
+      "seconds": 180.01,
+      "simulator_returncode": 124,
+      "actual_native_end_s": null,
+      "expected_end_s": 0.0007,
+      "completion_marker": false,
+      "expected_step_s": 1.0000000000000001e-07,
+      "expected_columns": 18,
+      "deck_sha256": "7b89955429b2bc2fa12997727caaa2e825aa8401abd7843020780bb110d30a22",
+      "executed_deck_sha256": "ece398fc24c9f4d4dbb43b90d1e38c3c4c4af543c6ae5e6287359bb5b5d73e0e",
+      "log_sha256": "d5d72c9434532330d8cc42009356cb43e8b018eaa608ba2784300558cf98430f",
+      "waveform_sha256": null,
+      "waveform_validation": {
+        "valid": false,
+        "rows": 0,
+        "expected_rows": null,
+        "last_time_s": null,
+        "all_zero_tail_rows": 0,
+        "errors": [
+          "Waveform export is missing"
+        ]
+      },
+      "functional_regulation_pass": null,
+      "interpretation": "Incomplete native analysis; no physical pass/fail inferred."
+    },
+    {
+      "name": "buck_path_network_start_klu",
+      "attempt_directory": ".attempts/buck_path_network_start_klu-20261023T012515-85ff3daf",
+      "analysis_complete": false,
+      "simulation_errors": [
+        "doAnalyses: TRAN:  Timestep too small; time = 0.000158519, timestep = 1.25e-19: trouble with node \"xu.x_u3.isen_int\"",
+        "tran simulation(s) aborted"
+      ],
+      "seconds": 12.453,
+      "simulator_returncode": 0,
+      "actual_native_end_s": 0.0001585194,
+      "expected_end_s": 0.0009,
+      "completion_marker": true,
+      "expected_step_s": 1.0000000000000001e-07,
+      "expected_columns": 18,
+      "deck_sha256": "d05957a0e1f8bfa13373367a1a48bcaa303066f5becc14c0b9d09221ffa4720e",
+      "executed_deck_sha256": "34203fa02c7f5f999886c75e4fe67934bdfe30920594849e0cf4ea9b011ce413",
+      "log_sha256": "b75867a70060781d655856a40a5dc594f54c3489b08cfd9217260bae3f30b6bb",
+      "waveform_sha256": "59f109796d29fffacdf31acca2b5b80f5118e0cbf16fb832612dc2383a0995f8",
+      "waveform_validation": {
+        "valid": true,
+        "rows": 9001,
+        "expected_rows": 9001,
+        "last_time_s": 0.0009,
+        "all_zero_tail_rows": 0,
+        "errors": []
+      },
+      "functional_regulation_pass": null,
+      "interpretation": "Incomplete native analysis; no physical pass/fail inferred."
+    }
+  ],
+  "scope": "190mohm external battery allocation,actualENdivider,originalTI PSpice model in ngspice42; modelmathunchanged.",
+  "regulating_cases_with_verified_completion": 0,
+  "enable_threshold_source": "https://www.ti.com/lit/ds/symlink/tps63070.pdf",
+  "enable_rising_V": [
+    0.77,
+    0.8,
+    0.83
+  ],
+  "firmware_capture_restart_post_fuse_V": 3.55,
+  "limits": [
+    "Prebiased output does not initialize hysteresis as an already-running converter.",
+    "Cold3.2V source is below firmware restart threshold, not normal capture.",
+    "KLU changes numerical solver only; incomplete results do not validate converter behavior.",
+    "Pack internal impedance,charger control loop and production parasitics remain outside these decks."
+  ]
+}

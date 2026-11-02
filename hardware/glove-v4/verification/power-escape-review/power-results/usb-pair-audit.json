@@ -1,0 +1,420 @@
+{
+  "board_sha256": "973111f03d52a0288c53378c9ba5df2dc6b7ac896ce2e6f88557ab0d7846a84b",
+  "status": "engineering_geometry_audit",
+  "path_lengths": {
+    "A": {
+      "DP_geometric_length_mm": 20.194607902829325,
+      "DM_geometric_length_mm": 20.19460823272093,
+      "mismatch_mm": 3.298916055882728e-07
+    },
+    "B": {
+      "DP_geometric_length_mm": 19.194607902829325,
+      "DM_geometric_length_mm": 19.19460823272093,
+      "mismatch_mm": 3.298916055882728e-07
+    }
+  },
+  "path_method": "Shortest copper-centerline graph from each connector orientation to module USB pad centers, including 1.6 mm per traversed full-board via and equal 1.65 mm resistor pad-center distance. Pad-internal paths use Euclidean center-to-endpoint distances. Not extracted electrical delay.",
+  "series_resistor_to_module_tracks_mm": {
+    "MCU_USB_DP": 1.425,
+    "MCU_USB_DM": 1.4251403439661654
+  },
+  "main_pair": {
+    "signal_layer": "B.Cu",
+    "reference_layer": "In6 GND_BOTTOM",
+    "width_mm": 0.15,
+    "edge_gap_mm": 0.25,
+    "parallel_body_length_mm": 6,
+    "track_uuids": [
+      "a993039f-b6d0-4c8b-9edb-70c45d0c8e63",
+      "f39783da-4afe-40ab-9891-d5ecfb99a1e2"
+    ],
+    "reference_corridor_bbox_mm": [
+      94.083,
+      55.0,
+      94.81700000000001,
+      61.0
+    ],
+    "reference_uncovered_area_mm2": 0.0,
+    "continuous_reference_under_coupled_body": true
+  },
+  "transitions": [
+    {
+      "net": "MCU_USB_DM",
+      "xy_mm": [
+        97.075,
+        63.25
+      ],
+      "nearest_two_ground_vias": [
+        {
+          "distance_mm": 0.7999999999999972,
+          "xy_mm": [
+            96.275,
+            63.25
+          ]
+        },
+        {
+          "distance_mm": 1.331352695569436,
+          "xy_mm": [
+            96.325,
+            62.15
+          ]
+        }
+      ]
+    },
+    {
+      "net": "MCU_USB_DP",
+      "xy_mm": [
+        97.075,
+        62.0
+      ],
+      "nearest_two_ground_vias": [
+        {
+          "distance_mm": 0.7648529270389175,
+          "xy_mm": [
+            96.325,
+            62.15
+          ]
+        },
+        {
+          "distance_mm": 1.4840822079655815,
+          "xy_mm": [
+            96.275,
+            63.25
+          ]
+        }
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "xy_mm": [
+        91.3,
+        54.75
+      ],
+      "nearest_two_ground_vias": [
+        {
+          "distance_mm": 1.2747548783981937,
+          "xy_mm": [
+            90.75,
+            53.6
+          ]
+        },
+        {
+          "distance_mm": 2.3005444138292517,
+          "xy_mm": [
+            88.999999,
+            54.7
+          ]
+        }
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "xy_mm": [
+        91.3,
+        53.75
+      ],
+      "nearest_two_ground_vias": [
+        {
+          "distance_mm": 0.5700877125495659,
+          "xy_mm": [
+            90.75,
+            53.6
+          ]
+        },
+        {
+          "distance_mm": 2.4884743518873127,
+          "xy_mm": [
+            88.999999,
+            54.7
+          ]
+        }
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "xy_mm": [
+        92.73,
+        53.25
+      ],
+      "nearest_two_ground_vias": [
+        {
+          "distance_mm": 1.2816005617976334,
+          "xy_mm": [
+            93.93,
+            52.8
+          ]
+        },
+        {
+          "distance_mm": 1.989572818471341,
+          "xy_mm": [
+            94.45,
+            52.25
+          ]
+        }
+      ]
+    },
+    {
+      "net": "USB_DP",
+      "xy_mm": [
+        92.73,
+        54.25
+      ],
+      "nearest_two_ground_vias": [
+        {
+          "distance_mm": 1.8821530224718752,
+          "xy_mm": [
+            93.93,
+            52.8
+          ]
+        },
+        {
+          "distance_mm": 2.0839625716408667,
+          "xy_mm": [
+            90.75,
+            53.6
+          ]
+        }
+      ]
+    }
+  ],
+  "surface_reference_check": {
+    "excluded_usb_via_antipad_radius_mm": 0.5,
+    "segments": [
+      {
+        "net": "MCU_USB_DM",
+        "layer": "F.Cu",
+        "uuid": "7ba7ccf7-dbf6-44c4-ba09-70172572f941",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "MCU_USB_DP",
+        "layer": "F.Cu",
+        "uuid": "9d4ea078-b541-40e8-9863-86134f669116",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "uuid": "8a93d46b-c220-466c-8b07-99ad28d2a1a9",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "F.Cu",
+        "uuid": "9114fd6b-7927-4eb2-a421-d6eee4819843",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "03e2b9b0-28c6-4196-be56-ba8ac85e0376",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "39fd088d-dfd7-4b71-b752-a64ae555b068",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "74de4219-e72b-4eae-b273-4bb04e7e929d",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "8bbfd823-3dcd-48c0-8f3f-42cec27ee2c6",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "f39783da-4afe-40ab-9891-d5ecfb99a1e2",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "feb76a46-44ce-4735-8541-cd51739c37cc",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DM",
+        "layer": "B.Cu",
+        "uuid": "fff6e115-eb92-451c-8502-574145f4de4b",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "uuid": "03c74642-ef10-422d-9478-246757d41a65",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "F.Cu",
+        "uuid": "521f7e29-419a-4601-8a86-dc4d059437ea",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "1f6326e8-240e-4645-94d7-16edc71ec864",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "28872d90-93a8-433d-88f0-c7af1008bf59",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "2b4bc47e-2cb7-4d8a-8027-c4f85cd8aa66",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "6bcc1548-84f6-400e-b171-e14af3fdf659",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "a3dd44b5-5a55-481b-909f-60845dafd734",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "a993039f-b6d0-4c8b-9edb-70c45d0c8e63",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "b59f010d-d643-4d08-9c4d-39b84fc03b77",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "b93b48b4-a210-4fe2-88e7-f02c8a774adc",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "ba7be08c-035a-4cd4-bb74-d59c58773208",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "bd851618-a149-42e3-bc0a-8db96b9b514f",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "c81c32f3-06ca-4f53-a3fe-39363949dc8e",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "d9d92e98-1720-4931-a537-dd9825240afc",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "ee93dadc-8713-4508-a891-bd34e243ce2b",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      },
+      {
+        "net": "USB_DP",
+        "layer": "B.Cu",
+        "uuid": "f555feae-8b51-4bd5-b17e-b39ac1b638a9",
+        "uncovered_area_mm2": 0.0,
+        "uncovered_bbox_mm": null
+      }
+    ],
+    "total_uncovered_area_mm2": 0.0
+  },
+  "first_order_microstrip_estimate": {
+    "equation_source": "https://www.ti.com/lit/an/slva531a/slva531a.pdf#page=15",
+    "stackup": "JLC081611-3313",
+    "w_mm": 0.15,
+    "s_mm": 0.25,
+    "h_mm": 0.092,
+    "copper_mm": 0.035,
+    "er": 4.1,
+    "nominal_differential_ohm": 90.58350175906443,
+    "target_ohm": 90,
+    "target_tolerance_percent": 10,
+    "assumed_corner_range_ohm": [
+      79.8017632048359,
+      103.14634213240383
+    ],
+    "corner_assumptions": {
+      "width_mm": [
+        0.14,
+        0.16
+      ],
+      "gap_mm": [
+        0.24,
+        0.26
+      ],
+      "dielectric_mm": [
+        0.0874,
+        0.0966
+      ],
+      "copper_mm": [
+        0.028,
+        0.04
+      ],
+      "er": [
+        3.9,
+        4.3
+      ]
+    }
+  },
+  "layout_source": "https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html#usb",
+  "limitations": [
+    "Solder mask, trapezoidal etch, pads, ESD package, resistor discontinuities and via parasitics are not included in the closed-form estimate.",
+    "Connector and ESD fanouts are uncoupled local discontinuities; six millimetres is the constant-gap body, not a claim of uniform impedance over every pad.",
+    "The supplier must confirm 90 ohm +/-10% using its actual stack, controlled-impedance process and coupon; this calculation is a nominal geometry target.",
+    "USB eye/compliance, powered enumeration and radiated immunity require fabricated hardware."
+  ]
+}

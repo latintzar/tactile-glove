@@ -1,0 +1,387 @@
+{
+  "checks": [
+    {
+      "name": "CUFF exact MPN",
+      "pass_": true,
+      "actual": "ISM330DHCXTR",
+      "expected": "ISM330DHCXTR"
+    },
+    {
+      "name": "CUFF complete physical pin numbering",
+      "pass_": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "CUFF mode1 CS",
+      "pass_": true,
+      "actual": "3V3_SYS",
+      "expected": "3V3_SYS"
+    },
+    {
+      "name": "CUFF address strap",
+      "pass_": true,
+      "actual": "GND",
+      "expected": "GND"
+    },
+    {
+      "name": "CUFF supplies",
+      "pass_": true,
+      "actual": [
+        "3V3_SYS",
+        "3V3_SYS"
+      ],
+      "expected": [
+        "3V3_SYS",
+        "3V3_SYS"
+      ]
+    },
+    {
+      "name": "CUFF grounds",
+      "pass_": true,
+      "actual": [
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ],
+      "expected": [
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "name": "CUFF unused auxiliary ports",
+      "pass_": true,
+      "actual": [
+        "NC",
+        "NC"
+      ],
+      "expected": [
+        "NC",
+        "NC"
+      ]
+    },
+    {
+      "name": "CUFF local decouplers",
+      "pass_": true,
+      "actual": [
+        "GRM188R71C104KA01D",
+        "GRM188R71C104KA01D"
+      ],
+      "expected": [
+        "GRM188R71C104KA01D",
+        "GRM188R71C104KA01D"
+      ]
+    },
+    {
+      "name": "HAND exact MPN",
+      "pass_": true,
+      "actual": "ISM330DHCXTR",
+      "expected": "ISM330DHCXTR"
+    },
+    {
+      "name": "HAND complete physical pin numbering",
+      "pass_": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "HAND mode1 CS",
+      "pass_": true,
+      "actual": "3V3_SYS",
+      "expected": "3V3_SYS"
+    },
+    {
+      "name": "HAND address strap",
+      "pass_": true,
+      "actual": "3V3_SYS",
+      "expected": "3V3_SYS"
+    },
+    {
+      "name": "HAND supplies",
+      "pass_": true,
+      "actual": [
+        "3V3_SYS",
+        "3V3_SYS"
+      ],
+      "expected": [
+        "3V3_SYS",
+        "3V3_SYS"
+      ]
+    },
+    {
+      "name": "HAND grounds",
+      "pass_": true,
+      "actual": [
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ],
+      "expected": [
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ]
+    },
+    {
+      "name": "HAND unused auxiliary ports",
+      "pass_": true,
+      "actual": [
+        "NC",
+        "NC"
+      ],
+      "expected": [
+        "NC",
+        "NC"
+      ]
+    },
+    {
+      "name": "HAND local decouplers",
+      "pass_": true,
+      "actual": [
+        "GRM188R71C104KA01D",
+        "GRM188R71C104KA01D"
+      ],
+      "expected": [
+        "GRM188R71C104KA01D",
+        "GRM188R71C104KA01D"
+      ]
+    },
+    {
+      "name": "J_IMU_CUFF keyed pin order",
+      "pass_": true,
+      "actual": {
+        "1": "GND",
+        "2": "3V3_SYS",
+        "3": "I2C_SDA",
+        "4": "I2C_SCL"
+      },
+      "expected": {
+        "1": "GND",
+        "2": "3V3_SYS",
+        "3": "I2C_SDA",
+        "4": "I2C_SCL"
+      }
+    },
+    {
+      "name": "J_IMU_HAND keyed pin order",
+      "pass_": true,
+      "actual": {
+        "1": "GND",
+        "2": "3V3_SYS",
+        "3": "I2C_SDA",
+        "4": "I2C_SCL"
+      },
+      "expected": {
+        "1": "GND",
+        "2": "3V3_SYS",
+        "3": "I2C_SDA",
+        "4": "I2C_SCL"
+      }
+    },
+    {
+      "name": "distinct device addresses",
+      "pass_": true,
+      "actual": [
+        106,
+        107
+      ],
+      "expected": [
+        106,
+        107
+      ]
+    },
+    {
+      "name": "no hand bus pullups",
+      "pass_": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "name": "FS4 acceleration scaling",
+      "pass_": true,
+      "actual": 0.122,
+      "expected": 0.122
+    },
+    {
+      "name": "FS1000 gyro scaling",
+      "pass_": true,
+      "actual": 35,
+      "expected": 35
+    },
+    {
+      "name": "uncompressed FIFO record capacity",
+      "pass_": true,
+      "actual": 512,
+      "expected": 512
+    },
+    {
+      "name": "wire byte capacity includes tags",
+      "pass_": true,
+      "actual": 3584,
+      "expected": 3584
+    },
+    {
+      "name": "400kHz rise time below300ns",
+      "pass_": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "FIFO polling1/10 of fill time",
+      "pass_": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "I2C occupancy below75percent",
+      "pass_": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "footprint14pins",
+      "pass_": true,
+      "actual": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "name": "pin1 correct quadrant",
+      "pass_": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "left pins0.5mm pitch",
+      "pass_": true,
+      "actual": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "expected": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "name": "top pins0.5mm pitch",
+      "pass_": true,
+      "actual": [
+        0.5,
+        0.5
+      ],
+      "expected": [
+        0.5,
+        0.5
+      ]
+    }
+  ],
+  "passed": 31,
+  "failed": 0,
+  "computed": {
+    "worst_pullup_rise_ns": 282.40509000000003,
+    "two_imu_payload_bytes_s": 24781.75,
+    "i2c_occupancy_fraction": 0.637089375,
+    "fifo_fill_time_s_each": 0.28924510980862933,
+    "minimum_accel_quantization_m_s2": 0.0011964113
+  },
+  "source_sha256": "f66be23e192d18fcc5dda128dafb4af10acebeca59a86882dd36d673e464d1da",
+  "scope": "Checks pin mappings, bus arithmetic and footprint lands. Capacitance and timing allocations become final-layout verification constraints; these checks do not measure position accuracy."
+}

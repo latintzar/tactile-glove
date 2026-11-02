@@ -1,0 +1,161 @@
+{
+  "parts": [
+    {
+      "ref": "U_IMU_HAND",
+      "mpn": "ISM330DHCXTR",
+      "qty": 1,
+      "footprint": "GloveV4:ST_ISM330DHCX_LGA14_0.35mm",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND",
+        "3": "GND",
+        "4": "NC",
+        "5": "3V3_SYS",
+        "6": "GND",
+        "7": "GND",
+        "8": "3V3_SYS",
+        "9": "NC",
+        "10": "NC",
+        "11": "NC",
+        "12": "3V3_SYS",
+        "13": "HAND_I2C_SCL",
+        "14": "HAND_I2C_SDA"
+      },
+      "purpose": "Six-axis mode1 I2C, address 0x6b",
+      "assembly": "hand-tile",
+      "source": "https://www.st.com/resource/en/datasheet/ism330dhcx.pdf"
+    },
+    {
+      "ref": "C_IMU_HAND_VDD",
+      "mpn": "GRM188R71C104KA01D",
+      "qty": 1,
+      "footprint": "GloveV4:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "100nF16V X7R at IMU supply pin",
+      "assembly": "hand-tile",
+      "source": "https://www.murata.com/en-us/products/capacitor/mlcc"
+    },
+    {
+      "ref": "C_IMU_HAND_IO",
+      "mpn": "GRM188R71C104KA01D",
+      "qty": 1,
+      "footprint": "GloveV4:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "100nF16V X7R at IMU supply pin",
+      "assembly": "hand-tile",
+      "source": "https://www.murata.com/en-us/products/capacitor/mlcc"
+    },
+    {
+      "ref": "C_IMU_HAND_BULK",
+      "mpn": "GRM188R61A475KE15D",
+      "qty": 1,
+      "footprint": "GloveV4:C_0603_1608Metric",
+      "pins": {
+        "1": "3V3_SYS",
+        "2": "GND"
+      },
+      "purpose": "4.7uF 10V X5R local reservoir",
+      "assembly": "hand-tile",
+      "source": "https://www.murata.com/en-us/products/capacitor/mlcc"
+    },
+    {
+      "ref": "J_IMU_HAND",
+      "mpn": "SM04B-SRSS-TB(LF)(SN)",
+      "qty": 1,
+      "footprint": "GloveV4:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal",
+      "pins": {
+        "1": "GND",
+        "2": "3V3_SYS",
+        "3": "I2C_SDA",
+        "4": "I2C_SCL"
+      },
+      "purpose": "Keyed 4-wire power and I2C, QT/Qwiic pin order",
+      "assembly": "hand-tile",
+      "source": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+    },
+    {
+      "ref": "R_IMU_HAND_SDA",
+      "mpn": "RC0603FR-0722RL",
+      "qty": 1,
+      "footprint": "GloveV4:R_0603_1608Metric",
+      "pins": {
+        "1": "I2C_SDA",
+        "2": "HAND_I2C_SDA"
+      },
+      "purpose": "22ohm series damping at hand tile connector",
+      "assembly": "hand-tile",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    },
+    {
+      "ref": "R_IMU_HAND_SCL",
+      "mpn": "RC0603FR-0722RL",
+      "qty": 1,
+      "footprint": "GloveV4:R_0603_1608Metric",
+      "pins": {
+        "1": "I2C_SCL",
+        "2": "HAND_I2C_SCL"
+      },
+      "purpose": "22ohm series damping at hand tile connector",
+      "assembly": "hand-tile",
+      "source": "https://www.yageo.com/en/Chart/Download/pdf/RC0603"
+    }
+  ],
+  "reference_map": {
+    "U_IMU_HAND": "U1",
+    "C_IMU_HAND_VDD": "C1",
+    "C_IMU_HAND_IO": "C2",
+    "C_IMU_HAND_BULK": "C3",
+    "J_IMU_HAND": "J1",
+    "R_IMU_HAND_SDA": "R1",
+    "R_IMU_HAND_SCL": "R2"
+  },
+  "placements": {
+    "U_IMU_HAND": [
+      8,
+      3,
+      0
+    ],
+    "C_IMU_HAND_VDD": [
+      11.25,
+      3.75,
+      0
+    ],
+    "C_IMU_HAND_IO": [
+      7.5,
+      6,
+      270
+    ],
+    "C_IMU_HAND_BULK": [
+      13,
+      7.5,
+      0
+    ],
+    "J_IMU_HAND": [
+      8,
+      12,
+      0
+    ],
+    "R_IMU_HAND_SDA": [
+      3.5,
+      4.5,
+      270
+    ],
+    "R_IMU_HAND_SCL": [
+      11.8,
+      5.5,
+      0
+    ]
+  },
+  "board_mm": [
+    16,
+    16,
+    0.8
+  ],
+  "wire_harness": "Adafruit4210 100mm JSTSH4pin"
+}

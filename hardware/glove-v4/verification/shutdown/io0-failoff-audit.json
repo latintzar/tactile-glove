@@ -1,0 +1,325 @@
+{
+  "source": "hardware/glove-v4/electrical/components.json",
+  "component_count": 561,
+  "u_io0": {
+    "ref": "U_IO0",
+    "qty": 1,
+    "mpn": "TCA9535PWR",
+    "footprint": "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm",
+    "pins": {
+      "1": "NC",
+      "2": "GND",
+      "3": "GND",
+      "12": "GND",
+      "21": "GND",
+      "22": "I2C_SCL",
+      "23": "I2C_SDA",
+      "24": "3V3_SYS",
+      "4": "CAM_IO_EN",
+      "5": "CAM_AV_EN",
+      "6": "CAM_DV_EN",
+      "7": "CAM_IF_EN",
+      "8": "MCU_CAM_RESET_N",
+      "9": "MCU_CAM_PWDN",
+      "10": "LED_R_N",
+      "11": "LED_G_N",
+      "13": "LED_B_N",
+      "14": "BAT_DIV_EN",
+      "15": "REG_PFM",
+      "16": "USB_CONFIG_SET",
+      "17": "USB_CONFIG_CLR_N",
+      "18": "USB_SUSPEND",
+      "19": "CHG_DISABLE",
+      "20": "SD_EN"
+    },
+    "purpose": "I2C0x20control/status",
+    "source": "https://www.ti.com/lit/ds/symlink/tca9535.pdf",
+    "subsystem": "power",
+    "designator": "U52"
+  },
+  "outputs": [
+    {
+      "port": "P00",
+      "net": "CAM_IO_EN",
+      "external_resistors": [
+        {
+          "ref": "R_CAM_IO_EN",
+          "mpn": "RC0603FR-07100KL",
+          "value": null,
+          "pins": {
+            "1": "CAM_IO_EN",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P01",
+      "net": "CAM_AV_EN",
+      "external_resistors": [
+        {
+          "ref": "R_CAM_AV_EN",
+          "mpn": "RC0603FR-07100KL",
+          "value": null,
+          "pins": {
+            "1": "CAM_AV_EN",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P02",
+      "net": "CAM_DV_EN",
+      "external_resistors": [
+        {
+          "ref": "R_CAM_DV_EN",
+          "mpn": "RC0603FR-07100KL",
+          "value": null,
+          "pins": {
+            "1": "CAM_DV_EN",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P03",
+      "net": "CAM_IF_EN",
+      "external_resistors": [
+        {
+          "ref": "R_CAM_IF",
+          "mpn": "RC0603FR-07100KL",
+          "value": null,
+          "pins": {
+            "1": "CAM_IF_EN",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P04",
+      "net": "MCU_CAM_RESET_N",
+      "external_resistors": [
+        {
+          "ref": "R_CAM_MCU_RESET",
+          "mpn": "RC0603FR-07100KL",
+          "value": null,
+          "pins": {
+            "1": "MCU_CAM_RESET_N",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P05",
+      "net": "MCU_CAM_PWDN",
+      "external_resistors": [
+        {
+          "ref": "R_CAM_MCU_PWDN",
+          "mpn": "RC0603FR-0747KL",
+          "value": null,
+          "pins": {
+            "1": "3V3_SYS",
+            "2": "MCU_CAM_PWDN"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P06",
+      "net": "LED_R_N",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_LED_R_N",
+          "mpn": "RC0603FR-0747KL",
+          "value": "47k",
+          "pins": {
+            "1": "LED_R_N",
+            "2": "3V3_SYS"
+          }
+        },
+        {
+          "ref": "R_LED_R",
+          "mpn": "RC0603FR-071KL",
+          "value": "1k",
+          "pins": {
+            "1": "LED_R_K",
+            "2": "LED_R_N"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P07",
+      "net": "LED_G_N",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_LED_G_N",
+          "mpn": "RC0603FR-0747KL",
+          "value": "47k",
+          "pins": {
+            "1": "LED_G_N",
+            "2": "3V3_SYS"
+          }
+        },
+        {
+          "ref": "R_LED_G",
+          "mpn": "RC0603FR-07680RL",
+          "value": "680",
+          "pins": {
+            "1": "LED_G_K",
+            "2": "LED_G_N"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P10",
+      "net": "LED_B_N",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_LED_B_N",
+          "mpn": "RC0603FR-0747KL",
+          "value": "47k",
+          "pins": {
+            "1": "LED_B_N",
+            "2": "3V3_SYS"
+          }
+        },
+        {
+          "ref": "R_LED_B",
+          "mpn": "RC0603FR-07680RL",
+          "value": "680",
+          "pins": {
+            "1": "LED_B_K",
+            "2": "LED_B_N"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P11",
+      "net": "BAT_DIV_EN",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_BAT_DIV_EN",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "BAT_DIV_EN",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P12",
+      "net": "REG_PFM",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_REG_PFM",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "REG_PFM",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P13",
+      "net": "USB_CONFIG_SET",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_USB_CONFIG_SET",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "USB_CONFIG_SET",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P14",
+      "net": "USB_CONFIG_CLR_N",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_USB_CONFIG_CLR_N",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "USB_CONFIG_CLR_N",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P15",
+      "net": "USB_SUSPEND",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_USB_SUSPEND",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "USB_SUSPEND",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P16",
+      "net": "CHG_DISABLE",
+      "external_resistors": [
+        {
+          "ref": "R_DEFAULT_CHG_DISABLE",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "CHG_DISABLE",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    },
+    {
+      "port": "P17",
+      "net": "SD_EN",
+      "external_resistors": [
+        {
+          "ref": "R_SD_EN",
+          "mpn": "RC0603FR-07100KL",
+          "value": "100k",
+          "pins": {
+            "1": "SD_EN",
+            "2": "GND"
+          }
+        }
+      ],
+      "status": "defined"
+    }
+  ]
+}

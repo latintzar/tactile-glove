@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "candidate_id": "unselected",
+  "gates": {
+    "capability_parity": {
+      "status": "open",
+      "evidence": []
+    },
+    "schematic_and_pin_mapping": {
+      "status": "open",
+      "evidence": []
+    },
+    "routing_and_fabrication": {
+      "status": "open",
+      "evidence": []
+    },
+    "analog_signal_and_crosstalk": {
+      "status": "open",
+      "evidence": []
+    },
+    "power_faults_and_usb": {
+      "status": "open",
+      "evidence": []
+    },
+    "firmware_and_transport": {
+      "status": "open",
+      "evidence": []
+    },
+    "concurrent_acquisition_timing": {
+      "status": "open",
+      "evidence": []
+    },
+    "six_hour_runtime_and_thermal": {
+      "status": "open",
+      "evidence": []
+    },
+    "mechanical_fit_and_assembly": {
+      "status": "open",
+      "evidence": []
+    },
+    "sensor_harness_and_glove_feel": {
+      "status": "open",
+      "evidence": []
+    },
+    "sourcing_and_complete_landed_quote": {
+      "status": "open",
+      "evidence": []
+    },
+    "physical_first_article_acceptance": {
+      "status": "open",
+      "evidence": []
+    }
+  }
+}

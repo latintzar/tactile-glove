@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "GloveV4")(type "KiCad")(uri "${KIPRJMOD}/../footprints")(options "")(descr "Exact pinned and documented adapted part geometry")))

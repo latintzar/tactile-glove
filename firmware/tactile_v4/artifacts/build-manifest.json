@@ -1,0 +1,126 @@
+{
+  "status": "target compile pass; hardware validation pending",
+  "created_utc": "2026-10-23T02:51:35.211465+00:00",
+  "hardware_programmed": false,
+  "idf_version": "5.4.2",
+  "idf_commit": "f5c3654a1c2d2a01f7f67def7a0dc48e691f63c0",
+  "compiler": "xtensa-esp-elf-gcc (crosstool-NG esp-14.2.0_20241119) 14.2.0",
+  "cmake": "cmake version 3.30.5",
+  "ninja": "1.13.2.git.kitware.jobserver-pipe-1",
+  "source_set_sha256": "003f11f9ef76c3ce6d0c3f3e56038cde223ecb816d74f14955ab3b2c9135150b",
+  "sources": {
+    "firmware/tactile_v4/CMakeLists.txt": "46b8c228b87b352f6c2054df8bf97b8eab27ad3e193f9a11bb39bfc304d777fb",
+    "firmware/tactile_v4/sdkconfig.defaults": "71402bc10be55c0ecbfa9a5c60b55bb5b0c3412a3ae1cffcc5a21cbd8db5a760",
+    "firmware/tactile_v4/partitions.csv": "080d5fdb6ddfa44f1614a029cc62aa420950b92168482e7767e1bb0e7e94e08e",
+    "firmware/tactile_v4/main/CMakeLists.txt": "893a019c61ea2e50a81a2f875baf246f374ca09b90fc610bae4066bc060da7d6",
+    "firmware/tactile_v4/main/app.cpp": "eaac020ff59ab62ed4c94cfcd2aa0533043ec62995b6c6d031572a3b8ec558f7",
+    "firmware/tactile_v4/main/app.hpp": "e6e8fcc936f8b323b089e612c9b95b8490bb3c01fc42690342c3109c31fa9008",
+    "firmware/tactile_v4/main/ble.cpp": "f29e3475d56c95ecc92ec3558663c10e8060a51276e2311274d9a447e3f4c89b",
+    "firmware/tactile_v4/main/core.hpp": "d3e056a8a17b7751de1e2c07394c0940a246429edf2ecdc70391b34f6da6939f",
+    "firmware/tactile_v4/main/hardware.hpp": "2103381e85c1c2a3fd858c0cfc5ec77dd9da4d78bf11cc684fb76eda61348a3c",
+    "firmware/tactile_v4/main/http.cpp": "12ec2e77684ae670633261896ad6f8296c698361f60ae73af224b2e04cfc681a",
+    "firmware/tactile_v4/main/http.hpp": "02b10ccb1c168adf144e5d91c78dbb693048326e897c34d46fca37b97481f547",
+    "firmware/tactile_v4/main/idf_component.yml": "d2836fced93fe33f81b53438c1e2d5d2f2bb395084f1a4b8e7a06c2ec3623a14",
+    "firmware/tactile_v4/main/packet.hpp": "280ac552440ed42df30b6d1bb14ceb7d02a54950c95ec202d411d4fd552dd1b9",
+    "firmware/tactile_v4/main/shutdown.hpp": "2e4a9ab470c75e78574ec528ba4665a69a72aefb264097e8ad941943ca05c96c",
+    "firmware/tactile_v4/main/storage.cpp": "49be4fd62583ae8407717121c4d55fe1e2ce41a279702646c73d2b4ed0fc15d1",
+    "firmware/tactile_v4/main/storage.hpp": "4ecb9a20b544911567172c585a92da9681c294343ecb06b0ebf34bdf87c91352",
+    "firmware/tactile_v4/main/usb.cpp": "7e3fe8551ab2ec251233591904adb2fa423d25fa15492205dd5c2ff794b2ae5d",
+    "firmware/tactile_v4/main/video_frame.hpp": "f95df95d23c5d092a1087a0753cf157496801dd3f5347779fa0180447185e1c8",
+    "firmware/tactile_v4/main/web/manifest.json": "ed612b07776cb47108157540a1cf5731ecbf6c49350969f930bcdb9ffb2ea538",
+    "firmware/tactile_v4/main/web/web_assets.cpp": "a638d5aa471115ff4ff20532be8a7a5e4268fb8f362b1be5f1e890866b4a5c82",
+    "firmware/tactile_v4/main/web/web_assets.hpp": "307b8e9b291a25ef0ed7d387bc0d52b93ed9eaa02f18c7478b79b4cf03acf797",
+    "firmware/tactile_v4/camera_override/apply.cmake": "43963384f25943940967878af569ef5b23fa97935e1eee068299f4e3ee0913aa",
+    "firmware/tactile_v4/camera_override/driver/cam_hal.c": "3fc32b6c49ec15a0b9d9cd71ff1fce2e589f888cca2fddd4fb2b055554959836",
+    "firmware/tactile_v4/camera_override/driver/esp_camera.c": "d8b3648076f5677ec69c2befbc7af34b31681a26df45838da47779f241dd69c2",
+    "firmware/tactile_v4/camera_override/prepare_override.py": "1fc311293187107f67165b294562b42c7e51de3b4eda358a06fdd60f4b20c7e4",
+    "firmware/tactile_v4/camera_override/tests/test_cam_take.py": "915b2bff9b4323f777814834bb42287967ed74c7f8cacc4d2205242348a371ab",
+    "firmware/tactile_v3/tactile_v3_protocol.h": "429449991e88a23eb4f430a256ea5252596b000acfd0ea5e778b284e8c6e1e60",
+    "firmware/tactile_v3/button_control.h": "db0f0b6fcc1b701d78c16719b2dd6fa8fde2c76e292b8cdcd2f7bf174fe35765"
+  },
+  "artifacts": {
+    "artisan_tactile_v4.bin": {
+      "sha256": "390026c7ebc8eb2b1aec5cadbd02652bd1f3273a8d3cc6a780a2df591511fbbe",
+      "bytes": 1551600,
+      "uncompressed_sha256": "390026c7ebc8eb2b1aec5cadbd02652bd1f3273a8d3cc6a780a2df591511fbbe",
+      "uncompressed_bytes": 1551600
+    },
+    "bootloader.bin": {
+      "sha256": "cb21c1e185f6adc71698799d6c7b183c1021f72caabb98aa4b647d3203648694",
+      "bytes": 20752,
+      "uncompressed_sha256": "cb21c1e185f6adc71698799d6c7b183c1021f72caabb98aa4b647d3203648694",
+      "uncompressed_bytes": 20752
+    },
+    "partition-table.bin": {
+      "sha256": "5e71c3c890e04714daa03b21a0d23953a2dadf9fdf15eec02b886f7b6e9f8c81",
+      "bytes": 3072,
+      "uncompressed_sha256": "5e71c3c890e04714daa03b21a0d23953a2dadf9fdf15eec02b886f7b6e9f8c81",
+      "uncompressed_bytes": 3072
+    },
+    "flasher_args.json": {
+      "sha256": "350d85a58651ad996e8d4f7c2322c293b7fdefcc559c7d92f4e3300e55749234",
+      "bytes": 927,
+      "uncompressed_sha256": "350d85a58651ad996e8d4f7c2322c293b7fdefcc559c7d92f4e3300e55749234",
+      "uncompressed_bytes": 927
+    },
+    "sdkconfig": {
+      "sha256": "acbc07ccf71a282eb57399b4822f6581531290a2480b017111643abcbf45999e",
+      "bytes": 85266,
+      "uncompressed_sha256": "acbc07ccf71a282eb57399b4822f6581531290a2480b017111643abcbf45999e",
+      "uncompressed_bytes": 85266
+    },
+    "dependencies.lock": {
+      "sha256": "b0f5c0d75a0b15091b8444371ede4a4c81afaf949cf1bd28c8d3da1c53e4e020",
+      "bytes": 1712,
+      "uncompressed_sha256": "b0f5c0d75a0b15091b8444371ede4a4c81afaf949cf1bd28c8d3da1c53e4e020",
+      "uncompressed_bytes": 1712
+    },
+    "target-build.log.gz": {
+      "sha256": "884fdaf4af155bdc23bd94a67373e05b9a7e4160d3734abe265e228009ff6cb2",
+      "bytes": 757,
+      "uncompressed_sha256": "156752a27901e605c9608b1ecec9a04df77468d7a8985174db3ac209061a1b0c",
+      "uncompressed_bytes": 2082
+    },
+    "artisan_tactile_v4.map.gz": {
+      "sha256": "d823135cfbdf30510325eec731053a708edd3a51a98c87cee666ff2b58ec028f",
+      "bytes": 761048,
+      "uncompressed_sha256": "9c2103ea6e2cc051a8c1471c61b7866d7c519eff53bc6c4587c739d4fdae28bd",
+      "uncompressed_bytes": 10532376
+    },
+    "artisan_tactile_v4.elf.gz": {
+      "sha256": "87d767b3f8b10928bd09e74e883812d621128e0fa9e3e454d1184e57eba35cd3",
+      "bytes": 5530076,
+      "uncompressed_sha256": "4e0cc9e659e2b4c5a881a821402396f9731171a18692c3d4036c6018c4c57a78",
+      "uncompressed_bytes": 14859208
+    },
+    "camera-override-manifest.json": {
+      "sha256": "fafc978f86eb9c21fb331134067c8ecf7f2f0f9c6917cc7368ff12be8641285d",
+      "bytes": 925,
+      "uncompressed_sha256": "fafc978f86eb9c21fb331134067c8ecf7f2f0f9c6917cc7368ff12be8641285d",
+      "uncompressed_bytes": 925
+    },
+    "factory-flasher-args.json": {
+      "sha256": "a87c455095f1a91bb2d9718d2b40ee7d403cca1b255a90a8abf841064f9e5ec5",
+      "bytes": 799,
+      "uncompressed_sha256": "a87c455095f1a91bb2d9718d2b40ee7d403cca1b255a90a8abf841064f9e5ec5",
+      "uncompressed_bytes": 799
+    },
+    "flash.args": {
+      "sha256": "35f227fff6534d8936dcea17e922c1965973aee7b2f0dbbafe63506df027ae9b",
+      "bytes": 128,
+      "uncompressed_sha256": "35f227fff6534d8936dcea17e922c1965973aee7b2f0dbbafe63506df027ae9b",
+      "uncompressed_bytes": 128
+    },
+    "SHA256SUMS": {
+      "sha256": "4f04d3b5fb07afd986ad67c3be1c74636700e77d792c19c0981eaa4a69894cbf",
+      "bytes": 256,
+      "uncompressed_sha256": "4f04d3b5fb07afd986ad67c3be1c74636700e77d792c19c0981eaa4a69894cbf",
+      "uncompressed_bytes": 256
+    }
+  },
+  "limits": [
+    "No physical radio/ADC/camera/SD timing measurement",
+    "Native tests do not execute ESP-IDF hardware drivers",
+    "Six-hour endurance and thermal behavior remain unmeasured"
+  ]
+}

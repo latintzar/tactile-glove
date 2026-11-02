@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+managed_components/
+*.kicad_prl
+*.lck
+hardware/glove-v4/enclosure/sources/*.pdf
+hardware/glove-v4/**/vendor/

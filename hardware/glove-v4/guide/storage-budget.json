@@ -1,0 +1,24 @@
+{
+  "status": "capacity planning; physical recording measurements pending",
+  "source": "Actual firmware core4000-scan stream",
+  "source_sha256": "12dfcce67f1eda379932745ac26b747976c2af8bf9b5a3d1380c822ff7598331",
+  "scan_packet_bytes": 116,
+  "scans_per_second": 4000,
+  "scan_only_bytes_per_second": 464000,
+  "scan_only_six_hour_bytes": 10022400000,
+  "scan_only_24hour_bytes": 40089600000,
+  "nominal_card_bytes": 32000000000,
+  "free_reserve_fraction": 0.1,
+  "optimistic_max_jpeg_bytes_at10fps_for6h": 86901.33333333333,
+  "optimistic_ceiling_excludes": [
+    "IMU FIFO",
+    "features",
+    "selected raw",
+    "health/labels/status",
+    "filesystem allocation"
+  ],
+  "measured_card_free_bytes": null,
+  "measured_total_bytes_per_second": null,
+  "six_hour_capacity_verified": false,
+  "24hour_fit_on32GB": false
+}

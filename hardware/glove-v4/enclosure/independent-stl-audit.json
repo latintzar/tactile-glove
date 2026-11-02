@@ -1,0 +1,736 @@
+{
+  "pass": true,
+  "manufacturing_released": false,
+  "checked_actual_STL_files": 48,
+  "manufactured_pair_checks": 861,
+  "main_component_checks": 23562,
+  "harness_service_checks": 7313,
+  "analytic_wire_route_checks": 294,
+  "factory_extension_worst_reach_margin_mm": 3.5755521613046,
+  "nut_insertion_and_driver_checks": 2566,
+  "first_article_fabrication_ready": false,
+  "nominal_contact_tolerance_mm": 0.03,
+  "assembly_contact_graph": {
+    "clusters": [
+      [
+        "J_CAM",
+        "battery-envelope.stl",
+        "battery-foam-pad-1.stl",
+        "battery-foam-pad-2.stl",
+        "battery-ntc-envelope.stl",
+        "battery-retaining-belt.stl",
+        "button-floating-tip.stl",
+        "button-plunger-cap.stl",
+        "button-plunger.stl",
+        "button-silicone-diaphragm.stl",
+        "cable-grommet-1-blanking-plug.stl",
+        "cable-grommet-1.stl",
+        "cable-grommet-2-blanking-plug.stl",
+        "cable-grommet-2.stl",
+        "cable-grommet-3-blanking-plug.stl",
+        "cable-grommet-3.stl",
+        "cable-grommet-4-blanking-plug.stl",
+        "cable-grommet-4.stl",
+        "cable-grommet-5-blanking-plug.stl",
+        "cable-grommet-5.stl",
+        "cable-grommet-6-blanking-plug.stl",
+        "cable-grommet-6.stl",
+        "cable-grommet-7-blanking-plug.stl",
+        "cable-grommet-7.stl",
+        "camera-flex-envelope.stl",
+        "camera-front-shim-1.stl",
+        "camera-front-shim-2.stl",
+        "camera-front-shim-3.stl",
+        "camera-front-shim-4.stl",
+        "camera-module-envelope.stl",
+        "camera-rear-retainer.stl",
+        "camera-tpu-cradle-liner.stl",
+        "camera-window-adhesive-ring.stl",
+        "camera-window-clear-pc.stl",
+        "flat-tpu-textile-carrier.stl",
+        "lid-perimeter-gasket.stl",
+        "pcb-clamp-pad-1.stl",
+        "pcb-clamp-pad-2.stl",
+        "pcb-clamp-pad-3.stl",
+        "pcb-clamp-pad-4.stl",
+        "pcb-envelope.stl",
+        "rgb-lightpipe.stl",
+        "rigid-base.stl",
+        "rigid-lid.stl",
+        "sd-service-cap.stl",
+        "usb-service-cap.stl"
+      ],
+      [
+        "hand-tile-pcb-envelope.stl",
+        "hand-tile-tpu-cover.stl",
+        "hand-tile-tpu-pocket.stl"
+      ]
+    ],
+    "contacts": [
+      [
+        "pcb-clamp-pad-1.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "pcb-clamp-pad-1.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "pcb-clamp-pad-1.stl",
+        "pcb-envelope.stl"
+      ],
+      [
+        "pcb-clamp-pad-2.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "pcb-clamp-pad-2.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "pcb-clamp-pad-2.stl",
+        "pcb-envelope.stl"
+      ],
+      [
+        "pcb-clamp-pad-3.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "pcb-clamp-pad-3.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "pcb-clamp-pad-3.stl",
+        "pcb-envelope.stl"
+      ],
+      [
+        "pcb-clamp-pad-4.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "pcb-clamp-pad-4.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "pcb-clamp-pad-4.stl",
+        "pcb-envelope.stl"
+      ],
+      [
+        "cable-grommet-1.stl",
+        "cable-grommet-1-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-1.stl",
+        "lid-perimeter-gasket.stl"
+      ],
+      [
+        "cable-grommet-1.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-1.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "cable-grommet-2.stl",
+        "cable-grommet-2-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-2.stl",
+        "lid-perimeter-gasket.stl"
+      ],
+      [
+        "cable-grommet-2.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-2.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "cable-grommet-3.stl",
+        "cable-grommet-3-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-3.stl",
+        "lid-perimeter-gasket.stl"
+      ],
+      [
+        "cable-grommet-3.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-3.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "cable-grommet-4.stl",
+        "cable-grommet-4-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-4.stl",
+        "lid-perimeter-gasket.stl"
+      ],
+      [
+        "cable-grommet-4.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-4.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "cable-grommet-5.stl",
+        "cable-grommet-5-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-5.stl",
+        "lid-perimeter-gasket.stl"
+      ],
+      [
+        "cable-grommet-5.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-5.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "cable-grommet-6.stl",
+        "cable-grommet-6-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-6.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-7.stl",
+        "cable-grommet-7-blanking-plug.stl"
+      ],
+      [
+        "cable-grommet-7.stl",
+        "lid-perimeter-gasket.stl"
+      ],
+      [
+        "cable-grommet-7.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "cable-grommet-7.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "usb-service-cap.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "sd-service-cap.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "battery-retaining-belt.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "battery-retaining-belt.stl",
+        "battery-envelope.stl"
+      ],
+      [
+        "battery-foam-pad-1.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "battery-foam-pad-1.stl",
+        "battery-envelope.stl"
+      ],
+      [
+        "battery-foam-pad-2.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "battery-foam-pad-2.stl",
+        "battery-envelope.stl"
+      ],
+      [
+        "button-plunger.stl",
+        "button-plunger-cap.stl"
+      ],
+      [
+        "button-plunger.stl",
+        "button-floating-tip.stl"
+      ],
+      [
+        "button-plunger-cap.stl",
+        "button-silicone-diaphragm.stl"
+      ],
+      [
+        "button-silicone-diaphragm.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "rgb-lightpipe.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "camera-tpu-cradle-liner.stl",
+        "camera-rear-retainer.stl"
+      ],
+      [
+        "camera-tpu-cradle-liner.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "camera-tpu-cradle-liner.stl",
+        "camera-module-envelope.stl"
+      ],
+      [
+        "camera-tpu-cradle-liner.stl",
+        "camera-flex-envelope.stl"
+      ],
+      [
+        "camera-front-shim-1.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "camera-front-shim-1.stl",
+        "camera-module-envelope.stl"
+      ],
+      [
+        "camera-front-shim-2.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "camera-front-shim-2.stl",
+        "camera-module-envelope.stl"
+      ],
+      [
+        "camera-front-shim-3.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "camera-front-shim-3.stl",
+        "camera-module-envelope.stl"
+      ],
+      [
+        "camera-front-shim-4.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "camera-front-shim-4.stl",
+        "camera-module-envelope.stl"
+      ],
+      [
+        "camera-rear-retainer.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "camera-rear-retainer.stl",
+        "camera-flex-envelope.stl"
+      ],
+      [
+        "camera-window-clear-pc.stl",
+        "camera-window-adhesive-ring.stl"
+      ],
+      [
+        "camera-window-adhesive-ring.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "flat-tpu-textile-carrier.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "lid-perimeter-gasket.stl",
+        "rigid-base.stl"
+      ],
+      [
+        "lid-perimeter-gasket.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "hand-tile-tpu-pocket.stl",
+        "hand-tile-tpu-cover.stl"
+      ],
+      [
+        "hand-tile-tpu-pocket.stl",
+        "hand-tile-pcb-envelope.stl"
+      ],
+      [
+        "rigid-base.stl",
+        "rigid-lid.stl"
+      ],
+      [
+        "rigid-base.stl",
+        "pcb-envelope.stl"
+      ],
+      [
+        "camera-module-envelope.stl",
+        "camera-flex-envelope.stl"
+      ],
+      [
+        "camera-flex-envelope.stl",
+        "J_CAM"
+      ],
+      [
+        "battery-envelope.stl",
+        "battery-ntc-envelope.stl"
+      ],
+      [
+        "pcb-envelope.stl",
+        "J_CAM"
+      ]
+    ]
+  },
+  "camera_flat_length_mm": 38.5,
+  "package_height_checks": 545,
+  "independent_optical_tolerance_margins_mm": {
+    "gasket": 0.4868761410050997,
+    "disk": 1.0816202526793344,
+    "tunnel": 0.18397459621556164
+  },
+  "button_tolerance_extremes": {
+    "actuation_margin_mm": 0.09999999999999998,
+    "spring_minimum_length_mm": 4.550000000000001,
+    "maximum_contact_force_N": 4.677499999999999
+  },
+  "stl_checks": {
+    "pcb-clamp-pad-1.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 9.19999127387996
+    },
+    "pcb-clamp-pad-2.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 9.200003433215898
+    },
+    "pcb-clamp-pad-3.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 9.200003433215898
+    },
+    "pcb-clamp-pad-4.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 9.200003433215898
+    },
+    "cable-grommet-1.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 177.96952702697374
+    },
+    "cable-grommet-1-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.58290625993582
+    },
+    "cable-grommet-2.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 177.96952972554766
+    },
+    "cable-grommet-2-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.58290409399128
+    },
+    "cable-grommet-3.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 177.96952407804875
+    },
+    "cable-grommet-3-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.58291204236961
+    },
+    "cable-grommet-4.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 177.9695240780487
+    },
+    "cable-grommet-4-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.582914138358205
+    },
+    "cable-grommet-5.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 177.96951488612845
+    },
+    "cable-grommet-5-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.5829170886927
+    },
+    "cable-grommet-6.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 184.68923448183068
+    },
+    "cable-grommet-6-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.582945675536244
+    },
+    "cable-grommet-7.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 177.9695505608744
+    },
+    "cable-grommet-7-blanking-plug.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 44.58290887912605
+    },
+    "usb-service-cap.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 348.8001403808594
+    },
+    "sd-service-cap.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 777.6002197265625
+    },
+    "battery-retaining-belt.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 992.0
+    },
+    "battery-foam-pad-1.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 2114.970160489085
+    },
+    "battery-foam-pad-2.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 2114.9701604890847
+    },
+    "button-plunger.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 196.08293987922448
+    },
+    "button-plunger-cap.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 147.14960601134226
+    },
+    "button-floating-tip.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 25.533458139070905
+    },
+    "button-silicone-diaphragm.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 283.33664319068697
+    },
+    "rgb-lightpipe.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 66.84874312369182
+    },
+    "camera-tpu-cradle-liner.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 53.545063528144965
+    },
+    "camera-front-shim-1.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 0.25
+    },
+    "camera-front-shim-2.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 0.25
+    },
+    "camera-front-shim-3.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 0.25
+    },
+    "camera-front-shim-4.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 0.25
+    },
+    "camera-rear-retainer.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 411.4970821751528
+    },
+    "camera-window-clear-pc.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 379.52232731928234
+    },
+    "camera-window-adhesive-ring.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 91.74409633062153
+    },
+    "flat-tpu-textile-carrier.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 3012.7010597946955
+    },
+    "lid-perimeter-gasket.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 359.1663726868501
+    },
+    "hand-tile-tpu-pocket.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 1374.3707118890918
+    },
+    "hand-tile-tpu-cover.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 455.9786721105219
+    },
+    "rigid-base.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 45535.1758654214
+    },
+    "rigid-lid.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 16833.42667221688
+    },
+    "camera-module-envelope.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 476.8499586582184
+    },
+    "camera-flex-envelope.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 51.39901660552123
+    },
+    "battery-envelope.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 58968.0
+    },
+    "battery-ntc-envelope.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 64.0
+    },
+    "pcb-envelope.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 12800.003051757812
+    },
+    "hand-tile-pcb-envelope.stl": {
+      "watertight": true,
+      "positive_volume": true,
+      "connected_solids": 1,
+      "hash_matches_manifest": true,
+      "volume_mm3": 204.79998779296875
+    }
+  },
+  "failures": {},
+  "meaning": "Nominal geometry, printable closed solids, bounded soft compression and attachment contacts; material strength and hardware release gates remain in clearance-report.json."
+}

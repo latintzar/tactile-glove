@@ -1,0 +1,35 @@
+{
+  "model_sha256": "6d64bba209890979467c7d16aea1786bf37169a8f5feff6057d3afedeee5364b",
+  "scope": "Original vendor model characterized at25C, evaluated by ngspice at its default27C; model explicitly does not cover process/temperature or specification variation with supply.",
+  "cases": [
+    {
+      "name": "nominal",
+      "complete": true,
+      "supply_V": 3.3,
+      "setpoint_V": 2.5,
+      "load_A": 0.00581,
+      "end_s": 0.035,
+      "deck_sha256": "73542acce83ccdbe9d6ced5dfd0c96e69d87e68ea74b56331c4788a3987f3be7",
+      "log_sha256": "cc30097c131bc72bb7c92fac96630555b5db45142be5274128c64ad56e13de35",
+      "output_min_V": 2.25435593,
+      "settled_V": 2.49925104,
+      "raw_output_max_V": 2.77243851,
+      "settling_0p1percent_s": 0.0045789025999999995
+    },
+    {
+      "name": "low_rail",
+      "complete": true,
+      "supply_V": 3.111665494505495,
+      "setpoint_V": 2.55,
+      "load_A": 0.00581,
+      "end_s": 0.035,
+      "deck_sha256": "87c2793a78ba65d7cb515499a8e67a10d09621d83ff2a710fc01ea56179a75b0",
+      "log_sha256": "17b7ed96cb8e174fe86bcc51f1c4f9b0d05a0e1c0cf0d81e76858817e55ead15",
+      "output_min_V": 2.30432815,
+      "settled_V": 2.54922389,
+      "raw_output_max_V": 2.82241371,
+      "settling_0p1percent_s": 0.0045587575400000005
+    }
+  ],
+  "simulator_temperature_C": 27
+}

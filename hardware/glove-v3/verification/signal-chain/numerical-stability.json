@@ -1,0 +1,39 @@
+{
+  "scope": "numerical convergence probes, separate from unchanged vendor-model suite",
+  "cases": [
+    {
+      "case": "canonical--1pC-cshunt",
+      "complete": true,
+      "duration_s": 0.2,
+      "numerical_capacitance_added_to_every_node_F": 1e-15,
+      "trace_sha256": "48bb8fbd010d4097f4cc5bea24dfb971253b28fc151abcad4505aa7ef4a9f699",
+      "solver_aborted": false
+    },
+    {
+      "case": "canonical--250pC-cshunt",
+      "complete": true,
+      "duration_s": 0.2,
+      "numerical_capacitance_added_to_every_node_F": 1e-15,
+      "trace_sha256": "4a4c5ad0c3333409ec2e60672a851abf649c0ac41a1408b2baaac5ddd7684917",
+      "solver_aborted": false
+    },
+    {
+      "case": "canonical-250pC-cshunt",
+      "complete": true,
+      "duration_s": 0.2,
+      "numerical_capacitance_added_to_every_node_F": 1e-15,
+      "trace_sha256": "ebf0da81bd95ec0820cccc64dbc99a6df6663315fb705c8e806080a9a989ebbd",
+      "solver_aborted": false
+    }
+  ],
+  "positive_250pC_control_vs_original": {
+    "comparison_window_s": [
+      0.07,
+      0.199
+    ],
+    "max_output_difference_V": 0.00013924937479969923,
+    "rms_difference_V": 2.6383575122677256e-05,
+    "reference_peak_response_V": 0.5593768829750044
+  },
+  "interpretation": "Adding1fF shunt capacitance at every node stabilizes the two remaining negative-pulse cases. This is explicit numerical regularization, not a measured parasitic or a semiconductor process corner. Positivecontrol difference reaches139.25uV, so this is not proof of16-bitabsoluteaccuracy. Original incomplete runs remain recorded."
+}

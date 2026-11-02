@@ -1,0 +1,947 @@
+** Drc report for /tmp/glove-power-escape-20261023/power-escapes.kicad_pcb **
+** Created on 2026-10-23 04:57:43 **
+
+** Found 286 DRC violations **
+[copper_sliver]: Copper sliver (F.Cu)
+    Local override; Severity: warning
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(17.0000 mm, 59.0000 mm): Footprint C158
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(88.5000 mm, 57.5000 mm): Footprint U32
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(33.0000 mm, 15.0000 mm): Footprint C36
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(60.0000 mm, 21.5000 mm): Footprint R92
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(62.0000 mm, 4.4000 mm): Footprint J9
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(79.5000 mm, 44.0000 mm): Footprint U58
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(64.0000 mm, 57.5000 mm): Footprint U1
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(22.5000 mm, 16.5000 mm): Footprint C21
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(4.1000 mm, 66.2500 mm): Footprint J12
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(34.5000 mm, 45.0000 mm): Footprint C115
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(32.0000 mm, 70.5000 mm): Footprint C163
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(47.5000 mm, 13.5000 mm): Footprint R78
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(77.5000 mm, 9.0000 mm): Footprint R91
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(79.0000 mm, 4.4000 mm): Footprint J5
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(59.5000 mm, 60.0000 mm): Footprint C175
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(20.0000 mm, 67.0000 mm): Footprint R165
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(13.0000 mm, 11.5000 mm): Footprint R23
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(6.0000 mm, 29.0000 mm): Footprint C111
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(29.0000 mm, 65.0000 mm): Footprint U44
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(28.5000 mm, 68.0000 mm): Footprint R179
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(82.5000 mm, 38.0000 mm): Footprint C86
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.0000 mm, 10.5000 mm): Footprint D13
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(81.0000 mm, 9.0000 mm): Footprint R98
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(48.0000 mm, 11.5000 mm): Footprint R79
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(66.5000 mm, 9.0000 mm): Footprint R84
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(67.5000 mm, 18.5000 mm): Footprint C71
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(11.0000 mm, 4.4000 mm): Footprint J6
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(79.0000 mm, 71.0000 mm): Footprint C182
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(62.5000 mm, 17.5000 mm): Footprint U14
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(49.5000 mm, 9.0000 mm): Footprint R63
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(79.0000 mm, 74.5000 mm): Footprint C181
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.9700 mm, 70.9700 mm): Footprint J16
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(25.5000 mm, 59.0000 mm): Footprint C162
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(42.5000 mm, 53.5000 mm): Footprint R142
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.0000 mm, 56.5000 mm): Footprint C107
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(20.5000 mm, 55.5000 mm): Footprint R140
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(68.5000 mm, 62.0000 mm): Footprint C177
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(64.0000 mm, 41.0000 mm): Footprint C102
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(14.5000 mm, 63.0000 mm): Footprint C153
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(77.6125 mm, 67.7750 mm): Footprint R220
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(25.0000 mm, 21.5000 mm): Footprint R36
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(85.5000 mm, 31.5000 mm): Footprint R113
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(13.5000 mm, 55.5000 mm): Footprint R119
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(50.0000 mm, 52.0000 mm): Footprint U29
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(51.0000 mm, 55.5000 mm): Footprint C137
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(83.0000 mm, 34.5000 mm): Footprint C81
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(82.0000 mm, 32.0000 mm): Footprint R114
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(23.0000 mm, 45.5000 mm): Footprint C131
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(50.0000 mm, 18.5000 mm): Footprint C51
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(85.5000 mm, 39.5000 mm): Footprint R120
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(42.5000 mm, 9.0000 mm): Footprint R49
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(28.0000 mm, 22.0000 mm): Footprint R37
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(8.5000 mm, 9.0000 mm): Footprint R7
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(45.0000 mm, 17.5000 mm): Footprint U13
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(29.0000 mm, 9.0000 mm): Footprint R35
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(15.5000 mm, 15.0000 mm): Footprint C16
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(50.5000 mm, 15.0000 mm): Footprint C56
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(69.5500 mm, 71.9000 mm): Footprint R213
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(10.5000 mm, 22.0000 mm): Footprint R9
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(81.0000 mm, 14.0000 mm): Footprint J15
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(34.0000 mm, 33.5000 mm): Footprint U7
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(30.0000 mm, 13.5000 mm): Footprint R50
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(12.0000 mm, 75.0000 mm): Footprint F1
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(58.0000 mm, 49.0000 mm): Footprint U4
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(19.0000 mm, 62.5000 mm): Footprint C156
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(7.5000 mm, 21.5000 mm): Footprint R8
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(23.0000 mm, 67.0000 mm): Footprint C157
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(63.0000 mm, 29.0000 mm): Footprint C114
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(58.0000 mm, 42.5000 mm): Footprint U2
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(12.5000 mm, 13.5000 mm): Footprint R22
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(39.0000 mm, 14.0000 mm): Footprint R58
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(56.5000 mm, 14.0000 mm): Footprint R86
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(6.5000 mm, 55.5000 mm): Footprint R105
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.5000 mm, 47.5000 mm): Footprint C101
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(31.0000 mm, 21.5000 mm): Footprint R43
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(90.5000 mm, 31.5000 mm): Footprint R134
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(31.0000 mm, 75.4500 mm): Footprint J13
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(26.0000 mm, 65.5000 mm): Footprint R180
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(66.0000 mm, 21.5000 mm): Footprint R99
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(89.5000 mm, 54.0000 mm): Footprint U31
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(64.0000 mm, 61.5000 mm): Footprint U49
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(13.0000 mm, 72.0000 mm): Footprint C155
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(20.5000 mm, 16.5000 mm): Footprint C117
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(16.0000 mm, 67.0000 mm): Footprint U42
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(12.0000 mm, 9.0000 mm): Footprint R14
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(10.7000 mm, 68.0000 mm): Footprint L1
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(72.0000 mm, 33.5000 mm): Footprint U9
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(80.5000 mm, 55.0000 mm): Footprint U57
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(7.5000 mm, 13.5000 mm): Footprint R1
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.5000 mm, 51.0000 mm): Footprint C109
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(21.5000 mm, 14.0000 mm): Footprint R30
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.0000 mm, 33.5000 mm): Footprint U8
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(28.0000 mm, 46.5000 mm): Footprint U26
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(95.5000 mm, 40.0000 mm): Footprint D20
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(89.7500 mm, 73.2500 mm): Footprint U51
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(45.0000 mm, 4.4000 mm): Footprint J8
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(46.0000 mm, 53.5000 mm): Footprint R141
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(13.5000 mm, 21.5000 mm): Footprint R15
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(82.0000 mm, 29.0000 mm): Footprint D18
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(32.5000 mm, 9.0000 mm): Footprint R42
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(81.0000 mm, 34.5000 mm): Footprint C120
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(63.9750 mm, 47.2500 mm): Footprint D25
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(15.0000 mm, 18.5000 mm): Footprint C11
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(68.5000 mm, 66.0000 mm): Footprint C174
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(51.0000 mm, 44.0000 mm): Footprint C110
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(4.0000 mm, 11.0000 mm): Footprint D2
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(63.0000 mm, 22.0000 mm): Footprint R93
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(60.0000 mm, 13.5000 mm): Footprint R85
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(72.0000 mm, 76.0000 mm): Footprint SW2
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(62.0000 mm, 38.5000 mm): Footprint C103
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(45.5000 mm, 22.0000 mm): Footprint R65
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(91.0000 mm, 29.5000 mm): Footprint R135
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(10.0000 mm, 17.5000 mm): Footprint U11
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(65.5000 mm, 11.5000 mm): Footprint R107
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(68.0000 mm, 15.0000 mm): Footprint C76
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(74.2500 mm, 78.7500 mm): Footprint R206
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(29.0000 mm, 60.0000 mm): Footprint C161
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(48.5000 mm, 21.5000 mm): Footprint R71
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(5.0000 mm, 16.5000 mm): Footprint C1
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(96.0600 mm, 54.0000 mm): Footprint J11
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(93.5000 mm, 46.5000 mm): Footprint D24
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(25.0000 mm, 13.5000 mm): Footprint R29
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(32.5000 mm, 18.5000 mm): Footprint C31
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(41.0000 mm, 47.5000 mm): Footprint U10
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(58.0000 mm, 55.5000 mm): Footprint U3
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(88.5000 mm, 40.0000 mm): Footprint R121
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(33.5000 mm, 60.5000 mm): Footprint C165
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(10.0000 mm, 55.5000 mm): Footprint R112
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(50.0000 mm, 47.0000 mm): Footprint U5
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(27.5000 mm, 17.5000 mm): Footprint U12
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(25.5000 mm, 9.0000 mm): Footprint R28
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(34.5000 mm, 18.5000 mm): Footprint R44
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(93.0000 mm, 36.5000 mm): Footprint C91
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(29.0000 mm, 62.0000 mm): Footprint C167
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(64.5000 mm, 65.5000 mm): Footprint C176
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(42.5000 mm, 21.5000 mm): Footprint R64
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(39.5000 mm, 20.0000 mm): Footprint C46
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(3.0000 mm, 16.5000 mm): Footprint C116
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(27.5000 mm, 71.0000 mm): Footprint C166
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(91.5000 mm, 39.5000 mm): Footprint R127
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(48.5000 mm, 43.5000 mm): Footprint C133
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(90.0000 mm, 23.9500 mm): Footprint J14
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(52.0000 mm, 18.5000 mm): Footprint R72
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(15.0000 mm, 33.5000 mm): Footprint U6
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(36.0000 mm, 10.0000 mm): Footprint D9
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(17.0000 mm, 18.5000 mm): Footprint R16
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(42.5000 mm, 13.5000 mm): Footprint R57
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(17.0000 mm, 55.5000 mm): Footprint R133
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(46.0000 mm, 9.0000 mm): Footprint R56
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(57.0000 mm, 20.0000 mm): Footprint C66
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(28.0000 mm, 4.4000 mm): Footprint J7
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(70.0000 mm, 11.5000 mm): Footprint D17
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(11.5000 mm, 63.5000 mm): Footprint C154
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(94.5000 mm, 29.5000 mm): Footprint D21
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(63.0000 mm, 9.0000 mm): Footprint R77
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(32.0000 mm, 68.5000 mm): Footprint C168
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(21.5000 mm, 11.0000 mm): Footprint D6
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(40.0000 mm, 16.5000 mm): Footprint C41
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(4.5000 mm, 20.0000 mm): Footprint C6
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(57.5000 mm, 16.5000 mm): Footprint C61
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(44.0000 mm, 29.0000 mm): Footprint C113
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(53.0000 mm, 41.5000 mm): Footprint C108
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(15.5000 mm, 9.0000 mm): Footprint R21
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(95.0000 mm, 36.5000 mm): Footprint R128
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(25.0000 mm, 29.0000 mm): Footprint C112
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(69.5000 mm, 18.5000 mm): Footprint R100
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(33.5000 mm, 65.0000 mm): Footprint L2
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(67.5000 mm, 57.5000 mm): Footprint D1
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(59.5000 mm, 9.0000 mm): Footprint R70
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(16.5000 mm, 71.0000 mm): Footprint R166
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(65.0000 mm, 13.5000 mm): Footprint R106
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(64.5000 mm, 76.0000 mm): Footprint D22
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(38.0000 mm, 16.5000 mm): Footprint C118
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(24.5000 mm, 62.0000 mm): Footprint C164
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(55.5000 mm, 16.5000 mm): Footprint C119
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(93.5000 mm, 33.0000 mm): Footprint C96
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(88.0000 mm, 35.5000 mm): Footprint U15
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(22.0000 mm, 20.0000 mm): Footprint C26
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(12.5000 mm, 51.0000 mm): Footprint J10
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(4.0000 mm, 14.0000 mm): Footprint R2
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(30.5000 mm, 11.5000 mm): Footprint R51
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(13.0000 mm, 57.5000 mm): Footprint R126
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(28.0000 mm, 29.5000 mm): Footprint R45
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(52.0000 mm, 32.5000 mm): Footprint C57
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(25.5000 mm, 66.0000 mm): Footprint R173
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(59.5000 mm, 29.5000 mm): Footprint R104
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(80.5000 mm, 10.0000 mm): Footprint C84
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(65.5000 mm, 10.5000 mm): Footprint C68
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(97.5000 mm, 21.5000 mm): Footprint C198
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(31.0000 mm, 71.0000 mm): Footprint U43
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(63.0000 mm, 38.0000 mm): Footprint C72
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(68.0000 mm, 10.5000 mm): Footprint C67
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(41.5000 mm, 64.0000 mm): Footprint R247
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(78.0000 mm, 18.5000 mm): Footprint R116
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(86.0000 mm, 57.5000 mm): Footprint R163
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(61.0000 mm, 50.0000 mm): Footprint R193
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(60.0000 mm, 57.0000 mm): Footprint R152
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(67.5000 mm, 14.0000 mm): Footprint R95
+[lib_footprint_issues]: The current configuration does not include the library 'GloveV4'.
+    Local override; Severity: warning
+    @(79.0000 mm, 52.5000 mm): Footprint R214
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(71.4923 mm, 16.6556 mm): Via [3V3_A] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(92.4114 mm, 41.1520 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(79.4405 mm, 24.3063 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(31.1000 mm, 67.2000 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(91.1625 mm, 38.3451 mm): Via [3V3_SYS] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.3773 mm, 55.6400 mm): Via [ADC_CNV] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(62.7000 mm, 49.2000 mm): Via [ADC_SDO] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(80.3500 mm, 69.6200 mm): Via [ADC_SDO] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(52.7459 mm, 43.5133 mm): Via [ANALOG_EN] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.8112 mm, 65.0660 mm): Via [BOOT_DELAY] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(93.5500 mm, 27.5500 mm): Track [CAM_AV_EN] on SIGNAL_BOTTOM, length 0.0500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(94.7000 mm, 29.2000 mm): Track [CAM_AV_EN] on SIGNAL_BOTTOM, length 0.7071 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(76.5750 mm, 50.7000 mm): Track [CAM_D1] on SIGNAL_TOP, length 1.0607 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.8250 mm, 52.1250 mm): Track [CAM_D1] on SIGNAL_TOP, length 0.6364 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(78.9875 mm, 54.6750 mm): Via [CAM_D3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(86.1000 mm, 27.1500 mm): Via [CAM_D3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(88.8000 mm, 29.3000 mm): Via [CAM_D5] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.9750 mm, 49.6500 mm): Track [CAM_D6] on F.Cu, length 0.1346 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.5250 mm, 52.3500 mm): Track [CAM_D6] on F.Cu, length 0.4981 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.8000 mm, 51.5000 mm): Track [CAM_D6] on F.Cu, length 0.1414 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(76.9875 mm, 57.2750 mm): Via [CAM_D7] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(90.2500 mm, 25.4500 mm): Via [CAM_D7] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(92.2000 mm, 27.0000 mm): Via [CAM_DVDD_1V5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(61.4875 mm, 70.3250 mm): Via [CAM_DV_EN] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(96.6750 mm, 63.0000 mm): Track [CAM_IO_EN] on SIGNAL_TOP, length 0.0750 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(85.6000 mm, 45.8000 mm): Track [CAM_PWDN] on F.Cu, length 5.0000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(93.3750 mm, 23.7000 mm): Track [CAM_PWDN] on F.Cu, length 0.1061 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.7500 mm, 24.7000 mm): Track [CAM_PWDN] on F.Cu, length 0.1768 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.9250 mm, 24.0750 mm): Track [CAM_RESET_N] on F.Cu, length 0.4243 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(93.2500 mm, 24.9500 mm): Via [CAM_RESET_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.9875 mm, 44.9750 mm): Via [CAM_RESET_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(75.5375 mm, 42.0750 mm): Via [CAM_VSYNC] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(92.9000 mm, 27.4000 mm): Via [CAM_VSYNC] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.9000 mm, 55.9000 mm): Track [CC_OUT1] on B.Cu, length 0.5000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(89.7250 mm, 53.8000 mm): Track [CC_OUT1] on B.Cu, length 0.5836 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(78.5125 mm, 66.4250 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(87.4875 mm, 30.4000 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(89.5000 mm, 51.0000 mm): Track [GND] on F.Cu, length 0.5500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(49.5000 mm, 50.6750 mm): Track [GND] on B.Cu, length 0.5500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(76.5000 mm, 51.1750 mm): Track [GND] on B.Cu, length 0.5500 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(26.6184 mm, 52.9578 mm): Via [I2C_SCL] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.8500 mm, 28.9500 mm): Track [I2C_SCL] on SIGNAL_BOTTOM, length 0.1500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(94.2750 mm, 27.6750 mm): Track [I2C_SCL] on SIGNAL_BOTTOM, length 0.1500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(74.4143 mm, 52.2254 mm): Track [I2C_SDA] on SIGNAL_BOTTOM, length 2.9229 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(75.6750 mm, 65.7000 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.5250 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(95.0000 mm, 59.4000 mm): Track [MCU_CAM_D0] on B.Cu, length 0.0500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.8500 mm, 60.7000 mm): Track [MCU_CAM_D0] on B.Cu, length 0.0500 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(83.2500 mm, 54.6750 mm): Via [MCU_CAM_D2] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(95.1000 mm, 61.9500 mm): Track [MCU_CAM_D5] on F.Cu, length 1.8031 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(98.5000 mm, 65.8000 mm): Via [MCU_CAM_D5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(84.0125 mm, 56.6250 mm): Via [MCU_CAM_D5] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(60.1375 mm, 68.3750 mm): Via [MCU_CAM_PWDN] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(60.5375 mm, 68.8750 mm): Via [MCU_CAM_RESET_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(45.2392 mm, 48.2658 mm): Via [MUX_DATA] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(80.3500 mm, 75.0000 mm): Via [MUX_SHIFT_CLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(40.2037 mm, 47.9993 mm): Via [MUX_SHIFT_CLK] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(88.0242 mm, 14.8588 mm): Via [S1_A_P4] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(70.8287 mm, 39.5128 mm): Via [S2_OUT_L3] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(71.4875 mm, 67.7250 mm): Via [SD_CD_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(73.4671 mm, 68.3958 mm): Via [SD_MOSI] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(83.9000 mm, 53.9000 mm): Track [STRAP46] on SIGNAL_BOTTOM, length 0.1000 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(88.0500 mm, 54.6000 mm): Track [USB_CC1] on F.Cu, length 0.1500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(93.1376 mm, 54.4866 mm): Track [USB_CC1] on F.Cu, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(90.6500 mm, 44.0500 mm): Via [USB_CC1] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(91.7000 mm, 48.7000 mm): Via [USB_CC2] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(60.4948 mm, 67.2255 mm): Via [USB_CC_RLOW] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(68.0125 mm, 64.1500 mm): Via [USB_CFG_ATTACH_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(62.2875 mm, 62.8500 mm): Via [USB_CFG_ATTACH_N] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(65.9250 mm, 62.1750 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.4243 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(63.9750 mm, 62.3250 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.1500 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(68.9625 mm, 69.1750 mm): Via [USB_CONFIG_CLR_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(78.1750 mm, 50.5000 mm): Via [USB_CONFIG_CLR_N] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(59.7625 mm, 63.5000 mm): Via [USB_CONFIG_CLR_N] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(90.2250 mm, 53.5500 mm): Track [USB_HIGH_ON] on SIGNAL_TOP, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(73.4875 mm, 75.5500 mm): Via [USB_NOT_SUSPEND] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(63.7125 mm, 59.5000 mm): Via [USB_NOT_SUSPEND] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(92.2500 mm, 62.7750 mm): Track [USB_RECOVERY_FAULT_N] on B.Cu, length 0.4500 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(91.3000 mm, 52.1000 mm): Track [USB_RECOVERY_FAULT_N] on B.Cu, length 0.0707 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(95.4750 mm, 59.4750 mm): Track [USB_RECOVERY_FAULT_N] on B.Cu, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(89.3000 mm, 52.2500 mm): Via [USB_RECOVERY_ON] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(88.8750 mm, 52.5000 mm): Track [USB_VBUS] on SIGNAL_BOTTOM, length 0.0750 mm
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(57.3000 mm, 57.9750 mm): Via [VEXC_FB] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(81.7000 mm, 20.4000 mm): Via [VMID1V25] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(74.7000 mm, 10.5000 mm): Via [VMID1V25] on F.Cu - B.Cu
+[via_dangling]: Via is not connected or connected on only one layer
+    Local override; Severity: warning
+    @(85.0000 mm, 12.2000 mm): Via [VMID1V25] on F.Cu - B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(53.7000 mm, 63.6750 mm): Track [VREF3V0] on B.Cu, length 0.5202 mm
+
+** Found 20 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(60.2000 mm, 49.5000 mm): Track [ADC_SDO] on F.Cu, length 2.5179 mm
+    @(81.0000 mm, 69.6200 mm): Track [ADC_SDO] on F.Cu, length 0.6500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.6375 mm, 54.6750 mm): Track [CAM_D3] on F.Cu, length 1.3500 mm
+    @(86.2500 mm, 25.8000 mm): Track [CAM_D3] on F.Cu, length 1.3583 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.6375 mm, 57.2750 mm): Pad 10 [CAM_D7] of U57 on F.Cu
+    @(90.2500 mm, 25.8000 mm): Track [CAM_D7] on F.Cu, length 0.8500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(80.5000 mm, 25.8250 mm): Track [CAM_DV_EN] on B.Cu, length 0.4596 mm
+    @(62.1375 mm, 70.3250 mm): Track [CAM_DV_EN] on B.Cu, length 0.6500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(76.6375 mm, 42.3750 mm): Pad 4 [CAM_VSYNC] of U58 on F.Cu
+    @(92.7500 mm, 25.8000 mm): Track [CAM_VSYNC] on F.Cu, length 1.6070 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(88.8375 mm, 30.2500 mm): Track [CUFF_IMU_INT1] on B.Cu, length 1.3583 mm
+    @(78.5125 mm, 66.4250 mm): Via [CUFF_IMU_INT1] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(77.1000 mm, 65.3250 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.1061 mm
+    @(75.6750 mm, 65.7000 mm): Track [IO1_SPARE4] on SIGNAL_TOP, length 0.5250 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(61.9133 mm, 66.8508 mm): Track [LED_G_N] on B.Cu, length 0.3171 mm
+    @(46.2553 mm, 68.0000 mm): Track [LED_G_N] on B.Cu, length 0.4197 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(82.3625 mm, 46.2750 mm): Track [MCU_CAM_PWDN] on F.Cu, length 0.6611 mm
+    @(62.1375 mm, 68.3750 mm): Track [MCU_CAM_PWDN] on B.Cu, length 2.0000 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(62.1375 mm, 69.0250 mm): Track [MCU_CAM_RESET_N] on B.Cu, length 1.6070 mm
+    @(83.0000 mm, 45.5000 mm): Track [MCU_CAM_RESET_N] on F.Cu, length 0.6496 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(41.6383 mm, 48.8008 mm): Track [MUX_SHIFT_CLK] on B.Cu, length 0.3171 mm
+    @(81.0000 mm, 74.7000 mm): Track [MUX_SHIFT_CLK] on F.Cu, length 0.7159 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(48.0950 mm, 63.2450 mm): Pad 9 [SD_CD_N] of J16 on F.Cu
+    @(72.1375 mm, 67.7250 mm): Track [SD_CD_N] on B.Cu, length 0.6500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(91.8750 mm, 55.2000 mm): Track [USB_CC1] on F.Cu, length 0.6000 mm
+    @(88.2750 mm, 54.2000 mm): Track [USB_CC1] on B.Cu, length 0.7159 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(93.1376 mm, 54.4866 mm): Track [USB_CC1] on F.Cu, length 0.0750 mm
+    @(92.5000 mm, 45.5500 mm): Track [USB_CC1] on F.Cu, length 0.8500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(88.2750 mm, 53.8000 mm): Pad 2 [USB_CC2] of U33 on B.Cu
+    @(91.0388 mm, 52.2500 mm): Track [USB_CC2] on F.Cu, length 2.7119 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(63.9750 mm, 62.3250 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.1500 mm
+    @(65.9250 mm, 62.1750 mm): Track [USB_CFG_ATTACH_N] on B.Cu, length 0.4243 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(78.1750 mm, 52.5000 mm): Track [USB_CONFIG_CLR_N] on B.Cu, length 2.0000 mm
+    @(66.1500 mm, 66.8500 mm): Track [USB_CONFIG_CLR_N] on SIGNAL_TOP, length 0.9500 mm
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(64.8750 mm, 71.1750 mm): Track [USB_CONFIG_SET] on F.Cu, length 1.4849 mm
+    @(68.7250 mm, 71.9000 mm): Pad 1 [USB_CONFIG_SET] of R213 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(64.3625 mm, 59.5000 mm): Track [USB_NOT_SUSPEND] on B.Cu, length 0.6500 mm
+    @(73.4875 mm, 75.5500 mm): Via [USB_NOT_SUSPEND] on F.Cu - B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(67.0000 mm, 63.5000 mm): Pad 3 [USB_RECOVERY_ON] of Q1 on B.Cu
+    @(89.3000 mm, 53.2000 mm): Track [USB_RECOVERY_ON] on F.Cu, length 0.4000 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **

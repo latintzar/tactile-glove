@@ -1,0 +1,13 @@
+bb6478ce8c0fc32483c7790a508976376407fd68fb0ba466ed59de9255ad4ed4  [original source path]/app.cpp
+49428486546b8e99c6f663076bcb5782c80ee705d9295dad8f69d30fa3927212  [original source path]/storage.cpp
+2103381e85c1c2a3fd858c0cfc5ec77dd9da4d78bf11cc684fb76eda61348a3c  [original source path]/hardware.hpp
+6fce7100f25a63020bf07900c7b29898cddf5ea7d47e4beb4b7b728807fbd91a  [original source path]/power-circuit.json
+88a08e4a0b277172127840efe9ff736c8f1dcd51f3b31810ab32053297a7d902  /tmp/glove-eda-runtime/v4-src/sdk/cam_hal.c
+71e560f9752e0572db1732686ab18bc7b9e5e5feb7fdf914f4939757805467fb  /tmp/glove-eda-runtime/v4-src/sdk/esp_camera.h
+f51a33e52b3d16c5cdc9630724b4cc64505f59244ac0f7d2fd543574ee455f78  /tmp/glove-v4-sdk/esp-idf/docs/en/api-reference/peripherals/sd_pullup_requirements.rst
+b17a4f4b20eaf71a4ea089e59051227f668f6478bf28c1a0221b8f889b4cc63f  /tmp/glove-v4-sdk/esp-idf/docs/en/api-reference/peripherals/spi_master.rst
+d40ec87d20b742582ac97d74a30e2f34d674a3f4e76253757d2bd8b04845ffd8  [original source path]/components.json
+c39e6e65f7e68d13b481d2a86573ec049ef2b13004406336b874caadda3f7133  /tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/esp_camera.c
+88a08e4a0b277172127840efe9ff736c8f1dcd51f3b31810ab32053297a7d902  /tmp/glove-local-idf-20261023/managed-components/espressif__esp32-camera/driver/cam_hal.c
+651e1f3f66401c9c210e09143ab0894a0d01bf54ca7363ee3ad0dd645e7933ba  /tmp/glove-local-idf-20261023/esp-idf/components/esp_system/port/soc/esp32s3/system_internal.c
+576fc0304bf745196fb7b9b711a4ba374490c357b1a9383efa1172d2bd4ecb81  /tmp/glove-local-idf-20261023/esp-idf/components/esp_driver_gpio/src/gpio.c

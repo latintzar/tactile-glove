@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="260mm" height="150mm" viewBox="0 0 260 150">
+  <title>Glove v3 sensor laminate cross-section</title>
+  <style>
+    text{font-family:Arial,sans-serif;fill:#202522}.h{font-size:7px;font-weight:bold}.l{font-size:4px;font-weight:bold}.s{font-size:3.5px;fill:#4d5750}
+    .glove{fill:#ded6cb;stroke:#4c514d}.cond{fill:#718b88;stroke:#3f5957}.vel{fill:#bd7c3b;stroke:#784720}.sep{fill:#dcebf2;stroke:#50819a}.pvdf{fill:#c9a8d6;stroke:#694d7d}.cover{fill:#f3e6a8;stroke:#9d8a35}.wire{fill:#303836;stroke:#111}
+  </style>
+  <rect width="260" height="150" fill="#fffdf8"/>
+  <text x="10" y="12" class="h">V3 sensor laminate cross-section — schematic, not thickness scale</text>
+  <text x="10" y="19" class="s">Pressure and dynamic vibration remain electrically independent at one anatomical location.</text>
+  <g transform="translate(12,35)">
+    <rect x="0" y="0" width="190" height="12" class="glove"/><text x="4" y="8" class="l">glove textile / skin side</text>
+    <rect x="0" y="17" width="95" height="7" class="cond"/><text x="99" y="23" class="l">pressure lower electrode — P*_LO</text>
+    <rect x="0" y="29" width="95" height="10" class="vel"/><text x="99" y="36" class="l">isolated Velostat island, nominal 0.2 mm — P*</text>
+    <rect x="0" y="44" width="95" height="7" class="cond"/><text x="99" y="50" class="l">pressure upper electrode — P*_HI</text>
+    <rect x="0" y="56" width="190" height="5" class="sep"/><text x="194" y="60" class="l">TPU/polyester separator, 25–50 µm target</text>
+    <rect x="0" y="66" width="190" height="8" class="pvdf"/><text x="194" y="72" class="l">TE PVDF: 28 µm film + silver ink = 40 µm total</text>
+    <rect x="0" y="79" width="190" height="7" class="cover"/><text x="194" y="85" class="l">TPU/polyester protective cover, 25–50 µm target</text>
+    <path d="M30 66 C30 56 44 56 44 51" class="wire" stroke-width="2" fill="none"/><path d="M160 74 C160 87 175 87 175 96" class="wire" stroke-width="2" fill="none"/>
+    <text x="3" y="101" class="s">Top PVDF face lead exits on one side; bottom face lead exits on the opposite side.</text>
+    <text x="3" y="107" class="s">Strain-relief bridge begins 15–20 mm behind the active cell; keep wire loops outside flexion creases.</text>
+  </g>
+  <g transform="translate(12,128)"><rect x="0" y="0" width="7" height="7" class="cond"/><text x="11" y="5" class="s">conductive fabric</text><rect x="48" y="0" width="7" height="7" class="vel"/><text x="59" y="5" class="s">Velostat</text><rect x="95" y="0" width="7" height="7" class="pvdf"/><text x="106" y="5" class="s">pre-metallized PVDF</text><rect x="173" y="0" width="7" height="7" class="sep"/><text x="184" y="5" class="s">insulator</text></g>
+  <text x="12" y="143" class="s">Unknown until coupon: actual compressed stack thickness, adhesive fillets, pressure/PVDF cross-talk, comfort and flexion noise.</text>
+</svg>

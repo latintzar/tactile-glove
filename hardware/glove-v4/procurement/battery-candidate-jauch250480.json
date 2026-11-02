@@ -1,0 +1,58 @@
+{
+  "reviewed": "2026-10-22",
+  "candidate": {
+    "manufacturer": "Jauch Quartz GmbH",
+    "jauch_part": "250480",
+    "mpn": "LI18650JLS HB 1S2P+PCM+FUSE+2 WIRES 70MM",
+    "configuration": "1S2P protected Li-ion pack, PCM plus 7 A fast-acting fuse, two leads",
+    "nominal_voltage_v": 3.6,
+    "capacity_typical_mah": 6700,
+    "capacity_minimum_mah": 6500,
+    "dimensions_mm": {
+      "length": 69,
+      "width": 38,
+      "thickness": 20,
+      "drawing_tolerance": "length +3/-1 mm"
+    },
+    "mass_g": 100,
+    "charge": {
+      "voltage_v": 4.2,
+      "standard_current_ma": 1300,
+      "maximum_current_ma": 2000,
+      "temperature_c": [
+        10,
+        45
+      ]
+    },
+    "discharge": {
+      "cutoff_v": 2.8,
+      "standard_current_ma": 1300,
+      "maximum_current_ma": 5000,
+      "temperature_c": [
+        -20,
+        60
+      ]
+    },
+    "protection": {
+      "pcm_overcharge_detection_v": "4.28 \u00b10.025",
+      "pcm_overdischarge_detection_v": "2.80 \u00b10.05",
+      "overcurrent_range_a": "6.0\u201312.0",
+      "secondary": "7 A fast-acting fuse"
+    },
+    "leads": {
+      "count": 2,
+      "gauge": "AWG22",
+      "length_mm": "70 \u00b15",
+      "wire_1": "black, negative",
+      "wire_2": "red, positive",
+      "external_ntc": "not present in the two-wire drawing; do not assume access"
+    }
+  },
+  "sources": {
+    "jauch_primary_datasheet": "https://www.jauch.com/downloadfile/61f0fb7230945444b292c0fac704609f8/6700%20mAh,%20LI18650JLS%20HB%201s2p,%20Mat.%20250480.pdf",
+    "jauch_two_wire_drawing": "https://www.jauch.com/downloadfile/61f0fb7230945444b292c0fac704609f8/li18650jls_hb_1s2p_2_wires_70mf",
+    "jauch_product_table": "https://www.jauch.com/de-INT/produkte/batterie_technologie/getPrm/batteries/",
+    "farnell_bg_category": "https://bg.farnell.com/c/batteries-chargers/batteries-rechargeable?battery-capacity=6.7ah"
+  },
+  "decision_status": "Viable six-hour battery candidate by minimum capacity and protection. Bulgaria delivered price, stock, hazardous-lithium freight, and date remain unconfirmed; do not treat as purchasable until checkout or supplier route verifies them."
+}

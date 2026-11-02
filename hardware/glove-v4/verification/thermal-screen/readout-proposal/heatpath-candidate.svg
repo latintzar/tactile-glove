@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="730" viewBox="0 0 1080 730">
+<defs><pattern id="h" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 6L6 0" stroke="#d3a4a4"/></pattern><marker id="arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7" fill="#a34616"/></marker></defs>
+<rect width="1080" height="730" fill="white"/>
+<g font-family="Arial,sans-serif" fill="#17212b"><text x="30" y="35" font-size="23">Unapplied outward heat-path candidate</text><text x="30" y="60" font-size="14">Coordinates in mm • canonical enclosure unchanged • roof interface and thermal performance require qualification</text>
+<text x="35" y="98" font-size="17">Plan view — actual PCB coordinates</text>
+<g transform="translate(65 155) scale(4)">
+<rect x="-6" y="-12" width="112" height="104" rx="10" fill="#f7f8fa" stroke="#3b4652" stroke-width=".5"/>
+<rect width="100" height="80" fill="none" stroke="#44794d" stroke-width=".4" stroke-dasharray="2 1"/>
+<path d="M8 -2H100V62H98V74.5H84V62H8Z" fill="#b3c9dc" stroke="#24547c" stroke-width=".6"/>
+<rect x="65.75" y="80" width="40.25" height="12" fill="url(#h)" stroke="#a44" stroke-width=".3"/>
+<rect x="62" y="64" width="20" height="24" rx="3" fill="#e7d7e8" stroke="#885b8a" stroke-width=".4"/>
+<rect x="80.65" y="60.4" width="18.2" height="25.7" fill="none" stroke="#568754" stroke-width=".3" stroke-dasharray="1 1"/>
+<rect x="84" y="62" width="12" height="10" fill="#e1a26f" stroke="#a34616" stroke-width=".4"/>
+<circle cx="87" cy="67" r="1" fill="white" stroke="#555" stroke-width=".3"/><circle cx="93" cy="67" r="1" fill="white" stroke="#555" stroke-width=".3"/>
+<text x="17" y="22" font-size="4.4">92 × 64 × 1.5 Al roof insert</text><text x="19" y="29" font-size="3.8">X8..100, Y−2..62, Z44..45.5</text>
+<text x="19" y="37" font-size="3.8">Outward face replaces nylon roof</text><text x="63" y="93" font-size="3.3">RF region retains polymer</text>
+<path d="M0 -6H100" stroke="#555" stroke-width=".3"/><text x="40" y="-8" font-size="3.8">PCB100</text><text x="-2" y="84" font-size="3.5">PCB80</text>
+</g>
+<text x="35" y="555" font-size="13">Rear tongue: X84..98,Y62..74.5; RF keepout beginsY80.</text><text x="35" y="577" font-size="13">Button opening stays atX62..82,Y64..88.</text><text x="35" y="599" font-size="13">Only the roof volume intersects this insert: 7,884.6mm³.</text>
+<text x="555" y="98" font-size="17">Bridge section atY67 — Z datums preserved</text>
+<g transform="translate(565 465) scale(15 -15)">
+<rect x="0" y="0" width="30" height="1.6" fill="#6c9872"/>
+<rect x="5.65" y="1.6" width="18.2" height="3.35" fill="#819292" stroke="#364646" stroke-width=".08"/>
+<rect x="9" y="5.5" width="12" height="1.2" fill="#e1a26f" stroke="#a34616" stroke-width=".08"/>
+<rect x="9" y="6.7" width="1.2" height="5.3" fill="#e1a26f"/><rect x="19.8" y="6.7" width="1.2" height="5.3" fill="#e1a26f"/>
+<rect x="8" y="12" width="14" height="3" fill="#e1a26f" stroke="#a34616" stroke-width=".08"/>
+<rect x="9" y="15" width="14" height="1.5" fill="#b3c9dc" stroke="#24547c" stroke-width=".08"/>
+<rect x="9" y="4.95" width="12" height=".55" fill="#9dcc99" stroke="#52844c" stroke-width=".06"/>
+<path d="M12 16.5V11.5M18 16.5V11.5" stroke="#444" stroke-width=".15"/>
+</g>
+<g font-size="13"><text x="560" y="198">Outside Z45.5</text><text x="560" y="224">Insert underside Z44.0</text><text x="560" y="265">Bridge cap:14 ×10 ×3</text><text x="560" y="290">Two webs:1.2 ×10 ×5.3</text><text x="560" y="335">Foot:12 ×10 ×1.2; lower faceZ34.5</text><text x="560" y="390">Qualified insulating pad; actual gap0.55..1.3</text><text x="560" y="445">Module maximum topZ33.95; PCB topZ30.6</text><text x="560" y="490">Two M2×5 countersunk screws at(87,67),(93,67).</text><text x="560" y="512">3mm cap permits1.5D thread engagement; pilot/tap detail pending.</text></g>
+<text x="555" y="550" font-size="17">Battery and wrist isolation</text><text x="555" y="576" font-size="13">Bridge stays abovePCB; no conductive link to cells or floor.</text><text x="555" y="598" font-size="13">Existing pack/PCB air separation and1.7mm bottom foam remain.</text><text x="35" y="645" font-size="14">Thermal target: measured MCU-shield→insert≤5K/W; this is a local path, not a whole-case isothermal assumption.</text><text x="35" y="668" font-size="14">Candidate mass: ~26.5g Al before holes; removed PA12~8g; net addition~18.5g plus gasket/pad/fasteners.</text><text x="35" y="696" font-size="13">Review gates: gasketed roof capture, pad pressure/height, contact resistance, EMC, exposed-metal touch limit and full workload fixture test.</text>
+</g></svg>

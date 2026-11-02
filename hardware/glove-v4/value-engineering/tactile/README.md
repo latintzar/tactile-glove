@@ -1,0 +1,84 @@
+# V4 tactile cost reduction: PVDF, pressure cells, and harness
+
+**Checked:** 2026-10-23
+**Scope:** one right-hand V4 glove; 20 independent PVDF vibration channels at 4 kHz/channel and 20 independent pressure locations at 50 Hz/channel.
+**Purpose:** identify a commercially sourceable, lower-cost construction while preserving the existing six keyed GH branch interfaces and 20+20 channel contract.
+**Purchase status:** research only; no purchase, supplier outreach, or canonical hardware change.
+
+## Decision
+
+The closest low-risk alternate is a 28 µm poled PVDF sheet with screen-printed silver ink from PolyK, selected as the 200 × 135 mm variant of SKU `PVDF-Ag-120u-A`. The product page lists 28 µm film, 5 µm silver ink, d31 >25 pC/N, d33 >20 pC/N, and compatibility with TE `1-1004347-0`; it displays **$180** before the stated **$30 international UPS** charge. The exact thickness/size variant price, current stock, VAT, and Bulgaria landed cost need a cart or quote check. The electrical and attachment construction remains the same class as the current TE sheet, so this is the first alternate to coupon. The displayed amount is the full sheet purchase cash outlay; unused area is not treated as free material or a per-glove saving.
+
+TE/MEAS `LDT0-028K` (`1002794-0`, distributor alias `11028362-00`) is rejected as a same-capability cost win pending fit. HESTORE lists **€5.660 each at quantity 20**, or **€113.20 for 20**, with more than 10 in stock and more than 2,000 on a 10–15 working-day route. The part retains 28 µm PVDF and screen-printed silver electrodes but changes the mechanical stack to a 125 µm polyester substrate plus protective coating, a 13 × 25 mm film outline, approximately 205 µm total thickness, and 0.5 nF typical capacitance. It is a coupon-only fallback. Its theoretical €70.99 difference against the observed €184.19 TE sheet is excluded from the released-glove savings target because the 13 × 25 mm / 205 µm construction is not the current 10 × 14 mm bare-film / 40 µm design class.
+
+The LDT candidate is a process-saving pilot, not an assumed drop-in. The current V3/V4 cell calls for a 10 × 14 mm bare-film blank, a 40 µm finished TE silver-ink sheet, staggered opposite-face tab joints, and a pressure stack beneath the PVDF. The LDT part has a 125 µm polyester carrier, larger outline, fixed contacts, and a different bending boundary condition. Its candidate cell is roughly 165 µm thicker than the current 40 µm sheet. Preserve all 20 channels only after footprint fit, comfort, pressure/PVDF cross-talk, 4 kHz response, polarity, continuity, and flex endurance pass on the actual glove; until then, count no LDT saving.
+
+There is no manufacturer-verified evidence in this bounded search for a three-times cheaper, same-construction PVDF sheet. The useful low-risk cash-outlay candidate is the lead wire: Adafruit sells 30 AWG stranded silicone wire in 2 m pieces and 50 ft spools with 0.8 mm OD, inside the JST GH contact window. Quote six pre-terminated GH branch harnesses and a 20-cell cut/lead-prep service as the remaining route to a complete-device reduction. Keep the GH connector pin map unchanged.
+
+## Current area and cost baseline
+
+The local V3 starting files carried into V4 define 20 PVDF blanks at 10 × 14 mm, for **2,800 mm²** of film. TE `1-1004347-0` is an 8 × 5.5 in (203 × 140 mm) sheet, with 28 µm PVDF and 40 µm finished thickness for the silver-ink version. Gross sheet utilization is therefore **9.85%**; using the 190 × 127 mm silver-electrode area gives **11.60%**. The geometry is area-inefficient because the purchase is a general-purpose sheet, not because the 20 locations need a large electrical active area. A 200 × 135 mm sheet has 27,000 mm² gross area and raises ideal utilization only to **10.37%**; area alone cannot produce a 3× saving.
+
+The retained procurement observation is **€184.19 per TE sheet**, with stock and price captured 2026-10-22 and current stock unresolved. TE’s current product page identifies the matching product family as `1-1004347-0-M` / internal `11027667-00`, “28UM AG INK FILM 8 X 5.5”, and currently directs buyers to distributor inventory. Farnell’s current listing showed 12 pieces, a 43-week manufacturer lead-time field, and €264.89 ex VAT at quantity one; its quantity-50 price was €184.36 ex VAT. Treat both as live observations with distributor and date risk, not as a stable contract price. Every sheet price is a full purchase cash outlay; the 2,800 mm² allocated blank area is a planning measure, not a material saving.
+
+## Candidate comparison
+
+| Candidate | Evidence and buy signal | Construction relative to current cell | Cost for one glove | Decision |
+|---|---|---|---:|---|
+| TE/MEAS `1-1004347-0` / `1-1004347-0-M` | 28 µm PVDF, silver ink, 8 × 5.5 in; retained observation €184.19/sheet; TE page and Farnell listing | Baseline: bare pre-metallized sheet, 40 µm finished silver-ink thickness; two epoxy tab joints per cell | €184.19 sheet purchase | Keep as reference coupon and price baseline |
+| PolyK `PVDF-Ag-120u-A`, 200 × 135 mm, 28 µm option | Manufacturer shop page; 5 µm screen-printed silver; d31 >25 pC/N, d33 >20 pC/N; $180 displayed; $30 international UPS stated; exact option stock/price open | Same 28 µm / silver-ink class; sheet size is 200 × 135 mm; use current two-face tabs and 8331D attachment after coupon | $180 + $30 stated shipping, VAT unknown; full sheet purchase | **Primary alternate**; verify variant, lot, CoC, polarity, and landed price |
+| TE/MEAS `LDT0-028K` (`1002794-0`, `11028362-00`) | TE catalog confirms product; HESTORE lists €6.669 each, €5.660 at 20, >10 in stock and >2,000 in 10–15 working days | 28 µm silver PVDF on 125 µm polyester, protective coating, crimp contacts; 13 × 25 mm outline; 205 µm total and 0.5 nF typical | €113.20 for 20, shipping unknown; full lot purchase | **Rejected same-capability fit; coupon only** |
+| PolyK `PVDF-CuNi-P0028` | $225 displayed; 28 µm + 80 nm Cu/Ni option; 180 × 270 mm; d31 29–31 pC/N, d33 >20 pC/N; $50 international shipping stated | Bare poled sheet but sputtered Cu/Ni electrode; thinner electrode, strong adhesion; Cu/Ni is more brittle than silver ink under repeated mechanical stress | $225 + $50 stated shipping, VAT unknown | Technical alternate; no price advantage and higher flex-attachment risk |
+| Precision Acoustics poled PVdF | Manufacturer page offers 17 × 18 cm or 34 × 10 cm, 28/40/80/200 µm, with or without Cr-Au; mechanical crimp/fold or silver epoxy attachment described | Bare poled uniaxial film; coating, electrode stack, price, MOQ, stock, and shipping depend on enquiry | Quote required | Quote path for a smaller-area source; no price claim |
+| Generic 20 × 200 mm “silver PVDF” marketplace film | Retail listing gives $123.49 but no manufacturer datasheet, polarization certificate, d31/d33, controlled electrode construction, or traceable MPN | Evidence is insufficient to establish poled/metallized equivalence | Unusable as a verified source | Exclude from cost model |
+
+## Pressure media and electrodes
+
+Adafruit `1361` is a 280 × 280 mm, 0.1 mm, pressure-sensitive conductive sheet listed at **$4.95** (quantity 10–99 $4.46, 100+ $3.96). The page currently reports out of stock. It gives <500 Ω·cm volume resistivity and <31,000 Ω/sq surface resistivity, but the product is a hobby material with batch and hysteresis variation. One sheet has ample area for 20 separate 8 × 10 mm islands; qualify resistance-versus-force on the selected batch before production. For one glove, the cash outlay is the full purchased sheet unless a supplier quotes cut pieces from its stock.
+
+Adafruit `1168` is a 200 × 200 mm woven copper/nickel-plated polyester fabric, listed at **$4.95** and currently shown in stock. The product description gives less than 1 Ω/ft in any direction. One sheet has ample area for 40 separate 8 × 10 mm pressure electrodes (3,200 mm² total, 8% ideal area use). This is the most economical exact electrode source found; retain perimeter-only bonding and batch continuity checks. The $4.95 is the one-glove purchase cash outlay; area allocation is not a saving.
+
+Adafruit `1167` silver-plated knit fabric is listed at **$9.95** for 200 × 200 mm and less than 1 Ω/ft, but the current Adafruit page reports out of stock. It is a viable comfort/elasticity comparison coupon and is not required for the first cost build.
+
+## Leads, attachment, harness, and labor
+
+Alpha Wire `5851 BK005` remains a technically appropriate lead source: 30 AWG, 7/38 stranded silver-plated copper, PTFE, 100 ft (30.48 m), 600 V, 200 °C maximum. Mouser currently lists **$143.30** per 100 ft spool with 7 in stock and a 12-week factory lead-time field for larger replenishment; DigiKey lists the same electrical construction and **$166.10**. A 100 mm average lead length for 80 cell leads consumes 8.0 m and allocates about **$37.61** of the Mouser spool; 150 mm consumes 12.0 m and allocates about **$56.42**. Measure the actual route before choosing a cut length. For a one-glove purchase, the cash outlay is the full **$143.30** spool. The 8–12 m figures are allocation planning only and are not savings.
+
+Adafruit `2051` is a lower-cost same-interface candidate for a few-meter build: the manufacturer page lists 30 AWG stranded silicone wire, 2 m length, 0.8 mm outside diameter, 331 Ω/km resistance, -60 to 200 °C, and nominal 600 V at **$0.75** per piece (quantity breaks $0.68 at 10–99 and $0.60 at 100+). Adafruit also lists 50 ft versions such as `3164` at **$4.95**. JST’s official GH contact specification for `SSHL-002T-P0.2` accepts AWG 30–26 and insulation OD 0.76–1.0 mm, so 30 AWG / 0.8 mm is inside the specified crimp window. The fetched Adafruit page does not publish conductor metal or strand count, so qualification must include crimp bellmouth/strain-relief inspection, pull force, bend cycling at the GH exit, continuity/isolation, and the existing pin-map check. Six 2 m color pieces would provide 12 m for **$4.50** at unit pricing if the selected colors are available; a pair of 50 ft spools would be **$9.90**. Against the full **$143.30** Alpha spool cash outlay, those purchases reduce the material cash outlay by **$138.80** or **$133.40** respectively before freight/VAT. Charge the full purchased pieces/spools to the one-glove build.
+
+MG Chemicals `8331D-14G` is a 1:1 silver conductive epoxy with room-temperature cure. Current distributor observations range from about **$130.37** to **$210.55** per 14 g syringe, with stock and export restrictions varying. Forty controlled tab dots use a small fraction of a syringe; for a one-glove purchase, the cash outlay is the full syringe unless the assembler quotes use from its stock. Dot mass is a separate allocation metric, not a saving. A mechanical crimp/fold attachment is a documented alternative for metallized PVdF and can remove the 40-dot dispense/cure operation, but it needs a tab fixture, pull test, flex test, and contamination/short inspection before adoption.
+
+The current factory scope asks for six keyed tactile harnesses, 20 PVDF lead-prep subassemblies, and 20 tactile laminate cut kits. The lowest-risk labor reduction is to retain the existing `GHR-06V-S` ×1, `GHR-08V-S` ×4, `GHR-14V-S` ×1 and `SSHL-002T-P0.2` ×52 electrical interface and request a supplier quote for six continuity-tested, label-ready branch harnesses. The quote should state six branch quantities, 80 cell-lead tails, the existing pin map, adjacent-isolation test, and per-branch inspection record. This removes repeated hand crimp/label/continuity work without changing the board.
+
+For any PVDF cut service, retain the same two PVDF signal/return conductors in each four-wire cell bundle and preserve the current branch map. For the LDT coupon, the supplier or integrator must document how its contacts are terminated to the existing harness wire and provide pull/continuity/isolation results. The LDT’s crimp tabs are a process advantage only if the contact-to-wire operation is faster and more reliable than the current silver-epoxy joint.
+
+## Cost interpretation
+
+| Item | Current observation | Lower-cost evidence | Savings signal |
+|---|---:|---:|---|
+| PVDF sheet or 20 vibration elements | €184.19 TE sheet cash outlay | €113.20 for 20 LDT0-028K parts at HESTORE quantity 20 | Theoretical €70.99 difference; **€0 counted** pending same-class fit |
+| Same-class bare PVDF sheet | €184.19 TE sheet | PolyK $180 200 × 135 mm 28 µm silver option + stated $30 international UPS | Possible modest saving after FX/VAT; exact variant price and stock open |
+| Pressure substrate | unresolved in local BOM | Adafruit 1361 $4.95, presently out of stock | Very small absolute cost; batch properties need qualification |
+| 40 pressure electrode pieces | unresolved in local BOM | Adafruit 1168 $4.95, presently shown in stock | Very small absolute cost; 1 sheet covers the glove |
+| 80 short leads | unresolved allocation | Alpha 5851 100 ft spool **$143.30 cash outlay**; 8–12 m allocation ≈$37.61–$56.42 | Allocation is planning only; Adafruit 2 m pieces or 50 ft spools are the lower-cash candidate pending crimp test |
+| 80 short leads | Alpha 5851 $143.30 spool | Adafruit `2051` 2 m pieces at $0.75 each, or `3164` 50 ft spool at $4.95 | Same JST GH AWG/OD window; full purchased length charged; conductor construction needs supplier confirmation |
+| 40 PVDF lead joints | MG 8331D full syringe purchase unresolved | 14 g syringe; current distributor observations ~$130–$210 | Full syringe cash outlay unless factory quotes stock use; dot allocation is separate; labor and cure handling matter more |
+| Six branch harnesses | supplier quote unresolved | Same exact housing/contact MPNs, factory pre-terminated and continuity tested | Quote labor reduction; price remains an open supplier input |
+
+The evidence supports a lower cash outlay from Adafruit 30 AWG wire versus the full Alpha spool, while preserving the JST GH contact size/OD window pending crimp and bend qualification. The LDT’s €71 difference is a theoretical comparison only and contributes **zero** to the released-glove target until its 13 × 25 mm / 205 µm stack passes fit. PolyK may offer a modest same-class sheet saving if the 28 µm / 200 × 135 mm variant is confirmed, but the full sheet purchase remains chargeable. The complete-device 3× target needs a factory labor quote and process change; PVDF area allocation alone does not support it.
+
+For a one-glove build, charge the whole purchased sheet, wire piece/spool, fabric sheet, or epoxy syringe unless the assembler quotes a cut length or consumable use from its own stock. Consumption allocations stay in the model as planning metrics and are never counted as purchase savings.
+
+## Qualification gates
+
+1. Buy or obtain one current TE reference coupon, two PolyK 28 µm silver sheet coupons, and two LDT0-028K units. Record lot/date, thickness, dimensions, electrode construction, and polarity direction before assembly.
+2. Build the same 8 × 10 mm pressure cell under each PVDF option. For PolyK, keep the 10 × 14 mm blank and staggered opposite-face tabs. For LDT, preserve the full contact area first; test a paper fit against every finger, thumb, palm, and heel position before trimming any part.
+3. Measure open-circuit pulse amplitude, polarity, capacitance, leakage, and noise with the same impact fixture and 4 kHz acquisition path. Compare each candidate to the TE reference at all 20 channel inputs.
+4. Measure pressure force response, hysteresis, repeatability, and PVDF-to-pressure cross-talk at the same 20 locations. Record local thickness and crease clearance.
+5. Run continuity, adjacent isolation, shared VEXC/GND return, branch-map, and contact pull checks on the full six-harness arrangement. Keep the existing six GH sockets and pin map.
+6. Crimp the Adafruit 30 AWG / 0.8 mm wire into `SSHL-002T-P0.2`; inspect bellmouth and insulation support, pull the contact, cycle the branch at the GH exit, and repeat continuity/isolation checks. Preserve the existing labels, pin map, and four-wire cell bundle.
+7. Flex the assembled coupon and inspect silver/electrode/contact joints, cover, and strain relief at the chosen bend radius. Release a replacement only after the measured signal, comfort, and joint survival meet the TE reference acceptance record.
+
+## Source status and open quote fields
+
+Source URLs, extracted fields, evidence class, and unresolved fields are in [`sources.json`](sources.json). Open fields are: PolyK exact variant price/stock and lot certificate; Bulgaria VAT and delivery for all US/UK sources; HESTORE shipping; current TE distributor stock; Adafruit conductor metal/strand construction and Bulgaria shipping; Precision Acoustics quotation; Adafruit 1361 replenishment; a pre-cut 28 µm silver-metallized PVDF quote; and factory pricing for pre-terminated harnesses and PVDF lead-prep service.

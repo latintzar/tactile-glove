@@ -1,0 +1,37 @@
+TPS63070 original TI model with allocated external battery impedance and actual EN divider
+* Input/output capacitor ESR5mohm is an explicit engineering assumption.
+* 190mohm includes pack leads, contacts, fuse, BATFET and PCB. Cell internal impedance excluded.
+* Includes C_BAT and both C_SYS reservoirs at24uF effective each; local input ceramics omitted conservatively.
+* Upstream source is protected-pack output, not the post-fuse firmware measurement.
+.include [original source path]/TPS63070_TRANS.LIB
+Vbat pack 0 PWL(0 0 20u 0 21u 3.55)
+Rupstream pack bat 0.160
+Rbatcap bat batcap 0.005
+Cbat batcap 0 24u
+Rbatfet bat in 0.030
+Ren_top in en 300k
+Ren_bottom en 0 100k
+XU en fb 0 0 l1 l2 pg 0 0 aux in in out out 0 TPS63070_TRANS
+L1 l1 lr 1.2u
+R1 lr l2 0.0144
+Rcin in cin_node 0.005
+CIN cin_node 0 48u
+Rcout out cout_node 0.005
+CO cout_node 0 60u
+CA aux 0 100n
+Rtop out fb 327k
+Rbottom fb 0 100k
+Rpg out pg 100k
+RBASE out 0 341.6
+ILOAD out 0 PWL(0 0 400u 0 401u 0.25 600u 0.25 601u 1.0 750u 1.0 751u 0.25)
+.options method=gear maxord=1 reltol=0.003 abstol=1n vntol=10u trtol=7 gmin=1e-10 itl4=5000 gminsteps=100 srcsteps=100
+
+.control
+set noaskquit
+save v(bat) v(out) v(in) v(pack) v(en) v(pg) i(l1) i(vbat) v(xu.fault) v(xu.enlogic)
+tran 100n 900u 0 100n
+linearize v(out) v(in) v(pack) v(en) v(pg) i(l1) i(vbat) v(xu.fault) v(xu.enlogic)
+wrdata buck_path_network_start.txt v(out) v(in) v(pack) v(en) v(pg) i(l1) i(vbat) v(xu.fault) v(xu.enlogic)
+quit
+.endc
+.end

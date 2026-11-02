@@ -1,0 +1,264 @@
+{
+  "baseline": {
+    "currency": "USD",
+    "lines": [
+      {
+        "categories": [
+          "main_pcba"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "hand_imu_pcba"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "pvdf_material"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "pressure_material"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "electrode_material"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "wire_and_harness"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "sensor_attachment_and_prep"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "camera"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "battery_and_temperature_sensors"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "storage_card"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "enclosure_and_hardware"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "factory_programming_and_test"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "shipping"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "tax_and_import_fees"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      }
+    ]
+  },
+  "cost_reduced": {
+    "currency": "USD",
+    "lines": [
+      {
+        "categories": [
+          "main_pcba"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "hand_imu_pcba"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "pvdf_material"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "pressure_material"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "electrode_material"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "wire_and_harness"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "sensor_attachment_and_prep"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "camera"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "battery_and_temperature_sensors"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "storage_card"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "enclosure_and_hardware"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "factory_programming_and_test"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "shipping"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      },
+      {
+        "categories": [
+          "tax_and_import_fees"
+        ],
+        "cash_amount": null,
+        "status": "unquoted",
+        "currency": "USD",
+        "evidence": null
+      }
+    ]
+  }
+}

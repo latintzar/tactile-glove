@@ -1,0 +1,16 @@
+{
+  "source": "canonical-250pC.csv",
+  "source_sha256": "6d81ccf86cfb76183ad68edff2e6bd25e430fb06f8ae36899938425a46c66a5f",
+  "full_trace_sha256": "ca6b7bd264abbb0f69f75cb82b67a4c53ea13ba15fed691e2f141593dde1a481",
+  "netlist_sha256": "0710f8db297cd2141e053226bbe8fcea1cb57c87a43c461e28d16679be05bf48",
+  "fixture_sha256": "92a8ea0e8100aa698586144a277f1971ae09d8190c4b560c5ba297f794af3d3b",
+  "sample_rate_hz": 4000,
+  "samples": 520,
+  "adc_reference_v": 3.0,
+  "midpoint_v": 1.25,
+  "input_charge_pC": 250,
+  "input_starts_s": 0.01,
+  "source_window_start_s": 0.07,
+  "input_kind": "electrical current pulse injecting250pC at80ms into531pF PVDF plus150pF cable, both returning toGND;100k input+BAV199 clamps; full20-locationpassive/net topology verified",
+  "interpretation": "Modeled electrical waveform, not measured material or pressure. Full-resolution SPICE trace sampled at4kHz after70ms startup; nominal differential signed16-bit quantization. Initial node guesses released during transient; pre-stimulus baseline retains approximately0.34mV solver/startup settling."
+}

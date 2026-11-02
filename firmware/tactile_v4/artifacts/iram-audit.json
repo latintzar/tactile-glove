@@ -1,0 +1,86 @@
+{
+  "status": "pass",
+  "functions": [
+    {
+      "symbol": "void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)",
+      "address": "0x403786d0",
+      "bytes": 1181,
+      "calls": [
+        {
+          "name": "esp_rom_delay_us",
+          "address": "40000600",
+          "region": "ROM"
+        },
+        {
+          "name": "esp_rom_delay_us",
+          "address": "40000600",
+          "region": "ROM"
+        },
+        {
+          "name": "esp_rom_delay_us",
+          "address": "40000600",
+          "region": "ROM"
+        },
+        {
+          "name": "esp_rom_delay_us",
+          "address": "40000600",
+          "region": "ROM"
+        },
+        {
+          "name": "memcpy",
+          "address": "400011f4",
+          "region": "ROM"
+        },
+        {
+          "name": "esp_timer_get_time",
+          "address": "40378504",
+          "region": "IRAM"
+        },
+        {
+          "name": "memcpy",
+          "address": "400011f4",
+          "region": "ROM"
+        }
+      ]
+    },
+    {
+      "symbol": "tick(gptimer_t*, gptimer_alarm_event_data_t const*, void*)",
+      "address": "0x40378b78",
+      "bytes": 114,
+      "calls": [
+        {
+          "name": "esp_timer_get_time",
+          "address": "40378504",
+          "region": "IRAM"
+        },
+        {
+          "name": "__udivdi3",
+          "address": "40002544",
+          "region": "ROM"
+        },
+        {
+          "name": "void V4::Acquisition::capture<V4::Adc>(unsigned long long, unsigned long, V4::Adc&)",
+          "address": "403786d0",
+          "region": "IRAM"
+        },
+        {
+          "name": "gptimer_get_raw_count",
+          "address": "40382710",
+          "region": "IRAM"
+        },
+        {
+          "name": "__udivdi3",
+          "address": "40002544",
+          "region": "ROM"
+        },
+        {
+          "name": "gptimer_set_alarm_action",
+          "address": "40382750",
+          "region": "IRAM"
+        }
+      ]
+    }
+  ],
+  "no_atomic_lock_helpers_in_capture_or_tick": true,
+  "scope": "Call targets of capture and tick; selected GPTIMER implementation is enabled as IRAM-safe. This is not measured cycle timing."
+}
