@@ -4,7 +4,7 @@ Artisan Glove is a work-glove design for recording surface texture, hand contact
 
 [Website](https://atelierneyra.com/hardware/tactile-glove) · [Documentation](https://docs.atelierneyra.com/tactile-glove/overview/)
 
-![Fitted work glove with its central cuff camera aimed toward the working hand](https://atelierneyra.com/hardware/tactile-glove/media/refined-20261103/workbench.webp)
+![Fitted white work glove with its green pull tab and central cuff camera aimed toward the working hand](https://atelierneyra.com/hardware/tactile-glove/media/white-tab-20261103/workbench.webp)
 
 The glove lets people collect touch data while they work. Contact-vibration sensors record the response as fingers move across a surface; pressure readings and video add context.
 
