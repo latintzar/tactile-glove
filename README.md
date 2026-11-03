@@ -4,9 +4,9 @@ Artisan Glove is a sensing-glove design for recording hand contact, vibration an
 
 [Website](https://atelierneyra.com/hardware/tactile-glove) · [Documentation](https://docs.atelierneyra.com/tactile-glove/overview/)
 
-![Artisan Glove product concept](assets/glove-concept.webp)
+![Artisan Glove concept at a watchmaking bench](https://atelierneyra.com/hardware/tactile-glove/media/image-first-20261103/watchmaking-concept.webp)
 
-*Product concept.* The dimensioned V4 engineering enclosure is a separate design you can inspect in the local viewer.
+*Concept.*
 
 Twenty sensing locations combine pressure-sensitive film and PVDF vibration sensors. Two IMUs distinguish wrist/camera motion from the hand; an ESP32-S3 records timestamped streams and camera frames to microSD, with USB, Wi-Fi and a browser monitor for inspection. It is a reusable engineering project for people building tactile capture hardware, signal-processing experiments and wearable acquisition systems.
 
@@ -28,6 +28,12 @@ Twenty sensing locations combine pressure-sensitive film and PVDF vibration sens
 This is a **source beta and engineering design in progress**. The ESP32-S3 target image was compiled; fresh host checks execute 34 core cases, 13 HTTP cases, 32 protocol/piezo cases and 9 camera-driver cases. The current 561-component V4 board has **20 unconnected items and zero saved physical DRC errors**. Its dorsal IMU tile includes fabrication outputs; the main board awaits routing and manufacturing qualification.
 
 An assembled V4 glove, simultaneous acquisition/camera/radio timing, force calibration, enclosure acceptance and six-hour endurance remain physical validation steps. Rates below describe implementation settings and design targets. [Status and evidence](docs/status.md) distinguish each stage.
+
+![Native V4 main-board layout](https://atelierneyra.com/hardware/tactile-glove/media/image-first-20261103/v4-board-front.webp)
+
+*Native V4 main-board layout.*
+
+The dimensioned V4 engineering enclosure is a separate design you can inspect in the local viewer.
 
 | Stream | Implementation setting |
 |---|---|
