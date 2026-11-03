@@ -1,10 +1,10 @@
 # Artisan Glove
 
-Artisan Glove is a work-glove design for recording surface texture, hand contact and video.
+Artisan Glove is a precision glove design for recording surface texture, contact and video.
 
 [Website](https://atelierneyra.com/hardware/tactile-glove) · [Documentation](https://docs.atelierneyra.com/tactile-glove/overview/)
 
-![Fitted white work glove with its green pull tab and central cuff camera aimed toward the working hand](https://atelierneyra.com/hardware/tactile-glove/media/white-tab-20261103/workbench.webp)
+![Thin white nitrile precision glove recording surface texture, with its green cuff tab and hand-facing camera](https://atelierneyra.com/hardware/tactile-glove/media/precision-20261103/texture.webp)
 
 The glove lets people collect touch data while they work. Contact-vibration sensors record the response as fingers move across a surface; pressure readings and video add context.
 
@@ -20,7 +20,7 @@ Twenty sensing locations combine pressure-sensitive film and PVDF vibration sens
 
 | Area | What you can do |
 |---|---|
-| Cuff design | Rotate, open and explode the housing; inspect its camera, battery, connectors, component envelopes and individual parts. |
+| Cuff design | Inspect the enclosure geometry, camera, battery, connectors, component envelopes and individual parts. |
 | Sensing glove | Follow the twenty pressure/PVDF locations, material stack, cut patterns and keyed harness. |
 | Electronics | Edit the native KiCad main board and schematics, dorsal IMU tile, footprints, component lists and net mappings. |
 | Firmware | Inspect acquisition timing, bus ownership, power transitions, camera deadlines, storage, packet formats and the device browser UI. |
@@ -33,9 +33,7 @@ This is a **source beta and engineering design in progress**. The ESP32-S3 targe
 
 An assembled V4 glove, simultaneous acquisition/camera/radio timing, force calibration, enclosure acceptance and six-hour endurance remain physical validation steps. Rates below describe implementation settings and design targets. [Status and evidence](docs/status.md) distinguish each stage.
 
-![Native V4 enclosure CAD and component layout](https://atelierneyra.com/hardware/tactile-glove/media/cuff-engineering.webp)
-
-The native V4 enclosure and component envelopes are the dimensioned engineering design. The workbench image visualises the intended work glove and centrally aimed camera. [Design history](docs/design-history.md) and the [original front-copper plot](https://atelierneyra.com/hardware/tactile-glove/media/image-first-20261103/v4-board-front.webp) preserve the engineering record.
+The thin-glove appearance and surgery/sport scenes are design studies. The [website's sensing view](https://atelierneyra.com/hardware/tactile-glove#sensing) illustrates the twenty documented locations using the same hand photograph. [Design history](docs/design-history.md) records the native V4 geometry and actual validation stage.
 
 | Stream | Implementation setting |
 |---|---|
