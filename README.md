@@ -4,7 +4,7 @@ Artisan Glove is a precision glove for recording surface texture, contact and vi
 
 [Website](https://atelierneyra.com/hardware/tactile-glove) · [Documentation](https://docs.atelierneyra.com/tactile-glove/overview/)
 
-![Textured black nitrile precision glove with its graphite wrist cuff and forest-green tab feeling wood grain](https://atelierneyra.com/hardware/tactile-glove/media/black-nitrile-20261103/texture.webp)
+![Left hand wearing a textured black nitrile glove and compact matte-black cuff with a forest-green tab, touching wood](https://atelierneyra.com/hardware/tactile-glove/media/left-glove-20261103/texture.webp)
 
 The glove lets people collect touch data while they work. The current exploration is a flexible, textured black nitrile glove targeting thousands of taxels across the hand, with recording electronics and a camera at the wrist.
 
