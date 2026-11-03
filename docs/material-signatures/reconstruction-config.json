@@ -1,0 +1,29 @@
+{
+  "schema": "qualitative-spectral-reconstruction-1",
+  "source_class": "Peter's recollection of a successful live piezo spectral comparison, recorded 2026-11-03",
+  "grid": {"width": 640, "height": 440},
+  "coordinate_meaning": "Uncalibrated drawing coordinates. Common centre and feature sizes illustrate verbal recollection; they do not encode recorded time, frequency, bandwidth, amplitude, SNR or material statistics.",
+  "materials": [
+    {
+      "id": "sandpaper",
+      "material": "Sandpaper",
+      "recalled_observation": "the biggest bright point int he middle",
+      "schematic_width": 0.105,
+      "schematic_height": 0.080
+    },
+    {
+      "id": "wood",
+      "material": "Wood",
+      "recalled_observation": "smallthin bright thing",
+      "schematic_width": 0.065,
+      "schematic_height": 0.010
+    },
+    {
+      "id": "aluminium",
+      "material": "Aluminium",
+      "recalled_observation": "small-medium bright thing",
+      "schematic_width": 0.075,
+      "schematic_height": 0.038
+    }
+  ]
+}
