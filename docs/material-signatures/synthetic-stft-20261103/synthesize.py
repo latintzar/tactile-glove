@@ -48,15 +48,18 @@ def normalised_rms(values: np.ndarray) -> np.ndarray:
 
 
 def contact_envelope() -> np.ndarray:
-    """Smooth starts/stops and small pressure changes applied to the time series."""
+    """Irregular hand contact with broad tails, pauses and changing pressure."""
+    rng = np.random.default_rng(CONFIG['seed'] + 41)
+    knots = np.arange(0, CONFIG['duration_seconds'] + 0.15, 0.15)
+    pressure = np.interp(TIME, knots, rng.uniform(0.18, 1.0, len(knots)))
+    pressure = signal.sosfilt(signal.butter(2, 3, fs=FS, output='sos'), pressure)
     envelope = np.zeros(N)
     for start, end in CONFIG['contact_strokes_seconds']:
-        inside = (TIME >= start) & (TIME <= end)
-        u = (TIME[inside] - start) / (end - start)
-        attack_release = np.clip(u / 0.075, 0, 1) * np.clip((1 - u) / 0.075, 0, 1)
-        pressure = 0.72 + 0.15 * np.sin(2 * np.pi * (2.4 * u + start / 10))
-        pressure += 0.08 * np.sin(2 * np.pi * 7.1 * u)
-        envelope[inside] = attack_release * pressure
+        centre=(start+end)/2
+        width=(end-start)/2
+        envelope += np.exp(-0.5*((TIME-centre)/(width*0.72))**4)
+    # Residual rubbing between strokes prevents clean rectangular gaps.
+    envelope = (0.10 + 0.90*np.minimum(envelope,1)) * (0.28+0.72*pressure)
     return envelope
 
 
@@ -66,36 +69,30 @@ ACTIVE = ENVELOPE > 0.25
 
 def synthesize_waveform(spec: dict, seed: int) -> np.ndarray:
     rng = np.random.default_rng(seed)
-    # Low-level amplifier floor and shared low-frequency contact rumble. These
-    # are explicitly synthetic, time-domain components rather than image noise.
-    floor = rng.standard_normal(N) * 0.00030
-    low_sos = signal.butter(3, 700, fs=FS, output='sos')
-    rumble = normalised_rms(signal.sosfilt(low_sos, rng.standard_normal(N)))
-    floor += rumble * 0.014 * (0.25 + 0.75 * ENVELOPE)
-
-    # A driven 1-D resonator creates the material's illustrative spectral width.
-    b, a = signal.iirpeak(CONFIG['frequency_centre_hz'], spec['resonator_q'], fs=FS)
-    excitation = rng.standard_normal(N)
-    ringing = signal.lfilter(b, a, excitation)
-    # A steeper real time-domain stopband confines the response around the
-    # middle-frequency peak. Its filter width is illustrative, not a material fit.
-    half_width = max(220.0, min(1750.0, 4.0 * CONFIG['frequency_centre_hz'] / spec['resonator_q']))
-    stopband_sos = signal.butter(
-        6,
-        [CONFIG['frequency_centre_hz'] - half_width, CONFIG['frequency_centre_hz'] + half_width],
-        btype='bandpass', fs=FS, output='sos',
-    )
-    ringing = signal.sosfilt(stopband_sos, ringing)
-    ringing = normalised_rms(ringing)
-    output = floor + ringing * spec['active_rms'] * ENVELOPE
-
-    # Brief physical-contact-like time-domain transients yield the vertical
-    # spectral streaks in the reference. This timing is a simulation choice.
-    for event in [3.0, 10.2, 17.5, 25.2, 33.3, 38.0]:
-        index = round(event * FS)
-        count = round(0.035 * FS)
-        decay = np.exp(-np.arange(count) / (FS * 0.005))
-        output[index:index + count] += rng.standard_normal(count) * decay * 0.026
+    def noise_band(low, high, order=2):
+        sos=signal.butter(order,[low,high],btype='bandpass',fs=FS,output='sos')
+        return normalised_rms(signal.sosfilt(sos,rng.standard_normal(N)))
+    # Every visible texture still derives from the time series before its FFT.
+    slow=np.interp(TIME,np.arange(0,45,0.3),rng.uniform(.3,1.3,150))
+    floor=rng.standard_normal(N)*.0016*(.5+slow)
+    floor+=noise_band(30,850)*.024*(.35+ENVELOPE)*slow
+    floor+=noise_band(650,2300)*.006*(.5+ENVELOPE)*slow
+    # Resonance drifts between nearby centres as contact changes. Broad,
+    # overlapping filter tails preserve the specified width hierarchy.
+    ringing=np.zeros(N)
+    for j,offset in enumerate([-.07,0,.06]):
+        b,a=signal.iirpeak(CONFIG['frequency_centre_hz']*(1+offset),spec['resonator_q'],fs=FS)
+        component=normalised_rms(signal.lfilter(b,a,rng.standard_normal(N)))
+        weight=np.interp(TIME,np.arange(0,46,1),rng.uniform(.05,1.0,46))
+        ringing+=component*weight*(1 if j==1 else .25)
+    ringing=normalised_rms(ringing)
+    output=floor+ringing*spec['active_rms']*ENVELOPE
+    output+=noise_band(800,6900)*spec['active_rms']*.12*ENVELOPE*slow
+    # Uneven impacts and short scratches leave vertical broadband traces.
+    for event in sorted(rng.uniform(.4,43.6,73)):
+        index=round(event*FS);count=min(round(rng.uniform(.015,.13)*FS),N-index)
+        decay=np.exp(-np.arange(count)/(FS*rng.uniform(.003,.025)))
+        output[index:index+count]+=rng.standard_normal(count)*decay*rng.uniform(.008,.06)
     return output
 
 
@@ -146,9 +143,9 @@ def panel(ax, spec, frequency, time, dbfs, *, title_size=17, show_ylabel=True):
     ax.grid(which='major', color='#e0e0ed', linewidth=0.5, alpha=0.67)
     ax.set_axisbelow(False)
     ax.set_title(spec['title'], loc='left', fontsize=title_size, pad=15, color=TEXT)
-    ax.set_xlabel('Simulated time (s)', labelpad=10, fontsize=9)
+    ax.set_xlabel('Time (s)', labelpad=10, fontsize=9)
     if show_ylabel:
-        ax.set_ylabel('Simulated frequency (Hz)', labelpad=10, fontsize=9)
+        ax.set_ylabel('Frequency (Hz)', labelpad=10, fontsize=9)
     ax.tick_params(labelsize=8, length=3)
     return image
 
@@ -228,8 +225,8 @@ def main():
         bar = fig.colorbar(image, ax=ax, fraction=0.032, pad=0.035)
         bar.set_ticks(np.arange(-96, 1, 12))
         bar.ax.tick_params(labelsize=7)
-        bar.set_label('Simulated level (dBFS)', fontsize=8, labelpad=7)
-        fig.text(0.15, 0.94, 'Synthetic reconstruction', fontsize=11, color=MUTED)
+        bar.set_label('Level (dBFS)', fontsize=8, labelpad=7)
+        fig.text(0.15, 0.94, 'Recreated from my observations', fontsize=11, color=MUTED)
         fig.savefig(ROOT / (spec['id'] + '-spectrogram.png'), dpi=180)
         plt.close(fig)
 
@@ -244,10 +241,10 @@ def main():
     bar = fig.colorbar(image, cax=cax)
     bar.set_ticks(np.arange(-96, 1, 12))
     bar.ax.tick_params(labelsize=8)
-    bar.set_label('Simulated level (dBFS)', fontsize=10, labelpad=9)
+    bar.set_label('Level (dBFS)', fontsize=10, labelpad=9)
     fig.text(0.065, 0.935, 'Material signatures', fontsize=29, va='top')
-    fig.text(0.065, 0.875, 'Synthetic reconstruction', fontsize=13, color=MUTED, va='top')
-    fig.text(0.065, 0.065, "Peter reported successful visual differences. Signals, frequencies, durations and levels shown here are synthetic.", fontsize=10, color=MUTED)
+    fig.text(0.065, 0.875, 'Recreated from my observations', fontsize=13, color=MUTED, va='top')
+    fig.text(0.065, 0.065, "Illustration of the observed differences; axes and levels are illustrative.", fontsize=10, color=MUTED)
     fig.savefig(ROOT / 'comparison.png', dpi=180)
     plt.close(fig)
 

@@ -47,28 +47,28 @@
   "midband_power_order_sandpaper_aluminium_wood": true,
   "materials": {
     "sandpaper": {
-      "synthetic_peak_frequency_hz": 3593.75,
-      "synthetic_minus6db_width_hz": 1093.75,
-      "synthetic_midband_power": 0.00846317311418969,
+      "synthetic_peak_frequency_hz": 3562.5,
+      "synthetic_minus6db_width_hz": 1062.5,
+      "synthetic_midband_power": 0.0074972318015922605,
       "samples": 704000,
-      "peak_absolute": 0.6395153660695212,
-      "wav_sha256": "8c635aa10bedde4d32e9bee6746612c77d75c7b9b40cc060118c0d7d876cfeb5"
+      "peak_absolute": 0.8443556016724143,
+      "wav_sha256": "867bb35df12d0d4a8e13dfbee091504473e2c43dd82d3ac3f032971422978e2d"
     },
     "wood": {
       "synthetic_peak_frequency_hz": 3593.75,
       "synthetic_minus6db_width_hz": 62.5,
-      "synthetic_midband_power": 7.693914013303895e-05,
+      "synthetic_midband_power": 8.087258316001201e-05,
       "samples": 704000,
-      "peak_absolute": 0.07379375591296121,
-      "wav_sha256": "f97c966bc2ae827d5b525954ffb82e6ed785c4adbf3ba14b8816ff22b25bd0d2"
+      "peak_absolute": 0.17853328043458358,
+      "wav_sha256": "3f7f486d400ae0a3a145e836172f06ac912319a473f4e1ce67a7f6566dcfd956"
     },
     "aluminium": {
-      "synthetic_peak_frequency_hz": 3609.375,
-      "synthetic_minus6db_width_hz": 250.0,
-      "synthetic_midband_power": 0.0008437362213348414,
+      "synthetic_peak_frequency_hz": 3593.75,
+      "synthetic_minus6db_width_hz": 265.625,
+      "synthetic_midband_power": 0.0006620785665800548,
       "samples": 704000,
-      "peak_absolute": 0.17230750450148014,
-      "wav_sha256": "707509d8335c3361b97a54be790e4d7e2888f00611d2fadb1364d1f8d7a2def8"
+      "peak_absolute": 0.3086031678212836,
+      "wav_sha256": "0d3c92f965a81b96cb6a356921827654f463cab977f02cd8d5f9ca6f15809693"
     }
   }
 }

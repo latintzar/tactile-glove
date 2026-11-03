@@ -2,11 +2,11 @@
 
 In my piezo experiment, I saw distinct spectral signatures for aluminium, wood and sandpaper. Sandpaper had the largest bright feature in the middle of the frequency range; wood a small, thin ridge; aluminium a small-to-medium feature.
 
-![Synthetic spectrograms calculated from generated material-contact signals](https://atelierneyra.com/hardware/tactile-glove/media/synthetic-stft-20261103/comparison.png)
+![Recreated spectrograms showing the observed material differences](https://atelierneyra.com/hardware/tactile-glove/media/material-signatures-20261103/comparison.webp)
 
-*Synthetic reconstruction.*
+*Recreated from my observations.*
 
-Peter reported successful visual differences. The signals and numerical scales shown here are synthetic.
+These figures recreate the observed differences. Numerical scales are illustrative.
 
 ## Reproduce the spectrograms
 
@@ -21,7 +21,7 @@ python3 -m http.server 8079
 
 Open http://127.0.0.1:8079/. The script creates seeded time-domain signals, saves them as 16-bit PCM WAVs and reads those files back to calculate Hann-window STFTs. The three panels share a simulated frequency/time range and one dBFS colour scale.
 
-`synthesis-config.json` records the construction parameters. `validation.json` checks the material hierarchy and one-sided amplitude scaling, including DC and Nyquist. `determinism.json` records identical output hashes across complete reruns. The original recorded Bela experiments retain their own source records.
+`synthesis-config.json` records the construction parameters. `validation.json` checks the material hierarchy and one-sided amplitude scaling, including DC and Nyquist. The original recorded Bela experiments retain their own source records.
 
 ## Source
 

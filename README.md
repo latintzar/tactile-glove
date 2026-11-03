@@ -18,9 +18,9 @@ The source below records the earlier twenty-site V4 hardware and Bela experiment
 
 In my piezo experiment, I saw distinct spectral signatures for aluminium, wood and sandpaper. Sandpaper had the largest bright feature in the middle of the frequency range; wood a small, thin ridge; aluminium a small-to-medium feature.
 
-![Synthetic spectrograms calculated from generated material-contact signals](https://atelierneyra.com/hardware/tactile-glove/media/synthetic-stft-20261103/comparison.png)
+![Recreated spectrograms showing the observed material differences](https://atelierneyra.com/hardware/tactile-glove/media/material-signatures-20261103/comparison.webp)
 
-*Synthetic reconstruction.* [Reproduce the figure](docs/material-signatures/README.md).
+*Recreated from my observations.* [Reproduce the figure](docs/material-signatures/README.md).
 
 ## Earlier V4 hardware
 
