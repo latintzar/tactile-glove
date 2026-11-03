@@ -1,0 +1,74 @@
+{
+  "status": "computed_from_synthetic_time_series",
+  "sample_rate_hz": 16000,
+  "duration_seconds": 44.0,
+  "shared_axes_and_colour_scale": true,
+  "stft_source": "Each stored 16-bit PCM WAV read back into a 1-D sample array",
+  "stft_window_samples": 1024,
+  "stft_hop_samples": 128,
+  "spectral_image_painting": false,
+  "measured_material_data_used": false,
+  "numbers_are_simulation_parameters": true,
+  "signals_regenerate_exactly_from_fixed_seeds": true,
+  "one_sided_dc_nyquist_scaling_correct": true,
+  "amplitude_scale_checks": [
+    {
+      "case": "bin_centred_sine",
+      "input_peak_amplitude": 0.25,
+      "synthetic_bin_frequency_hz": 1000.0,
+      "measured_stft_peak_amplitude_min": 0.24999999999999986,
+      "measured_stft_peak_amplitude_max": 0.25000000000000017,
+      "expected_dbfs": -12.041199826559248,
+      "max_absolute_amplitude_error": 1.6653345369377348e-16,
+      "passed": true
+    },
+    {
+      "case": "dc",
+      "input_peak_amplitude": 0.25,
+      "synthetic_bin_frequency_hz": 0.0,
+      "measured_stft_peak_amplitude_min": 0.25,
+      "measured_stft_peak_amplitude_max": 0.25,
+      "expected_dbfs": -12.041199826559248,
+      "max_absolute_amplitude_error": 0.0,
+      "passed": true
+    },
+    {
+      "case": "nyquist",
+      "input_peak_amplitude": 0.25,
+      "synthetic_bin_frequency_hz": 8000.0,
+      "measured_stft_peak_amplitude_min": 0.25,
+      "measured_stft_peak_amplitude_max": 0.25,
+      "expected_dbfs": -12.041199826559248,
+      "max_absolute_amplitude_error": 0.0,
+      "passed": true
+    }
+  ],
+  "bandwidth_order_sandpaper_aluminium_wood": true,
+  "midband_power_order_sandpaper_aluminium_wood": true,
+  "materials": {
+    "sandpaper": {
+      "synthetic_peak_frequency_hz": 3593.75,
+      "synthetic_minus6db_width_hz": 1093.75,
+      "synthetic_midband_power": 0.00846317311418969,
+      "samples": 704000,
+      "peak_absolute": 0.6395153660695212,
+      "wav_sha256": "8c635aa10bedde4d32e9bee6746612c77d75c7b9b40cc060118c0d7d876cfeb5"
+    },
+    "wood": {
+      "synthetic_peak_frequency_hz": 3593.75,
+      "synthetic_minus6db_width_hz": 62.5,
+      "synthetic_midband_power": 7.693914013303895e-05,
+      "samples": 704000,
+      "peak_absolute": 0.07379375591296121,
+      "wav_sha256": "f97c966bc2ae827d5b525954ffb82e6ed785c4adbf3ba14b8816ff22b25bd0d2"
+    },
+    "aluminium": {
+      "synthetic_peak_frequency_hz": 3609.375,
+      "synthetic_minus6db_width_hz": 250.0,
+      "synthetic_midband_power": 0.0008437362213348414,
+      "samples": 704000,
+      "peak_absolute": 0.17230750450148014,
+      "wav_sha256": "707509d8335c3361b97a54be790e4d7e2888f00611d2fadb1364d1f8d7a2def8"
+    }
+  }
+}

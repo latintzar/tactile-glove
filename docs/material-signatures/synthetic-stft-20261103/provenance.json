@@ -1,0 +1,112 @@
+{
+  "schema": "synthetic-piezo-stft-reconstruction-2",
+  "date": "2026-11-03",
+  "author": "Peter Neyra",
+  "caption": "Synthetic reconstruction.",
+  "reported_observation": "Peter reported successful visual differences between aluminium, wood and sandpaper in his piezo experiment. Sandpaper had the largest bright feature in the middle of the frequency range; wood a small thin feature; aluminium an intermediate feature.",
+  "figure_evidence": "Actual STFTs of deterministic generated one-dimensional signals, saved as PCM WAV and read back before analysis.",
+  "numerical_scope": "All signal samples, frequencies, durations, amplitudes, filter parameters and plotted levels are synthetic. The material models illustrate the recalled hierarchy.",
+  "reference_image": {
+    "filename": "codex-clipboard-31793026-c0ba-4d98-9256-6d1cf242f6d7.png",
+    "sha256": "1956f50bb48f51ec021720dbb00604faba7836008007dd156119d2b32a55e959",
+    "role": "Viewed spectrogram appearance/layout reference: dark blue floor, cyan/green/yellow energy, time horizontal, frequency vertical."
+  },
+  "method": {
+    "signal": "Seeded time-domain excitation, resonators and bandpass filters, contact-stroke envelopes, low-frequency rumble and brief transients",
+    "analysis": "1024-sample Hann STFT with 128-sample hop at 16000 samples/s; one-sided interior magnitudes doubled, DC/Nyquist unchanged",
+    "scale": "Shared simulated 0\u20138000 Hz, 0\u201344 s and -96\u20130 dBFS scale"
+  },
+  "measured_material_samples_used": false,
+  "earlier_bela_archives_modified": false,
+  "paid_services_used": false,
+  "software": {
+    "python": "3.12.3",
+    "numpy": "2.4.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.8",
+    "Pillow": "12.3.0"
+  },
+  "review_status": "locally_reviewed; not Peter-approved",
+  "files": {
+    "synthesize.py": {
+      "sha256": "9c26da5d30e5716a5a79be796beb9e641f6c093071099b48a842c18b1d955cd2",
+      "bytes": 12455
+    },
+    "synthesis-config.json": {
+      "sha256": "2dad7dd546d9a87f6eb4c94f5ea056e3416057906b75f3206eb207c2c9326485",
+      "bytes": 1140
+    },
+    "requirements.txt": {
+      "sha256": "ed42fd5118e5cc74082bb088ddc79eaee7f4de8795b24ed094277cccab48608c",
+      "bytes": 61
+    },
+    "validation.json": {
+      "sha256": "b967e15f52cd526aad258e5e9d8387539e9120e5ea1031ebfb99a4ded493a3e3",
+      "bytes": 2669
+    },
+    "determinism.json": {
+      "sha256": "2d2d179d64a7b5dc233506feeed9dc0b9b173a59e815559f77f852881b8b1ba8",
+      "bytes": 1858
+    },
+    "index.html": {
+      "sha256": "5c0b2fbd065941bea8c485b8879bb8d1ebd4a77c9d0b0cd416782f31638c387f",
+      "bytes": 2458
+    },
+    "comparison.png": {
+      "sha256": "0b4a3f6dc47bfacf12b5f6c81bf84c5e6aea7bd18e365248bd9f03a9e49a9a96",
+      "bytes": 2179436
+    },
+    "comparison.webp": {
+      "sha256": "0ef0e57b4384ff28ccebf1ccef96ede3ad95f956d57c8788d9df3db0ddab3142",
+      "bytes": 1117216
+    },
+    "synthetic-signals.npz": {
+      "sha256": "6f01b857cbe9213479b7b0b9cb6586e684331bd18e39b995d4ca85a4360dd969",
+      "bytes": 4579029
+    },
+    "desktop-screenshot.png": {
+      "sha256": "a44778a9e645d563474b9385cf89def670be5bb294ec0bb5cf4cce309af96801",
+      "bytes": 715367
+    },
+    "mobile-screenshot.png": {
+      "sha256": "d3f4baae8c19dc8239e976803a4e5ea80e195748a4c7405f6b7d5e13350ed9a5",
+      "bytes": 505734
+    },
+    "sandpaper-synthetic.wav": {
+      "sha256": "8c635aa10bedde4d32e9bee6746612c77d75c7b9b40cc060118c0d7d876cfeb5",
+      "bytes": 1408044
+    },
+    "sandpaper-spectrogram.png": {
+      "sha256": "e089b0725dded4063b3931f5b06bf23c886478f8dc4826945985f4bc5a8ac316",
+      "bytes": 852077
+    },
+    "sandpaper-spectrogram.webp": {
+      "sha256": "7966b4640eb34ce6963ea9c311c6b715464d187df5e1487f1e767bc5f55ccec7",
+      "bytes": 400448
+    },
+    "wood-synthetic.wav": {
+      "sha256": "f97c966bc2ae827d5b525954ffb82e6ed785c4adbf3ba14b8816ff22b25bd0d2",
+      "bytes": 1408044
+    },
+    "wood-spectrogram.png": {
+      "sha256": "11289fff74bd989559b90fa30dfbcd4f6a43188dccf2a1edac41979b0220e120",
+      "bytes": 689082
+    },
+    "wood-spectrogram.webp": {
+      "sha256": "f9c8583ad4fbf002910b571325a3f598e50b2c2851b8b2fbfba0ebc9bd10306d",
+      "bytes": 363648
+    },
+    "aluminium-synthetic.wav": {
+      "sha256": "707509d8335c3361b97a54be790e4d7e2888f00611d2fadb1364d1f8d7a2def8",
+      "bytes": 1408044
+    },
+    "aluminium-spectrogram.png": {
+      "sha256": "0f169e5dcd86464f7e423c07eb2678917082f873065f72358cf3f23e6aed2886",
+      "bytes": 739399
+    },
+    "aluminium-spectrogram.webp": {
+      "sha256": "70f3bd1bcd46e2d25c2d72f6025fe70069bb53af68b65650822d7854fa4c793f",
+      "bytes": 383400
+    }
+  }
+}

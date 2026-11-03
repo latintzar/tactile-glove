@@ -1,0 +1,15 @@
+{
+  "schema": "synthetic-piezo-spectral-reconstruction-2",
+  "sample_rate_hz": 16000,
+  "duration_seconds": 44.0,
+  "seed": 20261103,
+  "scope": "Illustrative synthetic signals chosen to express Peter's remembered visual differences. These numerical settings are simulation choices, not recovered measurements or calibrated material models.",
+  "frequency_centre_hz": 3600.0,
+  "contact_strokes_seconds": [[3.0, 8.5], [10.2, 15.4], [17.5, 23.5], [25.2, 31.4], [33.3, 41.5]],
+  "stft": {"window": "hann", "window_samples": 1024, "hop_samples": 128, "display_min_dbfs": -96.0, "display_max_dbfs": 0.0},
+  "materials": [
+    {"id": "sandpaper", "title": "Sandpaper", "recalled_feature": "largest bright feature in the middle of the frequency range", "resonator_q": 5.5, "active_rms": 0.15},
+    {"id": "wood", "title": "Wood", "recalled_feature": "small, thin bright feature in the middle of the frequency range", "resonator_q": 150.0, "active_rms": 0.014},
+    {"id": "aluminium", "title": "Aluminium", "recalled_feature": "small-to-medium bright feature in the middle of the frequency range", "resonator_q": 24.0, "active_rms": 0.047}
+  ]
+}

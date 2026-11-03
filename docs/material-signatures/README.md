@@ -1,31 +1,30 @@
 # Material signatures
 
-In my piezo experiment, I saw distinct spectral signatures for aluminium, wood and sandpaper. Sandpaper showed the largest bright region in the middle; wood a small, thin feature; aluminium a small-to-medium feature.
+In my piezo experiment, I saw distinct spectral signatures for aluminium, wood and sandpaper. Sandpaper had the largest bright feature in the middle of the frequency range; wood a small, thin ridge; aluminium a small-to-medium feature.
 
-![Three material signatures](https://atelierneyra.com/hardware/tactile-glove/media/black-nitrile-20261103/material-signatures.png)
+![Synthetic spectrograms calculated from generated material-contact signals](https://atelierneyra.com/hardware/tactile-glove/media/synthetic-stft-20261103/comparison.png)
 
-*Reconstructed from my description of the experiment.*
+*Synthetic reconstruction.*
 
-This figure preserves the qualitative visual result I recalled on 3 November 2026. Its shapes reproduce the reported relationships. Frequency, duration and amplitude were unrecorded, so the axes remain uncalibrated. The original Bela P60/P220 recordings and their recorded outcomes retain their own experiment record.
+Peter reported successful visual differences. The signals and numerical scales shown here are synthetic.
 
-## Reproduce the figure
+## Reproduce the spectrograms
 
 From the repository root:
 
 ```sh
-cd docs/material-signatures
+cd docs/material-signatures/synthetic-stft-20261103
 python3 -m pip install -r requirements.txt
-python3 render.py
+python3 synthesize.py
 python3 -m http.server 8079
 ```
 
-Open http://127.0.0.1:8079/. The included page displays the generated panels. The script produces standalone PNG, SVG and PDF figures. `reconstruction-config.json` keeps the reported material descriptions and schematic shape parameters separate. The plotting code runs locally.
+Open http://127.0.0.1:8079/. The script creates seeded time-domain signals, saves them as 16-bit PCM WAVs and reads those files back to calculate Hann-window STFTs. The three panels share a simulated frequency/time range and one dBFS colour scale.
+
+`synthesis-config.json` records the construction parameters. `validation.json` checks the material hierarchy and one-sided amplitude scaling, including DC and Nyquist. `determinism.json` records identical output hashes across complete reruns. The original recorded Bela experiments retain their own source records.
 
 ## Source
 
-- `render.py`: deterministic plotting source.
-- `reconstruction-config.json`: qualitative source and drawing parameters.
-- `index.html`: responsive display after rendering.
-- `requirements.txt`: plotting dependencies.
+The `synthetic-stft-20261103/` folder contains the generator, configuration, pinned requirements, responsive display, provenance and computational checks. Running the generator produces the three WAVs, one-dimensional NPZ arrays and full-axis PNG spectrograms locally.
 
-Peter Neyra’s original plotting code and documentation use the repository’s MIT licence.
+Peter Neyra’s original signal-processing code and documentation use the repository’s MIT licence.

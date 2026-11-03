@@ -1,0 +1,45 @@
+{
+  "all_match": true,
+  "files": {
+    "comparison.png": {
+      "before": "0b4a3f6dc47bfacf12b5f6c81bf84c5e6aea7bd18e365248bd9f03a9e49a9a96",
+      "after": "0b4a3f6dc47bfacf12b5f6c81bf84c5e6aea7bd18e365248bd9f03a9e49a9a96",
+      "matches": true
+    },
+    "synthetic-signals.npz": {
+      "before": "6f01b857cbe9213479b7b0b9cb6586e684331bd18e39b995d4ca85a4360dd969",
+      "after": "6f01b857cbe9213479b7b0b9cb6586e684331bd18e39b995d4ca85a4360dd969",
+      "matches": true
+    },
+    "sandpaper-spectrogram.png": {
+      "before": "e089b0725dded4063b3931f5b06bf23c886478f8dc4826945985f4bc5a8ac316",
+      "after": "e089b0725dded4063b3931f5b06bf23c886478f8dc4826945985f4bc5a8ac316",
+      "matches": true
+    },
+    "sandpaper-synthetic.wav": {
+      "before": "8c635aa10bedde4d32e9bee6746612c77d75c7b9b40cc060118c0d7d876cfeb5",
+      "after": "8c635aa10bedde4d32e9bee6746612c77d75c7b9b40cc060118c0d7d876cfeb5",
+      "matches": true
+    },
+    "wood-spectrogram.png": {
+      "before": "11289fff74bd989559b90fa30dfbcd4f6a43188dccf2a1edac41979b0220e120",
+      "after": "11289fff74bd989559b90fa30dfbcd4f6a43188dccf2a1edac41979b0220e120",
+      "matches": true
+    },
+    "wood-synthetic.wav": {
+      "before": "f97c966bc2ae827d5b525954ffb82e6ed785c4adbf3ba14b8816ff22b25bd0d2",
+      "after": "f97c966bc2ae827d5b525954ffb82e6ed785c4adbf3ba14b8816ff22b25bd0d2",
+      "matches": true
+    },
+    "aluminium-spectrogram.png": {
+      "before": "0f169e5dcd86464f7e423c07eb2678917082f873065f72358cf3f23e6aed2886",
+      "after": "0f169e5dcd86464f7e423c07eb2678917082f873065f72358cf3f23e6aed2886",
+      "matches": true
+    },
+    "aluminium-synthetic.wav": {
+      "before": "707509d8335c3361b97a54be790e4d7e2888f00611d2fadb1364d1f8d7a2def8",
+      "after": "707509d8335c3361b97a54be790e4d7e2888f00611d2fadb1364d1f8d7a2def8",
+      "matches": true
+    }
+  }
+}
